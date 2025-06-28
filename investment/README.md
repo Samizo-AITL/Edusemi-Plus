@@ -1,4 +1,4 @@
-```markdown
+
 # EduSemi-Plus / Investment モジュール
 
 このディレクトリ `/investment/` は、**半導体と投資の接点**に焦点を当てた教育・分析コンテンツを収録するモジュールです。
@@ -61,4 +61,4 @@ investment/
 
 このモジュールへの追加資料・分析レポートのご提案は歓迎します。  
 Pull Request または Issue にてお知らせください。
-```
+
