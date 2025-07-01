@@ -1,64 +1,49 @@
+# edusemi-plus
 
-# Investment
+## 概要 (Overview)
 
-このディレクトリ `/investment/` は、**半導体と投資の接点**に焦点を当てた教育・分析コンテンツを収録するモジュールです。
-
----
-
-## 📌 目的
-
-- 半導体市場に関連する**ETF・個別株・投資戦略**を理解  
-- 業界構造・成長要因・リスク要素などを**投資的視点**から評価  
-- **長期成長テーマとしての半導体**を定量／定性の両面で検討  
+**edusemi-plus** は、従来の半導体技術教育資料 *edusemi* を拡張し、  
+地政学、産業構造、製品戦略、投資、先端技術など、ビジネスと技術の接点を多面的に読み解くシリーズです。  
+単なる技術解説ではなく、**「なぜその技術が生まれ、どこへ向かうのか」** を考える視点を提供します。
 
 ---
 
-## 📚 収録資料一覧
+## 主なテーマ (Topics)
 
-| 資料名 | 概要 |
-|--------|------|
-| `半導体株式市場の全体像.md` | 業界全体の構造、市場規模、プレイヤー分類などを概説 |
-| `半導体主要プレイヤーとその投資的魅力.md` | Intel・TSMC・NVIDIAなどのビジネスモデルと投資ポイント |
-| `半導体ETFと投資戦略：SOXLなどの活用法.md` | SOXX, SMH, SOXL などのETF活用とレバレッジ型投資の注意点 |
-| `半導体投資におけるリスクと成長要因.md` | 地政学リスク、サイクル変動、技術革新が投資に与える影響 |
-| `技術革新と半導体投資トレンド.md` | AI、5G、EVなど成長分野と半導体の連関を投資目線で分析 |
-
----
-
-## 🧭 今後の拡張案（予定）
-
-- ✅ 半導体バリュエーションモデル（PER/PSR/DCF等）の例示  
-- ✅ TSMC/NVIDIA/ASMLなど個別分析レポートのテンプレート化  
-- ✅ 日本株（東エレ、ルネサス、アドバンテスト等）への応用  
-- ✅ ESGや国策テーマ（CHIPS法、経産省支援等）との関係整理  
+| ディレクトリ名 | 要点・焦点領域 |
+|----------------|----------------|
+| [`geopolitics/`](https://github.com/Samizo-AITL/edusemi-plus/tree/main/geopolitics) | 地政学リスク → サプライチェーン・市場制限・国策と連動 |
+| [`supply-chain/`](https://github.com/Samizo-AITL/edusemi-plus/tree/main/supply-chain) | 材料〜組立の全体構造 → リスク管理・再構築の要点 |
+| [`apple-silicon/`](https://github.com/Samizo-AITL/edusemi-plus/tree/main/apple-silicon) | 製品戦略・垂直統合モデルの強さ → IP・ファウンドリの動きにも影響 |
+| [`tsmc-insight/`](https://github.com/Samizo-AITL/edusemi-plus/tree/main/tsmc-insight) | 技術ロードマップと拠点配置 → 国家間競争と投資誘導の縮図 |
+| [`investment/`](https://github.com/Samizo-AITL/edusemi-plus/tree/main/investment) | 技術成長と市場価値の翻訳 → 企業評価・資本配分の理解 |
+| [`ai-semiconductor/`](https://github.com/Samizo-AITL/edusemi-plus/tree/main/ai-semiconductor) | 新市場・新アーキテクチャ → 技術×市場競争の最前線 |
+| [`quantum-semiconductor/`](https://github.com/Samizo-AITL/edusemi-plus/tree/main/quantum-semiconductor) | 技術の地平線と長期投資視点 → 研究開発戦略・国際連携 |
 
 ---
 
-## 📂 ディレクトリ構成例（今後想定）
+## 目的と対象読者 (Purpose & Audience)
 
-```
-investment/
-├── README.md
-├── 半導体ETFと投資戦略：SOXLなどの活用法.md
-├── 半導体投資におけるリスクと成長要因.md
-├── 半導体主要プレイヤーとその投資的魅力.md
-├── 半導体株式市場の全体像.md
-├── 技術革新と半導体投資トレンド.md
-└── charts/（将来: 株価/指標推移グラフなど）
-```
+本シリーズは、**技術の基礎習得よりも、技術を背景にしたビジネスや戦略の理解**を目指す方向けに設計されています。
+
+- 技術知識を前提に、業界構造・戦略・政策との関係を深く理解したい技術者・研究者  
+- 投資・経営・事業企画などに携わる実務家  
+- 半導体産業の動向を広い視野で捉えたい政策立案者・教育者・専門家  
 
 ---
 
-## 📝 対象者
+## 関連リンク (Related Links)
 
-- 半導体を学んだうえで、**投資判断に応用したいエンジニア・学生**
-- **業界研究やIR資料を読解したい個人投資家**
-- 半導体市場の成長性を**マクロ・ミクロの視点で俯瞰したい人**
+- [📘 edusemi（基礎技術教育資料）](https://github.com/Samizo-AITL/edusemi)
 
 ---
 
-## 📧 お問い合わせ／コントリビューション
+## ライセンス・利用について (License & Usage)
 
-このモジュールへの追加資料・分析レポートのご提案は歓迎します。  
-Pull Request または Issue にてお知らせください。
+- 本資料は教育・非営利目的での利用を前提としています。  
+- 出典を明記した上での再利用・引用を歓迎します。  
+- 内容は筆者個人の見解であり、特定の企業・団体の公式見解ではありません。
 
+---
+
+© Shinichi Samizo, 2025
