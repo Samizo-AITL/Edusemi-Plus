@@ -20,7 +20,6 @@ edusemi-plus は、従来の基礎技術教育資料「edusemi」を拡張し、
 |------------------------|-------------------------------------------------------------|
 | [geopolitics/](./geopolitics/)           | 米中対立、輸出規制、政策主導の産業再編、地政学リスクと半導体の関係          |
 | [investment/](./investment/)            | 半導体投資の基礎、企業評価、市場動向の分析                               |
-| [supply-chain/](./supply-chain/)          | ウェハーからパッケージまでのサプライチェーン構造と課題                       |
 | [tsmc-insight/](./tsmc-insight/)          | TSMCの技術ロードマップ、グローバルファブ戦略、国家間競争の縮図               |
 | [apple-silicon/](./apple-silicon/)         | Apple AシリーズSoCの製品戦略、設計・製造の変遷と影響                        |
 | [ai-semiconductor/](./ai-semiconductor/)      | AIブームと半導体技術の融合、新市場・新アーキテクチャの最前線                 |
