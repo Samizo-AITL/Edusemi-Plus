@@ -44,7 +44,7 @@ MITライセンスの下、教育・非営利目的での再利用・引用を�
 
 ## 🔗 関連リンク
 
-- 📘 [Edusemi-v4x（基礎技術教育資料）](https://github.com/Samizo-AITL/Edusemi-v4x)
+- 📘 [Edusemi-v4x（半導体プロダクト開発のための基礎教育教材）](https://github.com/Samizo-AITL/Edusemi-v4x)
 
 ---
 
