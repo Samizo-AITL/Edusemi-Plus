@@ -22,12 +22,12 @@
 
 | 章 | ディレクトリ | タイトル | 概要 |
 |----|--------------|----------|------|
-| [1](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/tsmc-insight/chapter1_roadmap) | `chapter1_roadmap/` | TSMCの技術ロードマップ | ノード進化（7nm → 3nm → 2nm → A16）の流れとGAA・EUV活用 |
-| [2](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/tsmc-insight/chapter2_geopolitics) | `chapter2_geopolitics/` | ファウンドリと地政学 | 台湾海峡リスク、米中競争、日米台連携の背景と意義 |
-| [3](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/tsmc-insight/chapter3_samsung_compare) | `chapter3_samsung_compare/` | サムスンとの比較 | GAA、EUV、量産体制、人材戦略など多角的な競合分析 |
-| [4](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/tsmc-insight/chapter4_supplychain) | `chapter4_supplychain/` | サプライチェーンと国家戦略 | CHIPS法、TSMC熊本構想、日米半導体連携と拠点分散の狙い |
-| [5](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/tsmc-insight/chapter5_rdi_investment) | `chapter5_rdi_investment/` | R&D体制と設備投資 | Fab建設・研究投資、人材獲得、欧米/日本進出の構造分析 |
-| [6](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/tsmc-insight/chapter6_edu_collab) | `chapter6_edu_collab/` | 教育・大学連携 | 台湾大学・清華大学・東京大学等との連携とその育成方針 |
+| [1](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/tsmc-insight/chapter1_roadmap/README.md) | `chapter1_roadmap/` | TSMCの技術ロードマップ | ノード進化（7nm → 3nm → 2nm → A16）の流れとGAA・EUV活用 |
+| [2](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/tsmc-insight/chapter2_geopolitics/README.md) | `chapter2_geopolitics/` | ファウンドリと地政学 | 台湾海峡リスク、米中競争、日米台連携の背景と意義 |
+| [3](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/tsmc-insight/chapter3_samsung_compare/README.md) | `chapter3_samsung_compare/` | サムスンとの比較 | GAA、EUV、量産体制、人材戦略など多角的な競合分析 |
+| [4](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/tsmc-insight/chapter4_supplychain/README.md) | `chapter4_supplychain/` | サプライチェーンと国家戦略 | CHIPS法、TSMC熊本構想、日米半導体連携と拠点分散の狙い |
+| [5](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/tsmc-insight/chapter5_rdi_investment/README.md) | `chapter5_rdi_investment/` | R&D体制と設備投資 | Fab建設・研究投資、人材獲得、欧米/日本進出の構造分析 |
+| [6](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/tsmc-insight/chapter6_edu_collab/README.md) | `chapter6_edu_collab/` | 教育・大学連携 | 台湾大学・清華大学・東京大学等との連携とその育成方針 |
 
 ---
 
