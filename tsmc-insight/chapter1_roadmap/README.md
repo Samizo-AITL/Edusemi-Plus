@@ -52,8 +52,8 @@
 ## 📎 関連章
 
 - [第2章：ファウンドリと地政学](./chapter2_geopolitics/README.md)
-- [Edusemi 特別編：FinFET / GAA](../../Edusemi-v4x/f_chapter1_finfet_gaa/README.md)
-- [Edusemi 応用編：PDKとEDA環境](../../Edusemi-v4x/d_chapter6_pdk_and_eda_environment/README.md)
+- [Edusemi 特別編：FinFET / GAA](../../../Edusemi-v4x/f_chapter1_finfet_gaa/README.md)
+- [Edusemi 応用編：PDKとEDA環境](../../../Edusemi-v4x/d_chapter6_pdk_and_eda_environment/README.md)
 
 ---
 
