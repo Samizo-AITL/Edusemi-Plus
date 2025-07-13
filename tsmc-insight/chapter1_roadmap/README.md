@@ -51,9 +51,9 @@
 
 ## 📎 関連章
 
-- [第2章：ファウンドリと地政学](../chapter2_geopolitics/README.md)（ノード開発と国家戦略）
-- [Edusemi 特別編：FinFET / GAA](../../f_chapter1_finfet_gaa/README.md)
-- [Edusemi 応用編：PDKとEDA環境](../../d_chapter6_pdk_and_eda_environment/README.md)
+- [第2章：ファウンドリと地政学](./chapter2_geopolitics/README.md)
+- [Edusemi 特別編：FinFET / GAA](../../Edusemi-v4x/f_chapter1_finfet_gaa/README.md)
+- [Edusemi 応用編：PDKとEDA環境](../../Edusemi-v4x/d_chapter6_pdk_and_eda_environment/README.md)
 
 ---
 
@@ -61,4 +61,4 @@
 
 | 日付 | 内容 |
 |------|------|
-| 2025-07-13 | 初版作成（章構成・比較表・キーワード構成を含む） |
+| 2025-07-13 | 初版作成（章構成・比較表・教材リンク修正） |
