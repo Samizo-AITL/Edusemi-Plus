@@ -21,31 +21,31 @@ Edusemiの技術的枠組みに対して、投資・経済・地政学の視点�
 
 ## 📁 構成 | Structure
 
-| ファイル名                                       | 内容                                       |
-|------------------------------------------------|--------------------------------------------|
-| [`semiconductor_market_overview.md`](./semiconductor_market_overview.md) | 半導体株式市場の全体像（NASDAQ・SOXなど）         |
-| [`key_players_and_investment.md`](./key_players_and_investment.md)       | 主要企業分析（NVIDIA、TSMC、ASMLなど）             |
-| [`tech_innovation_and_trends.md`](./tech_innovation_and_trends.md)       | 技術革新と投資トレンド（AI・5G・車載等）           |
-| [`risks_and_growth_factors.md`](./risks_and_growth_factors.md)           | 投資リスクと成長要因の整理                         |
-| [`etf_and_strategies.md`](./etf_and_strategies.md)                       | ETF（SOXL等）を活用した戦略的投資法                |
+| ファイル名                                         | 内容                                           |
+|--------------------------------------------------|------------------------------------------------|
+| [`market_overview.md`](./market_overview.md)     | 半導体株式市場の全体像（NASDAQ・SOXなど）             |
+| [`major_players.md`](./major_players.md)         | 主要企業分析（NVIDIA、TSMC、ASMLなど）                 |
+| [`tech_and_trends.md`](./tech_and_trends.md)     | 技術革新と投資トレンド（AI・5G・車載など）             |
+| [`investment_risks.md`](./investment_risks.md)   | 投資リスクと成長要因の整理                             |
+| [`etf_and_strategies.md`](./etf_and_strategies.md)| ETF（SOXLなど）を活用した戦略的投資法                  |
 
 ---
 
 ## 📌 使用法 | How to Use
 
 1. **半導体産業全体の投資的特徴**を把握  
-   → [`semiconductor_market_overview.md`](./semiconductor_market_overview.md)
+   → [`market_overview.md`](./market_overview.md)
 
-2. **個別企業の強みと株式評価**を理解  
-   → [`key_players_and_investment.md`](./key_players_and_investment.md)
+2. **主要企業のビジネスモデルと成長要素**を理解  
+   → [`major_players.md`](./major_players.md)
 
-3. **技術トレンドと株価変動の関係**を読む  
-   → [`tech_innovation_and_trends.md`](./tech_innovation_and_trends.md)
+3. **技術革新と株価連動性のトレンドを捉える**  
+   → [`tech_and_trends.md`](./tech_and_trends.md)
 
-4. **リスクと成長要因のバランス**を分析  
-   → [`risks_and_growth_factors.md`](./risks_and_growth_factors.md)
+4. **業界特有のリスクと成長要因を整理**  
+   → [`investment_risks.md`](./investment_risks.md)
 
-5. **ETFを活用した実践的投資戦略**を構築  
+5. **ETFによる戦略的投資方法を学ぶ**  
    → [`etf_and_strategies.md`](./etf_and_strategies.md)
 
 ---
