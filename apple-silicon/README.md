@@ -1,51 +1,46 @@
-# apple-silicon - Apple Aチップの進化と戦略
+# 🍎 apple-silicon – Apple Aチップの進化と戦略
 
-## 概要
+## 🧭 概要
 
 このセクションでは、Appleが独自開発してきた「Aシリーズチップ（Apple Silicon）」の技術進化と、  
-その背景にある戦略的選択（設計・製造・パッケージング・市場展開）について扱います。
+その背後にある戦略的意思決定（設計・製造・パッケージング・市場展開）について考察します。
 
-iPhone・iPad・Macに搭載されるAチップは、単なるSoCにとどまらず、  
-**設計思想・ユーザー体験・製造体制すべてを包含する戦略装置**です。
-
----
-
-## 主な視点
-
-- Armから独自設計への深化と差別化
-- 製造プロセス（Samsung → TSMC）の移行
-- Appleの垂直統合とSoC最適化戦略
-- Neural Engine、GPU、ISPの進化
-- TSMCとの関係（プロセス選定と製造独占）
+iPhone・iPad・Macに搭載されるApple Siliconは、単なるSoCではなく、  
+**設計思想・ユーザー体験・製造体制を一体化した「戦略デバイス」**です。
 
 ---
 
-## 今後のコンテンツ予定
+## 🔍 主な視点
 
-| ファイル名           | 内容                                   |
-|----------------------|----------------------------------------|
-| `timeline.md`        | A4〜A18 Proまでの仕様と進化一覧       |
-| `tsmc_relation.md`   | TSMCとの戦略的関係とN3/5nm移行分析   |
-| `packaging.md`       | パッケージングと放熱・設計制約        |
-| `design_policy.md`   | Appleの設計思想（省電力・性能バランス）|
-
----
-
-## 技術と戦略の接点
-
-Apple Siliconは、単に「速いチップ」ではなく、  
-**Appleが製品体験を独占的に設計・統制するための「戦略デバイス」**です。
-
-その中核にあるのは、SoCの設計思想と、  
-それを支える**TSMCとの深い協調関係**です。
+- Armベースからの独自設計への深化と差異化  
+- 製造プロセスの変遷（Samsung → TSMC）  
+- Appleによる垂直統合とSoC最適化戦略  
+- Neural Engine / GPU / ISPの独自進化  
+- TSMCとのパートナーシップと製造独占の背景  
 
 ---
 
-## 書き手の立場
+## 📂 コンテンツ一覧
 
-本セクションでは、技術の中身だけでなく、  
-**なぜその技術が選ばれたのか、どんな戦略が裏にあるのか**という視点から解説していきます。
+| ファイル名 | 内容 |
+|------------|------|
+| [`timeline.md`](./timeline.md) | A4〜A18 Proまでの進化・仕様年表 |
+| [`tsmc_relation.md`](./tsmc_relation.md) | TSMCとの戦略的関係とN3/5nm移行の分析 |
+| [`packaging.md`](./packaging.md) | パッケージング技術と熱設計・構造制約の考察 |
+| [`design_policy.md`](./design_policy.md) | Appleの設計思想（省電力・性能・一貫性） |
+| [`diff_vs_snapdragon.md`](./diff_vs_snapdragon.md) | Snapdragonとの構造・設計思想の比較分析 |
+| [`journal-apple.md`](./journal-apple.md) | Appleシリコン関連の主要ニュース年表 |
 
 ---
 
-© Shinichi Samizo, 2025
+## 🎯 技術と戦略の接点
+
+Apple Siliconは単なる「高性能チップ」ではなく、  
+**Appleが製品体験を独占的に統制・最適化するための中核デバイス**です。
+
+SoCのアーキテクチャは、設計哲学・製造手法・市場展開のすべてを貫く、  
+**テクノロジーと経営戦略の交差点**にあります。
+
+---
+
+© [Shinichi Samizo](https://github.com/Samizo-AITL), 2025
