@@ -33,10 +33,10 @@
 
 ## 🔗 関連モジュールとの接続（補足教材）
 
-- **特別編 Chapter 1（[FinFET/GAA](../../f_chapter1_finfet_gaa/README.md)）**：先端ノード技術と接続
-- **特別編 Chapter 2（[チップレット/パッケージ](../../f_chapter2_chiplet_pkg/README.md)）**：異種集積との関連
-- **応用編 Chapter 6（[PDKとEDA環境](../../d_chapter6_pdk_and_eda_environment/README.md)）**：PDK整備と設計環境整合性
-- **実践編 Chapter 3（[OpenLane演習](../../e_chapter3_openlane_practice/README.md)）**：TSMC PDK連携設計演習の応用基盤
+- **特別編 Chapter 1（[FinFET / GAA](https://github.com/Samizo-AITL/Edusemi-v4x/blob/main/f_chapter1_finfet_gaa/README.md)）**：先端ノード技術と接続
+- **特別編 Chapter 2（[チップレット / パッケージ](https://github.com/Samizo-AITL/Edusemi-v4x/blob/main/f_chapter2_chiplet_pkg/README.md)）**：異種集積との関連
+- **応用編 Chapter 6（[PDKとEDA環境](https://github.com/Samizo-AITL/Edusemi-v4x/blob/main/d_chapter6_pdk_and_eda_environment/README.md)）**：PDK整備と設計環境整合性
+- **実践編 Chapter 3（[OpenLane演習](https://github.com/Samizo-AITL/Edusemi-v4x/blob/main/e_chapter3_openlane_practice/README.md)）**：TSMC PDK連携設計演習の応用基盤
 
 ---
 
@@ -51,5 +51,4 @@
 
 | 日付 | 内容 |
 |------|------|
-
 | 2025-07-13 | 初版作成。Edusemi-Plus内独立構成・章ディレクトリリンク対応 |
