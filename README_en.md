@@ -5,6 +5,10 @@ It explores the **geopolitics, corporate strategies, market structures, and prod
 
 ---
 
+- 🇯🇵 [日本語版 README](./README.md)  
+
+---
+
 ## 🎯 Purpose
 
 - **"Why was this technology born?"**  
