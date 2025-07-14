@@ -6,7 +6,7 @@
 
 ---
 
-- 🇯🇵 [日本語版 README](./README.md)
+- 🇺🇸 [English README](./README_en.md)
 
 ---
 
