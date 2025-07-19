@@ -31,8 +31,8 @@ Rapidusは、2025年7月に**2nmプロセスの試作チップが正常に動作
 
 ## 🔗 関連リンク
 - [Edusemi 特別編：FinFETとGAAの構造比較（f_chapter1_finfet_gaa）](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa)
-- [地政学教材（日本の戦略）](../geopolitics/japan.md)
-- [技術ロードマップ編（2nm以降）](../tsmc-insight/roadmap.md)
+- [地政学教材（日本の戦略）](./geopolitics/japan.md)
+- [技術ロードマップ編（2nm以降）](./tsmc-insight/roadmap.md)
 
 ## 📝 ライセンス・著者
 - MITライセンス
