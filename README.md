@@ -90,19 +90,19 @@
 
 ---
 
-## 👤 著者情報 / Author
+## 👤 執筆者情報 / Author
 
 **三溝 真一（Shinichi Samizo）**  
-- 信州大学大学院 電気電子工学修士課程修了  
-- 元 セイコーエプソン株式会社 技術者（1997年〜）
+- 信州大学大学院 電気電子工学 修了  
+- 元 セイコーエプソン株式会社 技術者（1997年〜）  
 
-📌 専門領域：
-- ロジック／高耐圧混載デバイス開発（0.35〜0.18μm）  
-- 薄膜ピエゾMEMS開発・信頼性解析  
-- PrecisionCoreプリントヘッド製品技術／教育・構成管理
+📌 **経験領域**：  
+- 半導体デバイス（ロジック／メモリ／高耐圧混載）  
+- 薄膜ピエゾアクチュエータ
+- PrecisionCoreプリントヘッド製品化
 
 📫 [GitHub: Samizo-AITL](https://github.com/Samizo-AITL)  
-📩 [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+📩 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
 
 ---
 
