@@ -28,20 +28,16 @@
 
 ---
 
-## 🗂 ディレクトリ構成と主なテーマ
+## 📚 コンテンツカテゴリ一覧
 
-| ディレクトリ | 内容概要 |
-|--------------|----------|
-| [`geopolitics/`](./geopolitics/) | 🇨🇳 🇺🇸 🇯🇵 地政学と半導体：政策・軍事・輸出管理・国際分業の再編 |
-| [`investment/`](./investment/) | 💹 半導体投資の視点：設備投資、企業評価、上場企業分析、リスク |
-| [`tsmc-insight/`](./tsmc-insight/) | 🏭 TSMCの戦略的構造分析：先端技術、パッケージ、地政学的位置づけ |
-| [`apple-silicon/`](./apple-silicon/) | 🍎 Apple Silicon の進化と設計・製造の統合モデル |
-| [`ai-semiconductor/`](./ai-semiconductor/) | 🧠 AIアクセラレータ／生成AI／NVIDIA／データセンターの接続領域 |
-| [`quantum-semiconductor/`](./quantum-semiconductor/) | ⚛️ 量子半導体・Cryo-CMOS・国家戦略との融合領域 |
-| [`ai-tools-comparison/`](./ai-tools-comparison/) | 🤖 ChatGPT・Gemini・Claude の比較と教育・設計での使い分け指針 |
-| [`rapidus/`](./rapidus/) | 🚀 日本の先端製造復権：Rapidusによる2nm開発とGAAFET技術の解説 |
-
-> 🔗 各ディレクトリは、Edusemi（設計・テスト）やAITL-H（制御アーキテクチャ）と連携する構成です。
+| カテゴリ | 概要 | リンク |
+|----------|------|--------|
+| 🧪 材料技術 | Si/SiC/GaNなどの比較・応用選定 | [materials/](./materials/) |
+| ⚛️ 先端技術 | 量子・Cryo・次世代構造の探究 | [quantum-semiconductor/](./quantum-semiconductor/) |
+| 🤖 AI | ChatGPT・NVIDIA・LLM設計支援 | [ai-semiconductor/](./ai-semiconductor/) |
+| 🏭 産業 | TSMCやAppleの構造戦略・製造復興 | [tsmc-insight/](./tsmc-insight/), [rapidus/](./rapidus/) |
+| 🌐 地政学 | 半導体を巡る国家間競争と輸出管理 | [geopolitics/](./geopolitics/) |
+| 💹 投資 | 半導体投資・企業評価・設備計画 | [investment/](./investment/) |
 
 ---
 
@@ -113,5 +109,3 @@
 
 > 「技術」と「世界の構造」をつなげて理解し、未来への戦略を考えるための教材です。  
 > 教育・研究・技術戦略の現場でぜひご活用ください。
-
----
