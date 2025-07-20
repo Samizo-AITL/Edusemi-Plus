@@ -1,85 +1,82 @@
-# 📚 Edusemi-Plus | Applied Learning Series on Semiconductor Industry, Society, and AI
+# 📚 Edusemi-Plus | Applied Educational Materials Connecting Semiconductors, Society, and AI
 
-**Edusemi-Plus** extends the foundational [Edusemi-v4x](https://github.com/Samizo-AITL/Edusemi-v4x) series,  
-exploring the semiconductor industry from multiple perspectives including **geopolitics, corporate strategy, system architecture, AI, quantum technologies, and investment**.
+**Edusemi-Plus** is an advanced extension of the [Edusemi-v4x](https://github.com/Samizo-AITL/Edusemi-v4x) foundational series,  
+designed to explore the semiconductor-centered tech industry from multiple angles—  
+**geopolitics, corporate strategy, system architecture, AI, quantum technologies, and investment**.
 
-- 🌍 Focus on the intersection of technology and social/economic structures  
-- 🧠 Supports inquiry-based learning with ChatGPT × Gemini × Claude  
-- 🧑‍🏫 Open-source materials for education, strategy, and engineering design
-
----
-
-- 🇯🇵 [日本語版はこちら](./README.md)
+- 🌍 Emphasizes the intersection of technology and societal structures  
+- 🧠 Supports exploratory learning through ChatGPT × Gemini × Claude  
+- 🧑‍🏫 Open resources for education, strategy formulation, and technical design
 
 ---
 
-## 🎯 Objectives
+- 🇯🇵 [日本語版 READMEはこちら](./README.md)
+
+---
+
+## 🎯 Purpose of This Series
 
 | Perspective | Description |
 |-------------|-------------|
-| 🧭 **Contextual Insight** | Understand the geopolitical, economic, and policy background of technology |
-| 🧠 **Deep Reasoning** | Explore the "why" behind design decisions, industry trends, and strategy |
-| 🔄 **Connection to Foundations** | Link technical concepts from Edusemi to real-world industry and social structure |
+| 🧭 **Contextual Understanding** | Analyze the geopolitical, economic, and policy backgrounds behind technology |
+| 🧠 **Critical Thinking** | Explore the "why" behind technology choices, product design, and strategy |
+| 🔄 **Bridge to Fundamentals** | Designed to connect fundamental semiconductor knowledge (Edusemi) to real-world industry structure |
 
-> 🆕 **New Topic**: In July 2025, Rapidus successfully demonstrated a functional 2nm prototype chip.  
-> This case is explored in detail as a major milestone in Japan’s advanced logic manufacturing strategy.  
+> 🆕 **Hot Topic**: The successful operation of Japan’s first 2nm test chip by Rapidus (July 2025)  
+> is explored in detail as a real-world case study in semiconductor manufacturing re-entry.  
 > See [rapidus/README.md](./rapidus/README.md) for details.
 
 ---
 
-## 🗂 Directory Structure & Key Topics
+## 📚 Content Categories
 
-| Directory | Description |
-|-----------|-------------|
-| [`geopolitics/`](./geopolitics/) | 🌐 Geopolitics and semiconductors: policy, military, export control, global restructuring |
-| [`investment/`](./investment/) | 💹 Semiconductor investment perspectives: capex, public firms, risk analysis |
-| [`tsmc-insight/`](./tsmc-insight/) | 🏭 Strategic analysis of TSMC: advanced nodes, packaging, geopolitical roles |
-| [`apple-silicon/`](./apple-silicon/) | 🍎 Apple Silicon: integration of design, architecture, and manufacturing |
-| [`ai-semiconductor/`](./ai-semiconductor/) | 🤖 AI accelerators, generative AI, NVIDIA, and datacenter convergence |
-| [`quantum-semiconductor/`](./quantum-semiconductor/) | ⚛️ Quantum semiconductors, Cryo-CMOS, and national strategies |
-| [`ai-tools-comparison/`](./ai-tools-comparison/) | 🧠 Comparison of ChatGPT, Gemini, Claude for education and system design |
-| [`rapidus/`](./rapidus/) | 🚀 Japan’s 2nm challenge: Rapidus and GAAFET-based manufacturing |
-
-> 🔗 All directories are aligned with Edusemi-v4x (technical foundations) and AITL-H (control architecture).
+| Category | Overview | Link |
+|----------|----------|------|
+| 🧪 Materials Technology | Comparison and application of Si, SiC, GaN, etc. | [materials/](./materials/) |
+| ⚛️ Advanced Technology | Exploration of quantum, Cryo-CMOS, and next-gen architectures | [quantum-semiconductor/](./quantum-semiconductor/) |
+| 🤖 AI | ChatGPT, NVIDIA, LLM-driven design and analysis | [ai-semiconductor/](./ai-semiconductor/) |
+| 🏭 Industry | Structural insights into TSMC, Apple, and manufacturing revival in Japan | [tsmc-insight/](./tsmc-insight/), [rapidus/](./rapidus/) |
+| 🌐 Geopolitics | National security, export control, and global supply chain realignment | [geopolitics/](./geopolitics/) |
+| 💹 Investment | Semiconductor investment, corporate evaluation, and CapEx analysis | [investment/](./investment/) |
 
 ---
 
-## 👥 Target Audience & Use Cases
+## 👥 Target Audience and Use Cases
 
-| Audience | Purpose |
-|----------|---------|
-| 🧑‍🔬 Engineers (Design & Manufacturing) | Understand the strategic and social context behind technical work |
-| 🧑‍💼 Managers & Planners | Analyze technology selection, industry structure, and global strategy |
-| 🧑‍🏫 Educators & Students | Learn beyond textbooks—real-world structures and strategic analysis |
-
----
-
-## 🧠 AI Tool Integration (Recommended Setup)
-
-| Role | Tool | Key Use |
-|------|------|---------|
-| 🧩 Content Creation | ChatGPT-4o | Generate material structure, exercises, visual explanations |
-| 🔍 Information Search | Gemini 1.5 Pro | Research geopolitics, tech trends, lecture summarization |
-| ✒️ Writing & Polishing | Claude 3 Opus | Refined writing, long-form editing, report polishing |
-
-> 👉 Tool comparisons and prompts are documented in [`ai-tools-comparison/`](./ai-tools-comparison/)
+| Audience | Needs |
+|----------|-------|
+| 🧑‍🔬 Engineers (Development/Manufacturing) | Strategic understanding of technology context (e.g., Rapidus case) |
+| 🧑‍💼 Management & Planning Teams | Decision support for tech selection, market entry, and geopolitical assessment |
+| 🧑‍🏫 Educators & Students | Learn real-world structure beyond textbooks—policy, AI, and supply chain |
 
 ---
 
-## 🧩 Use Cases
+## 🧠 AI Tool Collaboration (Recommended Use)
 
-- Education & training: Convert topics into slides or learning notebooks  
-- Strategic analysis: Use in technical or planning meetings  
-- Inquiry learning: Explore interactively with ChatGPT-guided prompts
+| Role | Tool | Use |
+|------|------|-----|
+| 🧩 Main Generator | ChatGPT 4o | Drafting structure, quizzes, design analysis |
+| 🔍 Search & Context | Gemini 1.5 Pro | Trend analysis, geopolitical data, lecture summaries |
+| ✒️ Refinement | Claude 3 Opus | Polished writing, longform summarization, formatting |
+
+> 👉 For usage patterns and prompt comparisons, see [`ai-tools-comparison/`](./ai-tools-comparison/)
+
+---
+
+## 🧩 Usage Examples
+
+- Educational materials: Use as slides, discussion prompts, or problem sets  
+- Strategic tech analysis: Use as briefing materials in planning meetings  
+- Inquiry-based learning: Combine with LLMs like ChatGPT for interactive exploration
 
 ---
 
 ## 📄 License
 
-- This material is published under the [MIT License](https://opensource.org/licenses/MIT).  
-  **Free to reuse, adapt, and redistribute for non-commercial or educational purposes.**
+- This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+  **Reuse, adaptation, and derivative works for non-commercial or educational purposes are strongly encouraged.**
 
-> ※ All content reflects the author’s own research and perspective unless otherwise noted.
+> All interpretations reflect the author's personal research and reasoning.
 
 ---
 
@@ -87,30 +84,28 @@ exploring the semiconductor industry from multiple perspectives including **geop
 
 | Project | Description |
 |---------|-------------|
-| [Edusemi-v4x](https://github.com/Samizo-AITL/Edusemi-v4x) | Semiconductor fundamentals: design, materials, PDK, testing |
-| [EduController](https://github.com/Samizo-AITL/EduController) | Classical and AI-based control systems (9-part series) |
-| [AITL-H](https://github.com/Samizo-AITL/AITL-H) | Intelligent control architecture: FSM + PID + LLM |
-| [Rekiden](https://github.com/Samizo-AITL/Rekiden) | Simulation-based learning in history and strategic thinking |
+| [Edusemi-v4x](https://github.com/Samizo-AITL/Edusemi-v4x) | Foundational semiconductor course: design, physics, PDK, test |
+| [EduController](https://github.com/Samizo-AITL/EduController) | Control theory and AI control integration (9-chapter course) |
+| [AITL-H](https://github.com/Samizo-AITL/AITL-H) | Intelligent control architecture combining FSM + PID + LLM |
+| [Rekiden](https://github.com/Samizo-AITL/Rekiden) | Interactive simulation to study strategy and history |
 
 ---
 
-## 👤 Author
+## 👤 Author Information
 
 **Shinichi Samizo**  
-- M.Eng. in Electrical & Electronic Engineering, Shinshu University  
-- Former engineer at Seiko Epson Corporation (1997–)
+- M.Eng., Shinshu University (Electrical and Electronic Engineering)  
+- Former senior engineer at Seiko Epson Corp. (1997–)  
 
-📌 **Expertise**:  
-- Semiconductor devices (logic, memory, high-voltage mixed-signal)  
+📌 **Areas of Experience**:  
+- Semiconductor devices (logic/memory/high-voltage integration)  
 - Thin-film piezo actuators  
-- Commercialization of PrecisionCore printheads
+- Commercialization of PrecisionCore printhead systems
 
 📫 [GitHub: Samizo-AITL](https://github.com/Samizo-AITL)  
 📩 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
 
 ---
 
-> A cross-disciplinary learning series connecting technology with global structure.  
-> Designed for education, strategy, and future-oriented innovation.
-
----
+> A learning archive that connects "technology" with "global systems"—to think strategically about the future.  
+> Use it freely in your classroom, R&D lab, or tech strategy team.
