@@ -1,7 +1,7 @@
 # 📚 Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シリーズ
 
 **Edusemi-Plus** は、基礎教材 [Edusemi-v4x](https://github.com/Samizo-AITL/Edusemi-v4x) を拡張し、  
-**地政学・企業戦略・製品構造・AI技術・量子・投資**といった視点から、  
+**地政学・企業戦略・製品構造・AI技術・量子・材料・投資**といった視点から、  
 半導体を中心とする現代テクノロジー産業を多角的に探究するための**応用教材群**です。
 
 - 🌍 技術と社会構造の接点に注目  
@@ -34,7 +34,7 @@
 |----------|------|--------|
 | 🧪 材料技術 | Si/SiC/GaNなどの比較・応用選定 | [materials/](./materials/) |
 | ⚛️ 先端技術 | 量子・Cryo・次世代構造の探究 | [quantum-semiconductor/](./quantum-semiconductor/) |
-| 🤖 AI | ChatGPT・NVIDIA・LLM設計支援 | [ai-semiconductor/](./ai-semiconductor/) |
+| 🤖 AI | LLM活用とAIアクセラレータ技術 | [ai-semiconductor/](./ai-semiconductor/), [ai-tools-comparison/](./ai-tools-comparison/) |
 | 🏭 産業 | TSMCやAppleの構造戦略・製造復興 | [tsmc-insight/](./tsmc-insight/), [rapidus/](./rapidus/) |
 | 🌐 地政学 | 半導体を巡る国家間競争と輸出管理 | [geopolitics/](./geopolitics/) |
 | 💹 投資 | 半導体投資・企業評価・設備計画 | [investment/](./investment/) |
@@ -51,15 +51,15 @@
 
 ---
 
-## 🧠 AIツールとの連携活用（推奨構成）
+## 🧠 AIツールとの連携活用（補足）
 
 | 役割 | 使用ツール | 活用ポイント |
 |------|------------|--------------|
-| 🧩 メイン生成 | ChatGPT 4o | 教材構成、演習問題生成、構造可視化 |
-| 🔍 情報検索 | Gemini 1.5 Pro | 地政学・最新技術動向・YouTube講義要約 |
-| ✒️ 文章整形 | Claude 3 Opus | 丁寧な文体、長文要約、報告書推敲など |
+| 🧩 メイン生成 | ChatGPT 4o | 教材構成、比較表・演習生成、構造の可視化 |
+| 🔍 情報検索 | Gemini 1.5 Pro | 地政学・材料動向・海外技術の調査支援 |
+| ✒️ 文章整形 | Claude 3 Opus | 長文の整理、報告書構成、語調調整など |
 
-> 👉 活用演習・プロンプト比較は [`ai-tools-comparison/`](./ai-tools-comparison/) に収録
+> 🔗 各ツールの使い分けと活用例は [`ai-tools-comparison/`](./ai-tools-comparison/) に収録。
 
 ---
 
@@ -95,7 +95,7 @@
 
 **三溝 真一（Shinichi Samizo）**  
 - 信州大学大学院 電気電子工学 修了  
-- 元 セイコーエプソン株式会社 技術者（1997年〜）  
+- 元 セイコーエプソン株式会社 技術者（1997年〜）
 
 📌 **経験領域**：  
 - 半導体デバイス（ロジック／メモリ／高耐圧混載）  
