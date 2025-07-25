@@ -10,7 +10,7 @@
 
 ---
 
-- 🇺🇸 [English READMEはこちら](./README_en.md)
+🇺🇸 **[English READMEはこちら](./README_en.md)**
 
 ---
 
