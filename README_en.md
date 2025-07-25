@@ -10,7 +10,7 @@ designed to explore the semiconductor industry through diverse perspectives incl
 
 ---
 
-- 🇯🇵 [日本語版READMEはこちら](./README.md)
+🇯🇵 **[日本語版READMEはこちら](./README.md)**
 
 ---
 
