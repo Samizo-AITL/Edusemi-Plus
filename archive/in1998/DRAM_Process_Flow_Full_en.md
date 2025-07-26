@@ -44,3 +44,28 @@
 | PLYD-DP | Top Electrode Deposition | 2000Å | - | 620℃ | Poly or TiN | - |
 | PLYD-PH | Top Electrode Litho | - | 0.3μm | - | Maintain isolation | PLYD |
 | PLYD-ET | Top Electrode Etch | - | - | RT | Cell Plate Formation | - |
+| F2-DP | BPSG deposition | 1.0μm | - | 750℃ | Smoothing of cell step height | - |
+| F2-ANL | BPSG reflow | - | - | 850℃ | Planarization process | - |
+| CNT-PH | Contact photo (KrF) | - | AR=6 | - | Half-tone mask used | CNT |
+| CNT-ET | Tungsten contact etch | - | - | RT | Connection to N+/P+ | - |
+| TIN-SP | TiN barrier sputtering | 300Å | - | RT | Low-temperature sputtering | - |
+| LAMP-ANL | LAMP annealing | - | - | 400℃ | TiN activation and junction stabilization | - |
+| W-DP/ET | Tungsten plug (CVD + etchback) | 4000Å | - | 400℃ | No CMP used | - |
+| ALA-SP | M1 sputter (Ti/AlCu/TiN) | 6000Å | 0.4μm L/S | RT | First metal interconnect | - |
+| HL1-DP | ILD1 deposition | 7000Å | - | 400℃ | Multilayer insulation (includes SOG) | - |
+| HL-SOG | Spin-On Glass coat | 5000Å | - | RT | SOG planarization | - |
+| HL2-DP | ILD2 deposition | 7000Å | - | 400℃ | For multilayer interconnects | - |
+| HL-PH | Via photo | - | AR=4 | - | Via from M1 to M2 | HL |
+| HL-ET | Via etching | - | - | RT | ILD opening formation | - |
+| ALB-SP | M2 sputter (Ti/AlCu/TiN) | 6000Å | 0.4μm L/S | RT | Second metal interconnect | - |
+| ALB-PH | M2 photo | - | 0.35μm | - | Final wiring patterning | ALB |
+| ALB-ET | M2 etching | - | - | RT | Interconnect shaping | - |
+| PAD-DP | Passivation film deposition | 5000Å | - | 350℃ | SiN or PI | - |
+| PAD-PH | Pad opening photo | - | 60μm | - | External I/O exposure | PAD |
+| PAD-ET | Pad opening etching | - | - | RT | Aluminum exposure | - |
+| AL-SNT | Hydrogen sintering | - | - | 450℃ | Reduces metal-related leakage | - |
+| POP-PH | PI coating photo | - | 60μm | - | Photo-definable PI | POP |
+| POP-CUR | PI curing | - | - | 300℃ | Final sealing layer hardening | - |
+| E-TEST | Electrical test | - | - | RT | TEG and parametric measurements | - |
+
+---
