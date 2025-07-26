@@ -33,14 +33,17 @@
 
 ---
 
-### 🔗 プロセスフロー詳細 | Full Process Flow
+### 🔗 プロセスフロー詳細 | **Full Process Flow**
 
-プロセスフローは別ファイルにて整理済みです：  
-📄 [DRAM_Process_Flow_Full.md](DRAM_Process_Flow_Full.md)
-📄 [DRAM_Process_Flow_Full.md](DRAM_Process_Flow_Full_en.md)
+プロセスフローは以下の別ファイルにて整理されています：  
+The full process flow is provided in the following separate documents:
 
-> ※このフローは筆者の**記憶と記録に基づく構成**であり、**完全な正確性を保証するものではありません**。  
-> *This flow was reconstructed from memory and internal records by the author, and **may not reflect perfect accuracy.***
+- 📄 [DRAM_Process_Flow_Full.md（日本語版）](DRAM_Process_Flow_Full.md)  
+- 📄 [DRAM_Process_Flow_Full_en.md（English Version）](DRAM_Process_Flow_Full_en.md)
+
+> 📝 このフローは筆者の **記憶と記録に基づいて再構成** されたものであり、  
+> **完全な正確性を保証するものではありません。教育・教材用途を目的としています。**  
+> *This flow was **reconstructed from memory and internal documentation** by the author, and is intended for **educational purposes only**. It **may not reflect complete technical accuracy.***
 
 ---
 
