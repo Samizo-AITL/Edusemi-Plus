@@ -27,6 +27,7 @@
 
 | ディレクトリ / Directory | 内容 / Description |
 |--------------------------|---------------------|
+| [`in1998/`](./in1998/) | 64M DRAM立ち上げ記録（1998年, 0.25μm, 三溝真一）<br>📄 [DRAM_Startup_64M_1998.md](./in1998/DRAM_Startup_64M_1998.md)
 | [`in1998/`](./in1998/) | 64M DRAM立ち上げ記録（1998年, 0.25μm, 三溝真一）<br>64M DRAM ramp-up record (1998, 0.25μm node, by Shinichi Samizo) |
 | `early_PoC/` | 2000年代のPoC設計メモ（予定）<br>Early 2000s PoC design notes (planned) |
 | `tech_interviews/` | 技術者ヒアリング・設計対話記録（予定）<br>Technical interviews and design dialogues (planned) |
