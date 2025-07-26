@@ -38,6 +38,7 @@ designed to explore the semiconductor industry through diverse perspectives incl
 | 🏭 **Industry** | Strategy and fabrication insights (**TSMC, Apple, Rapidus**) | [tsmc-insight/](./tsmc-insight/), [rapidus/](./rapidus/) |
 | 🌐 **Geopolitics** | **Global competition** and **export control** around semiconductors | [geopolitics/](./geopolitics/) |
 | 💹 **Investment** | **Capital expenditures**, **market players**, **risk evaluation** | [investment/](./investment/) |
+🗂️ **Archive** | Documentation of **technology ramp-up and industrial history** (e.g., DRAM 1998) | [archive/](./archive/) |
 
 ---
 
