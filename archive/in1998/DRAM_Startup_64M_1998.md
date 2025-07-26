@@ -42,11 +42,11 @@ SION → SIN → F-PH / F-ET（セミリセス）→ F-OX（LOCOS）
 
 | 工程 / Step | 内容 / Description | 備考 / Note |
 |-------------|--------------------|-------------|
-| SION | 酸窒化膜 / SiON film | プロセス安定化・界面保護<br>Start-up baseline layer |
+| SION | 酸窒化膜 / SiON film | プロセス安定化・界面保護 |
 | SIN | LOCOS窒化膜 / Si₃N₄ | Isolation mask |
 | F-PH | Field Photo | Semi-recess pattern |
-| F-ET | Field Etch | SIN + SION開口 / Openings |
-| F-OX | フィールド酸化 / LOCOS | 鳥くちばし抑制あり / Bird's beak control applied |
+| F-ET | Field Etch | SIN + SION開口 |
+| F-OX | フィールド酸化 / LOCOS | 鳥くちばし抑制あり（Bird's beak control） |
 
 ---
 
@@ -84,14 +84,34 @@ SION → SIN → F-PH / F-ET（セミリセス）→ F-OX（LOCOS）
 ## 🧱 ポリ以降：ビットライン形成前段 | WSA → THA → WSB
 
 ```plaintext
-WSA-PH/ET → THA-DP（TEOS）→ THA-PH/ET → WSB-DP
+WSA-PH/ET → THA-DP（TEOS）→ THA-PH/ET → WSB-DP（WSi-CVD）→ WSB-PH/ET
 ```
 
 | 工程 | 内容 | 備考 |
 |------|------|------|
 | THA-DP | Interlayer TEOS堆積 | コンタクト用下地、Step coverage良好 |
 | THA-PH/ET | V1 Contact開口 | WSA上に被らないよう配置 |
-| WSB-DP | Bit Line Poly堆積 | セル配線用、WSAと絶縁（BRACあり） |
+| WSB-DP | Bit Line WSi堆積 | 0.25μm世代より**WSi-CVD**方式 |
+| WSB-PH/ET | Bit Lineパターン | THA後に形成。WSAと絶縁構造を維持（BRAC含む） |
+
+---
+
+## 🧱 ストレージノード構造形成工程 | Storage Node Stack Formation (THB → PLYD)
+
+```plaintext
+WSB-PH/ET → THB-DP → THB-PH/ET → PLYC-DP → PLYC-ET → 粗面化 → SiN堆積 → 酸化処理 → PLYD堆積
+```
+
+| 工程 | 内容 | 備考 |
+|------|------|------|
+| THB-DP | ILD堆積（TEOS） | ストレージノードコンタクト絶縁層 |
+| THB-PH/ET | V2開口（高AR） | AR ≒ 8、開口不良・オープンリスクあり |
+| PLYC-DP | ポリSi下部電極堆積 | 粗面化前処理に適した厚膜（約8000Å） |
+| PLYC-ET | 下部電極パターン | 残渣あると**ノード間ショート（共通電位）** → バーンイン検出不可 |
+| 粗面化 | 表面積拡大処理 | セル容量 **1.5〜1.8倍**に向上 |
+| SiN堆積 | 誘電体膜形成 | 窒化膜（LPCVD）。リーク抑制 |
+| 酸化処理 | SiN酸化 | **ONO（Oxide-Nitride-Oxide）**構成へ |
+| PLYD堆積 | 上部電極（セルプレート） | PolysiliconまたはTiNなど。共通電位形成 |
 
 ---
 
