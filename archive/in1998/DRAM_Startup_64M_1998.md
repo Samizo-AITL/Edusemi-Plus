@@ -4,6 +4,16 @@
 > 📝 本文書は現在 **記録中** の技術資料です。内容は中途段階であり、今後追記・整理・補完予定です。  
 > 📝 This document is **under development**, and contents are partial and subject to future updates.
 
+> ⚠️ 本記録は、1998年当時における**技術移管・立ち上げ業務の実体験に基づく教育資料**です。  
+> エプソン社における**DRAMは汎用技術の一部であり、主力製品ではなく**、  
+> 本記録には**現在の事業機密や製品設計情報は一切含まれていません**。  
+> 本記述はすべて**三溝真一個人の記憶・教育目的による再構成**であり、**技術アーカイブとしての公益的利用**を想定しています。
+
+> ⚠️ This document is based on the **author's actual experience** during a technology transfer and ramp-up operation in 1998.  
+> At Epson, **DRAM was not a core product** but a transitional legacy technology.  
+> This record **does not include any proprietary or confidential design data** from current or past corporate operations.  
+> All contents are **reconstructed from personal memory** for the **sole purpose of educational and archival use**.
+
 ---
 
 ### 🧭 プロジェクト概要 | Project Overview
