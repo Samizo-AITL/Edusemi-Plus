@@ -1,13 +1,13 @@
 # 🗂️ Edusemi-Plus Archive  
-**（エデュセミ・プラス技術アーカイブ）**
+**（エデュセミ・プラス 技術アーカイブ）**
 
-> 本ディレクトリは、**Edusemi-Plus教材**の補完資料として、  
-> 半導体技術・設計思想・産業史の文脈で重要な  
-> **技術記録・エピソード・ドキュメント**を保存するアーカイブ領域です。
-
-> This directory serves as a **technical archive** to complement the **Edusemi-Plus curriculum**,  
-> preserving critical records, episodes, and documents in the context of **semiconductor technology**,  
-> **design philosophy**, and **industrial history**.
+> 本ディレクトリは、**Edusemi-Plus教材**を補完する目的で、  
+> 半導体技術・設計思想・産業史の文脈における  
+> **重要な技術記録・エピソード・ドキュメント**を保存するアーカイブ領域です。  
+>
+> This directory complements the **Edusemi-Plus curriculum**,  
+> serving as an archive for significant **technical records**, **design episodes**, and **industrial documentation**  
+> in the context of **semiconductor technology**, **design philosophy**, and **technological history**.
 
 ---
 
@@ -19,7 +19,7 @@
 
 - Preserve materials of **historical and technical significance**  
 - Record **tacit knowledge**, **design reasoning**, and **process engineering insights**  
-- Provide resources for **educational generation and prompt-based exercises** using ChatGPT and other tools
+- Enable use as **educational generation and prompt-based exercises** via ChatGPT and related tools
 
 ---
 
@@ -37,34 +37,36 @@
 ## 🧭 活用方針 | Utilization Policy
 
 - **Edusemi-Plus本編との補完関係を重視**  
-- **構造設計＋プロセス設計の統合力**を伝える教材化  
-- **失敗・改善の記録をケーススタディとして再構成**
+- **構造設計 × プロセス設計**の統合的理解を促す教材化  
+- 実践現場の**失敗と改善**をケーススタディとして再構成  
 
-- Complements the **main Edusemi-Plus content**  
-- Highlights the integration of **structural and process design thinking**  
-- Reconstructs real-world **failures and improvements** into case-based learning modules
+- Designed to **complement the main Edusemi-Plus curriculum**  
+- Emphasizes the integration of **structural and process design thinking**  
+- Reconstructs real-world **failures and improvements** into case-based educational content
 
 ---
 
 ## 📌 注意事項 | Notes
 
-- 一部資料は **記録中（未完）** の状態で保存されています  
-- 教材公開前提のため、**機密・企業固有情報は含みません**  
-- `.md` から `.pdf`, `.zip` への形式変換も対応予定です
+- 一部資料は **記録途中・未完** の状態で保存されています  
+- **企業固有・機密情報は一切含まれていません**  
+- `.md → .pdf`, `.zip` 等の形式変換にも対応予定です  
 
 - Some documents are in **draft or in-progress** status  
-- No proprietary or confidential information is included  
-- Format conversions to `.pdf`, `.zip`, etc. are planned as needed
+- No **proprietary or confidential information** is included  
+- Format conversion to `.pdf`, `.zip`, etc. is planned as needed
 
 ---
 
 ## 👤 著者・提供者 | Author & Contributor
 
 **三溝 真一（Shinichi Samizo）**  
-- DRAM開発・MEMS・薄膜プロセス・教育教材設計に従事  
-- Developer of DRAM, MEMS, thin-film processes, and educational content
+- DRAM開発、MEMS、薄膜プロセス、教育教材設計に従事  
+- Developer of DRAM, MEMS, thin-film processes, and educational frameworks
 
 ---
+
+### 📊 構造図 | Structure Diagram
 
 ```mermaid
 flowchart TD
@@ -76,5 +78,9 @@ flowchart TD
 
 ---
 
-> 本アーカイブは、**半導体技術の構造と意思決定の“記憶”**を残すためのものです。  
-> The purpose of this archive is to preserve the “**memory of structure and decision-making**” in semiconductor technology.
+> このアーカイブは、半導体技術における  
+> **「構造と意思決定の記憶」** を未来に残すことを目的としています。  
+>
+> This archive aims to preserve the **“memory of structure and decision-making”** in semiconductor development.
+
+---
