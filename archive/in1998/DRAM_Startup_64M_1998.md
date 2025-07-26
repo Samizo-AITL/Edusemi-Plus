@@ -37,6 +37,7 @@
 
 プロセスフローは別ファイルにて整理済みです：  
 📄 [DRAM_Process_Flow_Full.md](DRAM_Process_Flow_Full.md)
+📄 [DRAM_Process_Flow_Full.md](DRAM_Process_Flow_Full_en.md)
 
 > ※このフローは筆者の**記憶と記録に基づく構成**であり、**完全な正確性を保証するものではありません**。  
 > *This flow was reconstructed from memory and internal records by the author, and **may not reflect perfect accuracy.***
