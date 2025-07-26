@@ -88,7 +88,6 @@
 | [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) | **半導体基礎技術教材**：設計・物性・PDK・テストなど |
 | [**EduController**](https://github.com/Samizo-AITL/EduController) | **制御理論とAI制御を統合した教材**（全9章） |
 | [**AITL-H**](https://github.com/Samizo-AITL/AITL-H) | **知能制御アーキテクチャ（FSM＋PID＋LLM構造）** |
-| [**Rekiden**](https://github.com/Samizo-AITL/Rekiden) | **歴史と戦略を学ぶ対話型シミュレーション教材** |
 
 ---
 
