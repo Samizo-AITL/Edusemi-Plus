@@ -20,10 +20,11 @@
 
 ## 🏗️ プロセス立ち上げ戦略 | Ramp-up Strategy
 
-- **プロセスの道を開通させてから本番投入**  
-- **条件出しロット：5ロット（要素技術分散）**  
+- **KD棟処理条件(フロッピー2枚)を、T棟各要素プロセスへ展開**  
+- **要素プロセス条件出し用の形状ロット計5ロットを各要素プロセスに分配**  
 - **露光・フォーカス・成膜条件などパラメータ展開**  
-- **電子流動票（Caps-T）でKD棟→T棟条件移行**
+- **プロセス処理条件は電子流動票（Caps-T）に反映**
+- **要素プロセス確立後、信頼性評価用本番ロット投入**
 
 ---
 
@@ -42,10 +43,11 @@
 |------------------|---------------------|
 | 本番ロット投入 / Production Lot | 信頼性評価用3ロット投入 / 3 lots for reliability burn-in |
 | 歩留まり初回 / Initial Yield | 65% – Pause Refresh failure observed |
-| セル容量確認 / Cap OK | ストレージノードコンタクト～N+間リーク疑い / Suspected junction leakage |
+| 主な不良は、ポーズリフレッシュ/ 
+| セル容量確認 / Cap OK | ストレージノードコンタクト～N+/P-Well間リーク疑い / Suspected junction leakage |
 | SEM観察 / SEM Cross-section | THA, THB, CNT形状良好 / No structural defect |
-| 原因特定 / Root Cause | WSA後のアッシング→洗浄切替時のプラズマダメージ / Plasma-induced damage during resist ashing |
-| 改善処置 / Fix | ノックオン対策、洗浄順序最適化 / Knock-on prevention, cleaning sequence tune |
+| 原因特定 / Root Cause | Gate-OX後のアッシングのプラズマダメージ / Plasma-induced damage during resist ashing |
+| 改善処置 / Fix | アッシング→洗浄によるプラズマダメージノックオン対策 / Knock-on prevention, cleaning sequence tune |
 | 歩留改善 / Final Yield | 80%、信頼性クリア → 量産フェーズへ移行 / Stable for volume production |
 
 ---
