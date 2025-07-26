@@ -92,21 +92,21 @@ designed to explore the semiconductor industry through diverse perspectives incl
 
 ---
 
-## 👤 **Author Profile**
+## 👤 **Author Information**
 
 **Shinichi Samizo**  
-- M.S. in **Electrical and Electronic Engineering**, Shinshu University  
-- Former **R&D Engineer at Seiko Epson Corporation** (1997–)
+- **M.S. in Electrical and Electronic Engineering, Shinshu University**  
+- Former **Seiko Epson** Corporation Engineer (since 1997)
 
-📌 **Expertise**:  
-- **Semiconductor devices** (logic, memory, high-voltage mixed process)  
-- **Thin-film piezoelectric actuators**  
-- **PrecisionCore printhead commercialization**, **configuration management**, and **technical education**
+📌 **Areas of Expertise**:  
+- **Semiconductor Devices (Logic, Memory, High-Voltage Integrated with Logic)**  
+- **Inkjet Thin-Film Piezoelectric Actuators**  
+- **PrecisionCore Printhead Development, BOM Management, ISO Education**
 
 📬 **Contact**  
-- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 X (Twitter): [https://x.com/shin3t72](https://x.com/shin3t72)  
-- 💻 GitHub: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 [https://x.com/shin3t72](https://x.com/shin3t72)  
+- 💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
 
 ---
 
