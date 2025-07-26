@@ -20,11 +20,11 @@
 
 ## 🏗️ プロセス立ち上げ戦略 | Ramp-up Strategy
 
-- **KD棟処理条件(フロッピー2枚)を、T棟各要素プロセスへ展開**  
-- **要素プロセス条件出し用の形状ロット計5ロットを各要素プロセスに分配**  
-- **露光・フォーカス・成膜条件などパラメータ展開**  
-- **プロセス処理条件は電子流動票（Caps-T）に反映**
-- **要素プロセス確立後、信頼性評価用本番ロット投入**
+- KD棟の**処理条件**（フロッピー2枚）をT棟の**各要素プロセス**に展開  
+- **形状確認用ロット5本**を各要素工程に分配し、**条件出し**を実施  
+- **露光量**・**フォーカス**・**成膜条件**などを**パラメトリック展開**  
+- 処理条件は**電子流動票（Caps-T）**で標準化  
+- 各要素プロセスの条件確立後、**信頼性評価用の本番ロット**を投入
 
 ---
 
@@ -41,13 +41,13 @@
 
 | フェーズ / Phase | 内容 / Description |
 |------------------|---------------------|
-| 本番ロット投入 / Production Lot | 信頼性評価用3ロット投入 / 3 lots for reliability burn-in |
-| 歩留まり初回 / Initial Yield | 65% – Pause Refresh failure observed |
-| 主な不良は、ポーズリフレッシュ/ 
-| セル容量確認 / Cap OK | ストレージノードコンタクト～N+/P-Well間リーク疑い / Suspected junction leakage |
-| SEM観察 / SEM Cross-section | THA, THB, CNT形状良好 / No structural defect |
-| 原因特定 / Root Cause | Gate-OX後のアッシングのプラズマダメージ / Plasma-induced damage during resist ashing |
-| 改善処置 / Fix | アッシング→洗浄によるプラズマダメージノックオン対策 / Knock-on prevention, cleaning sequence tune |
-| 歩留改善 / Final Yield | 80%、信頼性クリア → 量産フェーズへ移行 / Stable for volume production |
+| 本番ロット投入 / Production Lot | 信頼性評価用に3ロット投入（Burn-in付き） |
+| 歩留まり初回 / Initial Yield | 約65%、主不良は Pause Refresh failure |
+| 不良解析 / Failure Analysis | ポーズリフレッシュ不良の原因調査を実施 |
+| セル容量確認 / Cap Confirmation | セル容量に問題なし → ストレージノードコンタクト〜N+ / P-Well間でのリークを疑う |
+| SEM観察 / SEM Observation | THA・THB・CNT 形状に大きな問題なし |
+| 原因特定 / Root Cause | Gate-OX後のアッシング工程におけるプラズマダメージ |
+| 改善処置 / Fix Action | 洗浄順と条件見直しによるノックオン防止策を実施 |
+| 歩留まり改善 / Final Yield | 約80%に向上。信頼性評価クリア → 量産フェーズへ移行 |
 
 ---
