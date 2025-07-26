@@ -88,7 +88,6 @@ designed to explore the semiconductor industry through diverse perspectives incl
 | [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) | **Foundational semiconductor education** (design, physics, testing) |
 | [**EduController**](https://github.com/Samizo-AITL/EduController) | Unified materials on **control theory and AI control** (9 chapters) |
 | [**AITL-H**](https://github.com/Samizo-AITL/AITL-H) | **Intelligent control architecture** (FSM + PID + LLM) |
-| [**Rekiden**](https://github.com/Samizo-AITL/Rekiden) | **Interactive historical simulation** for strategic thinking |
 
 ---
 
