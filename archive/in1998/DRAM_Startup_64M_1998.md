@@ -50,20 +50,62 @@ SION → SIN → F-PH / F-ET（セミリセス）→ F-OX（LOCOS）
 
 ---
 
+## 🧬 ウェル・チャネル形成工程 | Well & Channel Formation
+
+```plaintext
+→ HF → Pre-OX → NWLA-PH/ION（Deep Well）→ NWLB-PH/ION（PMOS）→ PWL-PH/ION（NMOS）
+```
+
+| 工程 | 内容 | 備考 |
+|------|------|------|
+| HF | LOCOS酸化膜除去 | Pre-OX準備 |
+| Pre-OX | 前処理酸化（仮酸化膜） | チャネル保護・損傷緩和 |
+| NWLA | Deep N-Well Implant（MVインプラ） | メモリセル深部、α線耐性 |
+| NWLB | Peripheral N-Well（HC） | ペリフェラルPMOS用 |
+| PWL | P-Well（HC） | セル/周辺NMOS用、ストッパー兼用 |
+
+---
+
+## ⚙️ ゲート形成工程 | Gate Stack Formation
+
+```plaintext
+→ HF → G-OX（80Å）→ WSADP（ゲート膜堆積）→ BRACDP（Barrier Cap）→ WSA-PH/ET
+```
+
+| 工程 / Step | 内容 / Description | 備考 / Note |
+|-------------|--------------------|-------------|
+| HF | チャネル酸化膜除去 | イオン注入ダメージ除去 |
+| G-OX | ゲート酸化膜（80Å） | 高精度酸化、均一性重視 |
+| WSADP | Gate Poly堆積 | LPCVDによるドープポリ |
+| BRACDP | Barrier Cap堆積 | SiNなどによるCap層、**バーク（BRAC）**と呼称 |
+| WSA-PH/ET | ゲートパターン | パターン形成、**WSAマスク**
+
+---
+
 ## 🌀 マスクフロー | Mask Flow Overview
 
 ```plaintext
 F, NWLA, NWLB, PWL, WSA, THA, WSB, THB, PLYC, PLYD, BPSG, CNT, ALA, HOL, ALB, PAD
 ```
 
-- **WSA → ゲート形成 / Gate Formation**  
-- **THA → ビットラインコンタクト / Bit Line Contact**  
-- **WSB → ビットライン配線 / Bit Line Poly**  
-- **THB → ストレージノードコンタクト / Storage Node Contact**  
-- **PLYC → ストレージノード（粗面化） / Roughened Storage Node**  
-- **CNT → Wコンタクト（Wデポ→エッチバック） / W contact process**  
-- **ALA/ALB → メタル層 / Metal interconnects**  
-- **PAD → 外部端子形成 / I/O Pad formation**
+| マスク | 工程 | 説明 |
+|--------|------|------|
+| F | Field Isolation | LOCOS（セミリセス） |
+| NWLA | N-Well A | Deep Well（MVインプラ） |
+| NWLB | N-Well B | PMOSペリフェラル用（HC） |
+| PWL | P-Well | NMOSセル＋分離兼用（HC） |
+| WSA | Gate Patterning | G-OX, WSADP, BRACを含む |
+| THA | Contact to Bit Line | V1（コンタクト1）形成 |
+| WSB | Bit Line Poly | ポリビットライン形成 |
+| THB | Contact to Storage | コンデンサ下コンタクト |
+| PLYC | Storage Node | ポリコンデンサ、粗面化含む |
+| PLYD | Cell Plate | コンデンサ上部電極 |
+| BPSG | Passivation | BPSG層形成、Planarization |
+| CNT | Contact | Wコンタクト、Etch-back構造 |
+| ALA | Metal1 | 一次配線 |
+| HOL | Via | メタル間ビア形成 |
+| ALB | Metal2 | 二次配線 |
+| PAD | Pad Opening | 外部接続端子開口 |
 
 ---
 
@@ -81,47 +123,5 @@ F, NWLA, NWLB, PWL, WSA, THA, WSB, THB, PLYC, PLYD, BPSG, CNT, ALA, HOL, ALB, PA
 
 ---
 
-## 🧃 エピソード | Anecdotes
-
-- 初回「ワンオン」達成日は、**飲み会で祝賀**  
-  🎉 Celebrated first “one-on” with team dinner.
-
-- **構造設計だけでなく、工場での“道づくり”を設計した経験**  
-  Designed not just the chip, but the process path itself.
-
----
-
-## 🗃️ アーカイブと教材利用案 | Archival Use & Educational Potential
-
-| 用途 / Usage | 保存先候補 / Suggested Path |
-|--------------|------------------------------|
-| 技術史教材 / Tech History | `Edusemi-Plus/archive/in1998/` |
-| プロセス起点教材 / Init Flow | `modules/ProcessInitiation/SION_Start.md` |
-| ChatGPT教材化 / AI Debug | `ChatGPT_prompt_support/DRAM_Debug.yaml` |
-
----
-
-## 💬 キーワード（検索支援）| Keywords (for Search & Indexing)
-
-`SION`, `LOCOS`, `セミリセス`, `WSA`, `THA`, `Storage Node`, `Pause Refresh`, `SEM`, `Knock-on`, `Caps-T`, `Electronic Flow Ticket`, `DRAM Ramp-up`, `Shinichi Samizo`, `0.25μm`
-
----
-
-## ✅ 補足メモ（記録中）| Additional Notes (WIP)
-
-- **構造図に現れない初期膜（SION）**が理解のカギ  
-  → SION is essential but invisible in final structure
-
-- **“見えない処理”を記録することが継承の要**  
-  → Recording invisible but real process steps is vital
-
-- 今後の追記予定 / To be added:
-  - 電子流動票（Caps-T）例  
-  - SEM観察条件ログ  
-  - 歩留まり推移グラフ  
-  - 成膜・エッチ条件のパラメータマトリクス
-
----
-
-> 🧠 **この記録は、現場の判断・改善・知見を教材化する試みです。**  
-> 🧠 This archive captures **real-world decisions, troubleshooting, and process insights** for future learning.
+> 🔜 この続き（THA〜PAD）については今後の記録で追記予定です。  
+> 🔜 Continuation (THA to PAD) will be added in the next update.
