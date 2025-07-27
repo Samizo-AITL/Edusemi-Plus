@@ -19,7 +19,7 @@
 | NWLA-ION   | Deep N-Well注入（MV）     | メモリセル領域       | Deep N-Well形成（高耐性）                           | 1e13/cm² @ 1.2 MeV（P）       | セル領域専用                                        |
 | NWLB-PH    | N-Wellフォト              | ペリフェラル領域     | N-Well定義                                          | 1.2μm                         | Peripheral PMOS領域用                              |
 | NWLB-ION   | N-Well注入（HC）          | ペリフェラル領域     | ① N-Well形成<br>② PMOSチャネルドープ兼用          | 1e13/cm² @ 300 keV（P）       | 2段機能を1工程で集約                                |
-| PWL-PH     | P-Wellフォト              | NMOS/Stopper領域     | P-Well定義                                          | 1.0μm                         | メモリセル/周辺NMOS領域、Field Stopper含む         |
+| PWL-PH     | P-Wellフォト              | メモリセル・ペリフェラル領域     | P-Well定義                                          | 1.0μm                         | メモリセル/周辺NMOS領域、Field Stopper含む         |
 | PWL-ION    | P-Well注入（HC）          | 同上                 | ① P-Well形成<br>② Field Stopper形成<br>③ NMOSチャネルドープ | 1e13/cm² @ 150 keV（B）       | 3段階機能を1工程に統合                              |
 
 #### ゲート構造形成
