@@ -23,7 +23,7 @@ This archive contains no proprietary or confidential design data. It is reconstr
 |------------------------|---------------------------------------------------------------|
 | 製品名 / Product       | 64M DRAM（第3世代 / 0.25μm）                                  |
 | 年度 / Year            | 1998年                                                       |
-| 担当者 / Lead Engineer | 三溝真一（Shinichi Samizo, age 26）                            |
+| 担当者 / Lead Engineer | 三溝真一（Shinichi Samizo, at age 26）                            |
 | 移管元 / Transfer Fab   | 三菱電機 熊本工場 KD棟（MotherFab）                          |
 |                        | Mitsubishi Electric Kumamoto Fab (KD Building)               |
 | 立ち上げ先 / Ramp-up Site | セイコーエプソン 酒田工場 T棟                                |
