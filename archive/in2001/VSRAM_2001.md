@@ -13,6 +13,18 @@
 This document archives the technology of a **pseudo-SRAM (VSRAM)** product mass-produced in 2001.  
 Based on a **64M DRAM 3rd-generation (0.25μm) process** with internal refresh logic, it was adopted in the **world’s first camera-equipped mobile phone** (by SHARP).
 
+> ⚠️ 本記録に関する注意 / Disclaimer  
+>
+> 本VSRAM技術は2001年に量産されたものですが、**2000年代前半にはすでに生産終了**しており、  
+> また社内においても**後続技術としての展開は行われませんでした**。  
+> よって、本記録には**現行の事業機密や設計情報は含まれておらず**、  
+> 教育目的および技術アーカイブ目的での**公開に問題はない**と判断しています。  
+>
+> The VSRAM technology documented here was mass-produced in 2001,  
+> but production ended in the **early 2000s**, and **no further internal development was pursued**.  
+> Therefore, this archive contains **no proprietary or confidential information**,  
+> and it is released solely for **educational and historical purposes**.
+
 ---
 
 ## 1️⃣ 基本構成と特徴 / **Architecture and Features**
