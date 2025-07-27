@@ -38,7 +38,7 @@
 | 🏭 **産業** | **TSMCやAppleの構造戦略・製造復興** | [tsmc-insight/](./tsmc-insight/), [rapidus/](./rapidus/) |
 | 🌐 **地政学** | **半導体を巡る国家間競争と輸出管理** | [geopolitics/](./geopolitics/) |
 | 💹 **投資** | **半導体投資・企業評価・設備計画** | [investment/](./investment/) |
-🗂️ **アーカイブ** | **立ち上げ技術や産業史資料の記録群（例：DRAM 1998）** | [archive/](./archive/) |
+| 🗂️ **アーカイブ** | **立ち上げ技術や産業史資料の記録群（例：DRAM 1998）** | [archive/](./archive/) |
 
 ---
 
