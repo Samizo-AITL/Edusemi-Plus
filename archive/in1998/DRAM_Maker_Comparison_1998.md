@@ -6,7 +6,7 @@ This document compares cell structures and technical features of major DRAM manu
 
 | メーカー / Maker | セル構造 / Cell Type | 製造拠点（当時）/ Fab Location | 技術的特徴 / Technical Features |
 |------------------|----------------------|-------------------------------|--------------------------------|
-| 三菱電機 / Mitsubishi | トレンチセル / Trench Cell | 熊本 KD棟 / Kumamoto KD Fab | IBM系技術、高リテンション、高難易度エッチング<br>IBM-style tech, high retention, deep trench etching required |
+| 三菱電機 / Mitsubishi | スタックセル / Stacked Cell | 熊本 KD棟 / Kumamoto KD Fab | スタック構造、高アスペクト比形成技術を実装<br>Stacked structure with high aspect ratio capacitor formation |
 | NEC | スタックセル / Stacked Cell | 広島 / Hiroshima | 高アスペクト比積層、シンプル構造、高歩留まり<br>High aspect ratio stacking, simple design, high yield |
 | 日立製作所 / Hitachi | スタックセル / Stacked Cell | 群馬・大阪 / Gunma, Osaka | コンデンサ・オン・ピラ構造、高密度設計に強み<br>Capacitor-on-pillar structure, strong in high-density layouts |
 | 富士通 / Fujitsu | スタックセル / Stacked Cell | 三重 / Mie | 安定した歩留まりと保守性重視の設計<br>Stable yield and maintenance-friendly process |
