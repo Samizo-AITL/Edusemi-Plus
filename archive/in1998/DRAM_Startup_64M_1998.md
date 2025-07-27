@@ -104,7 +104,8 @@ This failure mode occurs during **retention testing** by pausing refresh operati
 #### 💡 推定原因 | Suspected Root Cause
 
 - **Gate-OX後のアッシング処理によるプラズマストレス**  
-  → Plasma stress from resist ashing after gate oxidation
+
+ → Plasma stress from resist ashing after gate oxidation
 
 - **SNコンタクトとN+/P-Well間の微小リークパス形成**  
   → Formation of minor leakage path between storage node contact and N+/P-Well
@@ -124,5 +125,29 @@ This failure mode occurs during **retention testing** by pausing refresh operati
 
 - 歩留まりは**65% → 80%に改善し、量産移行**  
   → Yield improved from **~65% to ~80%**, enabling transition to mass production
+
+---
+
+## 📎 補足技術資料 | Supplementary Technical References
+
+以下の資料は、本記録の理解を深めるための**補足教材**です。DRAMセル構造、メーカーごとの特徴、世代別進化などを整理しています。  
+The following documents serve as supplementary materials to enhance understanding of this record. They include comparisons of DRAM cell structures, vendors, and generational evolution.
+
+- 📄 [`DRAM_Maker_Comparison_1998.md`](DRAM_Maker_Comparison_1998.md)  
+　→ **1998年当時の主要DRAMメーカー比較 / Comparison of Major DRAM Makers in 1998**  
+　→ セル構造・製造拠点・技術的強みに基づく一覧資料 / Tabulated vendor traits by structure, fab, and strengths  
+
+- 📄 [`DRAM_Cell_Structure_Comparison.md`](DRAM_Cell_Structure_Comparison.md)  
+　→ **トレンチセル vs スタックセルの構造比較 / Structural Comparison: Trench vs Stacked Cells**  
+　→ 製造難易度、微細化適性、リテンションなどの観点での整理 / Compared on scalability, process, and retention  
+
+- 📄 [`DRAM_Cell_Technology_Chronology.md`](DRAM_Cell_Technology_Chronology.md)  
+　→ **1M〜256Mまでのセル技術年表 / Cell Technology Chronology: From 1M to 256M**  
+　→ 世代別の構造変遷と技術転換点を年表形式で整理 / Timelined transition from planar to stacked with key inflection points
+
+---
+
+> 📘 教材・アーカイブ目的で再構成された資料です。内容は歴史的再現であり、現行技術や設計とは異なります。  
+> 📘 These materials are reconstructed for archival and educational purposes, and do not represent current DRAM design or technology.
 
 ---
