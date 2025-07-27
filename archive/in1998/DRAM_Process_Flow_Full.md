@@ -13,11 +13,11 @@
 | F-OX | LOCOS酸化 | 4500Å | - | 1000℃ | 鳥くちばし抑制あり | - |
 | PRE-OX | 犠牲酸化膜形成 | 200Å | - | 900℃ | チャネル保護 | - |
 | NWLA-PH | Deep N-Wellフォト | - | 1.5μm | - |  メモリセル領域 | NWLA |
-| NWLA-ION | Deep N-Well注入 | - | - | RT | 1) メモリセルDeep N-Well（MV対応）<br>2) α線耐性強化（深打ち）<br>3) 代表条件：1e13 /cm² @ 1.2 MeV（P） | - |
+| NWLA-ION | Deep N-Well注入(MV) | - | - | RT | 1) メモリセルDeep N-Well<br>2) α線耐性強化（深打ち）<br>3) 代表条件：1e13 /cm² @ 1.2 MeV（P） | - |
 | NWLB-PH | N-Wellフォト | - | 1.2μm | - | ペリフェラル領域 | NWLB |
-| NWLB-ION | N-Well注入 | - | - | RT | 1) ペリフェラルPMOS用NWEL形成<br>2) PMOSチャンネルドープ兼用<br>3) 代表条件：1e13 /cm² @ 300 keV（P） | - |
+| NWLB-ION | N-Well注入(HC) | - | - | RT | 1) ペリフェラルPMOS用NWEL形成<br>2) PMOSチャンネルドープ兼用<br>3) 代表条件：1e13 /cm² @ 300 keV（P） | - |
 | PWL-PH | P-Wellフォト | - | 1.0μm | - | NMOS領域／Stopper用 | PWL |
-| PWL-ION | P-Well注入 | - | - | RT | 1) メモリセル・ペリフェラルNMOS用PWEL形成<br>2) メモリセルIsolation下Stopper形成<br>3) NMOSチャンネルドープ兼用<br>4) 代表条件：1e13 /cm² @ 150 keV（B） | - |
+| PWL-ION | P-Well注入(HC) | - | - | RT | 1) メモリセル・ペリフェラルNMOS用PWEL形成<br>2) メモリセルIsolation下Stopper形成<br>3) NMOSチャンネルドープ兼用<br>4) 代表条件：1e13 /cm² @ 150 keV（B） | - |
 | G-OX | ゲート酸化膜形成 | 80Å | - | 800℃ | 高品質酸化膜 | - |
 | PLYA-DP | ドープポリ堆積 | 2000Å | - | 620℃ | ゲートポリ（LPCVD） | - |
 | WSA-DP | WSi堆積（CVD） | 1500Å | - | 450℃ | ゲート電極形成（KrF） | - |
