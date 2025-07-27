@@ -36,11 +36,11 @@ This archive contains no proprietary or confidential design data. It is reconstr
 - KD棟の処理条件（**フロッピー2枚分**）を、T棟の各要素工程に展開  
   → *Deploy process specs (2 floppy disks) from KD Fab to each module at T Fab*
 
-- 形状確認用ロット5本を分配し、**パラメータ条件出し**を実施  
-  → *Allocate 5 pilot lots for module-level parameter optimization*
+- 形状確認用ロット5本を各モジュール工程に分配し、**最適プロセス条件を検討**  
+  → *Allocate 5 pilot lots to each module process to evaluate and adjust key process parameters*
 
-- **露光量・フォーカス・成膜条件**をパラメトリック展開  
-  → *Explore exposure dose, focus offset, and film thickness parameters*
+- **露光量・フォーカス・成膜条件など、各プロセスの条件出しを実施**  
+  → *Performed process condition tuning for parameters such as exposure dose, focus, and film deposition*
 
 - **電子流動票（Caps-T）**により工程条件を標準化  
   → *Standardize via Caps-T digital flow control*
