@@ -71,3 +71,18 @@ The full process flow is provided in the following separate documents:
 | 🟢 歩留まり改善 / Final Yield | 歩留まり約**80%**に向上。**信頼性評価クリア → 量産フェーズへ**移行 | Improved to **~80% yield**. Passed reliability → Entered **mass production phase** |
 
 ---
+
+### 🧪 ポーズリフレッシュ不良とは | What is Pause Refresh Failure?
+
+📌 **ポーズリフレッシュ（Pause Refresh）**とは、DRAMの自動リフレッシュ動作を一時停止し、手動もしくは外部制御によるリフレッシュを行うモードであり、特に組込み用途や特殊タイミング制御が必要な応用で使われる機能である。  
+
+📉 このモードにおいて**セル電荷が保持できず、リフレッシュ漏れが発生する不良**が報告された。  
+主な原因は以下の通りと推定された：
+
+- ストレージノードとN+/P-Well間にリーク電流が存在し、セル電荷保持が困難
+- Gate-OX後のアッシングによる**プラズマダメージ**が、接合リークや電界変調を引き起こした可能性
+- 特に**Pause状態でリフレッシュ間隔が長くなる**ことにより、微小リークが顕在化
+
+🎯 **通常のリフレッシュでは顕在化せず、Pause Refreshという特殊条件でのみ顕在化**したため、歩留まり解析の難易度が高かった。
+
+---
