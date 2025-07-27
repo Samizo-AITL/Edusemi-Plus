@@ -1,5 +1,10 @@
 ### 0.25μm DRAM Process Flow Table (Full Version)
 
+> ⚠️ **Note**  
+> This process table is a technical reconstruction based on Shinichi Samizo's manufacturing experience and memory from the late 1990s.  
+> The content reflects knowledge and conditions of that time and may differ from current technical documents or actual data.  
+> It is not guaranteed to be accurate and should be used as reference information for educational or archival purposes only.
+
 #### Isolation and Well Formation
 
 | Step Name   | Process Description              | Target Region               | Purpose                                                        | Condition                      | Notes                                                     |
