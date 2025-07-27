@@ -47,20 +47,17 @@ All contents are reconstructed from personal memory for the sole purpose of educ
 
 ### 🔗 プロセスフロー詳細 | Full Process Flow
 
-プロセスフローは以下の別ファイルにて整理されています：  
-The full process flow is provided in the following separate documents:
-- 📄 `DRAM_Process_Flow_Full.md`（日本語版）  
-- 📄 `DRAM_Process_Flow_Full_en.md`（English Version）  
+📂 プロセスフローは以下の別ファイルにて整理：  
+**📝 教材目的の再構成であり、完全な技術的正確性は保証されません。**
 
-📝 このフローは筆者の記憶と記録に基づいて再構成されたものであり、  
-完全な正確性を保証するものではありません。教育・教材用途を目的としています。  
-This flow was reconstructed from memory and internal documentation by the author, and is intended for educational purposes only. It may not reflect complete technical accuracy.
+- 📄 [`DRAM_Process_Flow_Full.md`](DRAM_Process_Flow_Full.md)（日本語版）  
+- 📄 [`DRAM_Process_Flow_Full_en.md`](DRAM_Process_Flow_Full_en.md)（English Version）
 
 ---
 
-### 📊 本番ロット投入後の展開 | Post-Production Lot Developments
+## 📊 本番ロット投入後の展開 | Post-Production Lot Developments
 
-#### 🔍 フェーズ別の解析と改善 | Phase-by-Phase Analysis & Fix
+### ① 🔍 フェーズ別の解析と改善 | Phase-by-Phase Analysis & Fix
 
 | 🧭 フェーズ / Phase | 📄 内容（日本語） / Description (JP) | 🌐 内容（英語） / Description (EN) |
 |------------------|----------------------------------|--------------------------------------|
@@ -75,17 +72,22 @@ This flow was reconstructed from memory and internal documentation by the author
 
 ---
 
-#### 🧪 ポーズリフレッシュ不良とは | What is Pause Refresh Failure?
+### ② 🧪 ポーズリフレッシュ不良とは | What is Pause Refresh Failure?
 
-📌 **ポーズリフレッシュ（Pause Refresh）**とは、DRAMの自動リフレッシュ動作を一時停止し、手動もしくは外部制御によるリフレッシュを行うモードであり、特に組込み用途や特殊タイミング制御が必要な応用で使われる機能である。  
+📌 **Pause Refresh**とは、DRAMセルの定期的なリフレッシュ動作を**一時停止**し、  
+外部制御またはソフトウェアで任意タイミングにリフレッシュを行うモード。
 
-📉 このモードにおいて**セル電荷が保持できず、リフレッシュ漏れが発生する不良**が報告された。  
-主な原因は以下の通りと推定された：
+#### 🔧 不良の特徴と発生条件：
+- 📉 **Pause中にセル電荷が保持できず、ビット誤りが発生**
+- 特定ブロック（THB）のストレージノード付近で**リーク電流の兆候**
+- 通常モードでは顕在化しないが、Pauseモードでは**リフレッシュ間隔が長く**なり顕在化
 
-- ストレージノードとN+/P-Well間にリーク電流が存在し、セル電荷保持が困難
-- Gate-OX後のアッシングによる**プラズマダメージ**が、接合リークや電界変調を引き起こした可能性
-- 特に**Pause状態でリフレッシュ間隔が長くなる**ことにより、微小リークが顕在化
+#### 💡 想定される原因：
+- Gate-OX後のアッシング処理における**プラズマダメージ**
+- N+/P-Well間での**微細な接合リーク**
+- 一部レイアウトやマージンの影響で**特定位置のセルが影響を受けやすい**
 
-🎯 **通常のリフレッシュでは顕在化せず、Pause Refreshという特殊条件でのみ顕在化**したため、歩留まり解析の難易度が高かった。
+🎯 対応として、**アッシング工程をウエット処理に変更**し、ダメージ発生を抑制  
+→ 結果として、**Pause Refreshモードでも安定動作を確認**
 
 ---
