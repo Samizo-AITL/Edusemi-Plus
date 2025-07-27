@@ -76,26 +76,29 @@ This document archives the technology of a pseudo-SRAM (VSRAM) product mass-prod
 
 ---
 
-## 3. 技術的意義 / **Technical Significance**
+### 3. 次世代VSRAMの検討と不採用判断（0.18μm世代）
 
-- DRAMプロセスを応用し、**高密度・低コストのモバイル向けメモリ**を実現  
-- Internally refreshed pseudo-SRAM bridged DRAM and SRAM for mobile SoCs  
-- **後続技術（PSRAM / Mobile DRAM）への橋渡し**  
-  → Served as a precursor to PSRAM and Mobile DRAM
+#### 🧪 0.18μm世代VSRAM（NANYA / 東芝プロセス）の検討
 
----
+次世代VSRAMとして、NANYA製 0.18μm DRAMプロセス（東芝系）の適用を検討したが、以下の技術的課題により採用を断念した。
 
-## 4. 技術者所感 / **Engineer’s Note**
-
-> 「製品は歩留まり30%。メモリ保持特性の破綻を、プロセス改善でギリギリ抑え込む。  
->  量産立ち上げとは、トレードオフとの戦いであると痛感した。」
-
-> “The product started at 30% yield. Holding failures pushed process integration to its limit.  
->  Yield ramp-up was a battle of trade-offs.”
+- **トレンチキャパシタ構造**により、メモリセルの**ソースドレインのジャンクション面積が大きく**、高温時の**リーク電流が増加**  
+- 高温90℃保証を要求するモバイル用途において、**保持時間が十分に確保できなかった**
+- Pause Refresh条件を満たせず、実装に適さないと判断
 
 ---
 
-## 5. 関連リンク / **Related Link**
+#### 🧪 Mosys社 1T-SRAMマクロの検討（参考記録）
+
+- **Mosys社の1T-SRAM**を、回路マクロとして0.18μmロジックプロセス上での適用を検討
+- DRAMセル不要・リフレッシュ不要の構造により、**簡便なインプリ可能性**が期待された
+- しかし、筆者は当時**高耐圧インテグレーション業務**に従事しており、**工数確保できず、本格検討には至らなかった**
+
+> 検討のみで終了したが、SRAMマクロとしての柔軟性と簡易性は今後の参考になりうる構造であった。
+
+---
+
+## 4. 関連リンク / **Related Link**
 
 📂 **64M DRAM立ち上げ技術アーカイブ（1998年）**  
 📄 [`DRAM_Startup_64M_1998.md`](../in1998/DRAM_Startup_64M_1998.md)
