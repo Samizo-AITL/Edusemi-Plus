@@ -67,7 +67,7 @@ The full process flow is provided in the following separate documents:
 | セル容量確認 / Cap Confirmation | セル容量に問題なし → ストレージノードコンタクト〜N+ / P-Well間リーク疑い | Capacitance was OK → Suspected **junction leakage** between **storage node contact and N+/P-Well** |
 | SEM観察 / SEM Observation | THA・THB・CNT 形状に大きな問題なし | No major defect in **THA, THB, CNT** structures |
 | 原因特定 / Root Cause | Gate-OX後のアッシング工程におけるプラズマダメージ | **Plasma damage** during **resist ashing after gate oxidation** |
-| 改善処置 / Fix Action | 洗浄順と条件見直しによるノックオン防止策を実施 | Optimized **cleaning sequence** to **prevent knock-on plasma damage** |
+| 改善処置 / Fix Action | Gate-OX後のレジスト剥離を**アッシングからウエット処理に変更**し、**プラズマダメージ低減**を図る |
 | 歩留まり改善 / Final Yield | 約80%に向上。信頼性評価クリア → 量産フェーズへ移行 | Improved to **~80% yield**. Passed reliability → Entered **mass production phase** |
 
 ---
