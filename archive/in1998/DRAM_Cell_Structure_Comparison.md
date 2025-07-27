@@ -12,7 +12,7 @@ There are two major DRAM cell types: Trench and Stacked, each with distinct stre
 | 製造難易度 / Process Difficulty | 高（深掘・トレンチ形状）<br>High (deep etching, trench shape) | 中（成膜と積層形成）<br>Moderate (film deposition, stacking) |
 | プラズマダメージ感受性 / Plasma Sensitivity | 高 / High | 中 / Moderate |
 | 微細化適性 / Scaling Capability | 難あり / Limited | 高い / Excellent |
-| 採用企業 / Adopted by | 東芝・三菱など / Toshiba, Mitsubishi | NEC・日立・Samsung 他 / NEC, Hitachi, Samsung, etc. |
+| 採用企業 / Adopted by | 東芝・IBM など / Toshiba, IBM | NEC・日立・三菱・Samsung 他 / NEC, Hitachi, Mitsubishi, Samsung, etc. |
 
 > 🔍 トレンチ型はIBM由来の技術で、微細化に課題があるが高密度・高リテンション。  
 > Stacked型は1990年代後半以降、業界標準構造として定着。  
