@@ -12,7 +12,7 @@
 | F-ET | SIN + SION開口 | - | - | - | Field Isolation形成 | - |
 | F-OX | LOCOS酸化 | 4500Å | - | 1000℃ | 鳥くちばし抑制あり | - |
 | PRE-OX | 犠牲酸化膜形成 | 200Å | - | 900℃ | チャネル保護 | - |
-| NWLA-PH | Deep N-Wellフォト | - | 1.5μm | - | セル・MV領域 | NWLA |
+| NWLA-PH | Deep N-Wellフォト | - | 1.5μm | - |  メモリセル領域 | NWLA |
 | NWLA-ION | Deep N-Well注入 | - | - | RT | 1) メモリセルDeep N-Well（MV対応）<br>2) α線耐性強化（深打ち）<br>3) 代表条件：1e13 /cm² @ 1.2 MeV（P） | - |
 | NWLB-PH | N-Wellフォト | - | 1.2μm | - | ペリフェラル領域 | NWLB |
 | NWLB-ION | N-Well注入 | - | - | RT | 1) ペリフェラルPMOS用NWEL形成<br>2) PMOSチャンネルドープ兼用<br>3) 代表条件：1e13 /cm² @ 300 keV（P） | - |
