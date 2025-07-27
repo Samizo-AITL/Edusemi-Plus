@@ -69,6 +69,5 @@ The full process flow is provided in the following separate documents:
 | 📌 原因特定 / Root Cause | Gate-OX後の**アッシング工程におけるプラズマダメージ** | **Plasma damage** during **resist ashing after gate oxidation** |
 | 🛠️ 改善処置 / Fix Action | Gate-OX後のレジスト剥離を**アッシング → ウエット処理**に変更し、**プラズマダメージを低減** | Changed **resist removal after Gate-OX** from **ashing to wet process** to **reduce plasma damage** |
 | 🟢 歩留まり改善 / Final Yield | 歩留まり約**80%**に向上。**信頼性評価クリア → 量産フェーズへ**移行 | Improved to **~80% yield**. Passed reliability → Entered **mass production phase** |
-### 🔍 不良解析と改善経緯 | Failure Analysis & Process Fix
 
 ---
