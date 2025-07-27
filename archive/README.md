@@ -28,6 +28,7 @@
 | ディレクトリ / Directory | 内容 / Description |
 |--------------------------|---------------------|
 | [`in1998/`](./in1998/) | 64M DRAM立ち上げ記録（1998年, 0.25μm, 三溝真一）<br>📄 [`DRAM_Startup_64M_1998.md`](./in1998/DRAM_Startup_64M_1998.md)<br>※本記録は過去の経験に基づく教育記述であり、現行の企業機密には該当しません。<br>*This archive is based on historical engineering experience and does not contain any proprietary information.* |
+| [`in2001/`](./in2001/) | **モバイル用疑似SRAM（VSRAM）技術アーカイブ（2001年, 64M DRAM流用）**<br>📄 [`VSRAM_2001.md`](./in2001/VSRAM_2001.md)<br>※**64M DRAM第3世代プロセスを流用し、内部リフレッシュでSRAM的に動作**。世界初の**カメラ付き携帯電話（SHARP製）**に搭載されたモバイルメモリの実体験記録。<br>*Pseudo-SRAM using 64M DRAM (3rd Gen) process with internal refresh logic. Deployed in SHARP's world-first camera-equipped mobile phone.* |
 | `early_PoC/` *(planned)* | 2000年代のPoC設計メモ（予定）<br>Early 2000s PoC design notes |
 | `tech_interviews/` *(planned)* | 技術者ヒアリング・設計対話記録（予定）<br>Technical interviews and design dialogues |
 | `legacy_nodes/` *(planned)* | レガシーノード（0.35μm〜0.18μm）資料（計画中）<br>Legacy node (0.35μm–0.18μm) process archives |
