@@ -1,71 +1,97 @@
-## 📘 64M DRAM (0.25μm Node) Full Process Flow List
+### 0.25μm DRAM Process Flow Table (Full Version)
 
-> This document reconstructs the process structure of 64M DRAM (3rd Generation, 0.25μm technology) as of 1998, for educational purposes.  
-> Film thickness, critical dimensions, temperature, and implantation conditions are listed as estimated representative values.  
-> It is designed to help understand mask layout, KrF lithography adaptation, implant profiles, and connection structures.  
-> The flow is **reconstructed from the memory of Shinichi Samizo** and intended for use in training and learning materials.
+#### Isolation and Well Formation
 
-| Step Name | Process Description | Thickness | CD | Temp | Notes | Mask |
-|-----------|----------------------|-----------|-----|------|-------|------|
-| FS-DP | SiON Deposition | 200Å | - | 700℃ | Interface protection | - |
-| FSN-DP | LOCOS Nitride Mask | 1500Å | - | 750℃ | Field mask usage | - |
-| F-PH | Field Lithography (KrF) | - | 0.35μm | - | Semi-recess pattern | F |
-| F-ET | Open SIN + SION | - | - | - | Field Isolation formation | - |
-| F-OX | LOCOS Field Oxidation | 4500Å | - | 1000℃ | Bird's beak suppression | - |
-| PRE-OX | Sacrificial Oxide | 200Å | - | 900℃ | Channel protection | - |
-| NWLA-PH | Deep N-Well Litho | - | 1.5μm | - | Cell/MV Area | NWLA |
-| NWLA-ION | Deep N-Well Implant | - | - | RT | 1) Deep N-Well for Cell (MV)<br>2) Alpha-particle resistance<br>3) Est. Dose: 1e13 /cm² @ 1.2 MeV (P) | - |
-| NWLB-PH | N-Well Litho | - | 1.2μm | - | Peripheral PMOS Area | NWLB |
-| NWLB-ION | N-Well Implant | - | - | RT | 1) N-Well for peripheral PMOS<br>2) PMOS channel doping<br>3) Est. Dose: 1e13 /cm² @ 300 keV (P) | - |
-| PWL-PH | P-Well Litho | - | 1.0μm | - | NMOS / Stopper Area | PWL |
-| PWL-ION | P-Well Implant | - | - | RT | 1) P-Well for Cell & Peripheral NMOS<br>2) Stopper under LOCOS<br>3) Channel doping<br>4) Est. Dose: 1e13 /cm² @ 150 keV (B) | - |
-| G-OX | Gate Oxide Growth | 80Å | - | 800℃ | High-quality oxidation | - |
-| PLYA-DP | Doped Poly Deposition | 2000Å | - | 620℃ | Gate Poly (LPCVD) | - |
-| WSA-DP | WSi CVD Deposition | 1500Å | - | 450℃ | Gate Electrode Formation | - |
-| BRAC-DP | Barrier Cap Deposition | 800Å | - | 400℃ | SiO₂ Cap Layer | - |
-| WSA-PH | Gate Litho (KrF) | - | 0.25μm | - | High-resolution pattern | WSA |
-| WSA-ET | Gate Etch | - | - | RT | Maintain BRAC insulation | - |
-| THA-DP | TEOS Deposition | 4000Å | - | 650℃ | V1 interlayer | - |
-| THA-PH | V1 Contact Litho (KrF) | - | AR=2 | - | Avoid WSA overlap | THA |
-| THA-ET | V1 Contact Etch | - | - | RT | Contact Hole Open | - |
-| PLYB-DP | Doped Poly Deposition | 2500Å | - | 620℃ | Bit Line Base | - |
-| WSB-DP | WSi Deposition (CVD) | 1800Å | - | 450℃ | WSi-CVD from 0.25μm node | - |
-| WSB-PH | Bit Line Litho (KrF) | - | 0.25μm L/S | - | High-density wiring | WSB |
-| WSB-ET | Bit Line Etch | - | - | RT | Maintain insulation via BRAC | - |
-| THB-DP | TEOS Deposition | 6000Å | - | 650℃ | Storage Node Insulation | - |
-| THB-PH | V2 Litho (KrF) | - | AR=8 | - | High AR Contact | THB |
-| THB-ET | V2 Contact Etch | - | - | RT | Deep contact formation | - |
-| PLYC-DP | Thick Poly Deposition | 8000Å | - | 620℃ | Bottom Electrode | - |
-| PLYC-PH | Bottom Electrode Litho | - | 0.25μm | - | Patterning | PLYC |
-| PLYC-ET | Bottom Electrode Etch | - | - | RT | Residue → Short risk | - |
-| PLYC2-DP | Roughening | - | - | 700℃ | Capacitance +1.5~1.8x | - |
-| SIN-DP | SiN Dielectric Deposition | 150Å | - | 750℃ | ONO Dielectric Prep | - |
-| SIN-OX | SiN Oxidation | - | - | 800℃ | Form ONO Stack | - |
-| PLYD-DP | Top Electrode Deposition | 2000Å | - | 620℃ | Poly or TiN | - |
-| PLYD-PH | Top Electrode Litho | - | 0.3μm | - | Maintain isolation | PLYD |
-| PLYD-ET | Top Electrode Etch | - | - | RT | Cell Plate Formation | - |
-| F2-DP | BPSG deposition | 1.0μm | - | 750℃ | Smoothing of cell step height | - |
-| F2-ANL | BPSG reflow | - | - | 850℃ | Planarization process | - |
-| CNT-PH | Contact photo (KrF) | - | AR=6 | - | Half-tone mask used | CNT |
-| CNT-ET | Tungsten contact etch | - | - | RT | Connection to N+/P+ | - |
-| TIN-SP | TiN barrier sputtering | 300Å | - | RT | Low-temperature sputtering | - |
-| LAMP-ANL | LAMP annealing | - | - | 400℃ | TiN activation and junction stabilization | - |
-| W-DP/ET | Tungsten plug (CVD + etchback) | 4000Å | - | 400℃ | No CMP used | - |
-| ALA-SP | M1 sputter (Ti/AlCu/TiN) | 6000Å | 0.4μm L/S | RT | First metal interconnect | - |
-| HL1-DP | ILD1 deposition | 7000Å | - | 400℃ | Multilayer insulation (includes SOG) | - |
-| HL-SOG | Spin-On Glass coat | 5000Å | - | RT | SOG planarization | - |
-| HL2-DP | ILD2 deposition | 7000Å | - | 400℃ | For multilayer interconnects | - |
-| HL-PH | Via photo | - | AR=4 | - | Via from M1 to M2 | HL |
-| HL-ET | Via etching | - | - | RT | ILD opening formation | - |
-| ALB-SP | M2 sputter (Ti/AlCu/TiN) | 6000Å | 0.4μm L/S | RT | Second metal interconnect | - |
-| ALB-PH | M2 photo | - | 0.35μm | - | Final wiring patterning | ALB |
-| ALB-ET | M2 etching | - | - | RT | Interconnect shaping | - |
-| PAD-DP | Passivation film deposition | 5000Å | - | 350℃ | SiN or PI | - |
-| PAD-PH | Pad opening photo | - | 60μm | - | External I/O exposure | PAD |
-| PAD-ET | Pad opening etching | - | - | RT | Aluminum exposure | - |
-| AL-SNT | Hydrogen sintering | - | - | 450℃ | Reduces metal-related leakage | - |
-| POP-PH | PI coating photo | - | 60μm | - | Photo-definable PI | POP |
-| POP-CUR | PI curing | - | - | 300℃ | Final sealing layer hardening | - |
-| E-TEST | Electrical test | - | - | RT | TEG and parametric measurements | - |
+| Step Name   | Process Description              | Target Region               | Purpose                                                        | Condition                      | Notes                                                     |
+|-------------|----------------------------------|------------------------------|----------------------------------------------------------------|-------------------------------|-----------------------------------------------------------|
+| FS-DP       | SiON Oxynitride Deposition       | Whole Wafer                  | Interface protection before LOCOS                              | 200Å @ 700℃                   | Oxide/Nitride stack                                       |
+| FSN-DP      | LOCOS Nitride Deposition         | Field Region                 | Field mask oxidation barrier                                   | 1500Å @ 750℃                  | Prevents LOCOS bird's beak                                |
+| F-PH        | Field Lithography (KrF)          | Field Region                 | Define isolation area                                          | 0.35μm                         | Semi-recess pattern                                       |
+| F-ET        | SIN + SION Etch                  | Field Region                 | Open field mask                                                | -                             | Removal of barrier layers                                 |
+| F-OX        | LOCOS Field Oxidation            | Field Region                 | Field isolation oxide                                          | 4500Å @ 1000℃                 | Bird's beak suppression                                   |
+| PRE-OX      | Sacrificial Oxide Formation      | Channel Region               | Channel protection                                              | 200Å @ 900℃                   | For gate oxide preparation                                |
 
----
+#### Deep N-Well / N-Well / P-Well Formation (Detailed with Multi-Purpose Implanting)
+
+| Step Name   | Process Description              | Target Region               | Purpose                                                        | Condition                      | Notes                                                     |
+|-------------|----------------------------------|------------------------------|----------------------------------------------------------------|-------------------------------|-----------------------------------------------------------|
+| NWLA-PH     | Deep N-Well Lithography          | Memory Cell Region           | Define deep N-Well                                             | 1.5μm                         | For α-particle resistance                                 |
+| NWLA-ION    | Deep N-Well Implant (MeV)        | Cell Deep N-Well             | Deep N-Well formation                                          | 1e13/cm² @ 1.2 MeV (P)         | High-energy for alpha immunity                            |
+| NWLB-PH     | N-Well Lithography               | Peripheral Region            | Define peripheral N-Well                                       | 1.2μm                         | PMOS region                                                |
+| NWLB-ION    | N-Well Implant (HC)              | Peripheral N-Well            | ① N-Well Formation<br>② PMOS Channel Doping                   | 1e13/cm² @ 300 keV (P)        | Dual-purpose (Well + Channel)                             |
+| PWL-PH      | P-Well Lithography               | Cell & Peripheral Region     | P-Well Definition                                               | 1.0μm                         | Includes Cell/NMOS region and Field Stopper               |
+| PWL-ION     | P-Well Implant (HC)              | P-Well (Cell/Peripheral)     | ① P-Well Formation<br>② Field Stopper<br>③ NMOS Channel Doping| 1e13/cm² @ 150 keV (B)        | Triple-purpose implant                                    |
+
+#### Gate Stack Formation
+
+| Step Name   | Process Description              | Thickness   | CD/AR      | Temp     | Notes                                                     |
+|-------------|----------------------------------|-------------|------------|----------|-----------------------------------------------------------|
+| G-OX        | Gate Oxide Formation             | 80Å         | -          | 800℃     | High-quality thermal oxidation                            |
+| PLYA-DP     | Doped Poly Deposition            | 2000Å       | -          | 620℃     | Gate Poly (LPCVD)                                         |
+| WSA-DP      | WSi Deposition                   | 1500Å       | -          | 450℃     | Gate electrode formation                                  |
+| BRAC-DP     | Barrier Cap Deposition           | 800Å        | -          | 400℃     | Oxide cap over gate                                       |
+| WSA-PH      | Gate Pattern Lithography (KrF)   | -           | 0.25μm     | -        | High-resolution gate definition                           |
+| WSA-ET      | Gate Etch                        | -           | -          | RT       | Maintain insulation via BRAC                              |
+
+#### Bit Line & V1 Contact Formation
+
+| Step Name   | Process Description              | Notes                                                     |
+|-------------|----------------------------------|-----------------------------------------------------------|
+| THA-DP      | TEOS Deposition (V1)             | 4000Å @ 650℃                                               |
+| THA-PH      | V1 Lithography (KrF)             | AR=2, layout avoiding gate interference                    |
+| THA-ET      | V1 Contact Etch                  | Contact hole formation                                     |
+| PLYB-DP     | Doped Poly Deposition (BL)       | 2500Å @ 620℃                                               |
+| WSB-DP      | WSi Deposition (Bit Line)        | 1800Å @ 450℃                                               |
+| WSB-PH      | Bit Line Lithography (KrF)       | 0.25μm L/S                                                 |
+| WSB-ET      | Bit Line Etch                    | Isolation maintained via BRAC                              |
+
+#### Capacitor Formation (Lower Electrode to Upper Electrode)
+
+| Step Name   | Process Description              | Notes                                                     |
+|-------------|----------------------------------|-----------------------------------------------------------|
+| THB-DP      | TEOS Deposition (V2)             | 6000Å @ 650℃                                               |
+| THB-PH      | V2 Lithography (KrF)             | AR=8, for deep contact                                     |
+| THB-ET      | V2 Etch                          | Deep contact hole                                          |
+| PLYC-DP     | Thick Poly Deposition            | 8000Å @ 620℃ lower electrode                               |
+| PLYC-PH     | Lower Electrode Lithography      | 0.25μm                                                     |
+| PLYC-ET     | Lower Electrode Etch             | Residue = short risk                                       |
+| PLYC2-DP    | Surface Roughening               | 700℃, increases capacitance 1.5–1.8×                      |
+| SIN-DP      | SiN Dielectric Deposition        | 150Å @ 750℃                                                |
+| SIN-OX      | SiN Oxidation                    | 800℃, ONO dielectric structure                             |
+| PLYD-DP     | Upper Electrode Deposition       | 2000Å Poly                                                 |
+| PLYD-PH     | Upper Electrode Lithography      | 0.3μm                                                      |
+| PLYD-ET     | Upper Electrode Etch             | Cell plate formation                                       |
+
+#### Interlayer Dielectric / W-Plug / M1-M2 Interconnect
+
+| Step Name   | Process Description              | Notes                                                     |
+|-------------|----------------------------------|-----------------------------------------------------------|
+| F2-DP       | BPSG Deposition                  | 1.0μm @ 750℃ smoothing topography                         |
+| F2-ANL      | BPSG Reflow                      | 850℃ planarization                                        |
+| CNT-PH      | Component Lithography (KrF)      | AR=6, half-tone mask                                      |
+| CNT-ET      | W Contact Etch                   | Connect N+/P+                                             |
+| TI-SP       | Ti Barrier Sputtering            | 300Å LT sputtering                                        |
+| LAMP-ANL    | LAMP Anneal                      | 400℃ activate TiN & junction                              |
+| CW-DP       | W Plug Deposition (CVD WF₆)      | 4000Å                                                      |
+| CW-ET       | W Etch-back                      | No CMP                                                    |
+
+#### M1/M2 Metallization, Pad & Passivation
+
+| Step Name   | Process Description              | Notes                                                     |
+|-------------|----------------------------------|-----------------------------------------------------------|
+| ALA-SP      | M1 Sputter (Ti/AlCu/TiN)         | 6000Å / 0.4μm L/S                                          |
+| HL1-DP      | ILD1 Deposition                  | 7000Å                                                      |
+| HL-SOG      | SOG Coating                      | 5000Å                                                      |
+| HL2-DP      | ILD2 Deposition                  | 7000Å                                                      |
+| HL-PH       | Via Lithography                  | AR=4 M1→M2                                                 |
+| HL-ET       | Via Etch                         | Open ILD                                                   |
+| ALB-SP      | M2 Sputter (Ti/AlCu/TiN)         | 6000Å / 0.4μm L/S                                          |
+| ALB-PH      | M2 Lithography                   | 0.35μm                                                     |
+| ALB-ET      | M2 Etch                          | Final wiring                                               |
+| PAD-DP      | Passivation Deposition (SiN/PI)  | 5000Å @ 350℃                                               |
+| PAD-PH      | Pad Lithography                  | 60μm                                                       |
+| PAD-ET      | Pad Etch                         | Aluminum exposure                                          |
+| AL-SNT      | Hydrogen Sinter                  | 450℃, reduces metal leakage                                |
+| POP-PH      | PI Coat Lithography              | 60μm, for optical PI                                       |
+| POP-CUR     | PI Cure                          | 300℃, harden final film                                    |
+| E-TEST      | Electrical Testing               | TEG measurement (RT)                                       |
