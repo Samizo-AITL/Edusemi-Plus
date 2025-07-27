@@ -111,6 +111,10 @@ Based on a **64M DRAM 3rd-generation (0.25μm) process** with internal refresh l
 
 → **評価未完了 / Evaluation not completed due to resource constraints**
 
+- 📄 [`MoSys_1T_SRAM_Links.md`](./MoSys_1T_SRAM_Links.md)  
+　→ Mosys社の1T‑SRAM技術に関する概要・外部資料リンクをまとめた補足資料  
+　→ Supplementary reference summarizing MoSys 1T‑SRAM technology and related sources
+
 ---
 
 ## 4️⃣ 関連リンク / **Related Link**
