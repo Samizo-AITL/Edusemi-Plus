@@ -59,15 +59,16 @@ The full process flow is provided in the following separate documents:
 
 ### 🔍 不良解析と改善経緯 | Failure Analysis & Process Fix
 
-| フェーズ / Phase | 内容（日本語） / Description (JP) | 内容（英語） / Description (EN) |
-|------------------|-------------------------------|----------------------------------|
-| 本番ロット投入 / Production Lot | 信頼性評価用に3ロット投入（Burn-in付き） | 3 lots submitted for **burn-in and reliability testing** |
-| 歩留まり初回 / Initial Yield | 約65%、主不良は Pause Refresh failure | Initial yield was **~65%**, main failure: **pause refresh** |
-| 不良解析 / Failure Analysis | ポーズリフレッシュ不良の原因調査を実施 | Investigated **pause refresh failure** root cause |
-| セル容量確認 / Cap Confirmation | セル容量に問題なし → ストレージノードコンタクト〜N+ / P-Well間リーク疑い | Capacitance was OK → Suspected **junction leakage** between **storage node contact and N+/P-Well** |
-| SEM観察 / SEM Observation | THBストレージノードコンタクトに、形状に大きな問題なし | No major defect in **THB storage node contact** shape |
-| 原因特定 / Root Cause | Gate-OX後のアッシング工程におけるプラズマダメージ | **Plasma damage** during **resist ashing after gate oxidation** |
-| 改善処置 / Fix Action | Gate-OX後のレジスト剥離を**アッシングからウエット処理に変更**し、**プラズマダメージ低減**を図る | Changed **resist removal after Gate-OX** from **ashing to wet process** to **reduce plasma damage** |
-| 歩留まり改善 / Final Yield | 約80%に向上。信頼性評価クリア → 量産フェーズへ移行 | Improved to **~80% yield**. Passed reliability → Entered **mass production phase** |
+| 🧭 フェーズ / Phase | 📄 内容（日本語） / Description (JP) | 🌐 内容（英語） / Description (EN) |
+|------------------|----------------------------------|--------------------------------------|
+| 🚀 本番ロット投入 / Production Lot | 信頼性評価用に**3ロット投入（Burn-in付き）** | 3 lots submitted for **burn-in and reliability testing** |
+| 📉 歩留まり初回 / Initial Yield | 約**65%**、主不良は **Pause Refresh failure** | Initial yield was **~65%**, main failure: **pause refresh** |
+| 🔍 不良解析 / Failure Analysis | **ポーズリフレッシュ不良**の原因調査を実施 | Investigated **pause refresh failure** root cause |
+| ⚡ セル容量確認 / Cap Confirmation | **セル容量は正常** → **ストレージノードコンタクト〜N+/P-Well間リーク**を疑う | Capacitance was OK → Suspected **junction leakage** between **storage node contact and N+/P-Well** |
+| 🧐 SEM観察 / SEM Observation | **THBストレージノードコンタクト**に、形状に大きな問題なし | No major defect in **THB storage node contact** shape |
+| 📌 原因特定 / Root Cause | Gate-OX後の**アッシング工程におけるプラズマダメージ** | **Plasma damage** during **resist ashing after gate oxidation** |
+| 🛠️ 改善処置 / Fix Action | Gate-OX後のレジスト剥離を**アッシング → ウエット処理**に変更し、**プラズマダメージを低減** | Changed **resist removal after Gate-OX** from **ashing to wet process** to **reduce plasma damage** |
+| 🟢 歩留まり改善 / Final Yield | 約**80%**に向上。**信頼性評価クリア → 量産フェーズへ**移行 | Improved to **~80% yield**. Passed reliability → Entered **mass production phase** |
+### 🔍 不良解析と改善経緯 | Failure Analysis & Process Fix
 
 ---
