@@ -50,12 +50,12 @@ The product was adopted in the **world’s first camera-equipped mobile phone** 
 
 ---
 
-### 2.1 保持不良と対策（高温・長時間リフレッシュ間隔）  
-**Retention Failures and Countermeasures (High Temp, Extended Refresh Interval)**
+### 2.1 ポーズリフレッシュ不良と対策（高温・長時間リフレッシュ間隔）  
+**Pause Refresh Failure and Countermeasures (High Temp, Extended Refresh Interval)**
 
 | 要素 | 内容 / Description |
 |------|-------------------|
-| 問題 | **標準DRAM保証温度（80℃）を超える90℃環境**での動作を求めた結果、<br>リフレッシュ周期の延長時に**保持時間不足**が発生。<br>主因は**ジャンクションリークの増加**。<br>*Retention failure occurred under 90°C operation (beyond standard 80°C DRAM spec), mainly due to increased junction leakage.* |
+| 問題 | **標準DRAM保証温度（80℃）を超える90℃環境**での動作を求めた結果、<br>ポーズリフレッシュ時に**保持時間不足**が発生。<br>主因は**ジャンクションリークの増加**。<br>*Pause refresh failure occurred under 90°C operation (beyond standard 80°C DRAM spec), mainly due to increased junction leakage.* |
 
 #### 🔧 対策分類と実施内容 / Classification of Countermeasures
 
