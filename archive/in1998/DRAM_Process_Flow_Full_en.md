@@ -1,11 +1,24 @@
-### 0.25μm DRAM Process Flow Table (Full Version)
+# 0.25μm 64M DRAM (3rd Generation) Process Flow
 
 > ⚠️ **Note**  
 > This process table is a technical reconstruction based on Shinichi Samizo's manufacturing experience and memory from the late 1990s.  
-> The content reflects knowledge and conditions of that time and may differ from current technical documents or actual data.  
+> The content reflects the knowledge and conditions of that time and may differ from current technical documents or actual data.  
 > It is not guaranteed to be accurate and should be used as reference information for educational or archival purposes only.
 
-#### Isolation and Well Formation
+---
+
+## 🔹 Key Features
+
+| Item | Description |
+|------|-------------|
+| **Supply Voltage** | 3.3V for Memory Cell, Peripheral, and I/O |
+| **Cell Capacitor Structure** | Stacked capacitor structure |
+| **Well Structure** | Triple-well structure adopted in memory cell region |
+| **Word Line** | Divided word-line structure with WSA-ALA connection |
+| **Bit Line Formation** | Bit line and bit line contact formed simultaneously by WSB-CVD |
+| **Storage Node Surface Treatment** | Surface roughening improved capacitance by 1.5–1.8× |
+
+## Isolation and Well Formation
 
 | Step Name   | Process Description              | Target Region               | Purpose                                                        | Condition                      | Notes                                                     |
 |-------------|----------------------------------|------------------------------|----------------------------------------------------------------|-------------------------------|-----------------------------------------------------------|
@@ -16,7 +29,7 @@
 | F-OX        | LOCOS Field Oxidation            | Field Region                 | Field isolation oxide                                          | 4500Å @ 1000℃                 | Bird's beak suppression                                   |
 | PRE-OX      | Sacrificial Oxide Formation      | Channel Region               | Channel protection                                              | 200Å @ 900℃                   | For gate oxide preparation                                |
 
-#### Deep N-Well / N-Well / P-Well Formation (Detailed with Multi-Purpose Implanting)
+## Deep N-Well / N-Well / P-Well Formation (Detailed with Multi-Purpose Implanting)
 
 | Step Name   | Process Description              | Target Region               | Purpose                                                        | Condition                      | Notes                                                     |
 |-------------|----------------------------------|------------------------------|----------------------------------------------------------------|-------------------------------|-----------------------------------------------------------|
@@ -27,7 +40,7 @@
 | PWL-PH      | P-Well Lithography               | Cell & Peripheral Region     | P-Well Definition                                               | 1.0μm                         | Includes Cell/NMOS region and Field Stopper               |
 | PWL-ION     | P-Well Implant (HC)              | P-Well (Cell/Peripheral)     | ① P-Well Formation<br>② Field Stopper<br>③ NMOS Channel Doping| 1e13/cm² @ 150 keV (B)        | Triple-purpose implant                                    |
 
-#### Gate Stack Formation
+## Gate Stack Formation
 
 | Step Name   | Process Description              | Thickness   | CD/AR      | Temp     | Notes                                                     |
 |-------------|----------------------------------|-------------|------------|----------|-----------------------------------------------------------|
@@ -38,7 +51,7 @@
 | WSA-PH      | Gate Pattern Lithography (KrF)   | -           | 0.25μm     | -        | High-resolution gate definition                           |
 | WSA-ET      | Gate Etch                        | -           | -          | RT       | Maintain insulation via BRAC                              |
 
-#### Bit Line & V1 Contact Formation
+## Bit Line & V1 Contact Formation
 
 | Step Name   | Process Description              | Notes                                                     |
 |-------------|----------------------------------|-----------------------------------------------------------|
@@ -50,7 +63,7 @@
 | WSB-PH      | Bit Line Lithography (KrF)       | 0.25μm L/S                                                 |
 | WSB-ET      | Bit Line Etch                    | Isolation maintained via BRAC                              |
 
-#### Capacitor Formation (Lower Electrode to Upper Electrode)
+## Capacitor Formation (Lower Electrode to Upper Electrode)
 
 | Step Name   | Process Description              | Notes                                                     |
 |-------------|----------------------------------|-----------------------------------------------------------|
@@ -67,7 +80,7 @@
 | PLYD-PH     | Upper Electrode Lithography      | 0.3μm                                                      |
 | PLYD-ET     | Upper Electrode Etch             | Cell plate formation                                       |
 
-#### Interlayer Dielectric / W-Plug / M1-M2 Interconnect
+## Interlayer Dielectric / W-Plug / M1-M2 Interconnect
 
 | Step Name   | Process Description              | Notes                                                     |
 |-------------|----------------------------------|-----------------------------------------------------------|
@@ -80,7 +93,7 @@
 | CW-DP       | W Plug Deposition (CVD WF₆)      | 4000Å                                                      |
 | CW-ET       | W Etch-back                      | No CMP                                                    |
 
-#### M1/M2 Metallization, Pad & Passivation
+## M1/M2 Metallization, Pad & Passivation
 
 | Step Name   | Process Description              | Notes                                                     |
 |-------------|----------------------------------|-----------------------------------------------------------|
@@ -100,3 +113,5 @@
 | POP-PH      | PI Coat Lithography              | 60μm, for optical PI                                       |
 | POP-CUR     | PI Cure                          | 300℃, harden final film                                    |
 | E-TEST      | Electrical Testing               | TEG measurement (RT)                                       |
+
+---
