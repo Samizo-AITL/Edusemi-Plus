@@ -61,7 +61,7 @@ The product was adopted in the **world’s first camera-equipped mobile phone** 
 
 | 区分 | 対策内容 | 説明 / Description |
 |------|-----------|------------------|
-| **① プロセス・物理的対策**<br>*Process/Physical* | **HF洗浄回数の最小化**<br>（WSA後の酸化膜保持）<br>*Minimized HF cleaning to preserve gate oxide post-WSA* | SNC接続部などにおいてゲート酸化膜の厚みが不足すると、リークが増大し保持不良に直結。<br>**WSA後のウェット洗浄工程を最小化**することで酸化膜を保護。<br>*Gate oxide thinning at SNC contacts causes leakage; minimized wet etch post-WSA to preserve oxide integrity.* |
+| **① プロセス・物理的対策**<br>*Process/Physical* | **HF洗浄回数の最小化**<br>（WSA後の酸化膜保持）<br>*Minimized HF cleaning to preserve gate oxide post-WSA* | ストレージノードコンタクト接続部などにおいてゲート酸化膜の厚みが不足すると、リークが増大し保持不良に直結。<br>**WSA後のウェット洗浄工程を最小化**することで酸化膜を保護。<br>*Gate oxide thinning at Storage Node Contacts causes leakage; minimized wet etch post-WSA to preserve oxide integrity.* |
 | **② 電気的設定対策**<br>*Electrical Parameter* | **バックバイアス強化：Vbs = −1V → −3V**<br>*Stronger back-biasing to suppress leakage* | セルのボディバイアスを負方向に強化することで、ジャンクションリークを低減し、保持特性を改善。<br>*Applied −3V back-bias to reduce leakage current under high-temp standby.* |
 
 ---
