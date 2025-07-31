@@ -1,9 +1,17 @@
-### 0.25μm DRAM プロセス工程表（フル版）
+### 0.25μm 64MDRAM(3rd) Process Flow
 
 > ⚠️ **注記 / Note**  
 > 本工程表は、三溝真一による1990年代末の製造経験と記憶をもとに再構成された技術記録です。内容は当時の知識と状況に基づくものであり、現在の技術資料や実データとは一部異なる可能性があります。正確性を保証するものではなく、教育・技術アーカイブ目的での参考情報としてご利用ください。  
 >  
 > This process table is a technical reconstruction based on Shinichi Samizo's manufacturing experience and memory from the late 1990s. The content reflects knowledge and conditions of that time and may differ from current technical documents or actual data. It is not guaranteed to be accurate and should be used as reference information for educational or archival purposes only.
+
+特徴
+電源電圧　3.3V Memory Cell, Preriferal I/O
+スタック型メモリセルキャパシタ
+メモリセル トリプルウエル採用
+ワードライン　WSA-ALA接続　デバイデッドワードライン
+ビットライン　WSB CVDによりビットライン、ビットラインコンタクト同時形成
+ストレージノード　粗面化処理により、容量値1.5〜1.8倍アップ
 
 #### 分離構造・ウェル形成
 
