@@ -46,55 +46,57 @@ This document summarizes the bin classification used in wafer testing of 0.25µm
 
 ### 🔹 Bin5：ポーズリフレッシュ不良 / Pause Refresh Fail
 
-| 項目 / Item         | 内容 / Description |
-|----------------------|--------------------|
-| テスト目的 / Purpose | **リフレッシュを一時停止**し、セルの電荷保持能力（リテンション）を評価する | To pause refresh and evaluate the cell's charge retention ability |
-| 手順 / Procedure     |  
-1. 任意データ（例：AA55）を書き込み  
-2. **一定時間リフレッシュを停止（例：1s, 5s）**  
-3. セルを全読み出しし、化けビットを検出  
-<br>  
-1. Write data (e.g., AA55 pattern)  
-2. **Pause refresh for a fixed time (e.g., 1s, 5s)**  
-3. Read out and detect flipped bits |
-| テスト条件 / Conditions |  
-- データ：0xAA / 0x55 alternating  
-- ウェイト時間：1s / 5s / 10s  
-- 温度：常温または高温（例：85℃）  
-- Fail判定：1bit以上のエラー検出  
-<br>  
-- Data: 0xAA / 0x55 alternating  
-- Wait time: 1s / 5s / 10s  
-- Temperature: room or elevated (e.g., 85°C)  
-- Fail if any bit error is detected |
+**🧪 テスト目的 / Purpose**  
+リフレッシュを一時停止し、セルの電荷保持能力（リテンション）を評価する。  
+To pause refresh and evaluate the cell's charge retention ability.
+
+**🔁 テスト手順 / Procedure**  
+1. 任意データ（例：0xAA, 0x55）を全セルに書き込み  
+2. リフレッシュを一定時間停止（例：1s, 5s, 10s）  
+3. セル内容を全読み出しし、化けビットを検出  
+→ 弱セルの保持不良を確認  
+<br>
+1. Write data (e.g., 0xAA, 0x55) to all cells  
+2. Pause refresh for a defined duration (e.g., 1s, 5s, 10s)  
+3. Read out all cells and check for bit flips  
+→ Detect weak retention cells
+
+**⚙️ テスト条件 / Conditions**  
+- パターン：0xAA / 0x55 alternating  
+- 温度：25°C または高温（85°C〜90°C）  
+- 判定基準：1ビット以上の誤りでFail  
+<br>
+- Pattern: 0xAA / 0x55 alternating  
+- Temperature: Room (25°C) or elevated (85°C–90°C)  
+- Fail Criteria: ≥ 1 bit error detected
 
 ---
 
 ### 🔸 Bin6：ディスターブリフレッシュ不良 / Disturb Refresh Fail
 
-| 項目 / Item         | 内容 / Description |
-|----------------------|--------------------|
-| テスト目的 / Purpose | **近隣行の激しいアクセス**によるセル干渉（disturb）による保持劣化を検出する | To detect retention degradation caused by aggressive access to adjacent rows |
-| 手順 / Procedure     |  
-1. ターゲット行にデータを書き込み  
-2. **隣接行を高頻度でアクティブ（例：10万回）**  
-3. ターゲット行を再読み出しし、ビット化けを検出  
-<br>  
-1. Write data to target row  
-2. **Aggressively activate neighboring rows (e.g., 100K times)**  
-3. Read target row to detect flipped bits |
-| テスト条件 / Conditions |  
-- ターゲット行：Row 100  
-- ストレス行：Row 99, 101  
-- アクセス回数：100K / 1M  
-- 高温条件で実施（例：85〜90℃）  
-- Fail判定：1bit以上のエラー  
-<br>  
-- Target row: Row 100  
-- Stress rows: Row 99, 101  
-- Access count: 100K / 1M  
-- Elevated temperature (e.g., 85–90°C)  
-- Fail if any bit error is detected |
+**🧪 テスト目的 / Purpose**  
+隣接行の激しいアクセスによって生じるセル干渉（Disturb）による保持劣化を評価する。  
+To evaluate retention degradation due to interference from aggressive access to neighboring rows.
+
+**🔁 テスト手順 / Procedure**  
+1. ターゲット行（例：Row 100）にデータ書き込み  
+2. 隣接行（Row 99, 101）を高頻度アクティブ（例：100K〜1M回）  
+3. ターゲット行を再読み出しし、化けビットを検出  
+→ 干渉によるリーク発生有無を評価  
+<br>
+1. Write data to target row (e.g., Row 100)  
+2. Repeatedly activate adjacent rows (e.g., Row 99 and 101, 100K–1M times)  
+3. Read back target row and detect flipped bits  
+→ Evaluate if disturbance-induced leakage occurred
+
+**⚙️ テスト条件 / Conditions**  
+- ストレスアクセス数：100K〜1M回  
+- 温度：高温条件（85〜90℃）で実施  
+- 判定基準：1ビット以上の誤りでFail  
+<br>
+- Stress count: 100K–1M accesses  
+- Temperature: Elevated (85°C–90°C)  
+- Fail Criteria: ≥ 1 bit error detected
 
 ---
 
