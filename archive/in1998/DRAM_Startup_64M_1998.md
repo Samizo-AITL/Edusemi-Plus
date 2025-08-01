@@ -86,6 +86,9 @@ This archive contains no proprietary or confidential design data. It is reconstr
 リフレッシュ動作を一時停止し、**一定時間経過後にセル内容を読み出してビット誤りを検出する**試験で発生する不良です。  
 This failure mode occurs during **retention testing** by pausing refresh operations and reading cell contents after a delay to detect bit errors.
 
+> 🔗 **この不良モードはウエハテストBin分類において [Bin5：Pause Refresh Fail](./dram_wafer_test_binclass_0.25um.md) に対応しています。**  
+> This failure corresponds to [**Bin5: Pause Refresh Fail**](./dram_wafer_test_binclass_0.25um.md) in the DRAM wafer test bin classification.
+
 ---
 
 #### 🔍 不良の概要 | Failure Characteristics
@@ -144,6 +147,10 @@ The following documents serve as supplementary materials to enhance understandin
 - 📄 [`DRAM_Cell_Technology_Chronology.md`](DRAM_Cell_Technology_Chronology.md)  
 　→ **1M〜256Mまでのセル技術年表 / Cell Technology Chronology: From 1M to 256M**  
 　→ 世代別の構造変遷と技術転換点を年表形式で整理 / Timelined transition from planar to stacked with key inflection points
+
+- 📄 [`dram_wafer_test_binclass_0.25um.md`](dram_wafer_test_binclass_0.25um.md)  
+　→ **0.25μm DRAM ウエハテストのBin分類表（日本語・英語併記） / 0.25µm DRAM Wafer Test Bin Classification (Bilingual)**  
+　→ フェイルストップ方式に基づくBin分類と不良モード整理、教育用途向けドキュメント / Fail-stop-based bin classification and failure mode summary for educational use
 
 ---
 
