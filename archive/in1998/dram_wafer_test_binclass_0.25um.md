@@ -36,6 +36,72 @@ This document summarizes the bin classification used in wafer testing of 0.25µm
 
 ---
 
+## 🧪 Bin5・Bin6のテストパターン概要 / Test Pattern Overview for Bin5 and Bin6
+
+**Bin5（ポーズリフレッシュ不良）および Bin6（ディスターブリフレッシュ不良）** は、DRAM特有の保持特性に関するテストです。以下に代表的なウエハテストパターンを示します。
+
+**Bin5 (Pause Refresh Fail)** and **Bin6 (Disturb Refresh Fail)** are specific to DRAM retention behavior. Representative wafer test patterns are outlined below.
+
+---
+
+### 🔹 Bin5：ポーズリフレッシュ不良 / Pause Refresh Fail
+
+| 項目 / Item         | 内容 / Description |
+|----------------------|--------------------|
+| テスト目的 / Purpose | **リフレッシュを一時停止**し、セルの電荷保持能力（リテンション）を評価する | To pause refresh and evaluate the cell's charge retention ability |
+| 手順 / Procedure     |  
+1. 任意データ（例：AA55）を書き込み  
+2. **一定時間リフレッシュを停止（例：1s, 5s）**  
+3. セルを全読み出しし、化けビットを検出  
+→ 弱セルはこの間にリークしてエラーを起こす  
+<br>  
+1. Write data (e.g., AA55 pattern)  
+2. **Pause refresh for a fixed time (e.g., 1s, 5s)**  
+3. Read out and detect flipped bits  
+→ Weak cells leak charge and cause errors |
+| テスト条件 / Conditions |  
+- データ：0xAA / 0x55 alternating  
+- ウェイト時間：1s / 5s / 10s  
+- 温度：常温または高温（例：85℃）  
+- Fail判定：1bit以上のエラー検出  
+<br>  
+- Data: 0xAA / 0x55 alternating  
+- Wait time: 1s / 5s / 10s  
+- Temperature: room or elevated (e.g., 85°C)  
+- Fail if any bit error is detected |
+
+---
+
+### 🔸 Bin6：ディスターブリフレッシュ不良 / Disturb Refresh Fail
+
+| 項目 / Item         | 内容 / Description |
+|----------------------|--------------------|
+| テスト目的 / Purpose | **近隣行の激しいアクセス**によるセル干渉（disturb）による保持劣化を検出する | To detect retention degradation caused by aggressive access to adjacent rows |
+| 手順 / Procedure     |  
+1. ターゲット行にデータを書き込み  
+2. **隣接行を高頻度でアクティブ（例：10万回）**  
+3. ターゲット行を再読み出しし、ビット化けを検出  
+→ セル間電界干渉によるリークを評価  
+<br>  
+1. Write data to target row  
+2. **Aggressively activate neighboring rows (e.g., 100K times)**  
+3. Read target row to detect flipped bits  
+→ Evaluate cell-to-cell interference and leakage |
+| テスト条件 / Conditions |  
+- ターゲット行：Row 100  
+- ストレス行：Row 99, 101  
+- アクセス回数：100K / 1M  
+- 高温条件で実施（例：85〜90℃）  
+- Fail判定：1bit以上のエラー  
+<br>  
+- Target row: Row 100  
+- Stress rows: Row 99, 101  
+- Access count: 100K / 1M  
+- Elevated temperature (e.g., 85–90°C)  
+- Fail if any bit error is detected |
+
+---
+
 ## 📎 教育的補足 / Educational Notes
 
 - フェイルストップ方式により、**致命的な不良で即Bin振り分けが行われる**。  
@@ -54,3 +120,10 @@ This document summarizes the bin classification used in wafer testing of 0.25µm
 この分類は、ウエハテスト仕様書、教育資料、工程改善レポート、歩留まりトラブルシュートなどに利用できます。
 
 This classification can be used in wafer test specs, educational documents, process improvement reports, and yield debugging.
+
+---
+
+## 🔗 関連リンク / Related Links
+
+- 📄 [`DRAM_Startup_64M_1998.md`](../in1998/DRAM_Startup_64M_1998.md)  
+- 📄 [`VSRAM_2001.md`](../in2001/VSRAM_2001.md)
