@@ -53,12 +53,10 @@ This document summarizes the bin classification used in wafer testing of 0.25µm
 1. 任意データ（例：AA55）を書き込み  
 2. **一定時間リフレッシュを停止（例：1s, 5s）**  
 3. セルを全読み出しし、化けビットを検出  
-→ 弱セルはこの間にリークしてエラーを起こす  
 <br>  
 1. Write data (e.g., AA55 pattern)  
 2. **Pause refresh for a fixed time (e.g., 1s, 5s)**  
-3. Read out and detect flipped bits  
-→ Weak cells leak charge and cause errors |
+3. Read out and detect flipped bits |
 | テスト条件 / Conditions |  
 - データ：0xAA / 0x55 alternating  
 - ウェイト時間：1s / 5s / 10s  
@@ -81,12 +79,10 @@ This document summarizes the bin classification used in wafer testing of 0.25µm
 1. ターゲット行にデータを書き込み  
 2. **隣接行を高頻度でアクティブ（例：10万回）**  
 3. ターゲット行を再読み出しし、ビット化けを検出  
-→ セル間電界干渉によるリークを評価  
 <br>  
 1. Write data to target row  
 2. **Aggressively activate neighboring rows (e.g., 100K times)**  
-3. Read target row to detect flipped bits  
-→ Evaluate cell-to-cell interference and leakage |
+3. Read target row to detect flipped bits |
 | テスト条件 / Conditions |  
 - ターゲット行：Row 100  
 - ストレス行：Row 99, 101  
@@ -99,6 +95,23 @@ This document summarizes the bin classification used in wafer testing of 0.25µm
 - Access count: 100K / 1M  
 - Elevated temperature (e.g., 85–90°C)  
 - Fail if any bit error is detected |
+
+---
+
+## 🌡️ ウエハテストの温度条件 / Temperature Conditions in Wafer Test
+
+メモリ製品のウエハテストでは、**以下の温度順序でテストが実施される**のが一般的です：
+
+In memory wafer testing, it is common to run tests across the following temperature sequence:
+
+| フェーズ / Phase | 温度条件 / Temperature | 説明 / Description |
+|------------------|------------------------|--------------------|
+| RT（常温）        | 25 °C                  | 初期ファンクション確認やスクリーニング用途<br>Used for initial function check and screening |
+| HT（高温）        | 80 °C（VSRAMは90 °C）   | リーク電流・保持特性の評価に最重要。<br>Pause/Disturb Failが最も発生しやすい領域。<br>Critical for leakage and retention failures |
+| LT（低温）        | −25 °C                 | タイミングやリテンションマージンの低温依存性確認<br>Evaluate cold-temp behavior and margin |
+
+> ✅ 特にVSRAMでは、**DRAM標準の80℃保証を超える90℃での安定動作**が求められ、高温ウエハテストが合否を左右します。  
+> VSRAM products require stable operation at 90°C, making HT wafer testing essential.
 
 ---
 
