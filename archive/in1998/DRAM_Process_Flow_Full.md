@@ -117,15 +117,3 @@
 | E-TEST     | 電気特性評価                 | TEG測定（RT）                                  |
 
 ---
-
-## Wefer Test
-
-bin1 Open/Short
-bin2 スタンバイ電流
-bin3 アクティブ電流
-bin4 ファンクション
-bin6 ポーズリフレッシュ
-bin7 ディスターブリフレッシュ
-※Fail Stop
-
----
