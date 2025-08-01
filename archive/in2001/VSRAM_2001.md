@@ -64,6 +64,9 @@ The product was adopted in the **world’s first camera-equipped mobile phone** 
 | **① プロセス・物理的対策**<br>*Process/Physical* | **HF洗浄回数の最小化**<br>（WSA後の酸化膜保持）<br>*Minimized HF cleaning to preserve gate oxide post-WSA* | ストレージノードコンタクト接続部などにおいてゲート酸化膜の厚みが不足すると、リークが増大し保持不良に直結。<br>**WSA後のウェット洗浄工程を最小化**することで酸化膜を保護。<br>*Gate oxide thinning at Storage Node Contacts causes leakage; minimized wet etch post-WSA to preserve oxide integrity.* |
 | **② 電気的設定対策**<br>*Electrical Parameter* | **バックバイアス強化：Vbs = −1V → −3V**<br>*Stronger back-biasing to suppress leakage* | セルのボディバイアスを負方向に強化することで、ジャンクションリークを低減し、保持特性を改善。<br>*Applied −3V back-bias to reduce leakage current under high-temp standby.* |
 
+> 🔗 **この不良モードは、ウエハテストにおける [Bin5：Pause Refresh Fail](../in1998/dram_wafer_test_binclass_0.25um.md) に対応しています。**  
+> This failure mode corresponds to [**Bin5: Pause Refresh Fail**](../in1998/dram_wafer_test_binclass_0.25um.md) in the wafer test bin classification for 0.25 µm DRAM.
+
 ---
 
 ### 2.2 ディスターブリフレッシュ対策  
@@ -73,6 +76,9 @@ The product was adopted in the **world’s first camera-equipped mobile phone** 
 |------|-------------------|
 | 問題 | 0.25μm特有のShort Channel Effect（SCE）により、セル反転（disturb）現象が発生。<br>**特に、標準保証温度の80℃では顕在化しなかったが、90℃保証を求めた際にリークが急増し、SCEが問題化した。**<br>*Disturb failures due to short-channel effects at 0.25μm node, which became prominent under elevated 90°C condition, though not critical at 80°C.* |
 | 対策 | ゲートCD（寸法）の中心値管理を徹底し、セル間ばらつきによるリークを抑制。<br>*Tightened gate length (CD) centering to suppress variation-induced leakage.* |
+
+> 🔗 **この不良モードは、ウエハテストにおける [Bin6：Disturb Refresh Fail](../in1998/dram_wafer_test_binclass_0.25um.md) に対応しています。**  
+> This failure mode corresponds to [**Bin6: Disturb Refresh Fail**](../in1998/dram_wafer_test_binclass_0.25um.md) in the wafer test bin classification for 0.25 µm DRAM.
 
 ---
 
