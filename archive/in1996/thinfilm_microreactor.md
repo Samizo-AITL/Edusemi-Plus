@@ -53,7 +53,14 @@
 
 ---
 
-## 🔗 関連リンク｜Related Link
+### 📐 補足資料リンク｜Reference Material
+
+薄膜インダクタにおけるQ値と損失要因（直流抵抗・渦電流損失など）の数式表現については、以下の補足資料をご参照ください。  
+For detailed formulas related to the Q-factor and associated loss mechanisms (DC resistance, eddy current loss) in thin-film inductors, please refer to the following supplemental document.
+
+📘 [Q値と損失抵抗の数式補足｜Q-Factor and Loss Resistance Formulas](./inductor_q_formula.md)
+
+### 🔗 関連リンク｜Related Link
 
 本研究と関連する**オンチップインダクタのQ値設計技術**について、AMS設計指針として以下の教材にまとめています。
 
