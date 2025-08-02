@@ -4,7 +4,8 @@
 🧪 **FEM解析による薄膜インダクタ構造設計と高周波DCDCコンバータ向けリアクトル最適化**
 
 - 信州大学にて、**スイッチング電源用DCDCコンバータ向けの薄膜インダクタ**に関する基礎研究を実施。
-- **フェライト系磁性膜とAlスパイラルコイル**を積層した構造を設計し、**有限要素法（FEM）による電磁界解析**を用いてインダクタの動作特性（インダクタンス、Q値）を評価。
+- 当時は、**携帯電話や携帯情報端末の本格的普及を見据え、小型・高効率な電源回路**のニーズが急速に高まっており、とくに**12V→5V変換を行う降圧型DCDCコンバータ**への実装を想定した**オンチップリアクトルの開発**が技術課題となっていた。
+- 本研究では、**フェライト系磁性膜とAlスパイラルコイル**を積層した構造を設計し、**有限要素法（FEM）による電磁界解析**を用いてインダクタの動作特性（インダクタンス、Q値）を評価。
 - 駆動周波数500kHz〜1MHzの範囲で、**Q値の低下要因は配線導体内の直流抵抗と高周波渦電流損失の重畳である**ことを示した。
 - この結果に基づき、**周波数依存での導体材料選択指針（Al / Cu）**を提案：
   - **低周波（〜数百kHz）では低抵抗のCu**を使用、
@@ -30,6 +31,7 @@
 **Thin-Film Inductor Design and Q-Factor Optimization for DCDC Converters Using FEM Analysis (1996–1997)**
 
 - Conducted foundational research at **Shinshu University** on thin-film inductors for **switching regulator (DCDC converter)** applications.
+- This study assumed use in **buck-type DCDC converters for 12V to 5V power conversion**, which were increasingly in demand for future **portable electronics such as mobile phones**.
 - Designed laminated structures consisting of **ferrite-based magnetic films** and **aluminum spiral coil conductors**, and used **finite element method (FEM) electromagnetic simulation** to analyze inductance and Q-factor behavior.
 - Demonstrated that **Q-value degradation at 500 kHz–1 MHz** arises from the **superposition of DC resistance and eddy current losses within the conductor**.
 - Based on these findings, proposed a **frequency-dependent guideline for conductor material selection (Al or Cu)**:
