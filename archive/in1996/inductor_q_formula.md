@@ -88,10 +88,3 @@ $$
   Current distribution in conductor cross-section (low vs high frequency)
 
 ---
-
-## 🧭 関連資料｜Related Material
-
-📘 [Phase 0 薄膜インダクタ研究（1996–1997）](../d_chapter1_memory_technologies/thin_film_inductor_1996.md)  
-📘 [5a.5 インダクタのQ値設計｜AMS教材リンク](../d_chapter5a_analog_mixed_signal/5_inductor_q_factor.md)
-
----
