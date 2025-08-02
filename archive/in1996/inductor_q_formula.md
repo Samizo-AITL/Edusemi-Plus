@@ -4,11 +4,12 @@ title: Q-Factor and Loss Resistance Formulas
 ---
 
 <!-- ✅ MathJax support for both block & inline math -->
-<script>
+<script type="text/javascript">
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$'], ['\\(', '\\)']]
-    }
+    },
+    svg: { fontCache: 'global' }
   };
 </script>
 <script type="text/javascript"
@@ -19,8 +20,8 @@ title: Q-Factor and Loss Resistance Formulas
 # 📐 Q値と損失抵抗の数式補足  
 ##｜Q-Factor and Loss Resistance Formulas for Thin-Film Inductors
 
-本資料は、薄膜インダクタの高周波特性設計におけるQ値および主な損失要因（直流抵抗、渦電流損失）に関する代表的な数式と設計指針を示す補足資料です。  
-This document provides supplemental formulas and design guidelines related to the Q-factor and major loss mechanisms (DC resistance, eddy current loss) in thin-film inductor design for high-frequency applications.
+本資料は、薄膜インダクタの高周波特性設計における $Q$ 値および主な損失要因（直流抵抗、渦電流損失）に関する代表的な数式と設計指針を示す補足資料です。  
+This document provides supplemental formulas and design guidelines related to the $Q$-factor and major loss mechanisms (DC resistance, eddy current loss) in thin-film inductor design for high-frequency applications.
 
 ---
 
@@ -30,13 +31,13 @@ $$
 Q = \frac{\omega L}{R_{\text{total}}}
 $$
 
-- \( Q \)：Q値（無次元, quality factor）  
-- \( \omega = 2\pi f \)：角周波数（angular frequency, rad/s）  
-- \( L \)：インダクタンス（inductance, H）  
-- \( R_{\text{total}} \)：総損失抵抗（total loss resistance, Ω）
+- $Q$：Q値（無次元, quality factor）  
+- $\omega = 2\pi f$：角周波数（angular frequency, rad/s）  
+- $L$：インダクタンス（inductance, H）  
+- $R_{\text{total}}$：総損失抵抗（total loss resistance, Ω）
 
 > **Q値は蓄積エネルギーと損失エネルギーの比を示し、値が高いほど高効率。**  
-> The Q-factor represents the ratio of stored to dissipated energy. Higher Q means better efficiency.
+> The $Q$-factor represents the ratio of stored to dissipated energy. Higher $Q$ means better efficiency.
 
 ---
 
@@ -46,9 +47,9 @@ $$
 R_{\text{total}} = R_{\text{DC}} + R_{\text{eddy}} + R_{\text{others}}
 $$
 
-- \( R_{\text{DC}} \)：直流抵抗（DC resistance）  
-- \( R_{\text{eddy}} \)：渦電流損失抵抗（eddy current loss resistance）  
-- \( R_{\text{others}} \)：その他損失（誘電体損失、磁気ヒステリシスなど）  
+- $R_{\text{DC}}$：直流抵抗（DC resistance）  
+- $R_{\text{eddy}}$：渦電流損失抵抗（eddy current loss resistance）  
+- $R_{\text{others}}$：その他損失（誘電体損失、磁気ヒステリシスなど）  
   (e.g., dielectric loss, magnetic hysteresis)
 
 ---
@@ -59,12 +60,12 @@ $$
 R_{\text{DC}} = \frac{\rho \cdot l}{A}
 $$
 
-- \( \rho \)：導体材料の抵抗率（resistivity, Ω·m）  
-- \( l \)：導体長（conductor length, m）  
-- \( A \)：断面積（cross-sectional area, m²）
+- $\rho$：導体材料の抵抗率（resistivity, Ω·m）  
+- $l$：導体長（conductor length, m）  
+- $A$：断面積（cross-sectional area, m²）
 
-> **低周波域ではCu（銅）の低抵抗性がQ値の向上に寄与。**  
-> Copper's low resistivity improves Q-factor in lower frequency ranges.
+> **低周波域ではCu（銅）の低抵抗性が $Q$ 値の向上に寄与。**  
+> Copper's low resistivity improves $Q$-factor in lower frequency ranges.
 
 ---
 
@@ -75,9 +76,9 @@ R_{\text{eddy}} \propto \frac{1}{\delta}, \quad
 \delta = \sqrt{\frac{2\rho}{\mu \omega}}
 $$
 
-- \( \delta \)：スキン深さ（skin depth, m）  
-- \( \mu \)：透磁率（magnetic permeability, H/m）  
-- \( \omega = 2\pi f \)：角周波数（angular frequency, rad/s）
+- $\delta$：スキン深さ（skin depth, m）  
+- $\mu$：透磁率（magnetic permeability, H/m）  
+- $\omega = 2\pi f$：角周波数（angular frequency, rad/s）
 
 > **高周波ではスキン効果により導通面積が減少し、実効抵抗が増加。**  
 > At high frequencies, current flows near the surface (skin effect), increasing effective resistance.
@@ -99,7 +100,7 @@ $$
 
 ## 🔗 関連図（予定）｜Planned Visuals
 
-- Q値 vs 周波数｜Q-Factor vs Frequency  
+- $Q$ 値 vs 周波数｜Q-Factor vs Frequency  
 - スキン深さ vs 周波数｜Skin Depth vs Frequency  
 - 導体断面の電流分布（低周波／高周波）｜Current distribution in cross-section (LF/HF)
 
