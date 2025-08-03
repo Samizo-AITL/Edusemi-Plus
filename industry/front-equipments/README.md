@@ -39,9 +39,9 @@ Front-end tools are sequentially applied in steps such as:
 ## 🔍 教材活用のヒント  
 ## 🔍 Learning & Exploration Ideas
 
-- **EUV露光装置とドライエッチング装置の連携構造**を調べてみよう  
+- **[EUV露光装置とドライエッチング装置の連携構造](./asml_euv_mechanism.md)** を調べてみよう  
 - **日本と米国の装置競争力の違い**を企業ごとに比較してみよう  
-- **成膜→エッチング→洗浄の工程順と制約条件**を明確にしよう
+- **[成膜→エッチング→洗浄の工程順と制約条件](./ald_mechanism.md)** を明確にしよう  
 
 ---
 
@@ -50,7 +50,9 @@ Front-end tools are sequentially applied in steps such as:
 
 - [🧪 front-materials/](../front-materials/)：各装置で使用される材料の視点  
 - [🖼️ photomasks/](../photomasks/)：露光装置との協調関係  
-- [🔬 metrology-tools/](../metrology-tools/)：前工程後の検査・フィードバック
+- [🔬 metrology-tools/](../metrology-tools/)：前工程後の検査・フィードバック  
+- [🔭 ASML EUV装置機構](./asml_euv_mechanism.md)：EUV露光の物理と構造  
+- [🧪 ALD成膜の仕組み](./ald_mechanism.md)：原子層精度での堆積制御技術
 
 ---
 
