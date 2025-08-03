@@ -42,6 +42,17 @@ designed to explore the semiconductor industry through diverse perspectives incl
 
 ---
 
+## 🧭 Extended Industry Structure
+
+For a deeper look at the supply chain and industrial mapping, please explore:
+
+| Category | Description | Link |
+|----------|-------------|------|
+| 🏭 **Supply Chain Map** | Full-stack view from EDA to fab to device output | [industry/industry-map/](./industry/industry-map/) |
+| 🔧 **Equipment & Materials** | Categorized by front-end/back-end tools and materials | [industry/front-equipments/](./industry/front-equipments/), [industry/back-materials/](./industry/back-materials/) |
+
+---
+
 ## 👥 **Target Audience & Use Cases**
 
 | **Audience** | **Use Cases** |
