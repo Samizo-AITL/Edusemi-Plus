@@ -42,14 +42,24 @@ designed to explore the semiconductor industry through diverse perspectives incl
 
 ---
 
-## 🧭 Extended Industry Structure
+## 🔗 Related Structural Categories (Supply Chain Map)
 
-For a deeper look at the supply chain and industrial mapping, please explore:
+📌 **The "Industry Structure Map" (`industry/`) is a core category of this Edusemi-Plus series.**  
+It systematically organizes the **semiconductor supply chain**, including EDA, equipment, materials, inspection, and device manufacturers.
+
+For a deeper understanding of structural connections, please refer to the categories below:
 
 | Category | Description | Link |
 |----------|-------------|------|
-| 🏭 **Supply Chain Map** | Full-stack view from EDA to fab to device output | [industry/industry-map/](./industry/industry-map/) |
-| 🔧 **Equipment & Materials** | Categorized by front-end/back-end tools and materials | [industry/front-equipments/](./industry/front-equipments/), [industry/back-materials/](./industry/back-materials/) |
+| 🏭 **Industry Structure Map (Overview)** | End-to-end view from design to manufacturing and testing | [industry/README.md](./industry/README.md) |
+| 🧠 **EDA Tool Vendors** | Logic synthesis, verification, TCAD, P&R, automation tools | [industry/eda-tools/](./industry/eda-tools/) |
+| 🖼️ **Photomask-Related** | Mask blanks, OPC, EUV mask fabrication | [industry/photomasks/](./industry/photomasks/) |
+| ⚙️ **Front-End Equipment** | Deposition, lithography, etching, cleaning, annealing | [industry/front-equipments/](./industry/front-equipments/) |
+| 🧪 **Front-End Materials** | Silicon wafers, resist, process gases, CMP slurries | [industry/front-materials/](./industry/front-materials/) |
+| 🏗️ **Back-End Equipment** | Dicing, bonding, molding, packaging tools | [industry/back-equipments/](./industry/back-equipments/) |
+| 🧯 **Back-End Materials** | Packaging substrates, encapsulants, adhesives | [industry/back-materials/](./industry/back-materials/) |
+| 🔬 **Metrology & Inspection Tools** | CD-SEM, film thickness, defect detection, X-ray | [industry/metrology-tools/](./industry/metrology-tools/) |
+| 💾 **Device Makers** | Foundries, IDMs, and fabless semiconductor companies | [industry/device-makers/](./industry/device-makers/) |
 
 ---
 
