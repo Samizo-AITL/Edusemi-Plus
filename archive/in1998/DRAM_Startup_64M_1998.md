@@ -157,7 +157,7 @@ The following documents serve as supplementary materials to enhance understandin
 ## 🔗 関連リンク / **Related Link**
 
 📂 **モバイル用 疑似SRAM技術アーカイブ（2001年）**  
-📄 [`VSRAM_2001.md`](../in2001/VSRAM_2001.md)
+📄 **[`VSRAM_2001.md`](../in2001/VSRAM_2001.md)**
 
 - **日本語**：64M DRAM（第3世代）のプロセスをそのまま流用し、内部リフレッシュによる擬似SRAMとして動作。  
 　世界初の**SHARP製カメラ付き携帯電話**に採用されたモバイルメモリ。  
