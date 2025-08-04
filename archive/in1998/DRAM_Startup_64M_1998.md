@@ -1,8 +1,6 @@
-## 📘 64M DRAM 第3世代（0.25μm）立ち上げ記録 – 三溝真一（1998）
+# 📘 64M DRAM 第3世代（0.25μm）立ち上げ記録 – 三溝真一（1998）
 
 📘 **64M DRAM 3rd Gen (0.25μm) Startup Record – Shinichi Samizo (1998)**  
-📝 本文書は現在 **記録中** の技術資料です。内容は**中途段階**であり、今後**追記・整理・補完予定**です。  
-📝 This document is under development, and contents are partial and subject to future updates.  
 
 ---
 
@@ -31,7 +29,7 @@ This archive contains no proprietary or confidential design data. It is reconstr
 
 ---
 
-### 🏗️ プロセス立ち上げ戦略 | Ramp-up Strategy
+## 🏗️ プロセス立ち上げ戦略 | Ramp-up Strategy
 
 - KD棟の処理条件（**フロッピー2枚分**）を、T棟の各要素工程に展開  
   → *Deploy process specs (2 floppy disks) from KD Fab to each module at T Fab*
@@ -50,7 +48,7 @@ This archive contains no proprietary or confidential design data. It is reconstr
 
 ---
 
-### 🔗 プロセスフロー詳細 | Full Process Flow
+## 🔗 プロセスフロー詳細 | Full Process Flow
 
 📂 プロセスフローは以下にて別途整理：  
 📂 The full process flow is provided in the following separate documents:
