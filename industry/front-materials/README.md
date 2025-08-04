@@ -14,12 +14,12 @@ Fabrication of transistors and interconnects requires **ultra-pure and highly pr
 
 | 材料カテゴリ | 代表企業 | 用途例 |
 |--------------|----------|--------|
-| **シリコンウェーハ** | **SUMCO 🇯🇵**, GlobalWafers 🇹🇼, SK Siltron 🇰🇷** | 基板材料（300mm対応、Epiなど） |
-| **レジスト材料** | **JSR 🇯🇵**, TOK 🇯🇵, Shin-Etsu 🇯🇵** | リソグラフィ用感光材料、EUV対応品含む |
-| **配線用金属材料** | **Mitsubishi Materials 🇯🇵**, Honeywell 🇺🇸** | Cu, W, Coなどのスパッタターゲット |
-| **高k絶縁膜前駆体** | **Air Liquide 🇫🇷**, Entegris 🇺🇸** | HfO₂などALD用材料、ゲート絶縁用途 |
-| **CMPスラリー／パッド** | **Cabot Microelectronics 🇺🇸**, Fujimi 🇯🇵** | 平坦化工程に必要な研磨材とパッド |
-| **プロセスガス** | **Linde 🇩🇪**, Air Products 🇺🇸**, Showa Denko 🇯🇵** | プラズマ、CVD、エッチング等に使用
+| **シリコンウェーハ** <br>(🌐世界シェア例: SUMCO 27%, GlobalWafers 17%, SK Siltron 11%) | **SUMCO 🇯🇵**, GlobalWafers 🇹🇼, SK Siltron 🇰🇷** | 基板材料（300mm対応、Epiなど） |
+| **レジスト材料** <br>(🌐JSR + TOK + Shin-Etsu 合計で世界の約85%) | **JSR 🇯🇵**, TOK 🇯🇵, Shin-Etsu 🇯🇵** | リソグラフィ用感光材料、EUV対応品含む |
+| **配線用金属材料** <br>(🌐三菱マテリアル・Honeywell含む上位5社で90%以上) | **Mitsubishi Materials 🇯🇵**, Honeywell 🇺🇸** | Cu, W, Coなどのスパッタターゲット |
+| **高k絶縁膜前駆体** <br>(🌐Air Liquide・Entegris で60%以上) | **Air Liquide 🇫🇷**, Entegris 🇺🇸** | HfO₂などALD用材料、ゲート絶縁用途 |
+| **CMPスラリー／パッド** <br>(🌐Cabot 約35%、Fujimi 約25%) | **Cabot Microelectronics 🇺🇸**, Fujimi 🇯🇵** | 平坦化工程に必要な研磨材とパッド |
+| **プロセスガス** <br>(🌐Linde 約30%、Air Products 約25%、昭和電工含め上位で80%以上) | **Linde 🇩🇪**, Air Products 🇺🇸**, Showa Denko 🇯🇵** | プラズマ、CVD、エッチング等に使用 |
 
 ---
 
