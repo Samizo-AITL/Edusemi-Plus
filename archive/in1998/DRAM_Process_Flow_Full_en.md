@@ -59,3 +59,42 @@
 
 ---
 
+## ⚙️ Source & Drain Formation
+
+| Step | Process Description | Target Area | Purpose | Conditions | Notes |
+|------|----------------------|-------------|---------|------------|-------|
+| **NLD-PH**    | NMOS LDD lithography | Peripheral | Define LDD region | 0.35μm | High-precision patterning |
+| **NLD-ION**   | NMOS LDD implantation | Peripheral | Form shallow N⁻ diffusion | 5e13/cm² @ 40 keV (As⁺) | For low electric field |
+| **NLDC-PH**   | NMOS Cell LDD lithography | Cell | Define LDD for memory cell | 0.3μm | Avoid WSA interference |
+| **NLDC-ION**  | NMOS Cell LDD implantation | Cell | Shallow N⁻ for memory cell | 5e13/cm² @ 30 keV (As⁺) | Low current control |
+| **PLD-PH**    | PMOS LDD lithography | Peripheral | Define LDD region for PMOS | 0.35μm | — |
+| **PLD-ION**   | PMOS LDD implantation | Peripheral | Form shallow P⁻ diffusion | 3e13/cm² @ 30 keV (BF₂⁺) | — |
+| **SW-DP**     | Spacer deposition (oxide/nitride) | Global | Spacer stack for S/D mask | SiO₂: 600Å, SiN: 400Å | CVD process |
+| **SW-ET**     | Spacer etching | Global | Form oxide/nitride spacers | Dry etch @ RT | Material-selective etching |
+| **NLD2-PH**   | NMOS deep S/D lithography | Peripheral | Define N⁺ S/D | 0.35μm | — |
+| **NLD2-ION**  | NMOS deep S/D implantation | Peripheral | Form deep N⁺ S/D | 5e15/cm² @ 60 keV (As⁺) | Activated by anneal |
+| **NLDC2-PH**  | NMOS Cell deep S/D lithography | Cell | Define N⁺ S/D for cell | 0.3μm | — |
+| **NLDC2-ION** | NMOS Cell deep S/D implantation | Cell | Form deep N⁺ in memory cell | 5e15/cm² @ 50 keV (As⁺) | — |
+| **PLD2-PH**   | PMOS deep S/D lithography | Peripheral | Define P⁺ S/D | 0.35μm | — |
+| **PLD2-ION**  | PMOS deep S/D implantation | Peripheral | Form deep P⁺ S/D | 3e15/cm² @ 50 keV (BF₂⁺) | — |
+
+---
+
+## 🟩 Bit Line Formation (THA to WSB)
+
+| Step | Process Description | Notes |
+|------|----------------------|-------|
+| **THA-DP**  | TEOS deposition (THA base layer) | 4000Å @ 650℃ |
+| **THA-PH**  | Through-hole lithography (KrF) | AR=2, layout avoids WSA interference |
+| **THA-ET**  | THA contact hole etching | Contact hole for bit line |
+| **PLYB-DP** | Doped poly-Si deposition (BL base) | 2500Å @ 620℃ |
+| **WSB-DP**  | WSi deposition (CVD) | 1800Å @ 450℃ |
+| **WSB-PH**  | Bit line lithography (KrF) | 0.25μm L/S for high-density interconnect |
+| **WSB-ET**  | Bit line etching | BRAC cap maintains bottom insulation |
+
+
+---
+
+
+
+
