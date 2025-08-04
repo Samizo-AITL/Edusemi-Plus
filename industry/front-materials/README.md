@@ -45,6 +45,12 @@ Each material is tightly linked to its corresponding equipment and process step:
 
 ---
 
+## 🧱 基礎構造・材料カテゴリ / Basic Structures & Materials
+
+- [🧾 Wafer 基板の基礎と実務的注意点](./docs/wafer_basics.md)
+
+---
+
 ## 📎 関連カテゴリ  
 ## 📎 Related Categories
 
