@@ -39,15 +39,10 @@
 |---------------|-------------------------------|-------------------------|----------------------|--------------------|----------------|
 | **NWLA-PH**   | Deep N-Wellフォトリソ<br>*Deep N-Well lithography* | メモリセル領域<br>*Memory cell region* | Deep N-Well定義<br>*Define Deep N-Well* | 1.5μm | α線耐性向上のための深打ち領域<br>*Deep region for α-particle immunity* |
 | **NWLA-ION**  | Deep N-Well注入（MeV）<br>*Deep N-Well implantation (MeV)* | メモリセル領域<br>*Memory cell region* | 高耐性N-Well形成<br>*Form high-resistance N-Well* | 1e13/cm² @ 1.2 MeV (P⁺) | メモリセル専用の深層注入<br>*Exclusive to memory cell area* |
-| **NWLB-PH** | N-Well lithography | Peripheral region | Define N-Well | 1.2μm | For peripheral PMOS devices |
-| **NWLB-ION** | N-Well implantation (HC) | Peripheral region | (1) Form N-Well<br>(2) PMOS channel doping | 
-• N-Well: 1e13/cm² @ 300 keV (P⁺)<br>
-• PMOS CD: 5e12/cm² @ 100 keV (B⁺) | Two-step function integrated in one process |
-| **PWL-PH** | P-Well lithography | Cell + Peripheral | Define P-Well | 1.0μm | Includes Field Stopper region |
-| **PWL-ION** | P-Well implantation (HC) | Same as above | (1) Form P-Well<br>(2) Field Stopper<br>(3) NMOS channel doping | 
-• P-Well: 1e13/cm² @ 150 keV (B⁺)<br>
-• Field Stopper: 5e12/cm² @ 100 keV (B⁺)<br>
-• NMOS CD: 2e12/cm² @ 50 keV (B⁺) | Three-step function integrated in one process |
+| **NWLB-PH**   | N-Wellフォトリソ<br>*N-Well lithography* | ペリフェラル領域<br>*Peripheral region* | N-Well定義<br>*Define N-Well* | 1.2μm | 周辺PMOSトランジスタ領域に適用<br>*For peripheral PMOS devices* |
+| **NWLB-ION**  | N-Well注入（HC）<br>*N-Well implantation (HC)* | ペリフェラル領域<br>*Peripheral region* | ① N-Well形成<br>② PMOSチャネル形成<br>*① Form N-Well<br>② PMOS channel doping* | ・N-Well: 1e13/cm² @ 300 keV (P⁺)<br>・PMOS CD: 5e12/cm² @ 100 keV (B⁺) | 2段階注入を1工程で統合<br>*Two-step function integrated in one process* |
+| **PWL-PH**    | P-Wellフォトリソ<br>*P-Well lithography* | メモリセル・周辺領域<br>*Cell + Peripheral* | P-Well定義<br>*Define P-Well* | 1.0μm | Field Stopper領域を含む<br>*Includes Field Stopper region* |
+| **PWL-ION**   | P-Well注入（HC）<br>*P-Well implantation (HC)* | 同上<br>*Same as above* | ① P-Well形成<br>② Field Stopper形成<br>③ NMOSチャネル形成<br>*① Form P-Well<br>② Field Stopper<br>③ NMOS channel doping* | ・P-Well: 1e13/cm² @ 150 keV (B⁺)<br>・Field Stopper: 5e12/cm² @ 100 keV (B⁺)<br>・NMOS CD: 2e12/cm² @ 50 keV (B⁺) | 3段階注入を1工程で統合<br>*Three-step function integrated in one process* |
 
 ---
 
