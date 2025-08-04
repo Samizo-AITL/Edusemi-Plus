@@ -156,16 +156,18 @@ The following documents serve as supplementary materials to enhance understandin
 
 ## 🔗 関連リンク / **Related Link**
 
-📂 **モバイル用 疑似SRAM技術アーカイブ（2001年）**  
-📄 **[`VSRAM_2001.md`](../in2001/VSRAM_2001.md)**
+### 📂 **注目技術アーカイブ / Featured Archive：VSRAM（2001年）**
+
+📄 **[`VSRAM_2001.md`](../in2001/VSRAM_2001.md)**  
+> 🚀 **モバイル用疑似SRAMとしてDRAMプロセスを転用！**  
+> 世界初の **カメラ付き携帯電話（SHARP製）** に搭載された革新メモリ
 
 - **日本語**：64M DRAM（第3世代）のプロセスをそのまま流用し、内部リフレッシュによる擬似SRAMとして動作。  
-　世界初の**SHARP製カメラ付き携帯電話**に採用されたモバイルメモリ。  
-　ポーズリフレッシュ不良やディスターブ不良に対し、HF洗浄回数削減・バックバイアス制御・ゲート寸法管理などの技術的対策を実施。
+　ポーズリフレッシュ不良やディスターブ不良に対し、**HF洗浄工程の最適化**、**バックバイアス制御**、**ゲートCD管理**などを駆使して量産対応。
 
-- **English**：A pseudo-SRAM utilizing the 64M DRAM (3rd Gen) process with internal refresh logic.  
-　Used in the world's first **camera-equipped mobile phone by SHARP**.  
-　Detailed engineering responses to pause refresh and disturb issues, including HF clean step reduction, back-bias tuning, and gate CD control.
+- **English**：A pseudo-SRAM leveraging the 3rd-gen 64M DRAM process with built-in refresh logic.  
+　Adopted in the world’s first **camera-equipped mobile phone by SHARP**.  
+　Key engineering responses included **reduced HF clean steps**, **back-bias tuning**, and **tight gate CD control** to address pause-refresh and disturb failures.
 
 ---
 
