@@ -33,16 +33,16 @@
 
 ---
 
-## 🧪 Well & Channel Doping (Deep/N/P-Well, Channel Doping)
+# 🧪 Well & Channel Doping (Deep/N/P-Well, Channel Doping)
 
 | Step | Process Description | Target Area | Purpose | Conditions | Notes |
 |------|----------------------|-------------|---------|------------|-------|
-| **NWLA-PH** | Deep N-Well lithography | Memory cell region | Define Deep N-Well | 1.5μm | Deep region for α-particle immunity |
-| **NWLA-ION** | Deep N-Well implantation (MeV) | Memory cell region | Form high-resistance N-Well | 1e13/cm² @ 1.2 MeV (P⁺) | Exclusive to memory cell area |
-| **NWLB-PH** | N-Well lithography | Peripheral region | Define N-Well | 1.2μm | For peripheral PMOS devices |
-| **NWLB-ION** | N-Well implantation (HC) | Peripheral region | (1) Form N-Well<br>(2) PMOS channel doping | 1e13/cm² @ 300 keV (P⁺) | Combines two functions in one step |
-| **PWL-PH** | P-Well lithography | Cell + Peripheral | Define P-Well | 1.0μm | Includes Field Stopper region |
-| **PWL-ION** | P-Well implantation (HC) | Same as above | (1) Form P-Well<br>(2) Field Stopper<br>(3) NMOS channel doping | 1e13/cm² @ 150 keV (B⁺) | Three functions integrated in one step |
+| **NWLA-PH** | Deep N-Well lithography | Memory cell region | Define Deep N-Well | 1.5 μm | Deep region to improve alpha-particle immunity |
+| **NWLA-ION** | Deep N-Well implantation (MeV) | Memory cell region | Form high-resistance N-Well | 1e13/cm² @ 1.2 MeV (P⁺) | Deep implantation exclusive to cell area |
+| **NWLB-PH** | N-Well lithography | Peripheral region | Define N-Well | 1.2 μm | For peripheral PMOS devices |
+| **NWLB-ION** | N-Well implantation (HC) | Peripheral region | (1) Form N-Well<br>(2) PMOS channel doping | • N-Well: 1e13/cm² @ 300 keV (P⁺)<br>• PMOS CD: 5e12/cm² @ 100 keV (B⁺) | Two-step doping integrated into one process |
+| **PWL-PH** | P-Well lithography | Cell + Peripheral | Define P-Well | 1.0 μm | Includes field stopper region |
+| **PWL-ION** | P-Well implantation (HC) | Same as above | (1) Form P-Well<br>(2) Field Stopper doping<br>(3) NMOS channel doping | • P-Well: 1e13/cm² @ 150 keV (B⁺)<br>• Field Stopper: 5e12/cm² @ 100 keV (B⁺)<br>• NMOS CD: 2e12/cm² @ 50 keV (B⁺) | Three-step doping integrated into one process |
 
 ---
 
