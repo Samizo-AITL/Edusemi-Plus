@@ -92,6 +92,63 @@
 | **WSB-PH**  | Bit line lithography (KrF) | 0.25μm L/S for high-density interconnect |
 | **WSB-ET**  | Bit line etching | BRAC cap maintains bottom insulation |
 
+---
+
+## 🟥 Capacitor Formation (THB to PLYD)
+
+| Step | Process Description | Notes |
+|------|----------------------|-------|
+| **THB-DP**   | TEOS deposition (V2 base layer) | 6000Å |
+| **THB-PH**   | V2 lithography (KrF) | AR=8 for deep contact |
+| **THB-ET**   | V2 contact etching | Contact hole to bottom capacitor electrode |
+| **PLYC-DP**  | Thick poly-Si deposition (bottom electrode) | 8000Å @ 620℃ |
+| **PLYC-PH**  | Bottom electrode lithography | 0.25μm |
+| **PLYC-ET**  | Bottom electrode etching | Avoid shorts from residue |
+| **PLYC2-DP** | Surface roughening (capacitance boost) | 700℃, 1.5–1.8× improvement |
+| **SIN-DP**   | SiN deposition for ONO dielectric | 150Å @ 750℃ |
+| **SIN-OX**   | SiN oxidation (ONO structure) | 800℃, ONO structure completed |
+| **PLYD-DP**  | Top electrode deposition (poly-Si) | 2000Å |
+| **PLYD-PH**  | Top electrode lithography | 0.3μm, ensures node isolation |
+| **PLYD-ET**  | Top electrode etching | Forms cell plate |
+
+---
+
+## ⬜ Interlayer Dielectric & W Plug Formation
+
+| Step | Process Description | Notes |
+|------|----------------------|-------|
+| **F2-DP**    | BPSG deposition | 1.0μm @ 750℃ / Step coverage for memory cell |
+| **F2-ANL**   | BPSG reflow | 850℃ for planarization |
+| **CNT-PH**   | Contact lithography (KrF) | Half-tone mask / AR=6 |
+| **CNT-ET**   | Contact hole etching | Opens contact to N+/P+ regions |
+| **CNT-ION**  | Contact ion implantation | 3e15/cm² @ 30 keV (As⁺/BF₂⁺) |
+| **TIN-SP**   | Barrier metal sputtering | 300Å low-temp Ti/TiN |
+| **LAMP-ANL** | LAMP annealing | 400℃ / TiN activation & contact stabilization |
+| **CW-DP**    | Tungsten plug deposition (CVD) | 4000Å, WF₆-CVD |
+| **CW-ET**    | W plug etch-back | No CMP used (dry selective) |
+
+---
+
+## 🟨 Metal Interconnects, Pad, and Final Passivation
+
+| Step | Process Description | Notes |
+|------|----------------------|-------|
+| **ALA-SP**   | M1 sputtering (Ti/AlCu/TiN) | 6000Å / 0.4μm L/S |
+| **HL1-DP**   | ILD1 deposition | 7000Å |
+| **HL-SOG**   | SOG coating | 5000Å / Spin-on-glass planarization |
+| **HL2-DP**   | ILD2 deposition | 7000Å |
+| **HL-PH**    | Via lithography | AR=4, for M1→M2 connection |
+| **HL-ET**    | Via hole etching | Opens via to expose M1 |
+| **ALB-SP**   | M2 sputtering (Ti/AlCu/TiN) | 6000Å / 0.4μm L/S |
+| **ALB-PH**   | M2 lithography | 0.35μm |
+| **ALB-ET**   | M2 etching | AlCu patterning |
+| **PAD-DP**   | Passivation layer deposition | 5000Å / SiN or PI |
+| **PAD-PH**   | Pad opening lithography | 60μm / I/O pad access |
+| **PAD-ET**   | Pad etching | Exposes Al pad |
+| **AL-SNT**   | Hydrogen sintering | 450℃ / Suppress metal leakage |
+| **POP-PH**   | Photo-PI coating lithography | 60μm / Photo-defined PI |
+| **POP-CUR**  | PI curing | 300℃ / Cure sealing layer |
+| **E-TEST**   | Electrical testing | RT / Parametric test on TEG |
 
 ---
 
