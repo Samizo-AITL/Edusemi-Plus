@@ -15,7 +15,7 @@ This archive contains no proprietary or confidential design data. It is reconstr
 
 ---
 
-### 🧭 プロジェクト概要 | Project Overview
+## 🧭 プロジェクト概要 | Project Overview
 
 | 項目 / Item             | 内容 / Details                                                |
 |------------------------|---------------------------------------------------------------|
@@ -78,7 +78,7 @@ This archive contains no proprietary or confidential design data. It is reconstr
 
 ---
 
-### ② 🧪 ポーズリフレッシュ不良とは | What is Pause Refresh Failure?
+## ② 🧪 ポーズリフレッシュ不良とは | What is Pause Refresh Failure?
 
 📌 **ポーズリフレッシュ不良（Pause Refresh Failure）**とは、DRAMセルの**電荷保持能力（リテンション）**を評価するため、  
 リフレッシュ動作を一時停止し、**一定時間経過後にセル内容を読み出してビット誤りを検出する**試験で発生する不良です。  
@@ -89,7 +89,7 @@ This failure mode occurs during **retention testing** by pausing refresh operati
 
 ---
 
-#### 🔍 不良の概要 | Failure Characteristics
+### 🔍 不良の概要 | Failure Characteristics
 
 - 通常のリフレッシュ周期では問題なし  
   No issue under normal auto-refresh intervals
@@ -102,7 +102,7 @@ This failure mode occurs during **retention testing** by pausing refresh operati
 
 ---
 
-#### 💡 推定原因 | Suspected Root Cause
+### 💡 推定原因 | Suspected Root Cause
 
 - **Gate-OX後のアッシング処理によるプラズマストレス**  
 
@@ -116,7 +116,7 @@ This failure mode occurs during **retention testing** by pausing refresh operati
 
 ---
 
-#### ✅ 対策と効果 | Countermeasure & Effect
+### ✅ 対策と効果 | Countermeasure & Effect
 
 - Gate-OX後のレジスト剥離工程を**アッシング → ウエット処理**に変更  
   → Changed resist removal from **ashing to wet strip** to reduce plasma damage
