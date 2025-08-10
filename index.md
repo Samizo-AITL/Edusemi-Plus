@@ -3,4 +3,141 @@ layout: default
 title: Edusemi-Plus
 ---
 
+---
+
+# 📚 **Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シリーズ**
+
+**Edusemi-Plus** は、基礎教材 [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) を拡張し、  
+**地政学・企業戦略・製品構造・AI技術・量子・材料・投資** といった視点から、  
+半導体を中心とする現代テクノロジー産業を多角的に探究するための **応用教材群** です。
+
+- 🌍 **技術と社会構造** の接点に注目  
+- 🧠 **ChatGPT × Gemini × Claude** による探究型学習を支援  
+- 🧑‍🏫 **教育・戦略・技術設計** に活用可能なオープン教材
+
+---
+
+🇺🇸 **[English READMEはこちら](./index_en.md)**
+
+---
+
+## 🎯 **本教材の目的**
+
+| 観点 | 解説 |
+|------|------|
+| 🧭 **背景理解** | 技術の背後にある **地政学・経済・政策的文脈** を読み解く |
+| 🧠 **思考力の強化** | 技術選定・製品設計・戦略判断における「なぜ」を深掘りする |
+| 🔄 **基礎との接続** | **Edusemi**（基礎技術）と **現実の産業構造** を橋渡しする教材設計 |
+
+> 🆕 **注目トピック**：**Rapidusによる2nm試作チップ動作確認**（2025年7月）により、  
+> 日本が **先端ロジック製造分野** に再挑戦する実例を教材として解説しています。  
+> 詳しくは [`rapidus/README.md`](./rapidus/README.md) を参照ください。
+
+---
+
+## 📚 **コンテンツカテゴリ一覧**
+
+| カテゴリ | 概要 | リンク |
+|----------|------|--------|
+| 🧪 **材料技術** | **Si / SiC / GaN** などの比較・応用選定 | [materials/](./materials/) |
+| ⚛️ **先端技術** | **量子・Cryo・次世代構造** の探究 | [quantum-semiconductor/](./quantum-semiconductor/) |
+| 🤖 **AI** | **LLM活用とAIアクセラレータ技術** | [ai-semiconductor/](./ai-semiconductor/), [ai-tools-comparison/](./ai-tools-comparison/) |
+| 🏭 **産業** | **TSMCやAppleの構造戦略・製造復興** | [tsmc-insight/](./tsmc-insight/), [rapidus/](./rapidus/) |
+| 🌐 **地政学** | **半導体を巡る国家間競争と輸出管理** | [geopolitics/](./geopolitics/) |
+| 💹 **投資** | **半導体投資・企業評価・設備計画** | [investment/](./investment/) |
+| 🗂️ **アーカイブ** | **立ち上げ技術や産業史資料の記録群（例：DRAM 1998）** | [archive/](./archive/) |
+
+---
+
+## 🔗 関連構造カテゴリ（詳細マップ）
+
+📌 **本教材の中核カテゴリ「産業構造マップ（industry/）」は、EDA・装置・材料・解析・デバイスなど、半導体の実際のサプライチェーン構造を体系的に整理・可視化するセクションです。**
+
+より詳細な構造的理解のために、以下のカテゴリをご参照ください：
+
+| カテゴリ | 概要 | リンク |
+|----------|------|--------|
+| 🏭 **産業構造マップ（全体概要）** | 設計〜製造〜検査までを構造的に俯瞰 | [industry/README.md](./industry/README.md) |
+| 🧠 **EDAツールベンダー** | 自動化設計・検証・P&R・TCAD | [industry/eda-tools/](./industry/eda-tools/) |
+| 🖼️ **フォトマスク関連** | マスクブランクス・OPC・EUV描画など | [industry/photomasks/](./industry/photomasks/) |
+| ⚙️ **前工程：装置メーカー** | 成膜・露光・洗浄・エッチングなど | [industry/front-equipments/](./industry/front-equipments/) |
+| 🧪 **前工程：材料メーカー** | シリコンウェーハ・ガス・レジストなど | [industry/front-materials/](./industry/front-materials/) |
+| 🏗️ **後工程：装置メーカー** | ダイシング・ボンディング・パッケージ装置など | [industry/back-equipments/](./industry/back-equipments/) |
+| 🧯 **後工程：材料メーカー** | パッケージ基板・封止樹脂・配線材など | [industry/back-materials/](./industry/back-materials/) |
+| 🔬 **解析・計測装置** | CD-SEM・欠陥検査・膜厚計測など | [industry/metrology-tools/](./industry/metrology-tools/) |
+| 💾 **デバイスメーカー** | ファウンドリ・IDM・ファブレスなど | [industry/device-makers/](./industry/device-makers/) |
+
+---
+
+## 👥 **対象読者と活用シーン**
+
+| 対象 | 主なニーズ |
+|------|-------------|
+| 🧑‍🔬 **技術者（開発・製造）** | 実務の背景にある **戦略的・社会的構造** への理解（例：**Rapidusの事例**） |
+| 🧑‍💼 **マネジメント・企画部門** | **技術選定・産業調査・海外戦略** の判断材料 |
+| 🧑‍🏫 **教育者・学生** | 教科書にない **産業と社会構造** を学ぶ教材として活用 |
+
+---
+
+## 🧠 **AIツールとの連携活用（補足）**
+
+| 役割 | 使用ツール | 活用ポイント |
+|------|------------|--------------|
+| 🧩 **メイン生成** | **ChatGPT 4o** | 教材構成、比較表・演習生成、構造の可視化 |
+| 🔍 **情報検索** | **Gemini 1.5 Pro** | **地政学・材料動向・海外技術** の調査支援 |
+| ✒️ **文章整形** | **Claude 3 Opus** | **長文整理・報告構成・語調調整** など |
+
+> 🔗 各ツールの使い分けと活用例は [`ai-tools-comparison/`](./ai-tools-comparison/) に収録。
+
+---
+
+## 🧩 **活用方法**
+
+- **教育・研修**：テーマ別スライド化／ノート教材として活用  
+- **技術戦略支援**：会議・分析時の資料ベースとして使用可能  
+- **探究学習**：**ChatGPTと組み合わせた対話型・構造的学習** に対応
+
+---
+
+## 📄 **ライセンス**
+
+- 本教材は [**MIT License**](https://opensource.org/licenses/MIT) に基づき、  
+  **非営利・教育目的での自由な再利用・編集・派生利用を歓迎**します。
+
+> ※ 各ディレクトリ内の見解は、**執筆者個人の調査・思考** に基づきます。
+
+---
+
+## 🔗 **関連教材・プロジェクト**
+
+| プロジェクト | 内容概要 |
+|--------------|-----------|
+| [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) | **半導体基礎技術教材**：設計・物性・PDK・テストなど |
+| [**EduController**](https://github.com/Samizo-AITL/EduController) | **制御理論とAI制御を統合した教材**（全9章） |
+| [**AITL-H**](https://github.com/Samizo-AITL/AITL-H) | **知能制御アーキテクチャ（FSM＋PID＋LLM構造）** |
+
+---
+
+## 👤 **執筆者情報 / Author**
+
+**三溝 真一（Shinichi Samizo）**  
+- **信州大学大学院 電気電子工学 修了**  
+- 元 **セイコーエプソン**株式会社 技術者（1997年〜）
+
+📌 **経験領域**：  
+- **半導体デバイス（ロジック・メモリ・高耐圧混載）**  
+- **インクジェット薄膜ピエゾアクチュエータ**  
+- **PrecisionCoreプリントヘッド製品化・BOM管理・ISO教育**
+
+📬 **連絡先**  
+- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 [https://x.com/shin3t72](https://x.com/shin3t72)  
+- 💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+
+---
+
+> **「技術」と「世界の構造」をつなげて理解し、未来への戦略を考えるための教材です。**  
+> 教育・研究・技術戦略の現場でぜひご活用ください。
+
+---
 
