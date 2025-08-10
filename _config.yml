@@ -1,0 +1,22 @@
+title: Edusemi-Plus
+description: 半導体産業と社会・AIをつなぐ応用教材
+markdown: kramdown
+theme: minima
+
+kramdown:
+  input: GFM
+  parse_block_html: true
+  hard_wrap: false
+
+# リポジトリサイトの場合は baseurl を必ず設定
+# 例: https://samizo-aitl.github.io/Edusemi-Plus/
+url: "https://samizo-aitl.github.io"
+baseurl: "/Edusemi-Plus"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+permalink: pretty
