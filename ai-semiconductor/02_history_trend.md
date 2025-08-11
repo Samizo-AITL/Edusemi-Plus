@@ -5,77 +5,128 @@ title: 第2章：AIの歴史とブームの背景
 
 ---
 
-# 第2章：AIの歴史とブームの背景
+# 第2章：AIの歴史とブームの背景  
+**Chapter 2: History of AI and the Background of Its Booms**
 
-## 2.1 初期のAIとその限界
+---
+
+## 2.1 初期のAIとその限界  
+**Early AI and Its Limitations**
 
 人工知能（AI）の研究は1950年代に端を発します。  
-当初は論理推論やルールベースのエキスパートシステムが主流で、特定の分野では実用化も試みられました。
+当初は論理推論やルールベースのエキスパートシステムが主流で、特定分野では実用化も試みられました。
 
-- **1956年：ダートマス会議**  
-  「Artificial Intelligence」という用語が初めて提唱される。
-- **1980年代：エキスパートシステムの台頭**  
-  医療・製造などへの応用が進むが、運用コストやスケーラビリティの課題が顕在化。
-- その結果、AIへの過度な期待が失望に転じ、**「AIの冬」**と呼ばれる停滞期が二度訪れた。
+The study of Artificial Intelligence began in the 1950s.  
+Early AI was dominated by logic-based reasoning and rule-based expert systems, with some attempts at practical applications.
 
-> 初期AIはルール駆動型であり、柔軟性や学習能力に乏しかった。
+- **1956年：ダートマス会議 / Dartmouth Conference**  
+  「Artificial Intelligence」という用語が初めて提唱される。  
+  The term "Artificial Intelligence" was first proposed.
+
+- **1980年代：エキスパートシステムの台頭 / Rise of Expert Systems**  
+  医療・製造などへの応用が進むが、運用コストやスケーラビリティの課題が顕在化。  
+  Applied in areas like healthcare and manufacturing, but issues with cost and scalability emerged.
+
+- その結果、AIへの過度な期待が失望に転じ、**「AIの冬」**と呼ばれる停滞期が二度訪れた。  
+  This led to the so-called **"AI winters"**, periods of stagnation due to unmet expectations.
+
+> **JP:** 初期AIはルール駆動型で柔軟性や学習能力に乏しかった。  
+> **EN:** Early AI was rule-driven, lacking flexibility and learning capability.
 
 ---
 
-## 2.2 深層学習の登場とGPUの台頭
+## 2.2 深層学習の登場とGPUの台頭  
+**The Emergence of Deep Learning and the Rise of GPUs**
 
 2006年、Hintonらの研究により「深層学習（Deep Learning）」が再評価され始め、  
-2012年のImageNetコンペにて**AlexNet**が圧倒的な成績を収めたことで、AIは新たな転機を迎えました。
+2012年のImageNetコンペで **AlexNet** が圧倒的な成果を収めたことで新たなAIブームが到来しました。
 
-### 🔑 技術的ブレイクスルー
+In 2006, research by Hinton and others revived interest in "Deep Learning,"  
+and in 2012, **AlexNet** achieved a breakthrough performance in the ImageNet competition, sparking a new AI boom.
 
-- **演算性能の壁を打破**するため、並列演算に優れた **GPU** が活用され始める。
-- アルゴリズム面では、**ReLU, Dropout, BatchNorm** などの工夫により学習効率が向上。
-- **大量データ × 高性能計算 × 高度なアルゴリズム** の三位一体が成果に直結。
+### 🔑 技術的ブレイクスルー / Key Technical Breakthroughs
 
-> GPUはもともとグラフィックス用だったが、深層学習に最適な汎用アクセラレータとして再定義された。
+- **演算性能の壁を打破 / Breaking the Computational Barrier**  
+  並列演算に優れた **GPU** が深層学習に活用され始める。  
+  Highly parallel **GPUs** began to be used for deep learning.
 
----
+- **アルゴリズム革新 / Algorithmic Innovations**  
+  ReLU, Dropout, BatchNorm などで学習効率が飛躍的に向上。  
+  Techniques like ReLU, Dropout, and BatchNorm greatly improved training efficiency.
 
-## 2.3 現在のブームと大規模言語モデル（LLM）
+- **データ×計算×アルゴリズムの三位一体 / Data × Compute × Algorithm Synergy**  
+  大量データ・高性能計算・高度なアルゴリズムの組み合わせが成果を生んだ。  
+  The combination of large datasets, powerful computing, and advanced algorithms drove results.
 
-2020年代に入り、AIの主戦場は画像認識から自然言語処理へと拡大。  
-中でも、**大規模言語モデル（LLM）**はAIの認知能力を飛躍的に高め、ブームの中核となっています。
-
-### 🌍 LLMの特徴と要件
-
-- 代表例：**GPT-4（OpenAI）**、**Claude（Anthropic）**、**Gemini（Google）**
-- パラメータ数は **数千億〜数兆規模** に到達。
-- トレーニングには **莫大な演算量・ストレージ・電力** が必要。
-- 推論においても **レイテンシ・帯域・消費電力** がボトルネックとなる。
-
-### 💡 ハードウェア依存の高まり
-
-- モデルの性能向上には、**専用アクセラレータ（GPU, TPU, ASICなど）** が不可欠。
-- LLMは、**ソフトウェアとハードウェアの共進化**の象徴である。
+> **JP:** GPUはもともとグラフィックス向けだったが、汎用AIアクセラレータへと進化した。  
+> **EN:** Originally for graphics, GPUs evolved into general-purpose AI accelerators.
 
 ---
 
-## 2.4 参入企業の多様化と市場拡大
+## 2.3 現在のブームと大規模言語モデル（LLM）  
+**Current Boom and Large Language Models (LLMs)**
 
-AI市場の拡大に伴い、計算インフラの重要性が増し、  
-多くの企業が **AI専用ハードウェアの開発競争** に参入しています。
+2020年代に入り、AIの主戦場は画像認識から自然言語処理へ拡大。  
+特に **大規模言語モデル（LLM）** がAIの能力を飛躍的に高めています。
 
-| 企業 | 戦略・特徴 |
-|------|------------|
-| **NVIDIA** | GPU主導のAI計算市場を確立。CUDAで開発エコシステムを囲い込み。 |
-| **Google** | TPUを設計し、クラウドAI処理の効率化を追求。 |
-| **Apple** | スマートフォン向けNeural Engineを自社SoCに統合。 |
-| **AMD** | MIシリーズでデータセンターAI市場を狙う。 |
-| **Intel** | Habana LabsやNervanaなどの買収を通じAI強化。 |
-| **Cerebras, Groq, Tenstorrent** | LLM・推論特化の新興AIチップ企業。極端な性能追求で差別化。 |
+In the 2020s, AI’s focus expanded from image recognition to natural language processing,  
+with **Large Language Models (LLMs)** greatly enhancing AI capabilities.
 
-> AIブームは、ソフトウェア革新だけでなく「ハードウェア主導のイノベーション競争」としても展開されている。
+### 🌍 LLMの特徴と要件 / Features and Requirements of LLMs
+
+- 代表例 / Examples: **GPT-4 (OpenAI)**, **Claude (Anthropic)**, **Gemini (Google)**
+- パラメータ数は数千億〜数兆規模。  
+  Parameter counts range from hundreds of billions to trillions.
+- 学習には莫大な演算量・ストレージ・電力が必要。  
+  Training requires enormous compute, storage, and power.
+- 推論でもレイテンシ・帯域・電力が課題。  
+  Inference faces challenges in latency, bandwidth, and power.
+
+### 💡 ハードウェア依存の高まり / Rising Hardware Dependence
+
+- 高性能モデルの実現には専用アクセラレータ（GPU, TPU, ASICなど）が必須。  
+  Specialized accelerators (GPUs, TPUs, ASICs) are essential for high-performance models.
+- LLMはソフトとハードの共進化の象徴。  
+  LLMs symbolize the co-evolution of software and hardware.
 
 ---
 
-## ✅ 本章のまとめ
+## 2.4 参入企業の多様化と市場拡大  
+**Diversification of Players and Market Expansion**
 
-- AIは1950年代から数度のブームと冬を繰り返し、**深層学習の復活とGPUの台頭**で飛躍を遂げた。  
-- 現在は、**大規模言語モデル（LLM）**とそれを支える**演算インフラの革新**がブームを加速させている。  
-- 多くの企業がAIハードウェア開発に参入し、**技術・市場・競争の焦点が半導体へとシフト**している。
+AI市場の成長に伴い、多くの企業がAI専用ハードウェアの開発に参入しています。
+
+With the growth of the AI market, many companies have entered the AI-specific hardware race.
+
+| 企業 / Company | 戦略・特徴 / Strategy & Features |
+|---------------|----------------------------------|
+| **NVIDIA** | GPU主導のAI計算市場を確立、CUDAで開発者囲い込み / Established GPU-led AI compute market, locked in developers with CUDA |
+| **Google** | TPU開発でクラウドAI処理効率化 / Improved cloud AI efficiency with TPU |
+| **Apple** | Neural EngineをSoCに統合 / Integrated Neural Engine into SoC |
+| **AMD** | MIシリーズでデータセンターAI市場を狙う / Targeted data center AI with MI series |
+| **Intel** | 買収でAI強化（Habana Labs, Nervana） / Strengthened AI via acquisitions |
+| **Cerebras, Groq, Tenstorrent** | LLM特化の新興企業 / Startups focusing on LLM-optimized chips |
+
+> **JP:** AIブームは「ハードウェア主導の競争」でもある。  
+> **EN:** The AI boom is also a "hardware-driven competition."
+
+---
+
+## ✅ 本章のまとめ / Chapter Summary
+
+- **JP:** AIは1950年代から数度のブームと冬を繰り返し、深層学習とGPUで飛躍を遂げた。  
+- **EN:** Since the 1950s, AI has gone through cycles of booms and winters, with deep learning and GPUs driving its recent leap.
+
+- **JP:** 現在はLLMと演算インフラ革新がブームを加速。  
+- **EN:** Today, LLMs and innovations in computing infrastructure are accelerating the boom.
+
+- **JP:** 多くの企業がAIハード開発に参入し、半導体が技術・市場の中心となっている。  
+- **EN:** Many companies are entering AI hardware, making semiconductors central to technology and markets.
+
+---
+
+## 🔙 前後リンク / Navigation
+
+- **◀ 前節 / Previous:** [第1章：はじめに — AI半導体の重要性と全体像](01_introduction.md)  
+- **▶ 次節 / Next:** [第3章：主要企業と市場動向](03_key_players.md)  
+- **📄 本シリーズREADME:** [ai-semiconductor README](../README.md)
