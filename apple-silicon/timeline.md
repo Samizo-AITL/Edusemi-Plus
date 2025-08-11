@@ -1,3 +1,10 @@
+---
+layout: default
+title: 
+---
+
+---
+
 # 🗓️ Apple Aチップ年表（A4〜A18 Pro）
 
 Appleは2010年に初の自社設計SoC「A4」を発表し、  
