@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 
+title: Vol.1｜なぜ地政学が半導体に影響するのか
 ---
 
 ---
