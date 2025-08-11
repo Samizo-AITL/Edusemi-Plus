@@ -3,6 +3,8 @@ layout: default
 title: 👥 5.5　人材採用・教育制度・大学連携と知的資産化構造 / Talent Recruitment, Education Systems, and Intellectual Asset Development
 ---
 
+---
+
 # 👥 5.5：人材採用・教育制度・大学連携と知的資産化構造  
 **5.5: Talent Recruitment, Education Systems, and Intellectual Asset Development**
 
