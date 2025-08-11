@@ -6,8 +6,7 @@ title: 半導体株式市場の全体像 / Overview of the Semiconductor Stock M
 ---
 
 # 📈 半導体株式市場の全体像  
-# 📈 Overview of the Semiconductor Stock Market  
-© Shinichi Samizo, 2025
+**📈 Overview of the Semiconductor Stock Market**  
 
 ---
 
@@ -28,7 +27,7 @@ are key benchmarks for tracking semiconductor-related stocks.
 ---
 
 ## 1️⃣ NASDAQにおける半導体企業の位置付け  
-## 1️⃣ Position of Semiconductor Companies in the NASDAQ
+**1️⃣ Position of Semiconductor Companies in the NASDAQ**
 
 - **NASDAQ（ナスダック）**は、テクノロジー企業が多数上場する米国の株式市場。  
   The **NASDAQ** is a U.S. stock exchange with a high concentration of technology companies.  
@@ -45,7 +44,7 @@ are key benchmarks for tracking semiconductor-related stocks.
 ---
 
 ## 2️⃣ SOX指数（PHLX Semiconductor Sector Index）  
-## 2️⃣ The SOX Index (PHLX Semiconductor Sector Index)
+**2️⃣ The SOX Index (PHLX Semiconductor Sector Index)**
 
 - **SOX指数**は、NASDAQ OMXが算出する**半導体セクター専用指数**です。  
   The **SOX Index** is a semiconductor-focused index calculated by NASDAQ OMX.  
@@ -62,7 +61,7 @@ are key benchmarks for tracking semiconductor-related stocks.
 ---
 
 ## 3️⃣ 世界の主要半導体株指数の比較  
-## 3️⃣ Comparison of Major Global Semiconductor Stock Indices
+**3️⃣ Comparison of Major Global Semiconductor Stock Indices**
 
 | 指数名 / Index Name  | 構成銘柄数 / Constituents | 主な構成企業 / Key Companies     | 特徴 / Features                  |
 |----------------------|---------------------------|-----------------------------------|-----------------------------------|
