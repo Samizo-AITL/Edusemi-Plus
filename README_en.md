@@ -35,14 +35,15 @@ designed to explore the semiconductor industry through diverse perspectives incl
 ## 📚 **Content Categories**
 
 | **Category** | **Summary** | **Link** |
-|--------------|-------------|----------|
-| 🧪 **Materials** | Comparison and application of **Si, SiC, GaN, Diamond** | [materials](https://samizo-aitl.github.io/Edusemi-Plus/materials/index.html) |
-| ⚛️ **Advanced Technologies** | Exploration of **quantum**, **Cryo**, and **emerging structures** | [quantum-semiconductor](https://samizo-aitl.github.io/Edusemi-Plus/quantum-semiconductor/index.html) |
-| 🤖 **AI** | **LLM integration** and **AI accelerator technologies** | [ai-semiconductor](https://samizo-aitl.github.io/Edusemi-Plus/ai-semiconductor/index.html), [ai-tools-comparison](https://samizo-aitl.github.io/Edusemi-Plus/ai-tools-comparison/index.html) |
-| 🏭 **Industry** | Strategy and fabrication insights (**TSMC, Apple, Rapidus**) | [tsmc-insight](https://samizo-aitl.github.io/Edusemi-Plus/tsmc-insight/index.html), [rapidus](https://samizo-aitl.github.io/Edusemi-Plus/rapidus/index.html) |
-| 🌐 **Geopolitics** | **Global competition** and **export control** around semiconductors | [geopolitics](https://samizo-aitl.github.io/Edusemi-Plus/geopolitics/index.html) |
-| 💹 **Investment** | **Capital expenditures**, **market players**, **risk evaluation** | [investment](https://samizo-aitl.github.io/Edusemi-Plus/investment/index.html) |
-| 🗂️ **Archive** | Documentation of **technology ramp-up and industrial history** (e.g., DRAM 1998) | [archive](https://samizo-aitl.github.io/Edusemi-Plus/archive/index.html) |
+|---|---|---|
+| 🧪 **Materials** | Compare & apply **Si / SiC / GaN** | [materials](https://samizo-aitl.github.io/Edusemi-Plus/materials/index.html) |
+| ⚛️ **Advanced** | **Quantum, cryo, next-gen architectures** | [quantum-semiconductor](https://samizo-aitl.github.io/Edusemi-Plus/quantum-semiconductor/index.html) |
+| 🤖 **AI** | **LLMs & AI accelerators** | [ai-semiconductor](https://samizo-aitl.github.io/Edusemi-Plus/ai-semiconductor/index.html), [ai-tools-comparison](https://samizo-aitl.github.io/Edusemi-Plus/ai-tools-comparison/index.html) |
+| 🏭 **Industry** | Structures & resurgence of **TSMC/Apple** | [tsmc-insight](https://samizo-aitl.github.io/Edusemi-Plus/tsmc-insight/index.html), [rapidus](https://samizo-aitl.github.io/Edusemi-Plus/rapidus/index.html) |
+| 📱 **Apple Silicon / Apple SoC** | **Evolution & strategy of Apple A-Series SoCs** | [apple-silicon](https://samizo-aitl.github.io/Edusemi-Plus/apple-silicon/index.html) |
+| 🌐 **Geopolitics** | **Export controls & competition** | [geopolitics](https://samizo-aitl.github.io/Edusemi-Plus/geopolitics/index.html) |
+| 💹 **Investment** | **Equity & capex planning** | [investment](https://samizo-aitl.github.io/Edusemi-Plus/investment/index.html) |
+| 🗂️ **Archive** | **Ramps & history** | [archive](https://samizo-aitl.github.io/Edusemi-Plus/archive/index.html) |
 
 ---
 
