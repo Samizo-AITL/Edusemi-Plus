@@ -8,6 +8,8 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 # 📚 **Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シリーズ**  
 *Edusemi-Plus: Applied learning series connecting semiconductors with society & AI*
 
+---
+
 **JP:** **Edusemi-Plus** は、基礎教材 [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) を拡張し、**地政学・企業戦略・製品構造・AI技術・量子・材料・投資** などの視点から、現代テクノロジー産業を多角的に探究する **応用教材群** です。  
 **EN:** **Edusemi-Plus** extends **Edusemi-v4x** to explore the tech industry from **geopolitics, corporate strategy, product architecture, AI, quantum, materials, and investment** perspectives.
 
@@ -19,6 +21,23 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 ---
 
+## 📅 **最新アップデート / Latest Updates**
+- **2025-07**：Rapidus が **2nm 試作チップの動作を確認** — ケーススタディ追加  
+  **Rapidus 2nm prototype chip functional confirmation — new case study**
+- **2025-07**：**TSMC Insight** を全面更新（技術ロードマップ / 地政学 / 教育連携 / CapEx）
+
+---
+
+## 🌟 **特集コンテンツ / Featured Contents**
+
+| 特集 | 概要 | Link |
+|---|---|---|
+| 🏭 **TSMC Insight** | 技術ロードマップ・地政学・サプライチェーン・R&D・教育連携まで、TSMCを多角的に分析。<br>Multi-angle analysis of TSMC (tech, geopolitics, supply chain, R&D, education). | [▶ 開く / Open](./tsmc-insight/index.html) |
+| 🚀 **Rapidus 2nm Case Study** | 北海道・千歳拠点の2nm挑戦。GAA・IBM連携・国内製造基盤の再構築を追う。<br>Japan’s 2nm challenge: GAA, IBM collaboration, domestic manufacturing. | [▶ 開く / Open](./rapidus/index.html) |
+| 🍏 **Apple Silicon Evolution** | AシリーズSoCの設計思想・N3/N3E移行・NPUの役割を整理。<br>Design intent, N3/N3E transition, and NPU role in A-series. | [▶ 開く / Open](./apple-silicon/index.html) |
+
+---
+
 ## 🎯 **本教材の目的 / Objectives**
 
 |  | **JP（日本語）** | **EN (English)** |
@@ -27,8 +46,8 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 | 🧠 **思考力 / Reasoning** | 技術選定・製品設計・戦略判断の「**なぜ**」を深掘り | Dive into the "**why**" of tech, design, and strategy |
 | 🔄 **基礎接続 / Bridging** | **Edusemi（基礎）** と **産業構造** を橋渡し | Bridge **Edusemi (fundamentals)** with **industry structure** |
 
-> 🆕 **JP:** **Rapidusによる2nm試作チップ動作確認（2025年7月）** を教材化。詳しくは **[Rapidus](https://samizo-aitl.github.io/Edusemi-Plus/rapidus/index.html)**。  
-> 🆕 **EN:** **Rapidus: 2nm prototype chip functional confirmation (Jul 2025)** covered as a case study. See **[Rapidus](https://samizo-aitl.github.io/Edusemi-Plus/rapidus/index.html)**.
+> 🆕 **JP:** Rapidus の 2nm ケーススタディは **[こちら](./rapidus/index.html)**。  
+> 🆕 **EN:** Rapidus 2nm case study **[here](./rapidus/index.html)**.
 
 ---
 
@@ -36,14 +55,14 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 | **カテゴリ / Category** | **概要（JP）** | **Summary (EN)** | **Link** |
 |---|---|---|---|
-| 🧪 **材料技術 / Materials** | **Si / SiC / GaN** の比較・応用 | Compare & apply **Si / SiC / GaN** | [materials](https://samizo-aitl.github.io/Edusemi-Plus/materials/index.html) |
-| ⚛️ **先端技術 / Advanced** | **量子・Cryo・次世代構造** | **Quantum, cryo, next-gen architectures** | [quantum-semiconductor](https://samizo-aitl.github.io/Edusemi-Plus/quantum-semiconductor/index.html) |
-| 🤖 **AI / AI** | **LLM活用・AIアクセラレータ** | **LLMs & AI accelerators** | [ai-semiconductor](https://samizo-aitl.github.io/Edusemi-Plus/ai-semiconductor/index.html), [ai-tools-comparison](https://samizo-aitl.github.io/Edusemi-Plus/ai-tools-comparison/index.html) |
-| 🏭 **産業 / Industry** | **TSMC / Apple の構造・復興** | Structures & resurgence of **TSMC/Apple** | [tsmc-insight](https://samizo-aitl.github.io/Edusemi-Plus/tsmc-insight/index.html), [rapidus](https://samizo-aitl.github.io/Edusemi-Plus/rapidus/index.html) |
-| 📱 **Apple Silicon / Apple SoC** | **Apple Aチップの進化と戦略** | **Evolution & strategy of Apple A-Series SoCs** | [apple-silicon](https://samizo-aitl.github.io/Edusemi-Plus/apple-silicon/index.html) |
-| 🌐 **地政学 / Geopolitics** | **輸出管理・国家間競争** | **Export controls & competition** | [geopolitics](https://samizo-aitl.github.io/Edusemi-Plus/geopolitics/index.html) |
-| 💹 **投資 / Investment** | **企業評価・設備計画** | **Equity & capex planning** | [investment](https://samizo-aitl.github.io/Edusemi-Plus/investment/index.html) |
-| 🗂️ **アーカイブ / Archive** | **立ち上げ技術・産業史** | **Ramps & history** | [archive](https://samizo-aitl.github.io/Edusemi-Plus/archive/index.html) |
+| 🧪 **材料技術 / Materials** | **Si / SiC / GaN** の比較・応用 | Compare & apply **Si / SiC / GaN** | [materials](./materials/index.html) |
+| ⚛️ **先端技術 / Advanced** | **量子・Cryo・次世代構造** | **Quantum, cryo, next-gen architectures** | [quantum-semiconductor](./quantum-semiconductor/index.html) |
+| 🤖 **AI / AI** | **LLM活用・AIアクセラレータ** | **LLMs & AI accelerators** | [ai-semiconductor](./ai-semiconductor/index.html), [ai-tools-comparison](./ai-tools-comparison/index.html) |
+| 🏭 **産業 / Industry** | **TSMC / Apple の構造・復興** | Structures & resurgence of **TSMC/Apple** | [tsmc-insight](./tsmc-insight/index.html), [rapidus](./rapidus/index.html) |
+| 📱 **Apple Silicon / Apple SoC** | **Apple Aチップの進化と戦略** | **Evolution & strategy of Apple A-Series SoCs** | [apple-silicon](./apple-silicon/index.html) |
+| 🌐 **地政学 / Geopolitics** | **輸出管理・国家間競争** | **Export controls & competition** | [geopolitics](./geopolitics/index.html) |
+| 💹 **投資 / Investment** | **企業評価・設備計画** | **Equity & capex planning** | [investment](./investment/index.html) |
+| 🗂️ **アーカイブ / Archive** | **立ち上げ技術・産業史** | **Ramps & history** | [archive](./archive/index.html) |
 
 ---
 
@@ -51,15 +70,15 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 | **カテゴリ / Category** | **JP（概要）** | **EN (Summary)** | **Link** |
 |---|---|---|---|
-| 🏭 **全体概要 / Overview** | 設計〜製造〜検査の俯瞰 | End-to-end overview | [industry](https://samizo-aitl.github.io/Edusemi-Plus/industry/index.html) |
-| 🧠 **EDAツール / EDA Tools** | 自動化設計・検証・P&R・TCAD | EDA vendors & flows | [industry/eda-tools](https://samizo-aitl.github.io/Edusemi-Plus/industry/eda-tools/index.html) |
-| 🖼️ **フォトマスク / Photomasks** | ブランクス・OPC・EUV描画 | Blanks, OPC, EUV write | [industry/photomasks](https://samizo-aitl.github.io/Edusemi-Plus/industry/photomasks/index.html) |
-| ⚙️ **前工程装置 / Front Equip.** | 成膜・露光・洗浄・エッチング | Depo, litho, clean, etch | [industry/front-equipments](https://samizo-aitl.github.io/Edusemi-Plus/industry/front-equipments/index.html) |
-| 🧪 **前工程材料 / Front Materials** | Siウェーハ・ガス・レジスト | Wafers, gases, resists | [industry/front-materials](https://samizo-aitl.github.io/Edusemi-Plus/industry/front-materials/index.html) |
-| 🏗️ **後工程装置 / Back Equip.** | ダイシング・ボンディング等 | Dicing, bonding, pkging | [industry/back-equipments](https://samizo-aitl.github.io/Edusemi-Plus/industry/back-equipments/index.html) |
-| 🧯 **後工程材料 / Back Materials** | 基板・封止樹脂・配線材 | Substrates, mold, wire | [industry/back-materials](https://samizo-aitl.github.io/Edusemi-Plus/industry/back-materials/index.html) |
-| 🔬 **解析計測 / Metrology** | CD-SEM・欠陥検査・膜厚 | CD-SEM, defect, thickness | [industry/metrology-tools](https://samizo-aitl.github.io/Edusemi-Plus/industry/metrology-tools/index.html) |
-| 💾 **デバイス / Devices** | ファウンドリ・IDM・ファブレス | Foundry, IDM, fabless | [industry/device-makers](https://samizo-aitl.github.io/Edusemi-Plus/industry/device-makers/index.html) |
+| 🏭 **全体概要 / Overview** | 設計〜製造〜検査の俯瞰 | End-to-end overview | [industry](./industry/index.html) |
+| 🧠 **EDAツール / EDA Tools** | 自動化設計・検証・P&R・TCAD | EDA vendors & flows | [industry/eda-tools](./industry/eda-tools/index.html) |
+| 🖼️ **フォトマスク / Photomasks** | ブランクス・OPC・EUV描画 | Blanks, OPC, EUV write | [industry/photomasks](./industry/photomasks/index.html) |
+| ⚙️ **前工程装置 / Front Equip.** | 成膜・露光・洗浄・エッチング | Depo, litho, clean, etch | [industry/front-equipments](./industry/front-equipments/index.html) |
+| 🧪 **前工程材料 / Front Materials** | Siウェーハ・ガス・レジスト | Wafers, gases, resists | [industry/front-materials](./industry/front-materials/index.html) |
+| 🏗️ **後工程装置 / Back Equip.** | ダイシング・ボンディング等 | Dicing, bonding, pkging | [industry/back-equipments](./industry/back-equipments/index.html) |
+| 🧯 **後工程材料 / Back Materials** | 基板・封止樹脂・配線材 | Substrates, mold, wire | [industry/back-materials](./industry/back-materials/index.html) |
+| 🔬 **解析計測 / Metrology** | CD-SEM・欠陥検査・膜厚 | CD-SEM, defect, thickness | [industry/metrology-tools](./industry/metrology-tools/index.html) |
+| 💾 **デバイス / Devices** | ファウンドリ・IDM・ファブレス | Foundry, IDM, fabless | [industry/device-makers](./industry/device-makers/index.html) |
 
 ---
 
@@ -81,7 +100,7 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 | 🔍 **情報検索 / Search** | **Gemini 1.5 Pro** | 地政学・材料・海外技術 / Geopolitics, materials, global tech |
 | ✒️ **整形 / Polishing** | **Claude 3 Opus** | 長文整理・報告構成 / Long-form editing, reports |
 
-> 🔗 **Use cases / 使い分け**： [ai-tools-comparison](https://samizo-aitl.github.io/Edusemi-Plus/ai-tools-comparison/index.html)
+> 🔗 **Use cases / 使い分け**： [ai-tools-comparison](./ai-tools-comparison/index.html)
 
 ---
 
