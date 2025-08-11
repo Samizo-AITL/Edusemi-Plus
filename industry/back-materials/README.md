@@ -1,5 +1,12 @@
+---
+layout: default
+title: 後工程：装置メーカー｜パッケージと接続を担う生産基盤 
+---
+
+---
+
 # 🧯 後工程：材料メーカー｜パッケージ性能を左右する素材群  
-# 🧯 Back-End Materials | Materials Defining Packaging Performance
+**🧯 Back-End Materials | Materials Defining Packaging Performance**
 
 **本ディレクトリでは、半導体後工程におけるパッケージング・接続に使用される材料と、その主要サプライヤーを整理します。**  
 **This directory summarizes the materials used in semiconductor back-end processes such as packaging and interconnects, along with their leading suppliers.**
@@ -10,7 +17,7 @@
 ---
 
 ## 📚 主な材料領域と企業分類  
-## 📚 Key Material Categories and Leading Vendors
+** 📚 Key Material Categories and Leading Vendors**
 
 | 材料カテゴリ | 代表企業 | 用途例 |
 |--------------|----------|--------|
@@ -23,7 +30,7 @@
 ---
 
 ## 🧩 材料とパッケージ特性の関係  
-## 🧩 Materials and Packaging Properties
+**🧩 Materials and Packaging Properties**
 
 各材料は、以下のような**パッケージ特性の実現に直接貢献**します：  
 Each material contributes to critical packaging features such as:
@@ -36,7 +43,7 @@ Each material contributes to critical packaging features such as:
 ---
 
 ## 🔍 教材活用のヒント  
-## 🔍 Learning & Exploration Ideas
+**🔍 Learning & Exploration Ideas**
 
 - **FC-BGAとRDL構造で用いられる基板材料の違い**を整理しよう  
 - **熱拡散性の高い封止樹脂の工夫と構造**を調べてみよう  
@@ -45,7 +52,7 @@ Each material contributes to critical packaging features such as:
 ---
 
 ## 📎 関連カテゴリ  
-## 📎 Related Categories
+**📎 Related Categories**
 
 - [🏗️ back-equipments/](../back-equipments/)：材料の適用先装置との関係  
 - [💾 device-makers/](../device-makers/)：パッケージ形態ごとの採用構造  
@@ -53,13 +60,22 @@ Each material contributes to critical packaging features such as:
 
 ---
 
-## 📄 ライセンス  
-## 📄 License
-
-MIT License に基づき、非営利・教育目的での自由な利用・改変・共有を歓迎します。  
-This content is released under the MIT License, and is freely available for non-commercial and educational reuse.
+**後工程材料は、目には見えないが性能を支える最終要素です。熱・電気・構造の観点から素材を評価しましょう。**  
+**Back-end materials are invisible enablers of performance. Evaluate them from thermal, electrical, and structural perspectives.**
 
 ---
 
-**後工程材料は、目には見えないが性能を支える最終要素です。熱・電気・構造の観点から素材を評価しましょう。**  
-**Back-end materials are invisible enablers of performance. Evaluate them from thermal, electrical, and structural perspectives.**
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
+
+---
+
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
