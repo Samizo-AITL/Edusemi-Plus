@@ -1,3 +1,10 @@
+---
+layout: default
+title: 前工程：装置メーカー｜原子レベルの加工を支える中核機器  
+---
+
+---
+
 # 🧪 ALD（原子層堆積法）の基礎と装置構造 | Atomic Layer Deposition Mechanism
 
 本ページでは、ALD（Atomic Layer Deposition）の原理、プロセス構成、装置の特徴について解説します。  
