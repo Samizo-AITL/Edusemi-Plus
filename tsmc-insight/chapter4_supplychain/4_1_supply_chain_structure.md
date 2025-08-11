@@ -3,6 +3,8 @@ layout: default
 title: 🏭 4.1 サプライチェーンの基本構造 / 4.1 Basic Supply Chain Structure
 ---
 
+---
+
 # 🏭 4.1 サプライチェーンの基本構造  
 **4.1 Basic Supply Chain Structure**
 
