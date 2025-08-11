@@ -50,25 +50,17 @@ title: ai-semiconductor – AI時代の半導体を読む
 
 ---
 
-## 📄 ライセンス
+## 👤 **著者・ライセンス / Author & License**
 
-- 本資料は **MITライセンス** に基づいて公開されています。  
-- 教育・非営利目的での利用・引用・翻案を歓迎します。  
-- 引用時は以下のように出典を明記してください：
-
-```text
-© Shinichi Samizo, Edusemi-Plus
-https://github.com/Samizo-AITL
-```
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
 
 ---
 
-## 👤 作成者情報
-
-Shinichi Samizo
-	•	GitHub: https://github.com/Samizo-AITL
-	•	Email: shin3t72@gmail.com
-	•	専門：AI制御アーキテクチャ、半導体設計教育、技術戦略分析
-
----
-
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
