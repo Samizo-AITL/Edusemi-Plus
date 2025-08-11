@@ -1,3 +1,10 @@
+---
+layout: default
+title: quantum-semiconductor – 次世代量子半導体の構造と展望
+---
+
+---
+
 # ⚛️ quantum-semiconductor – 次世代量子半導体の構造と展望
 
 **量子半導体**は、従来のスケーリング則の延長では到達できない、  
