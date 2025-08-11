@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🌏 第2章：ファウンドリと地政学 / Chapter 2: Foundries & Geopolitics
+title: 🌏 第2章　ファウンドリと地政学 / Chapter 2 Foundries & Geopolitics
 ---
 
 ---
