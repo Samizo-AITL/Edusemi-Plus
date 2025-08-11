@@ -15,8 +15,6 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 - 🧠 **ChatGPT × Gemini × Claude** による探究型学習を支援  
 - 🧑‍🏫 **教育・戦略・技術設計** に活用可能なオープン教材
 
----
-
 🇺🇸 **[English READMEはこちら](./index_en.md)**
 
 ---
