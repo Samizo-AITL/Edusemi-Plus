@@ -70,18 +70,17 @@ title: Materials｜半導体材料の特性と応用選定
 
 ---
 
-## 📝 ライセンス
+## 👤 **著者・ライセンス / Author & License**
 
-本カテゴリの内容は [MIT License](https://opensource.org/licenses/MIT) に準拠し、  
-**非営利・教育目的での自由な再利用・編集・翻案を歓迎**します。
-
-> ※ 各ファイル内の記述・分析は、筆者個人の技術的見解と調査に基づいています。
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
 
 ---
 
-## ✍️ 執筆者情報
-
-**三溝 真一（Shinichi Samizo）**  
-半導体構造設計・教材開発・AI統合設計支援の技術者／教育者。  
-- [GitHub: Samizo-AITL](https://github.com/Samizo-AITL)  
-- Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
