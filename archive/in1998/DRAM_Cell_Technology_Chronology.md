@@ -1,5 +1,12 @@
+---
+layout: default
+title:  DRAMセル技術の年代別進化（1M〜256M）
+---
+
+---
+
 # 📈 DRAMセル技術の年代別進化（1M〜256M）  
-# 📈 DRAM Cell Technology Evolution by Generation (1M–256M)
+**📈 DRAM Cell Technology Evolution by Generation (1M–256M)**
 
 本資料は、1Mから256M世代までのDRAMセル構造およびプロセス技術の進化を年表形式で示したものです。  
 This document outlines the evolution of DRAM cell structures and process technology from the 1M to 256M generation.
