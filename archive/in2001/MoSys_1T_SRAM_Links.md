@@ -1,3 +1,10 @@
+---
+layout: default
+title: Mosys 1T‑SRAM 技術リンク集 / MoSys 1T‑SRAM Reference Links
+---
+
+---
+
 ## 🔗 Mosys 1T‑SRAM 技術リンク集 / MoSys 1T‑SRAM Reference Links
 
 ### 📘 概要 / Overview
