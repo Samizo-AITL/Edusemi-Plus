@@ -62,14 +62,6 @@ EDA tools are deeply integrated in the following phases:
 
 ---
 
-## 📄 ライセンス  
-## 📄 License
-
-MIT License に基づき、非営利・教育目的での自由な利用・改変・共有を歓迎します。  
-This content is released under the MIT License, and is freely available for non-commercial and educational reuse.
-
----
-
 **EDAは半導体開発の知能中枢です。産業構造と設計戦略をつなぐ要素として、深く探究してください。**  
 **EDA is the intelligence hub of semiconductor development — explore how it connects architecture, tools, and industry.**
 
