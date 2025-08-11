@@ -100,5 +100,5 @@ Shinichi Samizo
 ---
 
 ## 🔙 前後リンク / Navigation
-- **◀ 前節 / Previous:** [第6章：今後の展望と課題](06_future_prospects.md)  
+- **◀ 前節 / Previous:** [第6章：今後の展望と課題](06_future_outlook.md)  
 - **📄 本シリーズREADME:** [ai-semiconductor README](../README.md)
