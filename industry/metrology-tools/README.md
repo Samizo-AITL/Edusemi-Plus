@@ -1,5 +1,12 @@
+---
+layout: default
+title: 解析・計測装置メーカー｜見えない欠陥を測る目
+---
+
+---
+
 # 🔬 解析・計測装置メーカー｜見えない欠陥を測る目  
-# 🔬 Metrology & Inspection Tools | The Eyes That See the Invisible
+**🔬 Metrology & Inspection Tools | The Eyes That See the Invisible**
 
 **本ディレクトリでは、半導体の製造・パッケージにおいて使用される**  
 **解析・計測・検査装置と、それを提供するメーカーを整理します。**  
@@ -11,7 +18,7 @@
 ---
 
 ## 📚 主な装置領域と企業分類  
-## 📚 Major Tool Domains and Leading Vendors
+**📚 Major Tool Domains and Leading Vendors**
 
 | 領域 | 代表企業 | 用途例 |
 |------|----------|--------|
@@ -24,7 +31,7 @@
 ---
 
 ## 🧩 計測装置とプロセス制御の関係  
-## 🧩 Measurement Tools in Process Control
+**🧩 Measurement Tools in Process Control**
 
 解析装置は、各製造段階における**リアルタイムフィードバックと歩留まり最適化**に不可欠です：  
 Inspection tools provide **real-time feedback for process tuning and yield enhancement**:
@@ -37,7 +44,7 @@ Inspection tools provide **real-time feedback for process tuning and yield enhan
 ---
 
 ## 🔍 教材活用のヒント  
-## 🔍 Learning & Exploration Ideas
+**🔍 Learning & Exploration Ideas**
 
 - **KLAとLasertecの装置棲み分けとEUVマスク検査の構造**を比較しよう  
 - **膜厚測定技術（XRF, XRR, SE）の原理と違い**を整理しよう  
@@ -46,7 +53,7 @@ Inspection tools provide **real-time feedback for process tuning and yield enhan
 ---
 
 ## 📎 関連カテゴリ  
-## 📎 Related Categories
+**📎 Related Categories**
 
 - [⚙️ front-equipments/](../front-equipments/)：各工程におけるフィードバックループ構築  
 - [🧪 front-materials/](../front-materials/)：膜厚・組成の適合性評価との関連  
@@ -54,13 +61,22 @@ Inspection tools provide **real-time feedback for process tuning and yield enhan
 
 ---
 
-## 📄 ライセンス  
-## 📄 License
-
-MIT License に基づき、非営利・教育目的での自由な利用・改変・共有を歓迎します。  
-This content is released under the MIT License, and is freely available for non-commercial and educational reuse.
+**解析装置は、工程と品質の間をつなぐ「フィードバックの要」です。測定精度と意味を理解することがプロセス理解の近道です。**  
+**Metrology tools form the bridge between process and quality. Mastering their precision and interpretation is key to understanding semiconductor manufacturing.**
 
 ---
 
-**解析装置は、工程と品質の間をつなぐ「フィードバックの要」です。測定精度と意味を理解することがプロセス理解の近道です。**  
-**Metrology tools form the bridge between process and quality. Mastering their precision and interpretation is key to understanding semiconductor manufacturing.**
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
+
+---
+
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
