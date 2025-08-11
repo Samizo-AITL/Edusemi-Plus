@@ -1,3 +1,10 @@
+---
+layout: default
+title: 半導体ETFと投資戦略：SOXLなどの活用法  
+---
+
+---
+
 # 📊 半導体ETFと投資戦略：SOXLなどの活用法  
 © Shinichi Samizo, 2025
 
