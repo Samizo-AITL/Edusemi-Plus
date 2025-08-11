@@ -6,8 +6,7 @@ title: geopolitics – 地政学と半導体産業 / Geopolitics and the Semicon
 ---
 
 # 🌍 geopolitics – 地政学と半導体産業  
-# 🌍 Geopolitics and the Semiconductor Industry  
-© Shinichi Samizo, 2025
+**🌍 Geopolitics and the Semiconductor Industry**  
 
 ---
 
