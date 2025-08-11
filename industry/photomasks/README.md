@@ -1,5 +1,12 @@
+---
+layout: default
+title: フォトマスク関連｜設計と製造をつなぐ光のブリッジ
+---
+
+---
+
 # 🖼️ フォトマスク関連｜設計と製造をつなぐ光のブリッジ  
-# 🖼️ Photomasks | The Optical Bridge Between Design and Manufacturing
+**🖼️ Photomasks | The Optical Bridge Between Design and Manufacturing**
 
 **本ディレクトリでは、フォトマスクに関わる主要技術・企業・工程を整理します。**  
 **This directory outlines the key technologies, companies, and processes related to photomasks.**
@@ -10,7 +17,7 @@ Photomasks serve as the **physical medium that projects layout data onto wafers 
 ---
 
 ## 📚 フォトマスク関連の主な領域と企業  
-## 📚 Major Domains and Companies in Photomask Industry
+**📚 Major Domains and Companies in Photomask Industry**
 
 | 領域 | 代表企業 | 概要 |
 |------|----------|------|
@@ -22,7 +29,7 @@ Photomasks serve as the **physical medium that projects layout data onto wafers 
 ---
 
 ## 🧩 フォトマスクの種類と構造  
-## 🧩 Mask Types and Structures
+**🧩 Mask Types and Structures**
 
 - **ArF透過型マスク**：通常の光透過構造、液浸対応あり  
 - **EUV反射型マスク**：極紫外光を反射する多層ミラー構造  
@@ -34,7 +41,7 @@ Photomasks serve as the **physical medium that projects layout data onto wafers 
 ---
 
 ## 🔍 教材活用のヒント  
-## 🔍 Learning & Exploration Ideas
+**🔍 Learning & Exploration Ideas**
 
 - **なぜASMLだけがEUV露光を供給できるのか？** → フォトマスク技術と装置の連携構造に注目  
 - **OPCとILTの違いと役割** → デザインと製造の相互最適化の本質  
@@ -43,7 +50,7 @@ Photomasks serve as the **physical medium that projects layout data onto wafers 
 ---
 
 ## 📎 関連カテゴリ  
-## 📎 Related Categories
+**📎 Related Categories**
 
 - [🧠 eda-tools/](../eda-tools/)：設計データ生成・OPC連携  
 - [⚙️ front-equipments/](../front-equipments/)：露光装置との適合性  
@@ -51,13 +58,22 @@ Photomasks serve as the **physical medium that projects layout data onto wafers 
 
 ---
 
-## 📄 ライセンス  
-## 📄 License
-
-MIT License に基づき、非営利・教育目的での自由な利用・改変・共有を歓迎します。  
-This content is released under the MIT License, and is freely available for non-commercial and educational reuse.
+**フォトマスクは、設計情報を物理世界に写し取る「光のテンプレート」です。構造・材料・検査まで含めて深く学びましょう。**  
+**Photomasks are the light-based templates that translate design into reality. Explore their structure, materials, and inspection technologies.**
 
 ---
 
-**フォトマスクは、設計情報を物理世界に写し取る「光のテンプレート」です。構造・材料・検査まで含めて深く学びましょう。**  
-**Photomasks are the light-based templates that translate design into reality. Explore their structure, materials, and inspection technologies.**
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
+
+---
+
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
