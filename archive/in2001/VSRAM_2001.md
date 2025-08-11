@@ -1,3 +1,10 @@
+---
+layout: default
+title: モバイル用疑似SRAM（VSRAM）技術アーカイブ（2001年）
+---
+
+---
+
 # 📘 モバイル用疑似SRAM（VSRAM）技術アーカイブ（2001年）  
 *Edusemi-Plus/archive/in2001/VSRAM_2001.md*  
 **最終更新: 2025-07-28**
