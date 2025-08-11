@@ -1,5 +1,5 @@
 # 🏗️ 後工程：装置メーカー｜パッケージと接続を担う生産基盤  
-# 🏗️ Back-End Equipment | Manufacturing Infrastructure for Packaging and Connectivity
+**🏗️ Back-End Equipment | Manufacturing Infrastructure for Packaging and Connectivity**
 
 **本ディレクトリでは、後工程（Back-End）に使用される主要な装置と、それらを提供するメーカーを整理します。**  
 **This directory covers key back-end equipment and their vendors used in semiconductor assembly and packaging.**
@@ -10,7 +10,7 @@ Back-end processes involve **dicing, bonding, encapsulation, and testing**, all 
 ---
 
 ## 📚 主な装置領域と企業分類  
-## 📚 Key Tool Domains and Leading Vendors
+**📚 Key Tool Domains and Leading Vendors**
 
 | 工程 | 代表企業 | 概要 |
 |------|----------|------|
@@ -23,7 +23,7 @@ Back-end processes involve **dicing, bonding, encapsulation, and testing**, all 
 ---
 
 ## 🧩 後工程装置と製品信頼性の関係  
-## 🧩 Back-End Tools and Product Reliability
+**🧩 Back-End Tools and Product Reliability**
 
 後工程装置は、以下のような**物理的・熱的・電気的特性の形成**に関わります：  
 Back-end equipment affects the following critical characteristics:
@@ -36,7 +36,7 @@ Back-end equipment affects the following critical characteristics:
 ---
 
 ## 🔍 教材活用のヒント  
-## 🔍 Learning & Exploration Ideas
+**🔍 Learning & Exploration Ideas**
 
 - **ワイヤボンディングとフリップチップの違い**を整理しよう  
 - **FOWLPや2.5D/3Dパッケージに対応する装置の進化**を追ってみよう  
@@ -45,7 +45,7 @@ Back-end equipment affects the following critical characteristics:
 ---
 
 ## 📎 関連カテゴリ  
-## 📎 Related Categories
+**📎 Related Categories**
 
 - [🧯 back-materials/](../back-materials/)：パッケージ材料との連携  
 - [💾 device-makers/](../device-makers/)：組立工程の外注/内製の構造  
@@ -54,7 +54,7 @@ Back-end equipment affects the following critical characteristics:
 ---
 
 ## 📄 ライセンス  
-## 📄 License
+**📄 License**
 
 MIT License に基づき、非営利・教育目的での自由な利用・改変・共有を歓迎します。  
 This content is released under the MIT License, and is freely available for non-commercial and educational reuse.
