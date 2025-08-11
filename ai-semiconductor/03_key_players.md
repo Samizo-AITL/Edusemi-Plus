@@ -130,5 +130,5 @@ so **each company positions itself strategically based on its strengths, product
 ## 🔙 前後リンク / Navigation
 
 - **◀ 前節 / Previous:** [第2章：AIの歴史とブームの背景](02_history_trend.md)  
-- **▶ 次節 / Next:** [第4章：AI半導体の技術的基盤](04_technical_foundations.md)  
+- **▶ 次節 / Next:** [第4章：AI半導体の技術的基盤](04_technical_architecture.md)  
 - **📄 本シリーズREADME:** [ai-semiconductor README](../README.md)
