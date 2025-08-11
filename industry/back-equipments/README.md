@@ -60,16 +60,19 @@ Back-end equipment affects the following critical characteristics:
 
 ---
 
-## 📄 ライセンス  
-**📄 License**
-
-MIT License に基づき、非営利・教育目的での自由な利用・改変・共有を歓迎します。  
-This content is released under the MIT License, and is freely available for non-commercial and educational reuse.
+**後工程装置は、半導体を「製品」として成立させるための最終プロセスです。パッケージの多様化・高機能化を支える装置技術を深く学びましょう。**  
+**Back-end tools are essential to finalize semiconductors as products. Dive into the technologies that support the diversification and advancement of packaging.**
 
 ---
 
-**後工程装置は、半導体を「製品」として成立させるための最終プロセスです。パッケージの多様化・高機能化を支える装置技術を深く学びましょう。**  
-**Back-end tools are essential to finalize semiconductors as products. Dive into the technologies that support the diversification and advancement of packaging.**
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
 
 ---
 
