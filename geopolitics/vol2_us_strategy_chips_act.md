@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Vol.2｜米国の戦略：CHIPS法の狙いと副作用 / US Strategy: The CHIPS Act – Aims and Side Effects
+title: Vol.2｜米国の戦略　CHIPS法の狙いと副作用 / US Strategy The CHIPS Act – Aims and Side Effects
 ---
 
 ---
