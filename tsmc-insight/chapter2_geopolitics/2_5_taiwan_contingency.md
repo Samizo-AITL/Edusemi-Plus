@@ -1,7 +1,8 @@
-File: e_chapter2_geopolitics/2_5_taiwan_contingency.md
 ---
 layout: default
 title: 🌏 2.5 台湾有事リスクと経済安全保障政策 / Taiwan Contingency Risks and Economic Security Policies
+---
+
 ---
 
 # 🌏 2.5 台湾有事リスクと経済安全保障政策  
