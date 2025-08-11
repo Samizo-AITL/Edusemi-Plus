@@ -1,92 +1,100 @@
 ---
 layout: default
-title: 
+title: Apple × TSMC – 戦略的関係 / Strategic Partnership
 ---
 
 ---
 
-# 🤝 AppleとTSMCの戦略的関係
+# 🤝 Apple × TSMC – 戦略的関係  
+*Apple and TSMC: Strategic Partnership*
 
-## はじめに
+---
 
-Appleは、A8（2014年）以降の**すべてのAシリーズチップをTSMCに製造委託**しており、  
+## 📖 はじめに / Introduction
+
+Appleは、**A8（2014年）以降の全AシリーズチップをTSMCに製造委託**しており、  
 Apple Siliconの進化はTSMCの先端プロセス技術との連携なくして語れません。
 
-本資料では、AppleとTSMCの関係を技術・製造・地政学の観点から考察します。
+本資料では、AppleとTSMCの関係を**技術・製造・地政学**の観点から整理します。
 
 ---
 
-## 1. 🔄 SamsungからTSMCへ：移行の背景
+## 1. 🔄 SamsungからTSMCへ / Transition from Samsung to TSMC
 
-かつてA4〜A7まではSamsungが製造を担当していましたが、AppleはA8以降、TSMCへの移行を進めました。
+A4〜A7まではSamsungが製造を担当していましたが、A8以降はTSMCに移行。
 
-**主な移行理由：**
-
-- iPhoneとGalaxyの競合激化 → **利益相反の顕在化**
-- 製造情報の**機密保持リスク**
-- **TSMCの先端ノード技術優位**（16nm / 10nm以降）
-
----
-
-## 2. 🚀 製造ノードの先行適用
-
-Appleは毎年、**TSMCの最新ノードを世界最速で量産採用**しており、  
-TSMCにとってもAppleは最重要顧客です。
-
-| チップ名     | 採用ノード      | 特徴                                     |
-|--------------|------------------|------------------------------------------|
-| A14 Bionic   | 5nm（N5）        | 世界初の5nmスマホチップ                   |
-| A16 Bionic   | 4nm（N4）        | N5改良版、Pro限定                         |
-| A17 Pro      | 3nm（N3B）       | 初のN3適用、GPU刷新                      |
-| Apple M4*    | 3nm（N3E）       | N3E採用開始。A18 Proも同世代と推測される  |
-
-> \* M4はMac/iPad向けApple Siliconです。
-
-Appleは **初期量産のリスクを受け入れる代わりに、最先端ノードを独占的に採用**しています。  
-これはTSMCにとっても安定収益とノード普及の原動力です。
+**移行理由 / Key Drivers**：
+- iPhoneとGalaxyの競合激化 → **利益相反リスク**
+- 製造情報の**機密保持懸念**
+- **TSMCの先端ノード優位性**（16nm / 10nm以降）
 
 ---
 
-## 3. 🌏 地政学リスクとTSMC依存
+## 2. 🚀 製造ノード先行採用 / Leading-edge Node Adoption
 
-Apple Siliconの製造は、**TSMCの台湾拠点に依存**しており、  
-次のようなリスクが常に存在します。
+Appleは毎年、**TSMCの最新ノードを世界最速で量産採用**。  
+TSMCにとってもAppleは**最大・最重要顧客**です。
 
-- **台湾有事**（地政学的緊張）
-- **地震・サプライ断絶**
-- **ロジスティクスのボトルネック**
+| チップ / Chip   | ノード / Node  | 特徴 / Key Feature |
+|-----------------|----------------|--------------------|
+| A14 Bionic      | 5nm (N5)       | 世界初の5nmスマホSoC |
+| A16 Bionic      | 4nm (N4)       | Proモデル限定採用 |
+| A17 Pro         | 3nm (N3B)      | 初のN3量産、GPU刷新 |
+| Apple M4*       | 3nm (N3E)      | N3E初採用、A18 Proも同世代推定 |
 
-### Appleの対策：
+> \* M4はMac/iPad向け。
 
-- 熊本（JASM）、アリゾナ（TSMC USA）など**拠点分散支援**  
-- 複数ノード（N3B/N3E）で設計の柔軟性確保  
-- TSMCとの**優先契約・協力体制の継続**
-
-Appleは“**TSMCとの共存共栄**”に向け、製造基盤の分散と強靭化を進めています。
-
----
-
-## 4. ❓ なぜ他ファウンドリではないのか
-
-Appleが**TSMCを選び続ける理由**は、技術力だけではなく、他ファウンドリの制約にも起因しています。
-
-| ファウンドリ        | 状況                         | Appleが採用しない理由                       |
-|---------------------|------------------------------|--------------------------------------------|
-| Samsung Foundry     | 技術力はあるが歩留まりに課題  | iPhone競合・情報漏洩リスク                 |
-| Intel Foundry       | IDM→IFS化の過渡期（実績不足）| 設計・製造分離の信頼構築が不十分            |
-| GlobalFoundries     | 7nm開発を中止                | 技術進化が停止                             |
-
-AppleにとってTSMCは、**最先端と安定供給を両立できる唯一のファウンドリ**です。
+Appleは**初期量産リスクを受容**する代わりに、最新ノードを**独占的に先行利用**。
 
 ---
 
-## 🧾 まとめ：共進化する二社
+## 3. 🌏 地政学リスクとTSMC依存 / Geopolitical Risks
 
-- AppleとTSMCの関係は単なる委託ではなく、**相互に進化を促す戦略的パートナーシップ**です。
-- AppleはTSMCの最先端ノードをいち早く採用し、  
-  TSMCはAppleの製品投入スケジュールを通じて技術と収益の両面で成長。
-- この関係性が、Apple Siliconの進化と市場支配力を支えています。
+Apple Siliconは**TSMC台湾拠点依存**という構造的リスクを抱えます。
+
+リスク：
+- 台湾有事（地政学的緊張）
+- 地震・サプライ断絶
+- 物流ボトルネック
+
+**対策 / Mitigations**：
+- 熊本（JASM）、アリゾナ（TSMC USA）など**拠点分散**
+- 複数ノード戦略（N3B/N3E併存）
+- 優先契約による供給確保
 
 ---
 
-© [Shinichi Samizo](https://github.com/Samizo-AITL), 2025
+## 4. ❓ 他ファウンドリを選ばない理由 / Why Not Others?
+
+| ファウンドリ / Foundry | 状況 / Status | Appleが採用しない理由 / Reason for Exclusion |
+|------------------------|---------------|---------------------------------------------|
+| Samsung Foundry        | 技術力はあるが歩留まり課題 | iPhone競合・情報漏洩懸念 |
+| Intel Foundry          | IDM→IFS化の過渡期 | 設計・製造分離の信頼構築不足 |
+| GlobalFoundries        | 7nm開発中止 | 技術進化停止 |
+
+TSMCは**最先端技術×安定供給**を唯一両立。
+
+---
+
+## 🧾 まとめ / Summary
+
+- AppleとTSMCは**相互進化型パートナーシップ**を構築。  
+- AppleはTSMCの最新ノードを最速採用、TSMCはAppleの製品周期で技術と収益を強化。  
+- この関係が**Apple Siliconの競争力**の根幹。
+
+---
+
+## 🔗 関連リンク / Related Links
+- [📜 Apple Aチップ年表（timeline.md）](./timeline.md)  
+- [🧠 Apple Silicon設計思想（design_policy.md）](./design_policy.md)  
+
+---
+
+## 🔙 戻る / Back
+- **JP:** [apple-silicon トップへ戻る](./index.md)  
+- **EN:** [Return to apple-silicon top](./index.md)
+
+---
+
+© [Shinichi Samizo](https://github.com/Samizo-AITL), 2025  
+MIT License
