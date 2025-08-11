@@ -47,11 +47,18 @@ title: quantum-semiconductor – 次世代量子半導体の構造と展望
 
 ---
 
-## 📄 ライセンス
+## 👤 **著者・ライセンス / Author & License**
 
-- 本資料は **MITライセンス** に基づき公開されています。  
-- 教育・非営利目的での再利用・引用・翻案を歓迎します。  
-- 引用時は以下を明記してください：  
-  `© Shinichi Samizo, Edusemi-Plus, 2025`
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
 
 ---
+
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
+
