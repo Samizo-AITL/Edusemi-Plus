@@ -1,3 +1,10 @@
+---
+layout: default
+title: Rapidusと2nm技術の挑戦（Edusemi-Plus 特別教材）
+---
+
+---
+
 # 📘 Rapidusと2nm技術の挑戦（Edusemi-Plus 特別教材）
 
 ## 🏁 概要
