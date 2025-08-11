@@ -17,6 +17,8 @@ title: Q-Factor and Loss Resistance Formulas
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
+---
+
 # 📐 Q値と損失抵抗の数式補足  
 ##｜Q-Factor and Loss Resistance Formulas for Thin-Film Inductors
 
