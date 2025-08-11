@@ -3,6 +3,8 @@ layout: default
 title: 2. 材料特性の定量比較｜Quantitative Comparison of Si / SiC / GaN / Diamond
 ---
 
+---
+
 # 📊 2. 材料特性の定量比較｜Quantitative Comparison of Si / SiC / GaN / Diamond
 
 本節では、主要半導体材料 **(Si, SiC, GaN, Diamond)** の**物理特性を定量的に比較**し、  
