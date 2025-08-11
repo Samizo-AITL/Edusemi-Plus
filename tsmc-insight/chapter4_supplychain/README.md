@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🔗 第4章：サプライチェーンと国家戦略 / Chapter 4: Supply Chain & National Strategy
+title: 🔗 第4章　サプライチェーンと国家戦略 / Chapter 4  Supply Chain & National Strategy
 ---
 
 ---
