@@ -3,6 +3,8 @@ layout: default
 title: Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society, and AI
 ---
 
+---
+
 # 📚 **Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society, and AI**
 
 **Edusemi-Plus** is an expanded series of the foundational [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) project,  
