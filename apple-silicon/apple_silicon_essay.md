@@ -1,3 +1,10 @@
+---
+layout: default
+title: 
+---
+
+---
+
 # ✍️ Apple Siliconを俯瞰するエッセイ
 
 ## はじめに
