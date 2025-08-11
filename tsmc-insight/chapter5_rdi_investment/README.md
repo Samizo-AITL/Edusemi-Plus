@@ -35,11 +35,11 @@ It also discusses the **geopolitical significance** of TSMC’s investments in K
 
 | セクション / Section | 内容 / Description |
 |----------------------|--------------------|
-| 5.1 | TSMCの研究開発体制：R&D組織・プロセス・技術課題<br>TSMC’s R&D organization, processes, and technical challenges |
-| 5.2 | CapExの推移とプロセスノード別投資傾向<br>CapEx trends by process node |
-| 5.3 | 熊本（JASM）、アリゾナ、ドイツ拠点の設備投資背景<br>Investment background of Kumamoto, Arizona, and Germany fabs |
-| 5.4 | 投資回収モデルとファブ稼働率・先行技術の経済性<br>Investment return models, fab utilization, and economics of leading-edge nodes |
-| 5.5 | 人材採用・教育制度・大学連携と知的資産化構造<br>Talent recruitment, education systems, and IP development |
+| 5.1 | [TSMCの研究開発体制：R&D組織・プロセス・技術課題](5_1_rnd_structure.md)<br>TSMC’s R&D organization, processes, and technical challenges |
+| 5.2 | [CapExの推移とプロセスノード別投資傾向](5_2_capex_trends.md)<br>CapEx trends by process node |
+| 5.3 | [熊本（JASM）、アリゾナ、ドイツ拠点の設備投資背景](5_3_global_fab_investment.md)<br>Investment background of Kumamoto, Arizona, and Germany fabs |
+| 5.4 | [投資回収モデルとファブ稼働率・先行技術の経済性](5_4_investment_return.md)<br>Investment return models, fab utilization, and economics of leading-edge nodes |
+| 5.5 | [人材採用・教育制度・大学連携と知的資産化構造](5_5_talent_and_ip.md)<br>Talent recruitment, education systems, and IP development |
 
 ---
 
