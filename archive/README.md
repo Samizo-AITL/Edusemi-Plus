@@ -1,3 +1,10 @@
+---
+layout: default
+title: Edusemi-Plus Archive  
+---
+
+---
+
 # 🗂️ Edusemi-Plus Archive  
 **（エデュセミ・プラス 技術アーカイブ）**
 
