@@ -1,3 +1,10 @@
+---
+layout: default
+title: AI別プロンプト比較演習ログ（ChatGPT / Gemini / Claude）
+---
+
+---
+
 # 🧪 AI別プロンプト比較演習ログ（ChatGPT / Gemini / Claude）
 
 本資料では、同じプロンプトを複数の生成AIに投げて得られた回答を比較し、それぞれの得意分野・傾向・弱点を可視化しています。  
