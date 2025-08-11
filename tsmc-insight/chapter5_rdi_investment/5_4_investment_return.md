@@ -3,6 +3,8 @@ layout: default
 title: 💹 5.4　投資回収モデルとファブ稼働率・先行技術の経済性 / Investment Return Models, Fab Utilization & Economics of Leading-edge Nodes
 ---
 
+---
+
 # 💹 5.4：投資回収モデルとファブ稼働率・先行技術の経済性  
 **5.4: Investment Return Models, Fab Utilization & Economics of Leading-edge Nodes**
 
