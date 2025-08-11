@@ -1,5 +1,12 @@
+---
+layout: default
+title: DRAMセル構造比較（トレンチ vs スタック）
+---
+
+---
+
 # 🧬 DRAMセル構造比較（トレンチ vs スタック）  
-# 🧬 DRAM Cell Structure Comparison (Trench vs Stacked)
+**🧬 DRAM Cell Structure Comparison (Trench vs Stacked)**
 
 DRAMセル構造には主に「トレンチ型（Trench）」と「スタック型（Stacked）」の2種類が存在し、それぞれに長所・短所があります。  
 There are two major DRAM cell types: Trench and Stacked, each with distinct strengths and weaknesses.
