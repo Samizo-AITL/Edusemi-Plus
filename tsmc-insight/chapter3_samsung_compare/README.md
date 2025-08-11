@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ⚔️ 第3章：TSMCとサムスンの比較 / Chapter 3: TSMC vs Samsung Comparison
+title: ⚔️ 第3章　TSMCとサムスンの比較 / Chapter 3  TSMC vs Samsung Comparison
 ---
 
 ---
