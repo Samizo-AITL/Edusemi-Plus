@@ -27,7 +27,7 @@ While technology itself may be neutral, **manufacturing, export, and supply chai
 ---
 
 ## 🌐 グローバル動向（関連テーマ）  
-## 🌐 Global Trends (Key Themes)
+**🌐 Global Trends (Key Themes)**
 
 | 地域 / Region | 主なトピック / Key Topics |
 |---------------|---------------------------|
@@ -41,7 +41,7 @@ While technology itself may be neutral, **manufacturing, export, and supply chai
 ---
 
 ## 📘 特集シリーズ（Vol.1〜4）  
-## 📘 Special Feature Series (Vol.1–4)
+**📘 Special Feature Series (Vol.1–4)**
 
 | ファイル名 / File | 内容概要 / Description |
 |-------------------|------------------------|
