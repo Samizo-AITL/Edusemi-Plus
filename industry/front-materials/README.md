@@ -1,5 +1,12 @@
+---
+layout: default
+title: 前工程：材料メーカー｜ナノスケール構造を支える素材技術  
+---
+
+---
+
 # 🧪 前工程：材料メーカー｜ナノスケール構造を支える素材技術  
-# 🧪 Front-End Materials | Enabling Materials for Nanoscale Structures
+**🧪 Front-End Materials | Enabling Materials for Nanoscale Structures**
 
 **本ディレクトリでは、半導体前工程に使用される材料と、それを供給する主要メーカーを整理します。**  
 **This directory organizes the key materials used in semiconductor front-end processing and their suppliers.**
@@ -10,7 +17,7 @@ Fabrication of transistors and interconnects requires **ultra-pure and highly pr
 ---
 
 ## 📚 主な材料領域と企業分類  
-## 📚 Key Material Domains and Leading Vendors
+**📚 Key Material Domains and Leading Vendors**
 
 | 材料カテゴリ | 主要企業（概算シェア） | 用途例 |
 |--------------|--------------------------|--------|
@@ -25,7 +32,7 @@ Fabrication of transistors and interconnects requires **ultra-pure and highly pr
 ---
 
 ## 🧩 材料と装置・工程との関係  
-## 🧩 Material-Tool Integration in Process Flow
+**🧩 Material-Tool Integration in Process Flow**
 
 各材料は以下のような**装置・工程と密接に関連**しています：  
 Each material is tightly linked to its corresponding equipment and process step:
@@ -38,7 +45,7 @@ Each material is tightly linked to its corresponding equipment and process step:
 ---
 
 ## 🔍 教材活用のヒント  
-## 🔍 Learning & Exploration Ideas
+**🔍 Learning & Exploration Ideas**
 
 - **EUV用レジストと従来レジストの違い**を比較しよう  
 - **材料メーカーの国別分布と地政学リスク**を整理してみよう  
@@ -53,7 +60,7 @@ Each material is tightly linked to its corresponding equipment and process step:
 ---
 
 ## 📎 関連カテゴリ  
-## 📎 Related Categories
+**📎 Related Categories**
 
 - [⚙️ front-equipments/](../front-equipments/)：材料の使用先となる装置群  
 - [🖼️ photomasks/](../photomasks/)：レジスト・OPCとの連携  
@@ -61,13 +68,23 @@ Each material is tightly linked to its corresponding equipment and process step:
 
 ---
 
-## 📄 ライセンス  
-## 📄 License
-
-MIT License に基づき、非営利・教育目的での自由な利用・改変・共有を歓迎します。  
-This content is released under the MIT License, and is freely available for non-commercial and educational reuse.
+**前工程材料は、半導体構造を構成する原子レベルの部材です。装置・プロセスとの一体運用を意識して探究しましょう。**  
+**Front-end materials are the atomic components of semiconductor structures. Study them with an eye toward process and equipment integration.**
 
 ---
 
-**前工程材料は、半導体構造を構成する原子レベルの部材です。装置・プロセスとの一体運用を意識して探究しましょう。**  
-**Front-end materials are the atomic components of semiconductor structures. Study them with an eye toward process and equipment integration.**
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
+
+---
+
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
+
