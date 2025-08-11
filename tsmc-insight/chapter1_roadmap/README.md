@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 📈 第1章：TSMCの技術ロードマップ / Chapter 1: TSMC Technology Roadmap
+title: 📈 第1章　TSMCの技術ロードマップ / Chapter 1 TSMC Technology Roadmap
 ---
 
 ---
