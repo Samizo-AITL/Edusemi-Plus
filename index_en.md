@@ -15,7 +15,7 @@ designed to explore the semiconductor industry through diverse perspectives incl
 - 🧠 Supports **exploratory learning** with **ChatGPT × Gemini × Claude**  
 - 🧑‍🏫 **Open educational content** for education, strategy, and system design
 
-🇯🇵 **[日本語版READMEはこちら](./index.md)**
+🇯🇵 **[日本語版 README](https://samizo-aitl.github.io/Edusemi-Plus/index.html)**
 
 ---
 
@@ -27,9 +27,8 @@ designed to explore the semiconductor industry through diverse perspectives incl
 | 🧠 **Critical Thinking** | Strengthen the "**why**" behind **design, selection**, and **strategic decisions** |
 | 🔄 **Connection to Fundamentals** | Bridge **foundational knowledge (Edusemi)** with **real-world industrial context** |
 
-> 🆕 **Highlight Topic**: Japan’s re-entry into **advanced logic fabrication**  
-> through **Rapidus’s 2nm chip validation** (July 2025).  
-> For details, see [`rapidus/README.md`](./rapidus/README.md).
+> 🆕 **Highlight Topic**: Japan’s re-entry into **advanced logic fabrication** through **Rapidus’s 2nm chip validation** (July 2025).  
+> For details, see [Rapidus](https://samizo-aitl.github.io/Edusemi-Plus/rapidus/index.html).
 
 ---
 
@@ -37,13 +36,13 @@ designed to explore the semiconductor industry through diverse perspectives incl
 
 | **Category** | **Summary** | **Link** |
 |--------------|-------------|----------|
-| 🧪 **Materials** | Comparison and application of **Si, SiC, GaN, Diamond** | [materials/](./materials/) |
-| ⚛️ **Advanced Technologies** | Exploration of **quantum**, **Cryo**, and **emerging structures** | [quantum-semiconductor/](./quantum-semiconductor/) |
-| 🤖 **AI** | **LLM integration** and **AI accelerator technologies** | [ai-semiconductor/](./ai-semiconductor/), [ai-tools-comparison/](./ai-tools-comparison/) |
-| 🏭 **Industry** | Strategy and fabrication insights (**TSMC, Apple, Rapidus**) | [tsmc-insight/](./tsmc-insight/), [rapidus/](./rapidus/) |
-| 🌐 **Geopolitics** | **Global competition** and **export control** around semiconductors | [geopolitics/](./geopolitics/) |
-| 💹 **Investment** | **Capital expenditures**, **market players**, **risk evaluation** | [investment/](./investment/) |
-🗂️ **Archive** | Documentation of **technology ramp-up and industrial history** (e.g., DRAM 1998) | [archive/](./archive/) |
+| 🧪 **Materials** | Comparison and application of **Si, SiC, GaN, Diamond** | [materials](https://samizo-aitl.github.io/Edusemi-Plus/materials/index.html) |
+| ⚛️ **Advanced Technologies** | Exploration of **quantum**, **Cryo**, and **emerging structures** | [quantum-semiconductor](https://samizo-aitl.github.io/Edusemi-Plus/quantum-semiconductor/index.html) |
+| 🤖 **AI** | **LLM integration** and **AI accelerator technologies** | [ai-semiconductor](https://samizo-aitl.github.io/Edusemi-Plus/ai-semiconductor/index.html), [ai-tools-comparison](https://samizo-aitl.github.io/Edusemi-Plus/ai-tools-comparison/index.html) |
+| 🏭 **Industry** | Strategy and fabrication insights (**TSMC, Apple, Rapidus**) | [tsmc-insight](https://samizo-aitl.github.io/Edusemi-Plus/tsmc-insight/index.html), [rapidus](https://samizo-aitl.github.io/Edusemi-Plus/rapidus/index.html) |
+| 🌐 **Geopolitics** | **Global competition** and **export control** around semiconductors | [geopolitics](https://samizo-aitl.github.io/Edusemi-Plus/geopolitics/index.html) |
+| 💹 **Investment** | **Capital expenditures**, **market players**, **risk evaluation** | [investment](https://samizo-aitl.github.io/Edusemi-Plus/investment/index.html) |
+| 🗂️ **Archive** | Documentation of **technology ramp-up and industrial history** (e.g., DRAM 1998) | [archive](https://samizo-aitl.github.io/Edusemi-Plus/archive/index.html) |
 
 ---
 
@@ -52,19 +51,17 @@ designed to explore the semiconductor industry through diverse perspectives incl
 📌 **The "Industry Structure Map" (`industry/`) is a core category of this Edusemi-Plus series.**  
 It systematically organizes the **semiconductor supply chain**, including EDA, equipment, materials, inspection, and device manufacturers.
 
-For a deeper understanding of structural connections, please refer to the categories below:
-
 | Category | Description | Link |
 |----------|-------------|------|
-| 🏭 **Industry Structure Map (Overview)** | End-to-end view from design to manufacturing and testing | [industry/README.md](./industry/README.md) |
-| 🧠 **EDA Tool Vendors** | Logic synthesis, verification, TCAD, P&R, automation tools | [industry/eda-tools/](./industry/eda-tools/) |
-| 🖼️ **Photomask-Related** | Mask blanks, OPC, EUV mask fabrication | [industry/photomasks/](./industry/photomasks/) |
-| ⚙️ **Front-End Equipment** | Deposition, lithography, etching, cleaning, annealing | [industry/front-equipments/](./industry/front-equipments/) |
-| 🧪 **Front-End Materials** | Silicon wafers, resist, process gases, CMP slurries | [industry/front-materials/](./industry/front-materials/) |
-| 🏗️ **Back-End Equipment** | Dicing, bonding, molding, packaging tools | [industry/back-equipments/](./industry/back-equipments/) |
-| 🧯 **Back-End Materials** | Packaging substrates, encapsulants, adhesives | [industry/back-materials/](./industry/back-materials/) |
-| 🔬 **Metrology & Inspection Tools** | CD-SEM, film thickness, defect detection, X-ray | [industry/metrology-tools/](./industry/metrology-tools/) |
-| 💾 **Device Makers** | Foundries, IDMs, and fabless semiconductor companies | [industry/device-makers/](./industry/device-makers/) |
+| 🏭 **Industry Structure Map (Overview)** | End-to-end view from design to manufacturing and testing | [industry](https://samizo-aitl.github.io/Edusemi-Plus/industry/index.html) |
+| 🧠 **EDA Tool Vendors** | Logic synthesis, verification, TCAD, P&R, automation tools | [industry/eda-tools](https://samizo-aitl.github.io/Edusemi-Plus/industry/eda-tools/index.html) |
+| 🖼️ **Photomask-Related** | Mask blanks, OPC, EUV mask fabrication | [industry/photomasks](https://samizo-aitl.github.io/Edusemi-Plus/industry/photomasks/index.html) |
+| ⚙️ **Front-End Equipment** | Deposition, lithography, etching, cleaning, annealing | [industry/front-equipments](https://samizo-aitl.github.io/Edusemi-Plus/industry/front-equipments/index.html) |
+| 🧪 **Front-End Materials** | Silicon wafers, resist, process gases, CMP slurries | [industry/front-materials](https://samizo-aitl.github.io/Edusemi-Plus/industry/front-materials/index.html) |
+| 🏗️ **Back-End Equipment** | Dicing, bonding, molding, packaging tools | [industry/back-equipments](https://samizo-aitl.github.io/Edusemi-Plus/industry/back-equipments/index.html) |
+| 🧯 **Back-End Materials** | Packaging substrates, encapsulants, adhesives | [industry/back-materials](https://samizo-aitl.github.io/Edusemi-Plus/industry/back-materials/index.html) |
+| 🔬 **Metrology & Inspection Tools** | CD-SEM, film thickness, defect detection, X-ray | [industry/metrology-tools](https://samizo-aitl.github.io/Edusemi-Plus/industry/metrology-tools/index.html) |
+| 💾 **Device Makers** | Foundries, IDMs, and fabless semiconductor companies | [industry/device-makers](https://samizo-aitl.github.io/Edusemi-Plus/industry/device-makers/index.html) |
 
 ---
 
@@ -86,7 +83,7 @@ For a deeper understanding of structural connections, please refer to the catego
 | 🔍 **Research Assistant** | **Gemini 1.5 Pro** | **Geopolitical queries**, **tech trends**, **lecture summaries** |
 | ✒️ **Editorial Refiner** | **Claude 3 Opus** | **Tone polishing**, **document formatting**, **long-form writing** |
 
-> 🔗 Prompt comparisons and tool-specific exercises can be found in [`ai-tools-comparison/`](./ai-tools-comparison/)
+> 🔗 Prompt comparisons and tool-specific exercises can be found in [ai-tools-comparison](https://samizo-aitl.github.io/Edusemi-Plus/ai-tools-comparison/index.html)
 
 ---
 
@@ -138,6 +135,3 @@ For a deeper understanding of structural connections, please refer to the catego
 > This project connects **“technology” and the “structure of the world”**  
 > to help learners build **strategies for the future**.  
 > Ideal for **education**, **research**, and **tech strategy planning**.
-
----
-
