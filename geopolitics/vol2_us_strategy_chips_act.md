@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 
+title: Vol.2｜米国の戦略：CHIPS法の狙いと副作用
 ---
 
 ---
