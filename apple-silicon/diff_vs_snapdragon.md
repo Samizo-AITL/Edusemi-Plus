@@ -1,3 +1,10 @@
+---
+layout: default
+title: 
+---
+
+---
+
 # 🆚 Apple Silicon と Snapdragon の設計思想比較
 
 ## はじめに
