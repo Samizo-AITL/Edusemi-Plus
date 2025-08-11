@@ -1,3 +1,10 @@
+---
+layout: default
+title: 後工程：装置メーカー｜パッケージと接続を担う生産基盤 
+---
+
+---
+
 # 🏗️ 後工程：装置メーカー｜パッケージと接続を担う生産基盤  
 **🏗️ Back-End Equipment | Manufacturing Infrastructure for Packaging and Connectivity**
 
