@@ -1,5 +1,12 @@
+---
+layout: default
+title: EDAツールベンダー｜設計自動化と半導体開発の頭脳  
+---
+
+---
+
 # 🧠 EDAツールベンダー｜設計自動化と半導体開発の頭脳  
-# 🧠 EDA Tool Vendors | The Brains Behind Semiconductor Design Automation
+**🧠 EDA Tool Vendors | The Brains Behind Semiconductor Design Automation**
 
 **本ディレクトリでは、EDA（Electronic Design Automation）分野の主要企業・技術領域を整理します。**  
 **This directory introduces key players and domains in EDA (Electronic Design Automation).**
@@ -10,7 +17,7 @@ EDA is central to **automating the semiconductor design flow**, from logic synth
 ---
 
 ## 📚 主なEDA領域と企業分類  
-## 📚 EDA Domains and Leading Companies
+**📚 EDA Domains and Leading Companies**
 
 | 領域 | 代表企業 | 概要 |
 |------|----------|------|
@@ -23,7 +30,7 @@ EDA is central to **automating the semiconductor design flow**, from logic synth
 ---
 
 ## 🧩 技術と設計フローとの関係  
-## 🧩 EDA in the Design-to-Manufacturing Flow
+**🧩 EDA in the Design-to-Manufacturing Flow**
 
 EDAは以下のような**設計フェーズに密接に関わります：**  
 EDA tools are deeply integrated in the following phases:
@@ -38,7 +45,7 @@ EDA tools are deeply integrated in the following phases:
 ---
 
 ## 🔍 教材活用のヒント  
-## 🔍 Learning & Application Ideas
+**🔍 Learning & Application Ideas**
 
 - **SynopsysとTSMCの先端ノード連携構造**を調査してみよう  
 - **オープンEDAツールを用いた設計演習**（Sky130など）を試してみよう  
@@ -47,7 +54,7 @@ EDA tools are deeply integrated in the following phases:
 ---
 
 ## 📎 関連カテゴリ  
-## 📎 Related Categories
+**📎 Related Categories**
 
 - [📘 photomasks/](../photomasks/)：マスク設計とOPC連携  
 - [🔬 metrology-tools/](../metrology-tools/)：検査結果と設計フローの接続  
