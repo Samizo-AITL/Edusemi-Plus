@@ -1,3 +1,10 @@
+---
+layout: default
+title: apple-silicon – Apple Aチップの進化と戦略
+---
+
+---
+
 # 🍎 apple-silicon – Apple Aチップの進化と戦略
 
 ## 🧭 概要
