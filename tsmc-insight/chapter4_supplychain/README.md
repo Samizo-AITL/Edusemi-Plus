@@ -34,11 +34,11 @@ It visualizes dependencies and bottlenecks across equipment, materials, talent, 
 
 | セクション / Section | 内容 / Description |
 |----------------------|--------------------|
-| 4.1 | サプライチェーンの基本構造：設計→製造→パッケージ→出荷<br>Basic supply chain structure: Design → Fabrication → Packaging → Shipping |
-| 4.2 | 前工程の依存関係：露光装置・ガス・ウエハなどの地理的分布<br>Front-end dependencies: Lithography tools, gases, wafers |
-| 4.3 | CHIPS法・日本誘致政策・EU戦略の比較<br>Comparison of CHIPS Act, Japan’s incentives, EU strategies |
-| 4.4 | 複数拠点化と「経済安全保障」政策の実態<br>Multi-site strategies and economic security policies |
-| 4.5 | 地政学的ボトルネックと供給網レジリエンスの課題<br>Geopolitical bottlenecks and supply chain resilience challenges |
+| [4.1](4_1_supply_chain_structure.md) | サプライチェーンの基本構造：設計→製造→パッケージ→出荷<br>Basic supply chain structure: Design → Fabrication → Packaging → Shipping |
+| [4.2](4_2_frontend_dependencies.md) | 前工程の依存関係：露光装置・ガス・ウエハなどの地理的分布<br>Front-end dependencies: Lithography tools, gases, wafers |
+| [4.3](4_3_chips_japan_eu.md) | CHIPS法・日本誘致政策・EU戦略の比較<br>Comparison of CHIPS Act, Japan’s incentives, EU strategies |
+| [4.4](4_4_multisite_economic_security.md) | 複数拠点化と「経済安全保障」政策の実態<br>Multi-site strategies and economic security policies |
+| [4.5](4_5_geopolitical_bottlenecks.md) | 地政学的ボトルネックと供給網レジリエンスの課題<br>Geopolitical bottlenecks and supply chain resilience challenges |
 
 ---
 
