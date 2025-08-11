@@ -136,5 +136,5 @@ AI is deeply integrated into various industries, with **AI semiconductor applica
 
 ## 🔙 前後リンク / Navigation
 - **◀ 前節 / Previous:** [第4章：AI半導体の技術概要](04_technical_architecture.md)  
-- **▶ 次節 / Next:** [第6章：AI半導体の設計課題](06_design_challenges.md)  
+- **▶ 次節 / Next:** [第6章：AI半導体の設計課題](06_future_outlook.md)  
 - **📄 本シリーズREADME:** [ai-semiconductor README](../README.md)
