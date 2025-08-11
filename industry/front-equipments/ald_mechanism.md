@@ -28,6 +28,9 @@ ALD is a thin film deposition method enabling atomic-level thickness control, wi
 
 ## ⚙️ プロセスの流れ | Typical ALD Cycle
 
+> 💡 **Mermaid図はGitHubで参照できます：**  
+> [ソースを見る › ALD Mechanism (GitHub)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/industry/front-equipments/ald_mechanism.md#プロセスの流れ--typical-ald-cycle)
+
 ```mermaid
 sequenceDiagram
   participant S as 基板 (Substrate)
