@@ -1,5 +1,12 @@
+---
+layout: default
+title: デバイスメーカー｜製品を生み出す垂直統合・水平分業の最前線 
+---
+
+---
+
 # 💾 デバイスメーカー｜製品を生み出す垂直統合・水平分業の最前線  
-# 💾 Device Makers | The Final Integrators of Semiconductor Value
+**💾 Device Makers | The Final Integrators of Semiconductor Value**
 
 **本ディレクトリでは、半導体製品を実際に市場へ供給する**  
 **デバイスメーカー（ファウンドリ・IDM・ファブレス）の構造と主な企業群を整理します。**  
@@ -11,7 +18,7 @@
 ---
 
 ## 📚 デバイスメーカーの分類と代表企業  
-## 📚 Classification and Key Companies
+**📚 Classification and Key Companies**
 
 | 業態 | 主な企業 | 概要 |
 |------|----------|------|
@@ -24,7 +31,7 @@
 ---
 
 ## 🧩 産業構造における役割と競争軸  
-## 🧩 Roles and Competitive Factors in the Industry
+**🧩 Roles and Competitive Factors in the Industry**
 
 デバイスメーカーは、以下のような軸で位置づけられます：  
 Device makers are positioned along various strategic axes:
@@ -37,7 +44,7 @@ Device makers are positioned along various strategic axes:
 ---
 
 ## 🔍 教材活用のヒント  
-## 🔍 Learning & Exploration Ideas
+**🔍 Learning & Exploration Ideas**
 
 - **TSMCとSamsungのファウンドリ戦略の違い**を分析してみよう  
 - **NVIDIAとAppleの設計思想と製造依存構造**を比較しよう  
@@ -46,7 +53,7 @@ Device makers are positioned along various strategic axes:
 ---
 
 ## 📎 関連カテゴリ  
-## 📎 Related Categories
+**📎 Related Categories**
 
 - [🧠 eda-tools/](../eda-tools/)：SoC設計に使われるEDAとの接続  
 - [🏗️ back-equipments/](../back-equipments/)、[🧯 back-materials/](../back-materials/)：後工程との内製・外注戦略  
