@@ -1,3 +1,10 @@
+---
+layout: default
+title:  技術革新と半導体投資トレンド 
+---
+
+---
+
 # 🚀 技術革新と半導体投資トレンド  
 © Shinichi Samizo, 2025
 
