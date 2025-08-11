@@ -1,3 +1,10 @@
+---
+layout: default
+title: データディレクトリ – `tsmc-insight/data/`
+---
+
+---
+
 # 📊 データディレクトリ – `tsmc-insight/data/`
 
 このディレクトリには、**TSMC Insightの各章で使用される統計データ・時系列情報・補助ファイル（CSV, JSON など）**を保存します。  
