@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 半導体ETFと投資戦略：SOXLなどの活用法 / Semiconductor ETFs and Investment Strategies: Using SOXL
+title: 半導体ETFと投資戦略　SOXLなどの活用法 / Semiconductor ETFs and Investment Strategies Using SOXL
 ---
 
 ---
