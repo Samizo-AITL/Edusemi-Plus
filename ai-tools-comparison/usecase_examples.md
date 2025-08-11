@@ -1,3 +1,10 @@
+---
+layout: default
+title: ChatGPT × Gemini × Claude 活用事例集（Edusemi-Plus版）
+---
+
+---
+
 # 📘 ChatGPT × Gemini × Claude 活用事例集（Edusemi-Plus版）
 
 本資料では、Edusemi-Plusにおける教材設計・技術支援・調査分析などにおいて、ChatGPT（GPT-4o）を中心に、Gemini（検索補佐）、Claude（文章整形）を組み合わせて活用する具体事例をまとめています。
