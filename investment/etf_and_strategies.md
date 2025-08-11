@@ -6,8 +6,7 @@ title: 半導体ETFと投資戦略　SOXLなどの活用法 / Semiconductor ETFs
 ---
 
 # 📊 半導体ETFと投資戦略：SOXLなどの活用法  
-# 📊 Semiconductor ETFs and Investment Strategies: Using SOXL  
-© Shinichi Samizo, 2025
+**📊 Semiconductor ETFs and Investment Strategies: Using SOXL**  
 
 ---
 
