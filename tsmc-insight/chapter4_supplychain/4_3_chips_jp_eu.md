@@ -3,6 +3,8 @@ layout: default
 title: 📜 4.3 CHIPS法・日本誘致政策・EU戦略の比較 / 4.3 CHIPS Act, Japan’s Incentives, EU Strategies
 ---
 
+---
+
 # 📜 4.3 CHIPS法・日本誘致政策・EU戦略の比較  
 **4.3 CHIPS Act, Japan’s Incentives, EU Strategies**
 
