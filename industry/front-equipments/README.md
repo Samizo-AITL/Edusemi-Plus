@@ -1,5 +1,12 @@
+---
+layout: default
+title: 前工程：装置メーカー｜原子レベルの加工を支える中核機器  
+---
+
+---
+
 # ⚙️ 前工程：装置メーカー｜原子レベルの加工を支える中核機器  
-# ⚙️ Front-End Equipment | Core Tools for Atomic-Scale Fabrication
+**⚙️ Front-End Equipment | Core Tools for Atomic-Scale Fabrication**
 
 **本ディレクトリでは、半導体前工程（Front-End）における主要な装置メーカーとプロセス装置の分類を整理します。**  
 **This directory categorizes the major front-end equipment vendors and the core processing tools used in semiconductor manufacturing.**
@@ -10,7 +17,7 @@ The front-end process requires **nanometer-scale precision for transistor and in
 ---
 
 ## 📚 主な装置領域と企業分類  
-## 📚 Key Tool Domains and Leading Vendors
+**📚 Key Tool Domains and Leading Vendors**
 
 | 工程 | 代表企業 | 概要 |
 |------|----------|------|
@@ -23,7 +30,7 @@ The front-end process requires **nanometer-scale precision for transistor and in
 ---
 
 ## 🧩 前工程装置と製造プロセスの関係  
-## 🧩 Role of Front-End Equipment in the Process Flow
+**🧩 Role of Front-End Equipment in the Process Flow**
 
 前工程装置は、以下のようなステップで連携して使用されます：  
 Front-end tools are sequentially applied in steps such as:
@@ -37,7 +44,7 @@ Front-end tools are sequentially applied in steps such as:
 ---
 
 ## 🔍 教材活用のヒント  
-## 🔍 Learning & Exploration Ideas
+**🔍 Learning & Exploration Ideas**
 
 - **[EUV露光装置とドライエッチング装置の連携構造](./asml_euv_mechanism.md)** を調べてみよう  
 - **日本と米国の装置競争力の違い**を企業ごとに比較してみよう  
@@ -46,7 +53,7 @@ Front-end tools are sequentially applied in steps such as:
 ---
 
 ## 📎 関連カテゴリ  
-## 📎 Related Categories
+**📎 Related Categories**
 
 - [🧪 front-materials/](../front-materials/)：各装置で使用される材料の視点  
 - [🖼️ photomasks/](../photomasks/)：露光装置との協調関係  
@@ -56,13 +63,22 @@ Front-end tools are sequentially applied in steps such as:
 
 ---
 
-## 📄 ライセンス  
-## 📄 License
-
-MIT License に基づき、非営利・教育目的での自由な利用・改変・共有を歓迎します。  
-This content is released under the MIT License, and is freely available for non-commercial and educational reuse.
+**前工程装置は、原子レベルの精度でトランジスタを構築するための中核技術です。技術的制約と装置連携に注目して学びましょう。**  
+**Front-end tools are central to atomic-level precision in chipmaking. Study the process integration and technical constraints carefully.**
 
 ---
 
-**前工程装置は、原子レベルの精度でトランジスタを構築するための中核技術です。技術的制約と装置連携に注目して学びましょう。**  
-**Front-end tools are central to atomic-level precision in chipmaking. Study the process integration and technical constraints carefully.**
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
+
+---
+
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
