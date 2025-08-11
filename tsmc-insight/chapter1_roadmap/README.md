@@ -33,10 +33,10 @@ title: 📈 第1章　TSMCの技術ロードマップ / Chapter 1 TSMC Technolog
 
 | セクション / Section | 内容 / Description |
 |----------------------|--------------------|
-| [1.1](1_1_node_naming.md) | ノード年表とマーケティング命名の差異（例：5nmとN5）<br>Differences between marketing names and node labels |
+| [1.1](1_1_node_timeline.md) | ノード年表とマーケティング命名の差異（例：5nmとN5）<br>Differences between marketing names and node labels |
 | [1.2](1_2_finfet_to_5nm.md) | FinFET技術の確立と5nm世代までの設計手法<br>FinFET establishment and design methods up to 5nm |
-| [1.3](1_3_euv_adoption.md) | EUV導入の背景と7nm以降の製造技術変化<br>Background of EUV introduction and manufacturing changes beyond 7nm |
-| [1.4](1_4_n2_gaa_intro.md) | N2 / GAA構造（ナノシートFET）の登場と設計課題<br>Introduction of N2/GAA nanosheet FET and design challenges |
+| [1.3](1_3_euv_intro.md) | EUV導入の背景と7nm以降の製造技術変化<br>Background of EUV introduction and manufacturing changes beyond 7nm |
+| [1.4](1_4_gaa_intro.md) | N2 / GAA構造（ナノシートFET）の登場と設計課題<br>Introduction of N2/GAA nanosheet FET and design challenges |
 | [1.5](1_5_a16_node.md) | A16ノード：A14との違い、性能密度、チップレットとの関係<br>A16 node: Differences from A14, density, and chiplet relevance |
 | [1.6](1_6_future_outlook.md) | 今後の予測（A10以降、ナノワイヤ化、CMOS Beyond）<br>Future outlook (post-A10, nanowire, CMOS beyond) |
 
@@ -78,7 +78,7 @@ title: 📈 第1章　TSMCの技術ロードマップ / Chapter 1 TSMC Technolog
 | 日付 / Date | 内容 / Details |
 |-------------|---------------|
 | 2025-07-13 | 初版作成（章構成・比較表・教材リンク修正） / First draft with structure, comparison table, and links |
-| 2025-08-11 | 各節リンク追加 / Added links to all sections |
+| 2025-08-11 | セクションリンクをファイル名に一致させ修正 / Updated section links to match file names |
 
 ---
 
