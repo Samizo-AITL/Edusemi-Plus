@@ -1,3 +1,10 @@
+---
+layout: default
+title: 図表ディレクトリ – `tsmc-insight/figs/`
+---
+
+---
+
 # 🖼️ 図表ディレクトリ – `tsmc-insight/figs/`
 
 このディレクトリには、**TSMC Insight 各章に関連する図表・年表・地図・グラフ**を収録します。  
