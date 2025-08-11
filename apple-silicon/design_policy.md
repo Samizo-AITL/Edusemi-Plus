@@ -1,3 +1,10 @@
+---
+layout: default
+title: 
+---
+
+---
+
 # 🧠 Apple Siliconの設計思想と方針
 
 ## はじめに
