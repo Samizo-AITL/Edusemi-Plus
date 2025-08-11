@@ -1,3 +1,10 @@
+---
+layout: default
+title: Edusemi-Plus｜半導体産業サプライチェーン構造マップ
+---
+
+---
+
 # 🏭 Edusemi-Plus｜半導体産業サプライチェーン構造マップ  
 # 🏭 Edusemi-Plus | Semiconductor Industry Supply Chain Map
 
