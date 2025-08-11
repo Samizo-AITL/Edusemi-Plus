@@ -11,7 +11,7 @@ title: 🎓 第6章　教育・大学連携 / Chapter 6 Education & University C
 本章では、TSMCの**教育機関との連携・人材育成戦略**を中心に、  
 ファウンドリ産業における**知的資産・人材の供給網構築**という観点から、台湾・日本・米国・欧州の大学との関係性を分析します。
 
-TSMCは、製造装置・材料・設計環境といった技術要素と同時に、**人材確保と教育支援を戦略的に行う企業**でもあります。
+TSMCは、製造装置・材料・設計環境と同時に、**人材確保と教育支援を戦略的に行う企業**でもあります。
 
 This chapter focuses on **TSMC’s collaboration with educational institutions and human resource development strategies**,  
 analyzing relationships with universities in Taiwan, Japan, the U.S., and Europe from the perspective of **building intellectual capital and talent pipelines**.
@@ -35,11 +35,11 @@ analyzing relationships with universities in Taiwan, Japan, the U.S., and Europe
 
 | セクション / Section | 内容 / Description |
 |----------------------|--------------------|
-| 6.1 | 台湾における産学連携モデル（台大・清華・交通大など）<br>Industry-academia models in Taiwan (NTU, NTHU, NCTU) |
-| 6.2 | 東京大学との連携事例（TSMC日本R&Dセンターとの接続）<br>Collaboration with the University of Tokyo (R&D center integration) |
-| 6.3 | アリゾナ・ドイツ進出と現地大学との教育連携計画<br>Education partnerships with local universities in Arizona and Germany |
-| 6.4 | インターンシップ・修士育成・人材還流の仕組み<br>Internships, master’s training, and talent circulation |
-| 6.5 | TSMCの教育投資と国家的人材政策との整合性<br>Alignment of TSMC’s education investment with national HR policies |
+| 6.1 | [台湾における産学連携モデル（台大・清華・交通大など）](6_1_taiwan_model.md)<br>Industry-academia models in Taiwan (NTU, NTHU, NCTU) |
+| 6.2 | [東京大学との連携事例（TSMC日本R&Dセンターとの接続）](6_2_tokyo_u_collab.md)<br>Collaboration with the University of Tokyo (R&D center integration) |
+| 6.3 | [アリゾナ・ドイツ進出と現地大学との教育連携計画](6_3_overseas_edu_partnerships.md)<br>Education partnerships with local universities in Arizona and Germany |
+| 6.4 | [インターンシップ・修士育成・人材還流の仕組み](6_4_internship_master_return.md)<br>Internships, master’s training, and talent circulation |
+| 6.5 | [TSMCの教育投資と国家的人材政策との整合性](6_5_investment_policy_alignment.md)<br>Alignment of TSMC’s education investment with national HR policies |
 
 ---
 
