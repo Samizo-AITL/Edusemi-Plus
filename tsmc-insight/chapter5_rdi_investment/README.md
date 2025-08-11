@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🧪 第5章：R&D体制と設備投資 / Chapter 5: R&D Structure & Capital Investment
+title: 🧪 第5章　R&D体制と設備投資 / Chapter 5 R&D Structure & Capital Investment
 ---
 
 ---
