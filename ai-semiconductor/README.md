@@ -1,3 +1,9 @@
+---
+layout: default
+title: ai-semiconductor – AI時代の半導体を読む
+---
+
+---
 # 🤖 ai-semiconductor – AI時代の半導体を読む
 
 本シリーズは、**生成AI・大規模言語モデル（LLM）・NPU・GPU** などのトピックを通して、  
