@@ -1,6 +1,8 @@
 ---
 layout: default
-title: 4. 次世代材料と構造｜Beyond WBG: Emerging Materials & Structures
+title: 4. 次世代材料と構造｜Beyond WBG Emerging Materials & Structures
+---
+
 ---
 
 # 🚀 4. 次世代材料と構造｜Beyond WBG: Emerging Materials & Structures
