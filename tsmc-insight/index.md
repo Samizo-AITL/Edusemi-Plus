@@ -1,3 +1,10 @@
+---
+layout: default
+title: TSMC Insight – ファウンドリ産業の技術と地政学
+---
+
+---
+
 # 🏭 TSMC Insight – ファウンドリ産業の技術と地政学
 
 TSMC Insight は、世界最大の半導体ファウンドリ企業である **TSMC（Taiwan Semiconductor Manufacturing Company）** を軸に、  
