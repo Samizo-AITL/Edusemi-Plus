@@ -1,3 +1,10 @@
+---
+layout: default
+title: TSMC Insight – 技術ロードマップと地政学から読み解くファウンドリ戦略
+---
+
+---
+
 # 🏭 TSMC Insight – 技術ロードマップと地政学から読み解くファウンドリ戦略
 
 **Edusemi-Plus/tsmc-insight/** は、世界最大のファウンドリ企業 **TSMC（Taiwan Semiconductor Manufacturing Company）** を中心に、  
