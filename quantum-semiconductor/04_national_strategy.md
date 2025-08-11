@@ -3,6 +3,8 @@ layout: default
 title: 🌐 第4章｜主要プレイヤーと国家戦略の動向 / Key Players & National Strategies
 ---
 
+---
+
 # 🌐 **第4章｜主要プレイヤーと国家戦略の動向**  
 **Chapter 4｜Key Players & National Strategies**
 
