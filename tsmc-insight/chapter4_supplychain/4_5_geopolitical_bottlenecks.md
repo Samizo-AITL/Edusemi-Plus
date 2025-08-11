@@ -3,6 +3,8 @@ layout: default
 title: ⛓️ 4.5 地政学的ボトルネックと供給網レジリエンスの課題 / 4.5 Geopolitical Bottlenecks & Supply Chain Resilience Challenges
 ---
 
+---
+
 # ⛓️ 4.5 地政学的ボトルネックと供給網レジリエンスの課題  
 **4.5 Geopolitical Bottlenecks & Supply Chain Resilience Challenges**
 
