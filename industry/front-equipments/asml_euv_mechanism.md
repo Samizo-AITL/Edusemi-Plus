@@ -1,3 +1,10 @@
+---
+layout: default
+title:   ASMLのEUV露光装置機構｜Extreme Ultraviolet Lithography by ASML
+---
+
+---
+
 # 🔭 ASMLのEUV露光装置機構｜Extreme Ultraviolet Lithography by ASML
 
 本ページでは、ASML社のEUV（Extreme Ultraviolet）露光装置の機構とその構成要素について解説します。  
