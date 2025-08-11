@@ -76,7 +76,7 @@ For detailed formulas related to the Q-factor and associated loss mechanisms (DC
 This research is closely related to the design of **on-chip inductor Q-factor optimization**.  
 The following resource provides practical AMS design guidelines.
 
-📘 [5a.5 インダクタのQ値改善と配線・基板設計｜Improving Inductor Q-Factor via Wiring and Substrate Design](http://samizo-aitl.github.io/Edusemi-v4x/d_chapter5a_analog_mixed_signal/5_inductor_q_factor/)  
+📘 [5a.5 インダクタのQ値改善と配線・基板設計｜Improving Inductor Q-Factor via Wiring and Substrate Design](http://samizo-aitl.github.io/Edusemi-v4x/d_chapter5a_analog_mixed_signal/5_inductor_q_factor.html)  
 （オンチップインダクタのQ向上技術：金属・基板・パターン設計とその応用）  
 (Practical techniques for improving Q: metal stack, substrate isolation, and layout optimization)
 
