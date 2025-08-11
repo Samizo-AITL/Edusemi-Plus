@@ -35,11 +35,11 @@ shaped by the U.S.–China rivalry, the Taiwan Strait tensions, and Japan–U.S.
 
 | セクション / Section | 内容 / Description |
 |----------------------|--------------------|
-| 2.1 | 台湾の戦略的位置づけとTSMCの依存構造<br>Strategic role of Taiwan and TSMC's dependency structure |
-| 2.2 | 米中対立と半導体規制（Huawei制裁・先端装置輸出規制など）<br>U.S.–China rivalry and semiconductor export controls |
-| 2.3 | CHIPS法と日米台連携（アメリカ、熊本、ドイツ進出の意義）<br>CHIPS Act and Japan–U.S.–Taiwan cooperation |
-| 2.4 | サプライチェーンの地政学的分散と拠点戦略<br>Geopolitical diversification of supply chains |
-| 2.5 | 台湾有事リスクと経済安全保障政策との関係性<br>Taiwan contingency risks and economic security policies |
+| [2.1](2_1_taiwan_tsmc_dependency.md) | 台湾の戦略的位置づけとTSMCの依存構造<br>Strategic role of Taiwan and TSMC's dependency structure |
+| [2.2](2_2_us_china_controls.md) | 米中対立と半導体規制（Huawei制裁・先端装置輸出規制など）<br>U.S.–China rivalry and semiconductor export controls |
+| [2.3](2_3_chips_japan_us_taiwan.md) | CHIPS法と日米台連携（アメリカ、熊本、ドイツ進出の意義）<br>CHIPS Act and Japan–U.S.–Taiwan cooperation |
+| [2.4](2_4_supply_chain_geopolitics.md) | サプライチェーンの地政学的分散と拠点戦略<br>Geopolitical diversification of supply chains |
+| [2.5](2_5_taiwan_contingency.md) | 台湾有事リスクと経済安全保障政策との関係性<br>Taiwan contingency risks and economic security policies |
 
 ---
 
