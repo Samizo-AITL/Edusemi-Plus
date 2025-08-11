@@ -108,5 +108,5 @@ Under institutional, technical, and geopolitical constraints, attempts toward fu
 ---
 
 ## 🔙 戻る / Back
-- **JP:** [地政学関連セクション README に戻る](../README.md)  
-- **EN:** [Return to Geopolitics Section README](../README.md)
+- **JP:** [地政学関連セクション README に戻る](./README.md)  
+- **EN:** [Return to Geopolitics Section README](./README.md)
