@@ -6,8 +6,7 @@ title: 半導体投資におけるリスクと成長要因 / Risks and Growth Dr
 ---
 
 # ⚠️ 半導体投資におけるリスクと成長要因  
-# ⚠️ Risks and Growth Drivers in Semiconductor Investment  
-© Shinichi Samizo, 2025
+**⚠️ Risks and Growth Drivers in Semiconductor Investment**
 
 ---
 
