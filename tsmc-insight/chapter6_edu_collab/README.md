@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🎓 第6章：教育・大学連携 / Chapter 6: Education & University Collaboration
+title: 🎓 第6章　教育・大学連携 / Chapter 6 Education & University Collaboration
 ---
 
 ---
