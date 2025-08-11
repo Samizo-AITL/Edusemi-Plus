@@ -61,13 +61,22 @@ Device makers are positioned along various strategic axes:
 
 ---
 
-## 📄 ライセンス  
-## 📄 License
-
-MIT License に基づき、非営利・教育目的での自由な利用・改変・共有を歓迎します。  
-This content is released under the MIT License, and is freely available for non-commercial and educational reuse.
+**デバイスメーカーは、設計と製造の世界を接続し、製品価値を社会に届ける存在です。業態の違いと戦略的ポジションを学びましょう。**  
+**Device makers connect design and manufacturing to deliver value to society. Learn their business models and strategic roles.**
 
 ---
 
-**デバイスメーカーは、設計と製造の世界を接続し、製品価値を社会に届ける存在です。業態の違いと戦略的ポジションを学びましょう。**  
-**Device makers connect design and manufacturing to deliver value to society. Learn their business models and strategic roles.**
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
+
+---
+
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
