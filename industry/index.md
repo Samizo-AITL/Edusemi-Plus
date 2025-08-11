@@ -6,7 +6,7 @@ title: Edusemi-Plus｜半導体産業サプライチェーン構造マップ
 ---
 
 # 🏭 Edusemi-Plus｜半導体産業サプライチェーン構造マップ  
-# 🏭 Edusemi-Plus | Semiconductor Industry Supply Chain Map
+**🏭 Edusemi-Plus | Semiconductor Industry Supply Chain Map**
 
 **本セクション `industry/` は、設計・製造・材料・解析・デバイスにわたる半導体産業の構造をカテゴリ別に整理した教材です。**  
 **This section `industry/` organizes the semiconductor industry by category**, covering **design, manufacturing, materials, metrology**, and **devices**.
@@ -17,7 +17,7 @@ It classifies **major companies and technologies** in each domain, visualizing t
 ---
 
 ## 📚 カテゴリ一覧（日本語）  
-## 📚 Categories (Japanese)
+**📚 Categories (Japanese)**
 
 | カテゴリ | 概要 | リンク |
 |----------|------|--------|
@@ -48,7 +48,7 @@ It classifies **major companies and technologies** in each domain, visualizing t
 ---
 
 ## 🗺️ 全体構造図（例）  
-## 🗺️ Example of Full Industry Structure Map
+**🗺️ Example of Full Industry Structure Map**
 
 > ![industry-flow](./industry-map/industry-flow.png)  
 > **設計 → マスク → 前工程 → 後工程 → 解析 → デバイス**  
@@ -57,7 +57,7 @@ It classifies **major companies and technologies** in each domain, visualizing t
 ---
 
 ## 🎯 教材の使い方  
-## 🎯 Use Cases
+**🎯 Use Cases**
 
 - 🎓 **教育者・学生向け**：業界構造を体系的に学習  
   🎓 **For educators and students**: Learn industry structure systematically  
@@ -69,7 +69,7 @@ It classifies **major companies and technologies** in each domain, visualizing t
 ---
 
 ## 📎 関連教材  
-## 📎 Related Materials
+**📎 Related Materials**
 
 - [📘 **Edusemi-v4x（基礎技術教材）**](../edusemi-v4x/)  
   📘 **Edusemi-v4x: Foundational Technical Modules**  
@@ -81,7 +81,7 @@ It classifies **major companies and technologies** in each domain, visualizing t
 ---
 
 ## 📄 ライセンス  
-## 📄 License
+**📄 License**
 
 本教材は **MIT License** に基づき、**非営利・教育目的での利用・改変・共有を歓迎**します。  
 This content is released under the **MIT License**, and is **freely reusable and modifiable for non-commercial and educational purposes**.
