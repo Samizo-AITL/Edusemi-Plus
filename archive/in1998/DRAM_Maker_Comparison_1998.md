@@ -1,5 +1,12 @@
+---
+layout: default
+title:  主要DRAMメーカー比較（1998年 / 64M DRAM世代）
+---
+
+---
+
 # 📘 主要DRAMメーカー比較（1998年 / 64M DRAM世代）  
-# 📘 Comparison of Major DRAM Makers (1998 / 64M Generation)
+**📘 Comparison of Major DRAM Makers (1998 / 64M Generation)**
 
 本資料は、1998年当時の64M DRAM（0.25μm世代）における主要DRAMメーカーのセル構造と技術的特徴を比較したものです。  
 This document compares cell structures and technical features of major DRAM manufacturers in the 64M (0.25μm) generation circa 1998.
