@@ -6,8 +6,7 @@ title: 半導体主要プレイヤーとその投資的魅力 / Major Semiconduc
 ---
 
 # 💹 半導体主要プレイヤーとその投資的魅力  
-# 💹 Major Semiconductor Players and Their Investment Appeal  
-© Shinichi Samizo, 2025
+**💹 Major Semiconductor Players and Their Investment Appeal** 
 
 ---
 
