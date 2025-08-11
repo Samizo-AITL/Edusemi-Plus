@@ -1,3 +1,10 @@
+---
+layout: default
+title: AIツール比較と使い分けガイド（Edusemi-Plus版）
+---
+
+---
+
 # 🤖 AIツール比較と使い分けガイド（Edusemi-Plus版）
 
 Edusemi-Plusでは、半導体技術の教育・設計・調査・教材作成において、生成AIを効果的に活用しています。  
