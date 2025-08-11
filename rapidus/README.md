@@ -42,11 +42,19 @@ title: Rapidusと2nm技術の挑戦（Edusemi-Plus 特別教材）
 - [地政学教材（日本の戦略）](../geopolitics/japan.md)
 - [技術ロードマップ編（2nm以降）](../tsmc-insight/roadmap.md)
 
-## 📝 ライセンス・著者
-- MITライセンス
-- 執筆：三溝 真一（Edusemiシリーズ開発者）
+---
+
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
 
 ---
 
-> 🚀 Rapidusの挑戦は、日本の先端製造技術が再び世界に立ち向かう象徴的なケースです。
-> 教材として、政策・構造・設計・技術教育のあらゆる観点から活用できます。
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
