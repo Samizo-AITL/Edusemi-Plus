@@ -6,8 +6,7 @@ title: 技術革新と半導体投資トレンド / Technological Innovation and
 ---
 
 # 🚀 技術革新と半導体投資トレンド  
-# 🚀 Technological Innovation and Semiconductor Investment Trends  
-© Shinichi Samizo, 2025
+**🚀 Technological Innovation and Semiconductor Investment Trends**  
 
 ---
 
@@ -22,7 +21,7 @@ Growth markets such as **AI, 5G, automotive, and data centers** directly affect 
 ---
 
 ## 1️⃣ AI（人工知能）とHPC（高性能計算）  
-## 1️⃣ AI (Artificial Intelligence) and HPC (High-Performance Computing)
+**1️⃣ AI (Artificial Intelligence) and HPC (High-Performance Computing)**
 
 - **インパクト / Impact**：2023年以降、生成AIの拡大がNVIDIAを中心に株価を急騰させました。  
   Since 2023, the boom in generative AI has driven sharp stock price increases, especially for NVIDIA.  
@@ -34,7 +33,7 @@ Growth markets such as **AI, 5G, automotive, and data centers** directly affect 
 ---
 
 ## 2️⃣ 5G通信とスマートフォン市場  
-## 2️⃣ 5G Communication and Smartphone Market
+**2️⃣ 5G Communication and Smartphone Market**
 
 - **背景 / Background**：5G移行期にQualcommやMediaTekが注目を集めました。  
   During the 5G transition, companies like Qualcomm and MediaTek gained attention.  
@@ -45,7 +44,7 @@ Growth markets such as **AI, 5G, automotive, and data centers** directly affect 
 ---
 
 ## 3️⃣ 自動車（車載半導体）  
-## 3️⃣ Automotive (Automotive Semiconductors)
+**3️⃣ Automotive (Automotive Semiconductors)**
 
 - **成長要因 / Growth Factors**：EV・自動運転に伴い、1台あたりの半導体搭載数が急増。  
   The shift to EVs and autonomous driving is increasing semiconductor content per vehicle.  
@@ -58,7 +57,7 @@ Growth markets such as **AI, 5G, automotive, and data centers** directly affect 
 ---
 
 ## 4️⃣ データセンターとクラウド  
-## 4️⃣ Data Centers and Cloud
+**4️⃣ Data Centers and Cloud**
 
 - **投資家視点 / Investor View**：クラウド投資はGPU需要と連動しやすい。  
   Cloud spending tends to correlate with GPU demand.  
@@ -70,7 +69,7 @@ Growth markets such as **AI, 5G, automotive, and data centers** directly affect 
 ---
 
 ## 5️⃣ 製造プロセスと装置技術の進化  
-## 5️⃣ Advancements in Manufacturing Processes and Equipment
+**5️⃣ Advancements in Manufacturing Processes and Equipment**
 
 - **EUV露光の量産化 / EUV Lithography Mass Production**：  
   - TSMCとSamsungが先導 / Led by TSMC and Samsung  
