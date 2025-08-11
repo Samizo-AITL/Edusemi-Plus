@@ -70,3 +70,9 @@ This content is released under the MIT License, and is freely available for non-
 
 **後工程装置は、半導体を「製品」として成立させるための最終プロセスです。パッケージの多様化・高機能化を支える装置技術を深く学びましょう。**  
 **Back-end tools are essential to finalize semiconductors as products. Dive into the technologies that support the diversification and advancement of packaging.**
+
+---
+
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
