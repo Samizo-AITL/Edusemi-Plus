@@ -62,12 +62,17 @@ Edusemi-Plusでは、半導体技術の教育・設計・調査・教材作成�
 
 ---
 
-## 📝 ライセンス・出典
+## 👤 **著者・ライセンス / Author & License**
 
-- 本資料は MITライセンスに基づき自由に再利用・編集可能です。
-- 各ツール・商標は各社に帰属します（OpenAI / Google / Anthropic など）。
-- 教育・研究・教材用途での利用を歓迎します。
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
 
-> 技術設計と教育の融合を支援するため、ChatGPT・Claude・Geminiを使い分ける「三位一体運用構成」をぜひご活用ください。
+---
 
-（資料作成：Shinichi Samizo / Edusemi-Plus project）
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
