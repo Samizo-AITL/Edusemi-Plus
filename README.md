@@ -1,3 +1,10 @@
+---
+layout: default
+title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シリーズ
+---
+
+---
+
 # 📚 **Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シリーズ**
 
 **Edusemi-Plus** は、基礎教材 [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) を拡張し、  
