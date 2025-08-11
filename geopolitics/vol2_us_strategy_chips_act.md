@@ -111,5 +111,5 @@ Its success depends on balancing global partnerships, profitability, and long-te
 ---
 
 ## 🔙 戻る / Back
-- **JP:** [地政学関連セクション README に戻る](../README.md)  
-- **EN:** [Return to Geopolitics Section README](../README.md)
+- **JP:** [地政学関連セクション README に戻る](./README.md)  
+- **EN:** [Return to Geopolitics Section README](./README.md)
