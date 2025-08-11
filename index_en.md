@@ -15,8 +15,6 @@ designed to explore the semiconductor industry through diverse perspectives incl
 - 🧠 Supports **exploratory learning** with **ChatGPT × Gemini × Claude**  
 - 🧑‍🏫 **Open educational content** for education, strategy, and system design
 
----
-
 🇯🇵 **[日本語版READMEはこちら](./index.md)**
 
 ---
