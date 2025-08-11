@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ⚔️ 第3章　TSMCとサムスンの比較 / Chapter 3  TSMC vs Samsung Comparison
+title: ⚔️ 第3章　TSMCとサムスンの比較 / Chapter 3 TSMC vs Samsung Comparison
 ---
 
 ---
@@ -33,11 +33,11 @@ focusing on differences in **technology strategies, mass production capabilities
 
 | セクション / Section | 内容 / Description |
 |----------------------|--------------------|
-| 3.1 | サムスンファウンドリの立ち位置と歴史的背景<br>Position and historical background of Samsung Foundry |
-| 3.2 | EUV導入戦略と層数：TSMC vs サムスンの世代別比較<br>EUV adoption strategies and layer counts by generation |
-| 3.3 | GAA対応：サムスン3nm先行 vs TSMC N2世代投入<br>GAA implementation: Samsung 3nm lead vs TSMC N2 launch |
-| 3.4 | 歩留まり・顧客数・ファブレス連携の違い<br>Differences in yield, customer base, and fabless collaboration |
-| 3.5 | R&D投資規模・国家支援制度の差異（韓国 vs 台湾）<br>Differences in R&D scale and national support policies |
+| [3.1](3_1_samsung_history.md) | サムスンファウンドリの立ち位置と歴史的背景<br>Position and historical background of Samsung Foundry |
+| [3.2](3_2_euv_strategy.md) | EUV導入戦略と層数：TSMC vs サムスンの世代別比較<br>EUV adoption strategies and layer counts by generation |
+| [3.3](3_3_gaa_comparison.md) | GAA対応：サムスン3nm先行 vs TSMC N2世代投入<br>GAA implementation: Samsung 3nm lead vs TSMC N2 launch |
+| [3.4](3_4_yield_customers.md) | 歩留まり・顧客数・ファブレス連携の違い<br>Differences in yield, customer base, and fabless collaboration |
+| [3.5](3_5_rnd_investment_support.md) | R&D投資規模・国家支援制度の差異（韓国 vs 台湾）<br>Differences in R&D scale and national support policies |
 
 ---
 
