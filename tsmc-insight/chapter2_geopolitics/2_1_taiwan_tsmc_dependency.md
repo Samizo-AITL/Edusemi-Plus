@@ -1,7 +1,8 @@
-File: e_chapter2_geopolitics/2_1_taiwan_tsmc_dependency.md
 ---
 layout: default
 title: 🌏 2.1 台湾の戦略的位置づけとTSMCの依存構造 / Strategic Role of Taiwan and TSMC's Dependency Structure
+---
+
 ---
 
 # 🌏 2.1 台湾の戦略的位置づけとTSMCの依存構造  
