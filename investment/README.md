@@ -1,3 +1,10 @@
+---
+layout: default
+title: Edusemi-Plus / Investment 
+---
+
+---
+
 # 💼 Edusemi-Plus / Investment  
 **半導体産業 × 投資戦略の統合ガイド**  
 © Shinichi Samizo, 2025
