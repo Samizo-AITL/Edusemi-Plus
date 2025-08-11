@@ -67,14 +67,6 @@ title: Edusemi-Plus Archive
 
 ---
 
-## 👤 著者・提供者 | Author & Contributor
-
-**三溝 真一（Shinichi Samizo）**  
-- DRAM開発、MEMS、薄膜プロセス、教育教材設計に従事  
-- Developer of DRAM, MEMS, thin-film processes, and educational frameworks
-
----
-
 ### 📊 構造図 | Structure Diagram
 
 ```mermaid
@@ -93,3 +85,18 @@ flowchart TD
 > This archive aims to preserve the **“memory of structure and decision-making”** in semiconductor development.
 
 ---
+
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
+
+---
+
+## 🔙 戻る / Back
+- **JP:** [Edusemi-Plus トップへ戻る](https://samizo-aitl.github.io/Edusemi-Plus/index.html)  
+- **EN:** [Return to Edusemi-Plus Top](https://samizo-aitl.github.io/Edusemi-Plus/index.html)
