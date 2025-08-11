@@ -1,3 +1,10 @@
+---
+layout: default
+title: ウエハ基板の基礎 / Basics of Silicon Wafers
+---
+
+---
+
 # 🧱 ウエハ基板の基礎 / Basics of Silicon Wafers
 
 本ドキュメントでは、半導体製造におけるシリコンウエハ（Silicon Wafer）の基礎的な性質、分類、注意点、および代表的なメーカーシェアについてまとめます。
