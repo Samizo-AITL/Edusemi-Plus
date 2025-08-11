@@ -3,6 +3,8 @@ layout: default
 title: 5. InGaNレーザー｜Blue & UV Light Semiconductor Technology
 ---
 
+---
+
 # 💡 5. InGaNレーザー｜Blue & UV Light Semiconductor Technology
 
 **InGaN（窒化インジウムガリウム）**は、青色から紫外光まで発光可能な化合物半導体で、  
