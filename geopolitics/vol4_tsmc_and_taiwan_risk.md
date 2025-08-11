@@ -126,5 +126,5 @@ The challenge ahead is whether manufacturing diversification, tech transfer, and
 ---
 
 ## 🔙 戻る / Back
-- **JP:** [地政学関連セクション README に戻る](../README.md)  
-- **EN:** [Return to Geopolitics Section README](../README.md)
+- **JP:** [地政学関連セクション README に戻る](./README.md)  
+- **EN:** [Return to Geopolitics Section README](./README.md)
