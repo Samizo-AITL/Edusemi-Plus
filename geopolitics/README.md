@@ -36,7 +36,7 @@ title: geopolitics – 地政学と半導体産業
 | ファイル名                                  | 内容概要                                               |
 |---------------------------------------------|--------------------------------------------------------|
 | [`vol1_why_geopolitics_matters.md`](./vol1_why_geopolitics_matters.md)         | なぜ地政学が半導体に影響するのか（国益・安全保障化の背景）     |
-| [`vol2_us_strategy.md`](./vol2_us_strategy.md)                 | 米国のCHIPS法と国内回帰戦略、コスト・規制の副作用             |
+| [`vol2_us_strategy_chips_act.md`](./vol2_us_strategy_chips_act.md)                 | 米国のCHIPS法と国内回帰戦略、コスト・規制の副作用             |
 | [`vol3_china_self_reliance.md`](./vol3_china_self_reliance.md) | 中国の国産化戦略、技術的限界、規制回避とリスク                |
 | [`vol4_tsmc_and_taiwan_risk.md`](./vol4_tsmc_and_taiwan_risk.md) | TSMCの集中と台湾リスク、各国の製造分散の成否                   |
 
