@@ -16,16 +16,16 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 - 🧠 Supports **exploratory learning** with **ChatGPT × Gemini × Claude**  
 - 🧑‍🏫 Open for **education, strategy, and system design**
 
-🇯🇵 **[日本語版 README](https://samizo-aitl.github.io/Edusemi-Plus/index.html)**
+🇯🇵 **[日本語版 README](../)**
 
 ---
 
 ## 🌟 **Featured Topics**
 | Topic | Summary | Link |
 |---|---|---|
-| 🏭 **TSMC Insight** | Multi-angle analysis of TSMC: tech roadmap, geopolitics, supply chain, R&D, education links | [Open](./tsmc-insight/index.html) |
-| 🚀 **Rapidus 2nm Case Study** | Japan’s 2nm challenge: GAA, IBM collaboration, domestic fab infrastructure | [Open](./rapidus/index.html) |
-| 🍏 **Apple Silicon Evolution** | A-series SoC design philosophy, N3/N3E migration, NPU role | [Open](./apple-silicon/index.html) |
+| 🏭 **TSMC Insight** | Multi-angle analysis of TSMC: tech roadmap, geopolitics, supply chain, R&D, education links | [Open](./tsmc-insight/) |
+| 🚀 **Rapidus 2nm Case Study** | Japan’s 2nm challenge: GAA, IBM collaboration, domestic fab infrastructure | [Open](./rapidus/) |
+| 🍏 **Apple Silicon Evolution** | A-series SoC design philosophy, N3/N3E migration, NPU role | [Open](./apple-silicon/) |
 
 ---
 
@@ -36,36 +36,36 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 | 🧠 **Critical Thinking** | Explore the “**why**” in design choices and strategic decisions |
 | 🔄 **Connection to Fundamentals** | Bridge **Edusemi basics** with **real-world industry context** |
 
-> 🆕 **Highlight:** Japan’s re-entry into advanced logic fab via **Rapidus 2nm chip validation (July 2025)** — see [Rapidus](./rapidus/index.html)
+> 🆕 **Highlight:** Japan’s re-entry into advanced logic fab via **Rapidus 2nm chip validation (July 2025)** — see [Rapidus](./rapidus/)
 
 ---
 
 ## 📚 **Content Categories**
 | Category | Summary | Link |
 |---|---|---|
-| 🧪 **Materials** | Compare & apply **Si / SiC / GaN** | [materials](./materials/index.html) |
-| ⚛️ **Advanced** | Quantum, cryo, next-gen architectures | [quantum-semiconductor](./quantum-semiconductor/index.html) |
-| 🤖 **AI** | LLMs & AI accelerators | [ai-semiconductor](./ai-semiconductor/index.html), [ai-tools-comparison](./ai-tools-comparison/index.html) |
-| 🏭 **Industry** | TSMC & Apple structures, resurgence stories | [tsmc-insight](./tsmc-insight/index.html), [rapidus](./rapidus/index.html) |
-| 📱 **Apple Silicon** | Evolution & strategy of A-Series SoCs | [apple-silicon](./apple-silicon/index.html) |
-| 🌐 **Geopolitics** | Export controls & competition | [geopolitics](./geopolitics/index.html) |
-| 💹 **Investment** | Equity & CapEx planning | [investment](./investment/index.html) |
-| 🗂️ **Archive** | Ramp-up stories & industrial history | [archive](./archive/index.html) |
+| 🧪 **Materials** | Compare & apply **Si / SiC / GaN** | [materials](./materials/) |
+| ⚛️ **Advanced** | Quantum, cryo, next-gen architectures | [quantum-semiconductor](./quantum-semiconductor/) |
+| 🤖 **AI** | LLMs & AI accelerators | [ai-semiconductor](./ai-semiconductor/), [ai-tools-comparison](./ai-tools-comparison/) |
+| 🏭 **Industry** | TSMC & Apple structures, resurgence stories | [tsmc-insight](./tsmc-insight/), [rapidus](./rapidus/) |
+| 📱 **Apple Silicon** | Evolution & strategy of A-Series SoCs | [apple-silicon](./apple-silicon/) |
+| 🌐 **Geopolitics** | Export controls & competition | [geopolitics](./geopolitics/) |
+| 💹 **Investment** | Equity & CapEx planning | [investment](./investment/) |
+| 🗂️ **Archive** | Ramp-up stories & industrial history | [archive](./archive/) |
 
 ---
 
 ## 🔗 **Industry Structure Map** *(Core Supply Chain View)*
 | Category | Description | Link |
 |---|---|---|
-| 🏭 Overview | End-to-end from design to testing | [industry](./industry/index.html) |
-| 🧠 EDA Tools | Synthesis, verification, TCAD, P&R | [industry/eda-tools](./industry/eda-tools/index.html) |
-| 🖼️ Photomasks | Blanks, OPC, EUV masks | [industry/photomasks](./industry/photomasks/index.html) |
-| ⚙️ Front-End Equip. | Deposition, lithography, etching | [industry/front-equipments](./industry/front-equipments/index.html) |
-| 🧪 Front-End Materials | Wafers, gases, resists, CMP slurry | [industry/front-materials](./industry/front-materials/index.html) |
-| 🏗️ Back-End Equip. | Dicing, bonding, packaging | [industry/back-equipments](./industry/back-equipments/index.html) |
-| 🧯 Back-End Materials | Substrates, encapsulants, wires | [industry/back-materials](./industry/back-materials/index.html) |
-| 🔬 Metrology Tools | CD-SEM, defect inspection, X-ray | [industry/metrology-tools](./industry/metrology-tools/index.html) |
-| 💾 Device Makers | Foundry, IDM, fabless | [industry/device-makers](./industry/device-makers/index.html) |
+| 🏭 Overview | End-to-end from design to testing | [industry](./industry/) |
+| 🧠 EDA Tools | Synthesis, verification, TCAD, P&R | [industry/eda-tools](./industry/eda-tools/) |
+| 🖼️ Photomasks | Blanks, OPC, EUV masks | [industry/photomasks](./industry/photomasks/) |
+| ⚙️ Front-End Equip. | Deposition, lithography, etching | [industry/front-equipments](./industry/front-equipments/) |
+| 🧪 Front-End Materials | Wafers, gases, resists, CMP slurry | [industry/front-materials](./industry/front-materials/) |
+| 🏗️ Back-End Equip. | Dicing, bonding, packaging | [industry/back-equipments](./industry/back-equipments/) |
+| 🧯 Back-End Materials | Substrates, encapsulants, wires | [industry/back-materials](./industry/back-materials/) |
+| 🔬 Metrology Tools | CD-SEM, defect inspection, X-ray | [industry/metrology-tools](./industry/metrology-tools/) |
+| 💾 Device Makers | Foundry, IDM, fabless | [industry/device-makers](./industry/device-makers/) |
 
 ---
 
@@ -85,7 +85,7 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 | 🔍 Research | Gemini 1.5 Pro | Geopolitics, materials, overseas tech |
 | ✒️ Editor | Claude 3 Opus | Long-form editing, formatting |
 
-> See [ai-tools-comparison](./ai-tools-comparison/index.html) for prompt-specific workflows
+> See [ai-tools-comparison](./ai-tools-comparison/) for prompt-specific workflows
 
 ---
 
@@ -97,7 +97,7 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 ---
 
 ## 📄 **License**
-- [MIT License](https://opensource.org/licenses/MIT) — free for educational & non-commercial reuse
+- [MIT License](https://opensource.org/licenses/MIT) — free for educational & non-commercial reuse  
 > Opinions reflect the author’s own research & reasoning
 
 ---
