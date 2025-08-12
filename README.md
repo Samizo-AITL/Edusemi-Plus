@@ -17,7 +17,7 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 - 🧠 **ChatGPT × Gemini × Claude** / Inquiry learning with **ChatGPT × Gemini × Claude**  
 - 🧑‍🏫 **教育・戦略・技術設計** / Usable for **education, strategy, and engineering**
 
-🇺🇸 **EN page:** [**English version**](https://samizo-aitl.github.io/Edusemi-Plus/)
+🇺🇸 **EN page:** [**English version**](./en/)
 
 ---
 
