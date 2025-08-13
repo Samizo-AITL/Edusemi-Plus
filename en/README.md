@@ -5,7 +5,7 @@ title: Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society
 
 ---
 
-# 📚 **Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society, and AI**
+# ➕ **Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society, and AI**
 
 ---
 
