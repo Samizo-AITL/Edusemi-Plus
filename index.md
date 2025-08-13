@@ -130,7 +130,6 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 ---
 
-
 ## 👤 **執筆者情報 | Author**
 > 本教材の企画・執筆者。半導体・インクジェット分野での実務経験を持ち、教育と実装を融合した教材開発を行う。  
 > *Author with professional background in semiconductors and inkjet actuators, creating materials integrating theory and practice.*
