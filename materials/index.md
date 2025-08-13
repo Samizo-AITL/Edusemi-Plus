@@ -3,6 +3,8 @@ layout: default
 title: 🧪 Materials｜半導体材料の特性と応用選定
 ---
 
+---
+
 # 🧪 **Materials｜半導体材料の特性と応用選定**  
 **Materials｜Properties & Application Mapping in Semiconductors**
 
