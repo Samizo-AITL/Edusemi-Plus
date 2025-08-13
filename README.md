@@ -5,7 +5,7 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 ---
 
-# ➕ **Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シリーズ**  
+# ➕ **Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シリーズ**   
 *Edusemi-Plus: Applied learning series connecting semiconductors with society & AI*
 
 ---
