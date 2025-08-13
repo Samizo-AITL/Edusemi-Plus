@@ -1,22 +1,29 @@
 title: Edusemi-Plus
 description: 半導体産業と社会・AIをつなぐ応用教材
-markdown: kramdown
+
+# リポジトリサイトの場合は url/baseurl を必ず設定（末尾スラッシュなし）
+url: "https://samizo-aitl.github.io"
+baseurl: "/Edusemi-Plus"
+
+# テーマ
 theme: minima
 
+# Markdown エンジン：kramdown + GFM（テーブル/タスクリスト対応）
+markdown: kramdown
 kramdown:
   input: GFM
   parse_block_html: true
   hard_wrap: false
 
-# リポジトリサイトの場合は baseurl を必ず設定
-# 例: https://samizo-aitl.github.io/Edusemi-Plus/
-url: "https://samizo-aitl.github.io"
-baseurl: "/Edusemi-Plus"
+# タイムゾーン（ビルドの日時出力等が安定）
+timezone: Asia/Tokyo
 
+# きれいなURL（/path/ → index.html）
+permalink: pretty
+
+# ビルド不要なものは除外
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
-
-permalink: pretty
