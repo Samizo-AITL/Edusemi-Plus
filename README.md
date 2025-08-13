@@ -19,6 +19,15 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 | 🇺🇸 English Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Edusemi-Plus/en/](https://samizo-aitl.github.io/edusemi-plus/en/) |
 | 🇺🇸 English Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en](https://github.com/Samizo-AITL/edusemi-plus/tree/main/en) |
 
+## 🔗 公式リンク | Official Links
+
+| 言語 | 種別 | リンク |
+|------|------|--------|
+| 🇯🇵 Japanese Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/edusemi-plus/](https://samizo-aitl.github.io/edusemi-plus/) |
+| 🇯🇵 Japanese Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus](https://github.com/Samizo-AITL/edusemi-plus) |
+| 🇺🇸 English Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/edusemi-plus/en/](https://samizo-aitl.github.io/edusemi-plus/en/) |
+| 🇺🇸 English Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en](https://github.com/Samizo-AITL/edusemi-plus/tree/main/en) |
+
 ---
 
 **JP:** **Edusemi-Plus** は、基礎教材 [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) を拡張し、**地政学・企業戦略・製品構造・AI技術・量子・材料・投資** などの視点から、現代テクノロジー産業を多角的に探究する **応用教材群** です。  
