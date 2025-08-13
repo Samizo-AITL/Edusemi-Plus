@@ -7,6 +7,9 @@ title: Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society
 
 # ➕ **Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society, and AI**
 
+[![license](https://img.shields.io/badge/license-MIT-blue)](../LICENSE)
+[![view](https://img.shields.io/badge/view-site-brightgreen)](https://samizo-aitl.github.io/en)
+
 ---
 
 ## 🔗 Official Links 
