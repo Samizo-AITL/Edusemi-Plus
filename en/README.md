@@ -9,7 +9,7 @@ title: Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society
 
 ---
 
-## 🔗 Official Links
+## 🔗 Official Links 
 
 | Language | Type | Link |
 |----------|------|------|
