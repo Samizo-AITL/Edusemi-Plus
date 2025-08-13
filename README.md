@@ -23,10 +23,10 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 | 言語 | 種別 | リンク |
 |------|------|--------|
-| 🇯🇵 Japanese Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/edusemi-plus/](https://samizo-aitl.github.io/edusemi-plus/) |
-| 🇯🇵 Japanese Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus](https://github.com/Samizo-AITL/edusemi-plus) |
-| 🇺🇸 English Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/edusemi-plus/en/](https://samizo-aitl.github.io/edusemi-plus/en/) |
-| 🇺🇸 English Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en](https://github.com/Samizo-AITL/edusemi-plus/tree/main/en) |
+| 🇯🇵 Japanese Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Edusemi-Plus/](https://samizo-aitl.github.io/Edusemi-Plus/) |
+| 🇯🇵 Japanese Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus](https://github.com/Samizo-AITL/Edusemi-Plus) |
+| 🇺🇸 English Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Edusemi-Plus/en/](https://samizo-aitl.github.io/Edusemi-Plus/en/) |
+| 🇺🇸 English Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en) |
 
 ---
 
