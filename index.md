@@ -120,15 +120,6 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 ---
 
-## 📄 **ライセンス / License**
-
-- **JP:** 本教材は [**MIT License**](https://opensource.org/licenses/MIT) に基づき、**教育・非営利での再利用・編集・派生**を歓迎します。  
-- **EN:** Licensed under **[MIT License](https://opensource.org/licenses/MIT)**. Free to **reuse, modify, and fork** for education/non-profit.
-
-> **JP:** 記述は執筆者の調査・思考に基づきます。｜**EN:** Opinions are those of the author.
-
----
-
 ## 🔗 **関連教材・プロジェクト / Related Projects**
 
 | **Project** | **JP（概要）** | **EN (Summary)** |
@@ -137,23 +128,29 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 | 🌐 [**EduController**](https://samizo-aitl.github.io/EduController/) <br>💻 [GitHub](https://github.com/Samizo-AITL/EduController) | **制御理論 × AI制御**（全9章） | **Control theory × AI control** (9 chapters) |
 | 🌐 [**AITL-H**](https://samizo-aitl.github.io/AITL-H/) <br>💻 [GitHub](https://github.com/Samizo-AITL/AITL-H) | **知能制御：FSM＋PID＋LLM** | **Intelligent control: FSM + PID + LLM** |
 
+---
+
+
+## 👤 **執筆者情報 | Author**
+> 本教材の企画・執筆者。半導体・インクジェット分野での実務経験を持ち、教育と実装を融合した教材開発を行う。  
+> *Author with professional background in semiconductors and inkjet actuators, creating materials integrating theory and practice.*
+
+| 📌 項目 / Item | 内容 / Details |
+|------|------|
+| **氏名 / Name** | 三溝 真一（Shinichi Samizo） |
+| **学歴 / Education** | 信州大学大学院 電気電子工学 修了 |
+| **経歴 / Career** | 元 セイコーエプソン株式会社 技術者（1997年〜） |
+| **経験領域 / Expertise** | 半導体デバイス（ロジック・メモリ・高耐圧混載）<br>インクジェット薄膜ピエゾアクチュエータ<br>PrecisionCoreプリントヘッド製品化・BOM管理・ISO教育 |
+| **連絡先 / Contact** | ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)<br>🐦 [https://x.com/shin3t72](https://x.com/shin3t72)<br>💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) |
 
 ---
 
-## 👤 **執筆者 / Author**
+## 📄 **ライセンス / License**
 
-**三溝 真一（Shinichi Samizo） / Shinichi Samizo**  
-- **JP:** 信州大学大学院 電気電子工学 修了｜元 **セイコーエプソン** 技術者（1997年〜）  
-- **EN:** M.Eng., Electrical & Electronic Eng., Shinshu Univ.｜Former engineer at **Seiko Epson**
+- **JP:** 本教材は [**MIT License**](https://opensource.org/licenses/MIT) に基づき、**教育・非営利での再利用・編集・派生**を歓迎します。  
+- **EN:** Licensed under **[MIT License](https://opensource.org/licenses/MIT)**. Free to **reuse, modify, and fork** for education/non-profit.
 
-**経験 / Experience:**  
-- **JP:** 半導体（ロジック・メモリ・高耐圧混載）／薄膜ピエゾ／製品化・BOM・ISO  
-- **EN:** Semiconductors (logic/memory/HV-AMS), thin-film piezo, productization/BOM/ISO
-
-**連絡先 / Contact:**  
-- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 https://x.com/shin3t72  
-- 💻 https://samizo-aitl.github.io/
+> **JP:** 記述は執筆者の調査・思考に基づきます。｜**EN:** Opinions are those of the author.
 
 ---
 
