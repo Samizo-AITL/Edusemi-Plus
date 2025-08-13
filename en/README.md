@@ -121,11 +121,11 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 
 ## 🔗 **Related Projects**
 
-| Project | Description |
+| **Project** | **Summary** |
 |---|---|
-| [Edusemi-v4x](https://github.com/Samizo-AITL/Edusemi-v4x) | Semiconductor fundamentals: design, physics, PDK, test |
-| [EduController](https://github.com/Samizo-AITL/EduController) | Control theory × AI control (9 chapters) |
-| [AITL-H](https://github.com/Samizo-AITL/AITL-H) | Intelligent control: FSM + PID + LLM |
+| 🌐 [**Edusemi-v4x**](https://samizo-aitl.github.io/Edusemi-v4x/) <br>💻 [GitHub](https://github.com/Samizo-AITL/Edusemi-v4x) | **Foundational semiconductors**: design, physics, PDK, test |
+| 🌐 [**EduController**](https://samizo-aitl.github.io/EduController/) <br>💻 [GitHub](https://github.com/Samizo-AITL/EduController) | **Control theory × AI control** (9 chapters) |
+| 🌐 [**AITL-H**](https://samizo-aitl.github.io/AITL-H/) <br>💻 [GitHub](https://github.com/Samizo-AITL/AITL-H) | **Intelligent control**: FSM + PID + LLM |
 
 ---
 
