@@ -112,13 +112,6 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 
 ---
 
-## 📄 **License**
-
-- [MIT License](https://opensource.org/licenses/MIT) — free for educational & non-commercial reuse  
-> Opinions reflect the author’s own research & reasoning
-
----
-
 ## 🔗 **Related Projects**
 
 | **Project** | **Summary** |
@@ -130,17 +123,25 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 ---
 
 ## 👤 **Author**
+> Author with professional background in semiconductors and inkjet actuators, creating materials integrating theory and practice.
 
-**Shinichi Samizo**  
-- M.Eng., Electrical & Electronic Eng., Shinshu Univ.  
-- Former Seiko Epson Engineer (1997–)
+| 📌 Item | Details |
+|------|------|
+| **Name** | Shinichi Samizo |
+| **Education** | M.Eng., Electrical and Electronic Engineering, Shinshu University Graduate School |
+| **Career** | Former engineer at Seiko Epson Corporation (1997–) |
+| **Expertise** | Semiconductor devices (logic, memory, high-voltage mixed-signal)<br>Inkjet thin-film piezo actuators<br>PrecisionCore printhead productization, BOM management, ISO training |
+| **Contact** | ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)<br>🐦 [https://x.com/shin3t72](https://x.com/shin3t72)<br>💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) |
 
-**Expertise:**  
-Semiconductors (logic/memory/HV-AMS), thin-film piezo, productization, BOM, ISO
+---
 
-📬 **Contact:**  
-- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 [x.com/shin3t72](https://x.com/shin3t72)  
-- 💻 [samizo-aitl.github.io](https://samizo-aitl.github.io)
+## 📄 **License**
 
-> Connect **technology** with **global structures** to shape future strategies
+Licensed under **[MIT License](https://opensource.org/licenses/MIT)**.  
+Free to **reuse, modify, and fork** for educational or non-profit purposes.
+
+> Opinions are those of the author.
+
+---
+
+> “Connect **technology** with **global structures** to shape future strategies.”
