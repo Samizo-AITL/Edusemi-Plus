@@ -7,14 +7,25 @@ title: Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society
 
 # 📚 **Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society, and AI**
 
+---
+
+## 🔗 Official Links
+
+| Language | Type | Link |
+|----------|------|------|
+| 🇺🇸 English Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Edusemi-Plus/en/](https://samizo-aitl.github.io/Edusemi-Plus/en/) |
+| 🇺🇸 English Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en) |
+| 🇯🇵 Japanese Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Edusemi-Plus/](https://samizo-aitl.github.io/Edusemi-Plus/) |
+| 🇯🇵 Japanese Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus](https://github.com/Samizo-AITL/Edusemi-Plus) |
+
+---
+
 **Edusemi-Plus** is an expanded series of the foundational [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) project,  
 exploring the semiconductor industry through **geopolitics**, **corporate strategy**, **product architecture**, **AI**, **quantum**, **materials**, and **investment**.
 
 - 🌍 Focus on the **intersection of technology and global structure**  
 - 🧠 Supports **exploratory learning** with **ChatGPT × Gemini × Claude**  
 - 🧑‍🏫 Open for **education, strategy, and system design**
-
-🇯🇵 **[日本語版 README](../)**
 
 ---
 
