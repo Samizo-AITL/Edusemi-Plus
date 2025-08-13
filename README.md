@@ -133,14 +133,9 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 | **Project** | **JP（概要）** | **EN (Summary)** |
 |---|---|---|
-| **Edusemi-v4x** | **半導体基礎技術教材**：設計・物性・PDK・テスト | **Foundational semiconductors**: design, physics, PDK, test |
-| **EduController** | **制御理論 × AI制御**（全9章） | **Control theory × AI control** (9 chapters) |
-| **AITL-H** | **知能制御：FSM＋PID＋LLM** | **Intelligent control: FSM + PID + LLM** |
-
-**Links:**  
-- [Edusemi-v4x (GitHub)](https://github.com/Samizo-AITL/Edusemi-v4x)  
-- [EduController (GitHub)](https://github.com/Samizo-AITL/EduController)  
-- [AITL-H (GitHub)](https://github.com/Samizo-AITL/AITL-H)
+| 🌐 [**Edusemi-v4x**](https://samizo-aitl.github.io/Edusemi-v4x/) <br>💻 [GitHub](https://github.com/Samizo-AITL/Edusemi-v4x) | **半導体基礎技術教材**：設計・物性・PDK・テスト | **Foundational semiconductors**: design, physics, PDK, test |
+| 🌐 [**EduController**](https://samizo-aitl.github.io/EduController/) <br>💻 [GitHub](https://github.com/Samizo-AITL/EduController) | **制御理論 × AI制御**（全9章） | **Control theory × AI control** (9 chapters) |
+| 🌐 [**AITL-H**](https://samizo-aitl.github.io/AITL-H/) <br>💻 [GitHub](https://github.com/Samizo-AITL/AITL-H) | **知能制御：FSM＋PID＋LLM** | **Intelligent control: FSM + PID + LLM** |
 
 ---
 
