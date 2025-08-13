@@ -8,6 +8,9 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 # ➕ **Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シリーズ**  
 *Edusemi-Plus: Applied learning series connecting semiconductors with society & AI*
 
+[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![view](https://img.shields.io/badge/view-site-brightgreen)](https://samizo-aitl.github.io)
+
 ---
 
 ## 🔗 公式リンク | Official Links
