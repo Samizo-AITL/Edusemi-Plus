@@ -124,18 +124,9 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 | **Project** | **JP（概要）** | **EN (Summary)** |
 |---|---|---|
-| [![🌐 View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/) [![💻 View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) <br>**Edusemi-v4x** | **半導体基礎技術教材**：設計・物性・PDK・テスト | **Foundational semiconductors**: design, physics, PDK, test |
-| [![🌐 View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/) [![💻 View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/EduController) <br>**EduController** | **制御理論 × AI制御**（全9章） | **Control theory × AI control** (9 chapters) |
-| [![🌐 View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/) [![💻 View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) <br>**AITL-H** | **知能制御：FSM＋PID＋LLM** | **Intelligent control: FSM + PID + LLM** |
-
-
-## 🔗 **関連教材・プロジェクト / Related Projects**
-
-| **Project** | **JP（概要）** | **EN (Summary)** |
-|---|---|---|
-| **Edusemi-v4x**<br>[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/) [![GitHub](https://img.shields.io/badge/GitHub-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) | **半導体基礎技術教材**：設計・物性・PDK・テスト | **Foundational semiconductors**: design, physics, PDK, test |
-| **EduController**<br>[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/) [![GitHub](https://img.shields.io/badge/GitHub-blue?logo=github)](https://github.com/Samizo-AITL/EduController) | **制御理論 × AI制御**（全9章） | **Control theory × AI control** (9 chapters) |
-| **AITL-H**<br>[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/) [![GitHub](https://img.shields.io/badge/GitHub-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) | **知能制御：FSM＋PID＋LLM** | **Intelligent control: FSM + PID + LLM** |
+| **Edusemi-v4x**<br>[![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/) [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) | **半導体基礎技術教材**：設計・物性・PDK・テスト | **Foundational semiconductors**: design, physics, PDK, test |
+| **EduController**<br>[![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/) [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/EduController) | **制御理論 × AI制御**（全9章） | **Control theory × AI control** (9 chapters) |
+| **AITL-H**<br>[![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/) [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) | **知能制御：FSM＋PID＋LLM** | **Intelligent control: FSM + PID + LLM** |
 
 ---
 
