@@ -13,12 +13,10 @@ title: Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society
 
 ## 🔗 Official Links
 
-| Language | Type | Link |
-|----------|------|------|
-| 🇺🇸 English Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Edusemi-Plus/en/](https://samizo-aitl.github.io/Edusemi-Plus/en/) |
-| 🇺🇸 English Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en) |
-| 🇯🇵 Japanese Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Edusemi-Plus/](https://samizo-aitl.github.io/Edusemi-Plus/) |
-| 🇯🇵 Japanese Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus](https://github.com/Samizo-AITL/Edusemi-Plus) |
+| Language | GitHub Pages 🌐 | GitHub 💻 |
+|----------|----------------|-----------|
+| 🇺🇸 English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/en/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en) |
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus) |
 
 ---
 
