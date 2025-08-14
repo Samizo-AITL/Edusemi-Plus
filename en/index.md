@@ -116,9 +116,9 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 
 | **Project** | **Summary** |
 |---|---|
-| 🌐 [**Edusemi-v4x**](https://samizo-aitl.github.io/Edusemi-v4x/) <br>💻 [GitHub](https://github.com/Samizo-AITL/Edusemi-v4x) | **Foundational semiconductors**: design, physics, PDK, test |
-| 🌐 [**EduController**](https://samizo-aitl.github.io/EduController/) <br>💻 [GitHub](https://github.com/Samizo-AITL/EduController) | **Control theory × AI control** (9 chapters) |
-| 🌐 [**AITL-H**](https://samizo-aitl.github.io/AITL-H/) <br>💻 [GitHub](https://github.com/Samizo-AITL/AITL-H) | **Intelligent control**: FSM + PID + LLM |
+| **Edusemi-v4x**<br>[![🌐 View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/) [![💻 View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) | **Foundational semiconductors**: design, physics, PDK, test |
+| **EduController**<br>[![🌐 View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/) [![💻 View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/EduController) | **Control theory × AI control** (9 chapters) |
+| **AITL-H**<br>[![🌐 View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/AITL-H/) [![💻 View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/AITL-H) | **Intelligent control**: FSM + PID + LLM |
 
 ---
 
