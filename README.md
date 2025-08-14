@@ -14,12 +14,10 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 ## 🔗 公式リンク | Official Links
 
-| 言語 | 種別 | リンク |
-|------|------|--------|
-| 🇯🇵 Japanese Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Edusemi-Plus/](https://samizo-aitl.github.io/Edusemi-Plus/) |
-| 🇯🇵 Japanese Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus](https://github.com/Samizo-AITL/Edusemi-Plus) |
-| 🇺🇸 English Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Edusemi-Plus/en/](https://samizo-aitl.github.io/Edusemi-Plus/en/) |
-| 🇺🇸 English Version | 💻 GitHub | [https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en) |
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus) |
+| 🇺🇸 English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/en/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/en) |
 
 ---
 
