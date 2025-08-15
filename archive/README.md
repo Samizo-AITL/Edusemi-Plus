@@ -8,6 +8,8 @@ title: Edusemi-Plus Archive
 # 🗂️ Edusemi-Plus Archive  
 **（エデュセミ・プラス 技術アーカイブ）**
 
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../README.md#著者・ライセンス--author--license)
+
 > 本ディレクトリは、**Edusemi-Plus教材**を補完する目的で、  
 > 半導体技術・設計思想・産業史の文脈における  
 > **重要な技術記録・エピソード・ドキュメント**を保存するアーカイブ領域です。  
