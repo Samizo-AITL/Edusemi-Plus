@@ -7,7 +7,7 @@ title: 1998年 DRAM技術アーカイブ / DRAM Archive (1998)
 
 # 1998年 DRAM技術アーカイブ / DRAM Archive (1998)
 
-[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#-ライセンス--license)
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#license)
 
 このディレクトリは、1998年を中心としたDRAM技術の歴史的資料・技術ノートをアーカイブしたものです。64M DRAMの立ち上げに関する実体験、プロセスフロー、セル構造、メーカー比較などを含み、技術教育および半導体史研究のために構成されています。
 
