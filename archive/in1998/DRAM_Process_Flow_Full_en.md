@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 0.25μm 64M DRAM (3rd Generation) Process Flow
+title: 0.25μm 64M DRAM (3rd Generation) Process Flow 
 ---
 
 ---
