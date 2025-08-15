@@ -7,7 +7,7 @@ title: 0.25μm 64M DRAM (3rd Generation) Process Flow
 
 # 0.25μm 64M DRAM (3rd Generation) Process Flow
 
-[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../README.md#著者・ライセンス--author--license)
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#-ライセンス--license)
 
 > ⚠️ **Note**  
 > This process table is a technical reconstruction based on Shinichi Samizo's manufacturing experience and memory from the late 1990s.  
