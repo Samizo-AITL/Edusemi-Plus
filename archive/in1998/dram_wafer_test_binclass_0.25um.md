@@ -7,6 +7,8 @@ title: 0.25µm DRAM ウエハテスト：Bin分類表（日本語・英語併記
 
 # 0.25µm DRAM ウエハテスト：Bin分類表（日本語・英語併記）
 
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../README.md#著者・ライセンス--author--license)
+
 本ドキュメントは、0.25µm世代DRAMにおけるウエハテストのBin分類を、日本語・英語併記で整理したものです。テストはフェイルストップ方式に基づき、致命的な不良から順に評価されます。
 
 This document summarizes the bin classification used in wafer testing of 0.25µm generation DRAM. Tests are executed in a fail-stop manner, prioritizing fatal failures first.
