@@ -8,6 +8,8 @@ title: Edusemi-Plus Archive
 # 🗂️ Edusemi-Plus Archive  
 **（エデュセミ・プラス 技術アーカイブ）**
 
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#-ライセンス--license)
+
 > 本ディレクトリは、**Edusemi-Plus教材**を補完する目的で、  
 > 半導体技術・設計思想・産業史の文脈における  
 > **重要な技術記録・エピソード・ドキュメント**を保存するアーカイブ領域です。  
@@ -93,7 +95,7 @@ flowchart TD
 | **著者 / Author** | 三溝 真一（Shinichi Samizo） |
 | **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
 | **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
-| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
+| **ライセンス / License** | **Hybrid License**<br>• **コード（Code）** — MIT License（自由に使用・改変・再配布可）<br>• **教材テキスト（Text materials）** — CC BY 4.0 または CC BY-SA 4.0（著者表示必須、BY-SAの場合は継承条件あり）<br>• **図表・イラスト（Figures & diagrams）** — CC BY-NC 4.0（非商用利用のみ可）<br>• **外部引用（External references）** — 元ライセンスに従う（引用元を明記） |
 
 ---
 
