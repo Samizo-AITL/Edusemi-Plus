@@ -8,7 +8,7 @@ title: 64M DRAM 第3世代（0.25μm）立ち上げ記録 （1998）
 # 📘 64M DRAM 第3世代（0.25μm）立ち上げ記録 （1998）
 📘 **64M DRAM 3rd Gen (0.25μm) Startup Record (1998)**  
 
-[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#-ライセンス--license)
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#license)
 
 ---
 
