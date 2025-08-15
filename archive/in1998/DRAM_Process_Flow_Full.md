@@ -7,7 +7,7 @@ title: 0.25μm 64M DRAM (3rd Generation) Process Flow
 
 # 0.25μm 64M DRAM (3rd Generation) Process Flow
 
-[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#-ライセンス--license)
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#license)
 
 > ⚠️ **注記 / Note**  
 > 本工程表は、三溝真一による1990年代末の製造経験と記憶をもとに再構成された技術記録です。内容は当時の知識と状況に基づくものであり、現在の技術資料や実データとは一部異なる可能性があります。正確性を保証するものではなく、教育・技術アーカイブ目的での参考情報としてご利用ください。  
