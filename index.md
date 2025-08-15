@@ -71,7 +71,7 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 | 📱 **Apple Silicon / Apple SoC** | **Apple Aチップの進化と戦略** | **Evolution & strategy of Apple A-Series SoCs** | [apple-silicon](./apple-silicon/) |
 | 🌐 **地政学 / Geopolitics** | **輸出管理・国家間競争** | **Export controls & competition** | [geopolitics](./geopolitics/) |
 | 💹 **投資 / Investment** | **企業評価・設備計画** | **Equity & capex planning** | [investment](./investment/) |
-| 🗂️ **アーカイブ / Archive** [![License: Hybrid](https://img.shields.io/badge/license-Hybrid-blueviolet)](./archive/README.md) | **立ち上げ技術・産業史** | **Ramps & history** | [archive](./archive/) |
+| 🗂️ **アーカイブ / Archive** [![License: Hybrid](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#-ライセンス--licens) | **立ち上げ技術・産業史** | **Ramps & history** | [archive](./archive/) |
 
 ---
 
