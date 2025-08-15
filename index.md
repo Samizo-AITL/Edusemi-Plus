@@ -153,5 +153,13 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 ---
 
+## 💬 **フィードバック | Feedback**
+> 改善提案や議論はGitHub Discussionsからお願いします。  
+> *Propose improvements or start discussions via GitHub Discussions.*
+
+[![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/discussions)
+
+---
+
 > **JP:** 「**技術** と **世界の構造** をつなげて理解し、未来戦略を描く。」  
 > **EN:** “Connect **technology** with **global structures** to shape future strategies.”
