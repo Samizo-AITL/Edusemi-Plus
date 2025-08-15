@@ -144,4 +144,11 @@ Free to **reuse, modify, and fork** for educational or non-profit purposes.
 
 ---
 
+## 💬 **Feedback**
+> Propose improvements or start discussions via GitHub Discussions.
+
+[![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/discussions)
+
+---
+
 > “Connect **technology** with **global structures** to shape future strategies.”
