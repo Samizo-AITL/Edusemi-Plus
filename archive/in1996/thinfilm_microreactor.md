@@ -7,7 +7,7 @@ title: Thin-Film Inductor Development (1996–1997)
 
 # 🧪 Thin-Film Inductor Development (1996–1997)
 
-[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../README.md#著者・ライセンス--author--license)
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#-ライセンス--license)
 
 ---
 
