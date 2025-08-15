@@ -9,6 +9,8 @@ title: モバイル用疑似SRAM（VSRAM）技術アーカイブ（2001年）
 *Edusemi-Plus/archive/in2001/VSRAM_2001.md*  
 **最終更新: 2025-07-28**
 
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../README.md#著者・ライセンス--author--license)
+
 ---
 
 ## 🧭 概要 / **Overview**
