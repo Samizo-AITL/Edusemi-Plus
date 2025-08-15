@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1998年 DRAM技術アーカイブ / DRAM Archive (1998)
+title: 1998年 DRAM技術アーカイブ / DRAM Archive (1998) 
 ---
 
 ---
