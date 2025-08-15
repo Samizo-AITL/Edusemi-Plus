@@ -8,7 +8,7 @@ title: Edusemi-Plus Archive
 # 🗂️ Edusemi-Plus Archive  
 **（エデュセミ・プラス 技術アーカイブ）**
 
-[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../README.md#著者・ライセンス--author--license)
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#-ライセンス--license)
 
 > 本ディレクトリは、**Edusemi-Plus教材**を補完する目的で、  
 > 半導体技術・設計思想・産業史の文脈における  
