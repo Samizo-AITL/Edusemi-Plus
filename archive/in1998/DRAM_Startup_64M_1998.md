@@ -8,6 +8,8 @@ title: 64M DRAM 第3世代（0.25μm）立ち上げ記録 （1998）
 # 📘 64M DRAM 第3世代（0.25μm）立ち上げ記録 （1998）
 📘 **64M DRAM 3rd Gen (0.25μm) Startup Record (1998)**  
 
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../README.md#著者・ライセンス--author--license)
+
 ---
 
 ⚠️ 本記録は、1998年当時における**技術移管・立ち上げ業務の実体験**に基づく教育資料です。  
