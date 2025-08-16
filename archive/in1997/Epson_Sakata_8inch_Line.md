@@ -32,6 +32,23 @@ At that time, Sakata Fab had just begun the **0.35 μm-based 8-inch production l
 
 ---
 
+## 🌏 当時の時代背景（筆者推測）| Industry Context (Author’s Speculation)
+
+**日本語**  
+筆者の推測だが、エプソンが8インチラインを立ち上げた背景には、  
+**0.35μm以降の先端プロセス技術を導入し、将来的にロジックファンドリや社内製品展開へと応用する狙い**があったと考えられる。  
+DRAMはその技術習得のための「足がかり」であり、当時のプロセス水準は世界最先端クラスで、TSMCと同等レベルにあった。  
+しかし、その後のTSMCは国策レベルの巨額投資で急成長し、エプソンとの格差は大きく開くことになる。
+
+**English**  
+The author speculates that Epson’s motivation for launching the 8-inch line was to  
+**adopt sub-0.35 μm advanced process technology as a stepping stone for future logic foundry services and in-house products**.  
+DRAM served primarily as a vehicle for process mastery.  
+At the time, Epson’s process capabilities were at a world-class level, comparable to TSMC.  
+However, in subsequent years, TSMC’s rapid growth—driven by massive state-level investments—widened the gap significantly.
+
+---
+
 ## 📦 技術供与と展開計画 | Technology Transfer & Deployment Plan
 
 **日本語**  
