@@ -148,11 +148,11 @@ preparing for the **0.25 μm 3rd Generation 64M DRAM ramp-up** starting in the l
 その後、**1998年後半から第3世代（0.25μm）64M DRAM**の立ち上げが開始された。  
 この第3世代プロジェクトは、本ページで記した経験と知見を基盤としている。
 
-➡ [1998年：0.25μm 第3世代64M DRAM立ち上げ記録](archive/in1998/DRAM_Startup_64M_1998.md)
+➡ [1998年：0.25μm 第3世代64M DRAM立ち上げ記録](../in1998/DRAM_Startup_64M_1998.md)
 
 **English**  
 The 64M DRAM (2nd Gen, 0.35 μm) ramp-up took place from **autumn 1997 to the first half of 1998**.  
 Subsequently, in the latter half of 1998, the **0.25 μm 3rd Generation 64M DRAM** ramp-up began.  
 This 3rd Gen project was built on the experience and knowledge described on this page.
 
-➡ [1998: 0.25 μm 3rd Generation 64M DRAM Startup Record](archive/in1998/DRAM_Startup_64M_1998.md)
+➡ [1998: 0.25 μm 3rd Generation 64M DRAM Startup Record](../in1998/DRAM_Startup_64M_1998.md)
