@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 64M DRAM 第3世代（0.25μm）立ち上げ記録 （1998）
+title: 64M DRAM 第3世代（0.25μm）立ち上げ記録 （1998） 
 ---
 
 ---
