@@ -52,6 +52,37 @@ Subsequently engaged in **failure analysis, yield improvement, and reliability e
 
 ---
 
+### 🔄 本番ロット投入前フロー | Pre-Mass Production Ramp-up Flow (1998)
+
+**日本語**  
+詳細には、**SCF（ショートサイクルフィードバック）方式**を採用。  
+これは、各要素技術部門の「処理条件立ち上げマニュアル」に基づき、短い工程サイクルで評価・修正を繰り返しながら条件を確定させる方式である。
+
+1. KD工場より**フロッピー2枚分のプロセス条件**受領  
+2. 各要素技術（拡散・CVD・PVD・エッチングなど）へ処理条件展開  
+3. 電子流動票に条件を反映  
+4. 形状確認用として**5ロット投入**  
+5. 各要素技術部門に評価ウエハを配布  
+6. SCFにより条件出し・プロセス最適化（短サイクル評価）  
+7. 最終条件Fix  
+8. 電子流動票に最終条件反映  
+9. 本番ロット投入へ移行  
+
+**English**  
+Adopted **SCF (Short Cycle Feedback)** methodology — based on each unit process team’s “process condition startup manual,” conditions were evaluated and adjusted in short process cycles until finalization.
+
+1. Received **two floppy disks** containing process parameters from KD Fab  
+2. Distributed processing conditions to each unit process area (Diffusion, CVD, PVD, Etching, etc.)  
+3. Reflected initial parameters into the electronic process flow sheet  
+4. Launched **5 lots** for structural verification  
+5. Distributed evaluation wafers to each process engineering team  
+6. Optimized process conditions via SCF (short-cycle evaluation)  
+7. Fixed final process conditions  
+8. Updated electronic process flow sheet with final parameters  
+9. Proceeded to mass production lot introduction
+
+---
+
 ## 📊 フェーズ別の解析と改善 | Phase-by-Phase Analysis & Improvements
 
 | フェーズ / Phase | 日本語 | English |
