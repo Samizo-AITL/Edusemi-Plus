@@ -5,8 +5,6 @@ description: "1998年、エプソン酒田工場における64M DRAM（第3世�
 tags: ["DRAM", "半導体プロセス", "歩留まり改善", "技術移管", "0.25μm"]
 ---
 
----
-
 # 📘 64M DRAM 第3世代（0.25μm）立ち上げ記録 （1998）  
 **📘 64M DRAM 3rd Generation (0.25 μm) Startup Record (1998)**  
 
@@ -87,6 +85,16 @@ flowchart TB
 | DRAMの電荷保持性を評価するため、リフレッシュを一時停止後にセル読み出しを行う試験で現れる不良。 | A DRAM failure mode detected by halting refresh operations temporarily and then reading the cell to assess charge retention. |
 
 ➡ 詳細は [Bin分類資料（Bin5）](./dram_wafer_test_binclass_0.25um.md) を参照 / See [Bin Classification Data (Bin5)](./dram_wafer_test_binclass_0.25um.md).
+
+---
+
+## 📂 プロセスフロー | Process Flow
+
+- 📄 **[DRAM_Process_Flow_Full.md](./DRAM_Process_Flow_Full.md)** – 0.25μm 64M DRAM（第3世代）の**フルプロセスフロー（日本語版）**  
+  *Full process flow for 0.25 μm 64M DRAM (3rd Gen, Japanese)*
+
+- 📄 **[DRAM_Process_Flow_Full_en.md](./DRAM_Process_Flow_Full_en.md)** – **Full process flow** for 0.25 μm 64M DRAM (3rd Gen, **English version**)  
+  *英語版フルプロセスフロー*
 
 ---
 
