@@ -1,128 +1,110 @@
 ---
 layout: default
-title: モバイル用疑似SRAM（VSRAM）技術アーカイブ（2001年）
----
-
+title: "モバイル用疑似SRAM（VSRAM）技術アーカイブ（2001年）"
 ---
 
 # 📘 モバイル用疑似SRAM（VSRAM）技術アーカイブ（2001年）  
 *Edusemi-Plus/archive/in2001/VSRAM_2001.md*  
-**最終更新: 2025-07-28**
+**最終更新 / Last Update: 2025-07-28**
 
 [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/archive/#license)
 
 ---
 
-## 🧭 概要 / **Overview**
+## 🧭 概要 / Overview
 
+**日本語**  
 本ドキュメントは、2001年に量産された **モバイル用疑似SRAM（VSRAM）** の技術アーカイブである。  
 **0.25μm世代の64M DRAM（第3世代）プロセス**をそのまま流用し、内部リフレッシュ制御によってSRAM的に動作。  
 世界初の **カメラ付き携帯電話（SHARP製）** に搭載された。
 
+**English**  
 This document archives the technology of a **pseudo-SRAM (VSRAM)** product mass-produced in 2001.  
-It was based on a **0.25μm 64M DRAM 3rd-generation process**, reusing it as-is with internal refresh logic to behave like SRAM.  
-The product was adopted in the **world’s first camera-equipped mobile phone** (by SHARP).
-
-> ⚠️ 本記録に関する注意 / Disclaimer  
->
-> 本VSRAM技術は2001年に量産されたものですが、**2000年代前半にはすでに生産終了**しており、  
-> また社内においても**後続技術としての展開は行われませんでした**。  
-> よって、本記録には**現行の事業機密や設計情報は含まれておらず**、  
-> 教育目的および技術アーカイブ目的での**公開に問題はない**と判断しています。  
->
-> The VSRAM technology documented here was mass-produced in 2001,  
-> but production ended in the **early 2000s**, and **no further internal development was pursued**.  
-> Therefore, this archive contains **no proprietary or confidential information**,  
-> and it is released solely for **educational and historical purposes**.
+It was based directly on the **0.25 µm 64M DRAM (3rd generation) process**, using internal refresh logic to function like SRAM.  
+It was adopted in the **world’s first camera-equipped mobile phone** (by SHARP).
 
 ---
 
-## 1️⃣ 基本構成と特徴 / **Architecture and Features**
-
-| 要素 | 内容 / Description |
-|------|-------------------|
-| プロセス流用 | **0.25μm世代の64M DRAMセル構造をそのまま使用**<br>*Direct reuse of 0.25μm 64M DRAM Gen3 process* |
-| 疑似SRAM動作 | **0.25μmプロセス上で、内部リフレッシュ制御によりSRAM的に機能**<br>*SRAM-like operation via internal refresh logic on 0.25μm process* |
-| モバイル仕様 | モバイル機器向けに以下を実現：<br>・低消費電力設計<br>・**標準80℃のDRAM保証を90℃へ拡張**<br>*Mobile features: low-power design, extended temperature range (from DRAM’s standard 80°C to 90°C)* |
-| 採用実績 | 世界初カメラ付き携帯電話（SHARP）<br>*Adopted in SHARP’s first camera phone* |
+> ⚠️ **免責事項 / Disclaimer**  
+> **日本語**：本VSRAM技術は2001年に量産されたもので、2000年代前半に生産終了。後続開発は行われず、現行の事業機密や設計情報は含まれていないため、教育・技術アーカイブ目的での公開に支障はない。  
+> **English**: The VSRAM technology documented here was mass-produced in 2001 and discontinued in the early 2000s. No further internal development was pursued. This archive contains no current proprietary information and is released solely for educational and historical purposes.
 
 ---
 
-## 2️⃣ 初期量産の課題と対策 / **Startup Challenges and Solutions**
+## 1️⃣ 基本構成と特徴 / Architecture and Features
 
-### 🔸 概要 / Summary
-
-| 項目 | 内容 / Description |
-|------|-------------------|
-| 初期歩留まり | 約30%、技術導入直後の課題<br>*Initial yield ~30%* |
-| 改善主導者 | 筆者（当時29歳）が担当<br>*Led by author at age 29* |
-
----
-
-### 2.1 ポーズリフレッシュ不良と対策（高温・長時間リフレッシュ間隔）  
-**Pause Refresh Failure and Countermeasures (High Temp, Extended Refresh Interval)**
-
-| 要素 | 内容 / Description |
-|------|-------------------|
-| 問題 | **標準DRAM保証温度（80℃）を超える90℃環境**での動作を求めた結果、<br>ポーズリフレッシュ時に**保持時間不足**が発生。<br>主因は**ジャンクションリークの増加**。<br>*Pause refresh failure occurred under 90°C operation (beyond standard 80°C DRAM spec), mainly due to increased junction leakage.* |
-
-#### 🔧 対策分類と実施内容 / Classification of Countermeasures
-
-| 区分 | 対策内容 | 説明 / Description |
-|------|-----------|------------------|
-| **① プロセス・物理的対策**<br>*Process/Physical* | **HF洗浄回数の最小化**<br>（WSA後の酸化膜保持）<br>*Minimized HF cleaning to preserve gate oxide post-WSA* | ストレージノードコンタクト接続部などにおいてゲート酸化膜の厚みが不足すると、リークが増大し保持不良に直結。<br>**WSA後のウェット洗浄工程を最小化**することで酸化膜を保護。<br>*Gate oxide thinning at Storage Node Contacts causes leakage; minimized wet etch post-WSA to preserve oxide integrity.* |
-| **② 電気的設定対策**<br>*Electrical Parameter* | **バックバイアス強化：Vbs = −1V → −3V**<br>*Stronger back-biasing to suppress leakage* | セルのボディバイアスを負方向に強化することで、ジャンクションリークを低減し、保持特性を改善。<br>*Applied −3V back-bias to reduce leakage current under high-temp standby.* |
-
-> 🔗 **この不良モードは、ウエハテストにおける [Bin5：Pause Refresh Fail](../in1998/dram_wafer_test_binclass_0.25um.md) に対応しています。**  
-> This failure mode corresponds to [**Bin5: Pause Refresh Fail**](../in1998/dram_wafer_test_binclass_0.25um.md) in the wafer test bin classification for 0.25 µm DRAM.
+| 要素 / Item | 内容 / Details |
+|-------------|----------------|
+| プロセス流用 / Process Reuse | **0.25 µm 64M DRAM Gen3セル構造を流用**<br>*Direct reuse of 0.25 µm 64M DRAM Gen3 cell structure* |
+| 疑似SRAM動作 / Pseudo-SRAM Function | **内部リフレッシュ制御でSRAM動作を実現**<br>*SRAM-like operation via internal refresh logic* |
+| モバイル仕様 / Mobile Features | ・低消費電力設計<br>・**標準80 °C保証を90 °Cに拡張**<br>*Low power design, extended temperature range from standard 80 °C DRAM spec to 90 °C* |
+| 採用実績 / Adoption | 世界初カメラ付き携帯電話（SHARP製）<br>*Adopted in SHARP’s first camera phone* |
 
 ---
 
-### 2.2 ディスターブリフレッシュ対策  
-**Disturb Refresh Failure Control**
+## 2️⃣ 初期量産の課題と対策 / Startup Challenges and Solutions
 
-| 要素 | 内容 / Description |
-|------|-------------------|
-| 問題 | 0.25μm特有のShort Channel Effect（SCE）により、セル反転（disturb）現象が発生。<br>**特に、標準保証温度の80℃では顕在化しなかったが、90℃保証を求めた際にリークが急増し、SCEが問題化した。**<br>*Disturb failures due to short-channel effects at 0.25μm node, which became prominent under elevated 90°C condition, though not critical at 80°C.* |
-| 対策 | ゲートCD（寸法）の中心値管理を徹底し、セル間ばらつきによるリークを抑制。<br>*Tightened gate length (CD) centering to suppress variation-induced leakage.* |
+### 2.1 ポーズリフレッシュ不良（高温・長間隔リフレッシュ）  
+**Pause Refresh Failures under High Temp / Extended Interval**
 
-> 🔗 **この不良モードは、ウエハテストにおける [Bin6：Disturb Refresh Fail](../in1998/dram_wafer_test_binclass_0.25um.md) に対応しています。**  
-> This failure mode corresponds to [**Bin6: Disturb Refresh Fail**](../in1998/dram_wafer_test_binclass_0.25um.md) in the wafer test bin classification for 0.25 µm DRAM.
+| 要素 / Item | 内容 / Details |
+|-------------|----------------|
+| 問題 / Problem | **90 °C動作（標準80 °C超）**でポーズリフレッシュ時に保持不足発生。主因は**ジャンクションリーク増加**。<br>*At 90 °C operation, pause refresh retention failure occurred due to increased junction leakage.* |
 
----
+**対策 / Countermeasures**
 
-## 3️⃣ 次世代VSRAMの検討と不採用判断 / **Evaluation and Rejection of Next-Gen VSRAM (0.18μm)**
+| 区分 / Category | 対策 / Measure | 説明 / Description |
+|----------------|----------------|--------------------|
+| プロセス対策 / Process | **HF洗浄回数の最小化**（WSA後の酸化膜保持）<br>*Minimized HF cleaning post-WSA to preserve oxide* | SNコンタクト部の酸化膜薄化を防ぎ、リークを低減。<br>*Prevented oxide thinning at SN contacts, reducing leakage.* |
+| 電気設定 / Electrical | **バックバイアス強化（Vbs: −1V → −3V）**<br>*Increased back-bias from −1 V to −3 V* | 負バイアス強化でジャンクションリーク抑制。<br>*Reduced junction leakage via stronger negative body bias.* |
 
-### 3.1 NANYA / 東芝プロセス 0.18μm VSRAM
-
-| 要素 | 内容 / Description |
-|------|-------------------|
-| 評価対象 | NANYA製 0.18μm DRAM（東芝プロセス）<br>*NANYA/Toshiba 0.18μm DRAM process* |
-| 検討内容 | 次世代VSRAM候補として検討<br>*Evaluated as next-gen VSRAM* |
-| 問題点1 | トレンチキャパシタ構造により、ジャンクション面積が増大<br>*Trench capacitor increased junction area* |
-| 問題点2 | 高温時の保持力が不足（90℃要件未達）<br>*Insufficient retention at 90°C* |
-| 結果 | 実装不可と判断（保持力不足）<br>*Rejected due to failure to meet mobile retention specs* |
+> 🔗 この不良モードは [Bin5: Pause Refresh Fail](../in1998/dram_wafer_test_binclass_0.25um.md) に対応。  
+> This failure mode corresponds to [Bin5: Pause Refresh Fail](../in1998/dram_wafer_test_binclass_0.25um.md).
 
 ---
 
-### 3.2 Mosys社 1T-SRAMの評価（参考）
+### 2.2 ディスターブリフレッシュ不良  
+**Disturb Refresh Failures**
 
-| 要素 | 内容 / Description |
-|------|-------------------|
-| 評価対象 | Mosys社製 1T-SRAMマクロ<br>*MoSys 1T-SRAM macro* |
-| プロセス | 0.18μm ロジックプロセス<br>*0.18μm logic process* |
-| 特徴 | リフレッシュ不要・DRAMセル不要な高柔軟性構造<br>*No refresh and no DRAM cell; flexible structure* |
-| 評価状況 | 筆者が当時高耐圧インテグレーション業務に従事しており、工数不足により未完了<br>*Evaluation not completed due to resource constraints* |
-| 補足資料 | 📄 [`MoSys_1T_SRAM_Links.md`](./MoSys_1T_SRAM_Links.md)<br>→ Mosys社の1T‑SRAM技術に関する概要・外部資料リンク集<br>*Supplementary reference for MoSys 1T‑SRAM technology*
+| 要素 / Item | 内容 / Details |
+|-------------|----------------|
+| 問題 / Problem | 0.25 µmのShort Channel Effectによりセル反転（Disturb）発生。80 °Cでは問題化せず、90 °C保証でリーク増大。<br>*Short-channel effect at 0.25 µm caused cell disturb under 90 °C condition, not significant at 80 °C.* |
+| 対策 / Countermeasure | ゲートCD中心値管理を強化し、セル間リークばらつきを抑制。<br>*Tightened gate CD centering to minimize variation-induced leakage.* |
+
+> 🔗 この不良モードは [Bin6: Disturb Refresh Fail](../in1998/dram_wafer_test_binclass_0.25um.md) に対応。  
+> This failure mode corresponds to [Bin6: Disturb Refresh Fail](../in1998/dram_wafer_test_binclass_0.25um.md).
 
 ---
 
-## 4️⃣ 関連リンク / **Related Link**
+## 3️⃣ 次世代VSRAM検討と不採用判断 / Next-Gen VSRAM Evaluation and Rejection
+
+### 3.1 NANYA / 東芝プロセス 0.18 µm VSRAM
+
+| 要素 / Item | 内容 / Details |
+|-------------|----------------|
+| 評価対象 / Target | NANYA製 0.18 µm DRAM（東芝プロセス）<br>*NANYA/Toshiba 0.18 µm DRAM process* |
+| 問題点 / Issues | ・トレンチキャパシタでジャンクション面積増大<br>・90 °C保持不足<br>*Trench capacitor increased junction area; insufficient retention at 90 °C* |
+| 結果 / Result | 保持力不足により採用見送り<br>*Rejected due to insufficient retention for mobile spec* |
+
+---
+
+### 3.2 Mosys 1T-SRAM評価（参考）  
+**MoSys 1T-SRAM Evaluation (Reference)**
+
+| 要素 / Item | 内容 / Details |
+|-------------|----------------|
+| 評価対象 / Target | Mosys製 1T-SRAMマクロ<br>*MoSys 1T-SRAM macro* |
+| プロセス / Process | 0.18 µm ロジックプロセス<br>*0.18 µm logic process* |
+| 特徴 / Features | リフレッシュ不要・DRAMセル不要<br>*No refresh required, no DRAM cell* |
+| 評価状況 / Status | 筆者が他業務（高耐圧インテグレーション）で未完了<br>*Evaluation not completed due to other assignments* |
+| 補足 / Supplement | 📄 [`MoSys_1T_SRAM_Links.md`](./MoSys_1T_SRAM_Links.md) — 外部資料リンク集<br>*External reference collection* |
+
+---
+
+## 4️⃣ 関連リンク / Related Link
 
 📂 **64M DRAM 立ち上げ技術アーカイブ（1998年）**  
-📄 [`DRAM_Startup_64M_1998.md`](../in1998/DRAM_Startup_64M_1998.md)
+📄 [`DRAM_Startup_64M_1998.md`](../in1998/DRAM_Startup_64M_1998.md)  
 
-- **日本語**：64M DRAM（第3世代 / 0.25μm）の量産立ち上げ記録。プロセス条件展開、不良解析（Pause Refresh）、ゲート酸化膜ダメージ対策などを収録  
-- **English**：Technical archive of 64M DRAM (3rd Gen / 0.25μm) startup, including process tuning, pause refresh failures, and gate oxide damage mitigation
-
----
+- **日本語**：64M DRAM（第3世代 / 0.25 µm）の量産立ち上げ記録。プロセス条件展開、不良解析（Pause Refresh）、ゲート酸化膜ダメージ対策などを収録。  
+- **English**: Technical archive of 64M DRAM (3rd Gen / 0.25 µm) startup, including process deployment, pause refresh failure analysis, and gate oxide damage mitigation.
