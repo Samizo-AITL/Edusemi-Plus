@@ -2,9 +2,7 @@
 layout: default
 title: "セイコーエプソン酒田事業所 8インチライン稼働と第2世代DRAM立ち上げ（1997）"
 description: "1997年、筆者のセイコーエプソン入社と酒田事業所配属。8インチライン立ち上げ、第2世代（0.35μm）64M DRAM量産化に向けた技術課題と突破の記録。"
-tags: ["DRAM", "半導体プロセス", "8インチライン", "歩留まり改善", "技術移管", "0.35μm"]
----
-
+tags: ["DRAM", "半導体プロセス", "8インチライン", "歩留まり改善", "技術移管", "0.35μm", "ロジック配線", "ファンドリ", "フラッシュメモリ"]
 ---
 
 # 🏭 セイコーエプソン酒田事業所 8インチライン稼働と第2世代DRAM立ち上げ（1997）  
@@ -26,28 +24,25 @@ tags: ["DRAM", "半導体プロセス", "8インチライン", "歩留まり改�
 
 **日本語**  
 1997年、筆者はセイコーエプソンに入社し、ゴールデンウィーク後に山形県の**酒田事業所**へ配属された。  
-当時の酒田事業所は、**0.35μm世代ベースの8インチライン立ち上げ**を開始したばかりで、筆者はまず**スパッタ装置 Endura**の導入に関与した。
+当時の酒田事業所は、**0.35μm世代ベースの8インチライン立ち上げ**を開始したばかりで、筆者はまず**スパッタ装置 Endura**の導入に関与し、その後すぐに**0.35μmロジック配線モジュールの立ち上げ**にも携わった。  
+
+この8インチラインの技術導入戦略は、単なるDRAM量産だけでなく、複数の先端技術を同時に吸収する多角的なものであった。  
+- **DRAM**：0.35μm以降のプロセス技術導入（第2世代〜第3世代64M DRAM）  
+- **先端ロジック**：Xilinxロジック製品のファンドリ受託による最新ロジックプロセス導入  
+- **社内ロジック製品展開**：獲得した配線モジュールやプロセス技術を社内ASIC・ロジックICへ展開  
+- **フラッシュメモリ**：Lattice案件やSST社とのファンドリ契約によるフラッシュメモリ技術の並行導入  
 
 **English**  
 In 1997, the author joined Seiko Epson and was assigned to the **Sakata plant** in Yamagata Prefecture after the Golden Week holiday.  
-At that time, Sakata Fab had just begun the **0.35 μm-based 8-inch production line ramp-up**, and the author was initially involved in the introduction of the **Endura sputtering tool**.
+At that time, Sakata Fab had just begun the **0.35 μm-based 8-inch production line ramp-up**, and the author was first involved in the installation of the **Endura sputtering system**, then quickly engaged in the **ramp-up of the 0.35 μm logic interconnect module**.  
 
----
+The technology acquisition strategy for the 8-inch line was multifaceted, aiming to absorb multiple advanced technologies in parallel:  
+- **DRAM**: Introduction of 0.35 μm and beyond process technologies (2nd to 3rd Gen 64M DRAM)  
+- **Advanced logic**: Adoption of latest logic processes via foundry production for Xilinx  
+- **In-house logic products**: Application of acquired interconnect module and process know-how to internal ASIC and logic IC development  
+- **Flash memory**: Parallel introduction of flash memory processes through foundry collaborations with Lattice and SST  
 
-## 🌏 当時の時代背景（筆者推測）| Industry Context (Author’s Speculation)
-
-**日本語**  
-筆者の推測だが、エプソンが8インチラインを立ち上げた背景には、  
-**0.35μm以降の先端プロセス技術を導入し、将来的にロジックファンドリや社内製品展開へと応用する狙い**があったと考えられる。  
-DRAMはその技術習得のための「足がかり」であり、当時のプロセス水準は世界最先端クラスで、TSMCと同等レベルにあった。  
-しかし、その後のTSMCは国策レベルの巨額投資で急成長し、エプソンとの格差は大きく開くことになる。
-
-**English**  
-The author speculates that Epson’s motivation for launching the 8-inch line was to  
-**adopt sub-0.35 μm advanced process technology as a stepping stone for future logic foundry services and in-house products**.  
-DRAM served primarily as a vehicle for process mastery.  
-At the time, Epson’s process capabilities were at a world-class level, comparable to TSMC.  
-However, in subsequent years, TSMC’s rapid growth—driven by massive state-level investments—widened the gap significantly.
+> 💡 **筆者の推測**：DRAMはあくまで0.35µm以降のプロセス技術導入が目的で、事業の主眼はロジック製品やファンドリ展開にあったと考えられる。当時は世界最先端の技術水準で、TSMCと同等レベルだったが、後に国策レベルの投資差で大きく差が開いた。
 
 ---
 
@@ -60,16 +55,12 @@ However, in subsequent years, TSMC’s rapid growth—driven by massive state-le
 - 0.35μm **64M DRAM（第2世代）**
 - 0.25μm **64M DRAM（第3世代）**
 
-これらの個別要素技術を、**ファンドリ案件**や**社内ロジック製品**にも応用する計画だった。
-
 **English**  
 The ramp-up approach was based on a technology transfer from Mitsubishi Electric’s Kumamoto Fab (KD building), with the following process generations to be deployed sequentially:
 
 - 0.5 μm **16M DRAM**
 - 0.35 μm **64M DRAM (2nd Generation)**
 - 0.25 μm **64M DRAM (3rd Generation)**
-
-These individual process technologies were also planned to be applied to **foundry projects** and **in-house logic products**.
 
 ---
 
@@ -148,11 +139,11 @@ preparing for the **0.25 μm 3rd Generation 64M DRAM ramp-up** starting in the l
 その後、**1998年後半から第3世代（0.25μm）64M DRAM**の立ち上げが開始された。  
 この第3世代プロジェクトは、本ページで記した経験と知見を基盤としている。
 
-➡ [1998年：0.25μm 第3世代64M DRAM立ち上げ記録](../in1998/DRAM_Startup_64M_1998.md)
+➡ [1998年：0.25μm 第3世代64M DRAM立ち上げ記録](archive/in1998/DRAM_Startup_64M_1998.md)
 
 **English**  
 The 64M DRAM (2nd Gen, 0.35 μm) ramp-up took place from **autumn 1997 to the first half of 1998**.  
 Subsequently, in the latter half of 1998, the **0.25 μm 3rd Generation 64M DRAM** ramp-up began.  
 This 3rd Gen project was built on the experience and knowledge described on this page.
 
-➡ [1998: 0.25 μm 3rd Generation 64M DRAM Startup Record](../in1998/DRAM_Startup_64M_1998.md)
+➡ [1998: 0.25 μm 3rd Generation 64M DRAM Startup Record](archive/in1998/DRAM_Startup_64M_1998.md)
