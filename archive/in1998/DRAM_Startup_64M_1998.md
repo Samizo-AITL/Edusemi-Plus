@@ -60,7 +60,7 @@ tags: ["DRAM", "半導体プロセス", "歩留まり改善", "技術移管", "0
 ### 🔄 改善プロセス因果関係 | Improvement Process Flow
 
 ```mermaid
-flowchart LR
+flowchart TB
     A[ポーズリフレッシュ不良検出] --> B[容量正常 / リーク疑い]
     B --> C[SEM観察で構造欠陥なし]
     C --> D[Gate-OX後アッシングでのプラズマダメージ特定]
