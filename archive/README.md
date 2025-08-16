@@ -37,6 +37,7 @@ title: Edusemi-Plus Archive
 | ディレクトリ / Directory | 内容 / Description |
 |--------------------------|---------------------|
 | [`in1996/`](./in1996/) | 薄膜マイクロリアクトル技術記録（1996–1997年, 信州大学）<br>📄 [`thinfilm_microreactor.md`](./in1996/thinfilm_microreactor.md)<br>※フェライト系磁性体 + Alスパイラルコイルを積層したリアクトル構造。500kHz〜1MHzにおけるQ値損失メカニズムとAl/Cu材料選定指針を提示。MAG研究会発表。<br>*Thin-film microreactor using ferrite + Al spiral coil. Analyzed Q-value loss and proposed Al/Cu material selection based on frequency. Presented at IEEJ MAG 1997.* |
+| [`in1997/`](./in1997/) | **セイコーエプソン酒田事業所8インチライン稼働（1997年）**<br>📄 [`Epson_Sakata_8inch_Line.md`](./in1997/Epson_Sakata_8inch_Line.md)<br>※8インチラインの立ち上げと、第2世代（0.35μm）64M DRAM技術導入の経緯を記録。DRAMを足掛かりにロジック・ファンドリ事業を視野に入れた戦略展開を含む。<br>*Launch of 8-inch line and introduction of 2nd Gen (0.35 μm) 64M DRAM technology. Includes strategic expansion into logic/foundry business leveraging DRAM process.* |
 | [`in1998/`](./in1998/) | 64M DRAM立ち上げ記録（1998年, 0.25μm, 三溝真一）<br>📄 [`DRAM_Startup_64M_1998.md`](./in1998/DRAM_Startup_64M_1998.md)<br>※本記録は過去の経験に基づく教育記述であり、現行の企業機密には該当しません。<br>*This archive is based on historical engineering experience and does not contain any proprietary information.* |
 | [`in2001/`](./in2001/) | **モバイル用疑似SRAM（VSRAM）技術アーカイブ（2001年, 64M DRAM流用）**<br>📄 [`VSRAM_2001.md`](./in2001/VSRAM_2001.md)<br>※**64M DRAM第3世代プロセスを流用し、内部リフレッシュでSRAM的に動作**。世界初の**カメラ付き携帯電話（SHARP製）**に搭載されたモバイルメモリの実体験記録。<br>*Pseudo-SRAM using 64M DRAM (3rd Gen) process with internal refresh logic. Deployed in SHARP's world-first camera-equipped mobile phone.* |
 | `early_PoC/` *(planned)* | 2000年代のPoC設計メモ（予定）<br>Early 2000s PoC design notes |
@@ -75,8 +76,12 @@ title: Edusemi-Plus Archive
 flowchart TD
     EdusemiPlus[Edusemi-Plus Curriculum<br>（教材本体）]
     Archive[📂 Archive<br>（補完アーカイブ）]
+    in1996[in1996<br>Thin-film Microreactor]
+    in1997[in1997<br>Epson Sakata 8-inch Line]
     in1998[in1998<br>DRAM Startup Record]
-    EdusemiPlus --> Archive --> in1998
+    EdusemiPlus --> Archive --> in1996
+    Archive --> in1997
+    Archive --> in1998
 ```
 
 ---
