@@ -2,9 +2,9 @@ title: Edusemi-Plus
 description: 半導体産業と社会・AIをつなぐ応用教材
 lang: ja
 
-# リポジトリ Pages 用（末尾スラなし / リポ名は大文字小文字まで一致）
+# リポジトリ Pages 用（/ユーザー/リポジトリ）公開
 url: "https://samizo-aitl.github.io"
-baseurl: "/Edusemi-Plus"
+baseurl: "/Edusemi-Plus"      # ルート公開なら "" に
 
 # テーマ
 theme: minima
@@ -15,10 +15,25 @@ kramdown:
   input: GFM
   parse_block_html: true
   hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
-# ビルド安定化
+# Sass（minima + 自前SCSSのビルド最適化）
+sass:
+  style: compressed
+
+# タイムゾーン / きれいなURL
 timezone: Asia/Tokyo
 permalink: pretty
+
+# 既定レイアウト（書き忘れ防止）
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 # GitHub Pages で不要なものは除外
 exclude:
