@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Thin-Film Inductor Development (1996–1997)
+title: Thin-Film Inductor Development (1996–1997) 
 ---
 
 ---
