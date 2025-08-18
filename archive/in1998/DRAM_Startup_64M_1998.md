@@ -98,7 +98,7 @@ flowchart TB
     B --> C[SEM: No structural defects]
     C --> D[工程解析 / Process Analysis]
     D --> E[WSA-ET後アッシング]
-    D --> F[LDD(N/P/Cell)レジスト剥離アッシング複数回]
+    D --> F["LDD N / P / Cell レジスト剥離アッシング"]
     E --> G[Plasma Damage Accumulation]
     F --> G
     G --> H[改善: ウェット処理主体に変更]
