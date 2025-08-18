@@ -67,6 +67,11 @@ flowchart TB
     class A,E focus
 ```
 
+
+
+
+
+
 - **DRAM技術導入**：三菱からの技術供与をベースに0.35→0.25µm世代を習得  
 - **先端ロジック吸収**：Xilinx等のファブレスと協業し、配線だけでなくトランジスタ技術まで獲得  
 - **自前PDK構築**：プロセス設計キットを内製化し、社内ASIC展開へ  
@@ -123,6 +128,8 @@ Without stable DRAM production, the Fab could not achieve the utilization needed
 まず0.5µm 16M DRAMの立ち上げは順調に進み、酒田8インチラインの初期稼働を支えた。  
 続いて本命となる**0.35µm 64M DRAM（第2世代）**の開発が進められ、1997年秋頃から本格フェーズへ移行した。  
 
+筆者はこの**第2世代64M DRAMプロジェクトから参画**しており、最初の実務経験はまさにこの立ち上げであった。  
+
 しかし、投入した試作ロットは**30ロット以上に及ぶも形状が安定せず**、SEMで寸法を測定することすら困難な状態が続いた。  
 この第2世代64M DRAMの立ち上げは、酒田Fabにとって**量産稼働の成否を左右する最重要課題**であり、現場は大きな重圧を受けていた。  
 熊本工場では既に実績があるにもかかわらず、酒田では同じ装置・レシピでも結果が再現できず、原因不明の状態が続いた。  
@@ -133,6 +140,8 @@ The initial roadmap was as follows: 0.5 µm 16M DRAM → 0.35 µm 64M DRAM (2nd 
 
 The 0.5 µm 16M DRAM ramp-up proceeded smoothly, supporting the early operation of the Sakata line.  
 Next came the critical **0.35 µm 64M DRAM (2nd Gen)**, which entered its full-scale ramp-up phase in autumn 1997.  
+
+The author **joined the project from this 2nd Generation 64M DRAM ramp-up**, making it the very first practical assignment of his career.  
 
 However, even after processing **over 30 trial lots**, the patterns were unstable, and CD-SEM measurements were almost impossible due to deformed shapes.  
 This project was positioned as the **highest-priority task for the Semiconductor Division**, placing tremendous pressure on the team.  
