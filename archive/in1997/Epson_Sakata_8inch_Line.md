@@ -58,14 +58,13 @@ The technology acquisition strategy for the 8-inch line was multifaceted, aiming
 
 ```mermaid
 flowchart LR
-    A[DRAM技術導入<br>0.35µm/0.25µm] --> B[先端ロジック協業<br>Xilinxなど]
-    B --> C[自前ロジック開発<br>PDK構築]
-    C --> D[社内展開<br>ASIC・ロジックIC]
-    D --> E[高耐圧/混載CMOS<br>パネルドライバ・IJヘッド]
-    
+    A[DRAM技術導入 0.35µm/0.25µm] --> B[先端ロジック協業 Xilinxなど]
+    B --> C[自前ロジック開発 PDK構築]
+    C --> D[社内展開 ASIC・ロジックIC]
+    D --> E[高耐圧/混載CMOS パネルドライバ・IJヘッド]
+
     classDef focus fill=#f9f,stroke=#333,stroke-width=2px;
-    A:::focus
-    E:::focus
+    class A,E focus;
 ```
 
 - **DRAM技術導入**：三菱からの技術供与をベースに0.35→0.25µm世代を習得  
