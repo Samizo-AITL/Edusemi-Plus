@@ -131,7 +131,7 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 | **Education** | M.Eng., Electrical and Electronic Engineering, Shinshu University Graduate School |
 | **Career** | Former engineer at Seiko Epson Corporation (1997–) |
 | **Expertise** | Semiconductor devices (logic, memory, high-voltage mixed-signal)<br>Inkjet thin-film piezo actuators<br>PrecisionCore printhead productization, BOM management, ISO training |
-| **Contact** | ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)<br>🐦 [https://x.com/shin3t72](https://x.com/shin3t72)<br>💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) |
+| **Contact** | ✉️ [Email](mailto:shin3t72@gmail.com) / 🐦 [X](https://x.com/shin3t72) / 💻 [GitHub](https://samizo-aitl.github.io/) |
 
 ---
 
