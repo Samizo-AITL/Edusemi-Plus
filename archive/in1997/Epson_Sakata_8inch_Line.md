@@ -103,39 +103,71 @@ Without stable DRAM production, the Fab could not achieve the utilization needed
 
 ---
 
+## 🚀 DRAM立ち上げと第2世代（0.35μm）64M DRAMの難航 | Ramp-up Challenges
+
 **展開計画 | Deployment Plan**  
+酒田8インチラインの立ち上げは、**三菱電機 熊本工場からの技術供与**を受けて進められた。  
+当初のロードマップは以下のとおりである。  
+
+**Japanese**  
 - 0.5µm **16M DRAM**  
 - 0.35µm **64M DRAM（第2世代）**  
 - 0.25µm **64M DRAM（第3世代）**  
----
 
-## 🚀 第2世代（0.35μm）64M DRAM立ち上げの難航 | Ramp-up Challenges
+**English**  
+- 0.5 µm **16M DRAM**  
+- 0.35 µm **64M DRAM (2nd Generation)**  
+- 0.25 µm **64M DRAM (3rd Generation)**  
 
-0.5μm 16M DRAMは順調に立ち上がったが、**0.35μm 64M DRAM（第2世代）**は、  
-おそらく16M DRAMと**並行して初期活動を開始**しており、**1997年秋頃から本格的な立ち上げフェーズ**に入った。  
+**日本語**  
+まず0.5µm 16M DRAMの立ち上げは順調に進み、酒田8インチラインの初期稼働を支えた。  
+続いて本命となる**0.35µm 64M DRAM（第2世代）**の開発が進められ、1997年秋頃から本格フェーズへ移行した。  
 
-試作ロットは少なくとも**30ロット以上投入**したが、**形状すら満足に形成できず**、  
-測長SEMで寸法を測ろうにも形状が崩れており、**どこを測って良いのかわからない状態**が続いた。  
+しかし、投入した試作ロットは**30ロット以上に及ぶも形状が安定せず**、SEMで寸法を測定することすら困難な状態が続いた。  
+この第2世代64M DRAMの立ち上げは、酒田Fabにとって**量産稼働の成否を左右する最重要課題**であり、現場は大きな重圧を受けていた。  
+熊本工場では既に実績があるにもかかわらず、酒田では同じ装置・レシピでも結果が再現できず、原因不明の状態が続いた。  
 
-しかも、この立ち上げは**半導体事業部として最重要課題**に位置づけられており、  
-現場には**相当な重圧**がのしかかっていた。  
-プロセスは熊本工場での実績があり、装置仕様やレシピも同等だったにもかかわらず、原因は不明だった。
+**English**  
+The Sakata 8-inch line was launched with **technology transfer from Mitsubishi Electric’s Kumamoto Fab**.  
+The initial roadmap was as follows: 0.5 µm 16M DRAM → 0.35 µm 64M DRAM (2nd Gen) → 0.25 µm 64M DRAM (3rd Gen).  
+
+The 0.5 µm 16M DRAM ramp-up proceeded smoothly, supporting the early operation of the Sakata line.  
+Next came the critical **0.35 µm 64M DRAM (2nd Gen)**, which entered its full-scale ramp-up phase in autumn 1997.  
+
+However, even after processing **over 30 trial lots**, the patterns were unstable, and CD-SEM measurements were almost impossible due to deformed shapes.  
+This project was positioned as the **highest-priority task for the Semiconductor Division**, placing tremendous pressure on the team.  
+Although the process had been proven at the Kumamoto Fab with identical equipment and recipes, the results could not be reproduced at Sakata, leaving the cause unresolved.  
 
 ---
 
 ## 🔍 原因究明と解決 | Root Cause & Resolution
 
-詳細調査の結果、唯一異なる工程が判明した。
+**日本語**  
+詳細調査の結果、唯一の違いが**洗浄工程フロー**にあることが判明した。  
 
 | 工程比較 | 三菱電機 熊本工場 | セイコーエプソン 酒田工場 |
 |----------|------------------|---------------------------|
 | 洗浄工程 | 硫酸過水 → アンモニア過水 → 塩酸過水 | アンモニア過水 → 塩酸過水（※硫酸過水なし） |
 
-**硫酸過水工程の欠落**により、成膜前の表面状態がプラズマ処理などで変化し、  
-**枚葉処理依存の層間膜厚差**が発生していた。  
+酒田では**硫酸過水工程が省略**されており、その結果、成膜前の表面状態が変化し、  
+プラズマ処理との相互作用で**層間膜厚のばらつき**が発生していた。  
 
-最終的に、熊本工場の工程フローを**酒田工場へ完全移植（鏡写し）**することで問題を解消。  
-この対応により、第2世代64M DRAMの量産化への道が開かれた。  
+最終的に、熊本工場のプロセスを**酒田へ完全移植（鏡写し）**する対応が取られた。  
+これにより問題は解消し、ようやく第2世代64M DRAMの量産化に成功。  
+その後の**0.25µm世代（第3世代）64M DRAM**や、並行して進められていた先端ロジック技術への展開に繋がった。  
+
+**English**  
+Detailed investigation revealed the sole difference lay in the **cleaning process flow**:  
+
+| Process Comparison | Mitsubishi Kumamoto Fab | Seiko Epson Sakata Fab |
+|--------------------|-------------------------|------------------------|
+| Cleaning Process   | H₂SO₄/H₂O₂ → NH₄OH/H₂O₂ → HCl/H₂O₂ | NH₄OH/H₂O₂ → HCl/H₂O₂ (**No H₂SO₄/H₂O₂ step**) |
+
+At Sakata, the omission of the **sulfuric acid/hydrogen peroxide step** altered the wafer surface condition,  
+causing **film thickness variation dependent on single-wafer plasma processes**.  
+
+Ultimately, the issue was resolved by **fully mirroring the Kumamoto Fab’s process flow at Sakata**.  
+This measure enabled successful mass production of the 2nd Gen 64M DRAM and paved the way for the **0.25 µm 3rd Gen DRAM** as well as parallel advanced logic technology projects.  
 
 ---
 
