@@ -6,6 +6,8 @@ tags: ["DRAM", "半導体プロセス", "歩留まり改善", "技術移管", "0
 categories: ["Semiconductor", "DRAM", "History"]
 ---
 
+---
+
 # 📘 64M DRAM 第3世代（0.25μm）立ち上げ記録 （1998）  
 **📘 64M DRAM 3rd Generation (0.25 μm) Startup Record (1998)**  
 
