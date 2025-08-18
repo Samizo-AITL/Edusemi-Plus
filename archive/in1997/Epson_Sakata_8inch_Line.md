@@ -63,8 +63,8 @@ flowchart LR
     C --> D[社内展開 ASIC・ロジックIC]
     D --> E[高耐圧/混載CMOS パネルドライバ・IJヘッド]
 
-    classDef focus fill=#f9f,stroke=#333,stroke-width=2px;
-    class A,E focus;
+    classDef focus fill:#ffccff,stroke:#333,stroke-width:2px
+    class A,E focus
 ```
 
 - **DRAM技術導入**：三菱からの技術供与をベースに0.35→0.25µm世代を習得  
