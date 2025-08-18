@@ -113,6 +113,8 @@ flowchart TB
 |--------|---------|
 | DRAMセルの電荷保持性を検証するため、リフレッシュを一時停止後に読み出しを行う試験で発生する不良。 | A DRAM failure mode detected by halting refresh temporarily and reading the cell to assess charge retention. |
 
+[Bin分類資料（Bin5）](dram_wafer_test_binclass_0.25um.md#bin5)
+
 ---
 
 ## 📂 プロセスフロー | Process Flow
