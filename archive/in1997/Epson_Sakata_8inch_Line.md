@@ -48,6 +48,28 @@ The technology acquisition strategy for the 8-inch line was multifaceted, aiming
 
 ---
 
+## 🎯 投資の本質と戦略俯瞰 | Essence & Strategic Overview
+
+**日本語**  
+酒田8インチラインへの投資は、1997年当時の日本半導体産業の緊張下で行われた。目的は、**先端プロセス技術を獲得し、将来のロジック・混載・社内製品開発へと技術を広げるための基盤を確立すること**にあった。  
+ここでは、当時の取り組みの全体像を簡潔に図解する。
+
+**English**  
+The 8-inch line investment at Sakata was made under a highly competitive environment. The goal was to **build a foundation for acquiring advanced process technology and extending it to future logic, mixed-signal, and in-house products**.
+
+```mermaid
+flowchart LR
+    A[DRAM process 0.35µm/0.25µm] --> B[Collaboration with leading fabless (e.g., Xilinx)]
+    B --> C[In-house logic enablement PDK development]
+    C --> D[Internal deployment ASIC / logic IC]
+    D --> E[Mixed-signal & high-voltage drivers Mobile panel / Inkjet head]
+
+    classDef focus fill:#ffccff,stroke:#333,stroke-width:2px
+    class A,E focus
+```
+
+---
+
 ## 🌐 セイコーエプソン8インチ立ち上げの意義 | Strategic Significance & Investment Rationale
 
 1980年代、日本は世界半導体市場のトップに立ち、DRAMシェアで米国を凌駕していた。  
@@ -57,14 +79,15 @@ The technology acquisition strategy for the 8-inch line was multifaceted, aiming
 その意義は「単なるDRAM量産」ではなく、**DRAMを通じて最先端プロセス技術を吸収し、自社強みに展開すること**にあった。  
 
 ```mermaid
-flowchart TB
-    A[DRAM技術導入 0.35µm/0.25µm] --> B[先端ロジック協業 Xilinxなど]
-    B --> C[自前ロジック開発 PDK構築]
-    C --> D[社内展開 ASIC・ロジックIC]
-    D --> E[高耐圧/混載CMOS パネルドライバ・IJヘッド]
-
-    classDef focus fill:#ffccff,stroke:#333,stroke-width:2px;
-    class A,E focus
+flowchart LR
+    A[DRAM技術導入<br>0.35µm/0.25µm] --> B[先端ロジック協業<br>Xilinxなど]
+    B --> C[自前ロジック開発<br>PDK構築]
+    C --> D[社内展開<br>ASIC・ロジックIC]
+    D --> E[高耐圧/混載CMOS<br>パネルドライバ・IJヘッド]
+    
+    classDef focus fill=#f9f,stroke=#333,stroke-width=2px;
+    A:::focus
+    E:::focus
 ```
 
 - **DRAM技術導入**：三菱からの技術供与をベースに0.35→0.25µm世代を習得  
@@ -75,6 +98,7 @@ flowchart TB
 👉 投資の本質は「DRAM事業」ではなく、**先端技術を自前化して独自デバイスへ展開する戦略的布石**であった。  
 
 ---
+
 
 ## 📦 技術供与と展開計画 | Technology Transfer & Deployment Plan
 
@@ -100,6 +124,12 @@ However, in **1997 the only product capable of sustaining full-scale mass produc
 Therefore, **the success of DRAM ramp-up was the foundation upon which the Fab’s operation and future roadmap depended**.  
 Without stable DRAM production, the Fab could not achieve the utilization needed to move forward into logic, foundry, or mixed-signal development.  
 
+---
+
+**展開計画 | Deployment Plan**  
+- 0.5µm **16M DRAM**  
+- 0.35µm **64M DRAM（第2世代）**  
+- 0.25µm **64M DRAM（第3世代）**  
 ---
 
 ## 🚀 第2世代（0.35μm）64M DRAM立ち上げの難航 | Ramp-up Challenges
@@ -155,3 +185,14 @@ This 3rd Gen project was built on the experience and knowledge described on this
 
 ➡ [1998: 0.25 μm 3rd Generation 64M DRAM Startup Record](../in1998/DRAM_Startup_64M_1998.md)
 
+
+```mermaid
+flowchart LR
+    A[DRAM技術導入 0.35µm/0.25µm] --> B[先端ロジック協業 Xilinxなど]
+    B --> C[自前ロジック開発 PDK構築]
+    C --> D[社内展開 ASIC・ロジックIC]
+    D --> E[高耐圧/混載CMOS パネルドライバ・IJヘッド]
+
+    classDef focus fill:#ffccff,stroke:#333,stroke-width:2px;
+    class A,E focus
+```
