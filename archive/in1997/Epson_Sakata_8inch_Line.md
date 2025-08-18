@@ -66,10 +66,10 @@ The significance lay not in "mass-producing DRAM itself," but in **leveraging DR
 
 ```mermaid
 flowchart TB
-    A[DRAM技術導入 / DRAM Technology Introduction (0.35µm / 0.25µm)] --> B[先端ロジック協業 / Advanced Logic Collaboration (Xilinx, etc.)]
-    B --> C[自前ロジック開発・PDK構築 / In-house Logic Development & PDK Build]
-    C --> D[社内展開 ASIC・ロジックIC / Internal Deployment: ASIC & Logic IC]
-    D --> E[高耐圧・混載CMOS / High-voltage & Embedded CMOS (Panel Driver, Inkjet Head)]
+    A[DRAM技術導入<br/>DRAM Technology Introduction (0.35µm / 0.25µm)] --> B[先端ロジック協業<br/>Advanced Logic Collaboration (Xilinx, etc.)]
+    B --> C[自前ロジック開発・PDK構築<br/>In-house Logic Development & PDK Build]
+    C --> D[社内展開 ASIC・ロジックIC<br/>Internal Deployment: ASIC & Logic IC]
+    D --> E[高耐圧・混載CMOS<br/>High-voltage & Embedded CMOS (Panel Driver, Inkjet Head)]
 
     classDef focus fill:#ffccff,stroke:#333,stroke-width:2px;
     class A,E focus
