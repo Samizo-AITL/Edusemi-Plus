@@ -5,6 +5,8 @@ description: "日本半導体産業が1990年代後半から衰退した背景�
 tags: ["半導体産業史", "日本半導体", "DRAM", "微細化", "OPC", "ハーフトーン", "投資コスト", "国策", "衰退要因"]
 ---
 
+---
+
 # 📉 補足資料: 日本半導体産業衰退要因  
 **Supplementary Note: Factors Behind the Decline of Japan’s Semiconductor Industry**
 
