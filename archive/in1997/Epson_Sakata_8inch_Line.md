@@ -82,8 +82,6 @@ flowchart TB
 
 👉 投資の本質は「DRAM事業」ではなく、**先端技術を自前化して独自デバイスへ展開する戦略的布石**であった。  
 
----
-
 - **DRAM Technology Introduction**: Learned the 0.35 → 0.25 µm nodes through technology transfer from Mitsubishi  
 - **Absorbing Advanced Logic**: Collaborated with fabless leaders such as Xilinx, acquiring not only interconnect but also transistor technology  
 - **In-house PDK Development**: Built proprietary Process Design Kits, enabling internal ASIC deployment  
