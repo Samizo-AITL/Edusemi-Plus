@@ -3,8 +3,7 @@ layout: default
 title: "64M DRAM 第3世代（0.25μm）立ち上げ記録 （1998）"
 description: "1998年、エプソン酒田工場における64M DRAM（第3世代・0.25μm）技術移管・立ち上げ記録。歩留まり改善や不良解析の実体験を再構成。"
 tags: ["DRAM", "半導体プロセス", "歩留まり改善", "技術移管", "0.25μm"]
----
-
+categories: ["Semiconductor", "DRAM", "History"]
 ---
 
 # 📘 64M DRAM 第3世代（0.25μm）立ち上げ記録 （1998）  
@@ -43,43 +42,32 @@ tags: ["DRAM", "半導体プロセス", "歩留まり改善", "技術移管", "0
 ## 🏗️ プロセス立ち上げの役割と戦略 | Role & Ramp-up Strategy
 
 **日本語**  
-0.25μm世代DRAMの量産立ち上げに技術担当として参画。特にKD工場から提供された**フロッピー2枚分のプロセス条件**をT工場に展開し、工程流動を可能にした。  
-その後、不良解析・歩留まり改善・信頼性評価にも関与した。
+0.25μm世代DRAMの量産立ち上げに技術担当として参画。KD工場から提供された**フロッピー2枚分のプロセス条件**をT工場に展開し、工程流動を可能にした。  
+その後、不良解析・歩留まり改善・信頼性評価にも関与した。  
 
 **English**  
-Participated in the 0.25 μm 64M DRAM mass production ramp-up as a technical engineer. Specifically deployed **two floppy disks worth of process parameters** from the KD Fab to the T Fab, enabling smooth wafer process flow.  
-Subsequently engaged in **failure analysis, yield improvement, and reliability evaluation** during the production transition.
+Participated in the 0.25 μm 64M DRAM mass production ramp-up as a technical engineer. Specifically deployed **two floppy disks worth of process parameters** from the KD Fab to the T Fab, enabling wafer process flow.  
+Subsequently engaged in **failure analysis, yield improvement, and reliability evaluation** during the production transition.  
 
 ---
 
 ### 🔄 本番ロット投入前フロー | Pre-Mass Production Ramp-up Flow (1998)
 
 **日本語**  
-詳細には、**SCF（ショートサイクルフィードバック）方式**を採用。  
-これは、各要素技術部門の「処理条件立ち上げマニュアル」に基づき、短い工程サイクルで評価・修正を繰り返しながら条件を確定させる方式である。
+採用した方式は **SCF（ショートサイクルフィードバック）**。  
+各要素技術部門の立ち上げマニュアルを基に、短サイクルで評価・修正を繰り返し、条件を早期にFixした。  
 
-1. KD工場より**フロッピー2枚分のプロセス条件**受領  
-2. 各要素技術（拡散・CVD・PVD・エッチングなど）へ処理条件展開  
-3. 電子流動票に条件を反映  
-4. 形状確認用として**5ロット投入**  
-5. 各要素技術部門に評価ウエハを配布  
-6. SCFにより条件出し・プロセス最適化（短サイクル評価）  
-7. 最終条件Fix  
-8. 電子流動票に最終条件反映  
-9. 本番ロット投入へ移行  
+1. KD工場より**フロッピー2枚分の条件データ**を受領  
+2. 各要素技術（拡散・CVD・PVD・エッチングなど）へ展開  
+3. 電子流動票に条件反映  
+4. **形式ロット10投入**（形状確認・条件最適化）  
+5. SCFにより条件修正・最適化  
+6. 最終条件を電子流動票に反映  
+7. **本番ロット3投入（長期信頼性用）**  
+8. **バーンイン評価3ロット投入**  
+9. 信頼性確認後、量産移行  
 
-**English**  
-Adopted **SCF (Short Cycle Feedback)** methodology — based on each unit process team’s “process condition startup manual,” conditions were evaluated and adjusted in short process cycles until finalization.
-
-1. Received **two floppy disks** containing process parameters from KD Fab  
-2. Distributed processing conditions to each unit process area (Diffusion, CVD, PVD, Etching, etc.)  
-3. Reflected initial parameters into the electronic process flow sheet  
-4. Launched **5 lots** for structural verification  
-5. Distributed evaluation wafers to each process engineering team  
-6. Optimized process conditions via SCF (short-cycle evaluation)  
-7. Fixed final process conditions  
-8. Updated electronic process flow sheet with final parameters  
-9. Proceeded to mass production lot introduction
+> **注記**: 実際の立ち上げではSCF方式によりモニタロットや条件検証用ロットが随時投入されていたが、正式な評価ロットとしては上記の「10＋3＋3」に整理される。  
 
 ---
 
@@ -87,26 +75,32 @@ Adopted **SCF (Short Cycle Feedback)** methodology — based on each unit proces
 
 | フェーズ / Phase | 日本語 | English |
 |-----------------|--------|---------|
-| 🔹 本番ロット投入 | 信頼性評価用に **3ロット投入（Burn-in付き）** | Introduced **3 lots for reliability evaluation (with burn-in)** |
-| 📉 初回歩留まり | 約 **65%**、主不良は **ポーズリフレッシュ不良** | Initial yield around **65%**, main defect was **Pause Refresh failure** |
-| 🔍 不良解析 | **Pause Refresh条件でのビットエラー原因を調査** | Investigated the cause of bit errors under **Pause Refresh test conditions** |
-| ⚡ 容量確認 | **セル容量は正常 → SNコンタクト〜N+/P-Well間リーク疑い** | Cell capacitance was normal → suspected leakage between SN contact and N+/P-Well |
-| 🧐 SEM観察 | SNコンタクト構造に大きな欠陥なし（THB領域含む） | SEM observation revealed no major defects in SN contact structure (including THB area) |
-| 📌 原因特定 | **Gate-OX後のアッシングによるプラズマダメージ** | Identified **plasma damage during post-Gate-OX ashing** |
-| 🛠️ 改善処置 | アッシング → ウエット処理に変更しダメージを抑制 | Changed ashing to wet cleaning to suppress damage |
-| ✅ 結果 | 歩留まり **約80%に向上**、信頼性試験クリアし量産へ | Yield improved to **about 80%**, passed reliability tests and moved to mass production |
+| 🔹 形式ロット投入 | **10ロット投入** – SCFで条件最適化 | **10 lots introduced** – Process optimization by SCF |
+| 🔹 本番ロット投入 | **3ロット投入（長期信頼性評価用）** | **3 lots for long-term reliability** |
+| 🔹 バーンイン評価 | **3ロット投入（Burn-in試験用）** | **3 lots for burn-in test** |
+| 📉 初回歩留まり | 約 **65%**、主不良は **ポーズリフレッシュ不良** | Initial yield ~65%, main defect was **Pause Refresh failure** |
+| 🔍 不良解析 | **Pause Refresh条件でのビットエラー原因調査** | Investigation of bit errors under **Pause Refresh** conditions |
+| ⚡ 容量確認 | **セル容量は正常 → SNコンタクト〜N+/P-Wellリーク疑い** | Cell capacitance normal → suspected leakage between SN contact and N+/P-Well |
+| 🧐 SEM観察 | 構造欠陥なし（THB領域含む） | No structural defects found (incl. THB area) |
+| 📌 原因特定 | **WSA-ETドライエッチ後・LDD複数回レジスト剥離アッシングによるプラズマダメージ** | **Plasma damage from resist ashing after WSA-ET dry etch and multiple LDD steps** |
+| 🛠️ 改善処置 | レジスト剥離を**ウェット処理主体へ変更**（アッシング最小化） | Changed resist strip to **wet process** (minimized ashing) |
+| ✅ 結果 | 歩留まり **65% → 80%**、信頼性試験クリア | Yield improved **65% → 80%**, passed reliability tests |
 
 ---
 
-### 🔄 改善プロセス因果関係 | Improvement Process Flow
+## 🔄 改善プロセス因果関係 | Improvement Process Flow
 
 ```mermaid
 flowchart TB
-    A[ポーズリフレッシュ不良検出 / Pause Refresh Failure Found] --> B[容量正常 / Capacitance OK → Leakage suspected]
-    B --> C[SEM観察で構造欠陥なし / No Structural Defects Found]
-    C --> D[Gate-OX後アッシングでのプラズマダメージ特定 / Plasma Damage Identified]
-    D --> E[アッシング→ウエット処理に変更 / Changed to Wet Process]
-    E --> F[歩留まり 65% → 80% 向上 / Yield Increased from 65% to 80%]
+    A[Pause Refresh Failures] --> B[Capacitance OK → Leakage suspected]
+    B --> C[SEM: No structural defects]
+    C --> D[工程解析 / Process Analysis]
+    D --> E[WSA-ET後アッシング]
+    D --> F[LDD(N/P/Cell)レジスト剥離アッシング複数回]
+    E --> G[Plasma Damage Accumulation]
+    F --> G
+    G --> H[改善: ウェット処理主体に変更]
+    H --> I[Yield 65% → 80% 改善]
 ```
 
 ---
@@ -115,46 +109,32 @@ flowchart TB
 
 | 日本語 | English |
 |--------|---------|
-| DRAMの電荷保持性を評価するため、リフレッシュを一時停止後にセル読み出しを行う試験で現れる不良。 | A DRAM failure mode detected by halting refresh operations temporarily and then reading the cell to assess charge retention. |
-
-➡ 詳細は [Bin分類資料（Bin5）](./dram_wafer_test_binclass_0.25um.md) を参照 / See [Bin Classification Data (Bin5)](./dram_wafer_test_binclass_0.25um.md).
+| DRAMセルの電荷保持性を検証するため、リフレッシュを一時停止後に読み出しを行う試験で発生する不良。 | A DRAM failure mode detected by halting refresh temporarily and reading the cell to assess charge retention. |
 
 ---
 
 ## 📂 プロセスフロー | Process Flow
 
 - 📄 **[DRAM_Process_Flow_Full.md](./DRAM_Process_Flow_Full.md)** – 0.25μm 64M DRAM（第3世代）の**フルプロセスフロー（日本語版）**  
-  *Full process flow for 0.25 μm 64M DRAM (3rd Gen, Japanese)*
-
-- 📄 **[DRAM_Process_Flow_Full_en.md](./DRAM_Process_Flow_Full_en.md)** – **Full process flow** for 0.25 μm 64M DRAM (3rd Gen, **English version**)  
-  *英語版フルプロセスフロー*
+- 📄 **[DRAM_Process_Flow_Full_en.md](./DRAM_Process_Flow_Full_en.md)** – **Full process flow** for 0.25 μm 64M DRAM (English)
 
 ---
 
 ## 📎 関連資料 | Related Materials
 
-- **[DRAMメーカー比較 (1998)](DRAM_Maker_Comparison_1998.md)** – 各社DRAM技術動向 / Technology trends among DRAM makers
-- **[DRAMセル構造比較](DRAM_Cell_Structure_Comparison.md)** – セルアーキテクチャの差異 / Differences in DRAM cell architectures
-- **[DRAM技術年表](DRAM_Cell_Technology_Chronology.md)** – 世代別プロセス変遷 / Process evolution by generation
-- **[0.25μm Bin分類](dram_wafer_test_binclass_0.25um.md)** – 不良モード別分類 / Failure mode classification
-
----
-
-## 🔗 関連アーカイブ：VSRAM（2001年） | Related Archive: VSRAM (2001)
-
-📄 [**VSRAM_2001.md**](../in2001/VSRAM_2001.md)  
-> 🚀 **29歳時に推進したモバイル向け擬似SRAM**  
-> **Developed at age 29, this pseudo-SRAM for mobile applications** was adopted in the world’s first camera-equipped mobile phone (by SHARP), leveraging DRAM process technology.
+- **[DRAMメーカー比較 (1998)](DRAM_Maker_Comparison_1998.md)**  
+- **[DRAMセル構造比較](DRAM_Cell_Structure_Comparison.md)**  
+- **[DRAM技術年表](DRAM_Cell_Technology_Chronology.md)**  
+- **[0.25μm Bin分類](dram_wafer_test_binclass_0.25um.md)**  
 
 ---
 
 ## 📅 技術アーカイブ年表 | Technical Archive Timeline
 
-- [1997年：セイコーエプソン酒田事業所8インチライン稼働](../in1997/Epson_Sakata_8inch_Line.md) – 本プロジェクトの製造基盤 / Manufacturing foundation for this project
-- **1998年：0.25μm DRAM立ち上げ（本ページ） / This page**
-- [2001年：VSRAM課題対策](../in2001/VSRAM_2001.md) – VSRAM development issues and solutions
+- [1997年：エプソン酒田8インチライン稼働](../in1997/Epson_Sakata_8inch_Line.md)  
+- **1998年：0.25μm DRAM立ち上げ（本ページ）**  
+- [2001年：VSRAM課題対策](../in2001/VSRAM_2001.md)  
 
 ---
 
 📘 **本記録は教育・アーカイブ目的で再構成されたものであり、企業機密とは一切関係ありません。**  
-📘 **This record has been reconstructed for educational and archival purposes, and contains no corporate confidential information.**
