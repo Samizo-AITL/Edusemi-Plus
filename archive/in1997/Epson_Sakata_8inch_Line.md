@@ -220,6 +220,17 @@ Subsequently, the **3rd Generation (0.25 μm) 64M DRAM** ramp-up began in the la
 
 ---
 
-### 📎 関連補足資料 | Related Supplementary Material  
+## 0.13µmで止まった微細化 | Miniaturization Stopped at 0.13µm
+
+**日本語**  
+酒田8インチラインは巨額投資によって立ち上げられたが、微細化への追随は**0.13µm世代まで**であり、  
+それ以降の世代については新規開発・投資は行われなかった。  
+この点も含め、日本半導体産業の衰退要因については補足資料にまとめている。  
+
+**English**  
+The Sakata 8-inch line was established through massive investment,  
+but miniaturization efforts stopped at the **0.13 µm generation**.  
+Beyond this node, no new development or investment was pursued.  
+This limitation is also discussed in the supplementary material on the decline of Japan’s semiconductor industry.  
 
 - [📉 日本半導体産業衰退要因 | Decline Factors of Japan’s Semiconductor Industry](Japan_Semiconductor_Decline.md)
