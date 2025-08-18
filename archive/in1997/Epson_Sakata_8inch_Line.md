@@ -173,24 +173,28 @@ This measure enabled successful mass production of the 2nd Gen 64M DRAM and pave
 
 ## ✅ 成果と次世代への布石 | Results & Next Steps
 
-この難航期を通じて、筆者はDRAMプロセス全体を把握し、  
-翌年後半からの**0.25μm 第3世代64M DRAM立ち上げ**への準備が整った。  
+**日本語**  
+0.35μm 第2世代64M DRAMの立ち上げは多くの困難に直面したが、最終的に量産化に成功した。  
+この過程で、筆者はDRAMプロセス全体を俯瞰的に把握し、装置仕様・工程条件の差異が与える影響を深く理解した。  
+これらの知見は、その後の**0.25μm 第3世代64M DRAM立ち上げ（1998年後半〜）**へ直結する重要な基盤となった。  
+
+**English**  
+The ramp-up of the 0.35 μm 2nd Generation 64M DRAM faced significant challenges but ultimately succeeded in reaching mass production.  
+Through this process, the author gained a comprehensive view of the DRAM workflow and a deep understanding of how differences in tool specifications and process conditions affected results.  
+This knowledge became the foundation for the **0.25 μm 3rd Generation 64M DRAM ramp-up (starting in the latter half of 1998)**.  
 
 ---
 
 ## 📅 翌年のプロジェクト | Next Year’s Project
 
 **日本語**  
-64M DRAM（第2世代・0.35μm）は、**1997年秋頃から1998年前半**にかけて立ち上げが行われた。  
-その後、**1998年後半から第3世代（0.25μm）64M DRAM**の立ち上げが開始された。  
-この第3世代プロジェクトは、本ページで記した経験と知見を基盤としている。
+第2世代（0.35μm）64M DRAMは**1997年秋から1998年前半**にかけて量産立ち上げが行われた。  
+続く**1998年後半からは第3世代（0.25μm）64M DRAM**の立ち上げが開始され、本ページで得られた経験と知見がその土台となった。  
 
 ➡ [1998年：0.25μm 第3世代64M DRAM立ち上げ記録](../in1998/DRAM_Startup_64M_1998.md)
 
 **English**  
-The 64M DRAM (2nd Gen, 0.35 μm) ramp-up took place from **autumn 1997 to the first half of 1998**.  
-Subsequently, in the latter half of 1998, the **0.25 μm 3rd Generation 64M DRAM** ramp-up began.  
-This 3rd Gen project was built on the experience and knowledge described on this page.
+The 2nd Generation (0.35 μm) 64M DRAM ramp-up was carried out from **autumn 1997 to the first half of 1998**.  
+Subsequently, the **3rd Generation (0.25 μm) 64M DRAM** ramp-up began in the latter half of 1998, building directly upon the knowledge and lessons described in this archive.  
 
 ➡ [1998: 0.25 μm 3rd Generation 64M DRAM Startup Record](../in1998/DRAM_Startup_64M_1998.md)
-
