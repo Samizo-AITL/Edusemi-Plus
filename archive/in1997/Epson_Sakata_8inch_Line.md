@@ -84,6 +84,15 @@ flowchart TB
 
 ---
 
+- **DRAM Technology Introduction**: Learned the 0.35 → 0.25 µm nodes through technology transfer from Mitsubishi  
+- **Absorbing Advanced Logic**: Collaborated with fabless leaders such as Xilinx, acquiring not only interconnect but also transistor technology  
+- **In-house PDK Development**: Built proprietary Process Design Kits, enabling internal ASIC deployment  
+- **Mixed-Voltage / High-Voltage Devices**: Applied the know-how to differentiated products such as mobile panel drivers and inkjet head driver ICs  
+
+👉 The essence of this investment was not in the "DRAM business" itself, but in a **strategic move to internalize advanced technologies and redeploy them into Epson’s unique devices**.  
+
+---
+
 
 ## 📦 技術供与と展開計画 | Technology Transfer & Deployment Plan
 
