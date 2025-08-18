@@ -57,15 +57,14 @@ The technology acquisition strategy for the 8-inch line was multifaceted, aiming
 その意義は「単なるDRAM量産」ではなく、**DRAMを通じて最先端プロセス技術を吸収し、自社強みに展開すること**にあった。  
 
 ```mermaid
-flowchart LR
-    A[DRAM技術導入<br>0.35µm/0.25µm] --> B[先端ロジック協業<br>Xilinxなど]
-    B --> C[自前ロジック開発<br>PDK構築]
-    C --> D[社内展開<br>ASIC・ロジックIC]
-    D --> E[高耐圧/混載CMOS<br>パネルドライバ・IJヘッド]
-    
-    classDef focus fill=#f9f,stroke=#333,stroke-width=2px;
-    A:::focus
-    E:::focus
+flowchart TB
+    A[DRAM技術導入 0.35µm/0.25µm] --> B[先端ロジック協業 Xilinxなど]
+    B --> C[自前ロジック開発 PDK構築]
+    C --> D[社内展開 ASIC・ロジックIC]
+    D --> E[高耐圧/混載CMOS パネルドライバ・IJヘッド]
+
+    classDef focus fill:#ffccff,stroke:#333,stroke-width:2px;
+    class A,E focus
 ```
 
 - **DRAM技術導入**：三菱からの技術供与をベースに0.35→0.25µm世代を習得  
@@ -140,14 +139,3 @@ This 3rd Gen project was built on the experience and knowledge described on this
 
 ➡ [1998: 0.25 μm 3rd Generation 64M DRAM Startup Record](../in1998/DRAM_Startup_64M_1998.md)
 
-
-```mermaid
-flowchart LR
-    A[DRAM技術導入 0.35µm/0.25µm] --> B[先端ロジック協業 Xilinxなど]
-    B --> C[自前ロジック開発 PDK構築]
-    C --> D[社内展開 ASIC・ロジックIC]
-    D --> E[高耐圧/混載CMOS パネルドライバ・IJヘッド]
-
-    classDef focus fill:#ffccff,stroke:#333,stroke-width:2px;
-    class A,E focus
-```
