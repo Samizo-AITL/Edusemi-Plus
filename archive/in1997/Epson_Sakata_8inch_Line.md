@@ -217,3 +217,9 @@ The 2nd Generation (0.35 μm) 64M DRAM ramp-up was carried out from **autumn 199
 Subsequently, the **3rd Generation (0.25 μm) 64M DRAM** ramp-up began in the latter half of 1998, building directly upon the knowledge and lessons described in this archive.  
 
 ➡ [1998: 0.25 μm 3rd Generation 64M DRAM Startup Record](../in1998/DRAM_Startup_64M_1998.md)
+
+---
+
+### 📎 関連補足資料 | Related Supplementary Material  
+
+- [📉 日本半導体産業衰退要因 | Decline Factors of Japan’s Semiconductor Industry](Japan_Semiconductor_Decline.md)
