@@ -50,11 +50,19 @@ The technology acquisition strategy for the 8-inch line was multifaceted, aiming
 
 ## 🌐 セイコーエプソン8インチ立ち上げの意義 | Strategic Significance & Investment Rationale
 
+**日本語**  
 1980年代、日本は世界半導体市場のトップに立ち、DRAMシェアで米国を凌駕していた。  
 しかし1990年代に入ると、日米半導体協定や韓国・台湾勢の台頭により、日本のDRAM事業は急速に衰退していった。  
 その衰退期に、あえてセイコーエプソンは**巨額投資で8インチラインを立ち上げ**、業界最先端を目指した。  
 
 その意義は「単なるDRAM量産」ではなく、**DRAMを通じて最先端プロセス技術を吸収し、自社強みに展開すること**にあった。  
+
+**English**  
+In the 1980s, Japan dominated the global semiconductor market, surpassing the U.S. in DRAM share.  
+However, in the 1990s, the Japan–U.S. Semiconductor Agreement and the rise of Korean and Taiwanese players led to a rapid decline of Japan’s DRAM business.  
+Amid this downturn, Seiko Epson boldly made a **massive investment to launch an 8-inch fab**, aiming for the industry’s cutting edge.  
+
+The significance lay not in "mass-producing DRAM itself," but in **leveraging DRAM as a vehicle to absorb state-of-the-art process technology and deploy it into Epson’s own strengths**.  
 
 ```mermaid
 flowchart TB
@@ -66,11 +74,6 @@ flowchart TB
     classDef focus fill:#ffccff,stroke:#333,stroke-width:2px;
     class A,E focus
 ```
-
-
-
-
-
 
 - **DRAM技術導入**：三菱からの技術供与をベースに0.35→0.25µm世代を習得  
 - **先端ロジック吸収**：Xilinx等のファブレスと協業し、配線だけでなくトランジスタ技術まで獲得  
