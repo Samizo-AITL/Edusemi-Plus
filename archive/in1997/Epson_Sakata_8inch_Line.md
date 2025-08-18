@@ -78,11 +78,27 @@ flowchart TB
 
 ## 📦 技術供与と展開計画 | Technology Transfer & Deployment Plan
 
-立ち上げ方法は、三菱電機 熊本工場（KD棟）からの技術供与に基づき、以下の世代プロセスが順次展開された。
+**日本語**  
+酒田Fabの投資目的は、将来的には**先端ロジック、社内ASIC、ファンドリ、高耐圧混載**へと技術を広げることにあった。  
+しかし**1997年当時、ラインを本格稼働させ、Fabを維持できるだけの量産品目はDRAMしか存在しなかった**。  
 
-- 0.5μm **16M DRAM**
-- 0.35μm **64M DRAM（第2世代）**
-- 0.25μm **64M DRAM（第3世代）**
+- **Xilinx先端ロジック案件**：開発は進んでいたが、量産規模には至らず。  
+- **社内ロジックや混載案件**：まだ構想・試作段階にあり、当面は主力になれなかった。  
+- **ファンドリビジネス**：市場は立ち上がり途上で、十分な需要を見込めなかった。  
+
+このため、**DRAMの立ち上げ成功がFab運営の前提条件であり、同時に将来展開の扉を開くカギ**となっていた。  
+DRAMを安定生産できなければ、Fabは稼働率を確保できず、次のロジックや混載への展開も実現できなかったのである。  
+
+**English**  
+The Sakata Fab investment was ultimately aimed at expanding into **advanced logic, in-house ASICs, foundry services, and high-voltage mixed-signal devices**.  
+However, in **1997 the only product capable of sustaining full-scale mass production and keeping the Fab operational was DRAM**.  
+
+- **Xilinx logic projects**: progressing in development, but not yet scalable to mass production.  
+- **In-house logic and mixed-signal devices**: still in concept or prototype stage, not ready to become a mainstay.  
+- **Foundry services**: an emerging business, with insufficient demand to fill the Fab.  
+
+Therefore, **the success of DRAM ramp-up was the foundation upon which the Fab’s operation and future roadmap depended**.  
+Without stable DRAM production, the Fab could not achieve the utilization needed to move forward into logic, foundry, or mixed-signal development.  
 
 ---
 
