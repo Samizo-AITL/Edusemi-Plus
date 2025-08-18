@@ -57,7 +57,7 @@ The technology acquisition strategy for the 8-inch line was multifaceted, aiming
 その意義は「単なるDRAM量産」ではなく、**DRAMを通じて最先端プロセス技術を吸収し、自社強みに展開すること**にあった。  
 
 ```mermaid
-flowchart LR
+flowchart TB
     A[DRAM技術導入 0.35µm/0.25µm] --> B[先端ロジック協業 Xilinxなど]
     B --> C[自前ロジック開発 PDK構築]
     C --> D[社内展開 ASIC・ロジックIC]
