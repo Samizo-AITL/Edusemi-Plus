@@ -9,18 +9,28 @@ title: "PCB Routing | 配線"
 
 ---
 
+## 🔗 リンク / Links
+
+| 項目 / Item | 説明 / Description | Links |
+|-------------|---------------------|-------|
+| 🌐 View Site | ページ表示 / *View this page on site* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/routing/) |
+| 📂 View Repo | GitHubリポジトリ / *View source on GitHub* | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/routing.md) |
+
+---
+
 ## 📑 目次 / Table of Contents
-1. [概要 / Overview](#-概要--overview)  
-2. [主要ルール / Key Routing Practices](#-主要ルール--key-routing-practices)  
-   - [インピーダンス制御 / Impedance Control](#-インピーダンス制御--impedance-control)  
-   - [差動配線 / Differential Pair Routing](#-差動配線--differential-pair-routing)  
-   - [クロストーク抑制 / Crosstalk Mitigation](#-クロストーク抑制--crosstalk-mitigation)  
-   - [層間配線 / Multi-Layer Routing](#-層間配線--multi-layer-routing)  
-   - [電源/グラウンド設計 / Power & Ground Design](#-電源グラウンド設計--power--ground-design)  
-3. [実務上の考慮事項 / Practical Considerations](#-実務上の考慮事項--practical-considerations)  
-4. [国際規格 / Standards](#-国際規格--standards)  
-5. [学習目標 / Learning Goals](#-学習目標--learning-goals)  
-6. [関連リンク / Related Links](#-関連リンク--related-links)  
+1. [🏗 概要 / Overview](#-概要--overview)  
+2. [🔑 主要ルール / Key Routing Practices](#-主要ルール--key-routing-practices)  
+   - [📏 インピーダンス制御 / Impedance Control](#-インピーダンス制御--impedance-control)  
+   - [🔀 差動配線 / Differential Pair Routing](#-差動配線--differential-pair-routing)  
+   - [⚡ クロストーク抑制 / Crosstalk Mitigation](#-クロストーク抑制--crosstalk-mitigation)  
+   - [🏗 層間配線 / Multi-Layer Routing](#-層間配線--multi-layer-routing)  
+   - [🔋 電源/グラウンド設計 / Power & Ground Design](#-電源グラウンド設計--power--ground-design)  
+3. [🛠 実務上の考慮事項 / Practical Considerations](#-実務上の考慮事項--practical-considerations)  
+4. [📏 国際規格 / Standards](#-国際規格--standards)  
+5. [🎯 学習目標 / Learning Goals](#-学習目標--learning-goals)  
+6. [🔗 関連リンク / Related Links](#-関連リンク--related-links)  
+7. [⬆️ Back to PCB](#️-back-to-pcb)  
 
 ---
 
@@ -99,10 +109,10 @@ Minimize power/ground impedance to maintain PI.*
 ---
 
 ## 📏 国際規格 / Standards
-- **IPC-2221**: 汎用PCB設計規格  
-- **IPC-2141**: 伝送線路設計ガイドライン  
-- **JEDEC JESD-8**: 高速I/O規格に基づく配線設計  
-- **IEC 61000**: EMC 適合性基準  
+- **IPC-2221**: 汎用PCB設計規格 / *Generic PCB design standard*  
+- **IPC-2141**: 伝送線路設計ガイドライン / *Design guide for high-speed transmission lines*  
+- **JEDEC JESD-8**: 高速I/O規格に基づく配線設計 / *Wiring design per JEDEC high-speed I/O standards*  
+- **IEC 61000**: EMC 適合性基準 / *EMC compliance standards*  
 
 ---
 
@@ -117,13 +127,19 @@ Minimize power/ground impedance to maintain PI.*
 ---
 
 ## 🔗 関連リンク / Related Links
-- [📑 Stackup](./stackup.md)  
-- [📏 Design Rules](./design_rules.md)  
-- [🕳 Via Design](./via-design.md)  
-- [✅ Validation](./validation.md)  
+
+| 項目 / Item | 説明 / Description | Links |
+|-------------|-------------------|-------|
+| 📐 Stack-up | 層構成の設計指針<br>*PCB layer stack-up guidelines* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/stackup/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/stackup.md) |
+| 📏 Design Rules | 設計ルール<br>*PCB design rules* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/design_rules/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/design_rules.md) |
+| 🕳 Via Design | ビアの種類と設計指針<br>*Types of vias and design guidelines* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/via-design/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/via-design.md) |
+| ✅ Validation | 解析・検証プロセス<br>*Validation and verification processes* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/validation/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/validation.md) |
 
 ---
 
 ## ⬆️ Back to PCB
-[![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/)  
-[![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB)
+
+| 項目 / Item | 説明 / Description | Links |
+|-------------|-------------------|-------|
+| 🌐 Back to Site | PCB全体ページへ戻る<br>*Back to PCB site* | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/) |
+| 📂 Back to Repo | GitHubリポジトリに戻る<br>*Back to GitHub repo* | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB) |
