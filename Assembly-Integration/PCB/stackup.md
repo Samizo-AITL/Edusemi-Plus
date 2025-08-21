@@ -86,15 +86,17 @@ title: "PCB Stack-up | プリント基板の層構成"
 
 ## 🧮 インピーダンス設計の近似式 / Impedance Quick Formulas
 
-- **Microstrip（外層）**  
-  $$
-  Z_0 \approx \frac{60}{\sqrt{\varepsilon_r}} \ln\!\left(\frac{8h}{w+t}\right)
-  $$
+- **Microstrip（外層）**
+ 
+$$
+Z_0 \approx \frac{60}{\sqrt{\varepsilon_r}} \ln\!\left(\frac{8h}{w+t}\right)
+$$
 
-- **Stripline（内層）**  
-  $$
-  Z_0 \approx \frac{60}{\sqrt{\varepsilon_r}} \ln\!\left(\frac{4h}{0.67\pi(w+t)}\right)
-  $$
+- **Stripline（内層）**
+ 
+$$
+Z_0 \approx \frac{60}{\sqrt{\varepsilon_r}} \ln\!\left(\frac{4h}{0.67\pi(w+t)}\right)
+$$
 
 > $h$=誘電体厚, $w$=導体幅, $t$=銅厚, $\varepsilon_r$=比誘電率
 
