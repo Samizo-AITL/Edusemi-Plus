@@ -9,6 +9,23 @@ title: "PCB Stack-up | プリント基板の層構成"
 
 ---
 
+## 📑 目次 / Table of Contents
+- [🏗 概要 / Overview](#-概要--overview)
+- [🎯 設計ゴール / Design-Targets](#-設計ゴール--design-targets)
+- [🧱 層の役割と基本原則 / Layer Roles & Principles](#-層の役割と基本原則--layer-roles--principles)
+- [📊 代表スタックアップ例 / Example Stack-ups](#-代表スタックアップ例--example-stack-ups)
+- [🧮 インピーダンス設計の近似式 / Impedance Quick Formulas](#-インピーダンス設計の近似式--impedance-quick-formulas)
+- [🧪 材料・銅厚・誘電体 / Materials & Thickness](#-材料銅厚誘電体--materials--thickness)
+- [🧵 ビア戦略 / Via Strategy](#-ビア戦略--via-strategy)
+- [🔌 PI/EMC の要点 / PI & EMC Essentials](#-piemc-の要点--pi--emc-essentials)
+- [🧩 DFM/製造公差 / DFM & Tolerances](#-dfm製造公差--dfm--tolerances)
+- [✅ チェックリスト / Checklist](#-チェックリスト--checklist)
+- [🧭 ドキュメント雛形 / Handoff Template](#-ドキュメント雛形--handoff-template)
+- [🔗 関連リンク / Related Links](#-関連リンク--related-links)
+- [⬆️ Back to PCB](#️-back-to-pcb)
+
+---
+
 ## 🏗 概要 / Overview
 層構成（スタックアップ）は、SI/PI/EMC/熱/コストの“出発点”です。設計初期に確定し、全ブロックで共有すべき基本仕様になります。  
 *The stack-up is the starting point for SI/PI/EMC/thermal/cost. It should be fixed early and shared across all blocks.*
