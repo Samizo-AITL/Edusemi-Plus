@@ -45,7 +45,7 @@ title: "PCB Stack-up | プリント基板の層構成"
 
 ### 4-Layer
 | Layer | Use | Typical Build |
-|---|---|---|
+|-------|-----|----------------|
 | L1 | Signal (Microstrip) | Cu 1 oz / 0.18 mm to GND |
 | L2 | GND Plane | Core 0.8 mm |
 | L3 | PWR Plane | Prepreg 0.18 mm |
@@ -53,7 +53,7 @@ title: "PCB Stack-up | プリント基板の層構成"
 
 ### 6-Layer
 | Layer | Use | Typical Build |
-|---|---|---|
+|-------|-----|----------------|
 | L1 | Signal (Microstrip, 低速) | 0.12–0.18 mm → L2 |
 | L2 | GND Plane | Core 0.2–0.3 mm |
 | L3 | High-Speed Signal (Stripline) | 0.1–0.15 mm → L4 |
@@ -62,7 +62,16 @@ title: "PCB Stack-up | プリント基板の層構成"
 | L6 | GND Plane or Signal | — |
 
 ### 8-Layer
-Signal – GND – Signal – PWR – PWR – Signal – GND – Signal
+| Layer | Use | Typical Build |
+|-------|-----|----------------|
+| L1 | Signal | — |
+| L2 | GND Plane | — |
+| L3 | Signal | — |
+| L4 | PWR Plane | — |
+| L5 | PWR Plane | — |
+| L6 | Signal | — |
+| L7 | GND Plane | — |
+| L8 | Signal | — |
 
 ---
 
