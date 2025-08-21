@@ -80,8 +80,8 @@ $$
 Z_0 \approx \frac{60}{\sqrt{\varepsilon_r}} \ln\!\left(\frac{4h}{0.67\pi(w+t)}\right)
 $$
 
-ここで：$h$=誘電体厚, $w$=線幅, $t$=銅厚, $\varepsilon_r$=比誘電率。  
-*Where $h$=dielectric thickness, $w$=trace width, $t$=copper thickness, $\varepsilon_r$=relative permittivity.*
+ここで： $h$ =誘電体厚 , $w$ =線幅 , $t$ =銅厚 , $\varepsilon_r$ =比誘電率。  
+*Where $h$ =dielectric thickness , $w$ =trace width, $t$ =copper thickness, $\varepsilon_r$ =relative permittivity.*
 
 ---
 
