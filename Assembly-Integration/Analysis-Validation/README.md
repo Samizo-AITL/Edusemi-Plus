@@ -1,69 +1,47 @@
 ---
 layout: default
-title: "Analysis-Validation | 実装解析・検証技術"
+title: "Analysis & Validation | 実装解析・検証"
 ---
 
 ---
 
-# 📊 Analysis & Validation / 実装解析・検証技術
+# 📊 Analysis & Validation / 実装解析・検証
+
+---
+
+## 🔗 リンク / Links
+
+| Link | Badge |
+|---|---|
+| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/) |
+| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Analysis-Validation) |
+
+---
 
 ## 🏗 概要 / Overview
-実装解析・検証 (Analysis & Validation) は、設計された基板・パッケージ・実装方式が要求仕様を満たすかを確認するプロセスです。  
-*Analysis & Validation is the process of confirming whether designed PCBs, packages, and mounting methods meet the required specifications.*  
+実装解析・検証は、基板・パッケージ・実装構造の性能や信頼性を評価し、設計改善にフィードバックする領域です。  
+*Analysis & Validation is the field that evaluates performance and reliability of boards, packages, and assemblies, feeding back into design improvements.*  
 
-SI (Signal Integrity)、PI (Power Integrity)、Thermal (熱)、EMC (電磁両立性) の観点で多面的な解析・検証が行われます。  
-*It involves multi-domain analysis and validation from perspectives such as SI (Signal Integrity), PI (Power Integrity), Thermal, and EMC.*  
-
-**SystemDK** 環境と連携し、設計初期段階からのフィードバックループを形成します。  
-*It collaborates with the **SystemDK** environment to form a feedback loop from the early stages of design.*  
+対象分野には、SI (Signal Integrity)、PI (Power Integrity)、熱解析、EMC (Electromagnetic Compatibility) が含まれます。  
+*It covers SI (Signal Integrity), PI (Power Integrity), thermal analysis, and EMC (Electromagnetic Compatibility).*  
 
 ---
 
-## 📂 サブトピック / Subtopics
-```
-Analysis-Validation/
- ├── SI.md        ← 信号完全性解析 / Signal Integrity
- ├── PI.md        ← 電源完全性解析 / Power Integrity
- ├── Thermal.md   ← 熱解析 / Thermal
- └── EMC.md       ← 電磁両立性解析 / EMC
-```
+## 👤 **著者・ライセンス / Author & License**
+
+| **項目 / Item** | **内容 / Details** |
+|-----------------|--------------------|
+| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=flat&logo=gmail)](mailto:shin3t72@gmail.com) |
+| **X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=flat&logo=x)](https://x.com/shin3t72) |
+| **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=flat&logo=github)](https://github.com/Samizo-AITL) |
+| **ライセンス / License** | [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) <br> 再配布・改変自由 / Redistribution and modification allowed |
 
 ---
 
-## 🔑 キートピック / Key Topics
-SI解析：反射・クロストーク・ジッタ解析、アイダイアグラム。  
-*SI: reflection, crosstalk, jitter analysis, eye diagrams.*  
+## ⬆️ Back to Assembly & Integration
 
-PI解析：電源ネットワークインピーダンス、デカップリング効果。  
-*PI: power distribution network impedance, decoupling effects.*  
-
-熱解析：部品発熱、熱伝導・放射、冷却設計。  
-*Thermal: component heating, conduction/radiation, cooling design.*  
-
-EMC解析：放射ノイズ、伝導ノイズ、規格準拠試験。  
-*EMC: radiated and conducted noise, regulatory compliance testing.*  
-
----
-
-## 🌐 教材ポジション / Position
-```mermaid
-graph TD
-  A[Assembly & Integration<br/>実装技術] --> B[Analysis & Validation<br/>実装解析・検証 / Analysis & Validation]
-  B --> C[SystemDK<br/>マルチフィジックス解析 / Multi-Physics Analysis]
-```
-
----
-
-## ✅ 学習目標 / Learning Goals
-SI/PI/熱/EMC の各解析手法を理解し、設計に応用できる。  
-*Understand SI/PI/Thermal/EMC analysis methods and apply them to design.*  
-
-解析結果を設計改善へとフィードバックするスキルを習得する。  
-*Develop skills to feed back analysis results into design improvements.*  
-
-SystemDK との統合解析により、システムレベルの最適化を実現する。  
-*Achieve system-level optimization through integrated analysis with SystemDK.*  
-
----
-
-[⬆️ Back to Assembly & Integration](../)
+| Link | Badge |
+|---|---|
+| 🌐 Back to Site | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/) |
+| 📂 Back to Repo | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration) |
