@@ -98,9 +98,9 @@ title: "Inductor | インダクタ"
 
 | 項目 / Item | 説明 / Description | Links |
 |-------------|-------------------|-------|
-| 📘 Resistor | 抵抗器の種類と特性<br>*Types and characteristics of resistors* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](../Resistor/) <br> [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](./Resistor.md) |
-| 📗 Capacitor | コンデンサの種類と特性<br>*Types and characteristics of capacitors* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](../Capacitor/) <br> [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](./Capacitor.md) |
-| ⚡ Passive Design | 受動部品設計ガイドライン<br>*Design guidelines for passive components* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](../Passive-Design/) <br> [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](./Passive-Design.md) |
+| 📘 Resistor | 抵抗器の種類と特性<br>*Types and characteristics of resistors* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](../Resistor/) <br> [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../Resistor.md) |
+| 📗 Capacitor | コンデンサの種類と特性<br>*Types and characteristics of capacitors* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](../Capacitor/) <br> [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../Capacitor.md) |
+| ⚡ Passive Design | 受動部品設計ガイドライン<br>*Design guidelines for passive components* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](../Passive-Design/) <br> [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../Passive-Design.md) |
 
 ---
 
