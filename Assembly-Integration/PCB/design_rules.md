@@ -126,10 +126,10 @@ For BGA/CSP, follow manufacturer-recommended patterns.*
 
 | 項目 / Item | 説明 / Description | Links |
 |-------------|-------------------|-------|
-| 📐 Stack-up | 層構成の設計指針<br>*PCB layer stack-up guidelines* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./stackup.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/stackup.md) |
-| 🕳 Via Design | ビアの種類と設計指針<br>*Types of vias and design guidelines* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./via-design.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/via-design.md) |
-| 📏 Impedance Control | インピーダンス制御の基礎<br>*Fundamentals of impedance control* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./impedance-control.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/impedance-control.md) |
-| 🛠 Assembly | 部品実装プロセス<br>*PCB assembly processes* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./assembly.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/assembly.md) |
+| 📐 Stack-up | 層構成の設計指針<br>*PCB layer stack-up guidelines* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./stackup)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/stackup.md) |
+| 🕳 Via Design | ビアの種類と設計指針<br>*Types of vias and design guidelines* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./via-design)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/via-design.md) |
+| 📏 Impedance Control | インピーダンス制御の基礎<br>*Fundamentals of impedance control* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./impedance-control)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/impedance-control.md) |
+| 🛠 Assembly | 部品実装プロセス<br>*PCB assembly processes* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./assembly)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/assembly.md) |
 
 ---
 
