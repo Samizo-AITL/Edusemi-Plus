@@ -1,53 +1,71 @@
 ---
 layout: default
-title: "Advanced Packaging | 先端実装技術"
+title: "Advanced-Packaging | 先端パッケージング技術"
 ---
 
-# 📦 Advanced Packaging / 先端実装技術
+# 📦 Advanced Packaging / 先端パッケージング技術
 
 ## 🏗 概要 / Overview
-- 先端実装技術 (Advanced Packaging) は、従来のパッケージを超えて半導体を高密度かつ高性能に統合するための技術群です。  
-- SiP (System-in-Package)、2.5D/3D-IC、CoWoS、Foveros、AiP などが含まれ、ムーアの法則の延長として機能拡張を可能にします。  
-- **SystemDK** では電気・熱・機械の三領域での複合解析が不可欠です。  
+先端パッケージング (Advanced Packaging) は、複数のチップやモジュールを高密度に集積し、システム性能を最大化する技術群です。  
+*Advanced Packaging refers to technologies that integrate multiple chips and modules at high density to maximize system performance.*  
+
+代表的な方式として、2.5D/3D積層、TSV (Through-Silicon Via)、Fan-Out、CoWoS、InFO などがあります。  
+*Representative methods include 2.5D/3D stacking, TSV (Through-Silicon Via), Fan-Out, CoWoS, and InFO.*  
 
 ---
 
 ## 📂 サブトピック / Subtopics
 ```
 Advanced-Packaging/
- ├── SiP.md            ← システム・イン・パッケージ
- ├── 2.5D_3DIC.md      ← 2.5D / 3D-IC
- ├── CoWoS_Foveros.md  ← CoWoS / Foveros
- └── AiP.md            ← アンテナ・イン・パッケージ
+ ├── 2.5D-3D.md       ← 2.5D/3D積層 / 2.5D & 3D Stacking
+ ├── TSV.md           ← 貫通シリコンビア / TSV
+ ├── FanOut.md        ← Fan-Outパッケージ / Fan-Out
+ ├── CoWoS.md         ← CoWoS / Chip-on-Wafer-on-Substrate
+ └── InFO.md          ← InFO / Integrated Fan-Out
 ```
 
 ---
 
 ## 🔑 キートピック / Key Topics
-- **SiP (System-in-Package)**  
-  - 複数チップを一つのパッケージに統合  
-  - 小型化・多機能化・短配線による高性能化  
-- **2.5D / 3D-IC**  
-  - TSV (Through Silicon Via)、インターポーザ技術  
-  - 高帯域・低消費電力のインターコネクト  
-- **CoWoS / Foveros**  
-  - TSMC CoWoS、Intel Foveros など先端実装プロセス  
-- **AiP (Antenna-in-Package)**  
-  - ミリ波/サブTHz通信向けアンテナ統合技術  
+2.5D/3D積層：シリコンインターポーザ、熱管理、バンプ設計。  
+*2.5D/3D stacking: silicon interposers, thermal management, bump design.*  
+
+TSV：低抵抗化、ストレス管理、歩留まり。  
+*TSV: low resistance, stress management, yield challenges.*  
+
+Fan-Out：パッケージ厚低減、再配線層 (RDL) 技術。  
+*Fan-Out: package thinning, redistribution layer (RDL) technology.*  
+
+CoWoS：HBMメモリ統合、高帯域幅、GPU/AI応用。  
+*CoWoS: HBM memory integration, high bandwidth, GPU/AI applications.*  
+
+InFO：スマートフォン向けSoC、薄型・低コスト化。  
+*InFO: SoCs for smartphones, thin form factor, cost-effective integration.*  
 
 ---
 
-## 🌐 教材ポジション / Position in Assembly & Integration
+## 🌐 教材ポジション / Position
 ```mermaid
 graph TD
-  A[Assembly & Integration<br/>実装技術] --> B[Advanced Packaging<br/>SiP, 2.5D, 3D-IC, CoWoS, AiP]
-  B --> C[SystemDK<br/>電気・熱・機械統合解析]
+  A[Assembly & Integration<br/>実装技術] --> B[Advanced Packaging<br/>先端パッケージング / Advanced Packaging]
+  B --> C[SystemDK<br/>チップ間相互接続・熱解析 / Interconnect & Thermal Analysis]
 ```
 
 ---
 
 ## ✅ 学習目標 / Learning Goals
-- SiP, 2.5D/3D-IC などの先端実装技術の特徴を理解する  
-- TSV, インターポーザ, AiP などの具体技術を体系的に学ぶ  
-- パッケージ技術がシステム全体の性能・信頼性に与える影響を理解する  
-- **SystemDK** を用いたマルチドメイン解析に適用できる  
+2.5D/3D, TSV, Fan-Out などの主要な先端パッケージ技術を理解する。  
+*Understand key advanced packaging technologies such as 2.5D/3D, TSV, and Fan-Out.*  
+
+設計・製造上の課題（歩留まり、熱、信号遅延）を把握する。  
+*Identify design and manufacturing challenges including yield, thermal issues, and signal delay.*  
+
+各方式の応用領域 (スマホ、GPU、AI) を整理する。  
+*Organize application domains for each method (smartphones, GPUs, AI).*  
+
+**SystemDK** による相互接続・熱シミュレーションを応用する。  
+*Apply **SystemDK** interconnect and thermal simulations.*  
+
+---
+
+[⬆️ Back to Assembly & Integration](../)
