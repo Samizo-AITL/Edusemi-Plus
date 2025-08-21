@@ -9,18 +9,28 @@ title: "PCB Validation | 検証"
 
 ---
 
+## 🔗 リンク / Links
+
+| 項目 / Item | 説明 / Description | Links |
+|-------------|---------------------|-------|
+| 🌐 View Site | ページ表示 / *View this page on site* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/validation/) |
+| 📂 View Repo | GitHubリポジトリ / *View source on GitHub* | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/validation.md) |
+
+---
+
 ## 📑 目次 / Table of Contents
-1. [概要 / Overview](#-概要--overview)  
-2. [検証カテゴリ / Validation Categories](#-検証カテゴリ--validation-categories)  
-   - [SI (Signal Integrity)](#-si-signal-integrity)  
-   - [PI (Power Integrity)](#-pi-power-integrity)  
-   - [熱解析 / Thermal Analysis](#-熱解析--thermal-analysis)  
-   - [EMC/EMI 評価](#-emcemi-評価)  
-   - [DFM (Design for Manufacturability)](#-dfm-design-for-manufacturability)  
-3. [解析手法 / Validation Methods](#-解析手法--validation-methods)  
-4. [国際規格 / Standards](#-国際規格--standards)  
-5. [学習目標 / Learning Goals](#-学習目標--learning-goals)  
-6. [関連リンク / Related Links](#-関連リンク--related-links)  
+1. [🏗 概要 / Overview](#-概要--overview)  
+2. [🔑 検証カテゴリ / Validation Categories](#-検証カテゴリ--validation-categories)  
+   - [📡 SI (Signal Integrity)](#-si-signal-integrity)  
+   - [🔋 PI (Power Integrity)](#-pi-power-integrity)  
+   - [🌡 熱解析 / Thermal Analysis](#-熱解析--thermal-analysis)  
+   - [📶 EMC/EMI 評価](#-emcemi-評価)  
+   - [🏭 DFM (Design for Manufacturability)](#-dfm-design-for-manufacturability)  
+3. [🛠 解析手法 / Validation Methods](#-解析手法--validation-methods)  
+4. [📏 国際規格 / Standards](#-国際規格--standards)  
+5. [🎯 学習目標 / Learning Goals](#-学習目標--learning-goals)  
+6. [🔗 関連リンク / Related Links](#-関連リンク--related-links)  
+7. [⬆️ Back to PCB](#️-back-to-pcb)  
 
 ---
 
@@ -29,6 +39,7 @@ PCB検証 (Validation) は、設計された基板が **性能・信頼性・製
 *PCB validation ensures that the designed board meets requirements for performance, reliability, and manufacturability.*  
 
 対象は **信号品質 (SI)、電源安定性 (PI)、熱特性、EMC適合性、製造性 (DFM)** に及びます。  
+*Targets include signal integrity (SI), power integrity (PI), thermal characteristics, EMC compliance, and manufacturability (DFM).*  
 
 ---
 
@@ -89,10 +100,10 @@ Verification of solder mask, land size, and assembly feasibility.*
 ---
 
 ## 🛠 解析手法 / Validation Methods
-- **シミュレーション**: SPICE, SI/PIツール (HyperLynx, Sigrity, ADS など)  
-- **実測検証**: オシロスコープ, VNA, TDR, EMI チャンバー  
-- **加速試験**: 熱サイクル、HAST、振動試験での設計妥当性確認  
-- **設計レビュー**: クロスチェック、DRC/DFM 自動検証  
+- **シミュレーション / Simulation**: SPICE, SI/PIツール (HyperLynx, Sigrity, ADS など)  
+- **実測検証 / Measurement**: オシロスコープ, VNA, TDR, EMI チャンバー  
+- **加速試験 / Accelerated testing**: 熱サイクル、HAST、振動試験での設計妥当性確認  
+- **設計レビュー / Design reviews**: クロスチェック、DRC/DFM 自動検証  
 
 *Simulation with SI/PI tools.  
 Measurements with oscilloscope, VNA, TDR, EMI chamber.  
@@ -102,31 +113,39 @@ Design reviews with DRC/DFM automation.*
 ---
 
 ## 📏 国際規格 / Standards
-- **IPC-6012**: リジッド基板の性能仕様  
-- **IPC-2221/2222**: PCB一般設計規格  
-- **IEC 61000シリーズ**: EMC適合性基準  
-- **JEDEC JESD**: 半導体パッケージ/システムレベル試験規格  
+- **IPC-6012**: リジッド基板の性能仕様 / *Performance specification for rigid PCBs*  
+- **IPC-2221/2222**: PCB一般設計規格 / *Generic design standards for PCBs*  
+- **IEC 61000シリーズ**: EMC適合性基準 / *EMC compliance standards*  
+- **JEDEC JESD**: 半導体パッケージ/システムレベル試験規格 / *JEDEC reliability and system-level test standards*  
 
 ---
 
 ## 🎯 学習目標 / Learning Goals
 - SI/PI/熱/EMC の各観点で検証フローを理解する。  
   *Understand validation flow for SI, PI, thermal, and EMC.*  
+
 - シミュレーションと実測を組み合わせた設計検証を実践できる。  
   *Combine simulation and measurement for validation.*  
+
 - 国際規格への適合性を考慮した設計フローを構築する。  
   *Build design flow considering compliance with international standards.*  
 
 ---
 
 ## 🔗 関連リンク / Related Links
-- [📑 Stackup](./stackup.md)  
-- [📏 Design Rules](./design_rules.md)  
-- [🛤 Routing](./routing.md)  
-- [🛡 Reliability](./reliability.md)  
+
+| 項目 / Item | 説明 / Description | Links |
+|-------------|-------------------|-------|
+| 📐 Stack-up | 層構成の設計指針<br>*PCB layer stack-up guidelines* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/stackup/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/stackup.md) |
+| 📏 Design Rules | 設計ルールと制約<br>*PCB design rules and constraints* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/design_rules/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/design_rules.md) |
+| 🛤 Routing | 配線設計と最適化<br>*PCB routing design and optimization* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/routing/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/routing.md) |
+| 🛡 Reliability | 信頼性設計と試験<br>*PCB reliability design and testing* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/reliability/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/reliability.md) |
 
 ---
 
 ## ⬆️ Back to PCB
-[![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/)  
-[![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB)
+
+| 項目 / Item | 説明 / Description | Links |
+|-------------|-------------------|-------|
+| 🌐 Back to Site | PCB全体ページへ戻る<br>*Back to PCB site* | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/) |
+| 📂 Back to Repo | GitHubリポジトリに戻る<br>*Back to GitHub repo* | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB) |
