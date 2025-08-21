@@ -17,15 +17,15 @@ PCB設計、受動部品、コネクタ、実装方式 (SMT, CSP, BGA)、先端�
 ---
 
 ## 📂 サブカテゴリ / Subcategories
-```
-Assembly-Integration/
- ├── PCB/                 ← プリント基板 / PCB
- ├── Passives/            ← 受動部品 / Passive Components
- ├── Connectors/          ← コネクタ / Connectors
- ├── Mounting/            ← 実装方式 (SMT, CSP, BGA) / Mounting
- ├── Advanced-Packaging/  ← 先端パッケージング / Advanced Packaging
- └── Analysis-Validation/ ← 実装解析・検証 / Analysis & Validation
-```
+
+| サブカテゴリ / Subcategory | 概要 (JP) | Summary (EN) | Links |
+|---|---|---|---|
+| 📐 PCB | プリント基板 | *Printed Circuit Boards (PCB)* | [![Site](https://img.shields.io/badge/View-Site-green?style=flat&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB) |
+| 🧩 Passives | 受動部品 (MLCC, 抵抗, インダクタ) | *Passive Components (MLCC, Resistors, Inductors)* | [![Site](https://img.shields.io/badge/View-Site-green?style=flat&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Passives) |
+| 🔌 Connectors | コネクタ | *Connectors for high-speed and power delivery* | [![Site](https://img.shields.io/badge/View-Site-green?style=flat&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Connectors) |
+| ⚙️ Mounting | 実装方式 (SMT, CSP, BGA) | *Mounting technologies such as SMT, CSP, BGA* | [![Site](https://img.shields.io/badge/View-Site-green?style=flat&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Mounting/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Mounting) |
+| 📦 Advanced Packaging | 先端パッケージング (2.5D, 3D, Fan-Out) | *Advanced packaging such as 2.5D, 3D, Fan-Out, CoWoS, InFO* | [![Site](https://img.shields.io/badge/View-Site-green?style=flat&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Advanced-Packaging/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Advanced-Packaging) |
+| 📊 Analysis & Validation | 実装解析・検証 (SI/PI/熱/EMC) | *Analysis & validation of SI, PI, Thermal, and EMC* | [![Site](https://img.shields.io/badge/View-Site-green?style=flat&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Analysis-Validation) |
 
 ---
 
