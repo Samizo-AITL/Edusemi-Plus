@@ -7,6 +7,15 @@ title: "Assembly & Integration | 実装技術"
 
 # 🧩 Assembly & Integration / 実装技術
 
+---
+
+| リンク / Link | Badge |
+|---|---|
+| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-green?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/) |
+| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration) |
+
+---
+
 ## 🏗 概要 / Overview
 Assembly & Integration は、半導体デバイス・受動部品・コネクタ・パッケージを基板上で統合し、システムを構築するための技術領域です。  
 *Assembly & Integration is the domain of technologies that integrate semiconductor devices, passives, connectors, and packages on a PCB to build systems.*  
@@ -71,18 +80,6 @@ SystemDKと連携し、設計・実装・検証の統合プロセスを習得す
 
 ---
 
----
-layout: default
-title: "Assembly & Integration | 実装技術"
----
-
-# 🧩 Assembly & Integration / 実装技術
-
 | リンク / Link | Badge |
 |---|---|
-| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-green?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/) |
-| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration) |
 | ⬆️ Back to Edusemi-Plus | [![Site](https://img.shields.io/badge/⬆️%20Back-Site-green?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/) [![Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus) |
-
-
-[![Back to Edusemi-Plus](https://img.shields.io/badge/⬆️%20Back-Edusemi--Plus-green?style=for-the-badge&logo=githubpages)](../)
