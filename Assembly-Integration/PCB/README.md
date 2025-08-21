@@ -25,6 +25,27 @@ PCBは電子部品を実装する基板で、電気的・機械的な統合を�
 
 ---
 
+## 📂 ファイル一覧 / File List (Auto on GitHub Pages)
+> この一覧は **GitHub Pages でビルド時に自動生成** されます（GitHub上のREADMEではLiquidは展開されません）。
+
+{% assign dir = "Assembly-Integration/PCB/" %}
+
+<!-- ページ（Markdown等） -->
+{% for page in site.pages %}
+  {% if page.path contains dir and page.name != "README.md" %}
+- [{{ page.title | default: page.name }}]({{ site.url }}{{ site.baseurl }}{{ page.url }})
+  {% endif %}
+{% endfor %}
+
+<!-- 静的ファイル（画像・PDF等） -->
+{% for file in site.static_files %}
+  {% if file.path contains dir and file.name != "README.md" %}
+- [{{ file.name }}]({{ site.url }}{{ site.baseurl }}{{ file.path }})
+  {% endif %}
+{% endfor %}
+
+---
+
 ## 👤 著者・ライセンス / Author & License
 
 | **項目 / Item** | **内容 / Details** |
