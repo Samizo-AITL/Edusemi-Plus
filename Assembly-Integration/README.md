@@ -71,4 +71,4 @@ SystemDKと連携し、設計・実装・検証の統合プロセスを習得す
 
 ---
 
-[![Back to Edusemi-Plus](https://img.shields.io/badge/⬆️%20Back-Edusemi--Plus-lightgrey?style=for-the-badge&logo=readme)](../)
+[![Back to Edusemi-Plus](https://img.shields.io/badge/⬆️%20Back-Edusemi--Plus-green?style=for-the-badge&logo=githubpages)](../)
