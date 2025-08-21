@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "PCB Assembly | 部品実装"
+title: "PCB Assembly | 部品実装" 
 ---
 
 ---
