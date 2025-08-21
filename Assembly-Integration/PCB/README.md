@@ -27,22 +27,22 @@ PCBは電子部品を実装する基板で、電気的・機械的な統合を�
 
 ## 📂 ファイル一覧 / File List
 
-> このフォルダの内容は **GitHub のファイルビュー（このREADMEの上部）** に自動で表示されます。  
-> ここではリポジトリ上でも読めるよう、代表リンクを**静的に**掲載します。
+| 📘 ファイル / File | 🔗 リンク / Links |
+|--------------------|-------------------|
+| **Stack-up（層構成）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/stackup) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/stackup.md) |
+| **Impedance Control（インピーダンス制御）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/impedance-control) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/impedance-control.md) |
+| **Via Design（ビア設計）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/via-design) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/via-design.md) |
+| **Materials（材料）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/materials) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/materials.md) |
+| **Fabrication（製造プロセス）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/fabrication) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/fabrication.md) |
+| **Assembly（部品実装）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/assembly) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/assembly.md) |
+| **Reliability（信頼性）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/reliability) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/reliability.md) |
+| **Simulation（解析）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/simulation) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/simulation.md) |
 
-- 📁 **このフォルダをGitHubで開く**  
-  https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB
+---
 
-- 🧭 **関連ナビ**  
-  - [⬆️ Assembly-Integration へ戻る](../)  
-  - [📚 Edusemi-Plus トップ](../../)
-
-<!-- 必要に応じて、個別ファイルやサブフォルダを追記してください（例） -->
-<!--
-- [stackup.md](./stackup.md)
-- [impedance-guide.md](./impedance-guide.md)
-- [images/](./images/)
--->
+## 📑 説明 / Description
+PCBは、半導体・受動部品・コネクタを実装する基盤であり、信号品質・電源供給・熱設計を支える重要要素です。  
+*PCBs serve as the foundation for mounting semiconductors, passives, and connectors, supporting signal integrity, power delivery, and thermal management.*
 
 ---
 
