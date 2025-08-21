@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "PCB | プリント基板"
+title: "PCB | プリント基板" 
 ---
 
 ---
