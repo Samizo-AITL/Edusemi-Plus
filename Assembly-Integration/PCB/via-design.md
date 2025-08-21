@@ -9,18 +9,27 @@ title: "PCB Via Design | ビア設計"
 
 ---
 
+## 🔗 リンク / Links
+
+| Link | Badge |
+|---|---|
+| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/via-design) |
+| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/via-design.md) |
+
+---
+
 ## 📑 目次 / Table of Contents
 - [🏗 概要 / Overview](#-概要--overview)
-- [🎯 設計ゴール / Design Targets](#-設計ゴール--design-targets)
+- [🎯 設計ゴール / Design-Targets](#-設計ゴール--design-targets)
 - [🔑 基本概念 / Fundamentals](#-基本概念--fundamentals)
-- [📊 ビア構造 / Via Structures](#-ビア構造--via-structures)
-- [🧮 等価回路と数式 / Equivalent Circuits & Formulas](#-等価回路と数式--equivalent-circuits--formulas)
-- [🧵 スタブと対策 / Stubs & Countermeasures](#-スタブと対策--stubs--countermeasures)
-- [🧪 HDI・マイクロビア設計 / HDI & Microvia Design](#-hdiマイクロビア設計--hdi--microvia-design)
-- [🧩 DFM/製造公差 / DFM & Tolerances](#-dfm製造公差--dfm--tolerances)
+- [📊 ビア構造 / Via-Structures](#-ビア構造--via-structures)
+- [🧮 等価回路と数式 / Equivalent-Circuits--Formulas](#-等価回路と数式--equivalent-circuits--formulas)
+- [🧵 スタブと対策 / Stubs--Countermeasures](#-スタブと対策--stubs--countermeasures)
+- [🧪 HDI・マイクロビア設計 / HDI--Microvia-Design](#-hdiマイクロビア設計--hdi--microvia-design)
+- [🧩 DFM/製造公差 / DFM--Tolerances](#-dfm製造公差--dfm--tolerances)
 - [✅ チェックリスト / Checklist](#-チェックリスト--checklist)
-- [🧭 ドキュメント雛形 / Handoff Template](#-ドキュメント雛形--handoff-template)
-- [🔗 関連リンク / Related Links](#-関連リンク--related-links)
+- [🧭 ドキュメント雛形 / Handoff-Template](#-ドキュメント雛形--handoff-template)
+- [🔗 関連リンク / Related-Links](#-関連リンク--related-links)
 - [⬆️ Back to PCB](#️-back-to-pcb)
 
 ---
@@ -77,20 +86,12 @@ title: "PCB Via Design | ビア設計"
 $$
 L_{via} \approx 5.08 h \left[ \ln\!\left(\frac{4h}{d}\right) + 1 \right] \ [\text{nH}]
 $$
-  - $h$ : ビア長 [mm] / via length  
-  - $d$ : ビア径 [mm] / via diameter  
 
 - **ビアキャパシタンス近似式**
 
 $$
 C_{via} \approx 1.41 \varepsilon_r \frac{D_1 D_2}{h}
 $$
-
-  - $D_1, D_2$ : アンチパッド径 [mm] / antipad diameters  
-  - $\varepsilon_r$ : 誘電率 / dielectric constant  
-
-これらがSIに与える影響は数百 MHz〜数 GHz で顕著です。  
-*These parasitics significantly affect SI at 100s MHz–GHz.*
 
 ---
 
@@ -99,43 +100,30 @@ $$
   *Stubs resonate at λ/4, causing reflections.*  
 - 対策：  
   - バックドリルで未使用部分を除去  
-    *Use backdrill to remove unused portion*  
-  - ビアを**キャプドビア**として処理  
-    *Cap vias with resin*  
-  - **ブラインド/ベリードビア**活用  
-    *Use blind/buried vias*
+  - キャプドビア処理  
+  - ブラインド/ベリードビア活用  
 
 ---
 
 ## 🧪 HDI・マイクロビア設計 / HDI & Microvia Design
-- **マイクロビア直列積層**（stacked microvias）：高密度・高コスト・信頼性課題。  
-  *Stacked microvias: high density, costly, reliability issues.*  
-- **オフセット積層（staggered）**：応力分散で信頼性向上。  
-  *Staggered microvias: better stress distribution, higher reliability.*  
-- **フィルド＆キャプド**：銅埋め＋平滑化で実装面のBGA対応。  
-  *Filled & capped: copper-filled, planarized for BGA pads.*  
+- **直列積層 (stacked)**：高密度・高コスト・信頼性課題。  
+- **オフセット積層 (staggered)**：応力分散で信頼性向上。  
+- **フィルド＆キャプド**：銅埋め＋平滑化でBGA対応。  
 
 ---
 
 ## 🧩 DFM/製造公差 / DFM & Tolerances
-- **最小ビア径**：レーザ加工で ~75 µm、機械ドリルで ~200 µm。  
-  *Min diameter: ~75 µm (laser), ~200 µm (mechanical).*  
-- **アスペクト比**：  $h/d \leq 10$  が一般的限界。  
-  *Aspect ratio  $h/d \leq 10$  is typical limit.*  
-- **バックドリル精度**：残 stub 長 ±5–10% が実用範囲。  
-  *Backdrill tolerance ±5–10% stub length.*  
+- 最小径：レーザ ~75 µm / 機械 ~200 µm  
+- アスペクト比：$h/d \leq 10$  
+- バックドリル残 stub 長：±5–10%  
 
 ---
 
 ## ✅ チェックリスト / Checklist
-- 高速信号ビアの**スタブ長**は λ/4 以下か？  
-  *Is stub length < λ/4 for high-speed nets?*  
-- 差動ペアビアの**左右対称性**は確保されているか？  
-  *Are differential vias symmetric?*  
-- 電源・GNDビアは**十分な密度**で配置されているか？  
-  *Are power/GND vias adequately distributed?*  
-- HDI/マイクロビアは**信頼性検証**済みか？  
-  *Are HDI/microvias validated for reliability?*  
+- 高速ビア stub 長は λ/4 以下か？  
+- 差動ペアビアの左右対称性は維持されているか？  
+- 電源/GNDビア密度は十分か？  
+- HDI/マイクロビアは信頼性検証済みか？  
 
 ---
 
@@ -152,12 +140,18 @@ $$
 ---
 
 ## 🔗 関連リンク / Related Links
-- [📖 Impedance Control](./impedance-control.md)  
-- [📖 Simulation](./simulation.md)  
-- [📖 Reliability](./reliability.md)  
+
+| 項目 / Item | 説明 / Description | Links |
+|-------------|-------------------|-------|
+| 📖 Impedance Control | インピーダンス設計の基礎と制御<br>*Fundamentals and control of impedance design* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./impedance-control.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/impedance-control) |
+| 📖 Simulation | ビアおよびSI解析用のシミュレーション手法<br>*Simulation methods for vias and SI analysis* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./simulation.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/simulation) |
+| 📖 Reliability | 信頼性・寿命設計におけるビア要件<br>*Via requirements for reliability and lifetime design* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./reliability.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/reliability) |
 
 ---
 
 ## ⬆️ Back to PCB
-[![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/)  
-[![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB)
+
+| Link | Badge |
+|---|---|
+| 🌐 Back to Site | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/) |
+| 📂 Back to Repo | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB) |
