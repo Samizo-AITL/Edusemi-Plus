@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Connectors | コネクタ技術"
+title: "Connectors | コネクタ技術" 
 ---
 
 ---
