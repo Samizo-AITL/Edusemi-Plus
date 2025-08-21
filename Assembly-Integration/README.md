@@ -75,6 +75,24 @@ graph TD
 
 ---
 
+# 📑 **関連プロジェクト一覧 / Related Projects**
+
+> Edusemi-v4x の各章と連携する外部／応用プロジェクトを整理。  
+> *Organized list of external/applied projects linked with Edusemi-v4x chapters.*
+
+| 🔗 プロジェクト / Project | 📖 参照章 / Reference Chapter | 📚 内容概要 / Description |
+|-------------------------|-----------------------------|--------------------------|
+| [📘 **Edusemi-v4x トップ**](https://samizo-aitl.github.io/Edusemi-v4x/) <br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) | 全体 / All | 半導体教育教材群のメインプロジェクト。基礎・応用・実践・特別編を含む総合体系。<br>*Main semiconductor education project covering fundamentals, applications, practice, and special topics.* |
+| [📦 **チップレットと先端パッケージ**](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2_chiplet_pkg/) <br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter2_chiplet_pkg) | 特別編 第2章 / Special Topics Ch.2 | 2.5D/3D実装・TSV・異種集積を用いたチップレット設計と信頼性評価。<br>*Chiplet design and reliability with 2.5D/3D, TSV, and heterogeneous integration.* |
+| [📐 **SystemDK制約設計**](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter2a_systemdk/) <br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter2a_systemdk) | 特別編 第2a章 / Special Topics Ch.2a | 熱・応力・ノイズ制約を設計に反映する System Design Kit (SystemDK) の適用法。<br>*Applying SystemDK to address thermal, stress, and noise constraints in design.* |
+| [⚙️ **FSM×PID×LLM SoC**](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter3_socsystem/) <br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter3_socsystem) | 特別編 第3章 / Special Topics Ch.3 | AITL-H三層制御アーキをベースにした制御SoC実装。<br>*Control SoC implementation based on AITL-H three-layer architecture.* |
+| [🛠 **OpenLane実装**](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter4_openlane/) <br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter4_openlane) | 特別編 第4章 / Special Topics Ch.4 | Sky130 PDKを用いた FSM/PID/LLM の RTL-to-GDSII 実装。<br>*RTL-to-GDSII implementation of FSM, PID, LLM control with Sky130 PDK.* |
+| [🔍 **DFM設計指針**](https://samizo-aitl.github.io/Edusemi-v4x/f_chapter5_dfm/) <br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter5_dfm) | 特別編 第5章 / Special Topics Ch.5 | Sky130 PDKによるレイアウト検証とDFM設計指針。<br>*Layout verification and DFM guidelines with Sky130 PDK.* |
+| [📊 **Sky130 実験**](https://samizo-aitl.github.io/Edusemi-v4x/e_chapter2_sky130_experiments/) <br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/e_chapter2_sky130_experiments) | 実践編 第2章 / Practice Ch.2 | MOS特性評価・BTI/TDBB解析など SkyWater Sky130 PDKを用いた実験。<br>*MOS evaluation and BTI/TDBB analysis with SkyWater Sky130 PDK.* |
+| [💻 **Python自動化**](https://samizo-aitl.github.io/Edusemi-v4x/e_chapter1_python_automation_tools/) <br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/e_chapter1_python_automation_tools) | 実践編 第1章 / Practice Ch.1 | SPICEシミュレーションや解析を自動化するPythonスクリプト群。<br>*Python scripts for automating SPICE simulations and analysis.* |
+
+---
+
 ## 👤 **著者・ライセンス / Author & License**
 
 | **項目 / Item** | **内容 / Details** |
