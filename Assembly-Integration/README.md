@@ -83,7 +83,7 @@ graph TD
 | **Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=flat&logo=gmail)](mailto:shin3t72@gmail.com) |
 | **X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=flat&logo=x)](https://x.com/shin3t72) |
 | **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=flat&logo=github)](https://github.com/Samizo-AITL) |
-| **ライセンス / License** | [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat&logo=open-source-initiative)](https://opensource.org/licenses/MIT) <br> 再配布・改変自由 / Redistribution and modification allowed |
+| **ライセンス / License** | [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) <br> 再配布・改変自由 / Redistribution and modification allowed |
 
 ---
 
