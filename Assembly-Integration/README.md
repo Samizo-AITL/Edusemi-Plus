@@ -81,7 +81,7 @@ graph TD
 |-----------------|--------------------|
 | **著者 / Author** | 三溝 真一（Shinichi Samizo） |
 | **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
-| **X** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **X** | [x.com/shin3t72](https://x.com/shin3t72)|
 | **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
 | **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
 
