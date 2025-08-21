@@ -43,7 +43,10 @@ title: "PCB Stack-up | プリント基板の層構成"
 
 ## 📊 代表スタックアップ例 / Example Stack-ups
 
-### 4-Layer
+---
+
+### 4-Layer（汎用・低中速） / *4-Layer (General/Low-Mid Speed)*
+
 | Layer | Use | Typical Build |
 |-------|-----|----------------|
 | L1 | Signal (Microstrip) | Cu 1 oz / 0.18 mm to GND |
@@ -51,7 +54,10 @@ title: "PCB Stack-up | プリント基板の層構成"
 | L3 | PWR Plane | Prepreg 0.18 mm |
 | L4 | Signal (Microstrip) | Cu 1 oz |
 
-### 6-Layer
+---
+
+### 6-Layer（高速I/O混在） / *6-Layer (Mixed High-Speed)*
+
 | Layer | Use | Typical Build |
 |-------|-----|----------------|
 | L1 | Signal (Microstrip, 低速) | 0.12–0.18 mm → L2 |
@@ -61,7 +67,10 @@ title: "PCB Stack-up | プリント基板の層構成"
 | L5 | High-Speed Signal (Stripline) | 0.1–0.15 mm → L6 |
 | L6 | GND Plane or Signal | — |
 
-### 8-Layer
+---
+
+### 8-Layer（高密度用途） / *8-Layer (Higher Density)*
+
 | Layer | Use | Typical Build |
 |-------|-----|----------------|
 | L1 | Signal | — |
@@ -148,11 +157,11 @@ title: "PCB Stack-up | プリント基板の層構成"
 
 ## 🔗 関連リンク / Related Links
 
-| 項目 / Item | 説明 / Description | Site | Repo |
-|-------------|-------------------|------|------|
-| 📖 Impedance Control | インピーダンス設計の基礎と制御<br>*Fundamentals and control of impedance design* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./impedance-control.md) | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](../PCB/impedance-control) |
-| 📖 Via Design | スルーホール、マイクロビア、バックドリル設計指針<br>*Design guidelines for through-holes, microvias, and back-drills* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./via-design.md) | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](../PCB/via-design) |
-| 📖 Materials | FR-4, BT, セラミックなどの基板材料特性比較<br>*Comparison of substrate materials such as FR-4, BT, and ceramics* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./materials.md) | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](../PCB/materials) |
+| 項目 / Item | 説明 / Description | Links |
+|-------------|-------------------|-------|
+| 📖 Impedance Control | インピーダンス設計の基礎と制御<br>*Fundamentals and control of impedance design* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./impedance-control.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/impedance-control) |
+| 📖 Via Design | スルーホール、マイクロビア、バックドリル設計指針<br>*Design guidelines for through-holes, microvias, and back-drills* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./via-design.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/via-design) |
+| 📖 Materials | FR-4, BT, セラミックなどの基板材料特性比較<br>*Comparison of substrate materials such as FR-4, BT, and ceramics* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./materials.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/materials) |
 
 ---
 
