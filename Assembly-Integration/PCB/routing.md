@@ -1,33 +1,44 @@
 ---
 layout: default
-title: "PCB Routing | 配線設計"
+title: "PCB Routing | 配線"
 ---
 
-# 🛠 PCB Routing / 配線設計
+---
+
+# 🛤 PCB Routing / 配線
 
 ---
 
-## 📑 概要 / Overview
-PCB配線は、信号・電源・グランドを基板層に適切に配置し、インピーダンス制御やクロストーク抑制を行う工程です。  
-*PCB routing involves placing signals, power, and ground on board layers with impedance control and crosstalk mitigation.*
+## 🏗 概要 / Overview
+PCB配線 (Routing) は、デバイス間の信号・電源を基板上で最適に結線する工程です。  
+*PCB routing is the process of optimally connecting signals and power between devices on the board.*  
+
+インピーダンス制御、差動配線、クロストーク対策、層間配線、電源/グラウンドプレーン設計を含みます。  
+*Includes impedance control, differential routing, crosstalk mitigation, inter-layer routing, and power/ground plane design.*  
 
 ---
 
 ## 🔑 キートピック / Key Topics
-- 差動配線 (Differential Pair Routing)  
-- インピーダンス制御 (Controlled Impedance)  
-- ビア最適化 (Via Optimization)  
-- SI/PI シミュレーション (SI/PI Simulation)  
+- **インピーダンス制御**: 高速伝送路の特性インピーダンスを設計値に一致させる  
+  *Impedance control for high-speed transmission lines*  
+- **差動配線**: ノイズ耐性・信号品質を高めるためのペア配線  
+  *Differential routing to enhance noise immunity and signal integrity*  
+- **クロストーク抑制**: 配線間隔・シールド・層分離による干渉低減  
+  *Crosstalk mitigation via spacing, shielding, and layer separation*  
+- **層間配線**: スタックアップに応じた配線の多層設計  
+  *Multi-layer routing based on stackup design*  
+- **電源/グラウンド設計**: 低インピーダンス経路の確保と安定化  
+  *Ensuring low-impedance paths for stable power/ground distribution*  
 
 ---
 
 ## 📂 関連ファイル / Related Files
-- [📄 Design Rules](./design_rules.md)  
-- [📄 Stackup](./stackup.md)  
-- [📄 Routing](./routing.md)  
-- [📄 Validation](./validation.md)  
+- [📑 Stackup](stackup.md)  
+- [📏 Design Rules](design_rules.md)  
+- [🛤 Routing](routing.md) ← **現在のファイル**  
+- [✅ Validation](validation.md)  
 
 ---
 
-## ⬆️ Back to PCB
-[⬅️ PCB Index](./README.md)
+## ⬅️ Back Link
+[⬅️ PCB Index](../README.md)
