@@ -6,7 +6,7 @@ title: "PCB | プリント基板"
 ---
 
 # 📐 PCB / プリント基板  
-*Printed Circuit Boards (PCB)*  
+*Printed Circuit Boards (PCB)*   
 
 ---
 
