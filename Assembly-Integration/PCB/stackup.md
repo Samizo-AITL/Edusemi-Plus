@@ -1,39 +1,33 @@
 ---
 layout: default
-title: "PCB | Stack-up 層構成"
+title: "PCB Stackup | 層構成"
 ---
 
-# 📐 PCB - Stack-up / 層構成  
+# 🏗 PCB Stackup / 層構成
 
 ---
 
-## 📖 概要 / Overview
-PCBの層構成は、信号品質・電源分配・熱設計に大きな影響を与えます。  
-*Stack-up design strongly affects signal integrity, power distribution, and thermal design.*  
+## 📑 概要 / Overview
+PCBスタックアップは、信号層・電源層・GND層をどのように積層するかを定義します。  
+*PCB stackup defines how signal, power, and ground layers are arranged.*
 
 ---
 
 ## 🔑 キートピック / Key Topics
-- 層構成の基本 (Signal, Power, Ground)  
-- 高速信号用の層分離  
-- 電源/グラウンドプレーンの最適化  
-- 熱拡散設計  
+- レイヤー数と用途 (Number of Layers & Purpose)  
+- シグナル層配置 (Signal Layer Placement)  
+- 電源・グランド層の分離 (Power & Ground Layer Separation)  
+- SI/PIを考慮したスタック設計 (Stack Design considering SI/PI)  
 
 ---
 
-## 📊 図解 / Diagram
-```mermaid
-graph TD
-  A[Top Layer] --> B[Ground Plane]
-  B --> C[Signal Layer]
-  C --> D[Power Plane]
-  D --> E[Bottom Layer]
-```
+## 📂 関連ファイル / Related Files
+- [📄 Design Rules](./design_rules.md)  
+- [📄 Stackup](./stackup.md)  
+- [📄 Routing](./routing.md)  
+- [📄 Validation](./validation.md)  
 
 ---
 
 ## ⬆️ Back to PCB
-| Link | Badge |
-|---|---|
-| 🌐 Back to PCB Site | [![Back Site](https://img.shields.io/badge/⬆️%20Back-PCB-green?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/) |
-| 📂 Back to PCB Repo | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-PCB-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB) |
+[⬅️ PCB Index](./README.md)
