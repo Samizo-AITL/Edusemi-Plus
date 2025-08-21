@@ -92,8 +92,7 @@ graph TD
 MLCCは**理想キャパシタ**ではなく、ESR・ESLを含むRLCモデルで表現されます。  
 
 $$
-Z(f) pprox \sqrt{(ESR)^2 + \left(2\pi f L - rac{1}{2\pi f C}
-ight)^2 }
+Z(f) \approx \sqrt{(ESR)^2 + \left(2\pi f L - \frac{1}{2\pi f C}\right)^2 }
 $$
 
 - **ESR**: 損失による直列抵抗  
