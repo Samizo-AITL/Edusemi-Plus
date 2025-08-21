@@ -6,8 +6,8 @@ title: "PCB | プリント基板技術"
 # 🧩 PCB / プリント基板技術
 
 ## 🏗 概要 / Overview
-- **JP:** プリント基板 (PCB) は、半導体素子・受動部品・コネクタを相互接続し、システムを構成する基盤技術です。  
-- **EN:** Printed Circuit Board (PCB) is the foundation technology that interconnects semiconductors, passive components, and connectors to form a system.  
+プリント基板 (PCB) は、半導体素子・受動部品・コネクタを相互接続し、システムを構成する基盤技術です。  
+*Printed Circuit Board (PCB) is the foundation technology that interconnects semiconductors, passive components, and connectors to form a system.*  
 
 ---
 
@@ -23,17 +23,17 @@ PCB/
 ---
 
 ## 🔑 キートピック / Key Topics
-- **JP:** 基板材料（FR-4、BT、LCP、セラミック）、誘電率や損失正接の制御。  
-- **EN:** PCB materials (FR-4, BT, LCP, ceramics), control of dielectric constant (εr) and loss tangent (tanδ).  
+基板材料（FR-4、BT、LCP、セラミック）、誘電率や損失正接の制御。  
+*PCB materials (FR-4, BT, LCP, ceramics), control of dielectric constant (εr) and loss tangent (tanδ).*  
 
-- **JP:** 配線設計（差動ペア、クロストーク、PDN設計）。  
-- **EN:** Layout design (differential pairs, crosstalk, PDN design).  
+配線設計（差動ペア、クロストーク、PDN設計）。  
+*Layout design (differential pairs, crosstalk, PDN design).*  
 
-- **JP:** 放熱設計（ビア、銅プレーン、ヒートシンク連携）。  
-- **EN:** Thermal design (vias, copper planes, heatsinks).  
+放熱設計（ビア、銅プレーン、ヒートシンク連携）。  
+*Thermal design (vias, copper planes, heatsinks).*  
 
-- **JP:** EMC対策（グラウンド設計、シールド）。  
-- **EN:** EMC countermeasures (ground design, shielding).  
+EMC対策（グラウンド設計、シールド）。  
+*EMC countermeasures (ground design, shielding).*  
 
 ---
 
@@ -47,14 +47,14 @@ graph TD
 ---
 
 ## ✅ 学習目標 / Learning Goals
-- **JP:** PCB材料の特性を理解し、設計選定に活用できる  
-- **EN:** Understand PCB material properties and apply them in design selection  
+PCB材料の特性を理解し、設計選定に活用できる。  
+*Understand PCB material properties and apply them in design selection.*  
 
-- **JP:** 配線設計・電源設計の基礎を体系的に習得する  
-- **EN:** Acquire systematic knowledge of routing and PDN design fundamentals  
+配線設計・電源設計の基礎を体系的に習得する。  
+*Acquire systematic knowledge of routing and PDN design fundamentals.*  
 
-- **JP:** 熱設計・EMC設計を通じてシステム信頼性を確保する  
-- **EN:** Ensure system reliability through thermal and EMC design  
+熱設計・EMC設計を通じてシステム信頼性を確保する。  
+*Ensure system reliability through thermal and EMC design.*  
 
-- **JP:** SystemDK解析を通じてシステム全体の最適化に応用する  
-- **EN:** Apply SystemDK analysis to optimize system-level performance  
+SystemDK解析を通じてシステム全体の最適化に応用する。  
+*Apply SystemDK analysis to optimize system-level performance.*  
