@@ -43,8 +43,6 @@ title: "PCB Stack-up | プリント基板の層構成"
 
 ## 📊 代表スタックアップ例 / Example Stack-ups
 
----
-
 ### 4-Layer（汎用・低中速） / *4-Layer (General/Low-Mid Speed)*
 
 | Layer | Use | Typical Build |
@@ -53,8 +51,6 @@ title: "PCB Stack-up | プリント基板の層構成"
 | L2 | GND Plane | Core 0.8 mm |
 | L3 | PWR Plane | Prepreg 0.18 mm |
 | L4 | Signal (Microstrip) | Cu 1 oz |
-
----
 
 ### 6-Layer（高速I/O混在） / *6-Layer (Mixed High-Speed)*
 
@@ -66,8 +62,6 @@ title: "PCB Stack-up | プリント基板の層構成"
 | L4 | PWR Plane (or GND) | Core 0.2–0.3 mm |
 | L5 | High-Speed Signal (Stripline) | 0.1–0.15 mm → L6 |
 | L6 | GND Plane or Signal | — |
-
----
 
 ### 8-Layer（高密度用途） / *8-Layer (Higher Density)*
 
