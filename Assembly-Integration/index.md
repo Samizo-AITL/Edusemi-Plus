@@ -3,63 +3,70 @@ layout: default
 title: "Assembly & Integration | 実装技術"
 ---
 
----
-
-# 📘 Assembly & Integration / 実装技術
-
----
+# 🧩 Assembly & Integration / 実装技術
 
 ## 🏗 概要 / Overview
-- **実装技術 (Assembly & Integration)** は、半導体素子をシステムとして機能させるために不可欠な領域です。  
-- プリント基板（PCB）、受動部品（MLCC, 抵抗, インダクタ）、コネクタ、実装方式（SMT, CSP, 2.5D/3D-IC など）を体系的に整理します。  
-- **SystemDK** との連携により、電気・熱・機械のマルチドメイン解析を統合的に扱います。  
+Assembly & Integration は、半導体デバイス・受動部品・コネクタ・パッケージを基板上で統合し、システムを構築するための技術領域です。  
+*Assembly & Integration is the domain of technologies that integrate semiconductor devices, passives, connectors, and packages on a PCB to build systems.*  
+
+PCB設計、受動部品、コネクタ、実装方式 (SMT, CSP, BGA)、先端パッケージング (2.5D, 3D, Fan-Out)、解析・検証 (SI/PI/熱/EMC) を含みます。  
+*It covers PCB design, passives, connectors, mounting methods (SMT, CSP, BGA), advanced packaging (2.5D, 3D, Fan-Out), and analysis/validation (SI/PI/Thermal/EMC).*  
 
 ---
 
-## 📂 ディレクトリ構成 / Directory Structure
+## 📂 サブカテゴリ / Subcategories
 ```
 Assembly-Integration/
- ├── PCB/                  ← 基板材料・設計
- ├── Passives/             ← 受動部品 (MLCC, Resistor, Inductor...)
- ├── Connectors/           ← コネクタ技術
- ├── Mounting/             ← 実装方式 (SMT, BGA, CSP, QFN...)
- ├── Advanced-Packaging/   ← 先端実装 (SiP, 2.5D/3D-IC, CoWoS, AiP)
- └── Analysis-Validation/  ← 解析・検証 (SI/PI, Thermal, Mechanical, SystemDK)
+ ├── PCB/                 ← プリント基板 / PCB
+ ├── Passives/            ← 受動部品 / Passive Components
+ ├── Connectors/          ← コネクタ / Connectors
+ ├── Mounting/            ← 実装方式 (SMT, CSP, BGA) / Mounting
+ ├── Advanced-Packaging/  ← 先端パッケージング / Advanced Packaging
+ └── Analysis-Validation/ ← 実装解析・検証 / Analysis & Validation
 ```
 
 ---
 
 ## 🔑 キートピック / Key Topics
-- **PCB設計 / PCB Design**  
-  - 材料（FR-4, BT, LCP, セラミック）  
-  - 多層配線、SI/PI、熱設計、EMI対策  
-- **受動部品 / Passives**  
-  - MLCC（積層セラミックコンデンサ）、チップ抵抗、インダクタ、フィルタ  
-- **コネクタ技術 / Connectors**  
-  - Board-to-Board, FPC, 高速I/Oコネクタ  
-- **実装方式 / Mounting**  
-  - SMT, BGA, CSP, QFN, PoP, リフロー実装  
-- **先端実装 / Advanced Packaging**  
-  - SiP, 2.5D, 3D-IC, CoWoS, Foveros, AiP  
-- **解析・検証 / Analysis & Validation**  
-  - SI/PI, 熱解析, 機械強度, SystemDK連携  
+PCB設計と基板材料の最適化。  
+*Optimization of PCB design and board materials.*  
+
+MLCC・抵抗・インダクタなどの受動部品の特性と配置。  
+*Characteristics and placement of passives such as MLCCs, resistors, and inductors.*  
+
+高速伝送・電源供給に対応するコネクタ設計。  
+*Connector design for high-speed transmission and power delivery.*  
+
+実装方式 (SMT, CSP, BGA) による信頼性・歩留まりへの影響。  
+*Impact of mounting methods (SMT, CSP, BGA) on reliability and yield.*  
+
+先端パッケージングによる高帯域・高集積化。  
+*High-bandwidth and high-integration via advanced packaging.*  
+
+解析・検証 (SI/PI/熱/EMC) に基づく設計改善。  
+*Design improvements through SI/PI/Thermal/EMC validation.*  
 
 ---
 
-## 🌐 教材ポジション / Position in Edusemi-Plus
+## 🌐 教材ポジション / Position
 ```mermaid
 graph TD
-  A[Edusemi-v4x<br/>デバイス技術] --> B[Edusemi-Plus<br/>実装技術]
-  B --> C[Assembly & Integration<br/>PCB, Passives, Mounting]
-  C --> D[SystemDK<br/>Multi-domain Analysis]
+  A[Edusemi-Plus<br/>半導体応用教材] --> B[Assembly & Integration<br/>実装技術]
+  B --> C[SystemDK<br/>システム設計・検証環境 / SystemDK Environment]
 ```
 
 ---
 
 ## ✅ 学習目標 / Learning Goals
-- 半導体素子とシステムをつなぐ **実装技術の基盤**を理解する  
-- PCB・受動部品・コネクタの役割を体系的に整理する  
-- **先端実装技術**（2.5D, 3D-IC, SiP など）の位置づけを把握する  
-- **SystemDK** で実装要素をモデリングし、システムレベルで解析できるようにする  
+実装技術の主要分野を体系的に理解する。  
+*Systematically understand the major domains of assembly and integration.*  
 
+システム設計における部品・実装・パッケージ・検証の相互関係を把握する。  
+*Grasp the interrelations of components, assembly, packaging, and validation in system design.*  
 
+SystemDKと連携し、設計・実装・検証の統合プロセスを習得する。  
+*Learn the integrated process of design, assembly, and validation through collaboration with SystemDK.*  
+
+---
+
+[⬆️ Back to Edusemi-Plus](../)
