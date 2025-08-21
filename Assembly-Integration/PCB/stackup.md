@@ -147,14 +147,18 @@ title: "PCB Stack-up | プリント基板の層構成"
 ---
 
 ## 🔗 関連リンク / Related Links
-| Link | Badge |
-|---|---|
-| 📖 Impedance Control | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./impedance-control.md) |
-| 📖 Via Design | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./via-design.md) |
-| 📖 Materials | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./materials.md) |
+
+| 項目 / Item | 説明 / Description | Site | Repo |
+|-------------|-------------------|------|------|
+| 📖 Impedance Control | インピーダンス設計の基礎と制御<br>*Fundamentals and control of impedance design* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./impedance-control.md) | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](../PCB/impedance-control) |
+| 📖 Via Design | スルーホール、マイクロビア、バックドリル設計指針<br>*Design guidelines for through-holes, microvias, and back-drills* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./via-design.md) | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](../PCB/via-design) |
+| 📖 Materials | FR-4, BT, セラミックなどの基板材料特性比較<br>*Comparison of substrate materials such as FR-4, BT, and ceramics* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./materials.md) | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](../PCB/materials) |
 
 ---
 
 ## ⬆️ Back to PCB
-[![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/)  
-[![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB)
+
+| Link | Badge |
+|---|---|
+| 🌐 Back to Site | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/) |
+| 📂 Back to Repo | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB) |
