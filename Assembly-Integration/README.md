@@ -17,15 +17,15 @@ PCB設計、受動部品、コネクタ、実装方式 (SMT, CSP, BGA)、先端�
 ---
 
 ## 📂 サブカテゴリ / Subcategories
-```
-Assembly-Integration/
- ├── PCB/                 ← プリント基板 / PCB
- ├── Passives/            ← 受動部品 / Passive Components
- ├── Connectors/          ← コネクタ / Connectors
- ├── Mounting/            ← 実装方式 (SMT, CSP, BGA) / Mounting
- ├── Advanced-Packaging/  ← 先端パッケージング / Advanced Packaging
- └── Analysis-Validation/ ← 実装解析・検証 / Analysis & Validation
-```
+
+| サブカテゴリ / Subcategory | 概要 (JP) | Summary (EN) | Link |
+|---|---|---|---|
+| 📐 PCB | プリント基板 | *Printed Circuit Boards (PCB)* | [![View](https://img.shields.io/badge/View-README-blue?style=flat&logo=github)](./PCB/README.md) |
+| 🧩 Passives | 受動部品 (MLCC, 抵抗, インダクタ) | *Passive Components (MLCC, Resistors, Inductors)* | [![View](https://img.shields.io/badge/View-README-blue?style=flat&logo=github)](./Passives/README.md) |
+| 🔌 Connectors | コネクタ | *Connectors for high-speed and power delivery* | [![View](https://img.shields.io/badge/View-README-blue?style=flat&logo=github)](./Connectors/README.md) |
+| ⚙️ Mounting | 実装方式 (SMT, CSP, BGA) | *Mounting technologies such as SMT, CSP, BGA* | [![View](https://img.shields.io/badge/View-README-blue?style=flat&logo=github)](./Mounting/README.md) |
+| 📦 Advanced Packaging | 先端パッケージング (2.5D, 3D, Fan-Out) | *Advanced packaging such as 2.5D, 3D, Fan-Out, CoWoS, InFO* | [![View](https://img.shields.io/badge/View-README-blue?style=flat&logo=github)](./Advanced-Packaging/README.md) |
+| 📊 Analysis & Validation | 実装解析・検証 (SI/PI/熱/EMC) | *Analysis & validation of SI, PI, Thermal, and EMC* | [![View](https://img.shields.io/badge/View-README-blue?style=flat&logo=github)](./Analysis-Validation/README.md) |
 
 ---
 
