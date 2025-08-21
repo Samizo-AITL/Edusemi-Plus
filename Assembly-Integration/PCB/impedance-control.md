@@ -34,12 +34,12 @@ title: "PCB Impedance Control | プリント基板のインピーダンス制御
 ---
 
 ## 🎯 設計ゴール / Design Targets
-- 単端信号：$50\ \Omega \pm 10\%$  
-  *Single-ended: $50\ \Omega \pm 10\%$*  
-- 差動信号：$100\ \Omega \pm 10\%$（Ethernet/HDMI 等）  
-  *Differential: $100\ \Omega \pm 10\%$ (Ethernet/HDMI, etc.)*  
-- USB2.0 HS: $90\ \Omega$  
-- PCIe Genx: $85\ \Omega$  
+- 単端信号： $50\ \Omega \pm 10\%$  
+  *Single-ended:  $50\ \Omega \pm 10\%$*  
+- 差動信号： $100\ \Omega \pm 10\%$ （Ethernet/HDMI 等）  
+  *Differential:  $100\ \Omega \pm 10\%$  (Ethernet/HDMI, etc.)*  
+- USB2.0 HS:  $90\ \Omega$  
+- PCIe Genx:  $85\ \Omega$  
 
 ---
 
