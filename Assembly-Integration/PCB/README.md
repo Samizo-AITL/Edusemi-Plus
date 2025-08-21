@@ -25,24 +25,24 @@ PCBは電子部品を実装する基板で、電気的・機械的な統合を�
 
 ---
 
-## 📂 ファイル一覧 / File List (Auto on GitHub Pages)
-> この一覧は **GitHub Pages でビルド時に自動生成** されます（GitHub上のREADMEではLiquidは展開されません）。
+## 📂 ファイル一覧 / File List
 
-{% assign dir = "Assembly-Integration/PCB/" %}
+> このフォルダの内容は **GitHub のファイルビュー（このREADMEの上部）** に自動で表示されます。  
+> ここではリポジトリ上でも読めるよう、代表リンクを**静的に**掲載します。
 
-<!-- ページ（Markdown等） -->
-{% for page in site.pages %}
-  {% if page.path contains dir and page.name != "README.md" %}
-- [{{ page.title | default: page.name }}]({{ site.url }}{{ site.baseurl }}{{ page.url }})
-  {% endif %}
-{% endfor %}
+- 📁 **このフォルダをGitHubで開く**  
+  https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB
 
-<!-- 静的ファイル（画像・PDF等） -->
-{% for file in site.static_files %}
-  {% if file.path contains dir and file.name != "README.md" %}
-- [{{ file.name }}]({{ site.url }}{{ site.baseurl }}{{ file.path }})
-  {% endif %}
-{% endfor %}
+- 🧭 **関連ナビ**  
+  - [⬆️ Assembly-Integration へ戻る](../)  
+  - [📚 Edusemi-Plus トップ](../../)
+
+<!-- 必要に応じて、個別ファイルやサブフォルダを追記してください（例） -->
+<!--
+- [stackup.md](./stackup.md)
+- [impedance-guide.md](./impedance-guide.md)
+- [images/](./images/)
+-->
 
 ---
 
