@@ -65,7 +65,7 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 | **カテゴリ / Category** | **概要（JP）** | **Summary (EN)** | **Link** |
 |---|---|---|---|
 | 🧪 **材料技術 / Materials** | **Si / SiC / GaN** の比較・応用 | Compare & apply **Si / SiC / GaN** | [materials](./materials/) |
-| 🧩 **実装技術 / Assembly & Integration** | **PCB・受動部品・コネクタ・実装方式・先端パッケージング** | **PCB, passives, connectors, mounting, advanced packaging** | [assembly-integration](./assembly-integration/) |
+| 🧩 **実装技術 / Assembly & Integration** | **PCB・受動部品・コネクタ・実装方式・先端パッケージング** | **PCB, passives, connectors, mounting, advanced packaging** | [assembly-integration](./Assembly-Integration/) |
 | ⚛️ **先端技術 / Advanced** | **量子・Cryo・次世代構造** | **Quantum, cryo, next-gen architectures** | [quantum-semiconductor](./quantum-semiconductor/) |
 | 🤖 **AI / AI** | **LLM活用・AIアクセラレータ** | **LLMs & AI accelerators** | [ai-semiconductor](./ai-semiconductor/), [ai-tools-comparison](./ai-tools-comparison/) |
 | 🏭 **産業 / Industry** | **TSMC / Apple の構造・復興** | Structures & resurgence of **TSMC/Apple** | [tsmc-insight](./tsmc-insight/), [rapidus](./rapidus/) |
