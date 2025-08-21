@@ -9,6 +9,15 @@ title: "PCB Assembly | 部品実装"
 
 ---
 
+## 🔗 リンク / Links
+
+| Link | Badge |
+|---|---|
+| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/assembly) |
+| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/assembly.md) |
+
+---
+
 ## 📑 目次 / Table of Contents
 1. [🏗 概要 / Overview](#-概要--overview)  
 2. [🔑 キートピック / Key Topics](#-キートピック--key-topics)  
