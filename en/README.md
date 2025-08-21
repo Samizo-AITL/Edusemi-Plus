@@ -56,6 +56,7 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 | Category | Summary | Link |
 |---|---|---|
 | 🧪 **Materials** | Compare & apply **Si / SiC / GaN** | [materials](../materials/) |
+| 🧩 **Assembly & Integration** | **PCB, passives, connectors, mounting, advanced packaging** | [Assembly-Integration](./Assembly-Integration/) |
 | ⚛️ **Advanced** | Quantum, cryo, next-gen architectures | [quantum-semiconductor](../quantum-semiconductor/) |
 | 🤖 **AI** | LLMs & AI accelerators | [ai-semiconductor](../ai-semiconductor/), [ai-tools-comparison](../ai-tools-comparison/) |
 | 🏭 **Industry** | TSMC & Apple structures, resurgence stories | [tsmc-insight](../tsmc-insight/), [rapidus](../rapidus/) |
