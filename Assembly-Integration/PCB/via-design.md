@@ -72,17 +72,20 @@ title: "PCB Via Design | ビア設計"
 ビアは**インダクタンス + キャパシタンス**を持つ伝送要素としてモデル化できます。  
 *A via is modeled as inductance + capacitance element.*
 
-- **ビアインダクタンス近似式**  
-  $$
-  L_{via} \approx 5.08 h \left[ \ln\!\left(\frac{4h}{d}\right) + 1 \right] \ [\text{nH}]
-  $$
+- **ビアインダクタンス近似式**
+
+$$
+L_{via} \approx 5.08 h \left[ \ln\!\left(\frac{4h}{d}\right) + 1 \right] \ [\text{nH}]
+$$
   - $h$ : ビア長 [mm] / via length  
   - $d$ : ビア径 [mm] / via diameter  
 
-- **ビアキャパシタンス近似式**  
-  $$
-  C_{via} \approx 1.41 \varepsilon_r \frac{D_1 D_2}{h}
-  $$
+- **ビアキャパシタンス近似式**
+
+$$
+C_{via} \approx 1.41 \varepsilon_r \frac{D_1 D_2}{h}
+$$
+
   - $D_1, D_2$ : アンチパッド径 [mm] / antipad diameters  
   - $\varepsilon_r$ : 誘電率 / dielectric constant  
 
@@ -117,7 +120,7 @@ title: "PCB Via Design | ビア設計"
 ## 🧩 DFM/製造公差 / DFM & Tolerances
 - **最小ビア径**：レーザ加工で ~75 µm、機械ドリルで ~200 µm。  
   *Min diameter: ~75 µm (laser), ~200 µm (mechanical).*  
-- **アスペクト比**：$h/d \leq 10$ が一般的限界。  
+- **アスペクト比**：　$h/d \leq 10$  が一般的限界。  
   *Aspect ratio $h/d \leq 10$ is typical limit.*  
 - **バックドリル精度**：残 stub 長 ±5–10% が実用範囲。  
   *Backdrill tolerance ±5–10% stub length.*  
