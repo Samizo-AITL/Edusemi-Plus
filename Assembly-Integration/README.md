@@ -64,7 +64,7 @@ graph TD
 
 ---
 
-# 📑 **関連プロジェクト一覧 / Related Projects**
+## 📑 **関連プロジェクト一覧 / Related Projects**
 
 > Edusemi-v4x の各章と連携する外部／応用プロジェクトを整理。  
 > *Organized list of external/applied projects linked with Edusemi-v4x chapters.*
