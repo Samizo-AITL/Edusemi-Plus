@@ -60,3 +60,7 @@ PCB材料の特性を理解し、設計選定に活用できる。
 
 SystemDK解析を通じてシステム全体の最適化に応用する。  
 *Apply SystemDK analysis to optimize system-level performance.*  
+
+---
+
+[⬆️ Back to Assembly & Integration](../)
