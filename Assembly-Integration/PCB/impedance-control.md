@@ -55,15 +55,17 @@ title: "PCB Impedance Control | プリント基板のインピーダンス制御
 
 ## 📊 計算式 / Calculation Formulas
 
-- **Microstrip（外層）**  
-  $$
-  Z_0 \approx \frac{60}{\sqrt{\varepsilon_r}} \ln\!\left(\frac{8h}{w+t}\right)
-  $$
+- **Microstrip（外層）**
 
-- **Stripline（内層）**  
-  $$
-  Z_0 \approx \frac{60}{\sqrt{\varepsilon_r}} \ln\!\left(\frac{4h}{0.67(\pi(w+t))}\right)
-  $$
+$$
+Z_0 \approx \frac{60}{\sqrt{\varepsilon_r}} \ln\!\left(\frac{8h}{w+t}\right)
+$$
+
+- **Stripline（内層）**
+ 
+$$
+Z_0 \approx \frac{60}{\sqrt{\varepsilon_r}} \ln\!\left(\frac{4h}{0.67(\pi(w+t))}\right)
+$$
 
 ここで：  
 - $h$ = 誘電体厚 / dielectric thickness  
