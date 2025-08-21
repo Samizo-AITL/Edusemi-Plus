@@ -5,7 +5,8 @@ title: "Passives | 受動部品"
 
 ---
 
-# 🧩 Passives / 受動部品
+# 🎛 Passives / 受動部品
+*Passive Components (MLCC, Resistors, Inductors, etc.)*
 
 ---
 
@@ -18,24 +19,42 @@ title: "Passives | 受動部品"
 
 ---
 
-## 🏗 概要 / Overview
-受動部品は、MLCC（セラミックコンデンサ）、抵抗器、インダクタなど、電気回路の基本を支える重要素子群です。  
-*Passive components such as MLCCs, resistors, and inductors are fundamental elements that support electrical circuits.*  
+## 📖 概要 / Overview
+受動部品（Passives）は、電子回路において**信号制御・電源安定化・ノイズ抑制**を担う要素です。  
+*Passive components support signal conditioning, power stabilization, and noise suppression in electronic circuits.*  
 
-高周波特性・直流バイアス依存性・配置の最適化が、システム性能や信頼性に直結します。  
-*Their high-frequency behavior, DC bias dependency, and placement optimization directly affect system performance and reliability.*  
+MLCC、抵抗器、インダクタなどの特性・配置は、**SI/PI/EMC/信頼性**設計に直結します。  
+*The characteristics and placement of MLCCs, resistors, and inductors directly affect SI, PI, EMC, and reliability design.*  
 
 ---
 
-## 👤 **著者・ライセンス / Author & License**
+## 📂 ファイル一覧 / File List
 
-| **項目 / Item** | **内容 / Details** |
-|-----------------|--------------------|
+| 📘 サブカテゴリ / Subcategory | 概要 (JP) | Summary (EN) | Links |
+|---|---|---|---|
+| 🔋 MLCC（積層セラミックコンデンサ） | 温度特性、DCバイアス特性、デカップリング指針 | *MLCC properties, DC bias effect, and decoupling guidelines* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/mlcc/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/mlcc.md) |
+| 📏 Resistors（抵抗器） | 薄膜/厚膜抵抗、温度係数、ノイズ特性 | *Thin/Thick film resistors, TCR, noise characteristics* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/resistors/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/resistors.md) |
+| 🌀 Inductors（インダクタ） | 電源用チョーク、損失要因、配置設計 | *Power inductors, loss mechanisms, and layout design* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/inductors/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/inductors.md) |
+| ⚡ Capacitors（その他コンデンサ） | アルミ電解、タンタル、フィルム特性比較 | *Aluminum electrolytic, tantalum, and film capacitors* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/capacitors/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/capacitors.md) |
+| 📐 Design Guide（設計指針） | デカップリング・フィルタ設計、共振回避 | *Decoupling, filter design, and resonance avoidance* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/passive-design/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/passive-design.md) |
+
+---
+
+## 📑 説明 / Description
+受動部品は、**信号品質の改善、電源安定化、熱設計補助、信頼性確保**といった役割を果たします。  
+*They improve signal quality, stabilize power, assist thermal design, and enhance overall reliability.*  
+
+---
+
+## 👤 著者・ライセンス / Author & License
+
+| 項目 / Item | 内容 / Details |
+|---|---|
 | **著者 / Author** | 三溝 真一（Shinichi Samizo） |
-| **Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=flat&logo=gmail)](mailto:shin3t72@gmail.com) |
-| **X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=flat&logo=x)](https://x.com/shin3t72) |
-| **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=flat&logo=github)](https://github.com/Samizo-AITL) |
-| **ライセンス / License** | [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) <br> 再配布・改変自由 / Redistribution and modification allowed |
+| **Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:shin3t72@gmail.com) |
+| **X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=for-the-badge&logo=x)](https://x.com/shin3t72) |
+| **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
+| **ライセンス / License** | [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE) <br> 再配布・改変自由 / Redistribution and modification allowed |
 
 ---
 
