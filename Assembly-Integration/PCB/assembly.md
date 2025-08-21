@@ -57,11 +57,11 @@ title: "PCB Assembly | 部品実装"
 ```mermaid
 flowchart TD
   A[部品供給・準備 / Component Preparation] --> B[印刷工程 / Solder Paste Printing]
-  B --> C[部品実装 / Placement (Pick & Place)]
+  B --> C[部品実装 / Placement - Pick & Place]
   C --> D[リフローはんだ / Reflow Soldering]
   D --> E[フローはんだ / Wave Soldering]
   E --> F[洗浄・フラックス除去 / Cleaning]
-  F --> G[検査 (AOI/X-ray) / Inspection]
+  F --> G[検査 AOI・X-ray / Inspection]
   G --> H[最終検査・信頼性試験 / Final QA & Reliability Tests]
 ```
 
