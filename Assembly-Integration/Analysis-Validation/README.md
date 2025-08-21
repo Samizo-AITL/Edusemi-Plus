@@ -1,53 +1,69 @@
 ---
 layout: default
-title: "Analysis & Validation | 解析・検証"
+title: "Analysis-Validation | 実装解析・検証技術"
 ---
 
-# 📊 Analysis & Validation / 解析・検証
+---
+
+# 📊 Analysis & Validation / 実装解析・検証技術
 
 ## 🏗 概要 / Overview
-- 解析・検証 (Analysis & Validation) は、実装設計の妥当性を確認し、システムの信頼性を保証するための領域です。  
-- 信号品質 (SI)、電源安定性 (PI)、熱解析、機械的強度評価などを含みます。  
-- **SystemDK** との連携により、実装要素を回路・熱・構造モデル化して、システムレベルで統合的に検証できます。  
+実装解析・検証 (Analysis & Validation) は、設計された基板・パッケージ・実装方式が要求仕様を満たすかを確認するプロセスです。  
+*Analysis & Validation is the process of confirming whether designed PCBs, packages, and mounting methods meet the required specifications.*  
+
+SI (Signal Integrity)、PI (Power Integrity)、Thermal (熱)、EMC (電磁両立性) の観点で多面的な解析・検証が行われます。  
+*It involves multi-domain analysis and validation from perspectives such as SI (Signal Integrity), PI (Power Integrity), Thermal, and EMC.*  
+
+**SystemDK** 環境と連携し、設計初期段階からのフィードバックループを形成します。  
+*It collaborates with the **SystemDK** environment to form a feedback loop from the early stages of design.*  
 
 ---
 
 ## 📂 サブトピック / Subtopics
 ```
 Analysis-Validation/
- ├── SI_PI.md        ← 信号・電源インテグリティ
- ├── Thermal.md      ← 熱解析・放熱設計
- ├── Mechanical.md   ← 機械強度・信頼性評価
- └── SystemDK_Link.md← SystemDK連携
+ ├── SI.md        ← 信号完全性解析 / Signal Integrity
+ ├── PI.md        ← 電源完全性解析 / Power Integrity
+ ├── Thermal.md   ← 熱解析 / Thermal
+ └── EMC.md       ← 電磁両立性解析 / EMC
 ```
 
 ---
 
 ## 🔑 キートピック / Key Topics
-- **信号インテグリティ (SI)**  
-  - 伝送線路モデル、リフレクション、クロストーク、ジッタ解析  
-- **電源インテグリティ (PI)**  
-  - PDN設計、デカップリング、インピーダンス解析  
-- **熱解析 / Thermal**  
-  - 熱伝導・対流モデル、基板・パッケージ放熱設計  
-- **機械解析 / Mechanical**  
-  - 振動、応力、熱膨張 (CTE) による信頼性解析  
-- **SystemDK連携**  
-  - 回路 (SPICE)、電磁界 (FEM)、熱 (CFD) の統合解析  
+SI解析：反射・クロストーク・ジッタ解析、アイダイアグラム。  
+*SI: reflection, crosstalk, jitter analysis, eye diagrams.*  
+
+PI解析：電源ネットワークインピーダンス、デカップリング効果。  
+*PI: power distribution network impedance, decoupling effects.*  
+
+熱解析：部品発熱、熱伝導・放射、冷却設計。  
+*Thermal: component heating, conduction/radiation, cooling design.*  
+
+EMC解析：放射ノイズ、伝導ノイズ、規格準拠試験。  
+*EMC: radiated and conducted noise, regulatory compliance testing.*  
 
 ---
 
-## 🌐 教材ポジション / Position in Assembly & Integration
+## 🌐 教材ポジション / Position
 ```mermaid
 graph TD
-  A[Assembly & Integration<br/>実装技術] --> B[Analysis & Validation<br/>SI, PI, Thermal, Mechanical]
-  B --> C[SystemDK<br/>マルチドメイン統合解析]
+  A[Assembly & Integration<br/>実装技術] --> B[Analysis & Validation<br/>実装解析・検証 / Analysis & Validation]
+  B --> C[SystemDK<br/>マルチフィジックス解析 / Multi-Physics Analysis]
 ```
 
 ---
 
 ## ✅ 学習目標 / Learning Goals
-- SI/PI の基本概念を理解し、設計段階でのシミュレーションに活用できる  
-- PCB・実装の熱・機械的制約を理解し、信頼性設計に反映できる  
-- FEM/CFD/回路解析を組み合わせた統合的手法を学ぶ  
-- **SystemDK** を通じて実装要素をシステム全体の設計検証に結びつけられる  
+SI/PI/熱/EMC の各解析手法を理解し、設計に応用できる。  
+*Understand SI/PI/Thermal/EMC analysis methods and apply them to design.*  
+
+解析結果を設計改善へとフィードバックするスキルを習得する。  
+*Develop skills to feed back analysis results into design improvements.*  
+
+SystemDK との統合解析により、システムレベルの最適化を実現する。  
+*Achieve system-level optimization through integrated analysis with SystemDK.*  
+
+---
+
+[⬆️ Back to Assembly & Integration](../)
