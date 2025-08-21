@@ -121,12 +121,18 @@ flowchart TD
 ---
 
 ## 🔗 関連リンク / Related Links
-- [📖 Fabrication](./fabrication.md)  
-- [📖 Reliability](./reliability.md)  
-- [📖 Simulation](./simulation.md)  
+
+| 項目 / Item | 説明 / Description | Links |
+|-------------|-------------------|-------|
+| 📖 Fabrication | 基板製造プロセスの詳細<br>*Details of PCB fabrication process* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./fabrication.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](../PCB/fabrication) |
+| 📖 Reliability | 実装・製造における信頼性評価<br>*Reliability evaluation in assembly/fabrication* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./reliability.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](../PCB/reliability) |
+| 📖 Simulation | SI/PI/Thermal シミュレーション<br>*Signal/Power Integrity & Thermal simulation* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=githubpages)](./simulation.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](../PCB/simulation) |
 
 ---
 
 ## ⬆️ Back to PCB
-[![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/)  
-[![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB)
+
+| Link | Badge |
+|---|---|
+| 🌐 Back to Site | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/) |
+| 📂 Back to Repo | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB) |
