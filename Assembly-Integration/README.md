@@ -80,10 +80,10 @@ graph TD
 | **項目 / Item** | **内容 / Details** |
 |-----------------|--------------------|
 | **著者 / Author** | 三溝 真一（Shinichi Samizo） |
-| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
-| **X** | [shin3t72](https://x.com/shin3t72)|
-| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
-| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
+| **Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=flat&logo=gmail)](mailto:shin3t72@gmail.com) |
+| **X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=flat&logo=x)](https://x.com/shin3t72) |
+| **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=flat&logo=github)](https://github.com/Samizo-AITL) |
+| **ライセンス / License** | [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat&logo=open-source-initiative)](https://opensource.org/licenses/MIT) <br> 再配布・改変自由 / Redistribution and modification allowed |
 
 ---
 
