@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Passives | 受動部品"
+title: "Connectors | コネクタ"
 ---
 
 ---
 
-# 🎛 Passives / 受動部品
-*Passive Components (MLCC, Resistors, Inductors, etc.)*
+# 🔌 Connectors / コネクタ
+*Electrical & Mechanical Connectors*
 
 ---
 
@@ -14,17 +14,17 @@ title: "Passives | 受動部品"
 
 | Link | Badge |
 |---|---|
-| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/) |
-| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Passives) |
+| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/) |
+| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Connectors) |
 
 ---
 
 ## 📖 概要 / Overview
-受動部品（Passives）は、電子回路において**信号制御・電源安定化・ノイズ抑制**を担う要素です。  
-*Passive components support signal conditioning, power stabilization, and noise suppression in electronic circuits.*  
+コネクタは、**電子部品・モジュール間の電気的接続と機械的支持**を担う重要要素です。  
+*Connectors provide electrical interconnection and mechanical support between components and modules.*  
 
-MLCC、抵抗器、インダクタなどの特性・配置は、**SI/PI/EMC/信頼性**設計に直結します。  
-*The characteristics and placement of MLCCs, resistors, and inductors directly affect SI, PI, EMC, and reliability design.*  
+その性能は、**SI/PI、信号品質、電源供給、機械的信頼性**に大きな影響を与えます。  
+*They directly affect SI/PI, signal quality, power delivery, and mechanical reliability.*  
 
 ---
 
@@ -32,17 +32,17 @@ MLCC、抵抗器、インダクタなどの特性・配置は、**SI/PI/EMC/信�
 
 | 📘 サブカテゴリ / Subcategory | 概要 (JP) | Summary (EN) | Links |
 |---|---|---|---|
-| 🔋 MLCC（積層セラミックコンデンサ） | 温度特性、DCバイアス特性、デカップリング指針 | *MLCC properties, DC bias effect, and decoupling guidelines* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/mlcc/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/mlcc.md) |
-| 📏 Resistors（抵抗器） | 薄膜/厚膜抵抗、温度係数、ノイズ特性 | *Thin/Thick film resistors, TCR, noise characteristics* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/Resistors/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/Resistors.md) |
-| 🌀 Inductors（インダクタ） | 電源用チョーク、損失要因、配置設計 | *Power inductors, loss mechanisms, and layout design* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/Inductor/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/Inductor.md) |
-| ⚡ Capacitors（その他コンデンサ） | アルミ電解、タンタル、フィルム特性比較 | *Aluminum electrolytic, tantalum, and film capacitors* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/Capacitors/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/Capacitors.md) |
-| 📐 Design Guide（設計指針） | デカップリング・フィルタ設計、共振回避 | *Decoupling, filter design, and resonance avoidance* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/Passive-Design/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/Passive-Design.md) |
+| 🧩 Board-to-Board（基板間コネクタ） | 高速信号用、実装密度重視 | *High-speed interconnects for dense PCB assemblies* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/Board-to-Board/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Connectors/Board-to-Board.md) |
+| 🔌 Wire-to-Board（ワイヤ対基板） | ケーブル接続、電力ライン用途 | *Wire-to-board connectors for cables and power lines* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/Wire-to-Board/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Connectors/Wire-to-Board.md) |
+| ⚡ High-Speed（高速伝送用） | PCIe, USB, HDMI, DDR インタフェース | *Connectors for PCIe, USB, HDMI, DDR interfaces* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/High-Speed/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Connectors/High-Speed.md) |
+| 🔋 Power（電源コネクタ） | 高電流対応、発熱・接触抵抗設計 | *Power connectors for high-current applications* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/Power/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Connectors/Power.md) |
+| 🛡 Shielded（シールドコネクタ） | EMI/EMC対策用、RF対応 | *Shielded connectors for EMI/EMC and RF applications* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/Shielded/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Connectors/Shielded.md) |
 
 ---
 
 ## 📑 説明 / Description
-受動部品は、**信号品質の改善、電源安定化、熱設計補助、信頼性確保**といった役割を果たします。  
-*They improve signal quality, stabilize power, assist thermal design, and enhance overall reliability.*  
+コネクタ設計は、**電気的特性（インピーダンス・クロストーク）、機械的信頼性（挿抜耐久・保持力）、熱設計（接触抵抗・温度上昇）**を総合的に考慮する必要があります。  
+*Connector design must consider electrical (impedance, crosstalk), mechanical (mating durability, retention), and thermal (contact resistance, temperature rise) aspects.*  
 
 ---
 
