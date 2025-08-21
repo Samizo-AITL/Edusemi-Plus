@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Passives | 受動部品技術" 
+title: "Passives | 受動部品技術"  
 ---
 
 ---
