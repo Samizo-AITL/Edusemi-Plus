@@ -27,16 +27,16 @@ PCBは電子部品を実装する基板で、電気的・機械的な統合を�
 
 ## 📂 ファイル一覧 / File List
 
-| 📘 ファイル / File | 🔗 リンク / Links |
-|--------------------|-------------------|
-| **Stack-up（層構成）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/stackup) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/stackup.md) |
-| **Impedance Control（インピーダンス制御）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/impedance-control) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/impedance-control.md) |
-| **Via Design（ビア設計）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/via-design) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/via-design.md) |
-| **Materials（材料）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/materials) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/materials.md) |
-| **Fabrication（製造プロセス）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/fabrication) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/fabrication.md) |
-| **Assembly（部品実装）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/assembly) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/assembly.md) |
-| **Reliability（信頼性）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/reliability) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/reliability.md) |
-| **Simulation（解析）** | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/simulation) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/simulation.md) |
+| 📘 ファイル / File | 📑 内容 / Content | 🔗 リンク / Links |
+|--------------------|------------------|-------------------|
+| **Stack-up（層構成）** | 層構成の設計方法、信号・電源層の最適化。<br>*Design of PCB layer stack-ups, optimization of signal/power planes.* | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/stackup) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/stackup.md) |
+| **Impedance Control（インピーダンス制御）** | 伝送線路の特性インピーダンス設計と制御。<br>*Design and control of characteristic impedance in transmission lines.* | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/impedance-control) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/impedance-control.md) |
+| **Via Design（ビア設計）** | スルーホール、マイクロビア、バックドリルの設計指針。<br>*Design guidelines for through-holes, microvias, and back-drills.* | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/via-design) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/via-design.md) |
+| **Materials（材料）** | 基板材料（FR-4, BT, セラミック）の特性比較。<br>*Comparison of substrate materials such as FR-4, BT, and ceramics.* | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/materials) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/materials.md) |
+| **Fabrication（製造プロセス）** | PCB製造工程（露光・エッチング・積層）。<br>*PCB fabrication processes such as photolithography, etching, and lamination.* | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/fabrication) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/fabrication.md) |
+| **Assembly（部品実装）** | SMT, THT, BGA, CSP などの実装手法。<br>*Mounting techniques such as SMT, THT, BGA, and CSP.* | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/assembly) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/assembly.md) |
+| **Reliability（信頼性）** | 熱サイクル、はんだ疲労、信頼性試験。<br>*Reliability testing including thermal cycling and solder fatigue.* | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/reliability) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/reliability.md) |
+| **Simulation（解析）** | SI/PI/EMC/熱解析による設計検証。<br>*Design validation through SI/PI/EMC and thermal simulations.* | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/simulation) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/simulation.md) |
 
 ---
 
