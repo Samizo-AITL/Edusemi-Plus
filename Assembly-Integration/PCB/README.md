@@ -11,9 +11,8 @@ title: "PCB | プリント基板"
 ---
 
 ## 🔗 リンク / Links
-
 | Link | Badge |
-|---|---|
+|------|-------|
 | 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/) |
 | 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/PCB) |
 
@@ -26,7 +25,6 @@ PCBは電子部品を実装する基板で、電気的・機械的な統合を�
 ---
 
 ## 📂 ファイル一覧 / File List
-
 | 📘 ファイル / File | 📑 内容 / Content | 🔗 リンク / Links |
 |--------------------|------------------|-------------------|
 | **Stack-up（層構成）** | 層構成の設計方法、信号・電源層の最適化。<br>*Design of PCB layer stack-ups, optimization of signal/power planes.* | [📖 Site](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/PCB/stackup) <br> [📂 Repo](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/PCB/stackup.md) |
@@ -47,7 +45,6 @@ PCBは、半導体・受動部品・コネクタを実装する基盤であり�
 ---
 
 ## 👤 著者・ライセンス / Author & License
-
 | **項目 / Item** | **内容 / Details** |
 |-----------------|--------------------|
 | **著者 / Author** | 三溝 真一（Shinichi Samizo） |
@@ -59,8 +56,7 @@ PCBは、半導体・受動部品・コネクタを実装する基盤であり�
 ---
 
 ## ⬆️ Back to Assembly & Integration
-
 | Link | Badge |
-|---|---|
+|------|-------|
 | 🌐 Back to Site | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/) |
 | 📂 Back to Repo | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration) |
