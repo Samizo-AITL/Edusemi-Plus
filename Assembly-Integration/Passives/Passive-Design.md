@@ -22,73 +22,97 @@ permalink: /Assembly-Integration/Passives/Passive-Design/
 ## 📑 目次 / Table of Contents
 1. [概要 / Overview](#-概要--overview)  
 2. [設計ゴール / Design Targets](#-設計ゴール--design-targets)  
-3. [受動部品の配置と配線 / Placement & Routing](#-受動部品の配置と配線--placement--routing)  
-4. [高周波設計の考慮点 / RF & High-Speed Considerations](#-高周波設計の考慮点--rf--high-speed-considerations)  
-5. [熱設計と信頼性 / Thermal & Reliability](#-熱設計と信頼性--thermal--reliability)  
-6. [学習目標 / Learning Goals](#-学習目標--learning-goals)  
-7. [関連リンク / Related Links](#-関連リンク--related-links)  
-8. [⬆️ Back to Passives](#️-back-to-passives)  
+3. [受動部品の寄生成分 / Parasitics](#-受動部品の寄生成分--parasitics)  
+4. [配置と配線 / Placement & Routing](#-配置と配線--placement--routing)  
+5. [高周波・高速設計 / RF & High-Speed Considerations](#-高周波高速設計--rf--high-speed-considerations)  
+6. [熱設計と信頼性 / Thermal & Reliability](#-熱設計と信頼性--thermal--reliability)  
+7. [モデル化とシミュレーション / Modeling & Simulation](#-モデル化とシミュレーション--modeling--simulation)  
+8. [学習目標 / Learning Goals](#-学習目標--learning-goals)  
+9. [関連リンク / Related Links](#-関連リンク--related-links)  
+10. [⬆️ Back to Passives](#️-back-to-passives)  
 
 ---
 
 ## 🏗 概要 / Overview
-受動部品（抵抗・コンデンサ・インダクタ）は PCB 設計の基本要素であり、**SI/PI/EMI/熱** の全てに影響します。  
-*Passive components (R, C, L) are fundamental PCB elements impacting SI, PI, EMI, and thermal performance.*  
+受動部品（抵抗 R、コンデンサ C、インダクタ L）は PCB 設計における**最小構成要素**ですが、寄生成分や実装条件によって性能が大きく変化します。  
+*Resistors, capacitors, and inductors are fundamental building blocks, but their real-world behavior strongly depends on parasitics and implementation.*  
 
-適切な部品選択・配置・配線により、システムの性能と信頼性を大きく左右します。  
-*Proper selection, placement, and routing strongly determine system performance and reliability.*  
+適切な設計ができなければ、SI/PI/EMC の劣化や熱問題を引き起こし、システム信頼性に直結します。  
 
 ---
 
 ## 🎯 設計ゴール / Design Targets
-- **最小パラジティクス**（寄生成分）の実現  
-  *Minimize parasitics (ESL, ESR, stray capacitance)*  
-- **低インダクタンスな電源デカップリング**  
-  *Low-inductance decoupling of power delivery*  
-- **高周波損失の低減**  
-  *Reduce RF/high-speed losses*  
-- **熱分散と信頼性向上**  
-  *Enhance thermal dissipation and long-term reliability*  
+- **SI/PIの安定化**: インピーダンス制御とデカップリング設計  
+  *Stabilize SI/PI with impedance control and decoupling*  
+- **寄生成分の抑制**: ESL, ESR, stray C の最小化  
+  *Minimize parasitics such as ESL, ESR, stray capacitance*  
+- **熱負荷耐性**: 定格電力・温度上昇を抑える配置  
+  *Maintain rated power and minimize thermal rise*  
+- **長期信頼性**: DC bias / aging / 環境条件を考慮  
+  *Consider DC bias, aging, and environmental stresses*  
 
 ---
 
-## 🧩 受動部品の配置と配線 / Placement & Routing
-- **抵抗 (R)**：クロックライン終端はソース/ロード近傍に配置。  
-  *Place termination resistors near source/load.*  
-- **コンデンサ (C)**：デカップリングは IC 電源ピン直近、広い GND 接続。  
-  *Place decoupling capacitors close to IC power pins, with wide ground vias.*  
-- **インダクタ (L)**：電源フィルタや EMI フィルタ用途で、ループ最小化。  
-  *Use inductors in power/EMI filters with minimized current loops.*  
+## 🧮 受動部品の寄生成分 / Parasitics
+| 部品 / Component | 主な寄生要素 / Parasitics | 影響 / Impact |
+|------------------|--------------------------|----------------|
+| 抵抗 (R) | ESL, stray C | GHz帯でインピーダンス不安定 |
+| コンデンサ (C) | ESR, ESL, DC bias効果 | デカップリング効果低下 |
+| インダクタ (L) | 直流抵抗 DCR、コア損失、分布C | 飽和・高周波損失 |
+
+- **直列モデル近似**:  
+  コンデンサ実デバイスは  
+  $$ Z(j\omega) \approx ESR + j\omega L_{ESL} + \frac{1}{j\omega C} $$  
+  で表現され、周波数で最適動作点が変化します。  
 
 ---
 
-## 📡 高周波設計の考慮点 / RF & High-Speed Considerations
-- **ESL低減**: 複数サイズの MLCC を並列配置。  
-  *Reduce ESL by paralleling MLCCs of different sizes.*  
-- **共振抑制**: デカップリングネットワークを広帯域化。  
-  *Broaden bandwidth of decoupling networks to suppress resonance.*  
-- **Q値調整**: RFフィルタでは部品 Q のバランス設計。  
-  *Balance Q factor for RF filters.*  
+## 🧩 配置と配線 / Placement & Routing
+- 抵抗：終端抵抗はクロック/高速I/Oにてソース直近へ。  
+  *Termination resistors placed near source for clocks/high-speed I/O.*  
+- コンデンサ：IC電源ピン直近、**多Via接続**で低インダクタンス化。  
+  *Place decoupling capacitors close to IC power pins with multiple vias.*  
+- インダクタ：フィルタ回路は電源ラインに直列配置、ループ面積を最小化。  
+  *Inductors in filters placed in series with minimized loop area.*  
+
+---
+
+## 📡 高周波・高速設計 / RF & High-Speed Considerations
+- **デカップリングネットワーク**: 0.1 µF + 1 µF + 10 µF の並列で広帯域化。  
+  *Use multiple capacitors in parallel for broadband decoupling.*  
+- **配線長**: 1/20 λ 以上で寄生インダクタンス無視不可。  
+  *Above 1/20 λ, trace inductance significantly affects behavior.*  
+- **フィルタ設計**: LC共振周波数 $f = \frac{1}{2\pi\sqrt{LC}}$ を明示的に管理。  
+  *Filter cutoff defined by LC resonance frequency.*  
 
 ---
 
 ## 🌡 熱設計と信頼性 / Thermal & Reliability
-- 抵抗器：許容電力と基板放熱を考慮。  
-  *Resistors: consider rated power and board heat dissipation.*  
-- コンデンサ：DCバイアスによる容量低下に注意。  
-  *Capacitors: watch out for capacitance drop under DC bias.*  
-- インダクタ：コア損失と飽和電流を評価。  
-  *Inductors: evaluate core loss and saturation current.*  
+- **抵抗器**: 定格電力の 50–70% 以下で設計。  
+  *Design resistors below 50–70% of rated power.*  
+- **コンデンサ**: セラミック MLCC は DC バイアスで容量が 20–60% 減少。  
+  *MLCC capacitance drops 20–60% under DC bias.*  
+- **インダクタ**: 飽和電流 ($I_{sat}$) と温度上昇 ($ΔT$) を同時考慮。  
+  *Evaluate inductors for both saturation current and thermal rise.*  
+
+---
+
+## 🔍 モデル化とシミュレーション / Modeling & Simulation
+- **等価回路モデル (RLC)** を用いた SPICE シミュレーション。  
+- **Sパラメータ**（メーカー提供 Touchstoneファイル）を活用。  
+- **3D EM シミュレーション**で高周波寄生を評価。  
+
+*Use RLC equivalent circuits, S-parameters, and EM solvers for accuracy.*  
 
 ---
 
 ## 🎯 学習目標 / Learning Goals
-- 受動部品配置と配線のベストプラクティスを理解する。  
-  *Understand best practices for passive placement & routing.*  
-- SI/PI/EMI 観点での部品選定と設計を習得する。  
-  *Learn component selection and design for SI/PI/EMI.*  
-- 高周波設計と熱信頼性を統合的に考慮できる。  
-  *Integrate RF design and thermal reliability considerations.*  
+- 部品寄生を考慮した正確な設計ができる。  
+  *Design with awareness of parasitics.*  
+- 配置・配線と高周波挙動の関係を理解できる。  
+  *Understand placement/routing vs RF behavior.*  
+- 熱・信頼性を含めた統合設計が可能になる。  
+  *Perform integrated design including thermal & reliability aspects.*  
 
 ---
 
