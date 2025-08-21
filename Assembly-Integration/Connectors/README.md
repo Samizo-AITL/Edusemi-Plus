@@ -6,45 +6,61 @@ title: "Connectors | コネクタ技術"
 # 🔌 Connectors / コネクタ技術
 
 ## 🏗 概要 / Overview
-- コネクタは、基板間・モジュール間・外部I/Oを接続するための重要な要素技術です。  
-- 電源供給から高速信号伝送 (PCIe, USB, HDMI, Ethernet 等) まで幅広く利用され、信号品質や機械的信頼性に直結します。  
-- **SystemDK** では、コネクタの電気特性 (インピーダンス, Sパラメータ) と機械的強度の両面を解析対象とします。  
+コネクタは、基板と基板、基板と外部機器、モジュール間を接続する重要な要素です。  
+*Connectors are critical elements that link board-to-board, board-to-device, and inter-module interfaces.*  
+
+信号伝送の品質、電源供給の安定性、機械的信頼性を同時に確保する必要があります。  
+*They must ensure signal transmission quality, stable power delivery, and mechanical reliability simultaneously.*  
+
+高速化・小型化が進み、差動伝送対応コネクタ、FPC/FFC、同軸、光モジュールなど多様な形態が存在します。  
+*With miniaturization and higher speeds, various forms exist, including differential connectors, FPC/FFC, coaxial, and optical modules.*  
 
 ---
 
 ## 📂 サブトピック / Subtopics
 ```
 Connectors/
- ├── BoardToBoard.md   ← ボード間コネクタ
- ├── FPC.md            ← フレキシブル基板コネクタ
- └── HighSpeedIO.md    ← 高速I/Oコネクタ (PCIe, USB, HDMI 等)
+ ├── BoardToBoard.md    ← 基板対基板コネクタ / Board-to-Board
+ ├── WireToBoard.md     ← ワイヤ対基板コネクタ / Wire-to-Board
+ ├── HighSpeed.md       ← 高速信号用コネクタ / High-Speed
+ └── PowerConnectors.md ← 電源用コネクタ / Power
 ```
 
 ---
 
 ## 🔑 キートピック / Key Topics
-- **ボード間コネクタ / Board-to-Board**  
-  - 多層基板間の接続、スタッキング、ピッチ制御  
-  - 耐振動性・機械的信頼性  
-- **フレキシブル基板コネクタ / FPC Connectors**  
-  - 薄型デバイス向け、可撓性と接触信頼性  
-- **高速I/Oコネクタ / High-Speed I/O**  
-  - PCIe, USB, HDMI, Ethernet, DisplayPort など  
-  - インピーダンス整合、リターンパス設計、EMI抑制  
+基板対基板コネクタ：スタッキング構造、ピッチ、SI/PI設計との関係。  
+*Board-to-Board connectors: stacking structure, pitch, relation to SI/PI design.*  
+
+ワイヤ対基板コネクタ：嵌合信頼性、電流容量、ロック機構。  
+*Wire-to-Board connectors: mating reliability, current capacity, locking mechanisms.*  
+
+高速コネクタ：差動伝送、インピーダンス制御、アイパターン劣化の最小化。  
+*High-speed connectors: differential signaling, impedance control, minimizing eye diagram degradation.*  
+
+電源コネクタ：高電流対応、低接触抵抗、熱設計との連携。  
+*Power connectors: high current support, low contact resistance, integration with thermal design.*  
 
 ---
 
-## 🌐 教材ポジション / Position in Assembly & Integration
+## 🌐 教材ポジション / Position
 ```mermaid
 graph TD
-  A[Assembly & Integration<br/>実装技術] --> B[Connectors<br/>Board-to-Board, FPC, High-Speed I/O]
-  B --> C[SystemDK<br/>電気・機械両面の解析モデル]
+  A[Assembly & Integration<br/>実装技術] --> B[Connectors<br/>コネクタ / Connectors]
+  B --> C[SystemDK<br/>高速伝送・電源供給解析 / High-Speed & Power Integrity Analysis]
 ```
 
 ---
 
 ## ✅ 学習目標 / Learning Goals
-- 各種コネクタの構造と特性を理解し、用途ごとに最適な選定ができる  
-- 高速I/O設計における信号品質・EMIへの影響を理解する  
-- PCB・パッケージ設計とのインターフェースを整理できる  
-- **SystemDK** を活用し、コネクタの電気的・機械的解析をシステム設計に反映できる  
+主要なコネクタ種別の特徴を理解し、設計要件に応じて適切に選定できる。  
+*Understand the characteristics of major connector types and select them according to design requirements.*  
+
+信号品質 (SI)・電源品質 (PI) を保証するための設計手法を習得する。  
+*Learn design methodologies to ensure Signal Integrity (SI) and Power Integrity (PI).*  
+
+コネクタの機械的信頼性と電気的特性を両立させる設計を実現する。  
+*Achieve designs that balance mechanical reliability with electrical performance.*  
+
+**SystemDK** による高速伝送・電源解析を通じ、システム全体の最適化に活用する。  
+*Utilize **SystemDK** high-speed and power analysis for system-level optimization.*  
