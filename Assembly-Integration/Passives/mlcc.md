@@ -139,6 +139,14 @@ $$
 
 ---
 
+## 📎 付録資料 / Appendix
+
+| 項目 / Item | 説明 / Description | Links |
+|-------------|-------------------|-------|
+| 📊 Appendix-MLCC | 周波数特性・容量変化率・誘電体別特性<br>*Impedance, capacitance variation, and dielectric-specific characteristics* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/Appendix-MLCC/) <br> [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Passives/Appendix-MLCC.md) |
+
+---
+
 ## 🔗 関連リンク / Related Links
 
 | 項目 / Item | 説明 / Description | Links |
