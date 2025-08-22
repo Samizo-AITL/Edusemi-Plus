@@ -60,7 +60,7 @@ title: Thin-Film Inductor Development (1996–1997)
 - To suppress such losses, **high-resistivity silicon substrates (10–100 Ω·cm)** are adopted:
   - ~10 Ω·cm is compatible with standard P-type CMOS processes,
   - Beyond 100 Ω·cm, **PN junction inversion and leakage risks increase**, limiting further resistivity scaling.
-- The **principles of minimizing eddy current loss by material and structural optimization**, as explored in the thin-film reactor study, directly correlate with **modern RF SoC inductor design strategies**.
+- The **principles of minimizing eddy current loss by material and structural optimization**, as explored in the thin-film reactor study, directly correlate with **modern RF SoC inductor design
 
 ---
 
@@ -78,7 +78,7 @@ For detailed formulas related to the Q-factor and associated loss mechanisms (DC
 This research is closely related to the design of **on-chip inductor Q-factor optimization**.  
 The following resource provides practical AMS design guidelines.
 
-📘 [5a.5 インダクタのQ値改善と配線・基板設計｜Improving Inductor Q-Factor via Wiring and Substrate Design](http://samizo-aitl.github.io/Edusemi-v4x/d_chapter5a_analog_mixed_signal/5_inductor_q_factor/)  
+📘 [5a.5 インダクタのQ値改善と配線・基板設計｜Improving Inductor Q-Factor via Wiring and Substrate Design](http://samizo-aitl.github.io/Edusemi-v4x/d_chapter5a_analog_mixed_signal/5_inductor_q_factor)  
 （オンチップインダクタのQ向上技術：金属・基板・パターン設計とその応用）  
 (Practical techniques for improving Q: metal stack, substrate isolation, and layout optimization)
 
