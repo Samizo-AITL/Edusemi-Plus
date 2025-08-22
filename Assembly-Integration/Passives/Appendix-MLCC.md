@@ -15,7 +15,7 @@ title: "MLCC付録資料 | Appendix MLCC Characteristics"
 *Impedance vs frequency characteristics by dielectric type.*
 
 <p align="center">
-  <img src="/Edusemi-Plus/Assembly-Integration/Passives/figures/mlcc_impedance_vs_frequency.png" alt="Impedance vs Frequency" width="70%">
+  <img src="https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/figures/mlcc_impedance_vs_frequency.png" alt="Impedance vs Frequency" width="70%">
 </p>
 
 - **C0G/NPO**  
@@ -38,7 +38,7 @@ title: "MLCC付録資料 | Appendix MLCC Characteristics"
 *Capacitance degradation under DC bias by dielectric type.*
 
 <p align="center">
-  <img src="/Edusemi-Plus/Assembly-Integration/Passives/figures/mlcc_capacitance_vs_bias.png" alt="Capacitance vs DC Bias" width="70%">
+  <img src="https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/figures/mlcc_capacitance_vs_bias.png" alt="Capacitance vs DC Bias" width="70%">
 </p>
 
 - **C0G/NPO**  
