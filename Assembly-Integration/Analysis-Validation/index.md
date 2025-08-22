@@ -6,7 +6,7 @@ title: "Analysis & Validation | 解析・検証"
 ---
 
 # 📊 Analysis & Validation / 解析・検証
-*Analysis & validation of SI, PI, Thermal, and EMC*
+*Analysis & validation of SI, PI, Thermal, EMC, Reliability, and Manufacturing*
 
 ---
 
@@ -20,18 +20,8 @@ title: "Analysis & Validation | 解析・検証"
 ---
 
 ## 📖 概要 / Overview
-解析・検証は、**SI（信号品質）、PI（電源品質）、熱、EMC** を対象に、設計段階で性能と信頼性を評価する重要プロセスです。  
-*Analysis and validation evaluate signal integrity, power integrity, thermal performance, and EMC to ensure system reliability at the design stage.*  
-
-主な内容は以下の通りです：  
-- **SI解析**：伝送路損失、クロストーク、アイダイアグラム  
-  *Signal Integrity: channel loss, crosstalk, eye diagrams*  
-- **PI解析**：PDNインピーダンス、デカップリング効果、電源ノイズ  
-  *Power Integrity: PDN impedance, decoupling efficiency, power noise*  
-- **熱解析**：ICパッケージ・PCBの温度分布、放熱設計  
-  *Thermal: package/PCB temperature distribution, heat dissipation design*  
-- **EMC評価**：放射ノイズ、伝導ノイズ、シールド効果  
-  *EMC: radiated/conducted noise, shielding effectiveness*  
+解析・検証は、**SI（信号品質）、PI（電源品質）、熱、EMC、信頼性、製造適合性** を対象に、設計段階で性能と品質を保証するプロセスです。  
+*Analysis and validation cover signal integrity, power integrity, thermal performance, EMC, reliability, and manufacturability to ensure robust design.*  
 
 ---
 
@@ -39,16 +29,19 @@ title: "Analysis & Validation | 解析・検証"
 
 | 📘 サブカテゴリ / Subcategory | 概要 (JP) | Summary (EN) | Links |
 |---|---|---|---|
-| 📡 Signal Integrity（SI解析） | 伝送路損失・クロストーク・反射解析 | *Signal Integrity analysis: loss, crosstalk, reflections* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/Signal-Integrity/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/Signal-Integrity.md) |
-| ⚡ Power Integrity（PI解析） | PDN設計・デカップリング・電源ノイズ | *Power Integrity analysis: PDN, decoupling, supply noise* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/Power-Integrity/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/Power-Integrity.md) |
-| 🌡 Thermal Analysis（熱解析） | 熱分布・放熱設計・材料特性 | *Thermal analysis: distribution, dissipation, material properties* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/Thermal/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/Thermal.md) |
-| 📶 EMC（電磁両立性） | 放射/伝導ノイズ、シールド・グラウンド設計 | *Electromagnetic compatibility: radiated/conducted noise, shielding* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/EMC/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/EMC.md) |
+| 📡 Signal Integrity（SI解析） | 伝送路損失・クロストーク・反射解析 | *Signal Integrity: loss, crosstalk, reflections* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/Signal-Integrity/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/Signal-Integrity.md) |
+| ⚡ Power Integrity（PI解析） | PDN設計・デカップリング・電源ノイズ | *Power Integrity: PDN, decoupling, supply noise* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/Power-Integrity/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/Power-Integrity.md) |
+| 🌡 Thermal Analysis（熱解析） | 熱分布・放熱設計・材料特性 | *Thermal Analysis: distribution, dissipation, material properties* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/Thermal-Analysis/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/Thermal-Analysis.md) |
+| 📶 EMC Analysis（電磁両立性） | 放射/伝導ノイズ、シールド・グラウンド設計 | *EMC Analysis: radiated/conducted noise, shielding effectiveness* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/EMC-Analysis/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/EMC-Analysis.md) |
+| 🛡 Reliability Validation（信頼性検証） | 加速試験・寿命推定・環境ストレス | *Reliability Validation: accelerated testing, lifetime, environmental stress* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/Reliability-Validation/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/Reliability-Validation.md) |
+| 🖥 System Validation（システム検証） | E2Eシミュレーション・HW/SW協調 | *System Validation: end-to-end simulation, HW/SW co-verification* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/System-Validation/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/System-Validation.md) |
+| 🏭 Manufacturing Validation（製造検証） | SMT実装・歩留まり解析・工程ばらつき | *Manufacturing Validation: SMT assembly, yield, process variations* | [![Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Analysis-Validation/Manufacturing-Validation/) [![Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Analysis-Validation/Manufacturing-Validation.md) |
 
 ---
 
 ## 📑 説明 / Description
-これらの解析は、**設計初期での課題抽出と最適化**により、**試作コスト削減と歩留まり向上**を可能にします。  
-*These analyses enable early design optimization, reducing prototyping costs and improving yield.*  
+これらの解析は、**設計初期での課題抽出と最適化**により、**試作コスト削減・歩留まり改善・信頼性確保**を可能にします。  
+*These analyses enable early issue detection and optimization, reducing prototyping costs, improving yield, and ensuring reliability.*  
 
 ---
 
