@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Connectors | コネクタ"
+title: "Connectors | コネクタ" 
 ---
 
 ---
