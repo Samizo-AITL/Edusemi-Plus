@@ -4,44 +4,49 @@
   <meta charset="UTF-8" />
   <title>{{ page.title | escape }} - {{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description | default: 'Edusemi-Plus 応用教材' }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="author" content="Shinichi Samizo" />
+  <meta name="color-scheme" content="light" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-  <!-- Base CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  <!-- Base CSS（キャッシュバスター付き / Portalと統一） -->
+  <link rel="stylesheet"
+        href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}" />
   <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}" />
 
   <!-- ✅ MathJax (LaTeX) -->
   <script>
     window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$','$$'], ['\\[','\\]']]
-      },
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
       chtml: { scale: 1.0 },
       options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
     };
   </script>
-  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
   <!-- ✅ Mermaid -->
   <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 </head>
-<body>
-  <main class="container">
-    {{ content }}
-  </main>
 
-  <footer class="footer">
-    <p>© {{ "now" | date: "%Y" }} Samizo-AITL ·
-      <a href="https://samizo-aitl.github.io/Edusemi-Plus/">Edusemi-Plus</a>
-    </p>
-  </footer>
+<!-- ★ ポータルと同一トーンにする -->
+<body class="theme-sepia">
+  <main class="container">
+    <!-- 幅と左右余白を安定化（必要ならCSS側に移してOK） -->
+    <div class="wrapper" style="max-width:980px;margin:0;padding:1.5rem 1rem;">
+      {{ content }}
+
+      <footer class="footer" style="margin-top:2rem;font-size:.95em;">
+        <p>© {{ "now" | date: "%Y" }} Samizo-AITL ·
+          <a href="{{ '/' | absolute_url }}Edusemi-Plus/">Edusemi-Plus</a>
+        </p>
+      </footer>
+    </div>
+  </main>
 
   <!-- Mermaid 初期化：```mermaid → <div class="mermaid"> 置換 + 中央寄せ + ライト固定 -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // 1) Jekyll が出力した <code class="language-mermaid"> を <div class="mermaid"> に置換
+      // 1) <code class="language-mermaid"> → <div class="mermaid">
       document.querySelectorAll('code.language-mermaid').forEach(function (code) {
         const pre = code.closest('pre');
         const div = document.createElement('div');
@@ -50,7 +55,7 @@
         (pre || code).replaceWith(div);
       });
 
-      // 2) 中央寄せ（CSSがあっても重複OK）
+      // 2) 中央寄せ（CSSと重複しても問題なし）
       document.querySelectorAll('.mermaid').forEach(function (el) {
         el.style.display = 'block';
         el.style.margin = '1.5rem auto';
@@ -58,13 +63,9 @@
         el.style.textAlign = 'center';
       });
 
-      // 3) ライトテーマ固定（ダーク端末でも黒潰れ回避）
+      // 3) ライトテーマ固定
       if (window.mermaid) {
-        mermaid.initialize({
-          startOnLoad: true,
-          securityLevel: 'loose',
-          theme: 'default'
-        });
+        mermaid.initialize({ startOnLoad: true, securityLevel: 'loose', theme: 'default' });
       }
     });
   </script>
