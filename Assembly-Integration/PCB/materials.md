@@ -142,6 +142,7 @@ $$
 | 📖 Stack-up | 層構成とインピーダンス管理<br>*Layer stack-up and impedance management* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./stackup.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/stackup) |
 | 📖 Impedance Control | インピーダンス設計と制御<br>*Impedance design & control* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./impedance-control.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/impedance-control) |
 | 📖 Reliability | 材料信頼性・環境試験<br>*Material reliability & environmental tests* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./reliability.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/reliability) |
+| 📖 Appendix: Fiber Issues | ガラスファイバー由来の構想不具合<br>*Fiber-induced structural issues (CAF, via offset)* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](./Appendix-Fiber-Issues.md)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](../PCB/Appendix-Fiber-Issues.md) |
 
 ---
 
