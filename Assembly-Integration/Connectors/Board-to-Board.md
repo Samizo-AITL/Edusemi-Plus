@@ -49,7 +49,9 @@ Board-to-Board コネクタは、**複数基板を物理的かつ電気的に接
 - **省スペース実装**：スマートフォン、IoT機器  
   *Space-saving assemblies for smartphones and IoT devices*  
 - **産業機器・車載**：耐振動・耐環境構造  
-  *Industrial and automotive applications requiring vibration resistance*  
+  *Industrial and automotive applications requiring vibration resistance*
+- **LVDSインターフェース**：LCDパネルやカメラモジュール接続  
+  *LVDS interface for LCD panels and camera modules*
 
 ---
 
@@ -87,7 +89,9 @@ Board-to-Board コネクタは、**複数基板を物理的かつ電気的に接
 - **組立誤差吸収**：フローティング構造により実装ずれを吸収。  
   *Floating structures improve tolerance to assembly errors.*  
 - **EMI対策**：シールド付きタイプを利用。  
-  *Use shielded mezzanine connectors for EMI reduction.*  
+  *Use shielded mezzanine connectors for EMI reduction.*
+- **LVDS差動信号**：100 Ω差動インピーダンス維持とスキュー管理が必須。  
+  *Maintain 100 Ω differential impedance and control skew for LVDS signals.*
 
 ---
 
