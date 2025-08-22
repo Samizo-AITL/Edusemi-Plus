@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MLCC付録資料｜Appendix: MLCC Characteristics
+title: MLCC付録資料｜Appendix  MLCC Characteristics
 ---
 
 ---
