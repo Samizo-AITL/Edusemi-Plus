@@ -1,11 +1,12 @@
 ---
 layout: default
-title: "Board-to-Board | 基板対基板コネクタ"
+title: "Board-to-Board | 基板間コネクタ"
 ---
 
 ---
 
-# 🔗 Board-to-Board Connectors / 基板対基板コネクタ
+# 🧩 Board-to-Board / 基板間コネクタ
+*High-speed interconnects for dense PCB assemblies*
 
 ---
 
@@ -20,73 +21,95 @@ title: "Board-to-Board | 基板対基板コネクタ"
 
 ## 📑 目次 / Table of Contents
 1. [概要 / Overview](#-概要--overview)  
-2. [種類 / Types](#-種類--types)  
-3. [特性パラメータ / Key Parameters](#-特性パラメータ--key-parameters)  
-4. [設計上の考慮事項 / Design Considerations](#-設計上の考慮事項--design-considerations)  
-5. [信頼性と実装 / Reliability & Mounting](#-信頼性と実装--reliability--mounting)  
-6. [学習目標 / Learning Goals](#-学習目標--learning-goals)  
-7. [関連リンク / Related Links](#-関連リンク--related-links)  
-8. [⬆️ Back to Connectors](#️-back-to-connectors)  
+2. [用途 / Applications](#-用途--applications)  
+3. [種類 / Types](#-種類--types)  
+4. [主要パラメータ / Key Parameters](#-主要パラメータ--key-parameters)  
+5. [設計上の考慮事項 / Design Considerations](#-設計上の考慮事項--design-considerations)  
+6. [信頼性と試験 / Reliability & Testing](#-信頼性と試験--reliability--testing)  
+7. [学習目標 / Learning Goals](#-学習目標--learning-goals)  
+8. [関連リンク / Related Links](#-関連リンク--related-links)  
+9. [⬆️ Back to Connectors](#️-back-to-connectors)  
 
 ---
 
 ## 🏗 概要 / Overview
-基板対基板コネクタは、**複数のプリント基板を電気的・機械的に接続**するために用いられます。  
-*Board-to-board connectors are used to provide both electrical and mechanical connection between multiple PCBs.*  
+Board-to-Board コネクタは、**複数基板を物理的かつ電気的に接続**するためのコネクタです。  
+*Board-to-board connectors provide both physical and electrical interconnects between multiple PCBs.*  
 
-用途はスマートフォン、産業機器、サーバー、車載機器など広範囲にわたります。  
+高速信号伝送、電源ライン供給、実装密度向上のために広く用いられます。  
+*They are widely used for high-speed signal transmission, power delivery, and compact system integration.*  
+
+---
+
+## 🎯 用途 / Applications
+- **モジュール間インターフェース**：CPU基板と拡張ボード  
+  *Inter-module interface such as CPU boards and daughter cards*  
+- **高速バス伝送**：PCIe, USB4, MIPI, DDR インターフェース  
+  *High-speed bus connections such as PCIe, USB4, MIPI, DDR*  
+- **省スペース実装**：スマートフォン、IoT機器  
+  *Space-saving assemblies for smartphones and IoT devices*  
+- **産業機器・車載**：耐振動・耐環境構造  
+  *Industrial and automotive applications requiring vibration resistance*  
 
 ---
 
 ## 🧩 種類 / Types
-| 種類 / Type | 特徴 / Characteristics |
-|-------------|-------------------------|
-| **スタッキング型 / Stacking** | 垂直方向に基板を積層接続。高密度化に適す。<br>*Vertical stacking of boards for high-density integration.* |
-| **メザニン型 / Mezzanine** | 平行に基板を接続。高速信号伝送向き。<br>*Parallel board connection, suited for high-speed signals.* |
-| **直角型 / Right-Angle** | 水平方向に基板を接続。L字構造で筐体設計に柔軟。<br>*Right-angle connection for compact system design.* |
-| **フローティング型 / Floating** | ±0.5 mm 程度の位置ずれ吸収。車載や産業用に多用。<br>*Absorbs misalignment (±0.5 mm), widely used in automotive/industrial.* |
+| 種類 / Type | 構造・用途 / Structure & Use | 特徴 / Characteristics |
+|-------------|-------------------------------|-------------------------|
+| **スタッキング型 / Stacking** | 基板を垂直方向に積層 / *Vertical stacking of PCBs* | 電源・信号接続両用 / *For both power and signals* |
+| **メザニン型 / Mezzanine** | 平行基板接続 / *Parallel board connection* | 高速信号対応、シールド可能 / *Supports high-speed signals with shielding* |
+| **カードエッジ型 / Card Edge** | 基板エッジ接点 / *Edge contacts on PCB* | 高電流・拡張カード向け / *Suitable for high-current and expansion cards* |
+| **フローティング型 / Floating** | コネクタ位置ずれ吸収 / *Absorbs misalignment* | 耐振動・組立誤差吸収 / *Vibration resistance and assembly tolerance* |
 
 ---
 
-## 📊 特性パラメータ / Key Parameters
-- **ピッチ / Pitch**: 0.3 mm〜1.0 mm が主流  
-  *Pitch ranges from 0.3 mm to 1.0 mm.*  
-- **定格電流 / Current Rating**: 0.3〜2 A 程度  
-  *Typical current rating 0.3–2 A.*  
-- **信号速度 / Signal Speed**: 最大 28 Gbps 対応品も存在  
-  *Some support up to 28 Gbps transmission.*  
-- **耐久性 / Durability**: 30〜100 回程度の嵌合サイクル  
-  *Mating cycles typically 30–100 times.*  
+## 📊 主要パラメータ / Key Parameters
+- **定格電流 / Current Rating**  
+  *Maximum current capacity per pin*  
+- **特性インピーダンス / Characteristic Impedance**  
+  *Impedance control for high-speed signals*  
+- **挿抜寿命 / Mating Cycles**  
+  *Durability defined by number of mating operations*  
+- **接触抵抗 / Contact Resistance**  
+  *Resistance at connector contact points*  
+- **耐電圧 / Voltage Rating**  
+  *Maximum voltage withstand capability*  
+- **動作温度範囲 / Operating Temperature Range**  
+  *Temperature limits for reliable operation*  
 
 ---
 
 ## 🧵 設計上の考慮事項 / Design Considerations
-- **SI/PI**: インピーダンス整合を考慮し、GNDピンを挟んで配置。  
-  *Consider impedance matching, interleave GND pins.*  
-- **フットプリント**: はんだクラック防止のためランド強度を確保。  
-  *Ensure pad strength to prevent solder cracks.*  
-- **メカ設計**: 基板ズレ・筐体変形を吸収するフローティング型を検討。  
-  *Floating connectors help absorb misalignment and chassis stress.*  
-- **熱設計**: 高電流モデルでは発熱に注意。  
-  *Monitor heating in high-current applications.*  
+- **高速信号**：差動ペアのインピーダンス整合必須。  
+  *Differential pair impedance matching is mandatory for high-speed signals.*  
+- **電源供給**：複数ピン並列化で低インピーダンス化。  
+  *Use parallel power pins to reduce impedance.*  
+- **組立誤差吸収**：フローティング構造により実装ずれを吸収。  
+  *Floating structures improve tolerance to assembly errors.*  
+- **EMI対策**：シールド付きタイプを利用。  
+  *Use shielded mezzanine connectors for EMI reduction.*  
 
 ---
 
-## 🛡 信頼性と実装 / Reliability & Mounting
-- **車載用途**: AEC-Q100/Q200 に準拠する部品を推奨。  
-- **はんだ実装**: BGA/SMT タイプはリフロー条件を厳守。  
-- **振動試験**: IEC 60512 に基づく振動耐性確認が必要。  
-- **接触抵抗**: 長期使用による上昇をモニタリング。  
+## 🛡 信頼性と試験 / Reliability & Testing
+- **温度サイクル試験**：接触抵抗の変動確認。  
+  *Evaluate contact resistance under thermal cycling.*  
+- **振動試験**：フローティング構造の有効性確認。  
+  *Verify floating connectors under vibration tests.*  
+- **湿度試験**：腐食や劣化を評価。  
+  *Assess corrosion and degradation under humidity.*  
+- **挿抜耐久試験**：規定サイクル後の性能維持を確認。  
+  *Confirm performance after specified mating cycles.*  
 
 ---
 
 ## 🎯 学習目標 / Learning Goals
-- 基板対基板コネクタの種類と特徴を理解する。  
-  *Understand the types and characteristics of board-to-board connectors.*  
-- SI/PI を考慮した設計上の注意点を説明できる。  
-  *Explain design considerations with SI/PI in mind.*  
-- 車載・高速用途での信頼性設計を適用できる。  
-  *Apply reliability design practices for automotive and high-speed use cases.*  
+- 各種 Board-to-Board コネクタの特徴を理解する。  
+  *Understand the characteristics of various board-to-board connectors.*  
+- 高速信号・電源供給における設計考慮点を説明できる。  
+  *Explain design considerations for high-speed and power delivery.*  
+- 信頼性試験を設計に反映できる。  
+  *Apply reliability testing results to design decisions.*  
 
 ---
 
@@ -94,9 +117,9 @@ title: "Board-to-Board | 基板対基板コネクタ"
 
 | 項目 / Item | 説明 / Description | Links |
 |-------------|-------------------|-------|
-| 🔌 Wire-to-Board | ケーブル・ハーネス接続<br>*Cable & harness connectors* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/Wire-to-Board/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Connectors/Wire-to-Board.md) |
-| ⚡ High-Speed | 高速信号対応コネクタ<br>*Connectors for high-speed signals* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/High-Speed/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Connectors/High-Speed.md) |
-| 🔋 Power | 電源用大電流コネクタ<br>*High-current power connectors* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/Power/)<br>[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Connectors/Power.md) |
+| 🔌 Connectors | コネクタカテゴリ全体<br>*Overview of connectors* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/) <br> [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Connectors) |
+| 🔋 Power Connectors | 電源用コネクタ<br>*Power connectors* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/Power/) <br> [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Connectors/Power.md) |
+| 🛰 RF Connectors | 高周波用コネクタ<br>*RF connectors* | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/RF/) <br> [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/Assembly-Integration/Connectors/RF.md) |
 
 ---
 
@@ -105,4 +128,4 @@ title: "Board-to-Board | 基板対基板コネクタ"
 | 項目 / Item | 説明 / Description | Links |
 |-------------|-------------------|-------|
 | 🌐 Back to Site | Connectors全体ページへ戻る<br>*Back to Connectors site* | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Connectors/) |
-| 📂 Back to Repo | GitHubリポジトリに戻る<br>*Back to GitHub repo* | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Connectors) |
+| 📂 Back to Repo | GitHubリポジトリに戻る<br>*Back to Connectors repo* | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Connectors) |
