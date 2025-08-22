@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MLCC付録資料｜Appendix  MLCC Characteristics
+title: "MLCC付録資料 | Appendix MLCC Characteristics"
 ---
 
 ---
@@ -15,7 +15,7 @@ title: MLCC付録資料｜Appendix  MLCC Characteristics
 *Impedance vs frequency characteristics by dielectric type.*
 
 <p align="center">
-  <img src="./figures/mlcc_impedance_vs_frequency.png" alt="Impedance vs Frequency" width="70%">
+  <img src="figures/mlcc_impedance_vs_frequency.png" alt="Impedance vs Frequency" width="70%">
 </p>
 
 - **C0G/NPO**  
@@ -38,7 +38,7 @@ title: MLCC付録資料｜Appendix  MLCC Characteristics
 *Capacitance degradation under DC bias by dielectric type.*
 
 <p align="center">
-  <img src="./figures/mlcc_capacitance_vs_bias.png" alt="Capacitance vs DC Bias" width="70%">
+  <img src="figures/mlcc_capacitance_vs_bias.png" alt="Capacitance vs DC Bias" width="70%">
 </p>
 
 - **C0G/NPO**  
@@ -90,6 +90,9 @@ title: MLCC付録資料｜Appendix  MLCC Characteristics
 
 ---
 
-## 🔙 戻る / *Back*
+## ⬆️ Back to Passives
 
-[⬅️ Passivesトップに戻る / *Back to Passives Top*](./index.md)
+| 項目 / Item | 説明 / Description | Links |
+|-------------|-------------------|-------|
+| 🌐 Back to Site | Passives全体ページへ戻る<br>*Back to Passives site* | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/Assembly-Integration/Passives/) |
+| 📂 Back to Repo | GitHubリポジトリに戻る<br>*Back to GitHub repo* | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/Assembly-Integration/Passives) |
