@@ -6,7 +6,6 @@ title: 🧩 Ferroelectric Varactors
 ---
 
 # 🧩 Ferroelectric Varactors  
-*Ferroelectric Varactors*
 
 [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../../../../#-ライセンス--license)
 
