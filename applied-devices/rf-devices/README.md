@@ -105,27 +105,11 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-  RnD[Concept & R&D<br/>Virtual 0.18 µm FeRAM → RF] --> PDK[PDK & RF IP<br/>FeVar / Switch / BAW cells]
-  PDK --> REF[Reference Designs<br/>Front-End modules, eval boards]
-  REF --> SiP[Module / SiP Vendors<br/>RF FEM, Antenna-in-Package]
-  SiP --> OEM[OEM/ODMs<br/>Handsets, IoT, Automotive]
-  OEM --> Field[Field Deployment<br/>Certification & Rollout]
-```
-```mermaid
-flowchart TB
-  RnD["概念設計・研究開発\\nConcept & R&D\\nVirtual 0.18 um FeRAM → RF"] --> PDK["PDK・RF IP提供\\nPDK & RF IP\\nFeVar / Switch / BAW cells"]
-  PDK --> REF["リファレンス設計\\nReference Designs\\nFront-End modules, eval boards"]
-  REF --> SiP["モジュール・SiPベンダー\\nModule / SiP Vendors\\nRF FEM, Antenna-in-Package"]
-  SiP --> OEM["機器メーカー (OEM/ODM)\\nOEM/ODMs\\nHandsets, IoT, Automotive"]
-  OEM --> Field["市場導入・認証展開\\nField Deployment\\nCertification & Rollout"]
-```
-```mermaid
-flowchart TB
-  RnD["概念設計・研究開発\\nConcept & R&D\\nVirtual 0.18 um FeRAM → RF"] --> PDK["PDK・RF IP提供\\nPDK & RF IP\\nFeVar / Switch / BAW cells"]
-  PDK --> REF["リファレンス設計\\nReference Designs\\nFront-End modules, eval boards"]
-  REF --> SiP["モジュール・SiPベンダー\\nModule / SiP Vendors\\nRF FEM, Antenna-in-Package"]
-  SiP --> OEM["機器メーカー (OEM/ODM)\\nOEM/ODMs\\nHandsets, IoT, Automotive"]
-  OEM --> Field["市場導入・認証展開\\nField Deployment\\nCertification & Rollout"]
+  RnD["概念設計・研究開発 / Concept & R&D (Virtual 0.18 um FeRAM → RF)"] --> PDK["PDK・RF IP提供 / PDK & RF IP (FeVar / Switch / BAW cells)"]
+  PDK --> REF["リファレンス設計 / Reference Designs (Front-End modules, eval boards)"]
+  REF --> SiP["モジュール・SiPベンダー / Module & SiP Vendors (RF FEM, Antenna-in-Package)"]
+  SiP --> OEM["機器メーカー (OEM/ODM) / OEM & ODMs (Handsets, IoT, Automotive)"]
+  OEM --> Field["市場導入・認証展開 / Field Deployment (Certification & Rollout)"]
 ```  
 
 - **教育起点の強み**：仮想プロセス → 実装テンプレ → 参照設計 という流れを一気通貫で提示可能  
