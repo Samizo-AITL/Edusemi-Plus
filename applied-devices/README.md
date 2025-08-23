@@ -3,11 +3,14 @@ layout: default
 title: 🔬 応用デバイス / Applied Devices
 ---
 
+---
+
 # 🔬 応用デバイス / Applied Devices  
 *Applied Devices*
 
+---
+
 ## 🔗 リンク / Links  
-*Links*
 
 | Link | Badge |
 |---|---|
