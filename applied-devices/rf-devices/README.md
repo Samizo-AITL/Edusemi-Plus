@@ -57,7 +57,7 @@ and expands it toward RF devices.*
 *Process lineage from the 0.18 µm FeRAM virtual process to RF devices*
 
 ```mermaid
-flowchart LR
+flowchart TB
   subgraph FE["0.18 um FeRAM (Virtual, Educational)"]
     GATE["Front-end (FEOL)\\nDual-VDD CMOS 1.8/3.3 V"] --> SALI["Salicide CoSi2"]
     BEOL["Back-end (BEOL)\\nAlCu M1-3 + W-Plugs"]
