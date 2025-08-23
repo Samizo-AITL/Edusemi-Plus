@@ -37,16 +37,15 @@ educational “0.18 µm FeRAM virtual process.”*
 ### 1️⃣ 現行RFデバイス / *Current RF Devices*  
 | セクション / Section | 内容 / Description | Link |
 |---|---|---|
+| 📘 **全体概要 / Overview** | 現行RF FEM技術と市場動向のまとめ<br>*Summary of current RF FEM technologies and market trends* | [current-devices.md](./current-devices.md) |
 | 🧩 **強誘電体可変キャパシタ / Ferroelectric Varactors** | HfO₂系強誘電体を用いた可変キャパシタ<br>*HfO₂-based ferroelectric tunable capacitors* | [ferroelectric-varactors.md](./ferroelectric-varactors.md) |
 | 🔀 **RFスイッチ / RF Switches** | FeFET・MEMS・SOIによるスイッチ<br>*RF switches using FeFET, MEMS, or SOI* | [rf-switches.md](./rf-switches.md) |
 | 📡 **BAW/FBAR デバイス / BAW/FBAR Devices** | 薄膜共振子ベースのフィルタ技術<br>*Filter technologies based on thin-film resonators* | [baw-fbar.md](./baw-fbar.md) |
 
-📄 全体概要 → [current-devices.md](./current-devices.md)  
-
 ### 2️⃣ 提案（CMOS混載型RFデバイス） / *Proposal: CMOS-integrated RF Devices*  
 | セクション / Section | 内容 / Description | Link |
 |---|---|---|
-| ✨ **提案 / Proposal** | 0.18 µm FeRAM仮想プロセスを起点としたRFデバイス提案<br>*Proposal of RF devices based on the 0.18 µm FeRAM virtual process* | [proposal.md](./proposal.md) |
+| 📘 **全体概要 / Overview** | 0.18 µm FeRAM仮想プロセスを起点とした提案の概要<br>*Overview of proposals based on the 0.18 µm FeRAM virtual process* | [proposal.md](./proposal.md) |
 
 ---
 
