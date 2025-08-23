@@ -104,7 +104,7 @@ flowchart TB
 *Value chain & deliverables*
 
 ```mermaid
-flowchart LR
+flowchart TB
   RnD[Concept & R&D<br/>Virtual 0.18 µm FeRAM → RF] --> PDK[PDK & RF IP<br/>FeVar / Switch / BAW cells]
   PDK --> REF[Reference Designs<br/>Front-End modules, eval boards]
   REF --> SiP[Module / SiP Vendors<br/>RF FEM, Antenna-in-Package]
