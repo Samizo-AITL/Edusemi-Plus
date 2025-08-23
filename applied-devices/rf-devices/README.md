@@ -43,18 +43,47 @@ title: 📡 RF・可変素子 / RF & Tunable Devices
 and expands it toward RF devices.*
 
 - **強誘電キャパシタ（Pt/PZT/Ti, HfO₂系）** → RFフロントエンド用の可変キャパシタ（FeVar）  
-  *Ferroelectric capacitors (Pt/PZT/Ti, HfO₂-based) adapted into RF front-ends as tunable capacitors.*
-
 - **高耐圧MOS + FeRAMキャパシタ統合** → RFスイッチ素子（FeFET, Reconfigurable Switch）  
-  *Integration of HV MOS with FeRAM capacitors → RF switching devices (FeFET, reconfigurable switch).*
-
 - **PZT薄膜積層の共振利用** → FBAR/BAWフィルタへ応用  
-  *Resonant use of PZT thin-film stacks → application to FBAR/BAW filters.*
 
 > ⚠️ **注意 / Note**  
 > ここで参照する「0.18 µm FeRAM プロセス」は、教育目的で設計された**仮想プロセス**であり、  
 > 実在の製品・企業機密・製造フローとは一切関係ありません。  
 > *The “0.18 µm FeRAM process” referenced here is a **virtual process for educational purposes** and is not related to any actual product, proprietary process, or confidential information.*
+
+---
+
+## 🧭 図解：0.18 µm FeRAM → RFデバイス系譜  
+*Process lineage from the 0.18 µm FeRAM virtual process to RF devices*
+
+```mermaid
+flowchart LR
+  subgraph FE["0.18 µm FeRAM (Virtual, Educational)"]
+    GATE[Front-end (FEOL)<br/>Dual-VDD CMOS 1.8/3.3V]<-->SALI[Salicide CoSi₂]
+    BEOL[Back-end (BEOL)<br/>AlCu M1-3 + W-Plugs]
+    CAP1[FeRAM Stack A<br/>Pt/PZT/Ti]
+    CAP2[FeRAM Stack B<br/>TiN/HfZrO₂/TiN (HZO)]
+    GATE-->BEOL-->CAP1
+    BEOL-->CAP2
+  end
+
+  CAP2 -- "BEOL統合 / ALD-HZO 8–12 nm<br/>RTA 400–450°C" --> FeVar{{FeVar<br/>Ferroelectric Varactor}}
+  GATE -- "HV MOS + FeVar Gate Bias" --> RFSW1{{RF Switch<br/>(FET + FeVar Bias)}}
+  GATE -- "局所HZO Gate Stack" --> RFSW2{{RF Switch<br/>(FeFET-Switch)}}
+  CAP1 -- "薄膜圧電の共振利用" --> BAW((BAW/FBAR Core))
+
+  subgraph RF["RF Front-End Integration"]
+    MATCH[Reconfigurable Matching<br/>Cfixed ∥ FeVar]
+    PATHSEL[Band/Path Selection<br/>with RF Switches]
+    FILTER[BAW/FBAR Filters]
+    LNA[PA/LNA I/O Networks]
+  end
+
+  FeVar-->MATCH-->LNA
+  RFSW1-->PATHSEL-->FILTER
+  RFSW2-->PATHSEL
+  BAW-->FILTER
+```
 
 ---
 
@@ -69,13 +98,62 @@ and expands it toward RF devices.*
 
 ---
 
-## 🗂️ 今後の拡張 / Future Expansion  
-*Future Expansion*
+## 🧩 市場への展開 / Market Deployment  
 
-- **5G/6G向け再構成可能RFフロントエンド**の教材追加予定。  
-  *Planned content: reconfigurable RF front-ends for 5G/6G.*  
-- 他の **圧電MEMSデバイス**との比較を追加。  
-  *Comparison with other piezo-MEMS devices will be added.*  
+### 1) バリューチェーンと供給形態  
+*Value chain & deliverables*
+
+```mermaid
+flowchart LR
+  RnD[Concept & R&D<br/>Virtual 0.18 µm FeRAM → RF] --> PDK[PDK & RF IP<br/>FeVar / Switch / BAW cells]
+  PDK --> REF[Reference Designs<br/>Front-End modules, eval boards]
+  REF --> SiP[Module / SiP Vendors<br/>RF FEM, Antenna-in-Package]
+  SiP --> OEM[OEM/ODMs<br/>Handsets, IoT, Automotive]
+  OEM --> Field[Field Deployment<br/>Certification & Rollout]
+```
+
+- **教育起点の強み**：仮想プロセス → 実装テンプレ → 参照設計 という流れを一気通貫で提示可能  
+- **提供形態**：  
+  - RF 可変素子 IP セット（FeVar/スイッチのセル＋モデル）  
+  - リファレンス・マッチネット（周波数別テンプレ）  
+  - 評価基板（Sパラ測定・P1dB/IIP3実演）
+
+---
+
+### 2) アプリケーション・マップ  
+*Application map*
+
+| Segment | Use-case | Goal Specs (目安) | Note |
+|---|---|---|---|
+| **Smartphone RF FEM** | Band selection, tunable matching | IL ≤ 0.5 dB（switch）, Q@2–6 GHz > 30（FeVar） | 多バンド最適化・小型化 |
+| **Wi-Fi (2.4/5/6 GHz)** | Antenna tuning / reconfig | S11 ≤ −10 dB、IIP3高め | 筐体差の補正 |
+| **IoT (Sub-GHz/2.4 GHz)** | Antenna trimming | 低電力・不揮発設定保持 | バッテリ寿命重視 |
+| **Automotive (V2X/Telematics)** | Harsh temp drift comp. | −40〜125 °Cドリフト補償 | 信頼性・AEC-Q |
+| **Infrastructure (Sub-6/FR1)** | Reconfigurable front-end | 高IP3、耐電力 | PA側整合補助 |
+
+---
+
+### 3) TRL（技術成熟度）とロードマップ（教育モデル）
+*TRL & roadmap (educational model)*
+
+```mermaid
+gantt
+    title RF Devices Roadmap (Educational)
+    dateFormat  YYYY-MM-DD
+    section FeVar (HZO)
+    Modeling/PDK            :done,    des1, 2025-01-01, 60d
+    Layout Templates        :active,  des2, 2025-03-01, 60d
+    Eval Board & S-params   :         des3, 2025-05-01, 90d
+    section RF Switch
+    FET+FeVar Gate Bias     :done,    sw1,  2025-02-01, 45d
+    FeFET-Switch (local HZO):active,  sw2,  2025-03-15, 120d
+    section BAW/FBAR
+    Resonator Modeling      :         baw1, 2025-04-01, 90d
+    Filter Reference        :         baw2, 2025-07-01, 90d
+```
+
+- **TRL 目安**：FeVar（5–6） → Switch（4–5） → BAW/FBAR（3–4）  
+- **マイルストーン**：PDK公開 → 参照設計 → 評価基板 → 認証支援  
 
 ---
 
