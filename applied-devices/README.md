@@ -3,10 +3,18 @@ layout: default
 title: 🔬 応用デバイス / Applied Devices
 ---
 
----
-
 # 🔬 応用デバイス / Applied Devices  
 *Applied Devices*
+
+## 🔗 リンク / Links  
+*Links*
+
+| Link | Badge |
+|---|---|
+| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/) |
+| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices) |
+
+---
 
 > **概要 / Overview**  
 > 「応用デバイス」カテゴリでは、**新材料・新構造を応用した多様な半導体デバイス群**を整理します。  
