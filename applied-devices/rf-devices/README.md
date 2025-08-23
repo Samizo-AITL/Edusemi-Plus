@@ -6,7 +6,6 @@ title: 📡 RF・可変素子 / RF & Tunable Devices
 ---
 
 # 📡 RF・可変素子 / RF & Tunable Devices  
-*RF & Tunable Devices*
 
 [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../../../#-ライセンス--license)
 
@@ -21,60 +20,77 @@ title: 📡 RF・可変素子 / RF & Tunable Devices
 
 ---
 
-## 📘 概要 / Overview  
-*Overview*
+# Part 1️⃣ 現行RFデバイスの紹介 / Current RF Devices  
 
-本カテゴリでは、**RF通信・高周波回路で利用される可変素子・スイッチングデバイス**を整理します。  
-*This category covers tunable devices and switching elements used in RF communication and high-frequency circuits.*
-
-例として：  
-- **強誘電体可変キャパシタ（FeVar, HfO₂系など）**  
-- **RFスイッチ（FeFET, MEMS, SOI-CMOSベース）**  
-- **FBAR / BAWフィルタ（AlN, ScAlN, HfO₂ベース）**  
-- **再構成可能RFフロントエンド**  
+## 📘 概要 / Overview
+現行のRF通信モジュールは、スマートフォン・IoT・車載を中心に巨大市場を形成しており、  
+**FBAR/BAWフィルタ**や**SOI RFスイッチ**を核とする **RFフロントエンドモジュール（FEM）** が標準構成です。  
+*Current RF modules form a major market around smartphones, IoT, and automotive, with FBAR/BAW filters and SOI RF switches as the core of RF FEMs.*  
 
 ---
 
-## 🔄 0.18 µm FeRAM からの展開 / Expansion from 0.18 µm FeRAM
+## 🔑 主な構成要素 / Key Components  
 
-本カテゴリは、三溝真一による **教育目的の仮想プロセスモデル**  
-「0.18 µm FeRAM プロセス」を基盤として、RF領域へ応用展開されます。  
-*This category builds on the **virtual process model for educational purposes** “0.18 µm FeRAM process” proposed by Shinichi Samizo,  
-and expands it toward RF devices.*
-
-- **強誘電キャパシタ（Pt/PZT/Ti, HfO₂系）** → RFフロントエンド用の可変キャパシタ（FeVar）  
-- **高耐圧MOS + FeRAMキャパシタ統合** → RFスイッチ素子（FeFET, Reconfigurable Switch）  
-- **PZT薄膜積層の共振利用** → FBAR/BAWフィルタへ応用  
-
-> ⚠️ **注意 / Note**  
-> ここで参照する「0.18 µm FeRAM プロセス」は、教育目的で設計された**仮想プロセス**であり、  
-> 実在の製品・企業機密・製造フローとは一切関係ありません。  
-> *The “0.18 µm FeRAM process” referenced here is a **virtual process for educational purposes** and is not related to any actual product, proprietary process, or confidential information.*
+| デバイス / Device | 現状技術 / Current Tech | 主要プレーヤー / Major Players | 特徴 / Characteristics |
+|---|---|---|---|
+| **BAW/FBAR フィルタ** | AlN, ScAlN ベース薄膜共振器 | Murata, Broadcom, Qorvo, Skyworks | 高Q, 高周波対応, 量産済 |
+| **RFスイッチ** | SOI-CMOSベースFETスイッチ | Qorvo, Skyworks, pSemi | 挿入損失小, 既に標準化 |
+| **チューナブル素子** | MEMS可変C, GaAs Varactor（限定） | niche | 実用は少数、主に研究レベル |
+| **RF FEMモジュール** | Filter + Switch + LNA/PA | Murata, Broadcom, Qualcomm | 複合SiP, アンテナ直結 |
 
 ---
 
-## 🧭 図解：0.18 µm FeRAM → RFデバイス系譜  
-*Process lineage from the 0.18 µm FeRAM virtual process to RF devices*
+## 📈 市場トレンド / Market Trends
+- **多バンド化によるフィルタ爆発**：スマホは数十個のBAW/FBARフィルタを搭載  
+- **高周波化 (5G FR1/FR2, 6G準備)**：3–6 GHz帯 → mmWave帯へ  
+- **小型・低コスト化**：アンテナ直結SiP, Antenna-in-Package化が進展  
+- **課題**：  
+  - 固定特性で柔軟性がない  
+  - フィルタ数増加によるコスト・サイズ増  
+  - 挿入損失・熱信頼性の制約  
+
+---
+
+# Part 2️⃣ CMOS混載型RFデバイスの提案 / Proposal: CMOS-integrated RF Devices  
+
+## 🧭 起点：0.18 µm FeRAM 仮想プロセス  
+本提案は、三溝真一による **教育目的の仮想プロセスモデル**  
+「0.18 µm FeRAM プロセス」を基盤として、RFデバイスへの応用展開を行うものです。  
+*Based on Shinichi Samizo’s educational “0.18 µm FeRAM virtual process,” this proposal expands into RF devices.*  
+
+---
+
+## 🔄 提案デバイス群 / Proposed Devices
+
+| デバイス / Device | 提案内容 / Proposal | 差別化ポイント / Differentiation |
+|---|---|---|
+| **FeVar (Ferroelectric Varactor)** | HfO₂系強誘電体を用いた不揮発可変キャパシタ | 再構成可能, 不揮発設定保持 |
+| **FeFET-Switch** | HZO局所ゲートスタックを利用したRFスイッチ | CMOS互換, 低コスト集積 |
+| **BAW/FBAR (Edu ver.)** | PZT/HfO₂薄膜共振器を用いた教育モデル | 薄膜積層の共振利用, 教育起点の簡易設計 |
+
+---
+
+## 📚 系譜図 / Process Lineage
 
 ```mermaid
 flowchart TB
   subgraph FE["0.18 um FeRAM (Virtual, Educational)"]
-    GATE["Front-end (FEOL)\\nDual-VDD CMOS 1.8/3.3 V"] --> SALI["Salicide CoSi2"]
-    BEOL["Back-end (BEOL)\\nAlCu M1-3 + W-Plugs"]
-    CAP1["FeRAM Stack A\\nPt/PZT/Ti"]
-    CAP2["FeRAM Stack B\\nTiN/HfZrO2/TiN (HZO)"]
+    GATE["Front-end (FEOL) / Dual-VDD CMOS 1.8/3.3 V"] --> SALI["Salicide CoSi2"]
+    BEOL["Back-end (BEOL) / AlCu M1-3 + W-Plugs"]
+    CAP1["FeRAM Stack A / Pt/PZT/Ti"]
+    CAP2["FeRAM Stack B / TiN/HfZrO2/TiN (HZO)"]
     GATE --> BEOL --> CAP1
     BEOL --> CAP2
   end
 
-  CAP2 -->|"BEOL integration / ALD-HZO 8-12 nm\\nRTA 400-450 degC"| FeVar{{"FeVar\\nFerroelectric Varactor"}}
-  GATE -->|"HV MOS + FeVar gate bias"| RFSW1{{"RF Switch\\n(FET + FeVar Bias)"}}
-  GATE -->|"Local HZO gate stack"| RFSW2{{"RF Switch\\n(FeFET-Switch)"}}
-  CAP1 -->|"Thin-film piezo resonance use"| BAW(("BAW/FBAR Core"))
+  CAP2 --> FeVar{{"FeVar / Ferroelectric Varactor"}}
+  GATE --> RFSW1{{"RF Switch / FET + FeVar Bias"}}
+  GATE --> RFSW2{{"RF Switch / FeFET-Switch"}}
+  CAP1 --> BAW(("BAW/FBAR Core"))
 
   subgraph RF["RF Front-End Integration"]
-    MATCH["Reconfigurable Matching\\nCfixed || FeVar"]
-    PATHSEL["Band/Path Selection\\nwith RF Switches"]
+    MATCH["Reconfigurable Matching / Cfixed || FeVar"]
+    PATHSEL["Band/Path Selection / with RF Switches"]
     FILTER["BAW/FBAR Filters"]
     LNA["PA/LNA I/O Networks"]
   end
@@ -87,91 +103,34 @@ flowchart TB
 
 ---
 
-## 📚 サブトピック / Sub-topics  
-*Sub-topics*
+## 📊 市場展開シナリオ / Market Deployment
 
-| デバイス / Device | 概要（JP） | *Summary (EN)* | Link |
-|---|---|---|---|
-| 🧩 **Ferroelectric Varactors** | HfO₂系強誘電体を用いた可変キャパシタ | *HfO₂-based ferroelectric tunable capacitors* | [ferroelectric-varactors](./ferroelectric-varactors.md) |
-| 🔀 **RF Switches** | FeFET/MEMS/SOIによるRFスイッチ | *RF switches using FeFET, MEMS, or SOI* | [rf-switches](./rf-switches.md) |
-| 📡 **BAW/FBAR Devices** | AlN/ScAlNやHfO₂を用いた高周波フィルタ | *High-frequency filters using AlN/ScAlN or HfO₂* | [baw-fbar](./baw-fbar.md) |
-
----
-
-## 🧩 市場への展開 / Market Deployment  
-
-### 1) バリューチェーンと供給形態  
-*Value chain & deliverables*
-
-```mermaid
-flowchart TB
-  RnD["概念設計・研究開発 / Concept & R&D (Virtual 0.18 um FeRAM → RF)"] --> PDK["PDK・RF IP提供 / PDK & RF IP (FeVar / Switch / BAW cells)"]
-  PDK --> REF["リファレンス設計 / Reference Designs (Front-End modules, eval boards)"]
-  REF --> SiP["モジュール・SiPベンダー / Module & SiP Vendors (RF FEM, Antenna-in-Package)"]
-  SiP --> OEM["機器メーカー (OEM/ODM) / OEM & ODMs (Handsets, IoT, Automotive)"]
-  OEM --> Field["市場導入・認証展開 / Field Deployment (Certification & Rollout)"]
-```  
-
-- **教育起点の強み**：仮想プロセス → 実装テンプレ → 参照設計 という流れを一気通貫で提示可能  
-- **提供形態**：  
-  - RF 可変素子 IP セット（FeVar/スイッチのセル＋モデル）  
-  - リファレンス・マッチネット（周波数別テンプレ）  
-  - 評価基板（Sパラ測定・P1dB/IIP3実演）
+- **ターゲット応用**  
+  - IoT：アンテナ自動調整・不揮発設定保持  
+  - Automotive：V2X・高温補償RF  
+  - 6G：再構成可能RFフロントエンド  
+- **提供形態**  
+  - RF IPセル（FeVar, Switch, FilterのPDK）  
+  - リファレンス回路（Matching, Path Select）  
+  - 教育評価基板（Sパラ測定, 実演）  
 
 ---
 
-### 2) アプリケーション・マップ  
-*Application map*
+## 🗂️ 著者・ライセンス / Author & License
 
-| Segment | Use-case | Goal Specs (目安) | Note |
-|---|---|---|---|
-| **Smartphone RF FEM** | Band selection, tunable matching | IL ≤ 0.5 dB（switch）, Q@2–6 GHz > 30（FeVar） | 多バンド最適化・小型化 |
-| **Wi-Fi (2.4/5/6 GHz)** | Antenna tuning / reconfig | S11 ≤ −10 dB、IIP3高め | 筐体差の補正 |
-| **IoT (Sub-GHz/2.4 GHz)** | Antenna trimming | 低電力・不揮発設定保持 | バッテリ寿命重視 |
-| **Automotive (V2X/Telematics)** | Harsh temp drift comp. | −40〜125 °Cドリフト補償 | 信頼性・AEC-Q |
-| **Infrastructure (Sub-6/FR1)** | Reconfigurable front-end | 高IP3、耐電力 | PA側整合補助 |
-
----
-
-### 3) TRL（技術成熟度）とロードマップ（教育モデル）
-*TRL & roadmap (educational model)*
-
-```mermaid
-gantt
-    title RF Devices Roadmap (Educational)
-    dateFormat  YYYY-MM-DD
-    section FeVar (HZO)
-    Modeling/PDK            :done,    des1, 2025-01-01, 60d
-    Layout Templates        :active,  des2, 2025-03-01, 60d
-    Eval Board & S-params   :         des3, 2025-05-01, 90d
-    section RF Switch
-    FET+FeVar Gate Bias     :done,    sw1,  2025-02-01, 45d
-    FeFET-Switch (local HZO):active,  sw2,  2025-03-15, 120d
-    section BAW/FBAR
-    Resonator Modeling      :         baw1, 2025-04-01, 90d
-    Filter Reference        :         baw2, 2025-07-01, 90d
-```
-
-- **TRL 目安**：FeVar（5–6） → Switch（4–5） → BAW/FBAR（3–4）  
-- **マイルストーン**：PDK公開 → 参照設計 → 評価基板 → 認証支援  
-
----
-
-## 👤 **著者・ライセンス / Author & License**
-
-| **項目 / Item** | **内容 / Details** |
-|-----------------|--------------------|
+| 項目 / Item | 詳細 / Details |
+|---|---|
 | **著者 / Author** | 三溝 真一（Shinichi Samizo） |
 | **Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:shin3t72@gmail.com) |
 | **X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=for-the-badge&logo=x)](https://x.com/shin3t72) |
 | **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
-| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../../../#-ライセンス--license) <br> 再配布・改変自由（教育目的） / *Free for educational use, redistribution, and modification* <br> 商用利用は別途許可が必要 / *Commercial use requires separate permission* |
+| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../../../#-ライセンス--license) <br> 再配布・改変自由（教育目的） / *Free for educational use* <br> 商用利用は別途許可 / *Commercial use requires separate permission* |
 
 ---
 
-## ⬆️ Applied Devices へ戻る / Back to Applied Devices  
+## ⬆️ Applied Devices へ戻る / Back to Applied Devices
 
 | Link | Badge |
 |---|---|
-| 🌐 **カテゴリへ戻る / Back to Category** | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Applied--Devices-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/) |
-| 📂 **リポジトリへ戻る / Back to Repo** | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices) |
+| 🌐 **カテゴリへ戻る** | [![Back Site](https://img.shields.io/badge/⬆️%20Back-Applied--Devices-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/) |
+| 📂 **リポジトリへ戻る** | [![Back Repo](https://img.shields.io/badge/⬆️%20Back-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices) |
