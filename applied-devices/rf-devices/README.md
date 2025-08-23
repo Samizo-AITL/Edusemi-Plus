@@ -59,30 +59,30 @@ and expands it toward RF devices.*
 ```mermaid
 flowchart LR
   subgraph FE["0.18 µm FeRAM (Virtual, Educational)"]
-    GATE[Front-end (FEOL)<br/>Dual-VDD CMOS 1.8/3.3V]<-->SALI[Salicide CoSi₂]
-    BEOL[Back-end (BEOL)<br/>AlCu M1-3 + W-Plugs]
-    CAP1[FeRAM Stack A<br/>Pt/PZT/Ti]
-    CAP2[FeRAM Stack B<br/>TiN/HfZrO₂/TiN (HZO)]
-    GATE-->BEOL-->CAP1
-    BEOL-->CAP2
+    GATE[Front-end (FEOL)\nDual-VDD CMOS 1.8/3.3V] --> SALI[Salicide CoSi₂]
+    BEOL[Back-end (BEOL)\nAlCu M1-3 + W-Plugs]
+    CAP1[FeRAM Stack A\nPt/PZT/Ti]
+    CAP2[FeRAM Stack B\nTiN/HfZrO₂/TiN (HZO)]
+    GATE --> BEOL --> CAP1
+    BEOL --> CAP2
   end
 
-  CAP2 -- "BEOL統合 / ALD-HZO 8–12 nm<br/>RTA 400–450°C" --> FeVar{{FeVar<br/>Ferroelectric Varactor}}
-  GATE -- "HV MOS + FeVar Gate Bias" --> RFSW1{{RF Switch<br/>(FET + FeVar Bias)}}
-  GATE -- "局所HZO Gate Stack" --> RFSW2{{RF Switch<br/>(FeFET-Switch)}}
-  CAP1 -- "薄膜圧電の共振利用" --> BAW((BAW/FBAR Core))
+  CAP2 -->|BEOL統合 / ALD-HZO 8–12 nm\nRTA 400–450°C| FeVar{{FeVar\nFerroelectric Varactor}}
+  GATE -->|HV MOS + FeVar Gate Bias| RFSW1{{RF Switch\n(FET + FeVar Bias)}}
+  GATE -->|局所HZO Gate Stack| RFSW2{{RF Switch\n(FeFET-Switch)}}
+  CAP1 -->|薄膜圧電の共振利用| BAW((BAW/FBAR Core))
 
   subgraph RF["RF Front-End Integration"]
-    MATCH[Reconfigurable Matching<br/>Cfixed ∥ FeVar]
-    PATHSEL[Band/Path Selection<br/>with RF Switches]
+    MATCH[Reconfigurable Matching\nCfixed ∥ FeVar]
+    PATHSEL[Band/Path Selection\nwith RF Switches]
     FILTER[BAW/FBAR Filters]
     LNA[PA/LNA I/O Networks]
   end
 
-  FeVar-->MATCH-->LNA
-  RFSW1-->PATHSEL-->FILTER
-  RFSW2-->PATHSEL
-  BAW-->FILTER
+  FeVar --> MATCH --> LNA
+  RFSW1 --> PATHSEL --> FILTER
+  RFSW2 --> PATHSEL
+  BAW --> FILTER
 ```
 
 ---
