@@ -8,6 +8,8 @@ title: 📡 RF・可変素子 / RF & Tunable Devices
 # 📡 RF・可変素子 / RF & Tunable Devices  
 *RF & Tunable Devices*
 
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../../../#-ライセンス--license)
+
 ---
 
 ## 🔗 リンク / Links  
@@ -30,6 +32,29 @@ title: 📡 RF・可変素子 / RF & Tunable Devices
 - **RFスイッチ（FeFET, MEMS, SOI-CMOSベース）**  
 - **FBAR / BAWフィルタ（AlN, ScAlN, HfO₂ベース）**  
 - **再構成可能RFフロントエンド**  
+
+---
+
+## 🔄 0.18 µm FeRAM からの展開 / Expansion from 0.18 µm FeRAM
+
+本カテゴリは、三溝真一による **教育目的の仮想プロセスモデル**  
+「0.18 µm FeRAM プロセス」を基盤として、RF領域へ応用展開されます。  
+*This category builds on the **virtual process model for educational purposes** “0.18 µm FeRAM process” proposed by Shinichi Samizo,  
+and expands it toward RF devices.*
+
+- **強誘電キャパシタ（Pt/PZT/Ti, HfO₂系）** → RFフロントエンド用の可変キャパシタ（FeVar）  
+  *Ferroelectric capacitors (Pt/PZT/Ti, HfO₂-based) adapted into RF front-ends as tunable capacitors.*
+
+- **高耐圧MOS + FeRAMキャパシタ統合** → RFスイッチ素子（FeFET, Reconfigurable Switch）  
+  *Integration of HV MOS with FeRAM capacitors → RF switching devices (FeFET, reconfigurable switch).*
+
+- **PZT薄膜積層の共振利用** → FBAR/BAWフィルタへ応用  
+  *Resonant use of PZT thin-film stacks → application to FBAR/BAW filters.*
+
+> ⚠️ **注意 / Note**  
+> ここで参照する「0.18 µm FeRAM プロセス」は、教育目的で設計された**仮想プロセス**であり、  
+> 実在の製品・企業機密・製造フローとは一切関係ありません。  
+> *The “0.18 µm FeRAM process” referenced here is a **virtual process for educational purposes** and is not related to any actual product, proprietary process, or confidential information.*
 
 ---
 
