@@ -58,6 +58,7 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 | 🧪 **Materials** | Compare & apply **Si / SiC / GaN** | [materials](../materials/) |
 | 🧩 **Assembly & Integration** | **PCB, passives, connectors, mounting, advanced packaging** | [Assembly-Integration](../Assembly-Integration/) |
 | ⚛️ **Advanced** | Quantum, cryo, next-gen architectures | [quantum-semiconductor](../quantum-semiconductor/) |
+| 🔬 **Applied Devices** | **Diverse devices derived from new materials and architectures** | **Applied devices: memory, RF, photonics, neuromorphic, energy harvesting, etc.** | [applied-devices](./applied-devices/) |
 | 🤖 **AI** | LLMs & AI accelerators | [ai-semiconductor](../ai-semiconductor/), [ai-tools-comparison](../ai-tools-comparison/) |
 | 🏭 **Industry** | TSMC & Apple structures, resurgence stories | [tsmc-insight](../tsmc-insight/), [rapidus](../rapidus/) |
 | 📱 **Apple Silicon** | Evolution & strategy of A-Series SoCs | [apple-silicon](../apple-silicon/) |
