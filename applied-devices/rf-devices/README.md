@@ -58,22 +58,22 @@ and expands it toward RF devices.*
 
 ```mermaid
 flowchart LR
-  subgraph FE["0.18 µm FeRAM (Virtual, Educational)"]
-    GATE[Front-end (FEOL)\nDual-VDD CMOS 1.8/3.3V] --> SALI[Salicide CoSi₂]
+  subgraph FE["0.18 um FeRAM (Virtual, Educational)"]
+    GATE[Front-end (FEOL)\nDual-VDD CMOS 1.8/3.3 V] --> SALI[Salicide CoSi2]
     BEOL[Back-end (BEOL)\nAlCu M1-3 + W-Plugs]
     CAP1[FeRAM Stack A\nPt/PZT/Ti]
-    CAP2[FeRAM Stack B\nTiN/HfZrO₂/TiN (HZO)]
+    CAP2[FeRAM Stack B\nTiN/HfZrO2/TiN (HZO)]
     GATE --> BEOL --> CAP1
     BEOL --> CAP2
   end
 
-  CAP2 -->|BEOL統合 / ALD-HZO 8–12 nm\nRTA 400–450°C| FeVar{{FeVar\nFerroelectric Varactor}}
-  GATE -->|HV MOS + FeVar Gate Bias| RFSW1{{RF Switch\n(FET + FeVar Bias)}}
-  GATE -->|局所HZO Gate Stack| RFSW2{{RF Switch\n(FeFET-Switch)}}
-  CAP1 -->|薄膜圧電の共振利用| BAW((BAW/FBAR Core))
+  CAP2 -->|BEOL integration / ALD-HZO 8-12 nm\nRTA 400-450 degC| FeVar{{FeVar\nFerroelectric Varactor}}
+  GATE -->|HV MOS + FeVar gate bias| RFSW1{{RF Switch\n(FET + FeVar Bias)}}
+  GATE -->|Local HZO gate stack| RFSW2{{RF Switch\n(FeFET-Switch)}}
+  CAP1 -->|Thin-film piezo resonance use| BAW((BAW/FBAR Core))
 
   subgraph RF["RF Front-End Integration"]
-    MATCH[Reconfigurable Matching\nCfixed ∥ FeVar]
+    MATCH[Reconfigurable Matching\nCfixed || FeVar]
     PATHSEL[Band/Path Selection\nwith RF Switches]
     FILTER[BAW/FBAR Filters]
     LNA[PA/LNA I/O Networks]
