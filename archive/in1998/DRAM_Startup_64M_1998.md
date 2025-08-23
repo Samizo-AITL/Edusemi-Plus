@@ -41,60 +41,67 @@ categories: ["Semiconductor", "DRAM", "History"]
 
 ---
 
-## 🏗️ プロセス立ち上げの役割と戦略 | Role & Ramp-up Strategy
-
-**日本語**  
-0.25μm世代DRAMの量産立ち上げに技術担当として参画。KD工場から提供された**フロッピー2枚分のプロセス条件**をT工場に展開し、工程流動を可能にした。  
-その後、不良解析・歩留まり改善・信頼性評価にも関与した。  
-
-**English**  
-Participated in the 0.25 μm 64M DRAM mass production ramp-up as a technical engineer. Specifically deployed **two floppy disks worth of process parameters** from the KD Fab to the T Fab, enabling wafer process flow.  
-Subsequently engaged in **failure analysis, yield improvement, and reliability evaluation** during the production transition.  
-
----
-
 ### 🔄 本番ロット投入前フロー | Pre-Mass Production Ramp-up Flow (1998)
 
 **日本語**  
 採用した方式は **SCF（ショートサイクルフィードバック）**。  
 各要素技術部門の立ち上げマニュアルを基に、短サイクルで評価・修正を繰り返し、条件を早期にFixした。  
+*The method adopted was **SCF (Short Cycle Feedback)**. Based on ramp-up manuals of each unit process, short-cycle evaluation and adjustments were repeated to quickly fix the process conditions.*  
 
 1. KD工場より **フロッピー2枚分の条件データ** を受領  
+   *Received two floppy disks of process data from KD fab*  
 2. 各要素技術（拡散・CVD・PVD・エッチングなど）へ展開  
+   *Deployed to each unit process (diffusion, CVD, PVD, etching, etc.)*  
 3. 電子流動票に条件反映  
+   *Reflected conditions into the electronic traveler*  
 4. **形式ロット10投入**（形状確認・条件最適化、うち数ロットはマージン条件を組込み）  
+   ***10 lots introduced** (for pattern check and process optimization, some with margin conditions)*  
 5. SCFにより条件修正・最適化  
+   *Optimized by SCF cycles*  
 6. 最終条件を電子流動票に反映  
+   *Final conditions reflected in the electronic traveler*  
 7. **本番ロット3投入（長期信頼性用）＋ マージンロット同時投入**  
+   ***3 production lots (long-term reliability) + margin lots in parallel***  
 8. **バーンイン評価3ロット投入**  
+   ***3 burn-in lots introduced***  
 9. 信頼性確認後、量産移行  
+   *Transitioned to mass production after reliability confirmation*  
 
-> **注記**: 移管開発では設計変更は行わず、本番ロットとマージンロットを並行投入した。  
+> **注記**  
+> 移管開発では設計変更は行わず、本番ロットとマージンロットを並行投入した。  
 > 本番ロットは信頼性・歩留まり確認、マージンロットは **設計マージン＝プロセスウインドウ** の再現性確認を目的とした。  
 > したがって、マージンロットの結果を待ってから本番投入する必要はなかった。  
+> *In technology transfer, no design changes were made, and production lots and margin lots were introduced in parallel.  
+> Production lots were for reliability/yield confirmation, while margin lots were for confirming the reproducibility of the **design margin = process window**.  
+> Therefore, production lots did not need to wait for the margin lot results.*  
 >
 > **マージン＝プロセスウインドウ（代表条件）**  
 > - NMOS Vth High / Low / Typ  
 > - PMOS Vth High / Low / Typ  
 > - ゲート長（Lgate）下限 / 上限  
 > → 合計7〜8条件を流動し、Typ条件と比較して歩留まり・動作が設計範囲内にあることを確認した。  
+> *Margin = Process Window (examples):  
+> - NMOS Vth High / Low / Typ  
+> - PMOS Vth High / Low / Typ  
+> - Gate length (Lgate) min / max  
+> → A total of 7–8 conditions were run, confirming that yield and operation stayed within the design window compared to Typ conditions.*  
 
 ---
 
 ## 📊 フェーズ別の解析と改善 | Phase-by-Phase Analysis & Improvements
 
-| フェーズ / Phase | 日本語 | English |
-|-----------------|--------|---------|
-| 🔹 形式ロット投入 | **10ロット投入（内数ロットはマージン条件）** – SCFで条件最適化 | **10 lots (incl. margin conditions)** – Process optimization by SCF |
-| 🔹 本番＋マージンロット投入 | **3ロット本番（長期信頼性用）＋ マージンロット並行投入** | **3 lots for long-term reliability + margin lots in parallel** |
-| 🔹 バーンイン評価 | **3ロット投入（Burn-in試験用）** | **3 lots for burn-in test** |
-| 📉 初回歩留まり | 約 **65%**、主不良は **ポーズリフレッシュ不良** | Initial yield ~65%, main defect was **Pause Refresh failure** |
-| 🔍 不良解析 | **Pause Refresh条件でのビットエラー原因調査** | Investigation of bit errors under **Pause Refresh** conditions |
-| ⚡ 容量確認 | **セル容量は正常 → SNコンタクト〜N+/P-Wellリーク疑い** | Cell capacitance normal → suspected leakage between SN contact and N+/P-Well |
-| 🧐 SEM観察 | 構造欠陥なし（THB領域含む） | No structural defects found (incl. THB area) |
-| 📌 原因特定 | **WSA-ETドライエッチ後・LDD複数回レジスト剥離アッシングによるプラズマダメージ** | **Plasma damage from resist ashing after WSA-ET dry etch and multiple LDD steps** |
-| 🛠️ 改善処置 | レジスト剥離を **ウェット処理主体へ変更**（アッシング最小化） | Changed resist strip to **wet process** (minimized ashing) |
-| ✅ 結果 | 歩留まり **65% → 80%**、信頼性試験クリア | Yield improved **65% → 80%**, passed reliability tests |
+| フェーズ / Phase | 日本語 | *English* |
+|-----------------|--------|-----------|
+| 🔹 形式ロット投入 | **10ロット投入（内数ロットはマージン条件）** – SCFで条件最適化 | *10 lots (incl. margin conditions) – Process optimization by SCF* |
+| 🔹 本番＋マージンロット投入 | **3ロット本番（長期信頼性用）＋ マージンロット並行投入** | *3 lots for long-term reliability + margin lots in parallel* |
+| 🔹 バーンイン評価 | **3ロット投入（Burn-in試験用）** | *3 lots for burn-in test* |
+| 📉 初回歩留まり | 約 **65%**、主不良は **ポーズリフレッシュ不良** | *Initial yield ~65%, main defect was Pause Refresh failure* |
+| 🔍 不良解析 | **Pause Refresh条件でのビットエラー原因調査** | *Investigation of bit errors under Pause Refresh conditions* |
+| ⚡ 容量確認 | **セル容量は正常 → SNコンタクト〜N+/P-Wellリーク疑い** | *Cell capacitance normal → suspected leakage between SN contact and N+/P-Well* |
+| 🧐 SEM観察 | 構造欠陥なし（THB領域含む） | *No structural defects found (incl. THB area)* |
+| 📌 原因特定 | **WSA-ETドライエッチ後・LDD複数回レジスト剥離アッシングによるプラズマダメージ** | *Plasma damage from resist ashing after WSA-ET dry etch and multiple LDD steps* |
+| 🛠️ 改善処置 | レジスト剥離を **ウェット処理主体へ変更**（アッシング最小化） | *Changed resist strip to wet process (minimized ashing)* |
+| ✅ 結果 | 歩留まり **65% → 80%**、信頼性試験クリア | *Yield improved 65% → 80%, passed reliability tests* |
 
 ---
 
