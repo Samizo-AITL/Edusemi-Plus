@@ -111,6 +111,14 @@ flowchart TB
   SiP --> OEM[OEM/ODMs<br/>Handsets, IoT, Automotive]
   OEM --> Field[Field Deployment<br/>Certification & Rollout]
 ```
+```mermaid
+flowchart TB
+  RnD["概念設計・研究開発\\nConcept & R&D\\nVirtual 0.18 um FeRAM → RF"] --> PDK["PDK・RF IP提供\\nPDK & RF IP\\nFeVar / Switch / BAW cells"]
+  PDK --> REF["リファレンス設計\\nReference Designs\\nFront-End modules, eval boards"]
+  REF --> SiP["モジュール・SiPベンダー\\nModule / SiP Vendors\\nRF FEM, Antenna-in-Package"]
+  SiP --> OEM["機器メーカー (OEM/ODM)\\nOEM/ODMs\\nHandsets, IoT, Automotive"]
+  OEM --> Field["市場導入・認証展開\\nField Deployment\\nCertification & Rollout"]
+```
 
 - **教育起点の強み**：仮想プロセス → 実装テンプレ → 参照設計 という流れを一気通貫で提示可能  
 - **提供形態**：  
