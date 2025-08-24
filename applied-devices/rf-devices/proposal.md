@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 💡 Proposal CMOS混載型RFデバイス
+title: 💡 Proposal CMOS混載型RFデバイス（教育モデル）
 ---
 
 ---
 
-# 💡 CMOS混載型RFデバイス提案  
-*Proposal: CMOS-integrated RF Devices*
+# 💡 CMOS混載型RFデバイス提案（教育モデル）  
+*Proposal: CMOS-integrated RF Devices (Educational Model)*
 
 [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../../../#-ライセンス--license)
 
@@ -15,19 +15,22 @@ title: 💡 Proposal CMOS混載型RFデバイス
 ## 📘 概要 / Overview  
 
 本提案は、三溝真一による **教育目的の仮想プロセス**「0.18 µm FeRAM」を起点に、  
-**CMOS混載型RFデバイス**を応用展開するものです。  
+**CMOS混載型RFデバイス**を教材として展開するものです。  
 
-*This proposal expands the virtual educational 0.18 µm FeRAM process into CMOS-integrated RF devices.*  
+*This proposal expands the virtual educational 0.18 µm FeRAM process into CMOS-integrated RF devices for learning purposes.*  
+
+👉 実在の製品・企業・製造プロセスとは無関係です。  
+👉 The contents are **purely educational models**, unrelated to actual products or proprietary processes.  
 
 ---
 
-## 🔄 提案デバイス群 / Proposed Devices  
+## 🔄 提案デバイス群 / Proposed Educational Models  
 
-| デバイス / Device | 提案内容 / Proposal | 差別化ポイント / Differentiation |
+| デバイス / Device | 教育モデル内容 / Educational Focus | 学習ポイント / Learning Focus |
 |---|---|---|
-| **FeVar (Ferroelectric Varactor)** | HfO₂系強誘電体を用いた不揮発可変キャパシタ | 再構成可能, 不揮発設定保持 |
-| **FeFET-Switch** | HZO局所ゲートスタックを利用したRFスイッチ | CMOS互換, 低コスト集積 |
-| **BAW/FBAR (Edu ver.)** | PZT/HfO₂薄膜共振器を用いた教育モデル | 薄膜積層の共振利用, 教育起点の簡易設計 |
+| **FeVar (Ferroelectric Varactor)** | HfO₂系強誘電体を用いた不揮発可変キャパシタの概念モデル | 不揮発設定保持・再構成可能回路の原理 |
+| **FeFET-Switch** | HZO局所ゲートスタックを利用したCMOS互換RFスイッチ | CMOS整合性・集積化の考え方 |
+| **BAW/FBAR (Edu ver.)** | PZT/HfO₂薄膜共振器の教育用近似モデル | 薄膜積層による共振・フィルタ応用の理解 |
 
 ---
 
@@ -44,16 +47,16 @@ flowchart TB
     BEOL --> CAP2
   end
 
-  CAP2 --> FeVar{{"FeVar / Ferroelectric Varactor"}}
+  CAP2 --> FeVar{{"FeVar / Educational Varactor"}}
   GATE --> RFSW1{{"RF Switch / FET + FeVar Bias"}}
   GATE --> RFSW2{{"RF Switch / FeFET-Switch"}}
-  CAP1 --> BAW(("BAW/FBAR Core"))
+  CAP1 --> BAW(("BAW/FBAR Core (Edu ver.)"))
 
-  subgraph RF["RF Front-End Integration"]
-    MATCH["Reconfigurable Matching / Cfixed || FeVar"]
-    PATHSEL["Band/Path Selection / with RF Switches"]
-    FILTER["BAW/FBAR Filters"]
-    LNA["PA/LNA I/O Networks"]
+  subgraph RF["RF Front-End (Educational Integration)"]
+    MATCH["Matching / FeVar + Fixed C"]
+    PATHSEL["Path Selection / RF Switches"]
+    FILTER["BAW/FBAR Filters (Edu ver.)"]
+    LNA["PA/LNA I/O Networks (Conceptual)"]
   end
 
   FeVar --> MATCH --> LNA
@@ -64,32 +67,30 @@ flowchart TB
 
 ---
 
-## 🏭 産業的背景 / *Industrial Background*  
+## 📖 学習の背景 / *Educational Background*  
 
-現行のRFフロントエンドは **FBAR/BAW + SOIスイッチ** に依存しており、  
-多バンド化による **部品点数の爆発・コスト増** が大きな課題です。  
+- 現行のRFフロントエンドは **FBAR/BAW + SOIスイッチ** を中心に構成される。  
+- 本教材では、それらの技術を「教育的観点で再現・簡略化」し、  
+  **CMOS混載のメリット**を理解することを目的とする。  
 
-*Today’s RF front-ends rely heavily on FBAR/BAW + SOI switches,  
-facing major challenges of filter count explosion and cost increase due to multi-band expansion.*  
-
-欧州・米国・日本では、**再構成可能RF（Reconfigurable RF）** が次世代6Gの研究テーマとして進められています。  
-CMOS内に可変素子を統合するアプローチは、**コスト削減・小型化・低消費電力化**につながります。  
+*Today’s RF front-ends rely heavily on FBAR/BAW + SOI switches.  
+This educational model simplifies and reinterprets these technologies to illustrate the concept of CMOS integration.*  
 
 ---
 
-## ⚖️ 競合技術との比較 / *Comparison with Existing Approaches*  
+## ⚖️ 学習用比較表 / *Comparison for Learning*  
 
-| 技術 / Technology | 特徴 / Characteristics | 課題 / Challenges |
+| 技術 / Technology | 教育的特徴 / Educational Focus | 制約 / Limitations |
 |---|---|---|
-| **SOI-CMOS Switch** | 標準スマホFEMで実績多数 | 多バンド化でチップ肥大・コスト増 |
-| **GaAs FET** | 高周波特性良好 | 高コスト・電源制約 |
-| **MEMS Switch** | 超低損失・高アイソレーション | 信頼性・寿命・応答速度 |
-| **外付けVaractor** | アンテナチューニングに利用 | 実装負荷、集積化が難しい |
-| **本提案 (FeVar/FeFET)** | CMOS互換・不揮発制御・小型化 | 実証段階、量産性未確立 |
+| **SOI-CMOS Switch** | 実際のFEMで広く使用されている | 本教材では概念のみ扱う |
+| **GaAs FET** | 高周波特性の参考技術 | 高コスト実装は教材対象外 |
+| **MEMS Switch** | 超低損失の例として紹介 | 信頼性・寿命議論は割愛 |
+| **Varactor** | アンテナチューニングに応用 | 外付け実装の例示のみ |
+| **本提案 (FeVar/FeFET)** | CMOS互換・教育起点の理解 | 実用プロセス検証は対象外 |
 
 ---
 
-## 🗓️ ロードマップ（教育モデル） / *Educational Roadmap (TRL)*  
+## 🗓️ ロードマップ（教育モデル） / *Educational Roadmap*  
 
 ```mermaid
 gantt
@@ -98,21 +99,39 @@ gantt
     section FeVar (HZO)
     Modeling & PDK Templates   :done,    des1, 2025-01-01, 60d
     Layout & Cell Libraries    :active,  des2, 2025-03-01, 90d
-    Eval Boards & S-params     :         des3, 2025-06-01, 120d
+    Eval Boards (Edu)          :         des3, 2025-06-01, 120d
     section FeFET Switch
-    Device Modeling            :done,    sw1,  2025-02-01, 60d
-    Test Structures            :active,  sw2,  2025-05-01, 120d
+    Device Modeling (Edu)      :done,    sw1,  2025-02-01, 60d
+    Concept Structures         :active,  sw2,  2025-05-01, 120d
     section BAW/FBAR (Edu ver.)
-    Resonator Modeling         :         baw1, 2025-07-01, 90d
-    Filter Reference           :         baw2, 2025-10-01, 90d
+    Resonator Approximation    :         baw1, 2025-07-01, 90d
+    Filter Concept             :         baw2, 2025-10-01, 90d
 ```
 
-- **TRL目安**  
-  - FeVar：TRL 4–5（回路シミュレーション〜基板評価）  
-  - FeFET Switch：TRL 3–4（素子モデリング〜試作構造）  
-  - BAW/FBAR (Edu ver.)：TRL 3（モデリング段階）  
+- **TRL目安（教育モデル）**  
+  - FeVar：TRL 4（回路シミュレーション教材段階）  
+  - FeFET Switch：TRL 3（素子概念モデル段階）  
+  - BAW/FBAR：TRL 2–3（モデル化段階）  
 
-*Estimated TRL levels: FeVar (4–5), FeFET Switch (3–4), BAW/FBAR Edu (3).*  
+---
+
+## 📝 まとめ / *Conclusion (Educational)*  
+
+- **教育的意義**: FeRAM派生デバイスを通じて「ロジック＋メモリ＋RF統合設計」の基礎を学ぶ。  
+- **教材化の狙い**: CMOS互換性を持つ強誘電体素子を例に、再構成可能RFの基本概念を理解する。  
+- **今後の展望**: HfZrO₂採用など、CMOS整合性が高い新材料による教育効果の強化。  
+
+---
+
+## 🔗 関連教材リンク / *Related Educational Links*  
+
+| リンク / Link | 内容 / Description |  
+|---------------|--------------------|  
+| 📘 [0.18μm FeRAM Process Flow（完全版）](../../d_chapter1_memory_technologies/doc_FeRAM/feram_full_process_table.md) | FeRAMプロセスフロー完全版（教育モデル）<br>*Full FeRAM process flow (educational model)* |  
+| 📘 [FeRAM特有工程の詳細解説](../../d_chapter1_memory_technologies/doc_FeRAM/feram_process_explanation.md) | PZTキャパシタ・AlOx保護膜・水素還元対策の詳細<br>*Detailed FeRAM-specific steps: capacitor, AlOx, H₂ mitigation* |  
+| 🔬 [0.18μm CMOSロジックプロセス](../../chapter3_process_evolution/docs/0.18um_Logic_ProcessFlow.md) | 0.18μm CMOSロジックプロセス教材<br>*0.18µm CMOS logic process (educational)* |  
+| 📐 [MOSトランジスタの特性と信頼性](../../chapter4_mos_characteristics/README.md) | MOS特性と信頼性に関する教材<br>*MOS transistor characteristics and reliability* |  
+| 💾 [メモリ技術教材集](../../d_chapter1_memory_technologies/README.md) | SRAM / DRAM / FeRAM / MRAM / 3DNAND の教育資料<br>*Memory technology education materials* |  
 
 ---
 
