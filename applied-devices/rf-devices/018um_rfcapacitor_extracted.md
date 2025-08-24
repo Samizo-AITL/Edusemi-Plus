@@ -20,7 +20,7 @@ title: 🔽 Capacitor Formation for RF Devices (FeVar / FeFET / BAW) — 抜粋�
 *This document originates from the **0.18µm FeRAM Process Flow (educational, full version)**,  
 and extracts only the capacitor formation steps relevant to RF devices (FeVar / FeFET / BAW/FBAR).*
 
-👉 **大元のプロセスフローはこちら → [0.18µm FeRAM Process Flow — 完全版](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/doc_FeRAM/feram_full_process_table.md)**
+👉 **大元のプロセスフローはこちら → [0.18µm FeRAM Process Flow — 完全版](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/doc_FeRAM/feram_full_process_table)**
 
 ---
 
