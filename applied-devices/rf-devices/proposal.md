@@ -12,38 +12,38 @@ title: 💡 Proposal CMOS混載型RFデバイス
 
 ---
 
-## 🔗 リンク / Links  
+## 🔗 リンク / *Links*  
 
 | Link | Badge |
 |---|---|
-| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/rf-devices/proposal) |
-| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices/rf-devices/) |
+| 🌐 **View Site** | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/rf-devices/proposal) |
+| 📂 **View Repo** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices/rf-devices/) |
 
 ---
 
-## 📘 概要 / Overview  
+## 📘 概要 / *Overview*  
 
-本提案は、三溝真一による **教育目的の仮想プロセス**「0.18 µm FeRAM」を起点に、  
-**CMOS混載型RFデバイス**を実現可能な技術として展開するものです。  
+本提案は、三溝真一による **教育目的の仮想プロセス「0.18 µm FeRAM」** を起点に、  
+**CMOS混載型RFデバイス**を実現することを目指すものです。  
 
-*This proposal expands the virtual educational 0.18 µm FeRAM process into CMOS-integrated RF devices with practical feasibility in mind.*  
+*This proposal aims to realize CMOS-integrated RF devices, expanding from the educational virtual process “0.18 µm FeRAM”.*  
 
-👉 実在の製品・企業・製造プロセスとは直接の関係はありませんが、実現を目指した研究・教材です。  
-👉 This content is **aimed at realization and education**, not a description of any existing proprietary process.  
+👉 実在の製品・企業・製造プロセスとは無関係ですが、実現可能性を追求した設計指針を含みます。  
+👉 *This work is independent of actual products or proprietary processes, but explores practical design directions.*  
 
 ---
 
-## 🔄 提案デバイス群 / Proposed Devices  
+## 🔄 提案デバイス群 / *Proposed Devices*  
 
-| デバイス / Device | 提案内容 / Proposal | 差別化ポイント / Differentiation |
+| デバイス / Device | 内容 / Description | 特徴 / Differentiation |
 |---|---|---|
-| **FeVar (Ferroelectric Varactor)** | HfO₂系強誘電体を用いた不揮発可変キャパシタ | 再構成可能, 不揮発設定保持 |
-| **FeFET-Switch** | HZO局所ゲートスタックを利用したRFスイッチ | CMOS互換, 低コスト集積 |
-| **BAW/FBAR (Edu ver.)** | PZT/HfO₂薄膜共振器を用いた教育モデル | 薄膜積層の共振利用, 教育起点の簡易設計 |
+| **FeVar (Ferroelectric Varactor)** | HfO₂系強誘電体を用いた不揮発可変キャパシタ | 再構成可能・不揮発制御 <br>*Reconfigurable, non-volatile control* |
+| **FeFET-Switch** | HZO局所ゲートを利用したCMOS互換RFスイッチ | CMOS整合・低コスト <br>*CMOS-compatible, cost-efficient* |
+| **BAW/FBAR (Edu ver.)** | PZT/HfO₂薄膜共振器 | 薄膜積層共振を応用 <br>*Thin-film stack resonance* |
 
 ---
 
-## 📚 系譜図 / Process Lineage  
+## 📚 系譜図 / *Process Lineage*  
 
 ```mermaid
 flowchart TB
@@ -56,10 +56,10 @@ flowchart TB
     BEOL --> CAP2
   end
 
-  CAP2 --> FeVar{{"FeVar / Ferroelectric Varactor"}}
-  GATE --> RFSW1{{"RF Switch / FET + FeVar Bias"}}
-  GATE --> RFSW2{{"RF Switch / FeFET-Switch"}}
-  CAP1 --> BAW(("BAW/FBAR Core"))
+  CAP2 --> FeVar["FeVar / Ferroelectric Varactor"]
+  GATE --> RFSW1["RF Switch / FET + FeVar Bias"]
+  GATE --> RFSW2["RF Switch / FeFET-Switch"]
+  CAP1 --> BAW["BAW/FBAR Core"]
 
   subgraph RF["RF Front-End Integration"]
     MATCH["Reconfigurable Matching / Cfixed || FeVar"]
@@ -78,14 +78,13 @@ flowchart TB
 
 ## 🏭 産業的背景 / *Industrial Background*  
 
-現行のRFフロントエンドは **FBAR/BAW + SOIスイッチ** に依存しており、  
-多バンド化による **部品点数の爆発・コスト増** が大きな課題です。  
+現行のRFフロントエンドは **FBAR/BAW + SOIスイッチ** に依存し、  
+**多バンド化による部品点数増大・コスト増**が大きな課題です。  
 
-*Today’s RF front-ends rely heavily on FBAR/BAW + SOI switches,  
-facing major challenges of filter count explosion and cost increase due to multi-band expansion.*  
+*Today’s RF front-ends rely on FBAR/BAW + SOI switches, facing issues of component count increase and rising costs due to multi-band expansion.*  
 
-欧州・米国・日本では、**再構成可能RF（Reconfigurable RF）** が次世代6Gの研究テーマとして進められています。  
-CMOS内に可変素子を統合するアプローチは、**コスト削減・小型化・低消費電力化**につながります。  
+欧州・米国・日本では、**再構成可能RF** が6Gの研究テーマとして進展中。  
+CMOS内に可変素子を統合することで、**コスト削減・小型化・低消費電力化**が可能となります。  
 
 ---
 
@@ -93,60 +92,89 @@ CMOS内に可変素子を統合するアプローチは、**コスト削減・�
 
 | 技術 / Technology | 特徴 / Characteristics | 課題 / Challenges |
 |---|---|---|
-| **SOI-CMOS Switch** | 標準スマホFEMで実績多数 | 多バンド化でチップ肥大・コスト増 |
-| **GaAs FET** | 高周波特性良好 | 高コスト・電源制約 |
-| **MEMS Switch** | 超低損失・高アイソレーション | 信頼性・寿命・応答速度 |
-| **外付けVaractor** | アンテナチューニングに利用 | 実装負荷、集積化が難しい |
-| **本提案 (FeVar/FeFET)** | CMOS互換・不揮発制御・小型化 | 実証段階、量産性未確立 |
+| **SOI-CMOS Switch** | 標準スマホFEMで実績多数 <br>*Proven in smartphone FEM* | 多バンドでチップ肥大・コスト増 <br>*Chip size/cost explosion in multi-band* |
+| **GaAs FET** | 高周波特性良好 <br>*Excellent RF performance* | 高コスト・電源制約 <br>*Costly, power supply constraints* |
+| **MEMS Switch** | 超低損失・高アイソレーション <br>*Ultra-low loss, high isolation* | 信頼性・寿命課題 <br>*Reliability, lifetime issues* |
+| **外付けVaractor** | アンテナチューニングで利用 <br>*Used in antenna tuning* | 実装負荷・集積困難 <br>*Integration challenges* |
+| **本提案 (FeVar/FeFET)** | CMOS互換・不揮発制御・小型化 <br>*CMOS-compatible, non-volatile, compact* | 実証・量産性未確立 <br>*Not yet mass-proven* |
 
 ---
 
-## 📉 部品点数削減の効果 / *Effect of Reduced Component Count*  
+## 📉 部品点数削減の効果 / *Effect of Component Reduction*  
 
-```mermaid
-flowchart LR
-    EXT[従来FEM: 外付けFBAR + SOI Switch + Varactor] -->|部品点数多, 実装面積大| LIMITS[高コスト・高消費電力]
-    INT[提案: CMOS内蔵 FeVar/FeFET + 教育BAW] -->|集積化, 実装簡素化| BENEFIT[低コスト・低消費電力・小型化]
-```
-
-- **従来**: 外付け部品の組合せにより、モジュールが大型化・高コスト化。  
-- **提案**: CMOS内にFeVar/FeFETを混載し、部品点数を削減することで **低コスト・小型・低消費電力** を実現。  
-
----
-
-## ➕ RF CMOSのメリットとデメリット / *Pros & Cons of RF CMOS*  
-
-| 項目 / Item | メリット / Pros | デメリット / Cons | 改善策 / Improvements |
-|---|---|---|---|
-| **コスト** | CMOS互換プロセスで低コスト | 量産立ち上げに初期投資 | 教育・研究用PoCから段階的拡大 |
-| **集積度** | ロジック・メモリ・RF一体化 | 熱・干渉問題 | 局所シールド・材料工夫 |
-| **性能** | 再構成可能, 不揮発設定保持 | Q値・損失の課題 | HfO₂材料, 構造最適化 |
-| **電力** | 不揮発制御で低消費電力 | 大信号動作で歪み懸念 | 回路補償・適応制御 |
+- スマホFEMでは数十〜百個のフィルタ・スイッチが必要。  
+  *Current FEMs require tens to over 100 filters/switches.*  
+- **可変キャパシタ（FeVar）**と**不揮発RFスイッチ（FeFET-SW）**を導入することで、  
+  フィルタバンクとスイッチ数を半減可能。  
+  *By introducing FeVar and FeFET-SW, filter banks and switches could be halved.*  
+- **小型化・低コスト化・低損失**が期待される。  
+  *Expected results: reduced size, lower cost, and lower insertion loss.*  
 
 ---
 
-## 🗓️ 実現ロードマップ / *Realization Roadmap*  
+## ⚖️ RFCMOSのメリット・デメリット / *Pros & Cons of RFCMOS*  
+
+### ✅ メリット / *Advantages*  
+- CMOS互換：SoC集積可能  
+  *CMOS-compatible, enabling SoC integration*  
+- コスト削減：GaAs, SOIより低コスト  
+  *Cheaper than GaAs and SOI*  
+- 低消費電力：不揮発制御により待機電力削減  
+  *Non-volatile control reduces standby power*  
+
+### ❌ デメリット / *Disadvantages*  
+- 高周波特性：GaAs, MEMSに劣る  
+  *Weaker RF performance compared to GaAs, MEMS*  
+- 電力耐性：PA用途に制約  
+  *Limited for PA applications*  
+- プロセス未成熟：量産実証不足  
+  *Immature process, not yet mass-proven*  
+
+### 🔧 改善方法 / *Improvements*  
+- **HfZrO₂導入**：水素耐性強化、CMOS整合性改善  
+  *HfZrO₂ for better hydrogen resistance and CMOS compatibility*  
+- **3D構造導入**：GAA/FinFETベースで高周波特性強化  
+  *3D GAA/FinFET structures to enhance RF performance*  
+- **ハイブリッド材料**：高Q誘電体＋強誘電体の組合せ  
+  *Hybrid dielectrics for higher Q-factor and reconfigurability*  
+
+---
+
+## 🗓️ 実現型ロードマップ / *Implementation Roadmap*  
 
 ```mermaid
 gantt
-    title CMOS-integrated RF Devices (Realization Roadmap)
+    title CMOS-integrated RF Devices (Implementation Roadmap)
     dateFormat  YYYY-MM-DD
     section FeVar (HZO)
-    TCAD/Device Modeling       :done,    des1, 2025-01-01, 90d
-    PDK Cell Development       :active,  des2, 2025-04-01, 120d
-    Eval Boards & S-params     :         des3, 2025-09-01, 120d
+    Device Modeling & TCAD     :done,    des1, 2025-01-01, 90d
+    Compact Models & PDK       :active,  des2, 2025-04-01, 120d
+    Small-scale Integration    :         des3, 2025-09-01, 180d
     section FeFET Switch
-    Device Modeling            :done,    sw1,  2025-03-01, 90d
-    Test Structure Fabrication :active,  sw2,  2025-06-01, 120d
-    FEM Integration Trials     :         sw3,  2025-10-01, 150d
-    section BAW/FBAR
-    Resonator Development      :         baw1, 2026-01-01, 150d
-    Filter Co-design           :         baw2, 2026-06-01, 120d
+    Test Chips & Evaluation    :done,    sw1,  2025-03-01, 90d
+    Reliability Improvements   :active,  sw2,  2025-07-01, 120d
+    Integration with RF Frontend:        sw3,  2026-01-01, 180d
+    section BAW/FBAR (Edu→Proto)
+    Resonator Pilot Structures :         baw1, 2025-10-01, 120d
+    Integrated Filter Modules  :         baw2, 2026-04-01, 180d
 ```
 
-- **FeVar**: 2025年前半にPDK化 → 2025年後半に基板評価へ。  
-- **FeFET Switch**: 2025年試作構造 → FEM統合試験。  
-- **BAW/FBAR**: 2026年にモデル構築 → フィルタ協調設計。  
+- **FeVar**: TRL 4–6 （デバイスモデリング→小規模集積）  
+- **FeFET-Switch**: TRL 3–5 （試作→信頼性改善→RF統合）  
+- **BAW/FBAR**: TRL 3–4 （教育モデル→試作共振器）  
+
+---
+
+## 🔗 関連教材リンク / *Related Links*  
+
+| リンク / Link | 内容 / Description |
+|---|---|
+| 📘 [0.18µm FeRAM Process Flow — 完全版](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/doc_FeRAM/feram_full_process_table) | FeRAMプロセスフロー完全版（教育モデル）<br>*Full FeRAM process flow (educational model)* |
+| 📘 [FeRAM特有工程の詳細解説](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/doc_FeRAM/0.18um_FeRAM_ProcessFlow) | PZTキャパシタ・AlOx保護膜・水素還元対策<br>*FeRAM-specific steps: capacitor, AlOx, H₂ mitigation* |
+| 📘 [0.18µm RFCMOS Process Flow（派生版）](./018um_rfcapacitor_extracted.md) | RFCMOS派生プロセスフロー<br>*Derived RFCMOS process flow* |
+| 🔬 [0.18µm CMOSロジックプロセス](https://samizo-aitl.github.io/Edusemi-v4x/chapter3_process_evolution/docs/0.18um_Logic_ProcessFlow) | 0.18µm CMOSロジックプロセス教材<br>*0.18µm CMOS logic process (educational)* |
+| 📐 [MOSトランジスタの特性と信頼性](https://samizo-aitl.github.io/Edusemi-v4x/chapter4_mos_characteristics/) | MOS特性と信頼性教材<br>*MOS transistor characteristics and reliability* |
+| 💾 [メモリ技術教材集](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/) | SRAM / DRAM / FeRAM / MRAM / 3DNAND 教材<br>*Memory technologies* |
 
 ---
 
@@ -158,4 +186,4 @@ gantt
 | **Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:shin3t72@gmail.com) |
 | **X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=for-the-badge&logo=x)](https://x.com/shin3t72) |
 | **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
-| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../../../#-ライセンス--license) <br> 再配布・改変自由（教育・研究目的） / *Free for educational & research use* <br> 商用利用は別途許可 / *Commercial use requires separate permission* |
+| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../../../#-ライセンス--license) <br> 再配布・改変自由（教育目的） / *Free for educational use* <br> 商用利用は別途許可 / *Commercial use requires separate permission* |
