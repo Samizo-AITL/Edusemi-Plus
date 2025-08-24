@@ -24,10 +24,10 @@ title: 📡 RF・可変素子 / RF & Tunable Devices
 
 本カテゴリ **RF・可変素子** では、現行および研究中の **RFフロントエンドモジュール（FEM）技術** を整理し、  
 さらに三溝真一による **教育目的の仮想プロセス「0.18 µm FeRAM」** を基盤とした  
-**CMOS混載型RFデバイス提案** を紹介します。  
+**CMOS混載型RFデバイス検討** をまとめます。  
 
 *This category covers both current and emerging RF front-end technologies,  
-and introduces CMOS-integrated RF device proposals based on  
+and reviews CMOS-integrated RF device concepts based on  
 Shinichi Samizo’s educational “0.18 µm FeRAM virtual process.”*  
 
 ---
