@@ -22,25 +22,25 @@ title: 📡 RF・可変素子 / RF & Tunable Devices
 
 ## 📘 概要 / Overview  
 
-本カテゴリ **RF・可変素子** では、現行の **RFフロントエンドモジュール（FEM）** 技術の整理と、  
-三溝真一による **教育目的の仮想プロセス「0.18 µm FeRAM」** を基盤とした  
+本カテゴリ **RF・可変素子** では、現行および研究中の **RFフロントエンドモジュール（FEM）技術** を整理し、  
+さらに三溝真一による **教育目的の仮想プロセス「0.18 µm FeRAM」** を基盤とした  
 **CMOS混載型RFデバイス提案** を紹介します。  
 
-*This category covers current RF front-end technologies and  
-proposes CMOS-integrated RF devices based on Shinichi Samizo’s  
-educational “0.18 µm FeRAM virtual process.”*  
+*This category covers both current and emerging RF front-end technologies,  
+and introduces CMOS-integrated RF device proposals based on  
+Shinichi Samizo’s educational “0.18 µm FeRAM virtual process.”*  
 
 ---
 
 ## 📂 構成一覧 / Contents  
 
-### 1️⃣ 現行RFデバイス / *Current RF Devices*  
+### 1️⃣ 現行 & 新興RFデバイス / *Current & Emerging RF Devices*  
 | セクション / Section | 内容 / Description | Link |
 |---|---|---|
-| 📘 **全体概要 / Overview** | 現行RF FEM技術と市場動向のまとめ<br>*Summary of current RF FEM technologies and market trends* | [current-devices.md](./current-devices.md) |
-| 🧩 **強誘電体可変キャパシタ / Ferroelectric Varactors** | HfO₂系強誘電体を用いた可変キャパシタ<br>*HfO₂-based ferroelectric tunable capacitors* | [ferroelectric-varactors.md](./ferroelectric-varactors.md) |
-| 🔀 **RFスイッチ / RF Switches** | FeFET・MEMS・SOIによるスイッチ<br>*RF switches using FeFET, MEMS, or SOI* | [rf-switches.md](./rf-switches.md) |
-| 📡 **BAW/FBAR デバイス / BAW/FBAR Devices** | 薄膜共振子ベースのフィルタ技術<br>*Filter technologies based on thin-film resonators* | [baw-fbar.md](./baw-fbar.md) |
+| 📘 **全体概要 / Overview** | FEMの主流技術と新興技術のまとめ<br>*Summary of mainstream and emerging FEM technologies* | [current-devices.md](./current-devices.md) |
+| ├─ 📡 **BAW/FBAR デバイス / BAW/FBAR Devices** | 薄膜共振子ベースのフィルタ技術（商用主流）<br>*Thin-film resonator filters (mainstream)* | [baw-fbar.md](./baw-fbar.md) |
+| ├─ 🔀 **RFスイッチ / RF Switches** | SOI・MEMS・FeFET系スイッチ<br>*SOI, MEMS, and FeFET-based switches* | [rf-switches.md](./rf-switches.md) |
+| └─ 🧩 **強誘電体可変キャパシタ / Ferroelectric Varactors** | HfO₂系強誘電体を用いた新興可変C<br>*HfO₂-based ferroelectric varactors (emerging)* | [ferroelectric-varactors.md](./ferroelectric-varactors.md) |
 
 ### 2️⃣ 提案（CMOS混載型RFデバイス） / *Proposal: CMOS-integrated RF Devices*  
 | セクション / Section | 内容 / Description | Link |
@@ -53,10 +53,10 @@ educational “0.18 µm FeRAM virtual process.”*
 
 | プロジェクト / Project | 内容 / Description | Link |
 |---|---|---|
-| 📘 **Edusemi-v4x** | 半導体プロセス教材（0.18 µmロジック・FeRAMフロー） | [Edusemi-v4x](https://samizo-aitl.github.io/Edusemi-v4x/) |
-| ⚙️ **EduController** | 制御理論・AI制御教材、RFデバイス応用基盤 | [EduController](https://samizo-aitl.github.io/EduController/) |
-| 🌐 **Edusemi-Plus** | 先端応用技術カテゴリ全体（本カテゴリを含む） | [Edusemi-Plus](https://samizo-aitl.github.io/Edusemi-Plus/) |
-| 🏭 **AITL-Strategy-Proposal** | 半導体・産業復興に向けた戦略提言集 | [AITL-Strategy-Proposal](https://samizo-aitl.github.io/AITL-Strategy-Proposal/) |
+| 📘 **Edusemi-v4x** | 半導体プロセス教材（0.18 µmロジック・FeRAMフロー）<br>*Educational material on semiconductor processes (0.18 µm logic & FeRAM flow)* | [Edusemi-v4x](https://samizo-aitl.github.io/Edusemi-v4x/) |
+| ⚙️ **EduController** | 制御理論・AI制御教材、RFデバイス応用基盤<br>*Control theory & AI control, foundation for RF device applications* | [EduController](https://samizo-aitl.github.io/EduController/) |
+| 🌐 **Edusemi-Plus** | 先端応用技術カテゴリ全体（本カテゴリを含む）<br>*Advanced application categories (including this one)* | [Edusemi-Plus](https://samizo-aitl.github.io/Edusemi-Plus/) |
+| 🏭 **AITL-Strategy-Proposal** | 半導体・産業復興に向けた戦略提言集<br>*Strategy proposals for semiconductor & industry revival* | [AITL-Strategy-Proposal](https://samizo-aitl.github.io/AITL-Strategy-Proposal/) |
 
 ---
 
