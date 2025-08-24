@@ -153,28 +153,21 @@ CMOS内に可変素子を統合することで、**コスト削減・小型化�
 
 ---
 
-## 🗓️ 実現型ロードマップ / *Implementation Roadmap*  
+## 📝 結論 / *Conclusion*  
 
-```mermaid
-gantt
-    title CMOS-integrated RF Devices (Implementation Roadmap)
-    dateFormat  YYYY-MM-DD
-    section FeVar (HZO)
-    Device Modeling & TCAD     :done,    des1, 2025-01-01, 90d
-    Compact Models & PDK       :active,  des2, 2025-04-01, 120d
-    Small-scale Integration    :         des3, 2025-09-01, 180d
-    section FeFET Switch
-    Test Chips & Evaluation    :done,    sw1,  2025-03-01, 90d
-    Reliability Improvements   :active,  sw2,  2025-07-01, 120d
-    Integration with RF Frontend:        sw3,  2026-01-01, 180d
-    section BAW/FBAR (Edu→Proto)
-    Resonator Pilot Structures :         baw1, 2025-10-01, 120d
-    Integrated Filter Modules  :         baw2, 2026-04-01, 180d
-```
+本検討で示した **FeVar / FeFET / RFCMOS統合** は、教育的には「ロジック＋メモリ＋RF統合設計」の理解を深める上で有用ですが、  
+現状の技術水準では **商用FEMに適用する実現性は困難** と評価されます。  
 
-- **FeVar**: TRL 4–6 （デバイスモデリング→小規模集積）  
-- **FeFET-Switch**: TRL 3–5 （試作→信頼性改善→RF統合）  
-- **BAW/FBAR**: TRL 3–4 （教育モデル→試作共振器）  
+- **理由 / Reasons**  
+  - GaAs・SOI・BAW主流技術に対して周波数特性・Q値が劣る  
+  - 電力耐性や信頼性の量産実証不足  
+  - 部品点数削減効果は期待できるが、製造歩留まり・市場採用に壁  
+
+👉 **教育的意義は高いが、商用展開は限定的**  
+   → IoT小規模無線、センサー集積回路、再構成可能RFの研究用途などに活用可能。  
+
+*In conclusion, while FeVar/FeFET/RFCMOS integration has high educational value, its practical realization in commercial FEMs is currently difficult.  
+It may find niche applications in IoT, sensors, and reconfigurable RF research, but large-scale adoption remains unlikely.*  
 
 ---
 
