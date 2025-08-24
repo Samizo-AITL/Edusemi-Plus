@@ -6,7 +6,6 @@ title: 🔀 RF Switches
 ---
 
 # 🔀 RF Switches  
-*RF Switches*
 
 [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](../../../../#-ライセンス--license)
 
