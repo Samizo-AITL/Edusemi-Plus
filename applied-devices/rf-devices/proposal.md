@@ -12,6 +12,15 @@ title: 💡 Proposal CMOS混載型RFデバイス（教育モデル）
 
 ---
 
+## 🔗 リンク / Links  
+
+| Link | Badge |
+|---|---|
+| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/rf-devices/proposal) |
+| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices/rf-devices/) |
+
+---
+
 ## 📘 概要 / Overview  
 
 本提案は、三溝真一による **教育目的の仮想プロセス**「0.18 µm FeRAM」を起点に、  
