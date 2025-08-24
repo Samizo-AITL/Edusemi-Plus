@@ -17,7 +17,7 @@ title: 💡 Proposal CMOS混載型RFデバイス
 本提案は、三溝真一による **教育目的の仮想プロセス**「0.18 µm FeRAM」を起点に、  
 **CMOS混載型RFデバイス**を応用展開するものです。  
 
-*This proposal expands the virtual educational 0.18 µm FeRAM process into CMOS-integrated RF devices.*
+*This proposal expands the virtual educational 0.18 µm FeRAM process into CMOS-integrated RF devices.*  
 
 ---
 
@@ -64,16 +64,55 @@ flowchart TB
 
 ---
 
-## 📊 市場展開シナリオ / Market Deployment  
+## 🏭 産業的背景 / *Industrial Background*  
 
-- **ターゲット応用**  
-  - IoT：アンテナ自動調整・不揮発設定保持  
-  - Automotive：V2X・高温補償RF  
-  - 6G：再構成可能RFフロントエンド  
-- **提供形態**  
-  - RF IPセル（FeVar, Switch, FilterのPDK）  
-  - リファレンス回路（Matching, Path Select）  
-  - 教育評価基板（Sパラ測定, 実演）  
+現行のRFフロントエンドは **FBAR/BAW + SOIスイッチ** に依存しており、  
+多バンド化による **部品点数の爆発・コスト増** が大きな課題です。  
+
+*Today’s RF front-ends rely heavily on FBAR/BAW + SOI switches,  
+facing major challenges of filter count explosion and cost increase due to multi-band expansion.*  
+
+欧州・米国・日本では、**再構成可能RF（Reconfigurable RF）** が次世代6Gの研究テーマとして進められています。  
+CMOS内に可変素子を統合するアプローチは、**コスト削減・小型化・低消費電力化**につながります。  
+
+---
+
+## ⚖️ 競合技術との比較 / *Comparison with Existing Approaches*  
+
+| 技術 / Technology | 特徴 / Characteristics | 課題 / Challenges |
+|---|---|---|
+| **SOI-CMOS Switch** | 標準スマホFEMで実績多数 | 多バンド化でチップ肥大・コスト増 |
+| **GaAs FET** | 高周波特性良好 | 高コスト・電源制約 |
+| **MEMS Switch** | 超低損失・高アイソレーション | 信頼性・寿命・応答速度 |
+| **外付けVaractor** | アンテナチューニングに利用 | 実装負荷、集積化が難しい |
+| **本提案 (FeVar/FeFET)** | CMOS互換・不揮発制御・小型化 | 実証段階、量産性未確立 |
+
+---
+
+## 🗓️ ロードマップ（教育モデル） / *Educational Roadmap (TRL)*  
+
+```mermaid
+gantt
+    title CMOS-integrated RF Devices (Educational TRL Roadmap)
+    dateFormat  YYYY-MM-DD
+    section FeVar (HZO)
+    Modeling & PDK Templates   :done,    des1, 2025-01-01, 60d
+    Layout & Cell Libraries    :active,  des2, 2025-03-01, 90d
+    Eval Boards & S-params     :         des3, 2025-06-01, 120d
+    section FeFET Switch
+    Device Modeling            :done,    sw1,  2025-02-01, 60d
+    Test Structures            :active,  sw2,  2025-05-01, 120d
+    section BAW/FBAR (Edu ver.)
+    Resonator Modeling         :         baw1, 2025-07-01, 90d
+    Filter Reference           :         baw2, 2025-10-01, 90d
+```
+
+- **TRL目安**  
+  - FeVar：TRL 4–5（回路シミュレーション〜基板評価）  
+  - FeFET Switch：TRL 3–4（素子モデリング〜試作構造）  
+  - BAW/FBAR (Edu ver.)：TRL 3（モデリング段階）  
+
+*Estimated TRL levels: FeVar (4–5), FeFET Switch (3–4), BAW/FBAR Edu (3).*  
 
 ---
 
