@@ -90,13 +90,13 @@ CMOS内に可変素子を統合することで、**コスト削減・小型化�
 
 ## ⚖️ 競合技術との比較 / *Comparison with Existing Approaches*  
 
-| 技術 / Technology | 特徴 / Characteristics | 課題 / Challenges |
-|---|---|---|
-| **SOI-CMOS Switch** | 標準スマホFEMで実績多数 <br>*Proven in smartphone FEM* | 多バンドでチップ肥大・コスト増 <br>*Chip size/cost explosion in multi-band* |
-| **GaAs FET** | 高周波特性良好 <br>*Excellent RF performance* | 高コスト・電源制約 <br>*Costly, power supply constraints* |
-| **MEMS Switch** | 超低損失・高アイソレーション <br>*Ultra-low loss, high isolation* | 信頼性・寿命課題 <br>*Reliability, lifetime issues* |
-| **外付けVaractor** | アンテナチューニングで利用 <br>*Used in antenna tuning* | 実装負荷・集積困難 <br>*Integration challenges* |
-| **本提案 (FeVar/FeFET)** | CMOS互換・不揮発制御・小型化 <br>*CMOS-compatible, non-volatile, compact* | 実証・量産性未確立 <br>*Not yet mass-proven* |
+| 技術 / Technology | 特徴 / Characteristics | 課題 / Challenges | 市場適用率 / *Market Adoption* |
+|---|---|---|---|
+| **SOI-CMOS Switch** | 標準スマホFEMで実績多数 <br>*Proven in smartphone FEM* | 多バンドでチップ肥大・コスト増 <br>*Chip size/cost explosion in multi-band* | ★★★★☆ <br>*Very High (Mainstream)* |
+| **GaAs FET** | 高周波特性良好 <br>*Excellent RF performance* | 高コスト・電源制約 <br>*Costly, power supply constraints* | ★★★☆☆ <br>*Medium (Legacy use, niche in PA)* |
+| **MEMS Switch** | 超低損失・高アイソレーション <br>*Ultra-low loss, high isolation* | 信頼性・寿命課題 <br>*Reliability, lifetime issues* | ★★☆☆☆ <br>*Low (Limited adoption)* |
+| **外付けVaractor** | アンテナチューニングで利用 <br>*Used in antenna tuning* | 実装負荷・集積困難 <br>*Integration challenges* | ★★☆☆☆ <br>*Low (Discrete adoption only)* |
+| **本提案 (FeVar/FeFET)** | CMOS互換・不揮発制御・小型化 <br>*CMOS-compatible, non-volatile, compact* | 実証・量産性未確立 <br>*Not yet mass-proven* | ★☆☆☆☆ <br>*Emerging (Research/Prototype)* |
 
 ---
 
