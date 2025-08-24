@@ -68,4 +68,4 @@ At the same time, emerging devices such as ferroelectric varactors (FeVar) and M
 - [baw-fbar.md](./baw-fbar.md) — FBAR/BAWフィルタの仕組みと産業動向  
 - [rf-switches.md](./rf-switches.md) — RFスイッチ技術の詳細  
 - [ferroelectric-varactors.md](./ferroelectric-varactors.md) — 強誘電体可変キャパシタの研究動向  
-- [proposal.md](./proposal.md) — 次世代提案（CMOS混載型RFデバイス）
+- [rfcmos_review.md](./rfcmos_review.md) — CMOS混載型RFデバイス検討  
