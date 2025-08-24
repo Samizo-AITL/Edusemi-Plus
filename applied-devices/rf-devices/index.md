@@ -35,14 +35,16 @@ Shinichi Samizo’s educational “0.18 µm FeRAM virtual process.”*
 ## 📂 構成一覧 / Contents  
 
 ### 1️⃣ 現行 & 新興RFデバイス / *Current & Emerging RF Devices*  
+
 | セクション / Section | 内容 / Description | Link |
 |---|---|---|
 | 📘 **全体概要 / Overview** | FEMの主流技術と新興技術のまとめ<br>*Summary of mainstream and emerging FEM technologies* | [current-devices.md](./current-devices.md) |
-| ├─ 📡 **BAW/FBAR デバイス / BAW/FBAR Devices** | 薄膜共振子ベースのフィルタ技術（商用主流）<br>*Thin-film resonator filters (mainstream)* | [baw-fbar.md](./baw-fbar.md) |
-| ├─ 🔀 **RFスイッチ / RF Switches** | SOI・MEMS・FeFET系スイッチ<br>*SOI, MEMS, and FeFET-based switches* | [rf-switches.md](./rf-switches.md) |
-| └─ 🧩 **強誘電体可変キャパシタ / Ferroelectric Varactors** | HfO₂系強誘電体を用いた新興可変C<br>*HfO₂-based ferroelectric varactors (emerging)* | [ferroelectric-varactors.md](./ferroelectric-varactors.md) |
+| 📡 **BAW/FBAR デバイス / BAW/FBAR Devices** | 薄膜共振子ベースのフィルタ技術（商用主流）<br>*Thin-film resonator filters (mainstream)* | [baw-fbar.md](./baw-fbar.md) |
+| 🔀 **RFスイッチ / RF Switches** | SOI・MEMS・FeFET系スイッチ<br>*SOI, MEMS, and FeFET-based switches* | [rf-switches.md](./rf-switches.md) |
+| 🧩 **強誘電体可変キャパシタ / Ferroelectric Varactors** | HfO₂系強誘電体を用いた新興可変C<br>*HfO₂-based ferroelectric varactors (emerging)* | [ferroelectric-varactors.md](./ferroelectric-varactors.md) |
 
 ### 2️⃣ 提案（CMOS混載型RFデバイス） / *Proposal: CMOS-integrated RF Devices*  
+
 | セクション / Section | 内容 / Description | Link |
 |---|---|---|
 | 📘 **全体概要 / Overview** | 0.18 µm FeRAM仮想プロセスを起点とした提案の概要<br>*Overview of proposals based on the 0.18 µm FeRAM virtual process* | [proposal.md](./proposal.md) |
