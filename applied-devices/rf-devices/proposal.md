@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 💡 Proposal: CMOS混載型RFデバイス
+title: 💡 Proposal CMOS混載型RFデバイス
 ---
 
 ---
