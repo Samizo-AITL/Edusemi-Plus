@@ -39,7 +39,7 @@ title: 💡 Proposal CMOS混載型RFデバイス
 |---|---|---|
 | **FeVar (Ferroelectric Varactor)** | HfO₂系強誘電体を用いた不揮発可変キャパシタ | 再構成可能・不揮発制御 <br>*Reconfigurable, non-volatile control* |
 | **FeFET-Switch** | HZO局所ゲートを利用したCMOS互換RFスイッチ | CMOS整合・低コスト <br>*CMOS-compatible, cost-efficient* |
-| **BAW/FBAR (Edu ver.)** | PZT/HfO₂薄膜共振器 | 薄膜積層共振を応用 <br>*Thin-film stack resonance* |
+| **BAW/FBAR (Proto)** | PZT/HfO₂薄膜共振器（試作構造） | 薄膜積層共振を応用 <br>*Thin-film stack resonance (prototype)* |
 
 ---
 
@@ -59,7 +59,7 @@ flowchart TB
   CAP2 --> FeVar["FeVar / Ferroelectric Varactor"]
   GATE --> RFSW1["RF Switch / FET + FeVar Bias"]
   GATE --> RFSW2["RF Switch / FeFET-Switch"]
-  CAP1 --> BAW["BAW/FBAR Core"]
+  CAP1 --> BAW["BAW/FBAR Core (Proto)"]
 
   subgraph RF["RF Front-End Integration"]
     MATCH["Reconfigurable Matching / Cfixed || FeVar"]
@@ -84,6 +84,7 @@ flowchart TB
 *Today’s RF front-ends rely on FBAR/BAW + SOI switches, facing issues of component count increase and rising costs due to multi-band expansion.*  
 
 欧州・米国・日本では、**再構成可能RF** が6Gの研究テーマとして進展中。  
+特に **IoT・車載・AIoT・6G/mmWave通信** でマルチバンド需要が急増しており、  
 CMOS内に可変素子を統合することで、**コスト削減・小型化・低消費電力化**が可能となります。  
 
 ---
@@ -175,14 +176,20 @@ gantt
     Test Chips & Evaluation    :done,    sw1,  2025-03-01, 90d
     Reliability Improvements   :active,  sw2,  2025-07-01, 120d
     Integration with RF Frontend:        sw3,  2026-01-01, 180d
-    section BAW/FBAR (Edu→Proto)
+    section BAW/FBAR (Proto)
     Resonator Pilot Structures :         baw1, 2025-10-01, 120d
     Integrated Filter Modules  :         baw2, 2026-04-01, 180d
 ```
 
 - **FeVar**: TRL 4–6 （デバイスモデリング→小規模集積）  
 - **FeFET-Switch**: TRL 3–5 （試作→信頼性改善→RF統合）  
-- **BAW/FBAR**: TRL 3–4 （教育モデル→試作共振器）  
+- **BAW/FBAR**: TRL 3–4 （試作共振器→統合フィルタ）  
+
+📘 **想定市場 / Target Applications**  
+- **スマホFEM**（マルチバンド対応）  
+- **IoT/AIoTデバイス**（小型・低消費電力）  
+- **車載通信**（耐環境性・信頼性重視）  
+- **6G/mmWave**（高周波・広帯域応用）  
 
 ---
 
@@ -207,4 +214,4 @@ gantt
 | **Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:shin3t72@gmail.com) |
 | **X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=for-the-badge&logo=x)](https://x.com/shin3t72) |
 | **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
-| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../../../#-ライセンス--license) <br> 再配布・改変自由（教育目的） / *Free for educational use* <br> 商用利用は別途許可 / *Commercial use requires separate permission* |
+| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../../../#-ライセンス--license) <br> 研究目的・技術提案用途で再配布・改変自由
