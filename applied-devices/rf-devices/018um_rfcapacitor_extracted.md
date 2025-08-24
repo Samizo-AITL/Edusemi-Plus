@@ -44,7 +44,7 @@ The **Pt/PZT/Ti ferroelectric capacitor** is replaced with an **HfZrO₂-based c
 | リンク / Link | 内容 / Description |
 |---|---|
 | 📘 [0.18µm FeRAM Process Flow（完全版）](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/doc_FeRAM/feram_full_process_table) | FeRAMプロセスフロー完全版（教育モデル）<br>*Full FeRAM process flow (educational model)* |
-| 📘 [Proposal CMOS混載型RFデバイス（教育モデル）](https://samizo-aitl.github.io/Edusemi-v4x/applied-devices/rf-devices/proposal) | CMOS混載型RFデバイス提案（教育モデル）<br>*Proposal of CMOS-integrated RF devices (educational model)* |
+| 📘 [Proposal CMOS混載型RFデバイス（教育モデル）](./proposal.md) | CMOS混載型RFデバイス提案（教育モデル）<br>*Proposal of CMOS-integrated RF devices (educational model)* |
 | 🔬 [0.18µm CMOSロジックプロセス](https://samizo-aitl.github.io/Edusemi-v4x/chapter3_process_evolution/docs/0.18um_Logic_ProcessFlow) | 0.18µm CMOSロジックプロセス教材<br>*0.18µm CMOS logic process (educational)* |
 
 ---
