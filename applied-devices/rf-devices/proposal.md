@@ -140,6 +140,27 @@ CMOS内に可変素子を統合することで、**コスト削減・小型化�
 
 ---
 
+## 🚀 実現のための技術課題と改善策 / *Challenges & Enhancements for Realization*  
+
+| 項目 / Item | 課題 / Challenge | 改善策 / Enhancement |
+|---|---|---|
+| **メモリ搭載 / Memory Integration** | RF設定が揮発的で、再起動時に再調整が必要 <br>*RF settings are volatile and require reconfiguration on restart* | FeRAM/FeFETによる**不揮発制御メモリ搭載**で設定保持、SoC統合 <br>*Integrate non-volatile control memory (FeRAM/FeFET) for persistent settings and SoC integration* |
+| **Q値改善 / Q-factor Enhancement** | HfZrO₂単層ではQ値が不足し、高周波特性に制約 <br>*Single HfZrO₂ layer has insufficient Q-factor, limiting RF performance* | **高Q誘電体 (Al₂O₃, AlN, SiO₂等)とのハイブリッド積層**や**3Dキャパシタ構造**導入 <br>*Hybrid stacks with high-Q dielectrics (Al₂O₃, AlN, SiO₂, etc.) and adoption of 3D capacitor structures* |
+| **干渉対策 / Crosstalk Mitigation** | デジタル/アナログ/RFの干渉により特性劣化 <br>*Digital/analog/RF interference degrades performance* | **シールド配線・ガードリング**、**低k/超低k絶縁体**採用、ロジック/RF分離レイアウト <br>*Shielded interconnects, guard rings, low-k/ultra-low-k dielectrics, and layout separation of logic and RF* |
+| **電力耐性 / Power Handling** | 高出力PA用途では耐圧不足 <br>*Insufficient breakdown voltage for high-power PA applications* | **厚膜HfZrO₂層**＋**電極最適化**で耐圧強化 <br>*Thicker HfZrO₂ layers and optimized electrodes to improve breakdown voltage* |
+| **小型化 / Miniaturization** | フィルタ・スイッチ数が多く実装負荷大 <br>*Excessive number of filters/switches increases packaging complexity* | **FeVarによる可変C**と**FeFET-SW**で部品数半減、**SiP/3Dパッケージ化** <br>*FeVar-based tunable capacitors and FeFET switches reduce parts count, with SiP/3D packaging for further miniaturization* |
+| **動的制御 / Dynamic Control** | 周波数・負荷変動に即応困難 <br>*Difficult to respond to frequency/load variations in real time* | **FeFET制御によるダイナミックバイアス最適化**で応答性強化 <br>*Dynamic bias optimization via FeFET control to enhance responsiveness* |
+
+📘 **解説 / Notes**  
+- FeRAM由来の**不揮発特性**がRFフロントエンド設定保持に直結。  
+  *Non-volatile characteristics derived from FeRAM directly enable persistent RF frontend configuration.*  
+- **ハイブリッド誘電体**と**3D構造**は高周波・高Qを実現する鍵。  
+  *Hybrid dielectrics and 3D structures are key to achieving high frequency and high Q-factor.*  
+- 干渉対策はSoC集積の必須課題であり、**レイアウト・材料・回路協調**で改善可能。  
+  *Crosstalk mitigation is critical for SoC integration and can be addressed by co-optimization of layout, materials, and circuit design.*
+  
+---
+
 ## 🗓️ 実現型ロードマップ / *Implementation Roadmap*  
 
 ```mermaid
