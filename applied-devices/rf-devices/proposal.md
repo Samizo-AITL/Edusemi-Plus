@@ -12,15 +12,24 @@ title: 💡 Proposal CMOS混載型RFデバイス
 
 ---
 
+## 🔗 リンク / Links  
+
+| Link | Badge |
+|---|---|
+| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/rf-devices/proposal) |
+| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices/rf-devices/) |
+
+---
+
 ## 📘 概要 / Overview  
 
 本提案は、三溝真一による **教育目的の仮想プロセス**「0.18 µm FeRAM」を起点に、  
-**CMOS混載型RFデバイス**を実現可能な提案として展開するものです。  
+**CMOS混載型RFデバイス**を実現可能な技術として展開するものです。  
 
-*This proposal expands the virtual educational 0.18 µm FeRAM process into realizable CMOS-integrated RF devices.*  
+*This proposal expands the virtual educational 0.18 µm FeRAM process into CMOS-integrated RF devices with practical feasibility in mind.*  
 
-👉 実在の製品・企業・製造プロセスとは直接の関係はありませんが、将来的な実用化を見据えています。  
-👉 The contents are **conceptual but implementation-oriented**, with potential for real deployment.  
+👉 実在の製品・企業・製造プロセスとは直接の関係はありませんが、実現を目指した研究・教材です。  
+👉 This content is **aimed at realization and education**, not a description of any existing proprietary process.  
 
 ---
 
@@ -30,7 +39,7 @@ title: 💡 Proposal CMOS混載型RFデバイス
 |---|---|---|
 | **FeVar (Ferroelectric Varactor)** | HfO₂系強誘電体を用いた不揮発可変キャパシタ | 再構成可能, 不揮発設定保持 |
 | **FeFET-Switch** | HZO局所ゲートスタックを利用したRFスイッチ | CMOS互換, 低コスト集積 |
-| **BAW/FBAR (Edu ver.)** | PZT/HfO₂薄膜共振器を用いた簡易モデル | 薄膜積層の共振利用, 教育起点から実用展開へ |
+| **BAW/FBAR (Edu ver.)** | PZT/HfO₂薄膜共振器を用いた教育モデル | 薄膜積層の共振利用, 教育起点の簡易設計 |
 
 ---
 
@@ -80,62 +89,64 @@ CMOS内に可変素子を統合するアプローチは、**コスト削減・�
 
 ---
 
-## 📉 部品点数削減の効果 / *Impact of Component Reduction*  
+## ⚖️ 競合技術との比較 / *Comparison with Existing Approaches*  
 
-| 項目 / Item | 従来FEM (BAW+SOI) | 提案方式 (FeVar+FeFET) | 削減効果 / Reduction |
+| 技術 / Technology | 特徴 / Characteristics | 課題 / Challenges |
+|---|---|---|
+| **SOI-CMOS Switch** | 標準スマホFEMで実績多数 | 多バンド化でチップ肥大・コスト増 |
+| **GaAs FET** | 高周波特性良好 | 高コスト・電源制約 |
+| **MEMS Switch** | 超低損失・高アイソレーション | 信頼性・寿命・応答速度 |
+| **外付けVaractor** | アンテナチューニングに利用 | 実装負荷、集積化が難しい |
+| **本提案 (FeVar/FeFET)** | CMOS互換・不揮発制御・小型化 | 実証段階、量産性未確立 |
+
+---
+
+## 📉 部品点数削減の効果 / *Effect of Reduced Component Count*  
+
+```mermaid
+flowchart LR
+    EXT[従来FEM: 外付けFBAR + SOI Switch + Varactor] -->|部品点数多, 実装面積大| LIMITS[高コスト・高消費電力]
+    INT[提案: CMOS内蔵 FeVar/FeFET + 教育BAW] -->|集積化, 実装簡素化| BENEFIT[低コスト・低消費電力・小型化]
+```
+
+- **従来**: 外付け部品の組合せにより、モジュールが大型化・高コスト化。  
+- **提案**: CMOS内にFeVar/FeFETを混載し、部品点数を削減することで **低コスト・小型・低消費電力** を実現。  
+
+---
+
+## ➕ RF CMOSのメリットとデメリット / *Pros & Cons of RF CMOS*  
+
+| 項目 / Item | メリット / Pros | デメリット / Cons | 改善策 / Improvements |
 |---|---|---|---|
-| バンド当たりフィルタ数 | 2–3 | 1 | 最大 **50%以上削減** |
-| RFスイッチ | 8–12個 | 3–5個 | **60%以上削減** |
-| 外付け可変C | 必要 | 不要 (FeVar内蔵) | **完全削除** |
-| 実装面積 | 100% (基準) | 60–70% | 約 **30–40%縮小** |
-| 消費電力 | 高 | 低 (不揮発設定) | **待機電力ゼロ化** |
+| **コスト** | CMOS互換プロセスで低コスト | 量産立ち上げに初期投資 | 教育・研究用PoCから段階的拡大 |
+| **集積度** | ロジック・メモリ・RF一体化 | 熱・干渉問題 | 局所シールド・材料工夫 |
+| **性能** | 再構成可能, 不揮発設定保持 | Q値・損失の課題 | HfO₂材料, 構造最適化 |
+| **電力** | 不揮発制御で低消費電力 | 大信号動作で歪み懸念 | 回路補償・適応制御 |
 
 ---
 
-## ⚖️ RF CMOSのメリット・デメリット / *Pros & Cons of RF CMOS*  
-
-### ✅ メリット / Advantages  
-- CMOS互換による **低コスト量産性**  
-- **ロジック+RF統合**によるSoC化が容易  
-- **不揮発メモリ機能付き素子**による電力削減  
-- プロセス互換性が高く、設計資産を流用可能  
-
-### ⚠️ デメリット / Challenges  
-- 高周波特性（fT, Q値）がGaAsやSOIに劣る  
-- 素子サイズ・オン抵抗の制約で損失増加  
-- 強誘電体材料（PZT, HZO）のプロセス信頼性課題  
-
-### 🔧 改善アプローチ / Improvement Approaches  
-- **HfZrO₂ (HZO)系材料**による高周波対応  
-- **多指ゲート・レイアウト最適化**でオン抵抗を低減  
-- **AlOx/高k保護膜**で長期信頼性を確保  
-- **BEOL共振構造（BAW/FBAR）とのハイブリッド化**  
-
----
-
-## 🗓️ 実現型ロードマップ / *Implementation-oriented Roadmap*  
+## 🗓️ 実現ロードマップ / *Realization Roadmap*  
 
 ```mermaid
 gantt
-    title CMOS-integrated RF Devices (Implementation TRL Roadmap)
+    title CMOS-integrated RF Devices (Realization Roadmap)
     dateFormat  YYYY-MM-DD
     section FeVar (HZO)
-    Modeling & PDK Templates   :done,    des1, 2025-01-01, 60d
-    Layout & Cell Libraries    :active,  des2, 2025-03-01, 90d
-    Eval Boards & S-params     :         des3, 2025-06-01, 120d
+    TCAD/Device Modeling       :done,    des1, 2025-01-01, 90d
+    PDK Cell Development       :active,  des2, 2025-04-01, 120d
+    Eval Boards & S-params     :         des3, 2025-09-01, 120d
     section FeFET Switch
-    Device Modeling            :done,    sw1,  2025-02-01, 60d
-    Test Structures            :active,  sw2,  2025-05-01, 120d
-    Small-scale Prototypes     :         sw3,  2025-09-01, 120d
-    section BAW/FBAR (HfO₂-based)
-    Resonator Modeling         :         baw1, 2025-07-01, 90d
-    Integrated Filter Demos    :         baw2, 2025-11-01, 120d
+    Device Modeling            :done,    sw1,  2025-03-01, 90d
+    Test Structure Fabrication :active,  sw2,  2025-06-01, 120d
+    FEM Integration Trials     :         sw3,  2025-10-01, 150d
+    section BAW/FBAR
+    Resonator Development      :         baw1, 2026-01-01, 150d
+    Filter Co-design           :         baw2, 2026-06-01, 120d
 ```
 
-- **TRL目安**  
-  - FeVar：TRL 5–6（基板評価〜実証試作）  
-  - FeFET Switch：TRL 4–5（試作構造〜部分動作実証）  
-  - BAW/FBAR：TRL 3–4（モデリング〜デモ素子試作）  
+- **FeVar**: 2025年前半にPDK化 → 2025年後半に基板評価へ。  
+- **FeFET Switch**: 2025年試作構造 → FEM統合試験。  
+- **BAW/FBAR**: 2026年にモデル構築 → フィルタ協調設計。  
 
 ---
 
@@ -147,4 +158,4 @@ gantt
 | **Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:shin3t72@gmail.com) |
 | **X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=for-the-badge&logo=x)](https://x.com/shin3t72) |
 | **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
-| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../../../#-ライセンス--license) <br> 再配布・改変自由（教育目的＋研究提案） / *Free for educational + research use* <br> 商用利用は別途許可 / *Commercial use requires separate permission* |
+| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../../../#-ライセンス--license) <br> 再配布・改変自由（教育・研究目的） / *Free for educational & research use* <br> 商用利用は別途許可 / *Commercial use requires separate permission* |
