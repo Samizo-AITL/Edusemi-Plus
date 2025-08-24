@@ -47,10 +47,10 @@ flowchart TB
     BEOL --> CAP2
   end
 
-  CAP2 --> FeVar{{"FeVar / Educational Varactor"}}
-  GATE --> RFSW1{{"RF Switch / FET + FeVar Bias"}}
-  GATE --> RFSW2{{"RF Switch / FeFET-Switch"}}
-  CAP1 --> BAW(("BAW/FBAR Core (Edu ver.)"))
+  CAP2 --> FeVar["FeVar / Educational Varactor"]
+  GATE --> RFSW1["RF Switch / FET + FeVar Bias"]
+  GATE --> RFSW2["RF Switch / FeFET-Switch"]
+  CAP1 --> BAW["BAW/FBAR Core (Edu ver.)"]
 
   subgraph RF["RF Front-End (Educational Integration)"]
     MATCH["Matching / FeVar + Fixed C"]
