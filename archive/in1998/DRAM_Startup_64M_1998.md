@@ -178,6 +178,20 @@ Main sources include ONO dielectric leakage between storage node and cell plate,
 
 *Pause refresh failures often fall under Bin5 classification, relating directly to refresh-cycle tolerance and cell uniformity evaluation. Mass testing typically involves pausing refresh, reading, detecting failures, and binning accordingly.*
 
+#### 2.5 セル保持時間の式 | Retention Time Equation
+
+セルの保持時間 τ は以下で近似される：
+
+$$
+\tau = \frac{C_{cell} \cdot V_{cell}}{I_{leak}}
+$$
+
+- \(C_{cell}\)：セルキャパシタ容量  
+- \(V_{cell}\)：セルに保持される電圧  
+- \(I_{leak}\)：リーク電流（ONOリーク・ジャンクションリーク・欠陥リークの総和）
+
+この式から、リーク電流がわずか 1 fA レベルでも保持時間に直結することが分かる。
+
 ---
 
 ## 🗺️ 不良マップの特徴 | Failure Map Characteristics
