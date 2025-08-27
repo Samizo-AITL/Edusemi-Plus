@@ -124,15 +124,10 @@ flowchart TB
 
 ## 🧪 ポーズリフレッシュ不良とは \| What is Pause Refresh Failure?
 
-  ----------------------------------------------------------------------------------------------------------------------------------------
-  日本語                                                                                             English
-  -------------------------------------------------------------------------------------------------- -------------------------------------
   DRAMセルの電荷保持性を検証するため、リフレッシュを一時停止後に読み出しを行う試験で発生する不良。   A DRAM failure mode detected by
                                                                                                      halting refresh temporarily and
                                                                                                      reading the cell to assess charge
                                                                                                      retention.
-
-  ----------------------------------------------------------------------------------------------------------------------------------------
 
 📎 詳細は
 **[Bin分類資料（Bin5）](dram_wafer_test_binclass_0.25um.md#bin5)**
@@ -140,11 +135,11 @@ flowchart TB
 See **[Bin Classification Data
 (Bin5)](dram_wafer_test_binclass_0.25um.md#bin5)** for details.
 
-------------------------------------------------------------------------
+---
 
-## 🔍 補足解説 \| Supplementary Notes
+### 🔍 補足解説 \| Supplementary Notes
 
-### 1. 意味と位置づけ \| Meaning and Context
+#### 1. 意味と位置づけ \| Meaning and Context
 
 -   **定義**: DRAM
     のリフレッシュ動作を意図的に停止し、一定時間経過後にセルを読み出す試験で観測される不良。\
@@ -153,11 +148,9 @@ See **[Bin Classification Data
 -   **目的**:
     セルの電荷保持性（リーク電流の大小）を判定し、**長期データ保持能力**を評価する。\
     *Purpose: To determine charge retention capability (leakage current
-    magnitude) and evaluate long-term data holding ability.*
+    magnitude) and evaluate long-term data holding
 
-------------------------------------------------------------------------
-
-### 2. 物理的背景 \| Physical Background
+#### 2. 物理的背景 \| Physical Background
 
 -   DRAM
     セルはキャパシタに蓄積した電荷を保持するが、リーク電流（(I\_{leak})）により徐々に放電していく。\
@@ -168,11 +161,9 @@ See **[Bin Classification Data
 
 *DRAM cells retain charge in a capacitor but gradually lose it due to
 leakage currents. Major contributors: oxide tunneling, junction leakage,
-and defect-related leakages.*
+and defect-
 
-------------------------------------------------------------------------
-
-### 3. 計測の難しさ \| Measurement Difficulty
+#### 3. 計測の難しさ \| Measurement Difficulty
 
 -   セル単位リークは **\~1 fA (10⁻¹⁵ A)** 程度（室温条件）。\
 -   半導体パラメトリックテスタ（通常のプローバ環境）ではノイズフロアが高すぎて測定不能。\
@@ -184,9 +175,7 @@ parametric testers. Measurements require ultra-low-noise environments
 (dark room, shielded, specialized setups), available only at leading
 DRAM manufacturers.*
 
-------------------------------------------------------------------------
-
-### 4. 不良分類上の位置 \| Relation to Bin Classification
+#### 4. 不良分類上の位置 \| Relation to Bin Classification
 
 -   ポーズリフレッシュ不良は **Bin5** に分類されることが多い。\
 -   この不良は「リフレッシュ周期延長耐性」や「セル均一性評価」に直結。\
@@ -197,8 +186,6 @@ DRAM manufacturers.*
 directly to refresh-cycle tolerance and cell uniformity evaluation. Mass
 testing typically involves pausing refresh, reading, detecting failures,
 and binning accordingly.*
-
-------------------------------------------------------------------------
 
 ## 🗺️ 不良マップの特徴 \| Failure Map Characteristics
 
@@ -212,9 +199,7 @@ and binning accordingly.*
 clustering, not edge/center concentrated, reflecting statistical process
 variations.*
 
-------------------------------------------------------------------------
-
-### 擬似ウエハマップ \| Pseudo Wafer Map
+#### 擬似ウエハマップ \| Pseudo Wafer Map
 
 **凡例 / Legend**\
 - `.` = 良品セル（Pass）\
