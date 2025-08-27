@@ -122,14 +122,122 @@ flowchart TB
 
 ---
 
-## 🧪 ポーズリフレッシュ不良とは | What is Pause Refresh Failure?
+## 🧪 ポーズリフレッシュ不良とは \| What is Pause Refresh Failure?
 
-| 日本語 | English |
-|--------|---------|
-| DRAMセルの電荷保持性を検証するため、リフレッシュを一時停止後に読み出しを行う試験で発生する不良。 | A DRAM failure mode detected by halting refresh temporarily and reading the cell to assess charge retention. |
+  ----------------------------------------------------------------------------------------------------------------------------------------
+  日本語                                                                                             English
+  -------------------------------------------------------------------------------------------------- -------------------------------------
+  DRAMセルの電荷保持性を検証するため、リフレッシュを一時停止後に読み出しを行う試験で発生する不良。   A DRAM failure mode detected by
+                                                                                                     halting refresh temporarily and
+                                                                                                     reading the cell to assess charge
+                                                                                                     retention.
 
-📎 詳細は **[Bin分類資料（Bin5）](dram_wafer_test_binclass_0.25um.md#bin5)** を参照。  
-See **[Bin Classification Data (Bin5)](dram_wafer_test_binclass_0.25um.md#bin5)** for details.  
+  ----------------------------------------------------------------------------------------------------------------------------------------
+
+📎 詳細は
+**[Bin分類資料（Bin5）](dram_wafer_test_binclass_0.25um.md#bin5)**
+を参照。\
+See **[Bin Classification Data
+(Bin5)](dram_wafer_test_binclass_0.25um.md#bin5)** for details.
+
+------------------------------------------------------------------------
+
+## 🔍 補足解説 \| Supplementary Notes
+
+### 1. 意味と位置づけ \| Meaning and Context
+
+-   **定義**: DRAM
+    のリフレッシュ動作を意図的に停止し、一定時間経過後にセルを読み出す試験で観測される不良。\
+    *Definition: A failure observed when DRAM refresh is intentionally
+    paused, then the cells are read after a retention interval.*\
+-   **目的**:
+    セルの電荷保持性（リーク電流の大小）を判定し、**長期データ保持能力**を評価する。\
+    *Purpose: To determine charge retention capability (leakage current
+    magnitude) and evaluate long-term data holding ability.*
+
+------------------------------------------------------------------------
+
+### 2. 物理的背景 \| Physical Background
+
+-   DRAM
+    セルはキャパシタに蓄積した電荷を保持するが、リーク電流（(I\_{leak})）により徐々に放電していく。\
+-   代表的なリークは以下に分類される：
+    1.  **ゲート酸化膜リーク**（トンネル電流由来）\
+    2.  **拡散層ジャンクションリーク**（逆方向電流）\
+    3.  **配線・コンタクトの欠陥リーク**
+
+*DRAM cells retain charge in a capacitor but gradually lose it due to
+leakage currents. Major contributors: oxide tunneling, junction leakage,
+and defect-related leakages.*
+
+------------------------------------------------------------------------
+
+### 3. 計測の難しさ \| Measurement Difficulty
+
+-   セル単位リークは **\~1 fA (10⁻¹⁵ A)** 程度（室温条件）。\
+-   半導体パラメトリックテスタ（通常のプローバ環境）ではノイズフロアが高すぎて測定不能。\
+-   実際には「暗室・遮蔽・低ノイズ計測環境」が必要 → **大手 DRAM
+    メーカーのみが保有する特殊環境**。
+
+*Leakage per cell is \~1 fA at RT, below the detection limit of standard
+parametric testers. Measurements require ultra-low-noise environments
+(dark room, shielded, specialized setups), available only at leading
+DRAM manufacturers.*
+
+------------------------------------------------------------------------
+
+### 4. 不良分類上の位置 \| Relation to Bin Classification
+
+-   ポーズリフレッシュ不良は **Bin5** に分類されることが多い。\
+-   この不良は「リフレッシュ周期延長耐性」や「セル均一性評価」に直結。\
+-   量産テストでは **リフレッシュ停止 → 読み出し試験 → 不良検出 →
+    Bin分け** という流れになる。
+
+*Pause refresh failures often fall under Bin5 classification, relating
+directly to refresh-cycle tolerance and cell uniformity evaluation. Mass
+testing typically involves pausing refresh, reading, detecting failures,
+and binning accordingly.*
+
+------------------------------------------------------------------------
+
+## 🗺️ 不良マップの特徴 \| Failure Map Characteristics
+
+### 分布傾向 \| Distribution Trend
+
+-   **ビット単位の点在不良**として、ウエハ全面に散発的に現れる。\
+-   クラスタリングは弱く、**全面に薄く広がる点散布**が典型。\
+-   周辺集中やライン欠陥とは異なり、**プロセス統計的ばらつき由来**。
+
+*Appears as scattered bit-level failures across the wafer, weak
+clustering, not edge/center concentrated, reflecting statistical process
+variations.*
+
+------------------------------------------------------------------------
+
+### 擬似ウエハマップ \| Pseudo Wafer Map
+
+**凡例 / Legend**\
+- `.` = 良品セル（Pass）\
+- `x` = ポーズリフレッシュ不良セル（Failure）
+
+    . . . x . . . . . . . . . x . . . . . .
+    . . . . . . x . . . . . . . . . . . . .
+    . . x . . . . . . . . x . . . . . . . .
+    . . . . . . . x . . . . . . . . x . . .
+    . . . x . . . . . . . . . . . . . . . .
+    . . . . . . . x . . . . . . . . . . . .
+    . . . . . x . . . . . . . . . x . . . .
+    . . . . . . . . . x . . . . . . . . . .
+    . . x . . . . . . . . . . . . . . . . .
+    . . . . . . . x . . . . . x . . . . . .
+    . . . . . . . . . . . . . . . . . x . .
+    . . . . x . . . . . . . . . . . . . . .
+
+> 📝 備考 / Notes\
+> - **ウエハ全面に薄く点在**する傾向を表現。\
+> *Shows lightly scattered dots across the wafer.*\
+> - リフレッシュ停止時間を延ばすと `x` の密度が増加。\
+> *Longer pause → higher defect density.*
 
 ---
 
