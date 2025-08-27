@@ -141,12 +141,27 @@ See **[Bin Classification Data (Bin5)](dram_wafer_test_binclass_0.25um.md#bin5)*
   *Purpose: To determine charge retention capability (leakage current magnitude) and evaluate long-term data holding ability.*
 
 #### 2. 物理的背景 | Physical Background
-- DRAM セルはキャパシタに蓄積した電荷を保持するが、リーク電流（\(I_{leak}\)）により徐々に放電していく。  
-- 代表的なリークは以下に分類される：  
-  1. **ゲート酸化膜リーク**（トンネル電流由来）  
-  2. **拡散層ジャンクションリーク**（逆方向電流）  
-  3. **配線・コンタクトの欠陥リーク**  
 
+- DRAM セルはキャパシタに蓄積した電荷を保持するが、リーク電流（\(I_{leak}\)）により徐々に放電していく。  
+- リークの主な発生要因は以下の通り：
+
+1. **ストレージノード / セルプレート間 ONO リーク**  
+   *ONO (Oxide-Nitride-Oxide) dielectric leakage between the storage node and the cell plate*  
+   - キャパシタ絶縁膜（ONO 積層膜）のトンネル電流や欠陥由来リーク。  
+   - セル保持特性を直接左右する主要因。  
+
+2. **拡散層ジャンクションリーク**  
+   *Reverse-biased junction leakage from the access transistor diffusion region*  
+   - ソース/ドレイン拡散層と基板の pn 接合に生じる逆方向リーク電流。  
+   - 温度依存性が強く、セル保持時間のばらつき要因となる。  
+
+3. **欠陥リーク**  
+   *Defect-induced leakage (process or material defects)*  
+   - 結晶欠陥、コンタクト不良、微小ショートなどによるリーク。  
+   - ランダム分布するため、ウエハマップ上では点在不良として現れる。  
+
+*DRAM cells retain charge in a capacitor but gradually lose it due to leakage currents.  
+Main sources include ONO dielectric leakage between storage node and cell plate, reverse-biased junction leakage, and defect-induced leakage.*
 *DRAM cells retain charge in a capacitor but gradually lose it due to leakage currents. Major contributors: oxide tunneling, junction leakage, and defect-related leakages.*
 
 #### 3. 計測の難しさ | Measurement Difficulty
