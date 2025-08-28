@@ -131,13 +131,15 @@ combining persistence, instant resume, and high bandwidth to enable the next era
 
 ### 📊 メモリ技術の進化イメージ / Evolution of Hybrid Memory
 
+上段は「時間軸での技術進化」、下段は「将来想定されるメモリ階層構成」を示す。
+
 ```mermaid
 timeline
     title Hybrid Memory Evolution
     2001 : VSRAM + Flash → Camera Phone
     2025 : HBM + FeRAM → Practical Mobile Edge AI
     Future : HBM + FeFET → Advanced Mobile Edge AI
-    Option : 3D NAND → Large model storage
+    Option : 3D NAND → Large model / log storage
 ```
 ```mermaid
 flowchart TD
@@ -145,7 +147,7 @@ flowchart TD
     HBM["HBM (High Bandwidth, volatile)"]
     FeRAM["FeRAM (Non-volatile, practical tier)"]
     FeFET["FeFET (Advanced, high density, non-destructive)"]
-    NAND["3D NAND (Optional, large storage)"]
+    NAND["3D NAND (Optional, large model / log storage)"]
 
     CPU --> HBM --> FeRAM --> NAND
     HBM --> FeFET
