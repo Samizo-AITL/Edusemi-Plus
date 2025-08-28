@@ -152,3 +152,12 @@ flowchart TD
     CPU --> HBM --> FeRAM --> NAND
     HBM --> FeFET
 ```
+
+---
+
+## 関連文書　💾 HBM+FeRAM（モバイルエッジAI）
+
+**HBM** の広帯域と **FeRAM** の不揮発性を組み合わせ、  
+**モバイルエッジAI** のための統合メモリ構成を解説します。  
+
+👉 [こちらから参照](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/hbm_feram.md)
