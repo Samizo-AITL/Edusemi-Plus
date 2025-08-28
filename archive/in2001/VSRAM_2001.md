@@ -138,7 +138,8 @@ timeline
     2025 : HBM + FeRAM → Practical Mobile Edge AI
     Future : HBM + FeFET → Advanced Mobile Edge AI
     Option : 3D NAND → Large model storage
-
+```
+```mermaid
 flowchart TD
     CPU["CPU / Cache (SRAM/MRAM)"]
     HBM["HBM (High Bandwidth, volatile)"]
