@@ -154,8 +154,6 @@ flowchart TD
   プロセス条件展開、不良解析（Pause Refresh）、ゲート酸化膜ダメージ対策などを収録。  
 - *Startup record of 64M DRAM (3rd Gen / 0.25 µm), including process deployment, pause refresh failure analysis, and gate oxide damage mitigation.*  
 
----
-
 ### 💾 HBM+FeRAM（モバイルエッジAI）  
 📄 [`hbm_feram.md`](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/hbm_feram.md)  
 
