@@ -18,12 +18,12 @@ title: "モバイル用疑似SRAM（VSRAM）技術アーカイブ（2001年）"
 **日本語**  
 本ドキュメントは、2001年に量産された **モバイル用疑似SRAM（VSRAM）** の技術アーカイブである。  
 **0.25μm世代の64M DRAM（第3世代）プロセス**をそのまま流用し、内部リフレッシュ制御によってSRAM的に動作。  
-世界初の **カメラ付き携帯電話（SHARP製）** に搭載された。
+この **エプソン製VSRAM** と **シャープ製Flash** を組み合わせたハイブリッドメモリにより、世界初の **カメラ付き携帯電話** が実現した。  
 
 **English**  
 This document archives the technology of a **pseudo-SRAM (VSRAM)** product mass-produced in 2001.  
 It was based directly on the **0.25 µm 64M DRAM (3rd generation) process**, using internal refresh logic to function like SRAM.  
-It was adopted in the **world’s first camera-equipped mobile phone** (by SHARP).
+The combination of **Epson’s VSRAM** and **Sharp’s Flash** hybrid memory enabled the world’s **first camera-equipped mobile phone**.
 
 ---
 
@@ -110,3 +110,16 @@ It was adopted in the **world’s first camera-equipped mobile phone** (by SHARP
 
 - **日本語**：64M DRAM（第3世代 / 0.25 µm）の量産立ち上げ記録。プロセス条件展開、不良解析（Pause Refresh）、ゲート酸化膜ダメージ対策などを収録。  
 - **English**: Technical archive of 64M DRAM (3rd Gen / 0.25 µm) startup, including process deployment, pause refresh failure analysis, and gate oxide damage mitigation.
+
+---
+
+## 🔮 将来展望 / Future Perspective
+
+**日本語**  
+VSRAM＋Flash のハイブリッドが「カメラ付き携帯電話」を可能にしたように、  
+将来は **HBM＋FeFET** のハイブリッドにより、モバイルエッジAIが実現すると考えられる。  
+
+**English**  
+Just as the hybrid of VSRAM and Flash enabled the first “camera phone,”  
+the future will be realized by a **HBM + FeFET hybrid**, enabling **mobile edge AI** applications.  
+
