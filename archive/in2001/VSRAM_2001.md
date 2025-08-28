@@ -116,10 +116,36 @@ The combination of **Epson’s VSRAM** and **Sharp’s Flash** hybrid memory ena
 ## 🔮 将来展望 / Future Perspective
 
 **日本語**  
-VSRAM＋Flash のハイブリッドが「カメラ付き携帯電話」を可能にしたように、  
-将来は **HBM＋FeFET** のハイブリッドにより、モバイルエッジAIが実現すると考えられる。  
+2001年に **VSRAM＋Flash** のハイブリッドが「世界初のカメラ付き携帯電話」を実現したように、  
+今後は **HBM＋FeRAM** によるハイブリッドがモバイル／エッジAIの現実解となり、  
+さらにアドバンスト形態として **HBM＋FeFET** が登場することで、  
+低消費・instant resume・高帯域を兼ね備えた **モバイルエッジAI時代** が到来すると考えられる。  
 
 **English**  
-Just as the hybrid of VSRAM and Flash enabled the first “camera phone,”  
-the future will be realized by a **HBM + FeFET hybrid**, enabling **mobile edge AI** applications.  
+Just as the **VSRAM + Flash** hybrid enabled the first “camera phone” in 2001,  
+the **HBM + FeRAM** hybrid will serve as today’s practical solution for mobile/edge AI.  
+Looking forward, an **HBM + FeFET** hybrid will emerge as the advanced option,  
+combining persistence, instant resume, and high bandwidth to enable the next era of **mobile edge AI**.  
 
+---
+
+### 📊 メモリ技術の進化イメージ / Evolution of Hybrid Memory
+
+```mermaid
+timeline
+    title Hybrid Memory Evolution
+    2001 : VSRAM + Flash → Camera Phone
+    2025 : HBM + FeRAM → Practical Mobile Edge AI
+    Future : HBM + FeFET → Advanced Mobile Edge AI
+    Option : 3D NAND → Large model storage
+
+flowchart TD
+    CPU["CPU / Cache (SRAM/MRAM)"]
+    HBM["HBM (High Bandwidth, volatile)"]
+    FeRAM["FeRAM (Non-volatile, practical tier)"]
+    FeFET["FeFET (Advanced, high density, non-destructive)"]
+    NAND["3D NAND (Optional, large storage)"]
+
+    CPU --> HBM --> FeRAM --> NAND
+    HBM --> FeFET
+```
