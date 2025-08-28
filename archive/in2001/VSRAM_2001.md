@@ -155,7 +155,7 @@ flowchart TD
 - *Startup record of 64M DRAM (3rd Gen / 0.25 µm), including process deployment, pause refresh failure analysis, and gate oxide damage mitigation.*  
 
 ### 💾 HBM+FeRAM（モバイルエッジAI）  
-📄 [`hbm_feram.md`](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/hbm_feram/)  
+📄 [`hbm_feram.md`](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/hbm_feram.html)  
 
 - **HBM** の広帯域と **FeRAM** の不揮発性を組み合わせ、  
   **モバイルエッジAI** のための統合メモリ構成を解説。  
