@@ -59,9 +59,8 @@ Apple Siliconは**高性能チップ**であるだけでなく、
 
 | **項目 / Item** | **内容 / Details** |
 |-----------------|--------------------|
-| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
-| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
-| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **著者 / Author** | **三溝 真一**（Shinichi Samizo） |
+| **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
 | **ライセンス / License** | MIT License（再配布・改変自由 / Redistribution and modification allowed） |
 
 ---
