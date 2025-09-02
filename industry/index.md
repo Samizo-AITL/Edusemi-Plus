@@ -94,14 +94,15 @@ Classifications and analysis reflect the author's independent research and inter
 **技術と産業の「接続構造」を理解することが、次の一手のヒントになります。**  
 **Understanding the structure between technology and industry will guide your next strategic step.**
 
+---
+
 ## 👤 **著者・ライセンス / Author & License**
 
 | **項目 / Item** | **内容 / Details** |
 |-----------------|--------------------|
-| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
-| **GitHub** | [Samizo-AITL](https://github.com/Samizo-AITL) |
-| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
-| **ライセンス / License** | MIT License（再配布・改変自由）<br>Redistribution and modification allowed |
+| **著者 / Author** | **三溝 真一**（Shinichi Samizo） |
+| **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
+| **ライセンス / License** | MIT License（再配布・改変自由 / Redistribution and modification allowed） |
 
 ---
 
