@@ -71,7 +71,7 @@ This module focuses on **TSMC**, the world's largest foundry, analyzing its **te
 
 | **項目 / Item** | **内容 / Details** |
 |-----------------|--------------------|
-| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
+| **著者 / Author** | **三溝 真一**（Shinichi Samizo） |
 | **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
 | **ライセンス / License** | MIT License（再配布・改変自由 / Redistribution and modification allowed） |
 
