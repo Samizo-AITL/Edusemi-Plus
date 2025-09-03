@@ -36,7 +36,7 @@ title: 🔬 応用デバイス / Applied Devices
 | 💡 **光デバイス / Photonics Devices** | シリコンフォトニクス, レーザ, PD など | *Silicon photonics, lasers, photodetectors* | [photonics-devices](./photonics-devices.md) |
 | 🧩 **ニューロモルフィック / Neuromorphic Devices** | Memristor, Synapse, FeFETベース素子 | *Neuromorphic devices and synaptic elements* | [neuromorphic-devices](./neuromorphic-devices.md) |
 | 🔋 **エナジーデバイス / Energy Devices** | 熱電ハーベスタ, MEMS発電素子 | *Energy harvesting and micro power devices (thermo, microgenerators)* | [energy-devices](./energy-devices.md) |
-| ⚡ **圧電デバイス / Piezoelectric Devices** | PZT, AlN, ScAlN, SAW/BAWフィルタ | *Piezo devices: PZT, AlN, ScAlN, SAW/BAW filters* | [piezo-devices](./piezo-devices.md) |
+| ⚡ **圧電デバイス / Piezoelectric Devices** | PZT, AlN, ScAlN, SAW/BAWフィルタ | *Piezo devices: PZT, AlN, ScAlN, SAW/BAW filters* | [piezo-devices](./piezo-devices/) |
 
 ---
 
