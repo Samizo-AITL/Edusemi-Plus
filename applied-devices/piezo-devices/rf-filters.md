@@ -57,9 +57,9 @@ RFフィルタはスマートフォンやIoT機器の **RFフロントエンド*
 
 ```mermaid
 graph TD
-  A[SAW Filter] -->|Surface Acoustic Wave| B[< 3 GHz]
+  A[SAW Filter] -->|Surface Acoustic Wave| B[~0–3 GHz]
   C[BAW Filter] -->|Bulk Acoustic Wave| D[2–6 GHz]
-  E[XBAR] -->|ScAlN Enhanced| F[3–7 GHz (5G/6G)]
+  E[XBAR] -->|ScAlN Enhanced| F[3–7 GHz 5G/6G]
 ```
 
 ---
