@@ -3,6 +3,8 @@ layout: default
 title: ⚡ 圧電デバイス / Piezoelectric Devices
 ---
 
+---
+
 # ⚡ 圧電デバイス / Piezoelectric Devices  
 *Piezoelectric Devices – Open Strategy for Next Generation*
 
