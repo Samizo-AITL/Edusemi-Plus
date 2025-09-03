@@ -49,9 +49,7 @@ title: "Analysis & Validation | 解析・検証"
 
 | 項目 / Item | 内容 / Details |
 |---|---|
-| **著者 / Author** | 三溝 真一（Shinichi Samizo） |
-| **Email** | [![Email](https://img.shields.io/badge/Email-shin3t72%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:shin3t72@gmail.com) |
-| **X** | [![X](https://img.shields.io/badge/X-@shin3t72-black?style=for-the-badge&logo=x)](https://x.com/shin3t72) |
+| **著者 / Author** | **三溝 真一**（Shinichi Samizo） |
 | **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
 | **ライセンス / License** | [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE) <br> 再配布・改変自由 / Redistribution and modification allowed |
 
