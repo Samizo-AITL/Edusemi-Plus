@@ -43,6 +43,10 @@ title: ⚡ 圧電デバイス / Piezoelectric Devices
 | 🎛 **センサー / Sensors** | MEMS超音波、フレキシブル圧電 | *MEMS ultrasonic & flexible sensors* | [sensors.md](./sensors.md) |
 | ⚙️ **アクチュエータ / Actuators** | 薄膜圧電アクチュエータ、インクレス応用 | *Thin-film actuators, beyond inkjet* | [actuators.md](./actuators.md) |
 | 🛠 **ロードマップ / Roadmap** | 材料・構造・集積化の将来像 | *Future roadmap: materials × integration* | [roadmap.md](./roadmap.md) |
+| 🌍 **Pbフリー戦略 / Lead-free Strategy** | 医療・安全・規制対応を意識した非鉛化アプローチ | *Pb-free approach for medical, safety, and regulatory compliance* | [pbfree-strategy.md](./pbfree-strategy.md) |
+| 🔊 **ScAlN × SiGe × SiP** | ScAlN MEMSアレイとSiGe/65 nm CMOSをSiP統合する現実解 | *ScAlN MEMS arrays integrated with SiGe/65 nm CMOS via SiP* | [scaln-sige-sip.md](./scaln-sige-sip.md) |
+| 🧭 **市場戦略 / Market Strategy** | 医療・産業・AIoTでの応用と参入ポイント | *Application focus: medical, industrial, AIoT markets* | [market-strategy.md](./market-strategy.md) |
+| 📖 **教材・オープンリソース / Educational Resources** | Edusemi教材やAITL戦略提案と連動 | *Open educational and strategic resources* | [../README.md](../README.md) |
 
 ---
 
