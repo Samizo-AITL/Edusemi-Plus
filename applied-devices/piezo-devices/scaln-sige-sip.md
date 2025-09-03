@@ -144,6 +144,12 @@ flowchart LR
 
 ---
 
+## 📄 論文リンク / Paper Link
+
+- [Pb-free ScAlN MEMS Array Integrated with 65 nm SiGe CMOS via System-in-Package for Medical Ultrasonic Sensors (PDF)](./scaln_ultrasonic.pdf)
+  
+---
+
 ## 📚 関連 / Links  
 
 - [scaln-on-cmos.md](./scaln-on-cmos.md)  
