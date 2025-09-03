@@ -3,10 +3,28 @@ layout: default
 title: 🔊 ScAlN MEMS アレイ × SiGe/65 nm CMOS × SiP 統合
 ---
 
----
-
 # 🔊 ScAlN MEMS アレイ × SiGe/65 nm CMOS × SiP 統合  
 *ScAlN MEMS Array × SiGe/65 nm CMOS × System‑in‑Package Integration*
+
+---
+
+## 🌍 Pbフリー全面アピール / Lead-free Advantage  
+
+**「人体に鉛を入れない」**  
+*No lead inside the human body*  
+
+**「規制クリア済み」**  
+*Pre-aligned with medical and environmental regulations*  
+
+**「次世代グリーン医療デバイス」**  
+*Next-generation green medical device platform*  
+
+- **医療規制適合**：EU RoHS, REACH, FDA → Pb使用制限を回避。  
+  *Medical compliance: EU RoHS, REACH, FDA → avoid Pb restrictions.*  
+- **環境価値**：グリーン医療・ESG投資に直結。  
+  *Environmental value: directly aligned with green healthcare and ESG investment.*  
+- **差別化**：PZT依存の大手に対し、世界初の「Pbフリー MEMS 超音波」を前面に出せる。  
+  *Differentiation: Position as the world’s first “Pb-free MEMS ultrasonic” against PZT incumbents.*  
 
 ---
 
@@ -105,9 +123,9 @@ flowchart LR
 
 | 🔧 **項目 / Item** | 📝 **内容 / Details** |
 |---|---|
-| 🧪 **ScAlN MEMS アレイの製造** <br> *Fabrication of ScAlN MEMS Array* | **基板準備**：Si基板 <br> *Si substrate preparation* <br><br> **下部電極**：Mo/TiN/AlCu <br> *Bottom electrode (Mo/TiN/AlCu sputtering & patterning)* <br><br> **ScAlN成膜**：250–350 °C, Sc=0.1–0.3 <br> *ScAlN sputtering at 250–350 °C, Sc fraction 0.1–0.3* <br><br> **上部電極**：Mo/Al薄膜 <br> *Top electrode (Mo/Al thin film)* <br><br> **共振器形成**：ICPエッチ (Cl₂/BCl₃/Ar) <br> *Resonator definition via ICP etch* <br><br> **空洞/ミラー**：FBAR or SMR (SiO₂/SiN λ/4) <br> *Cavity (FBAR) or Acoustic mirror (SMR, SiO₂/SiN λ/4 stack)* <br><br> **キャップ&封止**：薄膜 or WLP <br> *Thin‑film cap or Wafer‑Level Packaging* <br><br> **管理項目**：Ra<2–3 nm, 熱≦400 °C, 応力制御 <br> *Ra<2–3 nm, ≤400 °C thermal budget, stress management* |
-| ⚙️ **SiGe / 65 nm CMOS 調達** <br> *Procurement of SiGe / 65 nm CMOS* | **供給元**：GF (SiGe BiCMOS), TowerJazz, TSMC RF <br> *Suppliers: GF (SiGe BiCMOS), TowerJazz, TSMC RF* <br><br> **利点**：高性能LNA/VGA/Tx, PDK完備, コスト性能バランス良好 <br> *Advantages: High‑performance LNA/VGA/Tx, rich PDK, balanced cost‑performance* <br><br> **方針**：設計は内製, 製造は外部ファウンドリ供給 <br> *Policy: Design in‑house, wafer supply from external foundries* |
-| 📦 **SiP 統合** <br> *SiP Integration* | **方式**：Flip‑chip / 2.5Dインターポーザ / Module SiP <br> *Modes: Flip‑chip / 2.5D interposer / Module SiP* <br><br> **統合フロー**：MEMS製造 → CMOS調達 → パッケージ統合 (Flip‑chip/TSV) → 気密封止 (Cap/WLP) → テスト&キャリブレーション <br> *Integration flow: MEMS fabrication → CMOS procurement → Package integration (Flip‑chip/TSV) → Hermetic sealing (Cap/WLP) → Test & calibration* <br><br> **利点**：歩留まり分離, 短配線による高SNR, プロトタイプ開発が速い <br> *Advantages: Yield separation, high SNR with short interconnect, fast prototyping* |
+| 🧪 **ScAlN MEMS アレイの製造** <br> *Fabrication of ScAlN MEMS Array* | **基板準備**：Si基板 <br> *Si substrate preparation* <br><br> **下部電極**：Mo/TiN/AlCu <br> *Bottom electrode (Mo/TiN/AlCu sputtering & patterning)* <br><br> **ScAlN成膜**：250–350 °C, Sc=0.1–0.3 <br> *ScAlN sputtering at 250–350 °C, Sc fraction 0.1–0.3* <br><br> **上部電極**：Mo/Al薄膜 <br> *Top electrode (Mo/Al thin film)* <br><br> **共振器形成**：ICPエッチ (Cl₂/BCl₃/Ar) <br> *Resonator definition via ICP etch* <br><br> **空洞/ミラー**：FBAR or SMR (SiO₂/SiN λ/4) <br> *Cavity (FBAR) or Acoustic mirror (SMR, SiO₂/SiN λ/4 stack)* <br><br> **キャップ&封止**：薄膜 or WLP <br> *Thin-film cap or Wafer-Level Packaging* <br><br> **管理項目**：Ra<2–3 nm, 熱≦400 °C, 応力制御 <br> *Ra<2–3 nm, ≤400 °C thermal budget, stress management* |
+| ⚙️ **SiGe / 65 nm CMOS 調達** <br> *Procurement of SiGe / 65 nm CMOS* | **供給元**：GF (SiGe BiCMOS), TowerJazz, TSMC RF <br> *Suppliers: GF (SiGe BiCMOS), TowerJazz, TSMC RF* <br><br> **利点**：高性能LNA/VGA/Tx, PDK完備, コスト性能バランス良好 <br> *Advantages: High-performance LNA/VGA/Tx, rich PDK, balanced cost-performance* <br><br> **方針**：設計は内製, 製造は外部ファウンドリ供給 <br> *Policy: Design in-house, wafer supply from external foundries* |
+| 📦 **SiP 統合** <br> *SiP Integration* | **方式**：Flip-chip / 2.5Dインターポーザ / Module SiP <br> *Modes: Flip-chip / 2.5D interposer / Module SiP* <br><br> **統合フロー**：MEMS製造 → CMOS調達 → パッケージ統合 (Flip-chip/TSV) → 気密封止 (Cap/WLP) → テスト&キャリブレーション <br> *Integration flow: MEMS fabrication → CMOS procurement → Package integration (Flip-chip/TSV) → Hermetic sealing (Cap/WLP) → Test & calibration* <br><br> **利点**：歩留まり分離, 短配線による高SNR, プロトタイプ開発が速い <br> *Advantages: Yield separation, high SNR with short interconnect, fast prototyping* |
 
 ---
 
@@ -118,9 +136,9 @@ flowchart LR
 2. **Phase 2**：SiP統合 (ScAlN MEMS + SiGe/65 nm LNA/ADC)。  
    *Phase 2: SiP integration (ScAlN MEMS + SiGe/65 nm LNA/ADC).*  
 3. **Phase 3**：医療・産業応用 (安全規格, 滅菌試験, 長期信頼性)。  
-   *Phase 3: Medical/industrial applications (safety standards, sterilization, long‑term reliability).*  
-4. **Phase 4**：将来的にモノリシック統合や28 nm RF‑CMOSへ展開。  
-   *Phase 4: Migration to monolithic integration or 28 nm RF‑CMOS.*  
+   *Phase 3: Medical/industrial applications (safety standards, sterilization, long-term reliability).*  
+4. **Phase 4**：将来的にモノリシック統合や28 nm RF-CMOSへ展開。  
+   *Phase 4: Migration to monolithic integration or 28 nm RF-CMOS.*  
 
 ---
 
