@@ -3,6 +3,8 @@ layout: default
 title: 🔊 ScAlN MEMS アレイ × SiGe/65 nm CMOS × SiP 統合
 ---
 
+---
+
 # 🔊 ScAlN MEMS アレイ × SiGe/65 nm CMOS × SiP 統合  
 *ScAlN MEMS Array × SiGe/65 nm CMOS × System‑in‑Package Integration*
 
