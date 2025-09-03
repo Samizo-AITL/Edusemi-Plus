@@ -63,8 +63,8 @@ flowchart LR
   subgraph MEMS[ScAlN MEMS Array]
     C1((Cell1)):::el --> C2((Cell2)):::el --> C3((Cell3)):::el
   end
-  MEMS -->|Flip‑chip/TSV| LNA[LNA / VGA (SiGe 65 nm)]
-  LNA --> ADC[ADC (12–14 bit, 50–100 MS/s)]
+  MEMS --> LNA[LNA & VGA : SiGe 65nm]
+  LNA --> ADC[ADC : 12–14 bit, 50–100 MS/s]
   ADC --> BF[Beamformer / Digital Core]
   BF --> SYS[System / Host]
   classDef el fill:#fff,stroke:#333,stroke-width:1px;
