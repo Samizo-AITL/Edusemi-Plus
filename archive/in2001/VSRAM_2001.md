@@ -148,22 +148,22 @@ flowchart TD
 ## 🔗 関連リンク / Related Links
 
 ### 📂 64M DRAM 立ち上げ技術アーカイブ（1998年）  
-📄 [`DRAM_Startup_64M_1998.md`](https://samizo-aitl.github.io/Edusemi-Plus/archive/in1998/DRAM_Startup_64M_1998/)  
+📄 [DRAM_Startup_64M_1998.md](https://samizo-aitl.github.io/Edusemi-Plus/archive/in1998/DRAM_Startup_64M_1998/)  
 
 - 64M DRAM（第3世代 / 0.25 µm）の量産立ち上げ記録。  
   プロセス条件展開、不良解析（Pause Refresh）、ゲート酸化膜ダメージ対策などを収録。  
 - *Startup record of 64M DRAM (3rd Gen / 0.25 µm), including process deployment, pause refresh failure analysis, and gate oxide damage mitigation.*  
 
 ### 📗 LPDDR+FeRAM（モバイルエッジAI）  
-  [1_6_lpddr_feram.md](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/1_6_lpddr_feram.html)  
-  LPDDR と FeRAM を統合したモバイル/エッジAI向けメモリアーキテクチャ。  
+📄 [1_6_lpddr_feram.md](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/1_6_lpddr_feram.html)  
+
+- LPDDR と FeRAM を統合したモバイル/エッジAI向けメモリアーキテクチャ。  
   FEM解析や時系列シーケンスを含み、SystemDK（第2a章）と連携する設計例。  
-  *Hybrid memory (LPDDR + FeRAM) for Mobile/Edge AI, including FEM analysis and sequence of operations.*
-  
+- *Hybrid memory (LPDDR + FeRAM) for Mobile/Edge AI, including FEM analysis and sequence of operations.*  
+
 ### 💾 HBM+FeRAM（モバイルエッジAI）  
-📄 [`hbm_feram.md`](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/hbm_feram.html)  
+📄 [hbm_feram.md](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/hbm_feram.html)  
 
 - **HBM** の広帯域と **FeRAM** の不揮発性を組み合わせ、  
   **モバイルエッジAI** のための統合メモリ構成を解説。  
-- *Combines high bandwidth of HBM with non-volatility of FeRAM, proposing an integrated memory architecture for mobile edge AI.*
-  
+- *Combines high bandwidth of HBM with non-volatility of FeRAM, proposing an integrated memory architecture for mobile edge AI.*  
