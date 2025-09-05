@@ -74,6 +74,37 @@ clarifying each material’s **strengths** and **limitations**.
   </figcaption>
 </figure>
 
+
+## 📊 グラフ化例 | Example Graphs
+
+<figure>
+  <img src="https://raw.githubusercontent.com/Samizo-AITL/Edusemi-Plus/main/materials/images/eg_vs_mobility_improved.png" width="80%" alt="Eg vs Mobility">
+  <figcaption>
+    <strong>Eg と移動度の関係</strong>：WBGは一般にEgが大きいが、GaN・Diamondは高い移動度を維持。SiCは高耐圧寄りで移動度は低め。→ <strong>高周波・高速</strong>はGaN/Diamond、<strong>汎用集積</strong>はSi。<br>
+    <em>Relation between Eg and mobility: WBG materials have larger bandgaps, yet GaN/diamond keep high mobility; SiC is HV-oriented. ⇒ GaN/diamond for high-frequency, Si for general-purpose integration.</em>
+  </figcaption>
+</figure>
+
+---
+
+<figure>
+  <img src="https://raw.githubusercontent.com/Samizo-AITL/Edusemi-Plus/main/materials/images/breakdown_vs_thermal_improved.png" width="80%" alt="Breakdown Field vs Thermal Conductivity">
+  <figcaption>
+    <strong>絶縁破壊電界 × 熱伝導率</strong>：SiCは両方高く<b>高耐圧・高信頼の電力</b>に最適。GaNは電界高いが熱伝導は低めで<b>放熱設計</b>が重要（GaN on SiCなど）。Diamondは理論的に突出。<br>
+    <em>Breakdown vs thermal conductivity: SiC scores high on both (ideal for power). GaN needs careful thermal management; diamond is outstanding in theory.</em>
+  </figcaption>
+</figure>
+
+---
+
+<figure>
+  <img src="https://raw.githubusercontent.com/Samizo-AITL/Edusemi-Plus/main/materials/images/criticalRon_vs_breakdown_improved.png" width="80%" alt="Critical Ron vs Breakdown Field">
+  <figcaption>
+    <strong>臨界オン抵抗（相対）</strong>：同耐圧ならWBGほど理論最小Ronが小さく<b>高効率スイッチング</b>が可能。SiC/GaNはSiの数百分の1、Diamondはさらに低い。<br>
+    <em>Critical Ron (relative): For the same breakdown, WBG enables much lower theoretical Ron → high-efficiency switching. SiC/GaN are hundreds× lower than Si; diamond lower still.</em>
+  </figcaption>
+</figure>
+
 ---
 
 ## 🧠 材料の使いどころ｜Where Each Material Excels
