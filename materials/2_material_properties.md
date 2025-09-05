@@ -43,40 +43,6 @@ clarifying each material’s **strengths** and **limitations**.
 
 ## 📊 グラフ化例 | Example Graphs
 
-<!-- Eg vs Mobility -->
-<figure>
-  <img src="./images/eg_vs_mobility_improved.png" alt="Eg vs Mobility for Si / SiC / GaN / Diamond" width="80%">
-  <figcaption>
-    **Eg と移動度の関係**：WBG材料は一般に Eg が大きい一方、GaN・Diamond は高い移動度を維持します。SiC は高耐圧寄りで移動度は低め。→ **高周波・高速**は GaN/Diamond、**集積・汎用**は Si が得意。  
-    *Relation between Eg and mobility: While WBG materials have larger bandgaps, GaN and diamond keep high mobility. SiC is more HV-oriented with lower mobility. ⇒ GaN/diamond suit high-frequency/high-speed, Si suits general-purpose integration.*
-  </figcaption>
-</figure>
-
----
-
-<!-- Breakdown Field vs Thermal Conductivity -->
-<figure>
-  <img src="./images/breakdown_vs_thermal_improved.png" alt="Breakdown Field vs Thermal Conductivity" width="80%">
-  <figcaption>
-    **絶縁破壊電界 × 熱伝導率**：SiC は両方が高く、**高耐圧・高信頼の電力用途**に最適。GaN は電界は高いが熱伝導が低めのため、**基板・放熱設計**が重要（GaN on SiC など）。Diamond は理論的に突出。  
-    *Breakdown field vs thermal conductivity: SiC scores high on both → ideal for high-voltage/reliability power. GaN has high field but lower thermal conductivity → thermal management matters (e.g., GaN on SiC). Diamond is outstanding in theory.*
-  </figcaption>
-</figure>
-
----
-
-<!-- Critical Ron vs Breakdown Field (log scale) -->
-<figure>
-  <img src="./images/criticalRon_vs_breakdown_improved.png" alt="Critical Ron vs Breakdown Field (log scale)" width="80%">
-  <figcaption>
-    **臨界オン抵抗（相対）**：同じ耐圧なら WBG ほど理論最小 Ron は小さく、**高効率なスイッチング**が可能。SiC/GaN は Si に対して数百分の1、Diamond はさらに低い。  
-    *Critical on-resistance (relative): For the same breakdown, WBG materials allow much lower theoretical Ron, enabling high-efficiency switching. SiC/GaN are hundreds of times lower than Si; diamond is lower still.*
-  </figcaption>
-</figure>
-
-
-## 📊 グラフ化例 | Example Graphs
-
 <figure>
   <img src="https://raw.githubusercontent.com/Samizo-AITL/Edusemi-Plus/main/materials/images/eg_vs_mobility_improved.png" width="80%" alt="Eg vs Mobility">
   <figcaption>
