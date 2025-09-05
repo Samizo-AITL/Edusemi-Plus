@@ -3,6 +3,8 @@ title: "📘 CMOS適用限界とWBGへの分岐まとめ"
 layout: default
 ---
 
+---
+
 # 📘 CMOS適用限界とWBGへの分岐まとめ  
 *Where CMOS ends and WBG (SiC / GaN / Diamond) begins*
 
@@ -114,13 +116,13 @@ graph TB
 ## 🖼️ 付録: 材料特性グラフ | Appendix: Material Property Charts
 
 ### バンドギャップ比較 | Bandgap Comparison
-![Bandgap Comparison](./images/bandgap_comparison.png)  
+<img src="./images/bandgap_comparison.png" alt="Bandgap Comparison" width="80%">
 *Eg values for Si, SiC, GaN, Diamond*
 
 ### 移動度 vs Eg グラフ | Mobility vs Bandgap
-![Mobility vs Bandgap](./images/mobility_vs_bandgap.png)  
+<img src="./images/mobility_vs_bandgap.png" alt="Mobility vs Bandgap" width="80%">
 *Trade-off between carrier mobility and bandgap*
 
 ### 応用マップ | Application Mapping
-![Application Mapping](./images/application_mapping.png)  
+<img src="./images/application_mapping.png" alt="Application Mapping" width="80%">
 *Voltage range vs Integration landscape*
