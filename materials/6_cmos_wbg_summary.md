@@ -68,3 +68,38 @@ graph TD
   *SiC leads in high-voltage & power electronics*  
 - **kV級・極限環境 → Diamond（研究段階）**  
   *Diamond for extreme and future applications*
+
+---
+
+## 🧩 System in Package 視点 | SiP Perspective
+
+**単一プロセスでは全領域をカバーできないため、実際の応用は「System in Package (SiP)」で複数チップを組み合わせるのが主流**です。  
+*Since no single process covers all domains, practical applications rely on System in Package (SiP) combining multiple dies.*
+
+### 🔹 役割分担 | Role Sharing
+- **CMOS** → 制御・ロジック・インターフェース  
+  *Logic, control, interface*  
+- **BCD / LDMOS** → 電源管理・中耐圧駆動  
+  *Power management, medium-voltage driving*  
+- **GaN / SiC** → 高耐圧・高効率のパワー変換  
+  *High-voltage, high-efficiency power conversion*  
+- **Diamond**（将来）→ 超高耐圧・放熱の極限用途  
+  *Future: extreme high-voltage & thermal handling*  
+
+### 🔹 実例 | Practical Examples
+- 📱 **スマホPMIC**：CMOS制御 + BCD電源 + LDMOSスイッチ  
+  *Smartphone PMIC: CMOS logic + BCD power + LDMOS switch*  
+- 🚗 **EVインバータ**：SiC MOSFET + CMOSゲートドライバ  
+  *EV inverter: SiC MOSFET + CMOS gate driver*  
+- 📡 **5G基地局PA**：GaN HEMT + CMOS制御回路  
+  *5G base-station PA: GaN HEMT + CMOS control*  
+
+### 🎯 まとめ | Summary
+- **CMOS = 頭脳 (Brain), WBG = 筋肉 (Muscle)**  
+  *CMOS as the brain, WBG devices as the muscle*  
+- **SiPにより両者を統合するのが現実解**  
+  *SiP integration is the practical solution*  
+- 将来は **「CMOS + GaN + SiC + メモリ + センサー」統合パッケージ**へ進化  
+  *Future trend: fully integrated SiP with CMOS, GaN, SiC, memory, sensors*
+
+
