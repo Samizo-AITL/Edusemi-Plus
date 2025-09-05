@@ -99,7 +99,7 @@ graph TD
 ## 🧠 CMOS = Brain 🆚 💪 WBG = Muscle | Integration Concept
 
 ```mermaid
-graph LR
+graph TB
     A[🧠 CMOS<br>*Brain: Logic & Control*]
     B[⚡ BCD/LDMOS<br>*Power Management*]
     C[💪 GaN/SiC<br>*Muscle: Power & RF*]
