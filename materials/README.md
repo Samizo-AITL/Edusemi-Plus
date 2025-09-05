@@ -49,6 +49,7 @@ focusing on their role in power devices, RF, and optical applications._
 | [`3_applications.md`](./3_applications.md) | EV・電源・通信・宇宙など用途マッピング<br>_Application mapping: EV, power, comms, space_ |
 | [`4_future_trends.md`](./4_future_trends.md) | 垂直GaN・AlN・Diamond FET・Ga₂O₃など未来構造<br>_Future devices & materials_ |
 | [`5_ingan_laser.md`](./5_ingan_laser.md) | InGaNレーザー構造と応用（Blu-ray等）<br>_InGaN laser structure & applications_ |
+| [6_cmos_wbg_summary.md](6_cmos_wbg_summary.md) | CMOS適用限界とWBG材料への分岐まとめ <br>*Summary of CMOS limits vs WBG (SiC, GaN, Diamond)* |
 | [`images/`](./images/) | 材料断面図・バンド構造・応用マップ<br>_Cross-sections, band diagrams, application maps_ |
 
 ---
