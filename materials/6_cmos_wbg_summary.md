@@ -3,8 +3,6 @@ title: "📘 CMOS適用限界とWBGへの分岐まとめ"
 layout: default
 ---
 
----
-
 # 📘 CMOS適用限界とWBGへの分岐まとめ  
 *Where CMOS ends and WBG (SiC / GaN / Diamond) begins*
 
@@ -99,7 +97,7 @@ graph TD
 ## 🧠 CMOS = Brain 🆚 💪 WBG = Muscle | Integration Concept
 
 ```mermaid
-graph TB
+graph LR
     A[🧠 CMOS<br>*Brain: Logic & Control*]
     B[⚡ BCD/LDMOS<br>*Power Management*]
     C[💪 GaN/SiC<br>*Muscle: Power & RF*]
@@ -111,10 +109,18 @@ graph TB
     C -->|High Power Domain| D
 ```
 
-### 🎯 SiPまとめ | SiP Summary
-- **CMOS = 頭脳 (Brain), WBG = 筋肉 (Muscle)**  
-  *CMOS as the brain, WBG devices as the muscle*  
-- **SiPにより両者を統合するのが現実解**  
-  *SiP integration is the practical solution*  
-- 将来は **「CMOS + GaN + SiC + メモリ + センサー」統合パッケージ**へ進化  
-  *Future trend: fully integrated SiP with CMOS, GaN, SiC, memory, sensors*
+---
+
+## 🖼️ 付録: 材料特性グラフ | Appendix: Material Property Charts
+
+### バンドギャップ比較 | Bandgap Comparison
+![Bandgap Comparison](../images/bandgap_comparison.png)  
+*Eg values for Si, SiC, GaN, Diamond*
+
+### 移動度 vs Eg グラフ | Mobility vs Bandgap
+![Mobility vs Bandgap](../images/mobility_vs_bandgap.png)  
+*Trade-off between carrier mobility and bandgap*
+
+### 応用マップ | Application Mapping
+![Application Mapping](../images/application_mapping.png)  
+*Voltage range vs Integration landscape*
