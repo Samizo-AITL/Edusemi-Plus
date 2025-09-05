@@ -24,20 +24,12 @@ layout: default
 ## 📊 適用領域イメージ | Application Landscape
 
 ```mermaid
-quadrantChart
-    title "CMOS vs WBG Materials"
-    x-axis "電圧レンジ (V)" min 0 max 10000
-    y-axis "集積度 / Integration" min 0 max 5
-    quadrant-1 "高電圧・低集積 / High V, Low Integration"
-    quadrant-2 "低電圧・低集積 / Low V, Low Integration"
-    quadrant-3 "低電圧・高集積 / Low V, High Integration"
-    quadrant-4 "高電圧・高集積 / High V, High Integration"
-    CMOS: [5,5]
-    BCD: [150,3]
-    LDMOS: [200,2]
-    GaN: [600,2]
-    SiC: [1200,1]
-    Diamond: [5000,0.5]
+graph TD
+    A[CMOS 適用領域<br>*Low voltage, high integration*] --> B[BCD<br>*5–200 V mixed-signal power*]
+    B --> C[LDMOS<br>*20–200+ V RF/PA*]
+    B --> D[GaN<br>*100–650 V fast switching/RF*]
+    D --> E[SiC<br>*600–1200 V high power*]
+    E --> F[Diamond<br>*kV extreme future use*]
 ```
 
 ---
