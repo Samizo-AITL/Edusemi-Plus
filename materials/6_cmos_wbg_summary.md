@@ -94,12 +94,27 @@ graph TD
 - 📡 **5G基地局PA**：GaN HEMT + CMOS制御回路  
   *5G base-station PA: GaN HEMT + CMOS control*  
 
-### 🎯 まとめ | Summary
+---
+
+## 🧠 CMOS = Brain 🆚 💪 WBG = Muscle | Integration Concept
+
+```mermaid
+graph LR
+    A[🧠 CMOS<br>*Brain: Logic & Control*]
+    B[⚡ BCD/LDMOS<br>*Power Management*]
+    C[💪 GaN/SiC<br>*Muscle: Power & RF*]
+    D[🔮 Diamond<br>*Extreme Future*]
+
+    A -->|Control| B
+    A -->|Drive| C
+    B -->|Assist| C
+    C -->|High Power Domain| D
+```
+
+### 🎯 SiPまとめ | SiP Summary
 - **CMOS = 頭脳 (Brain), WBG = 筋肉 (Muscle)**  
   *CMOS as the brain, WBG devices as the muscle*  
 - **SiPにより両者を統合するのが現実解**  
   *SiP integration is the practical solution*  
 - 将来は **「CMOS + GaN + SiC + メモリ + センサー」統合パッケージ**へ進化  
   *Future trend: fully integrated SiP with CMOS, GaN, SiC, memory, sensors*
-
-
