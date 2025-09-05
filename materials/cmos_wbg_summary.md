@@ -3,6 +3,8 @@ title: "📘 CMOS適用限界とWBGへの分岐まとめ"
 layout: default
 ---
 
+---
+
 # 📘 CMOS適用限界とWBGへの分岐まとめ  
 *Where CMOS ends and WBG (SiC / GaN / Diamond) begins*
 
