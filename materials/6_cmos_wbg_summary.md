@@ -114,13 +114,13 @@ graph TB
 ## 🖼️ 付録: 材料特性グラフ | Appendix: Material Property Charts
 
 ### バンドギャップ比較 | Bandgap Comparison
-![Bandgap Comparison](../images/bandgap_comparison.png)  
+![Bandgap Comparison](./images/bandgap_comparison.png)  
 *Eg values for Si, SiC, GaN, Diamond*
 
 ### 移動度 vs Eg グラフ | Mobility vs Bandgap
-![Mobility vs Bandgap](../images/mobility_vs_bandgap.png)  
+![Mobility vs Bandgap](./images/mobility_vs_bandgap.png)  
 *Trade-off between carrier mobility and bandgap*
 
 ### 応用マップ | Application Mapping
-![Application Mapping](../images/application_mapping.png)  
+![Application Mapping](./images/application_mapping.png)  
 *Voltage range vs Integration landscape*
