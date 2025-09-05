@@ -51,7 +51,7 @@ clarifying each material’s **strengths** and **limitations**.
     *Relation between Eg and mobility: While WBG materials have larger bandgaps, GaN and diamond keep high mobility. SiC is more HV-oriented with lower mobility. ⇒ GaN/diamond suit high-frequency/high-speed, Si suits general-purpose integration.*
   </figcaption>
 </figure>
-
+---
 <!-- Breakdown Field vs Thermal Conductivity -->
 <figure>
   <img src="./images/breakdown_vs_thermal_improved.png" alt="Breakdown Field vs Thermal Conductivity" width="80%">
@@ -60,7 +60,7 @@ clarifying each material’s **strengths** and **limitations**.
     *Breakdown field vs thermal conductivity: SiC scores high on both → ideal for high-voltage/reliability power. GaN has high field but lower thermal conductivity → thermal management matters (e.g., GaN on SiC). Diamond is outstanding in theory.*
   </figcaption>
 </figure>
-
+---
 <!-- Critical Ron vs Breakdown Field (log scale) -->
 <figure>
   <img src="./images/criticalRon_vs_breakdown_improved.png" alt="Critical Ron vs Breakdown Field (log scale)" width="80%">
