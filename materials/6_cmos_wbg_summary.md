@@ -123,7 +123,7 @@ graph TD
     B --> D[GaN 100–650 V High Frequency / Power]
     D --> E[SiC 600–1200 V EV / Industrial Power]
     E --> F[Diamond / Ga₂O₃ kV級 Extreme Future]
-    
+
     subgraph Integration [System Integration]
         G[System in Package (SiP)]
         H[Chiplet + UCIe]
