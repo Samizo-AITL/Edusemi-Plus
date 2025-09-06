@@ -96,8 +96,11 @@ graph TD
 
 ---
 
-## 🧠 CMOS = Brain 🆚 💪 WBG = Muscle | Integration Concept
+## 🖼️ 見取り図 | Technology Integration Landscape
 
+### 📊 図1: 概念モデル | Conceptual Model  
+**CMOS = 🧠 Brain（制御・ロジック）**  
+**WBG (GaN/SiC) = 💪 Muscle（パワー・RF）**
 ```mermaid
 graph TB
     A[🧠 CMOS<br>*Brain: Logic & Control*]
@@ -109,6 +112,30 @@ graph TB
     A -->|Drive| C
     B -->|Assist| C
     C -->|High Power Domain| D
+```
+
+### 📊 図2: 技術マップ | Voltage & Application Landscape
+
+```mermaid
+graph TD
+    A[CMOS ロジック / SoC<br>1–5 V] --> B[BCD<br>5–200 V Mixed-Signal]
+    B --> C[LDMOS<br>20–200+ V RF/PA]
+    B --> D[GaN<br>100–650 V<br>High Frequency / Power]
+    D --> E[SiC<br>600–1200 V<br>EV / Industrial Power]
+    E --> F[Diamond / Ga₂O₃<br>kV級<br>Extreme Future]
+    
+    subgraph Integration [System Integration]
+        G[System in Package (SiP)]
+        H[Chiplet + UCIe]
+    end
+
+    A --> G
+    B --> G
+    C --> G
+    D --> G
+    E --> G
+    F --> G
+    G --> H
 ```
 
 ---
