@@ -118,16 +118,14 @@ graph TB
 
 ```mermaid
 graph TD
-    A[CMOS ロジック / SoC 1–5 V] --> B[BCD 5–200 V Mixed-Signal]
-    B --> C[LDMOS 20–200+ V RF/PA]
-    B --> D[GaN 100–650 V High Frequency / Power]
-    D --> E[SiC 600–1200 V EV / Industrial Power]
-    E --> F[Diamond / Ga₂O₃ kV級 Extreme Future]
+    A[CMOS 1–5 V] --> B[BCD 5–200 V]
+    B --> C[LDMOS 20–200+ V]
+    B --> D[GaN 100–650 V]
+    D --> E[SiC 600–1200 V]
+    E --> F[Diamond kV級]
 
-    subgraph Integration [System Integration]
-        G[System in Package (SiP)]
-        H[Chiplet + UCIe]
-    end
+    G["System in Package (SiP)"]
+    H["Chiplet + UCIe"]
 
     A --> G
     B --> G
