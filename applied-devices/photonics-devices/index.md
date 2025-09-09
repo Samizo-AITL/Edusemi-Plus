@@ -167,7 +167,7 @@ flowchart LR
 ### 📐 システム構成 / *System Architecture*
 
 ```mermaid
-flowchart LR
+flowchart TD
   LD[青色LD / Blue LD] --> POL[偏光板 / Polarizer]
   POL --> PCT[蛍光体変換 / Phosphor Converter]
   PCT --> RGB[RGB合波 / RGB Combiner]
