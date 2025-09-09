@@ -90,6 +90,17 @@ flowchart TD
 - 光子集積回路（PIC: Photonic Integrated Circuit）  
 - 光AIアクセラレータ、光量子計算素子  
 
+```mermaid
+flowchart LR
+  A[光源<br>Laser Source] --> B[導波路<br>Waveguide]
+  B --> C[変調器<br>Modulator]
+  C --> D[分岐導波路<br>Splitter]
+  D --> E1[検出器 PD1<br>Photodetector]
+  D --> E2[検出器 PD2<br>Photodetector]
+  B --> F[リング共振器<br>Resonator]
+  F --> G[フィルタリングされた光<br>Filtered Output]
+```
+
 ---
 
 ## 📌 今後の拡張 / Future Expansion
