@@ -31,17 +31,29 @@ title: 💡 光デバイス / Photonics Devices
 - **LED / µLED**  
   - 発光原理：直接遷移半導体（GaAs, InGaN）  
   - 応用：照明、ディスプレイ、光インジケータ
+    
+```mermaid
+graph TD
+  A[価電子帯 Valence Band] -->|電子励起 Excitation| B[伝導帯 Conduction Band]
+  B -->|再結合・光子放出 Recombination| C[光 Photon 🟡]
+``` 
+  
 - **半導体レーザ（LD, VCSEL, QD-LD）**  
   - キャビティ構造としきい値条件  
-  - 通信、LiDAR、ストレージ、プロジェクタ  
+  - 通信、LiDAR、ストレージ、プロジェクタ
+    
 - **フォトダイオード（PIN, APD）**  
   - 高速応答性、内部増倍機構  
   - 光通信、センシング、イメージング  
 
 ```mermaid
-graph TD
-  A[価電子帯 Valence Band] -->|電子励起 Excitation| B[伝導帯 Conduction Band]
-  B -->|再結合・光子放出 Recombination| C[光 Photon 🟡]
+flowchart TB
+  A[光入射<br>Incident Light] --> B[半導体<br>P層]
+  B --> C[空乏層<br>I層 Depletion Region]
+  C --> D[半導体<br>N層]
+  C -->|電子 e⁻| E[外部回路<br>External Circuit]
+  C -->|正孔 h⁺| E
+  style C fill:#e6f2ff,stroke:#000,stroke-width:1px
 ```
 
 ---
