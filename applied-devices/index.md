@@ -32,11 +32,11 @@ title: 🔬 応用デバイス / Applied Devices
 | サブカテゴリ / Sub-category | 概要（JP） | *Summary (EN)* | Link |
 |---|---|---|---|
 | 🧠 **メモリデバイス / Memory Devices** | SRAM, DRAM から FeFET, MRAM, ReRAM, PCM まで | *From SRAM/DRAM to emerging NVMs such as FeFET, MRAM, ReRAM, PCM* | [memory-devices](https://samizo-aitl.github.io/Edusemi-v4x/d_chapter1_memory_technologies/) |
+| ⚡ **圧電デバイス / Piezoelectric Devices** | PZT, AlN, ScAlN, SAW/BAWフィルタ | *Piezo devices: PZT, AlN, ScAlN, SAW/BAW filters* | [piezo-devices](./piezo-devices/) |
 | 📡 **RF・可変素子 / RF & Tunable Devices** | RFスイッチ, FeVar, チューナブルC など | *RF switches, ferroelectric varactors, tunable capacitors* | [rf-devices](./rf-devices/) |
 | 💡 **光デバイス / Photonics Devices** | シリコンフォトニクス, レーザ, PD など | *Silicon photonics, lasers, photodetectors* | [photonics-devices](./photonics-devices.md) |
 | 🧩 **ニューロモルフィック / Neuromorphic Devices** | Memristor, Synapse, FeFETベース素子 | *Neuromorphic devices and synaptic elements* | [neuromorphic-devices](./neuromorphic-devices.md) |
 | 🔋 **エナジーデバイス / Energy Devices** | 熱電ハーベスタ, MEMS発電素子 | *Energy harvesting and micro power devices (thermo, microgenerators)* | [energy-devices](./energy-devices.md) |
-| ⚡ **圧電デバイス / Piezoelectric Devices** | PZT, AlN, ScAlN, SAW/BAWフィルタ | *Piezo devices: PZT, AlN, ScAlN, SAW/BAW filters* | [piezo-devices](./piezo-devices/) |
 
 ---
 
