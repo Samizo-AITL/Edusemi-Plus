@@ -27,7 +27,11 @@ title: 💡 光デバイス / Photonics Devices
 
 ## 📖 節構成 / Chapter Structure  
 
-### 1️⃣ 基礎光デバイス / *Fundamental Devices*
+---
+
+### 1️⃣ 基礎光デバイス / *Fundamental Devices*  
+> **学習ポイント**：発光・受光デバイスの基本構造と動作原理を理解する  
+> *Learning Point: Understand the basic operation of light-emitting and light-detecting devices.*
 
 - **💡 LED / µLED**  
   - 発光原理：**直接遷移半導体**（GaAs, InGaN）  
@@ -50,7 +54,9 @@ graph TD
   - キャビティ構造と**しきい値条件**  
   - *Cavity structure and threshold condition*  
   - 応用：**通信、LiDAR、ストレージ、プロジェクタ**  
-  - *Applications: Communication, LiDAR, storage, projectors*
+  - *Applications: Communication, LiDAR, storage, projectors*  
+
+👉 **青色レーザーダイオード (Blue LD)** は特に重要な技術です。詳細は → [blue-laser-diode.md](./blue-laser-diode.md)
 
 ```mermaid
 flowchart TB
@@ -103,7 +109,9 @@ flowchart TB
 
 ---
 
-### 2️⃣ シリコンフォトニクス / *Silicon Photonics*
+### 2️⃣ シリコンフォトニクス / *Silicon Photonics*  
+> **学習ポイント**：シリコン基盤で光通信を実現する集積技術  
+> *Learning Point: Photonic integration on silicon for optical communication.*
 
 - **導波路（Si, SiN, SOI） / Waveguides**  
 - **変調器（キャリア注入型、EO型） / Modulators**  
@@ -124,7 +132,9 @@ flowchart TD
 
 ---
 
-### 3️⃣ 先端フォトニクス / *Advanced Photonics*
+### 3️⃣ 先端フォトニクス / *Advanced Photonics*  
+> **学習ポイント**：量子・集積・AI応用を目指す新技術  
+> *Learning Point: Cutting-edge photonics for quantum and AI applications.*
 
 - 🌐 **フォトニック結晶レーザ / Photonic Crystal Lasers**  
 - 🔬 **量子ドットレーザ / Quantum Dot Lasers**  
@@ -147,90 +157,22 @@ flowchart LR
 
 ---
 
-## 🎥 実応用例 / *Real-World Application*
+## 🎥 実応用例 / *Real-World Applications*  
+> **学習ポイント**：学んだデバイスが社会でどう使われるかを理解する  
+> *Learning Point: Understand how photonic devices are used in real systems.*
 
-### ピコプロジェクターシステム / *Pico Projector System*
+- 📱 スマホ組込みプロジェクタ / *Smartphone-embedded projectors*  
+- 🚘 車載HUD・レーザーヘッドライト / *Automotive HUD & laser headlights*  
+- 🥽 AR/VRディスプレイ / *AR/VR microdisplays*  
+- 🏥 医療イメージング / *Medical imaging systems*  
 
-- **小型固体光源 / Compact Solid-State Light Source**  
-  - 青色LD（GaN）をベースに、偏光素子＋蛍光体変換でRGBを生成  
-  - *Blue LD (GaN) with polarizer + phosphor converter to generate RGB*  
-
-- **応用分野 / Applications**  
-  - 📱 **スマホ用組込みプロジェクタ / Smartphone-embedded projector**  
-  - 🚘 **車載HUD・レーザーヘッドライト / Automotive HUD & laser headlights**  
-  - 🥽 **AR/VR用マイクロディスプレイ / AR/VR microdisplays**  
-  - 🎥 **家庭用ポータブルプロジェクタ / Portable home projectors**  
-  - 🏥 **医療用内視鏡・イメージング / Medical endoscopy & imaging**
-
----
-
-### 📐 システム構成 / *System Architecture*
-
-```mermaid
-flowchart TD
-  LD[青色LD / Blue LD] --> POL[偏光板 / Polarizer]
-  POL --> PCT[蛍光体変換 / Phosphor Converter]
-  PCT --> RGB[RGB合波 / RGB Combiner]
-  RGB --> MOD{光変調器 / Spatial Modulator}
-  MOD --> DLP[DLP / DMD]
-  MOD --> LCOS[LCoS]
-  MOD --> MEMS[MEMS Scanner]
-  DLP --> LENS[投射レンズ / Projection Lens]
-  LCOS --> LENS
-  MEMS --> LENS
-  LENS --> SCRN[スクリーン / Screen]
-```
-
-> **図：** ピコプロジェクターの光学系と変調器  
-> *Optical path and modulation architecture of a pico projector*
-
----
-
-### ⚙️ ピコプロSoC (0.35µm HV-CMOS)
-
-- **3.3 V ロジック / Logic core**：映像信号処理・タイミング制御  
-- **5–6 V LDドライバ / LD driver**：青色LD駆動  
-- **10–20 V HVドライバ / HV driver**：MEMS / DMD / LCoS駆動  
-- **電源管理 / PMIC**：3.3 V, 5 V, 20 V を生成  
-- **1チップ化 / Single-chip integration** により小型化・低コスト化  
-
-```mermaid
-flowchart TB
-  CORE[3.3V ロジックコア<br/>Logic Core] --> LSHFTR[レベルシフタ<br/>Level Shifters]
-  LSHFTR --> LDDRV[LD ドライバ 5–6V<br/>LD Driver]
-  LSHFTR --> HVDRV[MEMS/DMD/LCoS ドライバ 10–20V<br/>HV Driver]
-  PMIC[電源管理<br/>PMIC 3.3/5/20V] --> CORE
-  PMIC --> LDDRV
-  PMIC --> HVDRV
-```
-
----
-
-### 📊 ニーズ分析 / *Market & Educational Needs*
-
-- **産業市場 / Industry**  
-  - モバイル：スマホに搭載可能な「持ち歩ける大画面」  
-  - 自動車：HUD・レーザーヘッドライト  
-  - 映像・教育：家庭用小型プロジェクタ市場拡大  
-  - 医療・産業：内視鏡、加工、検査  
-
-- **教育研究 / Education**  
-  - 半導体の **電子デバイス → 光デバイス → 応用システム** の流れを学習可能  
-  - 「青色LDがなぜ重要か」を説明できる実例  
-  - HV-CMOS混在回路と光学システムを統合的に学ぶ教材価値  
-
----
-
-### 🔗 リンク / *Links*
-
-| Link | Badge |
-|---|---|
-| 🌐 **View Pico Projector System** | [![Pico Projector](https://img.shields.io/badge/View-PicoProjectorSystem-orange?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/photonics-devices/pico-projector-system/) |
-| 📂 **View Repo** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices/photonics-devices/pico-projector-system) |
+### 🎥 代表例：ピコプロジェクターシステム / *Example: Pico Projector System*  
+詳細は → [pico-projector-system.md](./pico-projector-system.md)
 
 ---
 
 ## 📌 今後の拡張 / *Future Expansion*
+
 - 🚘 **LiDAR 向け光デバイス / LiDAR photonics**  
 - 💾 **光メモリ素子 / Photonic memories (e.g., phase-change)**  
 - 🔀 **光スイッチ／光演算素子 / Optical switches & computing devices**  
