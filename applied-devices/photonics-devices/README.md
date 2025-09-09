@@ -14,8 +14,8 @@ title: 💡 光デバイス / Photonics Devices
 
 | Link | Badge |
 |---|---|
-| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/photonics-devices/) |
-| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices/photonics-devices) |
+| 🌐 **View Site** | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/photonics-devices/) |
+| 📂 **View Repo** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices/photonics-devices) |
 
 ---
 
@@ -27,24 +27,38 @@ title: 💡 光デバイス / Photonics Devices
 
 ## 📖 節構成 / Chapter Structure  
 
-### 1. 基礎光デバイス / Fundamental Devices
-- **LED / µLED**  
-  - 発光原理：直接遷移半導体（GaAs, InGaN）  
-  - 応用：照明、ディスプレイ、光インジケータ
-    
+### 1️⃣ 基礎光デバイス / *Fundamental Devices*
+
+- **💡 LED / µLED**  
+  - 発光原理：**直接遷移半導体**（GaAs, InGaN）  
+  - *Principle: Direct bandgap semiconductors*  
+  - 応用：**照明、ディスプレイ、光インジケータ**  
+  - *Applications: Lighting, display, optical indicators*
+
 ```mermaid
 graph TD
   A[価電子帯 Valence Band] -->|電子励起 Excitation| B[伝導帯 Conduction Band]
   B -->|再結合・光子放出 Recombination| C[光 Photon 🟡]
-``` 
-  
-- **半導体レーザ（LD, VCSEL, QD-LD）**  
-  - キャビティ構造としきい値条件  
-  - 通信、LiDAR、ストレージ、プロジェクタ
-    
-- **フォトダイオード（PIN, APD）**  
-  - 高速応答性、内部増倍機構  
-  - 光通信、センシング、イメージング  
+```
+
+> **図：** LEDにおける価電子帯から伝導帯への励起と再結合による光子放出  
+> *Band-to-band excitation and photon emission in LEDs*
+
+---
+
+- **🔦 半導体レーザ（LD, VCSEL, QD-LD） / Semiconductor Lasers**  
+  - キャビティ構造と**しきい値条件**  
+  - *Cavity structure and threshold condition*  
+  - 応用：**通信、LiDAR、ストレージ、プロジェクタ**  
+  - *Applications: Communication, LiDAR, storage, projectors*
+
+---
+
+- **📡 フォトダイオード（PIN, APD） / Photodiodes**  
+  - 特徴：**高速応答性、内部増倍機構**  
+  - *Features: High-speed response, internal gain*  
+  - 応用：**光通信、センシング、イメージング**  
+  - *Applications: Optical communication, sensing, imaging*
 
 ```mermaid
 flowchart TB
@@ -55,6 +69,10 @@ flowchart TB
   C -->|正孔 h⁺| E
   style C fill:#e6f2ff,stroke:#000,stroke-width:1px
 ```
+
+> **図：** PINフォトダイオードの構造と光電流生成  
+> *PIN photodiode structure and photocurrent generation*
+
 ```mermaid
 flowchart TB
   A[光入射<br>Incident Light] --> B[半導体<br>P層]
@@ -66,15 +84,19 @@ flowchart TB
   style D fill:#ffe6e6,stroke:#000,stroke-width:1px
 ```
 
+> **図：** APDの内部雪崩増倍機構  
+> *Avalanche multiplication in APD*
+
 ---
 
-### 2. シリコンフォトニクス / Silicon Photonics
-- **導波路（Si, SiN, SOI）**  
-- **変調器（キャリア注入型、EO型）**  
-- **光トランシーバ集積**  
-  - データセンター用高速リンク  
-  - AIチップ内部の光インターコネクト
-  
+### 2️⃣ シリコンフォトニクス / *Silicon Photonics*
+
+- **導波路（Si, SiN, SOI） / Waveguides**  
+- **変調器（キャリア注入型、EO型） / Modulators**  
+- **光トランシーバ集積 / Optical Transceivers**  
+  - 応用：**データセンター用高速リンク、AIチップ内光インターコネクト**  
+  - *Applications: High-speed data links, AI chip interconnects*
+
 ```mermaid
 flowchart TD
   A[光入力 Input Light] -->|入射 Coupling| B[(Si 導波路 Waveguide)]
@@ -82,13 +104,18 @@ flowchart TD
   C -->|変調後光| D[(SiN/Si 出力導波路 Output)]
   D -->|出射 Out-coupling| E[光出力 Output Light]
 ```
+
+> **図：** シリコンフォトニクス導波路と変調器  
+> *Silicon photonics waveguide and modulation flow*
+
 ---
 
-### 3. 先端フォトニクス / Advanced Photonics
-- フォトニック結晶レーザ  
-- 量子ドットレーザ  
-- 光子集積回路（PIC: Photonic Integrated Circuit）  
-- 光AIアクセラレータ、光量子計算素子  
+### 3️⃣ 先端フォトニクス / *Advanced Photonics*
+
+- 🌐 **フォトニック結晶レーザ / Photonic Crystal Lasers**  
+- 🔬 **量子ドットレーザ / Quantum Dot Lasers**  
+- 🖧 **光子集積回路（PIC） / Photonic Integrated Circuits**  
+- ⚡ **光AIアクセラレータ、光量子計算素子 / Photonic AI accelerators, quantum devices**
 
 ```mermaid
 flowchart LR
@@ -101,13 +128,16 @@ flowchart LR
   F --> G[フィルタリングされた光<br>Filtered Output]
 ```
 
+> **図：** 光子集積回路 (PIC) の基本構成  
+> *Basic architecture of a Photonic Integrated Circuit (PIC)*
+
 ---
 
-## 📌 今後の拡張 / Future Expansion
-- LiDAR 向け光デバイス  
-- 光メモリ素子（Phase-Change Photonic Memory）  
-- 光スイッチ／光演算素子  
-- 材料技術（InP, GaAs, SiC, GaN, 2D材料）とのクロスリンク  
+## 📌 今後の拡張 / *Future Expansion*
+- 🚘 **LiDAR 向け光デバイス / LiDAR photonics**  
+- 💾 **光メモリ素子 / Photonic memories (e.g., phase-change)**  
+- 🔀 **光スイッチ／光演算素子 / Optical switches & computing devices**  
+- 🧪 **材料クロスリンク / Materials (InP, GaAs, SiC, GaN, 2D materials)**  
 
 ---
 
@@ -117,11 +147,11 @@ flowchart LR
 |-----------------|--------------------|
 | **著者 / Author** | **三溝 真一**（Shinichi Samizo） |
 | **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
-| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../../../#-ライセンス--license) <br> 再配布・改変自由（教育目的） / *Free for educational use, redistribution, and modification* <br> 商用利用は別途許可が必要 / *Commercial use requires separate permission* |
+| **ライセンス / License** | [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet?style=for-the-badge)](../../../#-ライセンス--license) <br> 📖 **再配布・改変自由（教育目的）** / *Free for educational use, redistribution, and modification* <br> 💼 **商用利用は別途許可が必要** / *Commercial use requires separate permission* |
 
 ---
 
-## ⬆️ 応用デバイスへ戻る / Back to Applied Devices
+## ⬆️ 応用デバイスへ戻る / *Back to Applied Devices*
 
 | Link | Badge |
 |---|---|
