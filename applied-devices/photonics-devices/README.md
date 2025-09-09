@@ -30,7 +30,14 @@ title: 💡 光デバイス / Photonics Devices
 ### 1. 基礎光デバイス / Fundamental Devices
 - **LED / µLED**  
   - 発光原理：直接遷移半導体（GaAs, InGaN）  
-  - 応用：照明、ディスプレイ、光インジケータ  
+  - 応用：照明、ディスプレイ、光インジケータ
+
+```mermaid
+graph TD
+  A[価電子帯 Valence Band] -->|電子励起 Excitation| B[伝導帯 Conduction Band]
+  B -->|再結合・光子放出 Recombination| C[光 Photon 🟡]
+```
+
 - **半導体レーザ（LD, VCSEL, QD-LD）**  
   - キャビティ構造としきい値条件  
   - 通信、LiDAR、ストレージ、プロジェクタ  
