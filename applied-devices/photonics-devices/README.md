@@ -55,6 +55,16 @@ flowchart TB
   C -->|正孔 h⁺| E
   style C fill:#e6f2ff,stroke:#000,stroke-width:1px
 ```
+```mermaid
+flowchart TB
+  A[光入射<br>Incident Light] --> B[半導体<br>P層]
+  B --> C[空乏層<br>I層 Depletion Region]
+  C --> D[増倍領域<br>Multiplication Region]
+  D --> E[半導体<br>N層]
+  D -->|電子雪崩 e⁻ avalanche| F[外部回路<br>External Circuit]
+  style C fill:#e6f2ff,stroke:#000,stroke-width:1px
+  style D fill:#ffe6e6,stroke:#000,stroke-width:1px
+```
 
 ---
 
