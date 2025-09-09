@@ -52,6 +52,20 @@ graph TD
   - 応用：**通信、LiDAR、ストレージ、プロジェクタ**  
   - *Applications: Communication, LiDAR, storage, projectors*
 
+```mermaid
+flowchart TB
+  A[電子 e⁻ Injection<br>n型層 N-cladding] --> B[活性層 Active Region]
+  H[正孔 h⁺ Injection<br>p型層 P-cladding] --> B
+  B -->|再結合 Recombination| C[光子生成 Photon Emission]
+  C --> D[光共振器 Optical Cavity]
+  D -->|フィードバック Feedback| B
+  D --> E[レーザ出力 Laser Output ➡️]
+  
+  style B fill:#fff2cc,stroke:#000,stroke-width:1px
+  style D fill:#e6f2ff,stroke:#000,stroke-width:1px
+  style E fill:#ffcccc,stroke:#000,stroke-width:2px
+```
+
 ---
 
 - **📡 フォトダイオード（PIN, APD） / Photodiodes**  
