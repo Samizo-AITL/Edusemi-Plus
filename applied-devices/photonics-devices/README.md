@@ -54,7 +54,7 @@ graph TD
   - AIチップ内部の光インターコネクト
   
 ```mermaid
-flowchart LR
+flowchart TD
   A[光入力 Input Light] -->|入射 Coupling| B[(Si 導波路 Waveguide)]
   B -->|伝搬 Propagation| C[(変調器 Modulator)]
   C -->|変調後光| D[(SiN/Si 出力導波路 Output)]
