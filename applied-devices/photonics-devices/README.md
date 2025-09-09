@@ -133,6 +133,89 @@ flowchart LR
 
 ---
 
+## 🎥 実応用例 / *Real-World Application*
+
+### ピコプロジェクターシステム / *Pico Projector System*
+
+- **小型固体光源 / Compact Solid-State Light Source**  
+  - 青色LD（GaN）をベースに、偏光素子＋蛍光体変換でRGBを生成  
+  - *Blue LD (GaN) with polarizer + phosphor converter to generate RGB*  
+
+- **応用分野 / Applications**  
+  - 📱 **スマホ用組込みプロジェクタ / Smartphone-embedded projector**  
+  - 🚘 **車載HUD・レーザーヘッドライト / Automotive HUD & laser headlights**  
+  - 🥽 **AR/VR用マイクロディスプレイ / AR/VR microdisplays**  
+  - 🎥 **家庭用ポータブルプロジェクタ / Portable home projectors**  
+  - 🏥 **医療用内視鏡・イメージング / Medical endoscopy & imaging**
+
+---
+
+### 📐 システム構成 / *System Architecture*
+
+```mermaid
+flowchart LR
+  LD[青色LD / Blue LD] --> POL[偏光板 / Polarizer]
+  POL --> PCT[蛍光体変換 / Phosphor Converter]
+  PCT --> RGB[RGB合波 / RGB Combiner]
+  RGB --> MOD{光変調器 / Spatial Modulator}
+  MOD --> DLP[DLP / DMD]
+  MOD --> LCOS[LCoS]
+  MOD --> MEMS[MEMS Scanner]
+  DLP --> LENS[投射レンズ / Projection Lens]
+  LCOS --> LENS
+  MEMS --> LENS
+  LENS --> SCRN[スクリーン / Screen]
+```
+
+> **図：** ピコプロジェクターの光学系と変調器  
+> *Optical path and modulation architecture of a pico projector*
+
+---
+
+### ⚙️ ピコプロSoC (0.35µm HV-CMOS)
+
+- **3.3 V ロジック / Logic core**：映像信号処理・タイミング制御  
+- **5–6 V LDドライバ / LD driver**：青色LD駆動  
+- **10–20 V HVドライバ / HV driver**：MEMS / DMD / LCoS駆動  
+- **電源管理 / PMIC**：3.3 V, 5 V, 20 V を生成  
+- **1チップ化 / Single-chip integration** により小型化・低コスト化  
+
+```mermaid
+flowchart TB
+  CORE[3.3V ロジックコア<br/>Logic Core] --> LSHFTR[レベルシフタ<br/>Level Shifters]
+  LSHFTR --> LDDRV[LD ドライバ 5–6V<br/>LD Driver]
+  LSHFTR --> HVDRV[MEMS/DMD/LCoS ドライバ 10–20V<br/>HV Driver]
+  PMIC[電源管理<br/>PMIC 3.3/5/20V] --> CORE
+  PMIC --> LDDRV
+  PMIC --> HVDRV
+```
+
+---
+
+### 📊 ニーズ分析 / *Market & Educational Needs*
+
+- **産業市場 / Industry**  
+  - モバイル：スマホに搭載可能な「持ち歩ける大画面」  
+  - 自動車：HUD・レーザーヘッドライト  
+  - 映像・教育：家庭用小型プロジェクタ市場拡大  
+  - 医療・産業：内視鏡、加工、検査  
+
+- **教育研究 / Education**  
+  - 半導体の **電子デバイス → 光デバイス → 応用システム** の流れを学習可能  
+  - 「青色LDがなぜ重要か」を説明できる実例  
+  - HV-CMOS混在回路と光学システムを統合的に学ぶ教材価値  
+
+---
+
+### 🔗 リンク / *Links*
+
+| Link | Badge |
+|---|---|
+| 🌐 **View Pico Projector System** | [![Pico Projector](https://img.shields.io/badge/View-PicoProjectorSystem-orange?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/applied-devices/photonics-devices/pico-projector-system/) |
+| 📂 **View Repo** | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/applied-devices/photonics-devices/pico-projector-system) |
+
+---
+
 ## 📌 今後の拡張 / *Future Expansion*
 - 🚘 **LiDAR 向け光デバイス / LiDAR photonics**  
 - 💾 **光メモリ素子 / Photonic memories (e.g., phase-change)**  
