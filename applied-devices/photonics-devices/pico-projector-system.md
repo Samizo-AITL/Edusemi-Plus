@@ -3,6 +3,8 @@ layout: default
 title: 🎥 ピコプロジェクターシステム / Pico Projector System
 ---
 
+---
+
 # 🎥 ピコプロジェクターシステム  
 *Pico Projector System*
 
@@ -14,7 +16,7 @@ title: 🎥 ピコプロジェクターシステム / Pico Projector System
 - 小型・高輝度・低消費電力で **小型固体光源 / Compact Solid-State Light Source** を実現  
 
 ```mermaid
-flowchart LR
+flowchart TD
   LD[青LD / Blue LD] --> POL[偏光板 / Polarizer]
   POL --> PCT[蛍光体変換 / Phosphor Converter]
   PCT --> RGB[RGB合波 / RGB Combiner]
