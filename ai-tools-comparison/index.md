@@ -64,14 +64,16 @@ flowchart LR
 
 ---
 
-## 📁 ディレクトリ構成
+## 📁 本ディレクトリ構成 / Directory Structure
 
-- `README.md` → 本ガイド
-- `ai_models_list.md` → 主要LLM比較
-- `ai_selection_guide.md` → 用途別チャート
-- `prompt_test_cases.md` → 回答比較演習
-- `usecase_examples.md` → 実用例集
-- `ai_agents_examples.md` → FSM×LLM×PIDエージェント演習
+| ファイル / File | 内容 / Description |
+|-----------------|--------------------|
+| [README.md](./README.md) | このページ：AIツール比較・使い分けガイド |
+| [ai_models_list_2025.md](./ai_models_list_2025.md) | 主要AIモデル一覧と特徴 |
+| [ai_selection_guide_2025.md](./ai_selection_guide_2025.md) | 用途別AIツール選択ガイド |
+| [prompt_test_cases_2025.md](./prompt_test_cases_2025.md) | AI別プロンプト比較演習ログ |
+| [usecase_examples_2025.md](./usecase_examples_2025.md) | 実用事例集（教材・レビュー・分析） |
+| [ai_agents_examples.md](./ai_agents_examples.md) | FSM×LLM×PIDエージェント活用事例 |
 
 ---
 
