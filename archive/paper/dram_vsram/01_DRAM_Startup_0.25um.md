@@ -5,27 +5,16 @@ title: "0.25µm 64M DRAM (3rd Gen) Startup Record (1998)"
 
 # 📘 0.25µm 64M DRAM (3rd Gen) Startup Record (1998)
 
-## 1️⃣ 背景 / Background
-
-**日本語**  
-1998年、三菱電機KD工場（熊本）で確立された0.25µm 64M DRAMプロセスが、セイコーエプソン酒田工場へ技術移管された。酒田工場ではこれを単なる製品量産目的ではなく、**先端技術を吸収し、社内他製品へ展開するための戦略的ビークル**として活用した。  
-初めて **KrFリソグラフィ** を導入し、工場全体が動員される大規模な立ち上げイベントとなった。エンジニアは4班2直体制で夜勤にも対応し、防塵ノートを介して条件変更や解析結果を綿密に引き継いだ。  
-
-**English**  
-In 1998, the 0.25 µm 64M DRAM process established at Mitsubishi’s Kumamoto KD Fab was transferred to Seiko Epson’s Sakata Fab. This was not pursued merely for product mass production but served as a **strategic vehicle to absorb cutting-edge technology and deploy it into Epson’s in-house products**.  
-It marked the first introduction of **KrF lithography** at the site, and the entire fab was mobilized for the ramp-up. Engineers worked in a four-team, two-shift system with night duty, using cleanroom notebooks for precise handovers of process changes and analysis results.
-
----
-
 ## 2️⃣ プロセス概要 / Process Overview
 
-- **素子分離 / Device Isolation**: Semi-recess LOCOS  
-- **ウェル構成 / Well Structure**: Triple-well, Deep N-Well  
-- **ゲート電極 / Gate Electrode**: Poly/WSi stacked, with WSA-ET process  
-- **キャパシタ / Capacitor**: Stacked type, roughened surface for 1.5–1.8× capacitance boost  
-- **ビットライン / Bit Line**: WSB-CVD simultaneous BL + contact formation  
-- **配線・封止 / Interconnects & Passivation**: AlCu/TiN metallization, SOG planarization, SiN/PI passivation
-
+- **リソグラフィ**：初の **KrFステッパー** を導入し、0.25µm世代の量産露光技術を確立  
+- **デバイス分離**：Semi-recess LOCOS による素子分離  
+- **ウェル構成**：Triple-well、Deep N-Well によりセルの耐ノイズ性を強化  
+- **ゲート電極（ワードライン）**：**Wシリサイド (WSi, CVD)** を用いた構造で、低抵抗化と微細化対応  
+- **ビットライン**：**ビットラインコンタクトとビットラインを同時形成**、WSi-CVD導入により配線抵抗を低減し高密度配線化  
+- **ストレージノード（キャパシタ）**：スタック型構造、粗面化処理により容量を 1.5〜1.8 倍に向上  
+- **配線・封止**：AlCu/TiN配線、SOG平坦化、SiNまたはPIによるパッシベーション
+  
 ---
 
 ## 3️⃣ 立ち上げ方法 / Ramp-up Methodology
