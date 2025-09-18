@@ -13,30 +13,32 @@ title: "プロローグ / Prologue"
 1980年代にDRAM市場を席巻した日本勢は、1990年代に入ると日米半導体協定や韓国・台湾勢の台頭によって急速に競争力を失った。  
 そのような状況においても、国内各社は最先端技術の導入に挑戦し続けた。  
 
-エプソン酒田工場も、8インチラインを用いたDRAM開発に取り組んだ。ここでの狙いは、DRAMそのものの長期量産ではなく、**微細化世代における製造技術の確立と検証** にあった。  
+セイコーエプソン酒田工場の8インチラインも、その流れの中で建設された。  
+ここでの狙いは **DRAM製品の長期事業化ではなく、DRAM技術導入を通じて0.35µm以降のプロセス技術を吸収し、自社固有の製品群に展開すること** であった。  
 
-- **0.5 µm世代 16M DRAM**：量産の出発点  
-- **0.35 µm世代 64M DRAM（第2世代）**：微細化による歩留まり安定化の難しさ  
-- **0.25 µm世代 64M DRAM（第3世代）**：次世代への挑戦  
+- **0.5 µm世代 16M DRAM**：量産実績を確保しFabを稼働させるための入り口  
+- **0.35 µm世代 64M DRAM（第2世代）**：微細化世代のプロセス導入と歩留まり課題  
+- **0.25 µm世代 64M DRAM（第3世代）**：新たな技術検証の場  
 
-この流れの中で、第2世代で直面した苦闘の経験は、次の0.25 µm立ち上げへと直結した。  
+これらの立ち上げ経験は、社内ASICやロジックIC、さらにはパネルドライバやインクジェット駆動ICといった応用製品に直結する基盤技術の獲得につながった。  
 
-本論文では、1998年に酒田工場で実施された **0.25 µm DRAM立ち上げ** におけるプロセス特徴、解析事例、歩留まり改善の取り組みを整理し、その成果が2001年の **モバイル用疑似SRAM（VSRAM）** にどう繋がったのかを記録する。  
+本論文では、1998年に酒田工場で進められた **0.25 µm DRAM技術移管と立ち上げ** におけるプロセス特徴・解析事例・歩留まり改善の取り組みを整理し、その成果が2001年の **モバイル用疑似SRAM（VSRAM）** へどう展開したのかを記録する。  
 
 ---
 
 ## English
 
-In the 1990s, Japan’s semiconductor industry faced a turning point.  
-After dominating the DRAM market in the 1980s, Japanese companies rapidly lost competitiveness in the 1990s due to the Japan–U.S. Semiconductor Agreement and the rise of Korean and Taiwanese manufacturers.  
-Nevertheless, Japanese fabs continued to push the introduction of advanced process technologies.  
+In the 1990s, Japan’s semiconductor industry faced a major turning point.  
+After dominating the DRAM market in the 1980s, Japanese companies rapidly lost competitiveness in the 1990s due to the Japan–U.S. Semiconductor Agreement and the rise of Korean and Taiwanese players.  
+Nevertheless, Japanese manufacturers continued to pursue the introduction of advanced process technologies.  
 
-At Epson’s Sakata Fab, DRAM development was undertaken not as a long-term production business, but as a **means of establishing and validating advanced manufacturing techniques at submicron nodes**.  
+Epson’s Sakata Fab and its 8-inch line were established within this context.  
+The objective was **not to pursue DRAM as a long-term business, but to use DRAM technology transfer as a vehicle to absorb 0.35 µm and beyond process technologies, and redeploy them into Epson’s unique product domains**.  
 
-- **0.5 µm 16M DRAM**: the starting point of mass production  
-- **0.35 µm 64M DRAM (2nd Generation)**: challenges of yield stability under tighter process windows  
-- **0.25 µm 64M DRAM (3rd Generation)**: moving into the next generation  
+- **0.5 µm 16M DRAM**: entry point to secure fab operation through mass production  
+- **0.35 µm 64M DRAM (2nd Generation)**: process introduction and yield challenges at the scaled node  
+- **0.25 µm 64M DRAM (3rd Generation)**: the next stage of technology validation  
 
-The struggles faced during the 2nd Generation directly contributed to the successful ramp-up of the 0.25 µm node.  
+These ramp-up experiences provided the foundation for applying acquired know-how to in-house ASICs, logic ICs, display drivers, and inkjet head driver ICs.  
 
-This paper documents the process features, defect analysis, and yield improvement measures of that **0.25 µm ramp-up (1998)**, and traces how these efforts later enabled the mass production of **mobile-oriented pseudo-SRAM (VSRAM, 2001)**.  
+This paper documents the **0.25 µm DRAM technology transfer and ramp-up at Sakata in 1998**, covering process features, defect analysis, and yield improvement efforts, and traces how these achievements led to the **mobile pseudo-SRAM (VSRAM) mass production in 2001**.  
