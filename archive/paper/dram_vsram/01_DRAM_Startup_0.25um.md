@@ -3,6 +3,8 @@ layout: default
 title: "0.25µm 64M DRAM (3rd Gen) Startup Record (1998)"
 ---
 
+---
+
 # 📘 0.25µm 64M DRAM (3rd Gen) Startup Record (1998)
 
 ---
