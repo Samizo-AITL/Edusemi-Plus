@@ -3,6 +3,8 @@ layout: default
 title: "Appendix: 0.25µm DRAM / VSRAM 補足資料"
 ---
 
+---
+
 # 📎 Appendix: 補足資料 / Supplementary Materials
 
 ---
