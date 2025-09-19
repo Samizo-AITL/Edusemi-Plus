@@ -17,7 +17,7 @@ title: "Appendix: 0.25µm DRAM / VSRAM 補足資料"
 
 **English**  
 Representative process flow of 0.25 µm 64M DRAM (3rd Generation) during the 1998 startup.  
-See [`DRAM_Process_Flow_Full.md`](../in1998/DRAM_Process_Flow_Full.md) for full details.  
+See [`DRAM_Process_Flow_Full.md`](../../in1998/DRAM_Process_Flow_Full.md) for full details.  
 
 - Semi-recess LOCOS isolation  
 - Triple-well, Deep N-Well  
@@ -32,11 +32,11 @@ See [`DRAM_Process_Flow_Full.md`](../in1998/DRAM_Process_Flow_Full.md) for full 
 
 **日本語**  
 ウエハテストはフェイルストップ方式で実施され、致命的不良から順にBin分類される。  
-詳細は [`dram_wafer_test_binclass_0.25um.md`](../in1998/dram_wafer_test_binclass_0.25um.md) を参照。  
+詳細は [`dram_wafer_test_binclass_0.25um.md`](../../in1998/dram_wafer_test_binclass_0.25um.md) を参照。  
 
 **English**  
 Wafer tests followed a fail-stop scheme, classifying chips into bins in order of fatality.  
-See [`dram_wafer_test_binclass_0.25um.md`](../in1998/dram_wafer_test_binclass_0.25um.md) for details.  
+See [`dram_wafer_test_binclass_0.25um.md`](../../in1998/dram_wafer_test_binclass_0.25um.md) for details.  
 
 | Bin | 日本語テスト項目 | Test Item (English) | 内容概要 |
 |-----|----------------|----------------------|-----------|
