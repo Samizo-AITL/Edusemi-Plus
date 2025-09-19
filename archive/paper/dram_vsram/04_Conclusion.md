@@ -15,7 +15,7 @@ title: "結論 / Conclusion"
 
 2001年に量産されたVSRAMは、その成果を直接反映したものであり、世界初のカメラ付き携帯電話を実現する原動力となった。しかし、0.18 µm世代では保持特性の限界によりVSRAMは断念され、1T-1Cセルを用いた擬似SRAMの進化はここで終止符を打った。  
 
-この一連の事例は、**微細化移行期における「製品」よりも「技術獲得と活用」を優先する戦略的アプローチ** の成功例であり、半導体アーカイブおよび教育資料としての価値を持つ。  
+この一連の事例は、**微細化移行期における「製品」よりも「技術獲得と活用」を優先する戦略的アプローチ** の成功例であり、半導体アーカイブおよび教育資料としての価値を持つ。さらに、**現代の技術移管やプロセス立ち上げにおける示唆** を与える事例として位置づけられる。  
 
 ---
 
@@ -27,4 +27,4 @@ At Epson’s Sakata Fab, DRAM was not pursued as a long-term product business, b
 
 The VSRAM mass-produced in 2001 embodied these achievements and enabled the world’s first camera phone. Yet, at the 0.18 µm node, retention limitations forced the abandonment of trench-capacitor-based VSRAM, marking the end of pseudo-SRAM evolution based on the 1T-1C DRAM cell.  
 
-This case exemplifies a **strategic approach prioritizing technology acquisition and utilization over direct product success during process scaling transitions**, making it a valuable archive and educational resource.  
+This case exemplifies a **strategic approach prioritizing technology acquisition and utilization over direct product success during process scaling transitions**, making it a valuable archive and educational resource. Moreover, it **provides insights for today’s technology transfer and ramp-up strategies**.  
