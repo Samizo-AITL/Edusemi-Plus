@@ -115,7 +115,15 @@ Pause Refresh Fail と Disturb Refresh Fail の双方に対して、
 ## 4️⃣ まとめ / Summary
 
 **日本語**  
-0.25 µm VSRAMは、酒田工場における技術移管DRAMを基盤に成功裏に量産され、世界初のカメラ付き携帯電話を実現する鍵となった。しかし0.18 µm世代では、トレンチキャパシタを用いたVSRAMは保持特性の限界により断念され、**1T-1C DRAMセルをベースにした擬似SRAMの終焉**を象徴する事例となった。  
+0.25 µm VSRAMは、酒田工場における技術移管DRAMを基盤に成功裏に量産され、世界初のカメラ付き携帯電話を実現する鍵となった。  
+しかし0.18 µm世代では、トレンチキャパシタを用いたVSRAMは保持特性の限界により断念され、**1T-1C DRAMセルをベースにした擬似SRAMの終焉**を象徴する事例となった。  
+
+この経験は、エプソンにとって「メモリ製品を長期的に事業化するのではなく、先端技術を吸収し、社内の主力製品（LCDドライバ、ASIC、ロジックICなど）に展開する」戦略を後押しすることとなった。  
+結果として、メモリ事業そのものは縮小したが、得られたプロセス・設計・信頼性の知見は、その後の事業競争力を支える基盤となった。  
 
 **English**  
-The 0.25 µm VSRAM, successfully mass-produced based on the transferred DRAM process, played a pivotal role in enabling the world’s first camera phone. However, at the 0.18 µm node, trench-capacitor-based VSRAM failed to meet retention requirements at 90 °C, marking the **end of pseudo-SRAMs built on the 1T-1C DRAM cell concept**.  
+The 0.25 µm VSRAM, successfully mass-produced based on the transferred DRAM process, played a pivotal role in enabling the world’s first camera phone.  
+At the 0.18 µm node, however, trench-capacitor-based VSRAM could not meet retention requirements at 90 °C, marking the **end of pseudo-SRAMs built on the 1T-1C DRAM cell concept**.  
+
+For Epson, this experience reinforced the strategy of using DRAM not as a long-term business, but as a **vehicle to absorb advanced technologies and redeploy them into core products such as LCD drivers, ASICs, and logic ICs**.  
+Thus, while the memory business itself diminished, the knowledge gained in process, design, and reliability engineering became a cornerstone of Epson’s later product competitiveness.  
