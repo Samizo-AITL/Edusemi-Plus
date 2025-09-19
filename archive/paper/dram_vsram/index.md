@@ -13,6 +13,15 @@ title: "DRAM/VSRAM 技術アーカイブ – 目次 / Index"
 
 ---
 
+## 🔗 リンク / Links  
+
+| Link | Badge |
+|---|---|
+| 🌐 View Site | [![View Site](https://img.shields.io/badge/View-Site-brightgreen?style=for-the-badge&logo=githubpages)](https://samizo-aitl.github.io/Edusemi-Plus/archive/paper/dram_vsram/) |
+| 📂 View Repo | [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main//archive/paper/dram_vsram) |
+
+---
+
 ## 📄 コンテンツ / Contents  
 
 | 🗂️ セクション / Section | 📑 ファイル | 📝 説明 / Description |
