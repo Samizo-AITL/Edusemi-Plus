@@ -5,18 +5,25 @@ title: "モバイル用疑似SRAM（VSRAM）技術アーカイブ (2001)"
 
 # 📘 モバイル用疑似SRAM（VSRAM）技術アーカイブ (2001)
 
-## 1️⃣ 製品仕様 / Product Specification
+---
+
+## 1️⃣ 製品仕様と時代背景 / Product Specification and Historical Context
 
 **日本語**  
-2001年、0.25 µm世代のDRAMプロセスを流用し、内部リフレッシュ制御を付加することで **疑似SRAM (VSRAM)** が量産化された。これはDRAMセルをベースとしながら、SRAMのように外部からリフレッシュ制御を意識せず使用できる点に特徴があった。さらに動作温度保証を標準の80 °Cから90 °Cへ拡張し、モバイル用途に対応した。  
+2000年前後、半導体市場の主役はPC向け大容量DRAMから、急速に普及し始めた携帯電話向けのモバイルデバイスへと移りつつあった。特にシャープでは、携帯電話にカメラ機能を追加する企画が進み、その実現には **大容量かつ低消費電力のメモリ** が不可欠であった。  
+
+このニーズに応えるため、2001年に0.25 µm世代のDRAMプロセスを流用し、内部リフレッシュ制御を付加することで **疑似SRAM (VSRAM)** が量産化された。これはDRAMセルをベースとしながら、SRAMのように外部からリフレッシュを意識せず使用できる点に特徴があった。さらに動作温度保証を標準の80 °Cから90 °Cへ拡張し、モバイル用途に適合させた。  
+
+ただし、当初の歩留まりは約30%と低かった。それでも、**市場投入を最優先する合理的判断** により量産が開始され、実際にVSRAMは世界初のカメラ付き携帯電話に採用されることでモバイルメモリの歴史に大きな一歩を刻んだ。  
+
+---
 
 **English**  
-In 2001, mass production began for a **pseudo-SRAM (VSRAM)** that reused the 0.25 µm DRAM process and added internal refresh logic. While based on DRAM cells, it allowed seamless SRAM-like operation without external refresh control. The operating temperature range was extended from the standard DRAM 80 °C to 90 °C, making it suitable for mobile devices.
+Around 2000, the focus of the semiconductor market shifted from large-capacity DRAM for PCs to mobile devices driven by the rapid spread of cell phones. At Sharp, a project was underway to add a camera to mobile phones, which required **high-density, low-power memory**.  
 
-- プロセス：0.25 µm 64M DRAM (3rd Gen) セル流用  
-- 動作：内部リフレッシュ制御による疑似SRAM動作  
-- 特徴：低消費電力設計、動作温度保証 90 °C  
-- 採用実績：世界初の **カメラ付き携帯電話（SHARP製）** に搭載  
+To meet this demand, in 2001 a **pseudo-SRAM (VSRAM)** was mass-produced by reusing the 0.25 µm DRAM process and adding internal refresh control. While based on DRAM cells, it allowed seamless SRAM-like operation without external refresh, and its operating temperature range was extended from the standard 80 °C to 90 °C to suit mobile applications.  
+
+The initial yield was only about 30%, but mass production was launched as a **rational decision to prioritize market entry**. VSRAM went on to be adopted in Sharp’s first camera-equipped mobile phone, marking a significant milestone in the history of mobile memory.  
 
 ---
 
