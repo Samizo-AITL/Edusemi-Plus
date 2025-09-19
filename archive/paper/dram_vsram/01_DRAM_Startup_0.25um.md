@@ -145,6 +145,17 @@ flowchart TB
     C -- "leak paths" --> D
 ```
 
+```mermaid
+flowchart TB
+    SN["n⁺ Storage Node (charge stored)"]
+    WL["Word Line (ON → Access Transistor)"]
+    BL["Bit Line (read/write path)"]
+    SUB["p⁻ Substrate (leak path)"]
+
+    SN -- "WL ON" --> BL
+    SN -- "Leak path" --> SUB
+```
+
 ➡️ **「不可視のプラズマダメージによるジャンクションリーク」**と結論。  
 ➡️ *Postulated root cause: plasma-induced junction leakage.*
 
