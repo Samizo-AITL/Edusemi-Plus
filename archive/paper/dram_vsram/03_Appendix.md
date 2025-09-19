@@ -17,7 +17,7 @@ title: "Appendix: 0.25µm DRAM / VSRAM 補足資料"
 
 **English**  
 Representative process flow of 0.25 µm 64M DRAM (3rd Generation) during the 1998 startup.  
-See [`DRAM_Process_Flow_Full.md`](../../in1998/DRAM_Process_Flow_Full.md) for full details.  
+See [`DRAM_Process_Flow_Full.md`](../../in1998/DRAM_Process_Flow_Full_en.md) for full details.  
 
 - Semi-recess LOCOS isolation  
 - Triple-well, Deep N-Well  
