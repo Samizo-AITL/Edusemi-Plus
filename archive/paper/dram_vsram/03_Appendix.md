@@ -13,7 +13,7 @@ title: "Appendix: 0.25µm DRAM / VSRAM 補足資料"
 
 **日本語**  
 1998年立ち上げ時に用いられた、0.25 µm 64M DRAM（第3世代）の代表的なプロセスフロー。  
-詳細は [`DRAM_Process_Flow_Full.md`](./../in1998/DRAM_Process_Flow_Full.md) を参照。  
+詳細は [`DRAM_Process_Flow_Full.md`](../../in1998/DRAM_Process_Flow_Full.md) を参照。  
 
 **English**  
 Representative process flow of 0.25 µm 64M DRAM (3rd Generation) during the 1998 startup.  
