@@ -11,149 +11,150 @@ title: "0.25µm 64M DRAM (3rd Gen) Startup Record (1998)"
 
 ## 1️⃣ プロセス概要 / Process Overview
 
-- **リソグラフィ**：初の **KrFステッパー** を導入し、0.25µm世代の量産露光技術を確立  
-- **デバイス分離**：Semi-recess LOCOS による素子分離  
-- **ウェル構成**：Triple-well、Deep N-Well によりセルの耐ノイズ性を強化  
-- **ゲート電極（ワードライン）**：**Wシリサイド (WSi, CVD)** を用いた構造。  
-  - ゲート上に **BRAC (Barrier Cap) 層** を形成し、エッチング耐性と絶縁性を確保  
-  - これにより **ビットラインコンタクトがワードラインと接触しないセルフアライン構造**を実現  
-- **ビットライン**：**ビットラインコンタクトとビットラインを同時形成**。WSi-CVD導入により配線抵抗を低減し、高密度配線化を可能にした  
-- **ストレージノード（キャパシタ）**：スタック型構造。粗面化処理により容量を 1.5〜1.8 倍に向上  
-- **配線・封止**：AlCu/TiN配線、SOG平坦化、SiNまたはPIによるパッシベーション
-  
+- **リソグラフィ / Lithography**  
+  初の **KrFステッパー** を導入し、0.25µm世代の量産露光技術を確立。  
+  *Introduction of KrF stepper, establishing mass-production lithography for the 0.25 µm generation.*
+
+- **デバイス分離 / Device Isolation**  
+  **Semi-recess LOCOS** による素子分離。  
+  *Isolation by semi-recess LOCOS.*
+
+- **ウェル構成 / Well Structure**  
+  **Triple-well** + **Deep N-Well** によりセル耐ノイズ性を強化。  
+  *Triple-well and deep N-well improved cell noise immunity.*
+
+- **ゲート電極 / Gate Electrode (Word Line)**  
+  - **Wシリサイド (WSi, CVD)** を採用。  
+  - **BRAC (Barrier Cap) 層**によりエッチング耐性と絶縁性を確保。  
+  - **ビットラインコンタクトがワードラインと接触しないセルフアライン構造**を実現。  
+  *WSi (CVD) gate with BRAC layer enabled self-aligned structure avoiding contact short.*
+
+- **ビットライン / Bit Line**  
+  - **コンタクトと配線を同時形成**し、WSi-CVDにより抵抗を低減。  
+  - 高密度配線を実現。  
+  *Simultaneous contact + wiring formation with WSi-CVD reduced resistance, enabling high-density layout.*
+
+- **ストレージノード / Storage Node (Capacitor)**  
+  - スタック型構造。  
+  - 粗面化処理で容量を **1.5–1.8倍** に増強。  
+  *Stacked capacitor with roughened surface increased capacitance by 1.5–1.8×.*
+
+- **配線・封止 / Metallization & Passivation**  
+  - **AlCu/TiN配線、SOG平坦化、SiN/PIパッシベーション**。  
+  *AlCu/TiN wiring, SOG planarization, and SiN/PI passivation.*
+
 ---
 
 ## 2️⃣ 立ち上げ方法 / Ramp-up Method
 
-### 1. ベースフロー（SCF → 形状ロット → 本番ロット）
+### (A) ベースフロー / Standard Flow
 
-- **SCF（Short Cycle Feedback）**  
-  各要素技術部門が立ち上げ仕様書に基づき、短サイクルロットを流して条件を素早く評価・修正し、処理条件を決定。
-
-- **形状ロット（約10ロット）**  
-  各要素技術には、**実製品ウエハでなければ評価できない項目**が多い。  
-  形状ロットはそれらの部門にウエハを提供すると同時に、以下を並行して確認することを目的とした。  
-  - 各フォトのパターン寸法  
-  - エッチング後寸法とフォト→エッチの寸法変換差  
-  - 各層間膜堆積後の断面観察  
-  - 各要素技術担当による評価（拡散、CVD、エッチングなど）  
-  → これらの結果を基に、後続ロット用のレシピを作成・更新。
-
-- **本番ロット（信頼性確認）**  
-  信頼性確認用に複数ロットを投入し、ウエハテストと長期信頼性試験（Burn-in等）で量産移行可否を判定。
+| フェーズ | 日本語説明 | English Explanation |
+|----------|------------|----------------------|
+| **SCF (Short Cycle Feedback)** | 立ち上げ仕様に基づき短サイクルロットを流して条件を迅速評価・修正。 | Short-cycle lots used for fast evaluation and recipe tuning. |
+| **形状ロット (≈10 lots)** | 実製品ウエハを用いて寸法変換差や膜堆積を評価。要素技術部門に供給。 | Shape lots verified CD, etch transfer, and film properties; distributed to element teams. |
+| **本番ロット** | 信頼性確認用。ウェハテストと長期信頼性試験で量産可否を判断。 | Reliability-confirmation lots for wafer test and burn-in qualification. |
 
 ---
 
-### 2. 実務フロー（筆者の担当）
+### (B) 実務フロー（筆者担当） / Practical Workflow (Author’s Role)
 
-1. **条件データ受領**：移管元（三菱KD工場）から **フロッピー2枚分の処理条件データ** を受領  
-2. **条件展開**：各要素技術（拡散・CVD・PVD・エッチング等）へ処理条件を展開  
-3. **各工程SCF**：各担当が短サイクルロットで条件を確認し、修正・再投入を繰り返す  
-4. **電子流動票作成**：最新条件を集約し、電子流動票へ反映  
-5. **形状ロット投入（10ロット）**：  
-   - 各部門へ実製品ウエハを提供  
-   - フォトレジスト寸法、エッチ寸法、変換差を確認  
-   - 各層間膜後の断面観察を実施  
-   - 後続ロット用レシピを作成・更新  
-6. **形状Fix**：狙い寸法・膜厚の達成を確認し、条件を確定  
-7. **本番ロット投入（5ロット・信頼性用）**：  
-   - ウエハテストを実施  
-   - 信頼性試験結果を確認し、量産移行を判断  
+1. **条件データ受領 / Data Import**  
+   移管元（三菱KD工場）から **フロッピー2枚分の処理条件** を受領。  
+   *Received 2 floppy disks of process conditions from Mitsubishi KD Fab.*
 
----
+2. **条件展開 / Dissemination**  
+   各要素技術部門（拡散・CVD・PVD・エッチング）へ展開。  
+   *Distributed conditions to element process teams.*
 
-## 3️⃣ 運用体制（スケジュール最適化）
+3. **各工程SCF / SCF at Each Step**  
+   条件を試行 → 修正 → 再投入の繰り返し。  
+   *Iterative short-cycle testing and corrections.*
 
-通常、ロットはストッカーに入庫し、**リムライナー（リニア搬送レール）**で自動搬送され、次のストッカーから出庫して装置ロードロックにセットされる。  
-しかし、この方式では**順番待ちや搬送遅延**が避けられず、初回の重要ロットでは処理開始までに大きな時間を要した。  
+4. **電子流動票作成 / Electronic Flow Sheet**  
+   各条件を集約し最新レシピを反映。  
+   *Compiled conditions into electronic traveler sheet.*
 
-そこで、初回立ち上げロットについては、**技術者が各装置まで直接搬送する「手渡し流動」**を採用。  
-各装置担当者がロットの到着時刻に合わせて待機し、到着次第すぐに処理を開始することで、搬送待ちによるロスを最小化した。  
-それでもフルフローを通すには約2か月を要し、立ち上げ全体は約5か月かかった。  
+5. **形状ロット投入 (10 lots)**  
+   寸法確認・断面観察・レシピ更新を実施。  
+   *Executed shape lots for CD, cross-sections, and recipe update.*
 
-さらに、初回ロットを**いち早く流して、後続ロットの標準パス（標準流動）を確立できるか**が立ち上げスケジュールを左右した。  
-そのため酒田工場では通常の製造部門に加え、**技術側（プロセス開発・要素技術担当・立ち上げチーム）が日勤・夜勤の二交代制で常駐**し、  
-24時間体制でモニタリングとフィードバックを行った。  
+6. **形状Fix / Shape Fix**  
+   寸法・膜厚が狙い値に到達した時点で確定。  
+   *Finalized recipe upon achieving target specs.*
 
-また、**毎朝の朝会**では以下を実施した：  
-- **ラミネートした流動票をホワイトボードに掲示**し、各ロットの進捗を共有  
-- 各ロットがオンスケジュールか、遅延がある場合は日数を明示して報告  
-- 各要素技術担当者から、立ち上げ状況や課題の進捗を報告  
-
-これにより、部門横断的に進捗を「見える化」し、全体最適の立場で迅速に調整を行うことができた。
+7. **本番ロット投入 (5 lots)**  
+   信頼性試験を経て量産移行を判断。  
+   *Final reliability-confirmation lots enabled mass production.*
 
 ---
 
-## 3️⃣ 不良解析と改善プロセス / Failure Analysis and Improvement Process
+## 3️⃣ 運用体制 / Operational Framework
 
-### ① 現状把握（不良解析 / Failure Analysis）
+- 通常：ロットは **自動搬送システム**（ストッカー＋リムライナー）で搬送 → 遅延発生。  
+- 改善：初回ロットは **手渡し流動 (manual carry)** を採用し、担当者が装置前で待機し即処理。  
+- 効果：搬送待ちロスを最小化し、初回ロットを短時間で流動。  
 
-- **初期歩留まり**  
-  - 立ち上げ直後の本番ロットで歩留まりは約65%に留まった。  
-- **主不良モード**  
-  - ウエハテストでは **Pause Refresh Fail (Bin5)** が支配的。  
-- **分布特性**  
-  - 不良はウエハ面内に均一に散在する単ビットエラーとして出現。  
-  - ライン欠陥やエッジ集中型ではなく、クラスタリング傾向も薄い。  
-- **構造・特性評価**  
-  - ストレージノード容量は規格内。  
-  - 不良セルのコンタクト断面もSEM観察では異常なし。  
-  - 他の形状・膜厚・電気特性も規格範囲内で異常なし。  
+📌 **全体体制**  
+- 技術部門（プロセス開発・要素技術・立ち上げチーム）が **日勤＋夜勤の二交代制**で常駐。  
+- **毎朝の朝会**で進捗を「見える化」：  
+  - 流動票をラミネート掲示  
+  - 遅延日数を明示  
+  - 各要素技術担当の進捗を共有  
 
-**まとめ**  
-通常の寸法外れや異物混入による欠陥ではなく、**観察上は健全に見えるが保持特性を劣化させる、極めてセンシティブな不具合**が原因と推定された。  
+*By adopting manual lot transfer and 24/7 cross-functional monitoring, ramp-up was accelerated and bottlenecks were minimized.*
 
 ---
 
-### ② 仮説（推定故障モデル / Hypothesized Failure Model）
+## 4️⃣ 不良解析と改善プロセス / Failure Analysis & Improvement
 
-- **前提確認**  
-  - ストレージノード容量やセルプレートリークは正常。  
-  - 直接測定可能なリークでは異常を検出できない。  
-- **推定モデル**  
-  - 問題は **ストレージノードコンタクト n⁺/p⁻ ジャンクションのリーク増大**にあると考えられる。  
-- **劣化メカニズム**  
-  - ゲートエッチング後、メモリセルS/Dアクティブ上に残存するゲート酸化膜が、  
-    LDD形成工程での複数回のレジスト剥離アッシングに曝される。  
-  - この繰り返しのプラズマダメージにより酸化膜が**ポーラス状に劣化**。  
-  - 酸化膜下の拡散層にもダメージが及び、ジャンクションに微細なリークパスが形成される。  
-- **現象との整合性**  
-  - 局所的・ランダムに発生するため、ウエハ全体で単ビット不良が均一分布。  
-  - SEMでは構造的異常を確認できず、リーク特性のみで歩留まりを低下させる。  
+### (1) 現状把握 / Initial Findings
 
-**まとめ**  
-**「目に見えないプラズマダメージによるジャンクションリーク」**が真因であるとの仮説を構築した。  
+- **初期歩留まり / Initial Yield**：≈65%  
+- **支配的不良モード / Dominant Failure Mode**：Pause Refresh Fail (Bin5)  
+- **不良分布 / Failure Distribution**：ウエハ面内に単ビットエラーが均一散在。ライン欠陥なし。  
+- **評価結果 / Evaluation**：寸法・容量・断面観察は正常範囲内。  
+
+➡️ **「観察上は健全だが保持特性劣化を招くセンシティブ不具合」**と推定。  
+➡️ *Yield loss caused by invisible, retention-degrading defects.*
 
 ---
 
-### ③ 対策の立案 / Countermeasure Planning
+### (2) 仮説モデル / Hypothesized Model
 
-- **重点ポイント**  
-  - アッシング工程によるプラズマ曝露を最小化すること。  
-- **具体策**  
-  - LDD工程のレジスト除去を、従来のプラズマアッシングから  
-    **ウェット処理（硫酸系剥離）主体**へ切り替え。  
-- **狙い**  
-  - プラズマ起因の酸化膜ダメージを根本的に排除。  
-  - ジャンクションリークの発生を抑制し、セル保持特性を回復させる。  
-- **補足**  
-  - 他工程との整合性（後続フォトプロセスのクリーン度確保、残渣リスクの回避）も並行して検討。  
+- **真因候補 / Root Cause Candidate**：  
+  **ストレージノードコンタクト n⁺/p⁻ ジャンクションのリーク増大**。  
+- **メカニズム / Mechanism**：  
+  - LDD形成時、**ゲート酸化膜残渣が複数回のアッシングでプラズマダメージ**を受ける。  
+  - 酸化膜がポーラス化 → 拡散層に微細リークパス形成。  
+- **現象整合性 / Consistency**：  
+  - ランダム単ビット不良、SEM異常なし。  
+  - リークのみが顕在化。  
+
+➡️ **「不可視のプラズマダメージによるジャンクションリーク」**と結論。  
+➡️ *Postulated root cause: plasma-induced junction leakage.*
 
 ---
 
-### ④ 効果の確認 / Effectiveness Verification
+### (3) 対策立案 / Countermeasure
 
-- **歩留まりの改善**  
-  - 改善前: 約65%  
-  - 改善後: **80%前後**へ向上。  
-  - 均一に散在していた単ビット不良が顕著に減少。  
-- **信頼性評価**  
-  - バーンイン試験を含む高温動作・長期保持試験で規格を満足。  
-  - 不良再発率も大幅に低下。  
-- **量産適用**  
-  - 改善条件をもって最終レシピをFix。  
-  - 以後の量産立ち上げで安定した歩留まりを確保。  
+- **方針 / Policy**：アッシング工程のプラズマ曝露を最小化。  
+- **具体策 / Action**：  
+  - LDD工程のレジスト剥離を **プラズマアッシング → ウェット処理（硫酸系）** に切替。  
+- **狙い / Aim**：  
+  - プラズマ起因の酸化膜ダメージを根本排除。  
+  - ジャンクションリーク発生を防止。  
 
-**まとめ**  
-解析 → 仮説 → 対策 → 効果確認という一連の改善サイクルにより、  
-**原因の見えにくいセンシティブ不良を克服し、量産条件を確立**することに成功した。  
+---
+
+### (4) 効果検証 / Verification
+
+- **歩留まり改善 / Yield Gain**：  
+  - Before ≈65% → After ≈**80%**  
+- **信頼性評価 / Reliability**：  
+  - 高温動作・保持試験・バーンインで規格クリア。  
+- **量産適用 / Mass Production**：  
+  - 改善条件を最終レシピに反映し安定量産を確立。  
+
+➡️ **「解析 → 仮説 → 対策 → 効果確認」の改善サイクルにより、センシティブ不良を克服し量産条件を確立。**  
+➡️ *Closed improvement loop enabled stable high-yield production.*
