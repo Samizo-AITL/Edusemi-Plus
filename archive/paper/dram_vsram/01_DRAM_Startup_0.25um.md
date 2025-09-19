@@ -131,7 +131,19 @@ title: "0.25µm 64M DRAM (3rd Gen) Startup Record (1998)"
   - 酸化膜がポーラス化 → 拡散層に微細リークパス形成。  
 - **現象整合性 / Consistency**：  
   - ランダム単ビット不良、SEM異常なし。  
-  - リークのみが顕在化。  
+  - リークのみが顕在化。
+ 
+```mermaid
+flowchart TB
+    A["Word Line (WSi + BRAC)"] 
+    B["Damaged Oxide (porous)"]
+    C["n⁺ diffusion"]
+    D["p⁻ substrate"]
+
+    A --> B
+    B -- "leak paths" --> C
+    C --> D
+```
 
 ➡️ **「不可視のプラズマダメージによるジャンクションリーク」**と結論。  
 ➡️ *Postulated root cause: plasma-induced junction leakage.*
