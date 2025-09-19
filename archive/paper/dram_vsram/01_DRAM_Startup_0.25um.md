@@ -115,7 +115,7 @@ title: "0.25µm 64M DRAM (3rd Gen) Startup Record (1998)"
 - **不良分布 / Failure Distribution**：ウエハ面内に単ビットエラーが均一散在。ライン欠陥なし。  
 - **評価結果 / Evaluation**：寸法・容量・断面観察は正常範囲内。  
 
-<img src="./img/fail_bit_map_example.png" alt="Single-Bit Fail Bitmap" width="80%">
+<img src="./img/fail_bit_map_example.png" alt="Single-Bit Fail Bitmap" width="50%">
 
 ➡️ **「観察上は健全だが保持特性劣化を招くセンシティブ不具合」**と推定。  
 ➡️ *Yield loss caused by invisible, retention-degrading defects.*
