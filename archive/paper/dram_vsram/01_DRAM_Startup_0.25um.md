@@ -135,14 +135,14 @@ title: "0.25µm 64M DRAM (3rd Gen) Startup Record (1998)"
  
 ```mermaid
 flowchart TB
-    A["Word Line (WSi + BRAC)"] 
+    A["Strage node Contact"] 
     B["Damaged Oxide (porous)"]
     C["n⁺ diffusion"]
     D["p⁻ substrate"]
 
     A --> B
-    B -- "leak paths" --> C
-    C --> D
+    B --> C
+    C -- "leak paths" --> D
 ```
 
 ➡️ **「不可視のプラズマダメージによるジャンクションリーク」**と結論。  
