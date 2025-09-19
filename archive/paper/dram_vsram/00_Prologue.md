@@ -70,3 +70,10 @@ This paper focuses on the **0.25 µm DRAM technology transfer and ramp-up conduc
 - 🔍 **Failure analysis and yield improvement**  
 
 It also documents how these efforts led to the **mass production of mobile pseudo-SRAM (VSRAM) in 2001**.  
+
+---
+
+> 🗓️ **背景リンク / Background Link**  
+> 本プロジェクトの基盤となった **8インチライン立ち上げと第2世代（0.35μm）DRAM立ち上げの経緯** は以下を参照。  
+> **[1997年：セイコーエプソン酒田事業所8インチライン稼働](../../in1997/Epson_Sakata_8inch_Line.md)**
+
