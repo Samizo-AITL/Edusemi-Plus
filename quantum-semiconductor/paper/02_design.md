@@ -20,6 +20,9 @@
 - 両端のゲート電極は **トンネルバリア**として機能。  
 - ゲート電圧の組み合わせにより、ドット内の電子数を制御可能。  
 
+![CMOS-based quantum dot device structure](./figures/device_structure.svg)  
+*図2-1｜0.18 µm CMOSゲートパターンを用いたシリコン量子ドット模式図 / Schematic of a silicon quantum dot defined by 0.18 µm CMOS gates.*
+
 ---
 
 ## 2.3 ゲートパターン設計 / Gate Layout
