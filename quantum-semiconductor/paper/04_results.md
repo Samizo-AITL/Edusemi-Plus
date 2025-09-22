@@ -11,6 +11,10 @@
 ---
 
 ## 4.2 Coulombブロッケード振動 / Coulomb Blockade Oscillations
+
+![Coulomb blockade oscillations](./figures/coulomb_oscillations.png)  
+*図4-1｜ゲート電圧に対する周期的電流ピーク（クーロン振動）の例 / Example of periodic current peaks vs gate voltage (Coulomb oscillations).*
+
 - 測定例（シミュレーション値を含む）：  
 
 | ゲート電圧 (V) | ドレイン電流 (pA) |
@@ -27,12 +31,12 @@
 ---
 
 ## 4.3 クーロン・ダイヤモンド / Coulomb Diamonds
-- ソース–ドレイン電圧とゲート電圧を2次元的に掃引した結果、  
-  **クーロンダイヤモンド構造**が観測された。  
 
-> （後で図を追加予定）  
-> - ダイヤモンド形状の領域 = 電流が流れないブロッケード領域  
-> - ダイヤモンドサイズ = 充填エネルギー (Charging Energy) を反映  
+![Coulomb diamonds](./figures/coulomb_diamonds.png)  
+*図4-2｜ソース-ドレイン電圧とゲート電圧の2次元掃引によるクーロンダイヤモンド構造 / Coulomb diamond structure obtained by sweeping source-drain and gate voltages.*
+
+- ダイヤモンド形状の領域 = 電流が流れないブロッケード領域  
+- ダイヤモンドサイズ = 充填エネルギー (Charging Energy) を反映  
 
 - 本研究のデバイスでは、充填エネルギー **Ec ≈ 3–5 meV** が得られた。  
 
