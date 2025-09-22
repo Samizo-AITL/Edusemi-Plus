@@ -44,6 +44,9 @@ _There are multiple physical implementations of qubits, each with different **op
   - コヒーレンス時間はやや短め  
     _Slightly shorter coherence times_
 
+![Semiconductor quantum dot device (0.18 µm CMOS gate pattern)](./figures/device_structure.svg)
+*図2-1｜0.18 µm CMOSゲートパターンを用いたシリコン量子ドット模式図 / Schematic of a silicon quantum dot defined by 0.18 µm CMOS gates.*
+
 ---
 
 ## 2.4 **トポロジカル量子ビット / Topological Qubits**
