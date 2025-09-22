@@ -1,0 +1,5 @@
+Parameter,Value,Notes
+Gate Capacitance (Cg),~20 aF,From Coulomb oscillations
+Charging Energy (Ec),3–5 meV,From Coulomb diamonds
+Estimated Dot Size,~50 nm,From capacitance model
+Cryo Operation Temperature,~20 mK,Dilution refrigerator
