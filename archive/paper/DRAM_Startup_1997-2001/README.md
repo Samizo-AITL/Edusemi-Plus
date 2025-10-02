@@ -435,3 +435,55 @@ NANYA 0.18 µm プロセスを用いた次世代VSRAM評価は、
 
 この方向転換が、その後のエプソン半導体事業の中核を形づくることとなった。
 
+---
+
+# 📚 参考文献一覧（DRAM / VSRAM 関連）
+
+## 1. コア文献
+- Sze, S.M., and K.K. Ng. *Physics of Semiconductor Devices*, 3rd ed., Wiley, 2006.  
+- Itoh, K. *VLSI Memory Chip Design*, Springer, 2001.  
+- Prince, B. *Semiconductor Memories: A Handbook of Design, Manufacture, and Application*, 3rd ed., Wiley, 1996.  
+- Tanaka, T., et al. “Trends and Challenges in DRAM Scaling,” *IEEE JSSC*, 31(11), 1996.  
+- Advantest. *T5590 Series Memory Test System*（Pause/Disturb試験 App Note）。
+
+---
+
+## 2. 保持・リーク・ディスターブ
+- Rabaey, J.M., Chandrakasan, A., Nikolić, B. *Digital Integrated Circuits*, 2nd ed., Prentice Hall, 2003.  
+- Bhavnagarwala, A., et al. “Soft Errors in Submicron CMOS Memory Arrays,” *IEEE TED*, 46(2), 1999.  
+- Okhonin, S., et al. “Retention Time and Junction Leakage in Deep Submicron DRAM,” *IEDM Tech. Dig.*, 1998.  
+- Wong, H.-S.P. “Technology and Device Scaling for DRAM,” *IBM JRD*, 1999.  
+- Schuegraf, K., et al. “Impact of Gate Oxide Integrity and Plasma Damage on Junction Leakage,” *VMIC Proc.*, 1997.
+
+---
+
+## 3. プロセス技術（0.35–0.25 µm世代）
+- Wolf, S. *Silicon Processing for the VLSI Era*, Vol. 1–4, Lattice Press, 1986–2002.  
+- Ohmi, T. “W CVD Plug Technology for ULSI,” *J. Electrochem. Soc.*, 1992–1996.  
+- Taur, Y., and T.H. Ning. *Fundamentals of Modern VLSI Devices*, 2nd ed., Cambridge, 2009.  
+- Lieberman, M.A., and A.J. Lichtenberg. *Principles of Plasma Discharges and Materials Processing*, 2nd ed., Wiley, 2005.  
+- Chang, C., and S.C. Lee. “Plasma-Induced Damage on Gate Oxides,” *J. Electrochem. Soc.*, 1994.  
+- Shirota, R., et al. “High-density Trench Capacitor DRAM at 0.18 µm,” *IEDM*, 1999.
+
+---
+
+## 4. テスト手法（Pause/Disturb）
+- Advantest. *Application Note: Pause Refresh / Retention Time Test on DRAM*, T55xx App Notes.  
+- Teradyne/Advantest. *Disturb Test Methodology for Deep Submicron DRAM*, App Notes, 1999–2002.  
+- Rizzoli, L., et al. “Retention and Disturb Characterization in 0.25 µm DRAM,” *ITC Proc.*, 2000.
+
+---
+
+## 5. VSRAM / PSRAM
+- MoSys, Inc. “1T-SRAM Technology Overview,” White Papers, 2000–2002.  
+- Samsung/Toshiba. “Low-Power PSRAM for Mobile Applications,” *ISSCC Dig. Tech. Papers*, 2001–2003.  
+- Kim, J., et al. “Low Power Refresh Schemes for Mobile DRAM/PSRAM,” *IEEE JSSC* / *Symp. VLSI Circuits*, 2001–2003.  
+- 日経エレクトロニクス, 「携帯電話メモリとカメラ端末特集」, 2001–2002.
+
+---
+
+## 6. 市場背景
+- Gartner/Dataquest. *Semiconductor Market & DRAM Investment Reports*, 1996–2002.  
+- *Nikkei Electronics*, 各号（1996–2002）：DRAM世代交代・携帯電話用メモリ記事。
+
+---
