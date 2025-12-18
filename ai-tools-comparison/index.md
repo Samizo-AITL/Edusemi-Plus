@@ -14,6 +14,14 @@ This guide compares the main AI tools and helps you quickly decide **which tool 
 
 ---
 
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/ai-tools-comparison/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/ai-tools-comparison) |
+
+---
+
 ## 🧩 三位一体型AI活用構成（推奨） / Recommended "Trinity" AI Setup
 
 | 役割 / Role | 使用AI / Tool | 得意分野 / Strengths | 主な用途 / Main Uses |
