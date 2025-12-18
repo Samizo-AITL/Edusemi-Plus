@@ -1,16 +1,13 @@
 /* ===================================================
-   Samizo-AITL
-   Minimal Engineering Base
-   (GitHub readable + Semiconductor / Control)
+   Samizo-AITL / Edusemi-Plus
+   Minimal Engineering CSS (Final)
+   - GitHub / IEEE readable
+   - minima conflict-safe
    =================================================== */
 
 /* ==============================
-   Scope policy
-   - レイアウト・文字組は .page に集約
-   - body は背景と全体安定のみ
+   Reset / Stability
    ============================== */
-
-/* ---------- Global stability ---------- */
 *,
 *::before,
 *::after {
@@ -21,40 +18,45 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-/* ---------- Body (neutral container) ---------- */
+/* ==============================
+   Body (neutral only)
+   ============================== */
 body {
   margin: 0;
-  background: #f9fafb;          /* クールホワイト */
+  background: #f9fafb;      /* クールホワイト */
   color: #1f2933;
 }
 
 /* ===================================================
-   Page Base (Engineering default)
+   Page Base (portable scope)
    =================================================== */
 .page {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Helvetica, Arial, sans-serif;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+
+  /* フォント：最小・無機質（確定） */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.7;
   color: #1f2933;
   background: #ffffff;
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 2rem 1.25rem;
 }
 
 /* ==============================
-   Headings (engineering tone)
+   Headings
    ============================== */
 .page h1,
 .page h2,
 .page h3,
-.page h4 {
-  font-weight: 700;
-  margin-top: 2.25rem;
-  margin-bottom: 1rem;
+.page h4,
+.page h5,
+.page h6 {
+  margin: 2.25rem 0 1rem;
   line-height: 1.25;
-  color: #003366;               /* 工学ブルー */
+  font-weight: 700;
+  color: #003366;                 /* 工学ブルー */
   border-bottom: 1px solid #d1d5db;
   padding-bottom: 0.35rem;
 }
@@ -65,7 +67,7 @@ body {
 .page h4 { font-size: 1.1rem; }
 
 /* ==============================
-   Text / Lists
+   Paragraph / Lists
    ============================== */
 .page p,
 .page ul,
@@ -82,9 +84,9 @@ body {
    Links
    ============================== */
 .page a {
-  color: #2563eb;               /* 制御・仕様書ブルー */
-  text-decoration: underline;
+  color: #2563eb;
   font-weight: 600;
+  text-decoration: underline;
 }
 
 .page a:hover {
@@ -107,9 +109,9 @@ body {
 .page video,
 .page canvas,
 .page svg {
+  display: block;
   max-width: 100%;
   height: auto;
-  display: block;
   margin: 1rem 0;
 }
 
@@ -142,7 +144,7 @@ body {
 }
 
 /* ==============================
-   Blockquote (spec / note)
+   Blockquote
    ============================== */
 .page blockquote {
   margin: 1rem 0;
@@ -153,18 +155,23 @@ body {
 }
 
 /* ==============================
-   Tables (data-sheet style)
+   Tables (minima-safe)
    ============================== */
 .page table {
   width: 100%;
   border-collapse: collapse;
   margin: 1rem 0;
+}
+
+/* ★ 枠線を確実に出す（重要） */
+.page table,
+.page th,
+.page td {
   border: 1.5px solid #cbd5e1;
 }
 
 .page th,
 .page td {
-  border: 1px solid #cbd5e1;
   padding: 0.55rem 0.9rem;
   vertical-align: top;
 }
@@ -175,13 +182,13 @@ body {
   text-align: left;
 }
 
-/* subtle stripe (optional but safe) */
+/* 控えめストライプ（不要なら削除可） */
 .page tbody tr:nth-child(even) td {
   background: #ffffff;
 }
 
 /* ==============================
-   Containers / Footer
+   Container / Footer
    ============================== */
 .page .container {
   min-height: 70vh;
@@ -189,8 +196,8 @@ body {
 
 .page .footer {
   margin-top: 3rem;
-  color: #64748b;
   font-size: 0.9rem;
+  color: #64748b;
 }
 
 /* ==============================
