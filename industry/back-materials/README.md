@@ -16,6 +16,14 @@ title: 後工程：装置メーカー｜パッケージと接続を担う生産�
 
 ---
 
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/industry/back-materials/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/industry/back-materials) |
+
+---
+
 ## 📚 主な材料領域と企業分類  
 ** 📚 Key Material Categories and Leading Vendors**
 
