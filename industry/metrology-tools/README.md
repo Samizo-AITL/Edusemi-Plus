@@ -17,6 +17,14 @@ title: 解析・計測装置メーカー｜見えない欠陥を測る目
 
 ---
 
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/industry/metrology-tools/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/industry/metrology-tools) |
+
+---
+
 ## 📚 主な装置領域と企業分類  
 **📚 Major Tool Domains and Leading Vendors**
 
