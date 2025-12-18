@@ -16,6 +16,14 @@ focusing on their role in power devices, RF, and optical applications._
 
 ---
 
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/materials/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/materials) |
+
+---
+
 ## 🎯 **目的と背景 / Purpose & Background**
 
 - MOS構造を中心とした [Edusemi-v4x](https://github.com/Samizo-AITL/Edusemi-v4x) の基礎教材を、  
