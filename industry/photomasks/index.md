@@ -16,6 +16,14 @@ Photomasks serve as the **physical medium that projects layout data onto wafers 
 
 ---
 
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/industry/photmasks/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/industry/photmasks) |
+
+---
+
 ## 📚 フォトマスク関連の主な領域と企業  
 **📚 Major Domains and Companies in Photomask Industry**
 
