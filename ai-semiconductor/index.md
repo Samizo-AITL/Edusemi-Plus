@@ -16,6 +16,14 @@ explore the **intersection of AI and semiconductors** from multiple perspectives
 
 ---
 
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/ai-semiconductor/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/ai-semiconductor) |
+
+---
+
 ## 🎯 目的 / Objective
 
 焦点は**技術そのもの**ではなく、  
