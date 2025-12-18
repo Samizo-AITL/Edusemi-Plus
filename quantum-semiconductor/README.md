@@ -17,6 +17,14 @@ _This module systematically covers quantum fundamentals, fabrication challenges,
 
 ---
 
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/quantum-semiconductor/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/quantum-semiconductor) |
+
+---
+
 ## 📚 **構成 / Structure**
 
 | **章番号 / No.** | **タイトル / Title** | **内容概要 / Summary** |
