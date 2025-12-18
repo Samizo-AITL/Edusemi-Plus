@@ -12,6 +12,14 @@ title: 💼 Edusemi-Plus / Investment
 
 ---
 
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/investment/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/investment) |
+
+---
+
 ## 🧭 概要 | Overview
 
 本ディレクトリは、半導体技術に関連する **産業構造・市場動向・投資戦略** を体系的にまとめた教材群です。  
