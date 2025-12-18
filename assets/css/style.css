@@ -1,189 +1,244 @@
+/* ===================================================
+   Samizo-AITL
+   Minimal Engineering Base
+   (GitHub readable + Semiconductor / Control)
+   =================================================== */
+
 /* ==============================
-   Minimal Base (GitHub寄り) + Portal整合
+   Scope policy
+   - レイアウト・文字組は .page に集約
+   - body は背景と全体安定のみ
    ============================== */
 
-/* 基本タイポ・レイアウトは body ではなく .page に持たせて可搬性UP */
+/* ---------- Global stability ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* ---------- Body (neutral container) ---------- */
+body {
+  margin: 0;
+  background: #f9fafb;          /* クールホワイト */
+  color: #1f2933;
+}
+
+/* ===================================================
+   Page Base (Engineering default)
+   =================================================== */
 .page {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.7;
-  color: #24292e;
+  color: #1f2933;
   background: #ffffff;
   max-width: 980px;
   margin: 0 auto;
   padding: 2rem 1.25rem;
 }
 
-/* 見出し（デフォルト：GitHub風） */
-.page h1, .page h2, .page h3, .page h4 {
-  font-weight: 600;
+/* ==============================
+   Headings (engineering tone)
+   ============================== */
+.page h1,
+.page h2,
+.page h3,
+.page h4 {
+  font-weight: 700;
   margin-top: 2.25rem;
   margin-bottom: 1rem;
-  border-bottom: 1px solid #eaecef;
-  padding-bottom: .35rem;
   line-height: 1.25;
+  color: #003366;               /* 工学ブルー */
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 0.35rem;
 }
+
 .page h1 { font-size: 1.9rem; }
 .page h2 { font-size: 1.6rem; }
 .page h3 { font-size: 1.3rem; }
 .page h4 { font-size: 1.1rem; }
 
-/* リンク（視認性重視） */
+/* ==============================
+   Text / Lists
+   ============================== */
+.page p,
+.page ul,
+.page ol {
+  margin: 0.7rem 0 1rem;
+}
+
+.page ul,
+.page ol {
+  padding-left: 1.25rem;
+}
+
+/* ==============================
+   Links
+   ============================== */
 .page a {
-  color: #0366d6;
+  color: #2563eb;               /* 制御・仕様書ブルー */
   text-decoration: underline;
   font-weight: 600;
 }
-.page a:hover { color: #024ea3; }
 
-/* 表（GitHub風） */
-.page table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
-.page th, .page td {
-  border: 1px solid #dfe2e5;
-  padding: .55rem .9rem;
+.page a:hover {
+  color: #1d4ed8;
+}
+
+/* ==============================
+   Horizontal Rule
+   ============================== */
+.page hr {
+  border: 0;
+  border-top: 2px solid #000;
+  margin: 1.5rem 0;
+}
+
+/* ==============================
+   Media
+   ============================== */
+.page img,
+.page video,
+.page canvas,
+.page svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+/* ==============================
+   Code / Pre / Math
+   ============================== */
+.page code,
+.page kbd,
+.page samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+  font-size: 0.95em;
+  background: #eef2f7;
+  color: #0f172a;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+}
+
+.page pre {
+  background: #eef2f7;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+  overflow: auto;
+}
+
+.page pre code {
+  background: transparent;
+  padding: 0;
+}
+
+/* ==============================
+   Blockquote (spec / note)
+   ============================== */
+.page blockquote {
+  margin: 1rem 0;
+  padding: 0.6rem 1rem;
+  color: #334155;
+  background: #f1f5f9;
+  border-left: 4px solid #2563eb;
+}
+
+/* ==============================
+   Tables (data-sheet style)
+   ============================== */
+.page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  border: 1.5px solid #cbd5e1;
+}
+
+.page th,
+.page td {
+  border: 1px solid #cbd5e1;
+  padding: 0.55rem 0.9rem;
   vertical-align: top;
 }
-.page th { background: #f6f8fa; text-align: left; }
 
-/* コンテナ/フッタ */
-.page .container { min-height: 70vh; }
-.page .footer { margin-top: 3rem; color: #6a737d; font-size: .9rem; }
-
-/* 画像・コード等の素直な振る舞い */
-.page img, .page video, .page canvas, .page svg { max-width: 100%; height: auto; display: block; margin: 1rem 0; }
-.page code, .page kbd, .page pre, .page samp {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace;
-}
-.page pre {
-  background: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px;
-  padding: .9rem 1rem; overflow: auto;
-}
-.page pre code { background: transparent; }
-
-/* Mermaid を中央寄せ（JSと重複OK） */
-.page .mermaid { display: block; margin: 1.25rem auto; max-width: 100%; text-align: center; }
-
-/* ==============================
-   Portal統一トーン（theme-sepia）
-   body に class="theme-sepia" を付けると適用
-   ============================== */
-
-body.theme-sepia .page {
-  background: #fdf6e3;
-  color: #3b2f2f;
-  font-family: "Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",
-               "Segoe UI","Helvetica Neue",Arial,sans-serif;
-  line-height: 1.9;
-  font-size: 1.05em;
-}
-
-body.theme-sepia .page h1,
-body.theme-sepia .page h2,
-body.theme-sepia .page h3 {
-  color: #003366;
-  border-bottom: none;          /* Portalに合わせて下線なし */
+.page th {
+  background: #e5e7eb;
   font-weight: 700;
+  text-align: left;
 }
-body.theme-sepia .page h1 { font-size: 2rem;  margin-bottom: .8rem; }
-body.theme-sepia .page h2 { font-size: 1.5rem; margin-top: 1.6rem; }
-body.theme-sepia .page h3 { font-size: 1.2rem; margin-top: 1.2rem; }
 
-body.theme-sepia .page a {
-  color: #0066cc;
-  font-weight: 600;
-  font-size: .95em;
-  text-decoration: underline;
-}
-body.theme-sepia .page a:hover { color: #004c99; }
-
-/* 表：薄茶ヘッダー＋外枠2px＋セル1.5px＋ストライプ（Portal Fix） */
-body.theme-sepia .page table { border: 2px solid #999; }
-body.theme-sepia .page th {
-  background: #e9ddc9; color: #2b2b2b;
-  border: 2px solid #999; padding: .8rem 1rem;
-}
-body.theme-sepia .page td {
-  border: 1.5px solid #bbb; color: #2b2b2b; padding: .8rem 1rem;
-}
-body.theme-sepia .page tbody tr:nth-child(odd)  td { background: #ffffff; }
-body.theme-sepia .page tbody tr:nth-child(even) td { background: #f3efe6; }
-
-/* 引用：落ち着いた青アクセント */
-body.theme-sepia .page blockquote {
-  background: #fbf6eb; border-left: 4px solid #007acc;
-  color: #3a3028; padding: .8rem 1rem; margin: 1rem 0;
+/* subtle stripe (optional but safe) */
+.page tbody tr:nth-child(even) td {
+  background: #ffffff;
 }
 
 /* ==============================
-   レスポンシブ
+   Containers / Footer
+   ============================== */
+.page .container {
+  min-height: 70vh;
+}
+
+.page .footer {
+  margin-top: 3rem;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* ==============================
+   Mermaid
+   ============================== */
+.page .mermaid {
+  display: block;
+  margin: 1.25rem auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+/* ==============================
+   Responsive
    ============================== */
 @media (max-width: 768px) {
-  .page { font-size: 15.5px; padding: 1.25rem 1rem; }
+  .page {
+    font-size: 15.5px;
+    padding: 1.25rem 1rem;
+  }
+
   .page h1 { font-size: 1.6rem; }
   .page h2 { font-size: 1.35rem; }
   .page h3 { font-size: 1.15rem; }
 }
 
-/* === Edusemi-Plus Theme (Portal統一) === */
-body.theme-sepia {
-  background: #fdf6e3;
-  color: #3b2f2f;
-  font-family: "Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",
-               "Segoe UI","Helvetica Neue",Arial,sans-serif;
-  line-height: 1.9;
-  font-size: 1.05em;
-}
+/* ==============================
+   Print (engineering doc safe)
+   ============================== */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
 
-/* 見出し */
-body.theme-sepia h1,
-body.theme-sepia h2,
-body.theme-sepia h3 {
-  font-weight: 700;
-  color: #003366;
-  border-bottom: none;
-}
-body.theme-sepia h1 { font-size: 2em; text-align: left; margin-bottom: .8em; }
-body.theme-sepia h2 { font-size: 1.5em; margin-top: 1.6em; }
-body.theme-sepia h3 { font-size: 1.2em; margin-top: 1.2em; }
+  .page {
+    background: #fff;
+  }
 
-/* リンク */
-body.theme-sepia a {
-  color: #0066cc;
-  font-weight: 600;
-  font-size: .95em;
-  text-decoration: underline;
-}
-body.theme-sepia a:hover { color: #004c99; }
+  .page a {
+    color: #000;
+    text-decoration: underline;
+  }
 
-/* 表 */
-body.theme-sepia table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-top: 1em;
-  font-size: 1em;
-  border: 2px solid #999;
-}
-body.theme-sepia th {
-  background: #e9ddc9;
-  color: #2b2b2b;
-  border: 2px solid #999;
-  font-weight: 700;
-  text-align: left;
-  padding: .8em 1em;
-}
-body.theme-sepia td {
-  border: 1.5px solid #bbb;
-  color: #2b2b2b;
-  padding: .8em 1em;
-}
-body.theme-sepia tr:nth-child(odd) td { background: #ffffff; }
-body.theme-sepia tr:nth-child(even) td { background: #f3efe6; }
-
-/* 引用 */
-body.theme-sepia blockquote {
-  background: #fbf6eb;
-  border-left: 4px solid #007acc;
-  color: #3a3028;
-  padding: .8em 1em;
-  margin: 1em 0;
+  .page pre,
+  .page code,
+  .page blockquote {
+    background: #fff;
+    border-color: #000;
+  }
 }
