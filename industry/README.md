@@ -8,13 +8,19 @@ title: Edusemi-Plus｜半導体産業サプライチェーン構造マップ
 # 🏭 Edusemi-Plus｜半導体産業サプライチェーン構造マップ  
 **🏭 Edusemi-Plus | Semiconductor Industry Supply Chain Map**
 
----
-
 **本セクション `industry/` は、設計・製造・材料・解析・デバイスにわたる半導体産業の構造をカテゴリ別に整理した教材です。**  
 **This section `industry/` organizes the semiconductor industry by category**, covering **design, manufacturing, materials, metrology**, and **devices**.
 
 各分野の**主要企業・技術**を分類し、**設計～量産の全体構造と地政学的依存関係**を可視化します。  
 It classifies **major companies and technologies** in each domain, visualizing the **full process and geopolitical dependencies**.
+
+---
+
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/industry/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/industry) |
 
 ---
 
