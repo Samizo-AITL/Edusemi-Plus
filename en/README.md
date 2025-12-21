@@ -39,18 +39,6 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 
 ---
 
-## 🎯 **Purpose**
-
-| Perspective | Description |
-|---|---|
-| 🧭 **Contextual Understanding** | Uncover **geopolitical, economic, and policy dimensions** behind technology |
-| 🧠 **Critical Thinking** | Explore the “**why**” in design choices and strategic decisions |
-| 🔄 **Connection to Fundamentals** | Bridge **Edusemi basics** with **real-world industry context** |
-
-> 🆕 **Highlight:** Japan’s re-entry into advanced logic fab via **Rapidus 2nm chip validation (July 2025)** — see [Rapidus](../rapidus/)
-
----
-
 ## 📚 **Content Categories**
 
 | Category | Summary | Link |
@@ -81,36 +69,6 @@ exploring the semiconductor industry through **geopolitics**, **corporate strate
 | 🧯 Back-End Materials | Substrates, encapsulants, wires | [industry/back-materials](../industry/back-materials/) |
 | 🔬 Metrology Tools | CD-SEM, defect inspection, X-ray | [industry/metrology-tools](../industry/metrology-tools/) |
 | 💾 Device Makers | Foundry, IDM, fabless | [industry/device-makers](../industry/device-makers/) |
-
----
-
-## 👥 **Audience & Use Cases**
-
-| Audience | Use Cases |
-|---|---|
-| 🧑‍🔬 Engineers | Grasp strategic & societal context |
-| 🧑‍💼 Managers & Planners | Tech selection, industrial surveys, global strategy |
-| 🧑‍🏫 Educators & Students | Learn industry structures missing from textbooks |
-
----
-
-## 🧠 **AI Tool Integration**
-
-| Role | Tool | Usage |
-|---|---|---|
-| 🧩 Main Generator | ChatGPT 4o | Structure, tables, exercises, visuals |
-| 🔍 Research | Gemini 1.5 Pro | Geopolitics, materials, overseas tech |
-| ✒️ Editor | Claude 3 Opus | Long-form editing, formatting |
-
-> See [ai-tools-comparison](../ai-tools-comparison/) for prompt-specific workflows
-
----
-
-## 🧩 **How to Use**
-
-- **Education/Training:** Slides, thematic notebooks  
-- **Strategy Support:** Internal briefings, analysis base  
-- **Exploratory Learning:** Interactive with ChatGPT
 
 ---
 
@@ -151,6 +109,3 @@ Free to **reuse, modify, and fork** for educational or non-profit purposes.
 
 [![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/discussions)
 
----
-
-> “Connect **technology** with **global structures** to shape future strategies.”
