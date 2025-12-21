@@ -1,8 +1,3 @@
----
-layout: default
-title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリーズ
----
-
 # ➕ **Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリーズ**  
 *Edusemi-Plus: An applied extension of Edusemi-v4x for understanding semiconductor technologies*
 
