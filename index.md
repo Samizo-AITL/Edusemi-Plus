@@ -30,13 +30,6 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 ---
 
-## 📅 **最新アップデート / Latest Updates**
-- **2025-07**：Rapidus が **2nm 試作チップの動作を確認** — ケーススタディ追加  
-  **Rapidus 2nm prototype chip functional confirmation — new case study**
-- **2025-07**：**TSMC Insight** を全面更新（技術ロードマップ / 地政学 / 教育連携 / CapEx）
-
----
-
 ## 🌟 **特集コンテンツ / Featured Contents**
 
 | 特集 | 概要 | Link |
@@ -44,19 +37,6 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 | 🏭 **TSMC Insight** | 技術ロードマップ・地政学・サプライチェーン・R&D・教育連携まで、TSMCを多角的に分析。<br>Multi-angle analysis of TSMC (tech, geopolitics, supply chain, R&D, education). | [▶ 開く / Open](./tsmc-insight/) |
 | 🚀 **Rapidus 2nm Case Study** | 北海道・千歳拠点の2nm挑戦。GAA・IBM連携・国内製造基盤の再構築を追う。<br>Japan’s 2nm challenge: GAA, IBM collaboration, domestic manufacturing. | [▶ 開く / Open](./rapidus/) |
 | 🍏 **Apple Silicon Evolution** | AシリーズSoCの設計思想・N3/N3E移行・NPUの役割を整理。<br>Design intent, N3/N3E transition, and NPU role in A-series. | [▶ 開く / Open](./apple-silicon/) |
-
----
-
-## 🎯 **本教材の目的 / Objectives**
-
-|  | **JP（日本語）** | **EN (English)** |
-|---|---|---|
-| 🧭 **背景理解 / Context** | 技術の背後にある **地政学・経済・政策** を読み解く | Read technology through **geopolitics, economy, policy** |
-| 🧠 **思考力 / Reasoning** | 技術選定・製品設計・戦略判断の「**なぜ**」を深掘り | Dive into the "**why**" of tech, design, and strategy |
-| 🔄 **基礎接続 / Bridging** | **Edusemi（基礎）** と **産業構造** を橋渡し | Bridge **Edusemi (fundamentals)** with **industry structure** |
-
-> 🆕 **JP:** Rapidus の 2nm ケーススタディは **[こちら](./rapidus/)**。  
-> 🆕 **EN:** Rapidus 2nm case study **[here](./rapidus/)**.
 
 ---
 
@@ -90,35 +70,6 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 | 🧯 **後工程材料 / Back Materials** | 基板・封止樹脂・配線材 | Substrates, mold, wire | [industry/back-materials](./industry/back-materials/) |
 | 🔬 **解析計測 / Metrology** | CD-SEM・欠陥検査・膜厚 | CD-SEM, defect, thickness | [industry/metrology-tools](./industry/metrology-tools/) |
 | 💾 **デバイス / Devices** | ファウンドリ・IDM・ファブレス | Foundry, IDM, fabless | [industry/device-makers](./industry/device-makers/) |
-
----
-
-## 👥 **対象読者 / Audience & Use Cases**
-
-| **対象 / Audience** | **JP（ニーズ）** | **EN (Needs)** |
-|---|---|---|
-| 🧑‍🔬 **技術者 / Engineers** | **戦略・社会的構造** の理解（例：**Rapidus**） | Understand **strategic & social structures** (e.g., **Rapidus**) |
-| 🧑‍💼 **企画 / Management** | **技術選定・産業調査・海外戦略** | **Tech selection, industry research, global strategy** |
-| 🧑‍🏫 **教育 / Educators & Students** | **産業と社会構造** を学ぶ教材 | Materials on **industry & society** |
-
----
-
-## 🧠 **AIツール連携 / Working with AI Tools**
-
-| **役割 / Role** | **ツール / Tools** | **活用ポイント / Usage** |
-|---|---|---|
-| 🧩 **メイン生成 / Authoring** | **ChatGPT 4o** | 構成・比較表・演習・図解 / Structure, tables, exercises, visuals |
-| 🔍 **情報検索 / Search** | **Gemini 1.5 Pro** | 地政学・材料・海外技術 / Geopolitics, materials, global tech |
-| ✒️ **整形 / Polishing** | **Claude 3 Opus** | 長文整理・報告構成 / Long-form editing, reports |
-
-> 🔗 **Use cases / 使い分け**： [ai-tools-comparison](./ai-tools-comparison/)
-
----
-
-## 🧩 **活用方法 / How to Use**
-
-- **JP:** 教育・研修：テーマ別スライド／ノート教材｜技術戦略：会議・分析の土台｜探究学習：**対話型・構造化学習**  
-- **EN:** Education & training (slides/notes), strategy support (meetings/analysis), inquiry learning with **conversational & structured** flows
 
 ---
 
@@ -160,8 +111,3 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 > *Propose improvements or start discussions via GitHub Discussions.*
 
 [![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/discussions)
-
----
-
-> **JP:** 「**技術** と **世界の構造** をつなげて理解し、未来戦略を描く。」  
-> **EN:** “Connect **technology** with **global structures** to shape future strategies.”
