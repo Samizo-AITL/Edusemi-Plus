@@ -1,11 +1,9 @@
 ---
 layout: default
-title: Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society, and AI
+title: Edusemi-Plus｜Applied Learning Series Extending Core Semiconductor Knowledge
 ---
 
---- 
-
-# ➕ **Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society, and AI**
+# ➕ **Edusemi-Plus｜Applied Learning Series Extending Core Semiconductor Knowledge**
 
 [![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io/en/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
 
@@ -21,11 +19,11 @@ title: Edusemi-Plus｜Applied Learning Series Connecting Semiconductors, Society
 ---
 
 **Edusemi-Plus** is an expanded series of the foundational [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) project,  
-exploring the semiconductor industry through **geopolitics**, **corporate strategy**, **product architecture**, **AI**, **quantum**, **materials**, and **investment**.
+designed to extend core semiconductor knowledge through **product architecture**, **design concepts**, **AI-related technologies**, **quantum**, and **materials**.
 
-- 🌍 Focus on the **intersection of technology and global structure**  
-- 🧠 Supports **exploratory learning** with **ChatGPT × Gemini × Claude**  
-- 🧑‍🏫 Open for **education, strategy, and system design**
+- 🧩 Focus on **extending contextual understanding of semiconductor technologies**  
+- 🏗 Emphasis on **product structure and design-oriented perspectives**  
+- 🧑‍🏫 Open for **education and engineering-focused learning**
 
 ---
 
