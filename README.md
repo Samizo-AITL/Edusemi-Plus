@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シリーズ
+title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリーズ
 ---
 
----
-
-# ➕ **Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シリーズ**   
-*Edusemi-Plus: Applied learning series connecting semiconductors with society & AI*
+# ➕ **Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリーズ**  
+*Edusemi-Plus: An applied extension of Edusemi-v4x for understanding semiconductor technologies*
 
 [![Samizo-AITLポータルサイトに戻る](https://img.shields.io/badge/Samizo--AITL%20ポータルサイトに戻る-brightgreen)](https://samizo-aitl.github.io/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -21,12 +19,15 @@ title: Edusemi-Plus｜半導体産業と社会・AIをつなぐ応用教材シ�
 
 ---
 
-**JP:** **Edusemi-Plus** は、基礎教材 [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) を拡張し、**地政学・企業戦略・製品構造・AI技術・量子・材料・投資** などの視点から、現代テクノロジー産業を多角的に探究する **応用教材群** です。  
-**EN:** **Edusemi-Plus** extends **Edusemi-v4x** to explore the tech industry from **geopolitics, corporate strategy, product architecture, AI, quantum, materials, and investment** perspectives.
+**JP:**  
+**Edusemi-Plus** は、基礎教材 [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) を拡張し、**製品構造・設計思想・AI技術・量子・材料** などの観点から、半導体技術とその応用理解を広げる **応用教材群** です。  
 
-- 🌍 **技術と社会構造** / Focus on the nexus of **technology & societal structures**  
-- 🧠 **ChatGPT × Gemini × Claude** / Inquiry learning with **ChatGPT × Gemini × Claude**  
-- 🧑‍🏫 **教育・戦略・技術設計** / Usable for **education, strategy, and engineering**
+**EN:**  
+**Edusemi-Plus** extends **Edusemi-v4x** to broaden understanding of semiconductor technologies through perspectives such as **product architecture, design concepts, AI-related technologies, quantum, and materials**.
+
+- 🧩 **技術理解の拡張** / Expanding **contextual understanding of semiconductor technology**  
+- 🏗 **製品・設計視点** / Emphasis on **product architecture and design thinking**  
+- 🧑‍🏫 **教育・技術理解** / Usable for **education and engineering-oriented learning**
 
 ---
 
