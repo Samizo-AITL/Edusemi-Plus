@@ -1,7 +1,7 @@
 /* ===================================================
-   Samizo-AITL Technical CSS (FINAL)
-   Semiconductor / Control / AITL / Datasheet
+   Samizo-AITL Technical CSS (FINAL & STABLE)
    Target: GitHub Pages (minima)
+   Domain: Semiconductor / Control / AITL
    =================================================== */
 
 
@@ -20,18 +20,23 @@ html {
 
 
 /* ===================================================
-   Base (Engineering Font / Neutral)
+   Base (Engineering / Datasheet)
    =================================================== */
 body {
   margin: 0;
-  background: #f9fafb;          /* クールホワイト */
-  color: #1f2933;               /* 工学向け濃グレー */
+
+  /* ★ 画面端との余白は body で作る（最重要） */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  background: #f9fafb;
+  color: #1f2933;
 
   font-family:
     system-ui,
     -apple-system,
     BlinkMacSystemFont,
-    "Segoe UI",                 /* Windows EDA / 制御 */
+    "Segoe UI",
     "Hiragino Kaku Gothic ProN",
     "Yu Gothic UI",
     "Yu Gothic",
@@ -43,24 +48,28 @@ body {
 
 
 /* ===================================================
-   ★ Layout / Content Width Control（最重要）
+   ★ Layout / Content Width Control（minima安定解）
    =================================================== */
-/* minima に確実に勝つため詳細度を上げる */
-body .wrapper,
-body .page-content,
-body .post-content,
-body .home,
-body .post {
-  max-width: 1100px;            /* 技術教材の最適幅 */
+/* 本文カラム幅は内側で制御する */
+.page-content,
+.post-content,
+.home,
+.post {
+  max-width: 1100px;            /* 技術教材の黄金幅 */
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5rem;         /* 左右余白の正体 */
-  padding-right: 1.5rem;
+}
+
+/* minima の wrapper 干渉を完全に無効化 */
+.wrapper {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 
 /* ===================================================
-   Headings (Engineering tone)
+   Headings (Engineering Tone)
    =================================================== */
 h1, h2, h3, h4, h5, h6,
 .page-content h1, .page-content h2, .page-content h3,
@@ -68,7 +77,7 @@ h1, h2, h3, h4, h5, h6,
   margin: 1.8rem 0 0.8rem;
   line-height: 1.25;
   font-weight: 700;
-  color: #003366;               /* 工学ブルー */
+  color: #003366;
 }
 
 h1 { font-size: 1.8rem; }
@@ -139,7 +148,7 @@ img, video, canvas, svg {
 
 
 /* ===================================================
-   Code / Pre (EDA / Control / Spec)
+   Code / Pre (EDA / Control)
    =================================================== */
 code, kbd, samp {
   font-family:
@@ -230,6 +239,8 @@ td {
 @media (max-width: 768px) {
   body {
     font-size: 15.5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   h1 { font-size: 1.6rem; }
@@ -249,6 +260,7 @@ td {
   body {
     background: #fff;
     color: #000;
+    padding: 0;
   }
 
   a {
