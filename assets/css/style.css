@@ -1,110 +1,221 @@
 /* ===================================================
-   Samizo-AITL / Edusemi-Plus
-   assets/css/style.css (Override for minima)
-   - Engineering tone
-   - Table borders guaranteed
-   - Simple font
+   Samizo-AITL Technical CSS (FINAL)
+   Semiconductor / Control / AITL / Datasheet
+   Target: GitHub Pages (minima)
    =================================================== */
 
-/* ---------- Base (minima override, safe) ---------- */
+
+/* ===================================================
+   Reset / Stability
+   =================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+
+/* ===================================================
+   Base (Engineering Font / Neutral)
+   =================================================== */
 body {
-  background: #f9fafb;
-  color: #1f2933;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  background: #f9fafb;          /* クールホワイト */
+  color: #1f2933;               /* 工学向け濃グレー */
+
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",                 /* Windows EDA / 制御 */
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic UI",
+    "Yu Gothic",
+    sans-serif;
+
+  font-size: 16px;
   line-height: 1.7;
 }
 
-/* Minima containers */
-.wrapper, .page-content, .post-content, .home, .post, .post-header, .post-title {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+/* ===================================================
+   ★ Layout / Content Width Control（最重要）
+   =================================================== */
+/* minima に確実に勝つため詳細度を上げる */
+body .wrapper,
+body .page-content,
+body .post-content,
+body .home,
+body .post {
+  max-width: 1100px;            /* 技術教材の最適幅 */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;         /* 左右余白の正体 */
+  padding-right: 1.5rem;
 }
 
-/* ---------- Headings ---------- */
+
+/* ===================================================
+   Headings (Engineering tone)
+   =================================================== */
 h1, h2, h3, h4, h5, h6,
-.post-content h1, .post-content h2, .post-content h3,
-.page-content h1, .page-content h2, .page-content h3 {
-  color: #003366;
+.page-content h1, .page-content h2, .page-content h3,
+.post-content h1, .post-content h2, .post-content h3 {
+  margin: 1.8rem 0 0.8rem;
+  line-height: 1.25;
   font-weight: 700;
+  color: #003366;               /* 工学ブルー */
 }
 
-/* Minima has subtle borders; keep engineering underline */
-.post-content h1, .post-content h2, .post-content h3,
-.page-content h1, .page-content h2, .page-content h3 {
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.post-content h1,
+.post-content h2,
+.post-content h3 {
   border-bottom: 1px solid #d1d5db;
   padding-bottom: 0.25rem;
 }
 
-/* ---------- Links ---------- */
-a, .post-content a, .page-content a {
+
+/* ===================================================
+   Paragraph / Lists
+   =================================================== */
+p {
+  margin: 0.7rem 0 1rem;
+}
+
+ul, ol {
+  margin: 0.6rem 0 1rem;
+  padding-left: 1.25rem;
+}
+
+li {
+  margin: 0.25rem 0;
+}
+
+
+/* ===================================================
+   Links
+   =================================================== */
+a {
   color: #2563eb;
   font-weight: 600;
   text-decoration: underline;
 }
-a:hover, .post-content a:hover, .page-content a:hover {
+
+a:hover {
   color: #1d4ed8;
 }
 
-/* ---------- Code / Pre ---------- */
-code, kbd, samp,
-.post-content code, .page-content code {
-  background: #eef2f7;
-  color: #0f172a;
-  border-radius: 4px;
+
+/* ===================================================
+   Horizontal Rule
+   =================================================== */
+hr {
+  border: 0;
+  border-top: 2px solid #000;
+  margin: 1.5rem 0;
 }
 
-pre, .post-content pre, .page-content pre {
+
+/* ===================================================
+   Media
+   =================================================== */
+img, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+
+/* ===================================================
+   Code / Pre (EDA / Control / Spec)
+   =================================================== */
+code, kbd, samp {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+
+  font-size: 0.95em;
+  background: #eef2f7;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+  color: #0f172a;
+}
+
+pre {
   background: #eef2f7;
   border: 1px solid #cbd5e1;
+  padding: 0.9rem 1rem;
   border-radius: 6px;
   overflow: auto;
 }
 
-/* ---------- Blockquote ---------- */
-blockquote, .post-content blockquote, .page-content blockquote {
-  background: #f1f5f9;
-  border-left: 4px solid #2563eb;
-  color: #334155;
+pre code {
+  background: transparent;
+  padding: 0;
 }
 
-/* ===================================================
-   Tables (IMPORTANT: force borders visible)
-   minima が table border を弱める/消すケース対策で
-   table/th/td までまとめて指定します
-   =================================================== */
 
-table,
-.post-content table,
-.page-content table {
+/* ===================================================
+   Blockquote (Spec / Note)
+   =================================================== */
+blockquote {
+  margin: 1rem 0;
+  padding: 0.6rem 1rem;
+  background: #f1f5f9;
+  color: #334155;
+  border-left: 4px solid #2563eb;
+}
+
+
+/* ===================================================
+   Tables (Datasheet Standard)
+   =================================================== */
+table {
   width: 100%;
   border-collapse: collapse;
   margin: 1rem 0;
-}
-
-/* ★枠線を確実に出す */
-table, th, td,
-.post-content table, .post-content th, .post-content td,
-.page-content table, .page-content th, .page-content td {
   border: 1.5px solid #cbd5e1;
+  font-size: 0.95em;
 }
 
-/* セルの余白 */
-th, td,
-.post-content th, .post-content td,
-.page-content th, .page-content td {
-  padding: 0.55rem 0.9rem;
-  vertical-align: top;
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 0.45rem 0.7rem;
+  vertical-align: middle;
 }
 
-/* 見出し行 */
-th,
-.post-content th,
-.page-content th {
+th {
   background: #e5e7eb;
   font-weight: 700;
   text-align: left;
+  white-space: nowrap;
 }
 
-/* ---------- Mermaid ---------- */
+td {
+  background: #ffffff;
+}
+
+
+/* ===================================================
+   Mermaid
+   =================================================== */
 .mermaid {
   display: block;
   margin: 1.25rem auto;
@@ -112,41 +223,41 @@ th,
   text-align: center;
 }
 
-/* ---------- Images ---------- */
-img, video, canvas, svg {
-  max-width: 100%;
-  height: auto;
-}
-
-/* ---------- HR (if you want explicit black) ---------- */
-hr {
-  border: 0;
-  border-top: 2px solid #000;
-}
 
 /* ===================================================
-   Content width control (minima override)
+   Responsive
    =================================================== */
-.wrapper,
-.page-content,
-.post-content,
-.home,
-.post {
-  max-width: 1100px;        /* ← Edusemi教材の最適幅 */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-/* ---------- Responsive ---------- */
 @media (max-width: 768px) {
-  body { font-size: 15.5px; }
+  body {
+    font-size: 15.5px;
+  }
+
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.35rem; }
+  h3 { font-size: 1.15rem; }
+
+  table {
+    font-size: 0.9em;
+  }
 }
 
-/* ---------- Print ---------- */
+
+/* ===================================================
+   Print (Engineering Document)
+   =================================================== */
 @media print {
-  body { background: #fff; color: #000; }
-  a { color: #000; }
-  pre, code, blockquote { background: #fff; border-color: #000; }
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  pre, code, blockquote {
+    background: #fff;
+    border-color: #000;
+  }
 }
