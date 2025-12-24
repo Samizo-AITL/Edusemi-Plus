@@ -127,12 +127,12 @@ a:hover {
 
 
 /* ===================================================
-   Horizontal Rule（教材向け・最適）
+   Horizontal Rule（最終推奨）
    =================================================== */
 hr {
   border: none;
-  border-top: 1px solid #e5e7eb; /* GitHub系の薄グレー */
-  margin: 2.5rem 0;
+  border-top: 1px solid #cbd5e1;
+  margin: 2.2rem 0;
 }
 
 
