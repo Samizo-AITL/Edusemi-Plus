@@ -1,8 +1,13 @@
-/* ==================================================
-   Samizo-AITL Engineering style.css (minima FINAL)
-   ================================================== */
+/* ===================================================
+   Samizo-AITL Technical CSS (FINAL & STABLE)
+   Target: GitHub Pages (minima)
+   Domain: Semiconductor / Control / AITL
+   =================================================== */
 
-/* ---------- Reset ---------- */
+
+/* ===================================================
+   Reset / Stability
+   =================================================== */
 *,
 *::before,
 *::after {
@@ -13,9 +18,20 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-/* ---------- Base ---------- */
+
+/* ===================================================
+   Base (Engineering / Datasheet)
+   =================================================== */
 body {
   margin: 0;
+
+  /* ★ 画面端との余白は body で作る（最重要） */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  background: #f9fafb;
+  color: #1f2933;
+
   font-family:
     system-ui,
     -apple-system,
@@ -25,94 +41,133 @@ body {
     "Yu Gothic UI",
     "Yu Gothic",
     sans-serif;
+
   font-size: 16px;
   line-height: 1.7;
-  color: #1f2933;
-  background: #f9fafb;
 }
 
-/* ==================================================
-   LAYOUT : 本文の実体は .wrapper .post
-   ================================================== */
-.wrapper .post {
-  max-width: 1100px;
+
+/* ===================================================
+   ★ Layout / Content Width Control（minima安定解）
+   =================================================== */
+/* 本文カラム幅は内側で制御する */
+.page-content,
+.post-content,
+.home,
+.post {
+  max-width: 1100px;            /* 技術教材の黄金幅 */
   margin-left: auto;
   margin-right: auto;
-
-  /* ← 左右余白はここ */
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .wrapper .post {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+/* minima の wrapper 干渉を完全に無効化 */
+.wrapper {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-/* ==================================================
-   Headings
-   ================================================== */
-.wrapper .post h1,
-.wrapper .post h2,
-.wrapper .post h3,
-.wrapper .post h4 {
-  margin: 1.6rem 0 0.8rem;
+
+/* ===================================================
+   Headings (Engineering Tone)
+   =================================================== */
+h1, h2, h3, h4, h5, h6,
+.page-content h1, .page-content h2, .page-content h3,
+.post-content h1, .post-content h2, .post-content h3 {
+  margin: 1.8rem 0 0.8rem;
   line-height: 1.25;
   font-weight: 700;
   color: #003366;
 }
 
-.wrapper .post h1 { font-size: 1.8rem; }
-.wrapper .post h2 { font-size: 1.5rem; }
-.wrapper .post h3 { font-size: 1.25rem; }
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
 
-/* ==================================================
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 0.25rem;
+}
+
+
+/* ===================================================
    Paragraph / Lists
-   ================================================== */
-.wrapper .post p,
-.wrapper .post ul,
-.wrapper .post ol {
+   =================================================== */
+p {
   margin: 0.7rem 0 1rem;
 }
 
-.wrapper .post ul,
-.wrapper .post ol {
+ul, ol {
+  margin: 0.6rem 0 1rem;
   padding-left: 1.25rem;
 }
 
-/* ==================================================
+li {
+  margin: 0.25rem 0;
+}
+
+
+/* ===================================================
    Links
-   ================================================== */
-.wrapper .post a {
+   =================================================== */
+a {
   color: #2563eb;
   font-weight: 600;
   text-decoration: underline;
 }
 
-/* ==================================================
-   HR
-   ================================================== */
-.wrapper .post hr {
+a:hover {
+  color: #1d4ed8;
+}
+
+
+/* ===================================================
+   Horizontal Rule（最終推奨）
+   =================================================== */
+hr {
   border: none;
   border-top: 1px solid #cbd5e1;
   margin: 2.2rem 0;
 }
 
-/* ==================================================
-   Code / Pre
-   ================================================== */
-.wrapper .post code {
-  font-family: ui-monospace, Menlo, Consolas, monospace;
+
+/* ===================================================
+   Media
+   =================================================== */
+img, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+
+/* ===================================================
+   Code / Pre (EDA / Control)
+   =================================================== */
+code, kbd, samp {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+
   font-size: 0.95em;
   background: #eef2f7;
   padding: 0.15em 0.35em;
   border-radius: 4px;
+  color: #0f172a;
 }
 
-.wrapper .post pre {
+pre {
   background: #eef2f7;
   border: 1px solid #cbd5e1;
   padding: 0.9rem 1rem;
@@ -120,78 +175,101 @@ body {
   overflow: auto;
 }
 
-/* ==================================================
-   TABLES : ここが最重要
-   ================================================== */
-.wrapper .post table {
-  width: 100%;
-  border-collapse: collapse;
-  background: #ffffff;
-
-  /* ← minimaに勝つ */
-  border: 1.5px solid #9ca3af;
+pre code {
+  background: transparent;
+  padding: 0;
 }
 
-.wrapper .post th,
-.wrapper .post td {
-  border: 1px solid #9ca3af;
-  padding: 0.4rem 0.6rem;
+
+/* ===================================================
+   Blockquote (Spec / Note)
+   =================================================== */
+blockquote {
+  margin: 1rem 0;
+  padding: 0.6rem 1rem;
+  background: #f1f5f9;
+  color: #334155;
+  border-left: 4px solid #2563eb;
+}
+
+
+/* ===================================================
+   Tables (Datasheet Standard)
+   =================================================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  border: 1.5px solid #cbd5e1;
+  font-size: 0.95em;
+}
+
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 0.45rem 0.7rem;
   vertical-align: middle;
 }
 
-.wrapper .post th {
+th {
   background: #e5e7eb;
   font-weight: 700;
+  text-align: left;
   white-space: nowrap;
 }
 
-/* ==================================================
-   Media
-   ================================================== */
-.wrapper .post img,
-.wrapper .post svg {
-  max-width: 100%;
-  height: auto;
-  margin: 1rem 0;
-}
-
-/* ==============================
-   FORCE OVERRIDE (minima対策・最終)
-   ============================== */
-
-/* 本文の実体 */
-.wrapper .post {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-/* モバイル */
-@media (max-width: 768px) {
-  .wrapper .post {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-/* 表は minima に必ず勝つ */
-.wrapper .post table {
-  border-collapse: collapse !important;
-  border: 1.5px solid #9ca3af !important;
+td {
   background: #ffffff;
 }
 
-.wrapper .post th,
-.wrapper .post td {
-  border: 1px solid #9ca3af !important;
-  padding: 0.4rem 0.6rem;
+
+/* ===================================================
+   Mermaid
+   =================================================== */
+.mermaid {
+  display: block;
+  margin: 1.25rem auto;
+  max-width: 100%;
+  text-align: center;
 }
 
-.wrapper .post th {
-  background: #e5e7eb;
-  font-weight: 700;
+
+/* ===================================================
+   Responsive
+   =================================================== */
+@media (max-width: 768px) {
+  body {
+    font-size: 15.5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.35rem; }
+  h3 { font-size: 1.15rem; }
+
+  table {
+    font-size: 0.9em;
+  }
 }
 
+
+/* ===================================================
+   Print (Engineering Document)
+   =================================================== */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+    padding: 0;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  pre, code, blockquote {
+    background: #fff;
+    border-color: #000;
+  }
+}
