@@ -1,13 +1,12 @@
-/* ===================================================
-   Samizo-AITL Engineering CSS
-   Purpose: Technical Docs / Datasheet / Education
-   Target: GitHub Pages (minima)
-   =================================================== */
+/* ─────────────────────────────
+   Samizo-AITL Minimal Engineering CSS
+   Semiconductor / Control / AITL
+   (minima SAFE)
+   ───────────────────────────── */
 
-
-/* ===================================================
-   Reset (minimum)
-   =================================================== */
+/* ==============================
+   Reset / Stability
+   ============================== */
 *,
 *::before,
 *::after {
@@ -18,260 +17,274 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-
-/* ===================================================
-   Base Layout
-   =================================================== */
+/* ==============================
+   Base (TECHNICAL FONT / IEEE / Datasheet)
+   ============================== */
 body {
   margin: 0;
-  padding: 0;
 
-  background: #ffffff;
-  color: #111827;
-
-  /* 技術文書用フォントスタック */
   font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
     "Segoe UI",
+    "Hiragino Kaku Gothic ProN",
     "Yu Gothic UI",
     "Yu Gothic",
-    "Hiragino Kaku Gothic ProN",
-    "Meiryo",
-    system-ui,
     sans-serif;
 
   font-size: 16px;
-  line-height: 1.75;
+  line-height: 1.7;
+  color: #1f2933;
+  background: #f9fafb;
 }
 
-
-/* ===================================================
-   Content Width (Stable)
-   =================================================== */
-.wrapper {
-  max-width: none;
-  padding: 0;
-}
-
+/* ==============================
+   Layout / Content Width Control
+   ★ 本文だけに限定（最重要）
+   ============================== */
 .page-content,
-.post-content,
-.home,
-.post {
-  max-width: 1200px;        /* 技術教材の実用上限 */
-  margin: 0 auto;
-  padding: 2.5rem 3rem;    /* 左右に「効く」余白 */
+.post-content {
+  max-width: 1100px;        /* 技術教材の最適幅 */
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
-
-/* ===================================================
-   Headings (Engineering Style)
-   =================================================== */
-h1, h2, h3, h4 {
-  margin: 2rem 0 0.75rem;
-  font-weight: 700;
+/* ==============================
+   Headings（本文のみ）
+   ============================== */
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  margin: 1.6rem 0 0.8rem;
   line-height: 1.25;
+  font-weight: 700;
+  color: #003366;
+}
+
+.page-content h1,
+.post-content h1 { font-size: 1.8rem; }
+
+.page-content h2,
+.post-content h2 { font-size: 1.5rem; }
+
+.page-content h3,
+.post-content h3 { font-size: 1.25rem; }
+
+/* ==============================
+   Paragraph / Lists
+   ============================== */
+.page-content p,
+.page-content ul,
+.page-content ol,
+.post-content p,
+.post-content ul,
+.post-content ol {
+  margin: 0.7rem 0 1rem;
+}
+
+.page-content ul,
+.page-content ol,
+.post-content ul,
+.post-content ol {
+  padding-left: 1.25rem;
+}
+
+/* ==============================
+   Links（バッジを壊さない）
+   ============================== */
+.page-content a,
+.post-content a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.page-content a:hover,
+.post-content a:hover {
+  color: #1d4ed8;
+}
+
+/* ==============================
+   Horizontal Rule
+   ============================== */
+.page-content hr,
+.post-content hr {
+  border: none;
+  border-top: 1px solid #cbd5e1;
+  margin: 2.2rem 0;
+}
+
+/* ==============================
+   Media
+   ============================== */
+.page-content img,
+.page-content video,
+.page-content canvas,
+.page-content svg,
+.post-content img,
+.post-content video,
+.post-content canvas,
+.post-content svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+/* ==============================
+   Code / Pre (EDA / Control)
+   ============================== */
+.page-content code,
+.page-content kbd,
+.page-content samp,
+.post-content code,
+.post-content kbd,
+.post-content samp {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+
+  font-size: 0.95em;
+  background: #eef2f7;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
   color: #0f172a;
 }
 
-h1 {
-  font-size: 1.9rem;
-  border-bottom: 2px solid #1e293b;
-  padding-bottom: 0.4rem;
+.page-content pre,
+.post-content pre {
+  background: #eef2f7;
+  border: 1px solid #cbd5e1;
+  padding: 0.9rem 1rem;
+  border-radius: 6px;
+  overflow: auto;
 }
 
-h2 {
-  font-size: 1.55rem;
-  border-bottom: 1px solid #334155;
-  padding-bottom: 0.3rem;
+.page-content pre code,
+.post-content pre code {
+  background: transparent;
+  padding: 0;
 }
 
-h3 {
-  font-size: 1.25rem;
+/* ==============================
+   Blockquote (spec / note)
+   ============================== */
+.page-content blockquote,
+.post-content blockquote {
+  margin: 1rem 0;
+  padding: 0.6rem 1rem;
+  color: #334155;
+  background: #f1f5f9;
+  border-left: 4px solid #2563eb;
 }
 
-h4 {
-  font-size: 1.1rem;
-}
-
-
-/* ===================================================
-   Paragraph / Lists
-   =================================================== */
-p {
-  margin: 0.8rem 0 1.1rem;
-}
-
-ul, ol {
-  margin: 0.6rem 0 1.1rem;
-  padding-left: 1.5rem;
-}
-
-li {
-  margin: 0.3rem 0;
-}
-
-
-/* ===================================================
-   Links (Engineering)
-   =================================================== */
-a {
-  color: #1d4ed8;
-  text-decoration: underline;
-  font-weight: 600;
-}
-
-a:hover {
-  color: #1e40af;
-}
-
-
-/* ===================================================
-   Horizontal Rule
-   =================================================== */
-hr {
-  border: none;
-  border-top: 2px solid #cbd5e1;
-  margin: 2.5rem 0;
-}
-
-
-/* ===================================================
-   Tables (Datasheet Grade)
-   =================================================== */
-table {
+/* ==============================
+   Tables (Datasheet Standard)
+   ============================== */
+.page-content table,
+.post-content table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
-
-  /* ★ 外枠は必ず表示 */
-  border: 2px solid #334155;
+  margin: 1rem 0;
+  border: 1.5px solid #cbd5e1;
+  font-size: 0.95em;
 }
 
-th, td {
-  border: 1px solid #64748b;
-  padding: 0.55rem 0.8rem;
+.page-content th,
+.page-content td,
+.post-content th,
+.post-content td {
+  border: 1px solid #cbd5e1;
+  padding: 0.4rem 0.6rem;
   vertical-align: middle;
 }
 
-th {
+.page-content th,
+.post-content th {
   background: #e5e7eb;
   font-weight: 700;
   text-align: left;
   white-space: nowrap;
 }
 
-td {
+.page-content td,
+.post-content td {
   background: #ffffff;
 }
 
-
-/* ===================================================
-   Code / Pre (EDA / Control)
-   =================================================== */
-code {
-  font-family:
-    "Cascadia Mono",
-    "Consolas",
-    "SFMono-Regular",
-    Menlo,
-    monospace;
-
-  font-size: 0.95em;
-  background: #f1f5f9;
-  padding: 0.15em 0.35em;
-  border: 1px solid #cbd5e1;
-  border-radius: 4px;
-}
-
-pre {
-  font-family:
-    "Cascadia Mono",
-    "Consolas",
-    "SFMono-Regular",
-    Menlo,
-    monospace;
-
-  background: #f8fafc;
-  border: 2px solid #334155;
-  padding: 1rem 1.2rem;
-  margin: 1.5rem 0;
-  overflow-x: auto;
-  font-size: 0.9rem;
-}
-
-pre code {
-  border: none;
-  background: transparent;
-  padding: 0;
-}
-
-
-/* ===================================================
-   Blockquote (Spec / Note)
-   =================================================== */
-blockquote {
-  margin: 1.2rem 0;
-  padding: 0.7rem 1.2rem;
-  background: #f8fafc;
-  border-left: 5px solid #2563eb;
-  color: #1e293b;
-}
-
-
-/* ===================================================
-   Media
-   =================================================== */
-img, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 1.2rem auto;
-}
-
-
-/* ===================================================
+/* ==============================
    Mermaid
-   =================================================== */
-.mermaid {
-  margin: 1.5rem auto;
+   ============================== */
+.page-content .mermaid,
+.post-content .mermaid {
+  display: block;
+  margin: 1.25rem auto;
+  max-width: 100%;
   text-align: center;
 }
 
-
-/* ===================================================
-   Responsive (Mobile)
-   =================================================== */
+/* ==============================
+   Responsive
+   ============================== */
 @media (max-width: 768px) {
-  .page-content,
-  .post-content,
-  .home,
-  .post {
-    padding: 1.2rem 1.4rem;
+  body {
+    font-size: 15.5px;
   }
 
-  h1 { font-size: 1.6rem; }
-  h2 { font-size: 1.35rem; }
+  .page-content,
+  .post-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .page-content h1,
+  .post-content h1 { font-size: 1.6rem; }
+
+  .page-content h2,
+  .post-content h2 { font-size: 1.35rem; }
+
+  .page-content h3,
+  .post-content h3 { font-size: 1.15rem; }
+
+  table {
+    font-size: 0.9em;
+  }
 }
 
-
-/* ===================================================
-   Print (Technical Document)
-   =================================================== */
+/* ==============================
+   Print (Engineering Document)
+   ============================== */
 @media print {
   body {
-    background: #ffffff;
-    color: #000000;
+    background: #fff;
+    color: #000;
   }
 
   a {
-    color: #000000;
+    color: #000;
+    text-decoration: underline;
   }
 
-  table {
-    border-color: #000;
-  }
-
-  th, td {
+  pre, code, blockquote {
+    background: #fff;
     border-color: #000;
   }
 }
