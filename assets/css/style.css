@@ -1,8 +1,9 @@
 /* ─────────────────────────────
    Samizo-AITL Minimal Engineering CSS
-   Semiconductor / Control / AITL
-   (minima SAFE)
+   Target: GitHub Pages (minima)
+   Domain: Semiconductor / Control / AITL
    ───────────────────────────── */
+
 
 /* ==============================
    Reset / Stability
@@ -16,6 +17,7 @@
 html {
   -webkit-text-size-adjust: 100%;
 }
+
 
 /* ==============================
    Base (TECHNICAL FONT / IEEE / Datasheet)
@@ -39,120 +41,109 @@ body {
   background: #f9fafb;
 }
 
+
 /* ==============================
    Layout / Content Width Control
-   ★ 本文だけに限定（最重要）
+   ★ minima 実DOM対応（最重要）
    ============================== */
-.page-content,
-.post-content {
-  max-width: 1100px;        /* 技術教材の最適幅 */
+/* 本文の実体は .wrapper .post */
+.wrapper .post {
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
 
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
+/* モバイル */
+@media (max-width: 768px) {
+  .wrapper .post {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+
 /* ==============================
-   Headings（本文のみ）
+   Headings (Engineering)
    ============================== */
-.page-content h1,
-.page-content h2,
-.page-content h3,
-.page-content h4,
-.page-content h5,
-.page-content h6,
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
+.wrapper .post h1,
+.wrapper .post h2,
+.wrapper .post h3,
+.wrapper .post h4,
+.wrapper .post h5,
+.wrapper .post h6 {
   margin: 1.6rem 0 0.8rem;
   line-height: 1.25;
   font-weight: 700;
   color: #003366;
 }
 
-.page-content h1,
-.post-content h1 { font-size: 1.8rem; }
+.wrapper .post h1 { font-size: 1.8rem; }
+.wrapper .post h2 { font-size: 1.5rem; }
+.wrapper .post h3 { font-size: 1.25rem; }
 
-.page-content h2,
-.post-content h2 { font-size: 1.5rem; }
-
-.page-content h3,
-.post-content h3 { font-size: 1.25rem; }
 
 /* ==============================
    Paragraph / Lists
    ============================== */
-.page-content p,
-.page-content ul,
-.page-content ol,
-.post-content p,
-.post-content ul,
-.post-content ol {
+.wrapper .post p,
+.wrapper .post ul,
+.wrapper .post ol {
   margin: 0.7rem 0 1rem;
 }
 
-.page-content ul,
-.page-content ol,
-.post-content ul,
-.post-content ol {
+.wrapper .post ul,
+.wrapper .post ol {
   padding-left: 1.25rem;
 }
 
+
 /* ==============================
-   Links（バッジを壊さない）
+   Links
    ============================== */
-.page-content a,
-.post-content a {
+.wrapper .post a {
   color: #2563eb;
   font-weight: 600;
   text-decoration: underline;
 }
 
-.page-content a:hover,
-.post-content a:hover {
+.wrapper .post a:hover {
   color: #1d4ed8;
 }
+
 
 /* ==============================
    Horizontal Rule
    ============================== */
-.page-content hr,
-.post-content hr {
+.wrapper .post hr {
   border: none;
   border-top: 1px solid #cbd5e1;
   margin: 2.2rem 0;
 }
 
+
 /* ==============================
    Media
    ============================== */
-.page-content img,
-.page-content video,
-.page-content canvas,
-.page-content svg,
-.post-content img,
-.post-content video,
-.post-content canvas,
-.post-content svg {
+.wrapper .post img,
+.wrapper .post video,
+.wrapper .post canvas,
+.wrapper .post svg {
   display: block;
   max-width: 100%;
   height: auto;
   margin: 1rem 0;
 }
 
+
 /* ==============================
    Code / Pre (EDA / Control)
    ============================== */
-.page-content code,
-.page-content kbd,
-.page-content samp,
-.post-content code,
-.post-content kbd,
-.post-content samp {
+.wrapper .post code,
+.wrapper .post kbd,
+.wrapper .post samp {
   font-family:
     ui-monospace,
     SFMono-Regular,
@@ -169,8 +160,7 @@ body {
   color: #0f172a;
 }
 
-.page-content pre,
-.post-content pre {
+.wrapper .post pre {
   background: #eef2f7;
   border: 1px solid #cbd5e1;
   padding: 0.9rem 1rem;
@@ -178,17 +168,16 @@ body {
   overflow: auto;
 }
 
-.page-content pre code,
-.post-content pre code {
+.wrapper .post pre code {
   background: transparent;
   padding: 0;
 }
 
+
 /* ==============================
-   Blockquote (spec / note)
+   Blockquote (Spec / Note)
    ============================== */
-.page-content blockquote,
-.post-content blockquote {
+.wrapper .post blockquote {
   margin: 1rem 0;
   padding: 0.6rem 1rem;
   color: #334155;
@@ -196,78 +185,53 @@ body {
   border-left: 4px solid #2563eb;
 }
 
+
 /* ==============================
    Tables (Datasheet Standard)
    ============================== */
-.page-content table,
-.post-content table {
+/* minima は table-wrapper に包むため両方対応 */
+.wrapper .post .table-wrapper {
+  margin: 1rem 0;
+}
+
+.wrapper .post table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1rem 0;
-  border: 1.5px solid #cbd5e1;
+  background: #ffffff;
+
+  border: 1.5px solid #9ca3af;   /* ← 必ず見える外枠 */
   font-size: 0.95em;
 }
 
-.page-content th,
-.page-content td,
-.post-content th,
-.post-content td {
-  border: 1px solid #cbd5e1;
+.wrapper .post th,
+.wrapper .post td {
+  border: 1px solid #9ca3af;     /* ← 内枠 */
   padding: 0.4rem 0.6rem;
   vertical-align: middle;
 }
 
-.page-content th,
-.post-content th {
+.wrapper .post th {
   background: #e5e7eb;
   font-weight: 700;
   text-align: left;
   white-space: nowrap;
 }
 
-.page-content td,
-.post-content td {
+.wrapper .post td {
   background: #ffffff;
 }
+
 
 /* ==============================
    Mermaid
    ============================== */
-.page-content .mermaid,
-.post-content .mermaid {
+.wrapper .post .mermaid {
   display: block;
   margin: 1.25rem auto;
   max-width: 100%;
   text-align: center;
 }
 
-/* ==============================
-   Responsive
-   ============================== */
-@media (max-width: 768px) {
-  body {
-    font-size: 15.5px;
-  }
-
-  .page-content,
-  .post-content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .page-content h1,
-  .post-content h1 { font-size: 1.6rem; }
-
-  .page-content h2,
-  .post-content h2 { font-size: 1.35rem; }
-
-  .page-content h3,
-  .post-content h3 { font-size: 1.15rem; }
-
-  table {
-    font-size: 0.9em;
-  }
-}
 
 /* ==============================
    Print (Engineering Document)
@@ -278,54 +242,19 @@ body {
     color: #000;
   }
 
-  a {
-    color: #000;
-    text-decoration: underline;
+  .wrapper .post table {
+    border-color: #000;
   }
 
-  pre, code, blockquote {
+  .wrapper .post th,
+  .wrapper .post td {
+    border-color: #000;
+  }
+
+  .wrapper .post pre,
+  .wrapper .post code,
+  .wrapper .post blockquote {
     background: #fff;
     border-color: #000;
   }
 }
-
-/* =========================================
-   minima FORCE FIX (Content only)
-   ========================================= */
-
-/* 左右余白を必ず作る */
-.wrapper > .page-content {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-/* モバイル */
-@media (max-width: 768px) {
-  .wrapper > .page-content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-/* 表の線を必ず出す（minima打ち消し） */
-.wrapper > .page-content table {
-  border-collapse: collapse !important;
-  border: 1.5px solid #cbd5e1 !important;
-}
-
-.wrapper > .page-content th,
-.wrapper > .page-content td {
-  border: 1px solid #cbd5e1 !important;
-  padding: 0.4rem 0.6rem;
-}
-
-/* ヘッダ背景が白で溶けるのを防止（視認性） */
-.wrapper > .page-content th {
-  background: #e5e7eb;
-  font-weight: 700;
-}
-
