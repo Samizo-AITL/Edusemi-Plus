@@ -288,3 +288,44 @@ body {
     border-color: #000;
   }
 }
+
+/* =========================================
+   minima FORCE FIX (Content only)
+   ========================================= */
+
+/* 左右余白を必ず作る */
+.wrapper > .page-content {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+/* モバイル */
+@media (max-width: 768px) {
+  .wrapper > .page-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* 表の線を必ず出す（minima打ち消し） */
+.wrapper > .page-content table {
+  border-collapse: collapse !important;
+  border: 1.5px solid #cbd5e1 !important;
+}
+
+.wrapper > .page-content th,
+.wrapper > .page-content td {
+  border: 1px solid #cbd5e1 !important;
+  padding: 0.4rem 0.6rem;
+}
+
+/* ヘッダ背景が白で溶けるのを防止（視認性） */
+.wrapper > .page-content th {
+  background: #e5e7eb;
+  font-weight: 700;
+}
+
