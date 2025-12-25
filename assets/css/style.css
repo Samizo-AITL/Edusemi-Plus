@@ -1,13 +1,8 @@
-/* ─────────────────────────────
-   Samizo-AITL Minimal Engineering CSS
-   Target: GitHub Pages (minima)
-   Domain: Semiconductor / Control / AITL
-   ───────────────────────────── */
+/* ==================================================
+   Samizo-AITL Engineering style.css (minima FINAL)
+   ================================================== */
 
-
-/* ==============================
-   Reset / Stability
-   ============================== */
+/* ---------- Reset ---------- */
 *,
 *::before,
 *::after {
@@ -18,13 +13,9 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-
-/* ==============================
-   Base (TECHNICAL FONT / IEEE / Datasheet)
-   ============================== */
+/* ---------- Base ---------- */
 body {
   margin: 0;
-
   font-family:
     system-ui,
     -apple-system,
@@ -34,29 +25,26 @@ body {
     "Yu Gothic UI",
     "Yu Gothic",
     sans-serif;
-
   font-size: 16px;
   line-height: 1.7;
   color: #1f2933;
   background: #f9fafb;
 }
 
-
-/* ==============================
-   Layout / Content Width Control
-   ★ minima 実DOM対応（最重要）
-   ============================== */
-/* 本文の実体は .wrapper .post */
+/* ==================================================
+   LAYOUT : 本文の実体は .wrapper .post
+   ================================================== */
 .wrapper .post {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
 
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
+  /* ← 左右余白はここ */
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-/* モバイル */
+/* Mobile */
 @media (max-width: 768px) {
   .wrapper .post {
     padding-left: 1rem;
@@ -64,16 +52,13 @@ body {
   }
 }
 
-
-/* ==============================
-   Headings (Engineering)
-   ============================== */
+/* ==================================================
+   Headings
+   ================================================== */
 .wrapper .post h1,
 .wrapper .post h2,
 .wrapper .post h3,
-.wrapper .post h4,
-.wrapper .post h5,
-.wrapper .post h6 {
+.wrapper .post h4 {
   margin: 1.6rem 0 0.8rem;
   line-height: 1.25;
   font-weight: 700;
@@ -84,10 +69,9 @@ body {
 .wrapper .post h2 { font-size: 1.5rem; }
 .wrapper .post h3 { font-size: 1.25rem; }
 
-
-/* ==============================
+/* ==================================================
    Paragraph / Lists
-   ============================== */
+   ================================================== */
 .wrapper .post p,
 .wrapper .post ul,
 .wrapper .post ol {
@@ -99,65 +83,33 @@ body {
   padding-left: 1.25rem;
 }
 
-
-/* ==============================
+/* ==================================================
    Links
-   ============================== */
+   ================================================== */
 .wrapper .post a {
   color: #2563eb;
   font-weight: 600;
   text-decoration: underline;
 }
 
-.wrapper .post a:hover {
-  color: #1d4ed8;
-}
-
-
-/* ==============================
-   Horizontal Rule
-   ============================== */
+/* ==================================================
+   HR
+   ================================================== */
 .wrapper .post hr {
   border: none;
   border-top: 1px solid #cbd5e1;
   margin: 2.2rem 0;
 }
 
-
-/* ==============================
-   Media
-   ============================== */
-.wrapper .post img,
-.wrapper .post video,
-.wrapper .post canvas,
-.wrapper .post svg {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 1rem 0;
-}
-
-
-/* ==============================
-   Code / Pre (EDA / Control)
-   ============================== */
-.wrapper .post code,
-.wrapper .post kbd,
-.wrapper .post samp {
-  font-family:
-    ui-monospace,
-    SFMono-Regular,
-    Menlo,
-    Consolas,
-    "Liberation Mono",
-    "Courier New",
-    monospace;
-
+/* ==================================================
+   Code / Pre
+   ================================================== */
+.wrapper .post code {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
   font-size: 0.95em;
   background: #eef2f7;
   padding: 0.15em 0.35em;
   border-radius: 4px;
-  color: #0f172a;
 }
 
 .wrapper .post pre {
@@ -168,44 +120,21 @@ body {
   overflow: auto;
 }
 
-.wrapper .post pre code {
-  background: transparent;
-  padding: 0;
-}
-
-
-/* ==============================
-   Blockquote (Spec / Note)
-   ============================== */
-.wrapper .post blockquote {
-  margin: 1rem 0;
-  padding: 0.6rem 1rem;
-  color: #334155;
-  background: #f1f5f9;
-  border-left: 4px solid #2563eb;
-}
-
-
-/* ==============================
-   Tables (Datasheet Standard)
-   ============================== */
-/* minima は table-wrapper に包むため両方対応 */
-.wrapper .post .table-wrapper {
-  margin: 1rem 0;
-}
-
+/* ==================================================
+   TABLES : ここが最重要
+   ================================================== */
 .wrapper .post table {
   width: 100%;
   border-collapse: collapse;
   background: #ffffff;
 
-  border: 1.5px solid #9ca3af;   /* ← 必ず見える外枠 */
-  font-size: 0.95em;
+  /* ← minimaに勝つ */
+  border: 1.5px solid #9ca3af;
 }
 
 .wrapper .post th,
 .wrapper .post td {
-  border: 1px solid #9ca3af;     /* ← 内枠 */
+  border: 1px solid #9ca3af;
   padding: 0.4rem 0.6rem;
   vertical-align: middle;
 }
@@ -213,48 +142,15 @@ body {
 .wrapper .post th {
   background: #e5e7eb;
   font-weight: 700;
-  text-align: left;
   white-space: nowrap;
 }
 
-.wrapper .post td {
-  background: #ffffff;
-}
-
-
-/* ==============================
-   Mermaid
-   ============================== */
-.wrapper .post .mermaid {
-  display: block;
-  margin: 1.25rem auto;
+/* ==================================================
+   Media
+   ================================================== */
+.wrapper .post img,
+.wrapper .post svg {
   max-width: 100%;
-  text-align: center;
-}
-
-
-/* ==============================
-   Print (Engineering Document)
-   ============================== */
-@media print {
-  body {
-    background: #fff;
-    color: #000;
-  }
-
-  .wrapper .post table {
-    border-color: #000;
-  }
-
-  .wrapper .post th,
-  .wrapper .post td {
-    border-color: #000;
-  }
-
-  .wrapper .post pre,
-  .wrapper .post code,
-  .wrapper .post blockquote {
-    background: #fff;
-    border-color: #000;
-  }
+  height: auto;
+  margin: 1rem 0;
 }
