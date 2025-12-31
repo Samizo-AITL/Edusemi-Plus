@@ -45,7 +45,6 @@ designed to extend core semiconductor knowledge through **product architecture**
 | 📱 **Apple Silicon** | Evolution & strategy of A-Series SoCs | [apple-silicon](../apple-silicon/) |
 | 🌐 **Geopolitics** | Export controls & competition | [geopolitics](../geopolitics/) |
 | 💹 **Investment** | Equity & CapEx planning | [investment](../investment/) |
-| 🗂️ **Archive** | Ramp-up stories & industrial history | [archive](../archive/) |
 
 ---
 
