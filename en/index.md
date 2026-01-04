@@ -73,7 +73,7 @@ designed to extend core semiconductor knowledge through **product architecture**
 
 | **Project** | **Summary** |
 |---|---|
-| **Edusemi-v4x**<br>[![🌐 View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/) [![💻 View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) | **Foundational semiconductors**: design, physics, PDK, test |
+| **Edusemi-v4x**<br>[![🌐 View Site](https://img.shields.io/badge/View-Site-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-v4x/en/) [![💻 View Repo](https://img.shields.io/badge/View-Repo-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-v4x) | **Foundational semiconductors**: design, physics, PDK, test |
 
 ---
 
