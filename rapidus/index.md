@@ -64,6 +64,8 @@ at a temporary cleanroom facility in Chitose, Hokkaido.
 | **2022** | IBMとRapidusが技術提携を締結<br>IBM and Rapidus sign technology partnership |
 | **2023〜2024** | 千歳にてプロセス移転・パイロットライン構築<br>Process transfer and pilot line setup in Chitose |
 | **2025年7月** | 国内製造2nmチップの動作確認に成功（ファーストシリコン）<br>First silicon of domestically produced 2nm chip successfully verified |
+| **2025年12月** | AI設計支援基盤「Raads」を発表、2nm向け設計環境の整備方針を明確化<br>Announcement of AI-based design support platform “Raads” for 2nm enablement |
+| **2026年（予定）** | 2nm向けPDK公開、EDAベンダー（Siemens等）と連携した設計フロー提供開始<br>Release of 2nm PDK and launch of EDA-integrated design flow |
 
 ---
 
