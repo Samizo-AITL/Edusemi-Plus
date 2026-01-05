@@ -82,6 +82,29 @@ at a temporary cleanroom facility in Chitose, Hokkaido.
 
 ---
 
+## 🧩 設計環境 / Design Enablement
+
+**🇯🇵 JP:**  
+Rapidusは 2nm ファーストシリコン達成後、  
+**設計環境（Design Enablement）の整備を次フェーズ** に位置づけています。  
+先端ノードでは、**PDK・EDA・設計支援基盤が揃わなければ事業は成立しません**。
+
+- **2025年12月**：AI設計支援基盤 **「Raads」** を発表  
+- **2026年（予定）**：2nm GAAFET 向け **PDK公開**、EDA連携設計フロー提供開始  
+- Siemens EDA 等と連携し、**設計–製造一体型フロー** を構築中  
+
+これは Rapidus が  
+**「技術実証」→「顧客設計フェーズ」**  
+へ移行しつつあることを示します。
+
+**🇺🇸 EN:**  
+Following first silicon, Rapidus has shifted focus to **design enablement**,  
+including AI-assisted design (Raads), high-precision 2nm PDKs, and
+EDA-integrated reference flows—marking the transition toward
+**customer-driven design activity**.
+
+---
+
 ## 🎓 教材としての意義 / Educational Value
 **🇯🇵 JP:**  
 - ✅ **FinFETとGAAFETの構造比較**（Edusemi 特別編と連動）  
