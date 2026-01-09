@@ -5,7 +5,7 @@ title: Edusemi-Plus｜Applied Learning Series Extending Core Semiconductor Knowl
 
 # ➕ **Edusemi-Plus｜Applied Learning Series Extending Core Semiconductor Knowledge**
 
-[![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io/en/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
+[![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io/en/) [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/#-ライセンス--license)
 
 ---
 
@@ -89,11 +89,16 @@ designed to extend core semiconductor knowledge through **product architecture**
 ---
 
 ## 📄 **License**
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/#-ライセンス--license)
+> Adopts a hybrid licensing model according to the nature of the materials, code, and diagrams.  
+> *Hybrid licensing based on the nature of the materials, code, and diagrams.*
 
-Licensed under **[MIT License](https://opensource.org/licenses/MIT)**.  
-Free to **reuse, modify, and fork** for educational or non-profit purposes.
-
-> Opinions are those of the author.
+| 📌 Item | License | Description |
+|------|------|------|
+| **Code** | [**MIT License**](https://opensource.org/licenses/MIT) | Free to use, modify, and redistribute |
+| **Text materials** | [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/) or [**CC BY-SA 4.0**](https://creativecommons.org/licenses/by-sa/4.0/) | Attribution required, share-alike for BY-SA |
+| **Figures & diagrams** | [**CC BY-NC 4.0**](https://creativecommons.org/licenses/by-nc/4.0/) | Non-commercial use only |
+| **External references** | Follow the original license | Cite the original source |
 
 ---
 
