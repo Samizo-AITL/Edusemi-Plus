@@ -54,14 +54,3 @@ Recommended order:
 
 This mirrors the **actual problem-solving flow**
 in a manufacturing environment.
-
----
-
-## Related Archive
-
-- 1998 DRAM startup case  
-  → `../in1998/DRAM_Startup_64M_1998.md`
-
-- 2001 VSRAM evolution  
-  → `../vsram_2001/`
-
