@@ -28,9 +28,9 @@ for a **0.25µm-generation 64M DRAM**, covering both **cell** and **peripheral**
 ## High-Level Flow Overview
 
 1. Isolation & well formation  
-2. Gate stack and word-line (WSA) formation  
+2. Gate stack and word-line formation  
 3. LDD / spacer / deep S/D formation  
-4. Bit-line formation (WSB)  
+4. Bit-line formation  
 5. Capacitor formation (stacked, ONO dielectric)  
 6. Interlayer dielectric & contacts  
 7. Metal interconnects and passivation  
@@ -55,7 +55,7 @@ Early surface condition strongly affected later **junction leakage**.
 ## 2. Gate Stack & Word Line (WSA)
 
 - Thin gate oxide (~80 Å class)
-- Poly-Si + WSi (WSA) word-line stack
+- Poly-Si + WSi word-line stack
 - KrF lithography at critical CD
 
 **Key sensitivity:**  
