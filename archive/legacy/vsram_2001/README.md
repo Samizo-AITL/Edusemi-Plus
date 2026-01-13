@@ -58,13 +58,3 @@ VSRAM is a **boundary case**:
 It directly informed later decisions
 to **terminate DRAM-derived memory paths**
 and redirect resources to mixed-signal and HV-CMOS products.
-
----
-
-## Related Archive
-
-- DRAM 0.25µm base technology  
-  → `../dram_025um/`
-
-- 2001 production record  
-  → `../in2001/VSRAM_2001.md`
