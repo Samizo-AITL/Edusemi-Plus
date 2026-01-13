@@ -12,6 +12,21 @@ in modern semiconductor, system, and AI-integrated designs.
 
 ---
 
+## 🔐 Note on Confidentiality
+
+> **All materials in this archive are based on semiconductor technologies  
+> developed more than 20 years ago (late 1990s–early 2000s).**
+>
+> This archive **does not contain** proprietary process recipes,  
+> confidential design rules, equipment tuning parameters,  
+> or operational know-how applicable to current semiconductor manufacturing.
+>
+> The purpose of this archive is to preserve  
+> **structural patterns of failure, recovery, and decision-making**,  
+> not implementation-level secrets.
+
+---
+
 ## Scope of This Archive
 
 - **Semiconductor process integration** (1990s–2000s)
@@ -40,25 +55,25 @@ not post-hoc explanation.
 
 ### 📁 DRAM (0.25µm, 64M) — 3rd Generation
 - **Case overview**  
-  → [`legacy/dram_025um/`](./dram_025um/)
+  → [`dram_025um/`](./dram_025um/)
 - **Process integration**  
-  → [`legacy/dram_025um/process_flow.md`](./dram_025um/process_flow.md)
+  → [`dram_025um/process_flow.md`](./dram_025um/process_flow.md)
 - **Wafer test & bin classification**  
-  → [`legacy/dram_025um/wafer_test_bin.md`](./dram_025um/wafer_test_bin.md)
+  → [`dram_025um/wafer_test_bin.md`](./dram_025um/wafer_test_bin.md)
 - **Failure physics (Pause / Disturb)**  
-  → [`legacy/dram_025um/pause_disturb.md`](./dram_025um/pause_disturb.md)
+  → [`dram_025um/pause_disturb.md`](./dram_025um/pause_disturb.md)
 
 ---
 
 ### 📁 VSRAM (Pseudo-SRAM, 2001) — Mobile Memory
 - **Case overview**  
-  → [`legacy/vsram_2001/`](./vsram_2001/)
+  → [`vsram_2001/`](./vsram_2001/)
 - **Architecture & concept**  
-  → [`legacy/vsram_2001/vsram_architecture.md`](./vsram_2001/vsram_architecture.md)
+  → [`vsram_2001/vsram_architecture.md`](./vsram_2001/vsram_architecture.md)
 - **Pause / Disturb under mobile usage**  
-  → [`legacy/vsram_2001/pause_disturb_vsram.md`](./vsram_2001/pause_disturb_vsram.md)
+  → [`vsram_2001/pause_disturb_vsram.md`](./vsram_2001/pause_disturb_vsram.md)
 - **Yield recovery & countermeasures**  
-  → [`legacy/vsram_2001/yield_recovery.md`](./vsram_2001/yield_recovery.md)
+  → [`vsram_2001/yield_recovery.md`](./vsram_2001/yield_recovery.md)
 
 ---
 
