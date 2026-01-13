@@ -1,8 +1,3 @@
----
-title: "VSRAM (Pseudo-SRAM) 2001 — Mobile Memory Case"
-layout: default
----
-
 # VSRAM (Pseudo-SRAM) — 2001 Mobile Memory Case
 
 This directory documents the **VSRAM (Pseudo-SRAM)** developed and mass-produced in **2001**
@@ -11,6 +6,21 @@ using a **0.25µm DRAM-derived process** for mobile applications.
 This case represents a **transition point** where
 standard DRAM technology was pushed beyond its original operating envelope
 to meet **low-power, high-temperature (90 °C)** mobile requirements.
+
+---
+
+## 🔐 Note on Confidentiality
+
+> **All materials in this case are based on semiconductor technologies  
+> developed more than 20 years ago.**
+>
+> This documentation does **not** include proprietary process recipes,
+> confidential design rules, equipment tuning parameters,
+> or operational know-how applicable to modern semiconductor manufacturing.
+>
+> The purpose of this case study is to preserve  
+> **structural patterns of failure, recovery, and engineering decision-making**,  
+> not implementation-level secrets.
 
 ---
 
