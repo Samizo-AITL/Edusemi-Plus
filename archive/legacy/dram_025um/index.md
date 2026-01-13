@@ -1,5 +1,5 @@
 ---
-title: "VSRAM (Pseudo-SRAM) 2001 — Mobile Memory Case"
+title: "0.25µm 64M DRAM (3rd Generation) — Legacy Case"
 layout: default
 ---
 
@@ -15,6 +15,21 @@ and yield recovery were tightly coupled.
 It represents one of the final DRAM generations
 before deep-submicron scaling fundamentally changed
 failure mechanisms and business structures.
+
+---
+
+## 🔐 Note on Confidentiality
+
+> **All materials in this case are based on semiconductor technologies  
+> developed more than 20 years ago.**
+>
+> This documentation does **not** include proprietary process recipes,
+> confidential design rules, equipment tuning parameters,
+> or operational know-how applicable to modern manufacturing.
+>
+> The intent is to preserve **structural patterns of failure,
+> recovery, and engineering decision-making**,  
+> not implementation-level secrets.
 
 ---
 
@@ -40,7 +55,7 @@ under different names and scales.
 
 - **Wafer Test & Bin Classification**
   - [`wafer_test_bin.md`](./wafer_test_bin.md)  
-    → Fail-stop binning, Pause / Disturb definition
+    → Fail-stop binning, Pause / Disturb definitions
 
 - **Failure Physics**
   - [`pause_disturb.md`](./pause_disturb.md)  
@@ -52,10 +67,10 @@ under different names and scales.
 
 Recommended order:
 
-1. Process flow (what was built)
-2. Wafer test bins (how failures appeared)
-3. Failure physics (why it failed)
-4. Yield recovery or strategic decision
+1. **Process flow** — what was built  
+2. **Wafer test bins** — how failures appeared  
+3. **Failure physics** — why it failed  
+4. **Yield recovery or strategic decision** — what was changed or concluded
 
 This mirrors the **actual problem-solving flow**
 in a manufacturing environment.
