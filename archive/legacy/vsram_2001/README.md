@@ -1,8 +1,3 @@
----
-title: "VSRAM (Pseudo-SRAM) 2001 — Mobile Memory Case"
-layout: default
----
-
 # VSRAM (Pseudo-SRAM) — 2001 Mobile Memory Case
 
 This directory documents the **VSRAM (Pseudo-SRAM)** developed and mass-produced in **2001**
