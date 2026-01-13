@@ -1,3 +1,8 @@
+---
+title: "VSRAM (Pseudo-SRAM) 2001 — Mobile Memory Case"
+layout: default
+---
+
 # 0.25µm 64M DRAM (3rd Generation)
 
 This directory documents a **0.25µm-generation 64M DRAM**
