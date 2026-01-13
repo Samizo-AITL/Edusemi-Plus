@@ -52,8 +52,6 @@ not post-hoc explanation.
   → [`legacy/dram_025um/wafer_test_bin.md`](./dram_025um/wafer_test_bin.md)
 - **Failure physics (Pause / Disturb)**  
   → [`legacy/dram_025um/pause_disturb.md`](./dram_025um/pause_disturb.md)
-- **Production record (1998)**  
-  → [`archive/in1998/DRAM_Startup_64M_1998.md`](../in1998/DRAM_Startup_64M_1998.md)
 
 ---
 
@@ -66,8 +64,6 @@ not post-hoc explanation.
   → [`legacy/vsram_2001/pause_disturb_vsram.md`](./vsram_2001/pause_disturb_vsram.md)
 - **Yield recovery & countermeasures**  
   → [`legacy/vsram_2001/yield_recovery.md`](./vsram_2001/yield_recovery.md)
-- **Production record (2001)**  
-  → [`archive/in2001/VSRAM_2001.md`](../in2001/VSRAM_2001.md)
 
 ---
 
