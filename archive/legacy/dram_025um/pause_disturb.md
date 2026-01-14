@@ -65,6 +65,41 @@ Retention loss caused by repeated activation of neighboring rows.
 
 ---
 
+## Disturb Refresh Failure
+
+### Definition
+Retention loss caused by repeated activation of neighboring rows.
+
+### Dominant Mechanism
+- Short-channel effects
+- Subthreshold leakage (Ioff)
+- Word-line coupling
+
+### Key Contributors
+- CD shrink variability
+- Back-bias sensitivity
+- Elevated temperature operation
+
+---
+
+## Device Structure Reference (Disturb)
+
+<p align="center">
+  <img
+    src="https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/figs/disturb.png"
+    width="45%">
+</p>
+
+<p align="center">
+  <em>
+    Fig. Physical origin of Disturb refresh failures
+    caused by adjacent word-line activation
+    in 0.25µm-generation DRAM
+  </em>
+</p>
+
+---
+
 ## Structural Comparison
 
 | Aspect | Pause | Disturb |
