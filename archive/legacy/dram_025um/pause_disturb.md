@@ -31,6 +31,21 @@ Loss of stored charge when refresh is suspended.
 
 ---
 
+## Device Structure Reference
+
+<p align="center">
+  <img src="{{ '/archive/legacy/figs/pause_lakage.png' | relative_url }}" width="80%">
+</p>
+
+<p align="center">
+  <em>
+    Fig. Physical origin of Pause refresh failures
+    in 0.25µm-generation DRAM
+  </em>
+</p>
+
+---
+
 ## Disturb Refresh Failure
 
 ### Definition
