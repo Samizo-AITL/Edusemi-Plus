@@ -36,7 +36,7 @@ Loss of stored charge when refresh is suspended.
 <p align="center">
   <img
     src="https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/figs/pause_lakage.png"
-    width="50%">
+    width="30%">
 </p>
 
 <p align="center">
