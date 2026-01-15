@@ -31,7 +31,7 @@ Loss of stored charge when refresh is suspended.
 
 ---
 
-## Device Structure Reference
+## Device Structure Reference (Pause Refresh)
 
 <p align="center">
   <img
@@ -65,24 +65,7 @@ Retention loss caused by repeated activation of neighboring rows.
 
 ---
 
-## Disturb Refresh Failure
-
-### Definition
-Retention loss caused by repeated activation of neighboring rows.
-
-### Dominant Mechanism
-- Short-channel effects
-- Subthreshold leakage (Ioff)
-- Word-line coupling
-
-### Key Contributors
-- CD shrink variability
-- Back-bias sensitivity
-- Elevated temperature operation
-
----
-
-## Device Structure Reference (Disturb)
+## Device Structure Reference (Disturb Refresh)
 
 <p align="center">
   <img
