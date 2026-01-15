@@ -21,7 +21,7 @@ Pause refresh failure was first identified through
 <p align="center">
   <img
     src="https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/figs/pause_faulbitmap.png"
-    width="45%">
+    width="30%">
 </p>
 
 <p align="center">
