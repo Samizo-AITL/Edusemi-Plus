@@ -61,7 +61,7 @@ not post-hoc explanation.
 - **Wafer test & bin classification**  
   → [`dram_025um/wafer_test_bin.md`](./dram_025um/wafer_test_bin.md)
 - **Failure physics (Pause / Disturb)**  
-  → [`dram_025um/pause_disturb.md`](./dram_025um/pause_disturb.md)
+  → [`dram_025um/pause.md`](./dram_025um/pause.md)
 
 ---
 
