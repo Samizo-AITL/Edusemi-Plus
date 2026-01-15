@@ -58,7 +58,7 @@ under different names and scales.
     → Fail-stop binning, Pause / Disturb definitions
 
 - **Failure Physics**
-  - [`pause_disturb.md`](./pause.md)  
+  - [`pause.md`](./pause.md)  
     → Retention and leakage mechanisms
 
 ---
