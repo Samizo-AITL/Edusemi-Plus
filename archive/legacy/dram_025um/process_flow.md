@@ -52,7 +52,7 @@ Early surface condition strongly affected later **junction leakage**.
 
 ---
 
-## 2. Gate Stack & Word Line (WSA)
+## 2. Gate Stack & Word Line 
 
 - Thin gate oxide (~80 Å class)
 - Poly-Si + WSi word-line stack
@@ -76,7 +76,7 @@ Excessive plasma or HF cleaning amplified **junction leakage**.
 
 ---
 
-## 4. Bit Line Formation (WSB)
+## 4. Bit Line Formation 
 
 - Simultaneous bit-line and contact formation
 - WSi-based low-resistance interconnect
