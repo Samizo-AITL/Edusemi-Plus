@@ -54,7 +54,7 @@ In VSRAM, disturb stress accumulated during **normal operation**:
 <p align="center">
   <img
     src="https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/figs/disturb.png"
-    width="60%">
+    width="50%">
 </p>
 
 <p align="center">
