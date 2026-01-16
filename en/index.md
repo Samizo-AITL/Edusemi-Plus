@@ -5,8 +5,6 @@ title: Edusemi-Plus｜Applied Learning Series Extending Core Semiconductor Knowl
 
 # ➕ **Edusemi-Plus｜Applied Learning Series Extending Core Semiconductor Knowledge**
 
-[![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io/en/) [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/#-ライセンス--license)
-
 ---
 
 ## 🔗 Official Links
