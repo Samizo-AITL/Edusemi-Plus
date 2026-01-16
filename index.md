@@ -6,8 +6,6 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 # ➕ **Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリーズ**  
 *Edusemi-Plus: An applied extension of Edusemi-v4x for understanding semiconductor technologies*
 
-[![Samizo-AITLポータルサイトに戻る](https://img.shields.io/badge/Samizo--AITL%20ポータルサイトに戻る-brightgreen)](https://samizo-aitl.github.io/) [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/#-ライセンス--license)
-
 ---
 
 ## 🔗 公式リンク | Official Links
