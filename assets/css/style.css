@@ -280,3 +280,10 @@ td {
     border-color: #000;
   }
 }
+
+/* ===== minima 強制上書き（決定版） ===== */
+.wrapper {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
