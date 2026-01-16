@@ -3,7 +3,7 @@ layout: default
 title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリーズ
 ---
 
-# ➕ **Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリーズ**  
+# ➕ Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリーズ 
 *Edusemi-Plus: An applied extension of Edusemi-v4x for understanding semiconductor technologies*
 
 ---
@@ -29,7 +29,7 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 
 ---
 
-## 🌟 **特集コンテンツ / Featured Contents**
+## 🌟 特集コンテンツ / Featured Contents
 
 | 特集 | 概要 | Link |
 |---|---|---|
@@ -39,7 +39,7 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 
 ---
 
-## 📚 **コンテンツカテゴリ / Content Categories**
+## 📚 コンテンツカテゴリ / Content Categories
 
 | **カテゴリ / Category** | **概要（JP）** | **Summary (EN)** | **Link** |
 |---|---|---|---|
@@ -55,7 +55,7 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 
 ---
 
-## 🔗 **関連構造カテゴリ / Industry Structure Map**
+## 🔗 関連構造カテゴリ / Industry Structure Map
 
 | **カテゴリ / Category** | **JP（概要）** | **EN (Summary)** | **Link** |
 |---|---|---|---|
@@ -71,7 +71,7 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 
 ---
 
-## 🔗 **関連教材・プロジェクト / Related Projects**
+## 🔗 関連教材・プロジェクト / Related Projects
 
 | **Project** | **JP（概要）** | **EN (Summary)** |
 |---|---|---|
@@ -79,7 +79,7 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 
 ---
 
-## 👤 **執筆者情報 | Author**
+## 👤 執筆者情報 | Author
 > 本教材の企画・執筆者。半導体・インクジェット分野での実務経験を持ち、教育と実装を融合した教材開発を行う。  
 > *Author with professional background in semiconductors and inkjet actuators, creating materials integrating theory and practice.*
 
@@ -91,7 +91,7 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 
 ---
 
-## 📄 **ライセンス | License**
+## 📄 ライセンス | License
 [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/#-ライセンス--license)
 > 教材・コード・図表の性質に応じたハイブリッドライセンスを採用。  
 > *Hybrid licensing based on the nature of the materials, code, and diagrams.*
@@ -105,7 +105,7 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 
 ---
 
-## 💬 **フィードバック | Feedback**
+## 💬 フィードバック | Feedback
 > 改善提案や議論はGitHub Discussionsからお願いします。  
 > *Propose improvements or start discussions via GitHub Discussions.*
 
