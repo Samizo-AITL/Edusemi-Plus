@@ -32,6 +32,14 @@ in modern semiconductor, system, and AI-integrated designs.
 
 ---
 
+## Introduction
+
+This archive is introduced and positioned in detail here:
+
+→ **[Introduction — Legacy Technology](./introduction.md)**
+
+---
+
 ## Scope of This Archive
 
 - **Semiconductor process integration** (1990s–2000s)
