@@ -112,7 +112,7 @@ only the scale, names, and integration context change.
 
 ## License
 
-[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/#---license)
+[![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus//#---license)
 
 | 📌 Item | License | Description |
 |--------|---------|-------------|
