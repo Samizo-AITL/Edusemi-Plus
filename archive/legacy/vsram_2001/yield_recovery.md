@@ -12,12 +12,17 @@ to address the emerging mobile phone market, which demanded
 **low power consumption, long refresh intervals, and guaranteed
 high-temperature operation up to 90 °C**.
 
-To secure early market entry—most notably for the world's first
+To secure early market entry—most notably for the world’s first
 camera-equipped mobile phones—mass production was initiated
 despite an **extremely low initial yield of approximately 30%**.
 Yield recovery therefore had to be executed **in parallel with
-volume production**, under severe schedule and business pressure
-:contentReference[oaicite:1]{index=1}.
+volume production**, under severe schedule and business pressure.
+
+This development took place in a context where the company’s
+strategic focus was already shifting toward **LCD driver ICs
+and high-voltage mixed CMOS**, placing strict limits on the level
+of investment and manpower that could be allocated to
+continued mobile memory development.
 
 ---
 
@@ -25,29 +30,31 @@ volume production**, under severe schedule and business pressure
 
 - No major process redesign allowed (DRAM base process fixed)
 - Extremely short recovery timeline
-- Mobile market timing prioritized over yield maturity
-- 90 °C operation requirement (beyond standard DRAM spec)
+- Market entry prioritized over yield maturity
+- Guaranteed 90 °C operation required for mobile use
+- Limited long-term investment capacity for memory-specific process evolution
 
 ---
 
 ## Dominant Failure Modes
 
 Two DRAM-derived failure modes became critical under mobile
-conditions:
+operating conditions:
 
 ### Pause Refresh Fail
+
 - Retention failure during long refresh pauses
 - Strong temperature dependence
 - Root cause: **junction leakage increase (Ijunc)**
 
 ### Disturb Refresh Fail
-- Bit flipping induced by adjacent word-line activity
-- Strong correlation with **short-channel effects (SCE)** and Ioff
-- Aggravated at high temperature and long refresh cycles
 
-Both failure modes, previously marginal in standard DRAM,
-were amplified by **high-temperature mobile operation**
-:contentReference[oaicite:2]{index=2}.
+- Bit flipping induced by adjacent word-line activity
+- Strong correlation with **short-channel effects (SCE)** and transistor Ioff
+- Significantly aggravated at high temperature and long refresh cycles
+
+Both failure modes, previously marginal in conventional DRAM
+applications, were amplified by **high-temperature mobile operation**.
 
 ---
 
@@ -55,30 +62,31 @@ were amplified by **high-temperature mobile operation**
 
 ### Pause Failure Mechanism
 
-Cell retention time follows:
+Cell retention time is governed by:
 
 $$
 \tau = \frac{C_{cell} V_{cell}}{I_{leak}}
 $$
 
-- Ccell and Vcell met design targets
-- Storage capacitor integrity confirmed
-- Dominant degradation factor: **junction leakage (Ileak)**
+- Cell capacitance (Ccell) and operating voltage (Vcell) met design targets
+- Storage capacitor integrity was confirmed
+- Dominant degradation factor was **junction leakage current (Ileak)**
 
-Leakage increased exponentially with temperature, pointing to
-**plasma-induced junction damage** accumulated during DRAM
-processing steps.
+Experimental evaluation showed that leakage increased
+exponentially with temperature, indicating **process-induced
+junction damage**, strongly linked to accumulated plasma exposure
+in the DRAM process flow.
 
 ---
 
 ### Disturb Failure Mechanism
 
-- Failures aligned along specific word-line directions
-- Shorter channel devices showed higher Ioff
-- High-temperature operation worsened SCE behavior
+- Failures appeared systematically along specific word-line directions
+- Devices with shorter effective channel length exhibited higher Ioff
+- Elevated temperature further worsened short-channel behavior
 
-This identified **critical transistor CD control** as essential
-for disturb suppression.
+This identified **critical transistor CD control** as a necessary
+condition for suppressing disturb-related failures.
 
 ---
 
@@ -89,30 +97,33 @@ for disturb suppression.
 - **Elimination of plasma exposure**
   - Replaced repeated O₂ plasma ashing with sulfuric wet stripping
 - **HF clean count minimization**
-  - Preserved gate oxide remnants after gate etch
-  - Suppressed junction leakage paths at SN contacts
+  - Preserved residual gate oxide after gate etch
+  - Suppressed leakage paths at storage-node contacts
+
+These measures directly targeted the physical origin of
+junction leakage rather than masking its symptoms.
 
 ---
 
 ### Device-Side Measures
 
 - **Back-bias strengthening**
-  - Vbs increased from −1 V to −3 V
-  - Reduced junction leakage and raised effective Vth
+  - Substrate bias increased from −1 V to −3 V
+  - Junction leakage reduced and effective threshold voltage raised
 - **Critical CD tightening**
-  - Enforced channel length margins
-  - Suppressed short-channel induced disturb behavior
+  - Channel length margins enforced at the process level
+  - Short-channel-induced disturb behavior suppressed
 
 ---
 
 ### Operation-Side Measures
 
-- Refresh condition redefinition aligned with actual leakage behavior
-- Stress conditions recalibrated for mobile temperature profiles
+- Refresh parameters redefined based on actual leakage behavior
+- Stress conditions recalibrated to reflect mobile temperature profiles
 
-All measures were implemented through **cross-functional
+All countermeasures were implemented through **cross-functional
 coordination between process, device, and manufacturing teams**,
-while production continued uninterrupted :contentReference[oaicite:3]{index=3}.
+while mass production continued without interruption.
 
 ---
 
@@ -121,37 +132,52 @@ while production continued uninterrupted :contentReference[oaicite:3]{index=3}.
 - Yield improved from **~30% to stable 80% class**
 - Pause and Disturb failures were largely suppressed
 - Enabled stable supply for early mobile camera phones
-- Marked the culmination of DRAM-derived memory development
-at Sakata Fab
+- Represented the technical culmination of DRAM-derived memory
+  development at the Sakata Fab
+
+From a purely technical standpoint, the yield recovery effort
+was successful and met immediate market requirements.
 
 ---
 
 ## Strategic Outcome
 
-Despite the technical recovery:
+Despite technical recovery:
 
 - Temperature margin beyond 90 °C could not be guaranteed
 - Junction leakage scaled unfavorably with further node shrink
-- DRAM-derived architectures showed **limited scalability**
+- DRAM-derived architectures showed **inherent scalability limits**
+  under mobile thermal conditions
 
-Evaluation of a 0.18 µm trench-based DRAM process confirmed
-that high-temperature leakage fundamentally constrained
-future mobile deployment.
+Subsequent evaluation of a 0.18 µm trench-based DRAM process
+confirmed that high-temperature leakage was **structural rather
+than incidental**, eliminating a viable long-term path for
+mobile memory scaling.
+
+At the same time, corporate strategy had clearly converged on
+**LCD driver ICs and high-voltage mixed CMOS** as the company’s
+core semiconductor business. Sustaining mobile memory would
+have required continuous, large-scale investment in
+memory-specific process development and dedicated manpower—
+a commitment incompatible with this strategic direction.
 
 As a result, **DRAM-derived mobile memory development was
 strategically terminated**, and resources were redirected toward
-high-voltage mixed CMOS and logic-oriented products
-:contentReference[oaicite:4]{index=4}.
+logic-oriented and mixed-signal products where existing process
+assets could be leveraged more effectively.
 
 ---
 
 ## Legacy Insight
 
-VSRAM represents a rare but critical lesson:
+VSRAM represents a rare but instructive case in semiconductor
+development:
 
-> **Yield can be recovered, reliability can be met,
-> yet architectural scalability may still fail.**
+> **Yield can be recovered, and reliability targets can be met,
+> yet architectural scalability and business sustainability
+> may still fail.**
 
-It stands as a textbook case demonstrating that
+It stands as a textbook example demonstrating that
 **engineering success does not necessarily ensure
-long-term strategic success**.
+long-term strategic success**, and that timely, rational
+reallocation of resources can itself be a form of success.
