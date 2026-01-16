@@ -3,7 +3,7 @@ layout: default
 title: Edusemi-Plus｜Applied Learning Series Extending Core Semiconductor Knowledge
 ---
 
-# ➕ **Edusemi-Plus｜Applied Learning Series Extending Core Semiconductor Knowledge**
+# ➕ Edusemi-Plus｜Applied Learning Series Extending Core Semiconductor Knowledge
 
 ---
 
@@ -25,7 +25,7 @@ designed to extend core semiconductor knowledge through **product architecture**
 
 ---
 
-## 🌟 **Featured Topics**
+## 🌟 Featured Topics
 
 | Topic | Summary | Link |
 |---|---|---|
@@ -35,7 +35,7 @@ designed to extend core semiconductor knowledge through **product architecture**
 
 ---
 
-## 📚 **Content Categories**
+## 📚 Content Categories
 
 | Category | Summary | Link |
 |---|---|---|
@@ -51,7 +51,7 @@ designed to extend core semiconductor knowledge through **product architecture**
 
 ---
 
-## 🔗 **Industry Structure Map** *(Core Supply Chain View)*
+## 🔗 Industry Structure Map *(Core Supply Chain View)*
 
 | Category | Description | Link |
 |---|---|---|
@@ -67,7 +67,7 @@ designed to extend core semiconductor knowledge through **product architecture**
 
 ---
 
-## 🔗 **Related Projects**
+## 🔗 Related Projects
 
 | **Project** | **Summary** |
 |---|---|
@@ -75,7 +75,7 @@ designed to extend core semiconductor knowledge through **product architecture**
 
 ---
 
-## 👤 **Author**
+## 👤 Author
 > Author with professional background in semiconductors and inkjet actuators, creating materials integrating theory and practice.
 
 | 📌 Item | Details |
@@ -86,7 +86,7 @@ designed to extend core semiconductor knowledge through **product architecture**
 
 ---
 
-## 📄 **License**
+## 📄 License
 [![Hybrid License](https://img.shields.io/badge/license-Hybrid-blueviolet)](https://samizo-aitl.github.io/Edusemi-Plus/#-ライセンス--license)
 > Adopts a hybrid licensing model according to the nature of the materials, code, and diagrams.  
 > *Hybrid licensing based on the nature of the materials, code, and diagrams.*
@@ -100,7 +100,7 @@ designed to extend core semiconductor knowledge through **product architecture**
 
 ---
 
-## 💬 **Feedback**
+## 💬 Feedback
 > Propose improvements or start discussions via GitHub Discussions.
 
 [![💬 GitHub Discussions](https://img.shields.io/badge/💬%20GitHub-Discussions-brightgreen?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/discussions)
