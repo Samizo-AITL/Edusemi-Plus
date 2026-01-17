@@ -5,7 +5,7 @@ title: Legacy Technology
 
 # PSRAM (Pseudo-SRAM) — 2001 Mobile Memory Case
 
-This directory documents the **VSRAM (Pseudo-SRAM)** developed and mass-produced in **2001**
+This directory documents the **PSRAM (Pseudo-SRAM)** developed and mass-produced in **2001**
 using a **0.25µm DRAM-derived process** for mobile applications.
 
 This case represents a **transition point** where
