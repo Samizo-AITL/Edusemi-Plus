@@ -170,7 +170,7 @@ assets could be leveraged more effectively.
 
 ## Legacy Insight
 
-VSRAM represents a rare but instructive case in semiconductor
+PSRAM represents a rare but instructive case in semiconductor
 development:
 
 > **Yield can be recovered, and reliability targets can be met,
