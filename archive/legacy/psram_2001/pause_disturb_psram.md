@@ -60,7 +60,7 @@ In PSRAM, disturb stress accumulated during **normal operation**:
 <p align="center">
   <em>
     Fig. Device-level leakage paths and disturb mechanisms
-    observed in VSRAM cell structures
+    observed in PSRAM cell structures
   </em>
 </p>
 
