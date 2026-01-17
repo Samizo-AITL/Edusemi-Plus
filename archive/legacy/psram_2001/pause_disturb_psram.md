@@ -1,17 +1,17 @@
 ---
-title: "Pause / Disturb Failures in VSRAM"
+title: "Pause / Disturb Failures in PSRAM"
 layout: default
 ---
 
-# Pause / Disturb Failures in VSRAM
+# Pause / Disturb Failures in PSRAM
 
 This document describes how **Pause** and **Disturb** failures
-manifested in **VSRAM**, and why **Disturb-related degradation**
+manifested in **PSRAM**, and why **Disturb-related degradation**
 became a dominant reliability concern under extended operating conditions.
 
 ---
 
-## Background: VSRAM Operating Characteristics
+## Background: PSRAM Operating Characteristics
 
 Compared to conventional DRAM, VSRAM exhibited:
 
@@ -24,7 +24,7 @@ not only during explicit test modes.
 
 ---
 
-## Pause Stress in VSRAM
+## Pause Stress in PSRAM
 
 ### Characteristics
 
@@ -41,7 +41,7 @@ but could not fully explain observed field failures.
 
 ### Usage-Driven Disturb
 
-In VSRAM, disturb stress accumulated during **normal operation**:
+In PSRAM, disturb stress accumulated during **normal operation**:
 
 - Repeated word-line activation driven by application behavior
 - No explicit disturb test required to trigger degradation
@@ -78,7 +78,7 @@ but became critical under VSRAM operating conditions.
 
 ## Temperature Expansion Impact
 
-VSRAM required an expanded guaranteed operating range:
+PSRAM required an expanded guaranteed operating range:
 
 - Conventional limit: **80 °C**
 - Extended requirement: **90 °C**
@@ -135,7 +135,7 @@ pause-induced leakage and disturb sensitivity.
 
 ## Key Insight
 
-VSRAM demonstrated that:
+PSRAM demonstrated that:
 
 > **Disturb failures are not test artifacts,
 > but consequences of real usage and operating conditions.**
