@@ -162,5 +162,5 @@ propagated upward into:
 ## Related Documents
 
 - [`wafer_test_bin.md`](./wafer_test_bin.md)
-- [`pause_disturb.md`](./pause_disturb.md)
+- [`pause.md`](./pause.md)
 
