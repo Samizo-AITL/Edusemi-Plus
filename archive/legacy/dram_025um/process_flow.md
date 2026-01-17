@@ -126,15 +126,24 @@ Pause Refresh failures at high temperature.
 
 ### Appendix Notes
 
-This layout illustrates how cell-level geometry and isolation structure
-(especially LOCOS-defined active edges)
-become the physical origin of later reliability behavior.
+This figure provides a simplified physical map of the memory cell layout,
+showing the relative placement and proximity of active regions,
+gate structures, contacts, and isolation areas.
 
-Although LOCOS itself is electrically inactive,
-its edge shape and oxide thickness strongly influence
-electric field concentration at the active and junction periphery,
-which later manifests as retention degradation
-and pause disturb behavior observed at wafer test.
+The purpose of this appendix is not to explain a specific layer or device detail,
+but to give spatial context for the process steps discussed in this document.
+Local process choices such as plasma exposure,
+cleaning strategy, and junction handling
+act on specific regions within the cell,
+and their effects are strongly influenced by
+how these regions are arranged and how closely they interact.
+
+By referring to this layout,
+the reader can associate local process conditions
+with localized electrical behavior,
+which later appears as variations in wafer test results,
+retention characteristics, disturb sensitivity,
+and ultimately yield and product decisions.
 
 ---
 
@@ -154,3 +163,4 @@ propagated upward into:
 
 - [`wafer_test_bin.md`](./wafer_test_bin.md)
 - [`pause_disturb.md`](./pause_disturb.md)
+
