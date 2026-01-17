@@ -124,8 +124,18 @@ Pause Refresh failures at high temperature.
     width="60%">
 </p>
 
-<p align="center">
-  
+### Appendix Notes
+
+This layout illustrates how cell-level geometry and isolation structure
+(especially LOCOS-defined active edges)
+become the physical origin of later reliability behavior.
+
+Although LOCOS itself is electrically inactive,
+its edge shape and oxide thickness strongly influence
+electric field concentration at the active and junction periphery,
+which later manifests as retention degradation
+and pause disturb behavior observed at wafer test.
+
 ---
 
 ## Summary
@@ -134,9 +144,9 @@ This process flow shows how **seemingly local process choices**
 (plasma steps, cleaning strategy, junction handling)
 propagated upward into:
 
-- Wafer test binning
-- Retention / disturb behavior
-- Yield and product decisions
+- Wafer test binning  
+- Retention / disturb behavior  
+- Yield and product decisions  
 
 ---
 
