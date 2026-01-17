@@ -1,11 +1,11 @@
 ---
-title: "VSRAM Architecture and Concept"
+title: "PSRAM Architecture and Concept"
 layout: default
 ---
 
-# VSRAM Architecture and Concept
+# PSRAM Architecture and Concept
 
-VSRAM (Pseudo-SRAM) is a **DRAM-based memory**
+PSRAM (Pseudo-SRAM) is a **DRAM-based memory**
 that emulates SRAM behavior by integrating
 **internal refresh control logic**.
 
@@ -16,7 +16,7 @@ that emulates SRAM behavior by integrating
 - SRAM: fast but large cell area and high cost
 - DRAM: dense but requires external refresh
 
-VSRAM aimed to:
+PSRAM aimed to:
 - Retain DRAM density
 - Hide refresh from the system
 - Reduce mobile standby power
@@ -56,7 +56,7 @@ These conditions directly surfaced **Pause / Disturb failures**.
 
 ## Key Insight
 
-VSRAM demonstrated that:
+PSRAM demonstrated that:
 > **Architecture can amplify latent physical weaknesses**  
 > even when the base process is unchanged.
 
