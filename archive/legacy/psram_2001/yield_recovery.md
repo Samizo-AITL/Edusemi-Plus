@@ -1,13 +1,13 @@
 ---
-title: "Yield Recovery and Countermeasures in VSRAM"
+title: "Yield Recovery and Countermeasures in PSRAM"
 layout: default
 ---
 
-# Yield Recovery and Countermeasures in VSRAM
+# Yield Recovery and Countermeasures in PSRAM
 
 ## Background
 
-VSRAM was developed in 2001 by reusing a 0.25 µm DRAM process
+PSRAM was developed in 2001 by reusing a 0.25 µm DRAM process
 to address the emerging mobile phone market, which demanded
 **low power consumption, long refresh intervals, and guaranteed
 high-temperature operation up to 90 °C**.
