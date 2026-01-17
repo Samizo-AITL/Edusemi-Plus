@@ -144,10 +144,3 @@ Reliability evaluation therefore shifted from
 process-only considerations
 to **system-aware, usage-driven design thinking**.
 
----
-
-## Related Documents
-
-- [`pause.md`](./pause.md)
-- [`process_flow.md`](./process_flow.md)
-- [`wafer_test_bin.md`](./wafer_test_bin.md)
