@@ -3,17 +3,18 @@ layout: default
 title: Legacy Technology
 ---
 
-# Legacy Technology
+# 🧭 Legacy Technology
 
-Legacy Technology is not a collection of obsolete processes.
+**Legacy Technology** is not a collection of obsolete processes.
 
 This archive documents **canonical failure-and-recovery cases**
-where physical mechanisms directly constrained
-**yield, reliability, and business decisions**.
+in which **physical mechanisms directly constrained**
+yield, reliability, and ultimately **business decisions**.
 
 These cases are preserved not as nostalgia,
-but as **reference structures** that still reappear
-in modern semiconductor, system, and AI-integrated designs.
+but as **reference structures**—patterns of causality
+that continue to reappear in modern semiconductor systems,
+SoCs, and AI-integrated architectures.
 
 ---
 
@@ -30,36 +31,47 @@ in modern semiconductor, system, and AI-integrated designs.
 > **All materials in this archive are based on semiconductor technologies  
 > developed more than 20 years ago (late 1990s–early 2000s).**
 >
-> This archive **does not contain** proprietary process recipes,  
-> confidential design rules, equipment tuning parameters,  
-> or operational know-how applicable to current semiconductor manufacturing.
+> This archive **does not contain**:
+> - Proprietary process recipes  
+> - Confidential design rules  
+> - Equipment tuning parameters  
+> - Operational know-how applicable to current manufacturing
 >
-> The purpose of this archive is to preserve  
+> The purpose is to preserve  
 > **structural patterns of failure, recovery, and decision-making**,  
 > not implementation-level secrets.
 
+This archive is intended for **education, analysis, and architectural reference**.
+
 ---
 
-## Introduction
+## 📘 Introduction
 
-This archive is introduced and positioned in detail here:
+The philosophy and positioning of *Legacy Technology*
+are explained in detail here:
 
 → **[Introduction — Legacy Technology](./introduction.md)**
 
 ---
 
-## Scope of This Archive
+## 🎯 Scope of This Archive
 
-- **Semiconductor process integration** (1990s–2000s)
-- **Memory technologies** (DRAM, PSRAM, eDRAM)
-- **Failure physics** (leakage, disturb, retention)
-- **Yield recovery** and decision-making under constraints
+This archive focuses on the intersection of
+**process physics, manufacturability, and strategic decision-making**.
+
+- 🏗 **Semiconductor process integration** (1990s–2000s)
+- 💾 **Memory technologies** (DRAM, PSRAM, eDRAM)
+- ⚛️ **Failure physics** (leakage, disturb, retention)
+- 📈 **Yield recovery under constraints**
+- 🧠 **Engineering decisions under business pressure**
+
+The emphasis is on **causal structure**, not historical completeness.
 
 ---
 
-## How to Read
+## 🧭 How to Read This Archive
 
-Each case is organized as a causal chain:
+Each case is organized as a **causal chain**:
 
 1. **Process / Structure**  
 2. **Observed Failure Mode**  
@@ -67,14 +79,22 @@ Each case is organized as a causal chain:
 4. **Test / Bin Manifestation**  
 5. **Yield Recovery or Strategic Decision**
 
-This order mirrors actual manufacturing problem-solving,
-not post-hoc explanation.
+This order mirrors **actual manufacturing problem-solving**,
+not post-hoc academic explanation.
+
+📌 Readers are encouraged to follow the chain,
+not jump directly to conclusions.
 
 ---
 
-## Case Index
+## 📂 Case Index
 
-### 📁 DRAM (0.25µm, 64M) — 3rd Generation
+### 💾 DRAM (0.25µm, 64M) — 3rd Generation
+
+A canonical baseline case exposing
+retention, leakage, and test–yield coupling
+before deep-submicron scaling.
+
 - **Case overview**  
   → [`dram_025um/`](./dram_025um/)
 - **Process integration**  
@@ -86,7 +106,12 @@ not post-hoc explanation.
 
 ---
 
-### 📁 PSRAM (Pseudo-SRAM, 2001) — Mobile Memory
+### 📱 PSRAM (Pseudo-SRAM, 2001) — Mobile Memory
+
+A boundary case where DRAM technology
+was pushed beyond its original operating envelope
+to meet mobile requirements.
+
 - **Case overview**  
   → [`psram_2001/`](./psram_2001/)
 - **Architecture & concept**  
@@ -98,13 +123,16 @@ not post-hoc explanation.
 
 ---
 
-## Positioning
+## 🧱 Positioning
 
-Legacy Technology cases are archived here because they expose
-**structural limits**, not because they are old.
+Legacy Technology cases are archived here
+**because they expose structural limits**—not because they are old.
 
 Modern systems often fail for the **same reasons**:
-only the scale, names, and integration context change.
+only the scale, terminology, and integration context change.
+
+📌 Understanding these patterns
+is essential for designing **robust modern systems**.
 
 ---
 
