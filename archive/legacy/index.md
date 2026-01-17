@@ -51,7 +51,7 @@ This archive is introduced and positioned in detail here:
 ## Scope of This Archive
 
 - **Semiconductor process integration** (1990s–2000s)
-- **Memory technologies** (DRAM, VSRAM, eDRAM)
+- **Memory technologies** (DRAM, PSRAM, eDRAM)
 - **Failure physics** (leakage, disturb, retention)
 - **Yield recovery** and decision-making under constraints
 
