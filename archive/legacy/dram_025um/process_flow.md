@@ -121,10 +121,11 @@ Pause Refresh failures at high temperature.
 <p align="center">
   <img
     src="https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/figs/memory_cell_layout.png"
-    width="30%">
+    width="60%">
 </p>
 
 <p align="center">
+  
 ---
 
 ## Summary
