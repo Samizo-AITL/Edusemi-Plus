@@ -92,7 +92,7 @@ not post-hoc explanation.
 - **Architecture & concept**  
   → [`psram_2001/psram_architecture.md`](./psram_2001/psram_architecture.md)
 - **Pause / Disturb under mobile usage**  
-  → [`psram_2001/pause_disturb_vsram.md`](./psram_2001/pause_disturb_psram.md)
+  → [`psram_2001/pause_disturb_psram.md`](./psram_2001/pause_disturb_psram.md)
 - **Yield recovery & countermeasures**  
   → [`psram_2001/yield_recovery.md`](./psram_2001/yield_recovery.md)
 
