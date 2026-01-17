@@ -116,7 +116,7 @@ Pause Refresh failures at high temperature.
 
 ---
 
-## Appendix. Memory Cell Layout
+## Appendix. Memory Cell Layout (Planar View)
 
 <p align="center">
   <img
@@ -124,26 +124,95 @@ Pause Refresh failures at high temperature.
     width="60%">
 </p>
 
-### Appendix Notes
+### Appendix Notes (Layout)
 
-This figure provides a simplified physical map of the memory cell layout,
-showing the relative placement and proximity of active regions,
-gate structures, contacts, and isolation areas.
+This figure presents a simplified **planar (top-down) layout view** of a DRAM memory cell,
+illustrating the relative placement and proximity of:
 
-The purpose of this appendix is not to explain a specific layer or device detail,
-but to give spatial context for the process steps discussed in this document.
-Local process choices such as plasma exposure,
-cleaning strategy, and junction handling
-act on specific regions within the cell,
-and their effects are strongly influenced by
-how these regions are arranged and how closely they interact.
+- Active regions
+- Word-line gate structures
+- Bit-line contacts
+- Isolation regions
 
-By referring to this layout,
+The purpose of this appendix is **not** to describe detailed layer stacks or device physics,
+but to provide **spatial context** for the process steps discussed throughout this document.
+
+Local process choices—such as plasma exposure,
+cleaning strategy, and junction handling—act on
+**specific regions within the cell layout**.
+Their electrical impact is strongly influenced by
+how closely these regions are arranged
+and how process interactions overlap laterally.
+
+By referring to this layout view,
 the reader can associate local process conditions
-with localized electrical behavior,
-which later appears as variations in wafer test results,
-retention characteristics, disturb sensitivity,
-and ultimately yield and product decisions.
+with **localized electrical behavior**,
+which later manifests as variations in:
+
+- Wafer test results  
+- Retention characteristics  
+- Disturb sensitivity  
+- Yield and product binning decisions  
+
+This planar view is particularly useful for understanding
+**lateral coupling and proximity-driven effects**
+in memory cell behavior.
+
+---
+
+## Appendix. Memory Cell Cross Section (Schematic)
+
+<p align="center">
+  <img
+    src="https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/figs/mc_cross_section.png"
+    width="70%">
+</p>
+
+### Appendix Notes (Cross Section)
+
+This schematic illustrates a reconstructed **cross-sectional (vertical) view**
+of a representative **0.25µm-generation DRAM memory cell**,
+highlighting the relative vertical relationships among:
+
+- Active regions (n⁺ diffusion formed in p-well)
+- Word-line (WL) gate stack
+- Bit-line (BL) contact
+- Storage node (SN)
+- LOCOS-based isolation structure
+
+This figure is **not a foundry-exact device profile**.
+Instead, it serves as an abstracted physical model
+intended to support understanding of
+**process–failure causality** observed in this technology generation.
+
+Key process sensitivities discussed in this document
+can be mapped onto this vertical structure as follows:
+
+- **Gate etch and plasma exposure**  
+  → Junction damage beneath WL edges,
+     leading to increased leakage and retention degradation
+
+- **Contact etch and post-cleaning steps**  
+  → Leakage paths formed between n⁺ diffusion and bit-line contacts
+
+- **LOCOS edge geometry and field-oxide stress**  
+  → Local electric-field enhancement contributing to disturb-related failures
+
+By correlating this cross-sectional view
+with the process flow steps,
+readers can more clearly understand how
+**localized physical damage mechanisms**
+propagate upward into system-level phenomena such as:
+
+- Retention loss  
+- Pause refresh failures  
+- Yield excursions  
+
+Together with the layout-based appendix,
+this cross-sectional view provides a **depth-wise perspective**
+that complements the planar analysis,
+allowing both lateral and vertical process sensitivities
+to be examined in a unified manner.
 
 ---
 
