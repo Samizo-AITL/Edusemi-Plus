@@ -46,7 +46,7 @@ This archive is introduced and positioned in detail here:
 ## Scope of This Archive
 
 - **Semiconductor process integration** (1990s–2000s)
-- **Memory technologies** (DRAM, VSRAM, eDRAM)
+- **Memory technologies** (DRAM, PSRAM, eDRAM)
 - **Failure physics** (leakage, disturb, retention)
 - **Yield recovery** and decision-making under constraints
 
@@ -81,15 +81,15 @@ not post-hoc explanation.
 
 ---
 
-### 📁 VSRAM (Pseudo-SRAM, 2001) — Mobile Memory
+### 📁 PSRAM (Pseudo-SRAM, 2001) — Mobile Memory
 - **Case overview**  
-  → [`vsram_2001/`](./vsram_2001/)
+  → [`psram_2001/`](./psram_2001/)
 - **Architecture & concept**  
-  → [`vsram_2001/vsram_architecture.md`](./vsram_2001/vsram_architecture.md)
+  → [`psram_2001/vsram_architecture.md`](./psram_2001/psram_architecture.md)
 - **Pause / Disturb under mobile usage**  
-  → [`vsram_2001/pause_disturb_vsram.md`](./vsram_2001/pause_disturb_vsram.md)
+  → [`psram_2001/pause_disturb_psram.md`](./psram_2001/pause_disturb_psram.md)
 - **Yield recovery & countermeasures**  
-  → [`vsram_2001/yield_recovery.md`](./vsram_2001/yield_recovery.md)
+  → [`psram_2001/yield_recovery.md`](./psram_2001/yield_recovery.md)
 
 ---
 
