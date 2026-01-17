@@ -24,11 +24,6 @@ html {
    =================================================== */
 body {
   margin: 0;
-
-  /* ★ 画面端との余白は body で作る（最重要） */
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-
   background: #f9fafb;
   color: #1f2933;
 
@@ -48,19 +43,20 @@ body {
 
 
 /* ===================================================
-   ★ Layout / Content Width Control（minima安定解）
+   ★ Layout / Content Width Control（唯一の基準点）
    =================================================== */
-/* 本文カラム幅は内側で制御する */
 .page-content,
 .post-content,
 .home,
 .post {
-  max-width: 1100px;            /* 技術教材の黄金幅 */
+  max-width: 1100px;        /* 技術教材の黄金幅 */
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1.5rem;    /* ★ 余白はここで作る */
+  padding-right: 1.5rem;
 }
 
-/* minima の wrapper 干渉を完全に無効化 */
+/* minima の wrapper は完全に無効化 */
 .wrapper {
   max-width: none;
   padding-left: 0;
@@ -71,9 +67,7 @@ body {
 /* ===================================================
    Headings (Engineering Tone)
    =================================================== */
-h1, h2, h3, h4, h5, h6,
-.page-content h1, .page-content h2, .page-content h3,
-.post-content h1, .post-content h2, .post-content h3 {
+h1, h2, h3, h4, h5, h6 {
   margin: 1.8rem 0 0.8rem;
   line-height: 1.25;
   font-weight: 700;
@@ -127,7 +121,7 @@ a:hover {
 
 
 /* ===================================================
-   Horizontal Rule（最終推奨）
+   Horizontal Rule
    =================================================== */
 hr {
   border: none;
@@ -172,7 +166,7 @@ pre {
   border: 1px solid #cbd5e1;
   padding: 0.9rem 1rem;
   border-radius: 6px;
-  overflow: auto;
+  overflow-x: auto;
 }
 
 pre code {
@@ -239,6 +233,12 @@ td {
 @media (max-width: 768px) {
   body {
     font-size: 15.5px;
+  }
+
+  .page-content,
+  .post-content,
+  .home,
+  .post {
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -260,6 +260,13 @@ td {
   body {
     background: #fff;
     color: #000;
+  }
+
+  .page-content,
+  .post-content,
+  .home,
+  .post {
+    max-width: 1100px;
     padding: 0;
   }
 
@@ -268,22 +275,8 @@ td {
     text-decoration: underline;
   }
 
-.page {
-  display: flex;
-  justify-content: center;
+  table,
+  pre {
+    overflow-x: visible;
+  }
 }
-
-.content {
-  max-width: 1100px;
-  width: 100%;
-  padding: 1.5rem;
-  box-sizing: border-box;
-}
-
-/* 横に伸びる奴は中で逃がす */
-table,
-pre {
-  display: block;
-  overflow-x: auto;
-}
-
