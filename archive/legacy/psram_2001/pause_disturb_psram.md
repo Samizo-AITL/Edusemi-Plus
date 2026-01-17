@@ -107,20 +107,15 @@ observed in PSRAM under Pause / Disturb stress.
 > intended to show *trend*, not exact measurement.
 
 ```
-Fail
-Bits
-Count
-^
-|                              ███████████
-|                        ███████
-|                  ██████
-|            ██████
-|       █████
-|   ████
-| ██
-|█
-+-------------------------------------------------> Temperature (°C)
-  25     40     60     70     80     85     90
+
+Fail Bit Count (conceptual)
+
+25℃   | 0
+50℃   | 0
+80℃*  | 0        ← Mass-production guaranteed limit
+85℃   | *****    ← Disturb-assisted failures appear
+90℃   | ************************************
+
 ```
 
 ### Interpretation
