@@ -107,14 +107,23 @@ observed in PSRAM under Pause / Disturb stress.
 > intended to show *trend*, not exact measurement.
 
 ```
+Fail Bit Count (conceptual) — BEFORE countermeasures
+25℃    | 0
+50℃    | 0
+80℃    | 0
+85℃    | ***
+90℃*   | ********        ← FAIL at guarantee temp → NOT shippable
+95℃    | *****************
+100℃   | ************************************
 
-Fail Bit Count (conceptual)
-
-25℃   | 0
-50℃   | 0
-80℃*  | 0        ← Mass-production guaranteed limit
-85℃   | *****    ← Disturb-assisted failures appear
-90℃   | ************************************
+Fail Bit Count (conceptual) — AFTER countermeasures (ideal mass-production)
+25℃    | 0
+50℃    | 0
+80℃    | 0
+85℃    | 0
+90℃*   | 0                ← Shipment guarantee
+95℃    | 0                ← Guardband screening
+100℃   | ****             ← Physical limit begins to appear
 
 ```
 
