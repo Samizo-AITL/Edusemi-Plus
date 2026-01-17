@@ -17,6 +17,14 @@ in modern semiconductor, system, and AI-integrated designs.
 
 ---
 
+## 🔗 Links
+
+| Language | GitHub Pages 🌐 | GitHub 💻 |
+|----------|----------------|-----------|
+| 🇺🇸 English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/archive/legacy) |
+
+---
+
 ## 🔐 Note on Confidentiality
 
 > **All materials in this archive are based on semiconductor technologies  
