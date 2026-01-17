@@ -13,7 +13,7 @@ became a dominant reliability concern under extended operating conditions.
 
 ## Background: PSRAM Operating Characteristics
 
-Compared to conventional DRAM, VSRAM exhibited:
+Compared to conventional DRAM, PSRAM exhibited:
 
 - Internally managed refresh with **limited charge recovery margin**
 - Long effective pause time during system standby
