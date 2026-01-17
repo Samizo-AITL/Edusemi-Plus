@@ -31,7 +31,7 @@ to meet **low-power, high-temperature (90 °C)** mobile requirements.
 
 ## Why This Case Matters
 
-VSRAM exposed limits that were **not visible in standard DRAM**:
+PSRAM exposed limits that were **not visible in standard DRAM**:
 
 - Long refresh interval under mobile standby
 - High-temperature (90 °C) operation
