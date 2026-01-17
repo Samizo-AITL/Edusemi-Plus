@@ -1,4 +1,4 @@
-# VSRAM (Pseudo-SRAM) — 2001 Mobile Memory Case
+# PSRAM (Pseudo-SRAM) — 2001 Mobile Memory Case
 
 This directory documents the **VSRAM (Pseudo-SRAM)** developed and mass-produced in **2001**
 using a **0.25µm DRAM-derived process** for mobile applications.
@@ -40,11 +40,11 @@ This was not a clean-sheet design, but a **constraint-driven evolution**.
 ## Contents
 
 - **Architecture & Concept**
-  - [`vsram_architecture.md`](./vsram_architecture.md)  
+  - [`psram_architecture.md`](./psram_architecture.md)  
     → Pseudo-SRAM concept and DRAM reuse strategy
 
 - **Failure Modes**
-  - [`pause_disturb_vsram.md`](./pause_disturb_vsram.md)  
+  - [`pause_disturb_psram.md`](./pause_disturb_psram.md)  
     → Pause / Disturb failures under mobile conditions
 
 - **Yield Recovery**
@@ -64,7 +64,7 @@ This was not a clean-sheet design, but a **constraint-driven evolution**.
 
 ## Positioning in Legacy Technology
 
-VSRAM is a **boundary case**:
+PSRAM is a **boundary case**:
 
 - Between DRAM and logic
 - Between process reuse and redesign
