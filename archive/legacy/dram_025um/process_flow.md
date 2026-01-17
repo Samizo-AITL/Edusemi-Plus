@@ -116,6 +116,17 @@ Pause Refresh failures at high temperature.
 
 ---
 
+## Appendix. Memory Cell Layout
+
+<p align="center">
+  <img
+    src="https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/figs/memory_cell_layout.png"
+    width="30%">
+</p>
+
+<p align="center">
+---
+
 ## Summary
 
 This process flow shows how **seemingly local process choices**
