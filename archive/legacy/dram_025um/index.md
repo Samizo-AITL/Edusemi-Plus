@@ -5,6 +5,8 @@ layout: default
 
 # 🧠 0.25µm 64M DRAM (3rd Generation)
 
+[![Back to Portal (EN)](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/en/)
+
 This directory documents a **0.25µm-generation 64M DRAM**  
 successfully brought up and mass-produced in the **late 1990s**.
 
