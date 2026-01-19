@@ -7,6 +7,8 @@ title: Legacy Technology
 
 **Legacy Technology** is not a collection of obsolete processes.
 
+[![Back to Portal (EN)](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/en/)
+
 This archive documents **canonical failure-and-recovery cases**
 in which **physical mechanisms directly constrained**
 yield, reliability, and ultimately **business decisions**.
