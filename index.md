@@ -6,6 +6,8 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 # ➕ Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリーズ 
 *Edusemi-Plus: An applied extension of Edusemi-v4x for understanding semiconductor technologies*
 
+[![Back to Portal](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/)
+
 ---
 
 ## 🔗 公式リンク | Official Links
