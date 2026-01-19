@@ -1,5 +1,7 @@
 # 📱 PSRAM (Pseudo-SRAM) — 2001 Mobile Memory Case
 
+[![Back to Portal (EN)](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/en/)
+
 This directory documents the **PSRAM (Pseudo-SRAM)** technology
 developed and mass-produced in **2001**, using a
 **0.25µm DRAM-derived process** for mobile applications.
