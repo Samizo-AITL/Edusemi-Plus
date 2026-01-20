@@ -19,11 +19,9 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 
 ---
 
-**JP:**  
 **Edusemi-Plus** は、基礎教材 [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) を拡張し、**製品構造・設計思想・AI技術・量子・材料** などの観点から、半導体技術とその応用理解を広げる **応用教材群** です。  
 
-**EN:**  
-**Edusemi-Plus** extends **Edusemi-v4x** to broaden understanding of semiconductor technologies through perspectives such as **product architecture, design concepts, AI-related technologies, quantum, and materials**.
+*Edusemi-Plus extends Edusemi-v4x to broaden understanding of semiconductor technologies through perspectives such as product architecture, design concepts, AI-related technologies, quantum, and materials*.
 
 - 🧩 **技術理解の拡張** / Expanding **contextual understanding of semiconductor technology**  
 - 🏗 **製品・設計視点** / Emphasis on **product architecture and design thinking**  
