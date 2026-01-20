@@ -16,10 +16,6 @@
 **Edusemi-Plus** is an expanded series of the foundational [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) project,  
 designed to extend core semiconductor knowledge through **product architecture**, **design concepts**, **AI-related technologies**, **quantum**, and **materials**.
 
-- 🧩 Focus on **extending contextual understanding of semiconductor technologies**  
-- 🏗 Emphasis on **product structure and design-oriented perspectives**  
-- 🧑‍🏫 Open for **education and engineering-focused learning**
-
 ---
 
 ## 🌟 Featured Topics
