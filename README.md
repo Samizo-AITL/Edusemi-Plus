@@ -18,10 +18,6 @@
 
 *Edusemi-Plus extends Edusemi-v4x to broaden understanding of semiconductor technologies through perspectives such as product architecture, design concepts, AI-related technologies, quantum, and materials*.
 
-- 🧩 **技術理解の拡張** / Expanding **contextual understanding of semiconductor technology**  
-- 🏗 **製品・設計視点** / Emphasis on **product architecture and design thinking**  
-- 🧑‍🏫 **教育・技術理解** / Usable for **education and engineering-oriented learning**
-
 ---
 
 ## 🌟 特集コンテンツ / Featured Contents
