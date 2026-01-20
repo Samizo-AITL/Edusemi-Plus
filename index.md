@@ -60,14 +60,14 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 | **カテゴリ / Category** | **JP（概要）** | **EN (Summary)** | **Link** |
 |---|---|---|---|
 | 🏭 **全体概要 / Overview** | 設計〜製造〜検査の俯瞰 | End-to-end overview | [industry](./industry/) |
-| 🧠 **EDAツール / EDA Tools** | 自動化設計・検証・P&R・TCAD | EDA vendors & flows | [industry/eda-tools](./industry/eda-tools/) |
-| 🖼️ **フォトマスク / Photomasks** | ブランクス・OPC・EUV描画 | Blanks, OPC, EUV write | [industry/photomasks](./industry/photomasks/) |
-| ⚙️ **前工程装置 / Front Equip.** | 成膜・露光・洗浄・エッチング | Depo, litho, clean, etch | [industry/front-equipments](./industry/front-equipments/) |
-| 🧪 **前工程材料 / Front Materials** | Siウェーハ・ガス・レジスト | Wafers, gases, resists | [industry/front-materials](./industry/front-materials/) |
-| 🏗️ **後工程装置 / Back Equip.** | ダイシング・ボンディング等 | Dicing, bonding, pkging | [industry/back-equipments](./industry/back-equipments/) |
-| 🧯 **後工程材料 / Back Materials** | 基板・封止樹脂・配線材 | Substrates, mold, wire | [industry/back-materials](./industry/back-materials/) |
-| 🔬 **解析計測 / Metrology** | CD-SEM・欠陥検査・膜厚 | CD-SEM, defect, thickness | [industry/metrology-tools](./industry/metrology-tools/) |
-| 💾 **デバイス / Devices** | ファウンドリ・IDM・ファブレス | Foundry, IDM, fabless | [industry/device-makers](./industry/device-makers/) |
+| 🧠 **EDAツール / EDA Tools** | 自動化設計・検証・P&R・TCAD | EDA vendors & flows | [eda-tools](./industry/eda-tools/) |
+| 🖼️ **フォトマスク / Photomasks** | ブランクス・OPC・EUV描画 | Blanks, OPC, EUV write | [photomasks](./industry/photomasks/) |
+| ⚙️ **前工程装置 / Front Equip.** | 成膜・露光・洗浄・エッチング | Depo, litho, clean, etch | [front-equipments](./industry/front-equipments/) |
+| 🧪 **前工程材料 / Front Materials** | Siウェーハ・ガス・レジスト | Wafers, gases, resists | [front-materials](./industry/front-materials/) |
+| 🏗️ **後工程装置 / Back Equip.** | ダイシング・ボンディング等 | Dicing, bonding, pkging | [back-equipments](./industry/back-equipments/) |
+| 🧯 **後工程材料 / Back Materials** | 基板・封止樹脂・配線材 | Substrates, mold, wire | [back-materials](./industry/back-materials/) |
+| 🔬 **解析計測 / Metrology** | CD-SEM・欠陥検査・膜厚 | CD-SEM, defect, thickness | [metrology-tools](./industry/metrology-tools/) |
+| 💾 **デバイス / Devices** | ファウンドリ・IDM・ファブレス | Foundry, IDM, fabless | [device-makers](./industry/device-makers/) |
 
 ---
 
