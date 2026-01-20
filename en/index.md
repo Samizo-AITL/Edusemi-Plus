@@ -58,14 +58,14 @@ designed to extend core semiconductor knowledge through **product architecture**
 | Category | Description | Link |
 |---|---|---|
 | 🏭 Overview | End-to-end from design to testing | [industry](../industry/) |
-| 🧠 EDA Tools | Synthesis, verification, TCAD, P&R | [industry/eda-tools](../industry/eda-tools/) |
-| 🖼️ Photomasks | Blanks, OPC, EUV masks | [industry/photomasks](../industry/photomasks/) |
-| ⚙️ Front-End Equip. | Deposition, lithography, etching | [industry/front-equipments](../industry/front-equipments/) |
-| 🧪 Front-End Materials | Wafers, gases, resists, CMP slurry | [industry/front-materials](../industry/front-materials/) |
-| 🏗️ Back-End Equip. | Dicing, bonding, packaging | [industry/back-equipments](../industry/back-equipments/) |
-| 🧯 Back-End Materials | Substrates, encapsulants, wires | [industry/back-materials](../industry/back-materials/) |
-| 🔬 Metrology Tools | CD-SEM, defect inspection, X-ray | [industry/metrology-tools](../industry/metrology-tools/) |
-| 💾 Device Makers | Foundry, IDM, fabless | [industry/device-makers](../industry/device-makers/) |
+| 🧠 EDA Tools | Synthesis, verification, TCAD, P&R | [eda-tools](../industry/eda-tools/) |
+| 🖼️ Photomasks | Blanks, OPC, EUV masks | [photomasks](../industry/photomasks/) |
+| ⚙️ Front-End Equip. | Deposition, lithography, etching | [front-equipments](../industry/front-equipments/) |
+| 🧪 Front-End Materials | Wafers, gases, resists, CMP slurry | [front-materials](../industry/front-materials/) |
+| 🏗️ Back-End Equip. | Dicing, bonding, packaging | [back-equipments](../industry/back-equipments/) |
+| 🧯 Back-End Materials | Substrates, encapsulants, wires | [back-materials](../industry/back-materials/) |
+| 🔬 Metrology Tools | CD-SEM, defect inspection, X-ray | [metrology-tools](../industry/metrology-tools/) |
+| 💾 Device Makers | Foundry, IDM, fabless | [device-makers](../industry/device-makers/) |
 
 ---
 
