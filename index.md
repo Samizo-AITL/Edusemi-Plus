@@ -33,9 +33,9 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 
 | 特集 | 概要 | Link |
 |---|---|---|
-| 🏭 **TSMC Insight** | 技術ロードマップ・地政学・サプライチェーン・R&D・教育連携まで、TSMCを多角的に分析。<br>Multi-angle analysis of TSMC (tech, geopolitics, supply chain, R&D, education). | [▶ 開く / Open](./tsmc-insight/) |
-| 🚀 **Rapidus 2nm Case Study** | 北海道・千歳拠点の2nm挑戦。GAA・IBM連携・国内製造基盤の再構築を追う。<br>Japan’s 2nm challenge: GAA, IBM collaboration, domestic manufacturing. | [▶ 開く / Open](./rapidus/) |
-| 🍏 **Apple Silicon Evolution** | AシリーズSoCの設計思想・N3/N3E移行・NPUの役割を整理。<br>Design intent, N3/N3E transition, and NPU role in A-series. | [▶ 開く / Open](./apple-silicon/) |
+| 🏭 **TSMC Insight** | 技術ロードマップ・地政学・サプライチェーン・R&D・教育連携まで、TSMCを多角的に分析。<br>*Multi-angle analysis of TSMC (tech, geopolitics, supply chain, R&D, education).* | [▶ 開く / Open](./tsmc-insight/) |
+| 🚀 **Rapidus 2nm Case Study** | 北海道・千歳拠点の2nm挑戦。GAA・IBM連携・国内製造基盤の再構築を追う。<br>*Japan’s 2nm challenge: GAA, IBM collaboration, domestic manufacturing.* | [▶ 開く / Open](./rapidus/) |
+| 🍏 **Apple Silicon Evolution** | AシリーズSoCの設計思想・N3/N3E移行・NPUの役割を整理。<br>*Design intent, N3/N3E transition, and NPU role in A-series.* | [▶ 開く / Open](./apple-silicon/) |
 
 ---
 
