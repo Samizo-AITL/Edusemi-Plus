@@ -56,44 +56,48 @@ It was a **technological flagship**.
 
 ## 🏢 Major Japanese DRAM Manufacturers (1990s)
 
-During the late 1980s through the 1990s,  
-**Japan was the only country where multiple companies simultaneously produced
+During the 1990s, Japan was  
+**the only country where multiple companies simultaneously produced
 leading-edge DRAM in true mass production**.
 
-The following manufacturers all operated
-state-of-the-art DRAM development *and* high-volume fabs
-at the same process generations:
+All of the manufacturers listed below operated
+state-of-the-art DRAM development and high-volume fabs  
+**at the same process generations, in the same time frame**.
 
-- **:contentReference[oaicite:0]{index=0}**  
-  – Major supplier of 1M–64M DRAM, strong in trench capacitor technology  
-- **:contentReference[oaicite:1]{index=1}**  
+- **NEC**  
+  – A major supplier of 1M–64M DRAM, with strong trench capacitor technology  
+- **Toshiba**  
   – Advanced cell integration and early adoption of high-density structures  
-- **:contentReference[oaicite:2]{index=2}**  
+- **Mitsubishi Electric**  
   – Reliability-oriented DRAM design with conservative margin policies  
-- **:contentReference[oaicite:3]{index=3}**  
-  – Process-driven yield optimization and tight parametric control  
-- **:contentReference[oaicite:4]{index=4}**  
-  – Balanced cell design emphasizing long-term retention stability  
+- **Hitachi**  
+  – Process-driven yield optimization and strict parametric control  
+- **Fujitsu**  
+  – Balanced DRAM cell design emphasizing long-term retention stability  
 
-All of these companies shipped competitive DRAM products
-at the **0.5 µm, 0.35 µm, and 0.25 µm generations**,
-often within the same calendar years.
+All of these companies shipped competitive DRAM products at:
+
+- **0.5 µm**
+- **0.35 µm**
+- **0.25 µm**
+
+technology nodes, often **within the same calendar year**.
 
 ---
 
 ### Shared Characteristics — and Critical Differences
 
 While competing in the same market,  
-each company maintained its **own independent approach** to:
+each company maintained a **fully independent approach** to:
 
 - DRAM cell structure (trench depth, capacitor geometry, dielectric choice)
 - Process integration strategy
 - Reliability qualification criteria
 - Yield recovery philosophy
 
-There was **no single “Japanese DRAM design”**.
+There was no single “Japanese DRAM design.”
 
-Instead, Japan functioned as a unique ecosystem in which:
+Instead, Japan formed a unique ecosystem in which:
 
 👉 Multiple independent teams  
 👉 Addressed the *same physical constraints*  
@@ -112,9 +116,9 @@ has not been repeated since.
 > and widely observed market transitions  
 > from the 1990s to early 2000s.
 
-The cases documented here reflect how these companies
-**actually encountered, interpreted, and responded to physical limits** —
-not how those limits are later described in simplified histories.
+What is documented here reflects  
+**how physical limits were actually encountered and handled in production** —
+not how they are later simplified in retrospective narratives.
 
 ---
 
