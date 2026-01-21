@@ -64,12 +64,12 @@ All of the manufacturers listed below operated
 state-of-the-art DRAM development and high-volume fabs  
 **at the same process generations, in the same time frame**.
 
-- **NEC**  
-  – A major supplier of 1M–64M DRAM, with strong trench capacitor technology  
 - **Toshiba**  
-  – Advanced cell integration and early adoption of high-density structures  
+  – A global leader in **deep trench capacitor–based DRAM**, driving cell capacitance through structure rather than assumption  
+- **NEC**  
+  – Major supplier of 1M–64M DRAM with strong overall process integration and mass-production capability  
 - **Mitsubishi Electric**  
-  – Reliability-oriented DRAM design with conservative margin policies  
+  – Reliability-oriented DRAM design with conservative physical margin policies  
 - **Hitachi**  
   – Process-driven yield optimization and strict parametric control  
 - **Fujitsu**  
