@@ -57,23 +57,28 @@ It was a **technological flagship**.
 ## 🏢 Major Japanese DRAM Manufacturers (1990s)
 
 During the 1990s, Japan was  
-**the only country where multiple companies simultaneously produced
+🇯🇵 **the only country where multiple companies simultaneously produced
 leading-edge DRAM in true mass production**.
 
-All of the manufacturers listed below operated
-state-of-the-art DRAM development and high-volume fabs  
+All of the manufacturers listed below operated  
+🔬 state-of-the-art DRAM development  
+🏭 and high-volume manufacturing fabs  
 **at the same process generations, in the same time frame**.
 
 - **Toshiba**  
-  – A global leader in **deep trench capacitor–based DRAM**, driving cell capacitance through structure rather than assumption  
+  🧱 A global leader in **deep trench capacitor–based DRAM**, securing cell capacitance through physical structure rather than statistical assumption  
+
 - **NEC**  
-  – Major supplier of 1M–64M DRAM with strong overall process integration and mass-production capability  
+  🏭 Major supplier of 1M–64M DRAM with strong overall process integration and large-scale manufacturing capability  
+
 - **Mitsubishi Electric**  
-  – Reliability-oriented DRAM design with conservative physical margin policies  
+  🛡 Reliability-oriented DRAM design with conservative physical margin policies  
+
 - **Hitachi**  
-  – Process-driven yield optimization and strict parametric control  
+  📊 Process-driven yield optimization supported by strict parametric control  
+
 - **Fujitsu**  
-  – Balanced DRAM cell design emphasizing long-term retention stability  
+  ⚖ Balanced DRAM cell design emphasizing long-term retention stability  
 
 All of these companies shipped competitive DRAM products at:
 
@@ -81,21 +86,22 @@ All of these companies shipped competitive DRAM products at:
 - **0.35 µm**
 - **0.25 µm**
 
-technology nodes, often **within the same calendar year**.
+technology nodes, often 🚀 **within the same calendar year**.
 
 ---
 
-### Shared Characteristics — and Critical Differences
+### 🔁 Shared Characteristics — and Critical Differences
 
 While competing in the same market,  
 each company maintained a **fully independent approach** to:
 
-- DRAM cell structure (trench depth, capacitor geometry, dielectric choice)
-- Process integration strategy
-- Reliability qualification criteria
-- Yield recovery philosophy
+- 🧠 DRAM cell structure  
+  (trench depth, capacitor geometry, dielectric choice)
+- 🏗 Process integration strategy
+- 🛡 Reliability qualification criteria
+- 📈 Yield recovery philosophy
 
-There was no single “Japanese DRAM design.”
+There was no single *“Japanese DRAM design.”*
 
 Instead, Japan formed a unique ecosystem in which:
 
@@ -105,19 +111,19 @@ Instead, Japan formed a unique ecosystem in which:
 👉 Under *real mass-production pressure*  
 👉 In parallel, without shared recipes  
 
-This level of parallel, physically grounded competition
-has not been repeated since.
+This level of parallel, physically grounded competition  
+🔥 **has not been repeated since**.
 
 ---
 
-> This archive is based on  
+> 📌 This archive is based on  
 > first-hand manufacturing experience,  
 > contemporaneous industry data,  
 > and widely observed market transitions  
 > from the 1990s to early 2000s.
 
 What is documented here reflects  
-**how physical limits were actually encountered and handled in production** —
+**how physical limits were actually encountered and handled in production** —  
 not how they are later simplified in retrospective narratives.
 
 ---
