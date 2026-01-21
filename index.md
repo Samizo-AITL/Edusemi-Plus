@@ -80,7 +80,7 @@ title: Edusemi-Plus｜Edusemi-v4xを拡張する半導体応用教材シリー�
 | **📌 項目 / Item** | **内容 / Details** |
 |--------------------|--------------------|
 | **氏名 / Name** | **三溝 真一（Shinichi Samizo）**<br>*Shinichi Samizo* |
-| **経験領域 / Expertise** | **半導体デバイス**（ロジック・メモリ・高耐圧インテグレーション）<br>*Semiconductor devices (logic, memory, high-voltage mixed integration)*<br>**インクジェット薄膜ピエゾアクチュエータ**<br>*Inkjet thin-film piezo actuators*<br>**PrecisionCoreプリントヘッド製品化・BOM管理・ISO教育**<br>*Productization of PrecisionCore printheads, BOM management, and ISO training* |
+| **経験領域 / Expertise** | **半導体デバイス**（ロジック・メモリ・高耐圧インテグレーション）<br>*Semiconductor devices (logic, memory, high-voltage mixed integration)*<br>**インクジェット薄膜ピエゾアクチュエータ**<br>*Inkjet thin-film piezo actuators*<br>**プリントヘッド製品化・BOM管理・ISO教育**<br>*Productization of printheads, BOM management, and ISO training* |
 | **💻 GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-black?logo=github)](https://github.com/Samizo-AITL) |
 
 ---
