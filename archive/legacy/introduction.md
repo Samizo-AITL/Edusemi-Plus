@@ -59,11 +59,11 @@ It was a **technological flagship**.
 During this period, the following companies all produced
 **leading-edge DRAM in volume**:
 
-- :contentReference[oaicite:0]{index=0}  
-- :contentReference[oaicite:1]{index=1}  
-- :contentReference[oaicite:2]{index=2}  
-- :contentReference[oaicite:3]{index=3}  
-- :contentReference[oaicite:4]{index=4}  
+> This archive is based on
+> first-hand manufacturing experience,
+> contemporaneous industry data,
+> and widely observed market transitions
+> from the 1990s to early 2000s.
 
 Each company maintained its **own DRAM cell structures,  
 process integration philosophy, and reliability criteria**.
