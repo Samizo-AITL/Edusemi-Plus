@@ -78,7 +78,7 @@ designed to extend core semiconductor knowledge through **product architecture**
 | 📌 Item | Details |
 |------|------|
 | **Name** | **Shinichi Samizo** |
-| **Expertise** | **Semiconductor devices** **(logic, memory, high-voltage mixed-signal)**<br>**Inkjet thin-film piezo actuators**<br>**PrecisionCore printhead productization, BOM management, ISO training** |
+| **Expertise** | **Semiconductor devices** **(logic, memory, high-voltage mixed-signal)**<br>**Inkjet thin-film piezo actuators**<br>**printhead productization, BOM management, ISO training** |
 | **💻 GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-black?logo=github)](https://github.com/Samizo-AITL) |
 
 ---
