@@ -7,18 +7,22 @@ title: Introduction
 
 **Legacy Technology** is not an archive of obsolete techniques.
 
-It is a collection of **canonical failure-and-recovery cases**
-from an era when semiconductor devices were still
-**directly constrained by physical limits** —
+It is a curated collection of **canonical failure-and-recovery cases**
+from a period when semiconductor devices were still
+**directly constrained by physical limits** —  
 before those limits were routinely abstracted away
-by software, firmware, or system-level mitigation.
+by firmware, software, or system-level mitigation.
 
-These cases document moments when
-process integration, cell structure, and device physics
-**directly dictated yield, reliability, and business decisions**.
+The technologies discussed here are old.  
+📌 The **failure structures are not**.
 
-They are preserved here not as nostalgia,
-but as **structural references** —
+These cases document moments when  
+process integration, memory cell structure,
+and device physics **directly dictated yield, reliability,
+and ultimately business survival**.
+
+They are preserved not as nostalgia,
+but as **structural references** —  
 patterns of causality that continue to reappear
 in modern semiconductor systems, SoCs,
 and AI-integrated architectures.
@@ -27,98 +31,193 @@ and AI-integrated architectures.
 
 ## 🕰 Historical Context
 
-Until the mid-1990s, Japan was the global leader in DRAM technology.
+### 🇯🇵 Japan and the DRAM Era (1990–2000)
 
-Multiple Japanese manufacturers simultaneously operated
-world-class DRAM **development and mass production**,
-with competition centered on:
+From the late 1980s through the mid-1990s,  
+**Japan was the undisputed global leader in DRAM technology**.
 
-- Cell stability
-- Retention margin
-- Long-term reliability
+At its peak, Japan accounted for **approximately 70% of the global DRAM market**,  
+with multiple manufacturers simultaneously operating  
+world-class **development *and* mass production** lines.
 
-—not only on density or cost.
+This dominance was not driven by cost optimization.
 
-During this period, DRAM cell design was treated as
-an inherently **analog, physical problem**.
+Competition focused instead on:
 
-### Design assumptions of the era
+- 🧠 Cell stability  
+- ⏱ Retention margin  
+- 🛡 Long-term reliability  
+- 🏭 Manufacturability at scale  
 
-- Cell capacitance was secured by **structure**, not by statistical assumption
-- Time-dependent failures were considered **unacceptable anomalies**
-- Market behavior was assumed to stress devices
-  in **unpredictable and adversarial ways**
+DRAM was not treated as a commodity.  
+It was a **technological flagship**.
 
-This design culture produced exceptionally robust memories,
-but it rested on a strict premise:
+---
 
-> **Physical margins must not be violated.**
+## 🏢 Major Japanese DRAM Manufacturers (1990s)
+
+During this period, the following companies all produced
+**leading-edge DRAM in volume**:
+
+- :contentReference[oaicite:0]{index=0}  
+- :contentReference[oaicite:1]{index=1}  
+- :contentReference[oaicite:2]{index=2}  
+- :contentReference[oaicite:3]{index=3}  
+- :contentReference[oaicite:4]{index=4}  
+
+Each company maintained its **own DRAM cell structures,  
+process integration philosophy, and reliability criteria**.
+
+This was historically unique:
+
+👉 Multiple independent teams  
+👉 Solving the *same physical problem*  
+👉 At the leading edge  
+👉 In parallel  
+👉 Within a single country
+
+---
+
+## 🧪 Process Generations and Physical Reality
+
+### 🔬 Lithography Scaling and DRAM Nodes
+
+| Process Node | Era | Typical DRAM | Physical Reality |
+|---|---|---|---|
+| **0.50 µm** | 1990–1992 | 1–4 Mbit | 🟢 Large physical margins |
+| **0.35 µm** | 1993–1995 | 16 Mbit | 🟢 Trench capacitor maturity |
+| **0.25 µm** | 1996–1998 | 64 Mbit | 🟡 Retention dominates |
+| **0.18 µm** | 1999–2001 | 128–256 Mbit | 🔴 Disturb / Pause emerge |
+
+The **0.25 µm generation** marked the first point where  
+**cell capacitance margins collapsed structurally**.
+
+From this node onward:
+
+- 🔻 Leakage became unavoidable, not incidental  
+- 🔻 Retention failures became systemic  
+- 🔻 Physical explanations no longer guaranteed manufacturability  
+
+---
+
+## 💿 Wafer Diameter and Manufacturing Pressure
+
+| Wafer Size | Period | Meaning |
+|---|---|---|
+| **4 inch** | ～1992 | 🧪 Development-focused fabs |
+| **6 inch** | 1993–1996 | 📈 Yield = profit |
+| **8 inch** | 1997–2002 | ⚠️ Volume forces premature ramp |
+| **12 inch** | 2001– | 💰 Capital recovery dominates |
+
+With the transition to **8-inch wafers**,  
+manufacturing lines could no longer be stopped easily.
+
+From this point onward:
+
+> **Business decisions increasingly preceded full physical understanding.**
+
+---
+
+## 🖥 System-Level Stress: CPU Generations
+
+Failure mechanisms did not emerge in isolation.  
+They were triggered by **how memory was actually used**.
+
+| CPU Generation | Era | Impact on DRAM |
+|---|---|---|
+| 386 / 486 | ～1994 | 🟢 Predictable access |
+| Pentium | 1995–1997 | 🟡 Burst & cache effects |
+| Pentium II / III | 1998–2000 | 🟠 Idle–resume stress |
+| Pentium 4 | ～2001 | 🔴 Pause / Disturb exposed |
+
+📌 **Pause Failure** was not a laboratory artifact.  
+It was a **system-induced failure mode**.
 
 ---
 
 ## ⚠️ The Turning Point  
 *(Late 1990s – Early 2000s)*
 
-As scaling progressed into the **0.25 µm generation and beyond**,
-this premise began to collapse.
+As scaling progressed beyond **0.25 µm**,  
+a foundational assumption of earlier DRAM design collapsed:
 
-### What changed
+> **Physical margins must not be violated.**
 
-| Aspect | Reality |
-|---|---|
-| Cell capacitance | Margins collapsed structurally |
-| Leakage & disturb | Became unavoidable, not incidental |
-| Retention | Shifted from anomaly to dominant limiter |
-| Market pressure | Speed and cost outweighed physical certainty |
+### 🔄 What Changed
 
-At the same time, DRAM pricing entered a prolonged collapse,
-forcing manufacturers into **aggressive ramp decisions**
-before failure mechanisms were fully understood.
+| Aspect | Before | After |
+|---|---|---|
+| Cell capacitance | 🧱 Secured by structure | 🎲 Assumed statistically |
+| Retention loss | ❌ Anomaly | 🔑 Dominant limiter |
+| Disturb | ⚠️ Rare | 🔥 Systemic |
+| Yield recovery | 🛠 Process-driven | 📊 Policy-driven |
+| Risk handling | 🚫 Elimination | ⏭ Deferral |
 
-Failures such as **Pause**, **Disturb**, and **Retention loss**
-were no longer hypothetical.
+Failures such as **Retention loss, Disturb, and Pause**  
+began to appear in:
 
-They emerged in **real products**,  
-in **real systems**,  
-under **real user behavior**.
+- 📦 Shipped products  
+- 🖥 Real systems  
+- 👤 Normal user behavior  
+
+They were no longer hypothetical.
+
+---
+
+## 📉 Market Collapse and Strategic Drift
+
+At the same time, DRAM pricing entered a prolonged collapse.
+
+| Year | Japan Share | Korea Share |
+|---|---|---|
+| 1992 | ~70% | <10% |
+| 1996 | ~55% | ~20% |
+| 1999 | ~30% | ~45% |
+| 2002 | <20% | >60% |
+
+The decline was not caused by a lack of engineering capability.
+
+It reflected a **divergence in how physical risk was treated**.
+
+- 🇯🇵 Japanese DRAM culture:  
+  *Failures without physical explanation were rejected.*
+
+- 🌍 Emerging global model:  
+  *Failures were accepted if systems could compensate.*
 
 ---
 
 ## 🔍 Why These Cases Matter Now
 
-The technologies documented here are more than **20 years old**.
+Modern semiconductor systems increasingly repeat
+the same structural pattern:
 
-The **failure structures are not**.
+- 🧩 Device-level limits masked by abstraction layers  
+- 🧠 Reliability pushed into firmware and software  
+- 💼 Physical uncertainty absorbed by business decisions  
 
-Modern systems increasingly repeat the same pattern:
+Only the **scale and vocabulary** have changed.
 
-- Device-level limits are masked by system-level compensation
-- Reliability risks are deferred to firmware or software
-- Physical uncertainty is absorbed into business decisions
-
-Only the **scale, vocabulary, and abstraction layer** have changed.
-
-📌 The underlying causality remains the same.
+📌 The underlying causality has not.
 
 ---
 
 ## 🎯 Scope of This Archive
 
-This archive focuses on the intersection of
-**physics, manufacturability, and decision-making**.
+This archive focuses on the intersection of:
 
 - 🏗 Semiconductor process integration (1990s–early 2000s)
 - 💾 DRAM and pseudo-SRAM memory technologies
 - ⚛️ Physical failure mechanisms  
   (leakage, disturb, retention)
-- 📈 Yield recovery under severe constraints
-- 🧠 Engineering decisions made under business pressure
+- 📈 Yield recovery under extreme constraints
+- 🧠 Engineering decisions under market pressure
 
 It deliberately avoids:
 
-- Proprietary process recipes
-- Confidential design rules
-- Operational know-how applicable to modern fabs
+- 🚫 Proprietary process recipes  
+- 🚫 Confidential design rules  
+- 🚫 Operational know-how applicable to modern fabs  
 
 ---
 
@@ -126,25 +225,25 @@ It deliberately avoids:
 
 Each case is structured as a **causal chain**:
 
-1. **Process / Structure**  
-2. **Observed Failure Mode**  
-3. **Physical Root Cause**  
-4. **Test / Bin Manifestation**  
-5. **Yield Recovery or Strategic Decision**
+1. 🔧 **Process / Structure**  
+2. ⚠️ **Observed Failure Mode**  
+3. 🧪 **Physical Root Cause**  
+4. 🧾 **Test / Bin Manifestation**  
+5. 📊 **Yield Recovery or Strategic Decision**
 
-This order reflects how problems were
-**actually encountered and solved in manufacturing** —
+This order reflects how problems were  
+**actually encountered and solved in manufacturing** —  
 not how they are explained after the fact.
 
 ---
 
 ## 🧱 Positioning
 
-Legacy Technology exists because
+Legacy Technology exists because:
 
 > **Physical reality does not disappear when technology advances.**
 
 It only becomes easier to ignore.
 
-This archive preserves the moments
+This archive preserves the moments  
 when ignoring physics was no longer possible.
