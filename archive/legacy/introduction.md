@@ -56,25 +56,65 @@ It was a **technological flagship**.
 
 ## 🏢 Major Japanese DRAM Manufacturers (1990s)
 
-During this period, the following companies all produced
-**leading-edge DRAM in volume**:
+During the late 1980s through the 1990s,  
+**Japan was the only country where multiple companies simultaneously produced
+leading-edge DRAM in true mass production**.
 
-> This archive is based on
-> first-hand manufacturing experience,
-> contemporaneous industry data,
-> and widely observed market transitions
-> from the 1990s to early 2000s.
+The following manufacturers all operated
+state-of-the-art DRAM development *and* high-volume fabs
+at the same process generations:
 
-Each company maintained its **own DRAM cell structures,  
-process integration philosophy, and reliability criteria**.
+- **:contentReference[oaicite:0]{index=0}**  
+  – Major supplier of 1M–64M DRAM, strong in trench capacitor technology  
+- **:contentReference[oaicite:1]{index=1}**  
+  – Advanced cell integration and early adoption of high-density structures  
+- **:contentReference[oaicite:2]{index=2}**  
+  – Reliability-oriented DRAM design with conservative margin policies  
+- **:contentReference[oaicite:3]{index=3}**  
+  – Process-driven yield optimization and tight parametric control  
+- **:contentReference[oaicite:4]{index=4}**  
+  – Balanced cell design emphasizing long-term retention stability  
 
-This was historically unique:
+All of these companies shipped competitive DRAM products
+at the **0.5 µm, 0.35 µm, and 0.25 µm generations**,
+often within the same calendar years.
+
+---
+
+### Shared Characteristics — and Critical Differences
+
+While competing in the same market,  
+each company maintained its **own independent approach** to:
+
+- DRAM cell structure (trench depth, capacitor geometry, dielectric choice)
+- Process integration strategy
+- Reliability qualification criteria
+- Yield recovery philosophy
+
+There was **no single “Japanese DRAM design”**.
+
+Instead, Japan functioned as a unique ecosystem in which:
 
 👉 Multiple independent teams  
-👉 Solving the *same physical problem*  
-👉 At the leading edge  
-👉 In parallel  
-👉 Within a single country
+👉 Addressed the *same physical constraints*  
+👉 At the *same technology node*  
+👉 Under *real mass-production pressure*  
+👉 In parallel, without shared recipes  
+
+This level of parallel, physically grounded competition
+has not been repeated since.
+
+---
+
+> This archive is based on  
+> first-hand manufacturing experience,  
+> contemporaneous industry data,  
+> and widely observed market transitions  
+> from the 1990s to early 2000s.
+
+The cases documented here reflect how these companies
+**actually encountered, interpreted, and responded to physical limits** —
+not how those limits are later described in simplified histories.
 
 ---
 
